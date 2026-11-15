@@ -36,6 +36,12 @@ export interface NationalTerrain {
   /** Optional regional corrections, e.g. fen/levels drainage or coastal erosion not captured by the height grid. */
   notes: string[];
   sources: string[];
+  /**
+   * Optional derived shading products (scripts/national/build-surface.py), all readings of present-day elevation:
+   * relief = fine slopes and local relief; surface = openness, wetland, sun visibility, natural lakes;
+   * water = distance to and size of water courses traced by flow accumulation. Paths default to /assets/national/.
+   */
+  surface?: { relief?: string; surface?: string; water?: string; lakes?: string[]; note?: string };
 }
 
 export type PlaceKind = "city" | "town" | "port" | "fort" | "hillfort" | "monument" | "monastery" | "cathedral" | "castle" | "palace" | "battle" | "mine" | "other";

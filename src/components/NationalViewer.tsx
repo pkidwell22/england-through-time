@@ -7,13 +7,14 @@ import type { Source } from "@/lib/types";
 import { TimeScale, formatHist, formatT, histToT, parseYearInput } from "@/lib/years";
 import { type LoadReport, loadNational, nationalLoadReport, validYear } from "@/national/data";
 import type { NationalEngine, NationalSelection, NationalState, Quality } from "@/national/engine";
+import { type IconId, iconSvg } from "@/national/icons";
 import type { LineFeature, LineKind, NationalDataset, Place, PlaceKind, Polity } from "@/national/types";
-import { Cartouche, Credits, Fatal, Field, HiddenToast, Notice, ScopeBadge, Toggle, ToolButton, useHotkeys } from "./ui/Chrome";
+import { NatTimeline } from "@/national/ui/NatTimeline";
+import { Credits, Fatal, HiddenToast, Notice, useHotkeys } from "./ui/Chrome";
 import { EvidenceBadges, EvidenceKey } from "./ui/evidence";
 import { Icon } from "./ui/icons";
-import { InfoPanel, NotKnown, PhaseItem, Section, SourceList } from "./ui/Panel";
+import { NotKnown, PhaseItem, Section, SourceList } from "./ui/Panel";
 import { type SiteWindow, formatSpan, landingFor, loadSiteWindow } from "./ui/siteWindow";
-import { Timeline } from "./ui/Timeline";
 
 const KIND_LABEL: Record<PlaceKind, string> = {
   city: "City", town: "Town", port: "Port", fort: "Fort", hillfort: "Hillfort", monument: "Monument", monastery: "Monastery",
@@ -26,9 +27,14 @@ const POLITY_LABEL: Record<Polity["kind"], string> = {
   people: "People", province: "Province", kingdom: "Kingdom", principality: "Principality", earldom: "Earldom", march: "March", realm: "Realm",
 };
 const SIZE_LABEL = ["abandoned, site known", "minor", "small", "middling", "large", "among the largest in Britain"];
-/** Shown in the key; the shapes are drawn by app/national.css to match the marker shader. */
-const KEY_KINDS: PlaceKind[] = ["city", "town", "port", "fort", "hillfort", "castle", "monastery", "cathedral", "palace", "monument", "battle", "mine"];
+/** Shown in the key, drawn from the same symbols as the map (src/national/icons.ts). */
+const KEY_KINDS: PlaceKind[] = ["city", "town", "port", "hillfort", "fort", "castle", "monastery", "cathedral", "palace", "monument", "battle", "mine"];
 const KEY_LINES: LineKind[] = ["roman-road", "road", "frontier-wall", "dyke", "border", "river-route"];
+/** Key strokes, matching LINE_STYLE in the engine: core colour, width, dash. */
+const KEY_STROKE: Record<LineKind, { c: string; w: number; dash?: string }> = {
+  "roman-road": { c: "#9a2f1c", w: 2 }, road: { c: "#5a3b20", w: 1.6, dash: "4 3" }, "frontier-wall": { c: "#231713", w: 3.4 },
+  dyke: { c: "#34421c", w: 2.8, dash: "4 2" }, border: { c: "#5b3c86", w: 1.7, dash: "7 3" }, "river-route": { c: "#245f86", w: 1.8 },
+};
 
 declare global {
   interface Window {
@@ -38,6 +44,13 @@ declare global {
 }
 
 const fmtYear = (y: number | null | undefined, open = "after 1625") => (y == null ? open : validYear(y) ? formatHist(y) : "date not recorded");
+/** Must match NEAR_EXAGGERATION in src/national/engine.ts (kept here so the engine module stays lazily loaded). */
+const NEAR_EXAG = 4;
+const reduced = () => typeof window !== "undefined" && !!window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+
+function Glyph({ id, size = 22, ground }: { id: IconId; size?: number; ground?: string }) {
+  return <b className="glyph" aria-hidden="true" dangerouslySetInnerHTML={{ __html: iconSvg(id, size, ground) }} />;
+}
 
 export interface NationalViewerProps {
   /** Timeline value to open at (takes precedence over ?year=). */
@@ -53,8 +66,7 @@ export interface NationalViewerProps {
 export default function NationalViewer({ initialT, onEnterSite, onReady, unknownSite }: NationalViewerProps) {
   const host = useRef<HTMLDivElement>(null);
   const engineRef = useRef<NationalEngine | null>(null);
-  const enterRef = useRef(onEnterSite);
-  enterRef.current = onEnterSite;
+  const enterRef = useRef<(siteId: string, name?: string, placeId?: string) => void>(() => {});
   const [ds, setDs] = useState<NationalDataset | null>(null);
   const [report, setReport] = useState<LoadReport>({ stubbed: [], problems: [] });
   const [st, setSt] = useState<NationalState | null>(null);
@@ -64,10 +76,50 @@ export default function NationalViewer({ initialT, onEnterSite, onReady, unknown
   const [ui, setUi] = useState(true);
   const [hiddenByKey, setHiddenByKey] = useState(false);
   const [toolsOpen, setToolsOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
   const [exag, setExag] = useState(12);
   const [procedural, setProcedural] = useState(false);
   const [windows, setWindows] = useState<Record<string, SiteWindow>>({});
   const [noticeOpen, setNoticeOpen] = useState(!!unknownSite);
+  const [folded, setFolded] = useState(false);
+  const [diving, setDiving] = useState<{ name: string; year: string } | null>(null);
+  const chromeRef = useRef<HTMLDivElement | null>(null);
+  const [view, setView] = useState<{ heading: number; kmPerPx: number }>({ heading: 0, kmPerPx: 1 });
+
+  // tell the engine where the panels are, so map lettering is not set under them
+  const measure = useCallback(() => {
+    const e = engineRef.current, c = chromeRef.current, h = host.current;
+    if (!e || !h) return;
+    const base = h.getBoundingClientRect();
+    const rects = c ? [...c.querySelectorAll<HTMLElement>(".nat-card, .nt, .nat-tools, .nat-mark, .nat-about-toggle, .nat-key, .nat-about, .nat-instr")]
+      .map((el) => el.getBoundingClientRect()).filter((r) => r.width > 0 && r.height > 0)
+      .map((r) => ({ x0: r.left - base.left - 4, y0: r.top - base.top - 4, x1: r.right - base.left + 4, y1: r.bottom - base.top + 4 })) : [];
+    e.setObstacles(rects);
+  }, []);
+  useEffect(() => {
+    const c = chromeRef.current;
+    measure();
+    if (!c) return;
+    const ro = new ResizeObserver(measure);
+    for (const el of c.children) ro.observe(el);
+    const id = window.setTimeout(measure, 900); // after the entrance animation settles
+    return () => { ro.disconnect(); window.clearTimeout(id); };
+  });
+
+  useEffect(() => {
+    // the period notes start folded on short screens, so the map keeps the room; the reader's choice is remembered
+    let v: string | null = null;
+    try {
+      v = window.localStorage.getItem("nat-era-folded");
+    } catch {
+      /* storage unavailable: keep the default */
+    }
+    setFolded(v != null ? v === "1" : window.innerHeight < 820);
+  }, []);
+  const toggleFold = () => setFolded((v) => {
+    try { window.localStorage.setItem("nat-era-folded", v ? "0" : "1"); } catch { /* ignore */ }
+    return !v;
+  });
 
   useEffect(() => {
     let cancelled = false;
@@ -103,9 +155,8 @@ export default function NationalViewer({ initialT, onEnterSite, onReady, unknown
         setReport(nationalLoadReport());
         engine.onChange(setSt);
         engine.onSelect(setSel);
-        engine.onEnter((siteId) => {
-          if (LOCATION_IDS.includes(siteId)) enterRef.current?.(siteId, engine!.getT(), data.places.find((p) => p.site === siteId)?.name);
-        });
+        engine.onView(setView);
+        engine.onEnter((siteId, place) => enterRef.current(siteId, place.name, place.id));
         const place = params.get("place");
         if (place) {
           engine.selectPlace(place);
@@ -148,6 +199,24 @@ export default function NationalViewer({ initialT, onEnterSite, onReady, unknown
     if (isReady) readyRef.current?.();
   }, [isReady]);
 
+  // The way into a site: a short dive towards it with the destination named, then the shell takes over.
+  const entering = useRef(false);
+  enterRef.current = (siteId: string, name?: string, placeId?: string) => {
+    const e = engineRef.current;
+    if (!e || !onEnterSite || !LOCATION_IDS.includes(siteId) || entering.current) return;
+    entering.current = true;
+    const t = e.getT();
+    const win = windows[siteId];
+    const land = win ? landingFor(win, t) : { t };
+    setDiving({ name: win?.name ?? name ?? "Detailed site", year: formatT(land.t) });
+    const go = () => {
+      entering.current = false;
+      onEnterSite(siteId, t, name);
+    };
+    if (placeId && !reduced()) e.diveInto(placeId).then(go);
+    else go();
+  };
+
   const togglePlay = useCallback(() => {
     const e = engineRef.current;
     if (!e) return;
@@ -158,7 +227,10 @@ export default function NationalViewer({ initialT, onEnterSite, onReady, unknown
   useHotkeys({
     togglePlay,
     toggleUi: () => setUi((v) => { setHiddenByKey(v); return !v; }),
-    escape: () => engineRef.current?.select(null),
+    escape: () => {
+      if (aboutOpen) setAboutOpen(false);
+      else engineRef.current?.select(null);
+    },
   });
 
   if (error) return <Fatal title="The national map could not be opened" message={error} />;
@@ -168,20 +240,18 @@ export default function NationalViewer({ initialT, onEnterSite, onReady, unknown
   const enterable = ds ? ds.places.filter((p) => p.site && LOCATION_IDS.includes(p.site)) : [];
   const sources = (ids: string[] = []) => (ds ? (ids ?? []).map((id) => ds.sources[id]).filter((s): s is Source => !!s) : []);
 
-  const enter = (siteId: string, name?: string) => {
-    if (eng && LOCATION_IDS.includes(siteId)) onEnterSite?.(siteId, eng.getT(), name);
-  };
   const jump = (y: number) => {
     if (validYear(y)) eng?.setT(histToT(y));
   };
   const close = () => eng?.select(null);
   const stubbedData = report.stubbed.filter((f) => !f.startsWith("sources-"));
+  const woodPct = Math.round((eng?.stats().woodland ?? 0) * 100);
 
   const selKey = sel ? sel.type + ":" + (sel.type === "place" ? sel.place.id : sel.type === "line" ? sel.line.id : sel.polity.id) : null;
   const panel = !ds || !era ? null : sel?.type === "place" ? (
     placePanel({
-      place: sel.place, t, sources: sources(sel.place.sources), onYear: jump, onFocus: () => eng?.focusPlace(sel.place.id),
-      canEnter: !!sel.place.site && LOCATION_IDS.includes(sel.place.site) && !!onEnterSite, onEnter: () => sel.place.site && enter(sel.place.site, sel.place.name),
+      place: sel.place, t, sources: sources(sel.place.sources), onYear: jump, onFocus: () => eng?.flyToPlace(sel.place.id, 160),
+      canEnter: !!sel.place.site && LOCATION_IDS.includes(sel.place.site) && !!onEnterSite, onEnter: () => sel.place.site && enterRef.current(sel.place.site, sel.place.name, sel.place.id),
       win: sel.place.site ? windows[sel.place.site] : undefined,
     })
   ) : sel?.type === "line" ? (
@@ -198,14 +268,14 @@ export default function NationalViewer({ initialT, onEnterSite, onReady, unknown
     body: (
       <>
         <p className="lede">{era.blurb}</p>
-        <p className="hint-line">Select a marker, a road or a shaded territory for its dates, evidence and sources. Drag to pan, scroll or pinch to zoom, right-drag to tilt.</p>
+        <p className="hint-line">Select a symbol, a road or a shaded territory for its dates, evidence and sources. Drag to pan, scroll to zoom, right-drag to tilt.</p>
         {enterable.length ? (
-          <Section title="Detailed sites">
+          <Section title="Places you can go into">
             <ul className="nat-sites">
               {enterable.map((p) => (
                 <li key={p.id}>
-                  <button className="site-link" data-testid={`site-link-${p.site}`} onClick={() => { eng?.selectPlace(p.id); eng?.focusPlace(p.id); }}>
-                    <i className="ring" aria-hidden="true" />
+                  <button className="site-link" data-testid={`site-link-${p.site}`} onClick={() => { eng?.selectPlace(p.id); eng?.flyToPlace(p.id, 160); }}>
+                    <i className="beacon" aria-hidden="true" />
                     <span>{p.name}</span>
                     {p.site && windows[p.site] ? <small>{formatSpan(windows[p.site].start, windows[p.site].end)}</small> : null}
                   </button>
@@ -218,67 +288,123 @@ export default function NationalViewer({ initialT, onEnterSite, onReady, unknown
     ),
   };
 
+  const curPhase = sel?.type === "place" ? sel.place.phases.find((ph) => inSpan(ph.from, ph.to, t)) : undefined;
+  const glyphNow: IconId | null = sel?.type === "place" ? (curPhase?.size === 0 ? "gone" : ((curPhase?.kind ?? sel.place.kind) as IconId)) : null;
+
   return (
-    <div className={"app nat" + (ui ? "" : " bare")}>
+    <div className={"app nat" + (ui ? "" : " bare") + (diving ? " is-diving" : "")}>
       <div ref={host} className="stage" data-testid="stage" />
       {!ui ? <HiddenToast show={hiddenByKey} /> : null}
       {!onReady && (!ds || !st) ? <div className="veil on loading"><div className="veil-card"><p className="veil-title">Unrolling the map of England and Wales…</p></div></div> : null}
+      {diving ? (
+        <div className="nat-dive" role="status" aria-live="polite">
+          <p><span>Going into</span><b>{diving.name}</b><em>{diving.year}</em></p>
+        </div>
+      ) : null}
       {ds && st && scale && era && panel && ui ? (
-        <div className="chrome" data-tools={toolsOpen ? "open" : "closed"}>
-          <Cartouche
-            name={ds.site.name} subtitle={ds.site.subtitle} aboutId="nat-about"
-            about={
-              <>
+        <div className="nat-chrome" data-tools={toolsOpen ? "open" : "closed"} ref={chromeRef}>
+          {/* ---- title mark ---- */}
+          <div className="nat-title">
+            <div className="nat-mark">
+              <svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true" className="nat-emblem">
+                <circle cx="20" cy="20" r="18.5" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.55" />
+                <circle cx="20" cy="20" r="14" fill="none" stroke="currentColor" strokeWidth="0.8" strokeDasharray="1.2 2.2" opacity="0.6" />
+                <path d="M20 4.5l3.2 15.5L20 35.5l-3.2-15.5z" fill="currentColor" />
+                <path d="M4.5 20l15.5-2.6L35.5 20 20 22.6z" fill="currentColor" opacity="0.45" />
+                <circle cx="20" cy="20" r="2.2" fill="var(--n-smoke-solid)" stroke="currentColor" strokeWidth="1" />
+              </svg>
+              <div className="nat-name">
+                <h1>{ds.site.name}</h1>
+                <p className="sub">{fmtYear(ds.site.timeline.start)} to {fmtYear(ds.site.timeline.end)}</p>
+              </div>
+            </div>
+            <button className="about-toggle nat-about-toggle" data-testid="about-toggle" onClick={() => setAboutOpen((v) => !v)} aria-expanded={aboutOpen} aria-controls="nat-about">
+              <Icon name="info" size={15} />
+              <span>{aboutOpen ? "Hide the scope note" : "What am I looking at?"}</span>
+            </button>
+            {aboutOpen ? (
+              <div className="nat-about" id="nat-about" data-testid="about" role="region" aria-label="What am I looking at?">
+                <button className="about-close" onClick={() => setAboutOpen(false)} aria-label="Close the scope note"><Icon name="close" size={16} /></button>
+                <p className="nat-about-lede">{ds.site.subtitle}</p>
                 <p>{ds.site.scopeNote}</p>
+                <h3>The land and the water</h3>
                 <p>
-                  The relief is today&rsquo;s land surface and sea floor, drawn {exag}&times; taller than true scale so that hills read at this
-                  distance. The coastline is where the sea of the chosen year, lowered or raised on that present-day surface, is joined to open
-                  water. It cannot show land since built up, silted, drained or washed away: fens, levels and estuaries are indicative, tinted as
-                  marsh rather than mapped. The sea-level curve is for southern Britain and should not be trusted north of about 53.5&deg; N.
+                  The relief is today&rsquo;s land surface and sea floor (Copernicus GLO-90 and GEBCO), drawn {exag}&times; taller than true scale when
+                  the whole map is in view and less as you come closer (down to {NEAR_EXAG}&times;), lit by a fixed low sun from the north-west, with soft shadows and sky light computed from the same elevation. Slopes are shaded
+                  from a 150 m version of the data; the finer grain you see close up is generic texture, not survey.
                 </p>
                 <p>
-                  Land colour follows a single national estimate of woodland cover ({Math.round((eng?.stats().woodland ?? 0) * 100)}% in this year): darker
-                  green when more wooded, paler when more open. It is a trend, not a map of where the trees stood. {ds.site.woodland.note}
+                  The coastline is where the sea of the chosen year, raised or lowered on that present-day surface, is joined to open water. It cannot
+                  show land since built up, silted, drained or washed away. The sea-level curve is for southern Britain and should not be trusted north
+                  of about 53.5&deg; N. Tidal flats show ground within a couple of metres below that sea level.
                 </p>
                 <p>
-                  Markers are sized by how large a place was at the time and shaped by what it was; a faint ring marks a site that is abandoned but
-                  known. Shaded extents of kingdoms and peoples are indicative only: borders were rarely lines. Roads and walls linger as a ghost
-                  after they pass out of formal use.
+                  Rivers are traced from the elevation by where water would flow today, so their lines are approximate and their widths indicative.
+                  They are not drawn across the fens and levels, which are shown as wetland for the whole period because the terrain notes say they
+                  were wet until drainage after 1625; there, today&rsquo;s drains are artificial cuts. Only natural lakes are drawn: the elevation
+                  cannot tell modern reservoirs from lakes, so reservoirs are left out on purpose.
+                </p>
+                <h3>Woods, fields and fen</h3>
+                <p>
+                  Woodland follows one national estimate of cover for the year ({woodPct}% now). Where the woods stand is a generic pattern on
+                  ground where trees can grow, not a map of real woods. {ds.site.woodland.note} The field patchwork that grows as the woods fall,
+                  the fen carr of the early millennia and the meres in the wetland are also generic.
+                </p>
+                <h3>Symbols and territories</h3>
+                <p>
+                  Symbols show what a place was in this year and grow with its size at the time; a broken ring marks a site that is abandoned but known,
+                  and a slow gold beacon marks a place you can go into. Where symbols crowd, the less important shrink to a dot until you come closer.
+                  Shaded extents of kingdoms and peoples are indicative only: borders were rarely lines. Roads and walls linger as a ghost after they
+                  pass out of formal use.
                 </p>
                 <h3>How sure each thing is</h3>
                 <EvidenceKey />
                 <Credits />
-              </>
-            }
-          />
+              </div>
+            ) : null}
+          </div>
 
-          <ScopeBadge kind="national" text="National map" note={enterable.length ? "Places with a gold ring open as detailed sites" : undefined} />
-
-          <button className="tools-toggle tbtn" onClick={() => setToolsOpen((v) => !v)} aria-expanded={toolsOpen} aria-controls="nat-tools">
+          {/* ---- one control cluster ---- */}
+          <button className="nat-tools-toggle" onClick={() => setToolsOpen((v) => !v)} aria-expanded={toolsOpen} aria-controls="nat-tools">
             <Icon name="sliders" size={17} />
-            <span>Controls</span>
+            <span>Map controls</span>
           </button>
-          <div className="tools" id="nat-tools">
-            <div className="tool-row">
-              <ToolButton icon="reset" label="Reset view" testId="reset-view" onClick={() => eng?.resetView()} />
+          <div className="nat-tools" id="nat-tools" role="toolbar" aria-label="Map controls">
+            <div className="nat-seg" role="group" aria-label="Layers">
+              <button className={"nat-sw" + (st.labels ? " on" : "")} aria-pressed={st.labels} onClick={() => eng?.setLabels(!st.labels)} data-testid="labels-toggle" title="Place names">
+                <Icon name="labels" size={16} /><span>Names</span>
+              </button>
+              <button className={"nat-sw" + (st.polities ? " on" : "")} aria-pressed={st.polities} onClick={() => eng?.setPolities(!st.polities)} data-testid="polities-toggle" title="Kingdoms and peoples">
+                <Icon name="kingdoms" size={16} /><span>Territories</span>
+              </button>
+              <button className={"nat-sw" + (st.evidence ? " on" : "")} aria-pressed={st.evidence} onClick={() => eng?.setEvidence(!st.evidence)} data-testid="evidence-toggle" title="Colour symbols and lines by how well they are evidenced">
+                <Icon name="evidence" size={16} /><span>Evidence</span>
+              </button>
             </div>
-            <div className="tool-row quiet">
-              <Field label="Quality" className="compact">
-                <select data-testid="quality-select" value={st.quality} onChange={(e) => eng?.setQuality(e.target.value as Quality)}>
-                  <option value="low">Low (fast)</option>
-                  <option value="medium">Medium</option>
-                  <option value="high">High</option>
-                </select>
-              </Field>
-              <span className="fps" data-testid="fps" title="Frames per second">{st.fps} fps</span>
-            </div>
+            <span className="nat-div" aria-hidden="true" />
+            <button data-testid="key-toggle" className={"nat-sw" + (showKey ? " on" : "")} onClick={() => setShowKey((v) => !v)} aria-expanded={showKey} aria-pressed={showKey} title="Map key">
+              <Icon name="key" size={16} /><span>Key</span>
+            </button>
+            <button className="nat-icon-btn" data-testid="reset-view" onClick={() => eng?.flyHome()} aria-label="Reset view" title="Back to the whole map">
+              <Icon name="reset" size={17} />
+            </button>
+            <span className="nat-div" aria-hidden="true" />
+            <label className="nat-quality" title="Drawing quality">
+              <span className="sr-only">Quality</span>
+              <select data-testid="quality-select" value={st.quality} onChange={(e) => eng?.setQuality(e.target.value as Quality)} aria-label="Quality">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+              </select>
+            </label>
+            <span className="nat-fps" data-testid="fps" title="Frames per second">{st.fps} fps</span>
           </div>
 
           {stubbedData.length || procedural || (unknownSite && noticeOpen) ? (
-            <div className="notices">
+            <div className="notices nat-notices">
               {unknownSite && noticeOpen ? (
                 <Notice tone="info" onDismiss={() => setNoticeOpen(false)}>
-                  There is no detailed site called &ldquo;{unknownSite}&rdquo;. This is the national map; ringed places open the sites that exist.
+                  There is no detailed site called &ldquo;{unknownSite}&rdquo;. This is the national map; places with a gold beacon open the sites that exist.
                 </Notice>
               ) : null}
               {stubbedData.length || procedural ? (
@@ -290,59 +416,108 @@ export default function NationalViewer({ initialT, onEnterSite, onReady, unknown
             </div>
           ) : null}
 
-          <div className="corner">
-            {st.evidence || showKey ? (
-              <div className="legend nat-key" data-testid="key" aria-label="Map key">
-                {st.evidence ? (
-                  <>
-                    <p className="legend-h">Evidence tint</p>
-                    <EvidenceKey />
-                  </>
-                ) : null}
-                {showKey ? (
-                  <>
-                    <p className="legend-h">Places</p>
+          {/* ---- key and map instruments, bottom left ---- */}
+          <div className="nat-corner">
+          {st.evidence || showKey ? (
+            <div className="nat-key" data-testid="key" aria-label="Map key" role="region">
+              {showKey ? (
+                <button className="nat-key-close" onClick={() => setShowKey(false)} aria-label="Close the key"><Icon name="close" size={15} /></button>
+              ) : null}
+              {st.evidence ? (
+                <section className="nat-key-sec">
+                  <h3>Evidence tint</h3>
+                  <EvidenceKey compact={showKey} />
+                </section>
+              ) : null}
+              {showKey ? (
+                <>
+                  <section className="nat-key-sec">
+                    <h3>Places</h3>
                     <div className="nat-key-grid">
                       {KEY_KINDS.map((k) => (
-                        <span key={k}><b className={"glyph g-" + k} /> {KIND_LABEL[k]}</span>
+                        <span key={k}><Glyph id={k} /><span>{KIND_LABEL[k]}</span></span>
                       ))}
-                      <span><b className="glyph g-gone" /> Abandoned site</span>
-                      <span><b className="glyph g-site" /> Site you can enter</span>
+                      <span><Glyph id="gone" /><span>Abandoned site</span></span>
+                      <span><b className="glyph beacon-glyph" aria-hidden="true" dangerouslySetInnerHTML={{ __html: iconSvg("town", 14) }} /><span>Place you can go into</span></span>
                     </div>
-                    <p className="legend-h">Lines</p>
+                  </section>
+                  <section className="nat-key-sec">
+                    <h3>Lines</h3>
                     <div className="nat-key-grid lines">
                       {KEY_LINES.map((k) => (
-                        <span key={k}><b className={"stroke l-" + k} /> {LINE_LABEL[k]}</span>
+                        <span key={k}>
+                          <svg className="stroke" viewBox="0 0 30 10" width="30" height="10" aria-hidden="true">
+                            <path d="M1 5h28" stroke="#f3ead6" strokeOpacity="0.55" strokeWidth={KEY_STROKE[k].w + 2.4} strokeLinecap="round" />
+                            <path d="M1 5h28" stroke={KEY_STROKE[k].c} strokeWidth={KEY_STROKE[k].w} strokeDasharray={KEY_STROKE[k].dash} />
+                          </svg>
+                          <span>{LINE_LABEL[k]}</span>
+                        </span>
                       ))}
                     </div>
-                    <p className="legend-foot">A bigger marker means a bigger place at the time. Relief is drawn {exag}× taller than true scale.</p>
-                  </>
-                ) : null}
-              </div>
-            ) : null}
-            <div className="layers" role="group" aria-label="Map layers">
-              <Toggle icon="labels" label="Labels" on={st.labels} onChange={(v) => eng?.setLabels(v)} testId="labels-toggle" />
-              <Toggle icon="kingdoms" label="Kingdoms & peoples" on={st.polities} onChange={(v) => eng?.setPolities(v)} testId="polities-toggle" />
-              <Toggle icon="evidence" label="Evidence tint" on={st.evidence} onChange={(v) => eng?.setEvidence(v)} testId="evidence-toggle" />
-              <button data-testid="key-toggle" className={"chip" + (showKey ? " on" : "")} onClick={() => setShowKey((v) => !v)} aria-expanded={showKey} aria-pressed={showKey}>
-                <Icon name="key" size={16} />
-                <span>Key</span>
-              </button>
+                  </section>
+                  <p className="legend-foot">A bigger symbol means a bigger place at the time. Relief is drawn up to {exag}&times; taller than true scale.</p>
+                </>
+              ) : null}
             </div>
+          ) : null}
+            <MapInstruments heading={view.heading} kmPerPx={view.kmPerPx} onNorth={() => eng?.faceNorth()} />
           </div>
 
-          <InfoPanel head={panel.head} onClose={sel ? close : undefined} selKey={selKey}>
-            {panel.body}
-          </InfoPanel>
+          {/* ---- the card ---- */}
+          <aside
+            className={"nat-card" + (sel ? " has-sel" : "") + (!sel && folded ? " folded" : "")} data-testid="info-panel"
+            aria-label={selKey ? "Details of the selection" : "About this period"}
+          >
+            <div className="nat-card-head">
+              {sel ? (
+                <button className="close" onClick={close} aria-label="Close details" title="Close (Esc)"><Icon name="close" size={18} /></button>
+              ) : (
+                <button className="nat-fold" onClick={toggleFold} aria-expanded={!folded} aria-label={folded ? "Show the period notes" : "Fold the period notes away"} title={folded ? "Show" : "Fold"}>
+                  <Icon name="chevronUp" size={18} />
+                </button>
+              )}
+              {glyphNow ? <span className="nat-card-glyph"><Glyph id={glyphNow} size={30} /></span> : null}
+              <div className="swap" key={selKey ?? era.id}>{panel.head}</div>
+            </div>
+            <div className="nat-card-body swap" key={(selKey ?? era.id) + "-b"} tabIndex={0} role="region" aria-label="Details">
+              {panel.body}
+            </div>
+          </aside>
 
-          <Timeline
+          <NatTimeline
             t={t} scale={scale} eras={eras} events={events} era={era}
             startLabel={fmtYear(ds.site.timeline.start)} endLabel={fmtYear(ds.site.timeline.end)}
             playing={st.playing} direction={st.direction} speed={st.speed} rate={st.rate}
-            onSetT={(v) => eng?.setT(v)} onPlay={(d) => eng?.play(d)} onToggle={togglePlay} onSpeed={(s, r) => eng?.setSpeed(s, r)}
+            onSetT={(v) => eng?.setT(v)} onJump={(v) => eng?.glideT(v)} onPlay={(d) => eng?.play(d)} onToggle={togglePlay} onSpeed={(s, r) => eng?.setSpeed(s, r)}
           />
         </div>
       ) : null}
+    </div>
+  );
+}
+
+/** A compass that turns with the view (press it to face north) and a scale bar for the centre of the view. */
+function MapInstruments({ heading, kmPerPx, onNorth }: { heading: number; kmPerPx: number; onNorth: () => void }) {
+  const steps = [1, 2, 5, 10, 20, 25, 50, 100, 150, 200, 250];
+  let km = steps[0];
+  for (const s of steps) if (s / kmPerPx <= 150) km = s;
+  const px = Math.max(24, Math.min(170, km / kmPerPx));
+  const deg = (-heading * 180) / Math.PI;
+  const off = Math.abs(((deg + 540) % 360) - 180) > 2;
+  return (
+    <div className="nat-instr" aria-label="Map scale and direction">
+      <button className={"nat-compass" + (off ? " off" : "")} onClick={onNorth} aria-label="Face north" title={off ? "Face north" : "North is up"}>
+        <svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true" style={{ transform: `rotate(${deg.toFixed(1)}deg)` }}>
+          <circle cx="20" cy="20" r="15.5" fill="none" stroke="currentColor" strokeOpacity="0.35" />
+          <path d="M20 5.5l4 14.5h-8z" fill="#e7b552" />
+          <path d="M20 34.5l4-14.5h-8z" fill="currentColor" fillOpacity="0.55" />
+          <text x="20" y="4.6" textAnchor="middle" fontSize="6.5" fill="currentColor" fontFamily="var(--sans)" fontWeight="600">N</text>
+        </svg>
+      </button>
+      <div className="nat-scale" title="Scale at the centre of the view">
+        <div className="nat-scale-bar" style={{ width: `${px.toFixed(0)}px` }}><i /><i /></div>
+        <span>{km} km</span>
+      </div>
     </div>
   );
 }
@@ -389,7 +564,7 @@ function placePanel({ place, t, sources, onYear, onFocus, canEnter, onEnter, win
         {place.altNames?.length ? (
           <Section title="Names">
             <ul className="facts names">
-              {place.altNames.map((a) => (<li key={a.name + a.from}><span className="nm">{a.name}</span> <span className="yrs">{fmtYear(a.from)} → {fmtYear(a.to)}</span></li>))}
+              {place.altNames.map((a) => (<li key={a.name + a.from}><span className="nm">{a.name}</span> <span className="yrs">{fmtYear(a.from)} to {fmtYear(a.to)}</span></li>))}
             </ul>
           </Section>
         ) : null}
@@ -399,7 +574,7 @@ function placePanel({ place, t, sources, onYear, onFocus, canEnter, onEnter, win
               const active = inSpan(p.from, p.to, t);
               return (
                 <PhaseItem
-                  key={i} testId={`phase-${i}`} on={active} years={`${fmtYear(p.from)} → ${fmtYear(p.to)}`} label={p.label} note={p.note}
+                  key={i} testId={`phase-${i}`} on={active} years={`${fmtYear(p.from)} to ${fmtYear(p.to)}`} label={p.label} note={p.note}
                   state={active ? (p.size === 0 ? "abandoned" : "now") : null} onJump={() => onYear(p.from)}
                 />
               );
@@ -417,7 +592,7 @@ function SpanRow({ from, to, t, label, onYear }: { from: number; to: number | nu
   const active = inSpan(from, to, t);
   return (
     <ol className="phases">
-      <PhaseItem on={active} years={`${fmtYear(from)} → ${fmtYear(to)}`} label={label} state={active ? "now" : null} onJump={() => onYear(from)} />
+      <PhaseItem on={active} years={`${fmtYear(from)} to ${fmtYear(to)}`} label={label} state={active ? "now" : null} onJump={() => onYear(from)} />
     </ol>
   );
 }

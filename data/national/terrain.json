@@ -49,5 +49,25 @@
     "ter-wiki-holderness",
     "ter-wiki-ravenser-odd",
     "ter-wiki-dunwich"
-  ]
+  ],
+  "surface": {
+    "relief": "/assets/national/relief.jpg",
+    "surface": "/assets/national/surface.png",
+    "water": "/assets/national/water.png",
+    "lakes": [
+      "Windermere",
+      "Ullswater",
+      "Coniston Water",
+      "Derwentwater",
+      "Bassenthwaite Lake",
+      "Wast Water",
+      "Crummock Water",
+      "Buttermere",
+      "Ennerdale Water",
+      "Llyn Tegid (Bala Lake)",
+      "Llangorse Lake",
+      "Hornsea Mere"
+    ],
+    "note": "Derived from the same Copernicus GLO-90 and GEBCO data by scripts/national/build-surface.py, for shading only: slopes and local relief at about 150 x 240 m; openness (sky view); a wetland mask (ground under 6 m and flat, in patches over about 9 sq km: the fens, levels and mosses described above); soft cast shadows for a fixed low sun from the north-west; water courses traced by flow accumulation on today's surface (catchments over 120 sq km; not drawn inside the wetland, where today's drains are artificial cuts, many later than 1625); and natural lakes grown from a short named list. Reservoirs and dam-enlarged lakes (Kielder, Rutland Water, Vyrnwy, Elan, Haweswater, Thirlmere) are deliberately left out. None of this is historical data."
+  }
 }
