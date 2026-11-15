@@ -57,3 +57,9 @@ Scanned materials, skies and models are CC0 from Poly Haven. `python3 scripts/fe
 Stonehenge, Barnet and upland Brentford uses Environment Agency LIDAR (Open Government Licence
 v3.0); masks use OpenStreetMap data (ODbL). Credit lines are in [docs/ASSETS.md](docs/ASSETS.md)
 and `docs/RECORD.md`.
+
+## Licence
+
+The code is released under the MIT licence (see `LICENSE`). Third-party assets and data keep their own licences and
+credits, listed in `docs/ASSETS.md` and `docs/SOURCES.md`: Poly Haven models and textures (CC0), Environment Agency
+LIDAR (Open Government Licence), and OpenStreetMap data (ODbL).
