@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "London Through Time",
+  title: "England Through Time",
   description: "An explorable 3D timelapse of England and Wales, 4000 BCE – 1625 CE, with detailed sites to descend into.",
 };
 

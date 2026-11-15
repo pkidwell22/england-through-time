@@ -1,4 +1,4 @@
-# London Through Time
+# England Through Time
 
 An explorable 3D timelapse of the London/Thames area from 4000 BCE to 1625 CE: one place
 within the land that became England, not a model of the whole country. Since the first

@@ -1,5 +1,5 @@
 -- =============================================================================
--- London Through Time: history.sqlite schema
+-- England Through Time: history.sqlite schema
 --
 -- GENERATED, READ-ONLY MIRROR of the JSON under data/. The JSON is the source
 -- of truth. Rebuild with:  python3 scripts/db/build.py

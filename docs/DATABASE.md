@@ -1,6 +1,6 @@
 # The history database
 
-All the facts, dates and sources in London Through Time are available as a SQLite database:
+All the facts, dates and sources in England Through Time are available as a SQLite database:
 
 - `data/db/history.sqlite` is **generated and read-only**. It mirrors the JSON under `data/`.
 - `data/db/history.sql` is the same thing as a plain-text SQL dump (diffable, loadable without SQLite tooling).
