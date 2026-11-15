@@ -12,3 +12,16 @@ research/raw-terrain/
 research/raw-gazetteer/
 .DS_Store
 .env*
+
+# figure pipeline intermediates (scripts/build-figures.mjs)
+research/figures-work/
+
+# not for publication: run logs and fetched copies of third-party pages
+*.log
+research/astra/factkeeper-evidence/
+research/astra/evidence/
+research/astra/.deps/
+research/astra/.cache/
+research/astra/LAST-MESSAGE-factkeeper.md
+research/stonehenge/geo-work/fp.txt
+research/stonehenge/stones-check/stonesofstonehenge-posts.txt
