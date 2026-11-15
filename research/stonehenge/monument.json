@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "note": "Years are signed integers (-2500 = 2500 BCE). All BCE dates are calibrated. 'modelled' = recommended single year for the engine. Claims marked snippet-only were seen only in web-search result summaries (page not fetched) and carry an empty or secondary source list; see monument.md access notes. Stage ranges from Table 3 of Darvill et al. 2012 are the 'headline' ranges; the narrative-text ranges (start/end of first and last dated events, 95%) are in dateNote.",
+    "stageSourceSeen": "Darvill et al. 2012 PDF (text extracted locally) and EH Research Report 1-2012 (text extracted locally)"
+  },
+  "stages": [
+    {
+      "id": "meso",
+      "name": "Mesolithic posts (car park)",
+      "from": -8500, "to": -7000,
+      "dateNote": "EH timeline: 8500-7000 BC, four or five pits, three possibly holding pine posts; found 1966-67. Charcoal dates quoted in EH RR 1/2012 appendix fragments run c. 8800-7600 cal BC (partial read). Link to the later monument unknown. Before the timeline start (-4000).",
+      "built": ["four or five pits, three possibly pine post-holes, c. 250 m WNW of the later monument"],
+      "evidence": "attested-excavated", "confidence": "medium",
+      "sources": ["sto-eh-history", "sto-eh-research", "sto-marshall-2012-eh-chronology"]
+    },
+    {
+      "id": "stage1",
+      "name": "Stage 1: earthwork enclosure, Aubrey Holes, cremations, timber settings",
+      "from": -3000, "to": -2620,
+      "dateNote": "Darvill et al. 2012 Table 3: 3000-2620 cal BC. Narrative text: stage runs 3100-2920 to 2965-2755 cal BC (95%). Ditch construction completed 2990-2755 cal BC (95%), probably 2955-2830 (68%). Modelled midpoint for ditch/bank: -2900. Aubrey Hole cremation burial (SUERC-30410) has 98% probability of being earlier than the ditch, so Aubrey Holes may predate it.",
+      "built": ["ditch and inner bank, outer (counterscarp) bank, c. 110 m overall", "NE main entrance, smaller S entrance", "56 Aubrey Holes", "cremations in Aubrey Holes, ditch, bank", "timber posts and simple rectangular structures in interior, S passageway, post-built structure (50+ posts) in NE entrance (tentative)", "stones in stoneholes 97, B, C outside/in NE entrance (tentative, presumed sarsen)"],
+      "evidence": "attested-excavated", "confidence": "high for enclosure and Aubrey Holes, low for timber structures and early stones",
+      "sources": ["sto-darvill-2012-remodelled", "sto-marshall-2012-eh-chronology"]
+    },
+    {
+      "id": "stage2",
+      "name": "Stage 2: trilithons, double bluestone circle, sarsen circle, Altar Stone, Station Stones, entrance stones",
+      "from": -2620, "to": -2480,
+      "dateNote": "Table 3: 2620-2480 cal BC. Narrative text: starts 2760-2510, ends 2470-2300 (95%). Sarsen circle 2580-2475 cal BC (95%; single antler UB-3821 in socket of stone 1; EH RR model 3). Trilithons 2585-2400 (93%; single antler OxA-4840 in socket 53/54). Stonehole E 2470-2275 (90%). Order inside the stage uncertain: sarsen circle after trilithons on practical grounds; two scenarios (bluestone circle first, sarsens decades/centuries later, or all in quick succession). Modelled: trilithons -2540, sarsen circle -2530 (both inside the 2620-2480 window).",
+      "built": ["five sarsen trilithons (horseshoe open NE)", "double bluestone circle (Q and R holes, 50-80 bluestones)", "sarsen circle: 30 uprights + 30 lintels, outer diameter c. 29.6 m", "Altar Stone placed (tentative)", "Station Stones 91-94", "south barrow over stone 92, D-shaped chalk floor; north barrow with stone 94", "stones B, C removed; Slaughter Stone 95 with D and E raised in NE entrance", "Heel Stone 96 added to 97, or 97 moved to 96 (two scenarios)"],
+      "evidence": "attested-excavated", "confidence": "medium",
+      "sources": ["sto-darvill-2012-remodelled", "sto-marshall-2012-eh-chronology"]
+    },
+    {
+      "id": "stage3",
+      "name": "Stage 3: central bluestone circle, ditch recut, Avenue, Beaker burial",
+      "from": -2480, "to": -2280,
+      "dateNote": "Table 3: 2480-2280 cal BC. Narrative: starts 2405-2225, ends 2300-2100 (95%). Ditch recut terminus post quem 2450-2230. Avenue ditch first built 2430-2200 (95%); modelled -2315. Pit WA2448 beside stone 56 dug 2410-2005. Beaker archer burial in ditch 2340-2195. Bluestonehenge (West Amesbury) dismantled and perhaps its c. 25 stones moved in.",
+      "built": ["central bluestone circle (arc of five stoneholes) inside trilithons", "ditch re-cut, counterscarp bank possibly from the spoil", "stones D and E removed", "Avenue from NE entrance to the Avon, c. 2.5 km", "large pit dug against Great Trilithon (WA2448)", "Beaker-style inhumation burial in ditch (NW)"],
+      "evidence": "attested-excavated", "confidence": "medium",
+      "sources": ["sto-darvill-2012-remodelled", "sto-marshall-2012-eh-chronology"]
+    },
+    {
+      "id": "stage4",
+      "name": "Stage 4: bluestone oval and outer bluestone circle",
+      "from": -2280, "to": -2020,
+      "dateNote": "Table 3: 2280-2020 cal BC. Narrative: starts 2210-2030, ends 2160-1925 (95%). Bluestone circle complete 2275-2030 (95%), 68% 2205-2125 or 2090-2045; bluestone oval/horseshoe 2205-1920 (95%). Modelled: -2165 circle, -2060 oval.",
+      "built": ["Q/R double circle and central circle dismantled", "bluestone oval, c. 24-25 stones, inside trilithons", "outer bluestone circle, 40-60 stones, between trilithons and sarsen circle"],
+      "evidence": "attested-excavated", "confidence": "medium",
+      "sources": ["sto-darvill-2012-remodelled", "sto-marshall-2012-eh-chronology"]
+    },
+    {
+      "id": "stage5",
+      "name": "Stage 5: continued use, rock art, Y and Z holes",
+      "from": -2020, "to": -1520,
+      "dateNote": "Table 3: 2020-1520 cal BC. Narrative: starts 2010-1745, ends 1620-1450 (95%). Z Holes 2020-1745 (95%) in the EH model; Y Holes 1630-1525 (95%), 68% 1620-1555; end of stone settings 1630-1340 (95%) (EH RR Table 10). Carvings c. 1750-1500 BCE on Wessex II typology. Modelled Y/Z digging: -1590 (Y), -1850 (Z, wide). EH web timeline gives Y/Z as c. 1800-1500 BCE.",
+      "built": ["Y holes and Z holes (two rings of pits outside sarsen circle), possibly never held stones", "axe and dagger carvings on sarsens", "bluestone working floor outside the earthwork on NW side", "bluestone horseshoe from oval (Atkinson: this period; Darvill: Roman-period removal of seven stones is 'highly likely')"],
+      "evidence": "attested-excavated", "confidence": "medium",
+      "sources": ["sto-darvill-2012-remodelled", "sto-marshall-2012-eh-chronology", "sto-eh-history"]
+    }
+  ],
+  "features": [
+    {
+      "id": "ditch-bank",
+      "name": "Enclosure ditch, inner bank, counterscarp bank",
+      "dates": { "from": -3000, "to": null, "modelled": -2900 },
+      "dimensions": { "overallDiameterM": 110, "ditchWidthM": null, "ditchDepthM": null, "bankWidthM": null, "bankHeightM": null, "ditchTodayNote": "Eastern ditch looks deeper because it was excavated in the 1920s; outer bank largely ploughed away (EH)", "avenueCorridorWidthM": 12 },
+      "counts": { "entrances": 2 },
+      "evidence": "attested-excavated", "confidence": "high for diameter, none for ditch/bank profile",
+      "attested": ["circular bank + external ditch, c. 110 m overall", "inner bank and smaller outer bank (EH)", "main entrance NE, smaller S", "ditch cut with antler picks; ditch re-cut in Stage 3 (terminus post quem 2450-2230)", "ditch fully silted/filled long before 1625; low earthworks survive"],
+      "inferred": ["counterscarp bank made from re-cut spoil (Darvill et al. suggestion)", "ditch segments dug in sections is NOT confirmed in sources I read"],
+      "unknown": ["ditch width and depth, bank width and height (original and present) not obtained from any fetched source; snippet-only hint: ditch c. 1.2-2.3 m deep, max 4.3 m wide, bank 5-6 m wide, from a British Academy PDF that I could not read (site not confirmed)", "entrance widths (NE 'wide', S 'smaller')", "whether the ditch was dug segmentally"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-eh-description", "sto-eh-history"]
+    },
+    {
+      "id": "aubrey-holes",
+      "name": "Aubrey Holes",
+      "dates": { "from": -3000, "to": -2600, "modelled": -2950 },
+      "dimensions": { "ringCircumferenceM": 271.6, "ringDiameterM": 86.5, "ringDiameterNote": "diameter derived from circumference (271.6/pi); Wikipedia states circumference only, 'about 5 m inside the bank'", "holeDiameterM": 1.06, "holeDepthM": 0.76, "holeNote": "mean of excavated holes, Wikipedia (Aubrey holes page, dated)" },
+      "counts": { "holes": 56, "excavatedApprox": 34, "cremationsInHolesAprox": 25 },
+      "evidence": "attested-excavated", "confidence": "high for count and ring, medium for date, low for function",
+      "attested": ["56 chalk pits in a ring just inside the bank", "cremations inserted in upper fills", "cremation by AH7 predates ditch with 98% probability; cremation in AH32 probably earlier than ditch (86%)"],
+      "inferred": ["Parker Pearson (2008 re-excavation of AH7; reasserted in 2022 reply to Darvill): held bluestones, so earliest stone setting c. 3000 BCE", "Darvill: held timber posts and/or stones"],
+      "unknown": ["whether bluestones stood in them (contested)", "which of 56 held what and when"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-wiki-aubrey-holes", "sto-marshall-2012-eh-chronology"]
+    },
+    {
+      "id": "cremations",
+      "name": "Cremation burials",
+      "dates": { "from": -3000, "to": -2400, "modelled": -2800 },
+      "dimensions": {},
+      "counts": { "individualsRecoveredHawleyReburiedAH7": 63, "estimatedOriginalTotalLow": 150, "estimatedOriginalTotalHigh": 240, "Darvill2012ProjectedOriginal": "in excess of 150", "otherDepositsInDitchEtc": 64 },
+      "evidence": "attested-excavated", "confidence": "medium",
+      "attested": ["Darvill 2012: 64 further deposits, many in the ditch, stages 1-3", "Darvill: deposited through to c. 2400 cal BC, probably ceasing in Stage 3", "2008 AH7 re-excavation: remains of 50+ people, buried c. 3000-2800 BC (EH research page)", "2013 analysis: 63 individuals, over 50,000 fragments (Wikipedia)"],
+      "inferred": ["Willis et al. 2016 (snippet-only, PDF 403): remains span c. 3100-2600 cal BCE, used for ~5 centuries across the first two stages; total 150-240 'informed guesswork'; AH32 cremation 3030-2880 cal BC"],
+      "unknown": ["exact original total", "exact end date"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-eh-research", "sto-wiki-stonehenge", "sto-marshall-2012-eh-chronology"]
+    },
+    {
+      "id": "stage1-timber",
+      "name": "Interior timber settings and NE entrance structure (tentative)",
+      "dates": { "from": -3000, "to": -2620, "modelled": -2800 },
+      "dimensions": { "NEEntranceStructure": "rectangular, 50+ posts", "lineOfFourPostholesSpacingM": 2, "lineOfFourPostholesOutNEM": 20 },
+      "counts": {},
+      "evidence": "attested-excavated", "confidence": "low",
+      "attested": ["groups of postholes in the centre suggest separate rectangular structures", "S passageway with facade of posts", "NE entrance structure of more than 50 posts truncated by later ditch alteration", "terminus post quem 2580-2450 cal BC for infilling of posthole 1884 only"],
+      "inferred": ["Darvill's assignment of five post groups to Stage 1", "Parker Pearson (2009): D-shaped floor around stone 92 over Aubrey Holes 17-18, a non-domestic building"],
+      "unknown": ["pre-antiquarian destruction; full plan; contemporaneity; roofs, heights"],
+      "sources": ["sto-darvill-2012-remodelled"]
+    },
+    {
+      "id": "sarsen-circle",
+      "name": "Sarsen circle (uprights 1-30, lintels 101-130)",
+      "dates": { "from": -2580, "to": null, "modelled": -2530 },
+      "dimensions": { "outerDiameterM": 29.6, "outerDiameterNote": "Darvill 2012 'c. 29.6 m'; EH quotes 30 m; Wikipedia 30 m; one secondary snippet 33 m (rejected, unsourced)", "innerDiameterM": null, "uprightHeightAboveGroundM": 4.1, "uprightWidthM": 2.1, "uprightThicknessM": 1.1, "uprightWeightT": 25, "uprightNote": "Wikipedia: ~4.11 m high, 2.13 m wide, 1.06 m thick, ~25-26 t; tops levelled to a level lintel ring across sloping ground", "lintelLengthM": 3.2, "lintelWidthM": 1.0, "lintelThicknessM": 0.8, "lintelNote": "Wikipedia: about 3.2 m x 1 m x 0.8 m; curved (follow ring) is NOT confirmed in my fetched text", "topOfLintelsAboveGroundM": 4.9, "topOfLintelsNote": "Wikipedia 4.9 m; EH says ring would be 'suspended 4 m above the ground' (probably to the underside of the lintels)", "gapStones1and30": "slightly larger (Darvill)", "stone11": "narrower and shorter than the others (Darvill)" },
+      "counts": { "originalUprights": 30, "originalLintels": 30, "lintelsInPlaceTodayEH": 6, "uprightsMissingSWDarvill": 5, "missingUprightNumbers": [13, 17, 18, 20, 24], "lintelsMissingDarvill": 24 },
+      "evidence": "attested-standing", "confidence": "high for design, medium for date, low for completeness",
+      "attested": ["30 uprights and 30 lintels is the standard reconstruction", "all visible pillars and lintels dressed, dressing done outside the earthwork to the N (Darvill)", "sarsen source West Woods ~25 km (EH research page says 25 km / 15 miles; EH stones page says 'Marlborough Downs, 19 miles')", "mortise-and-tenon and tongue-and-groove joinery attested (Darvill refers to timber-building techniques; detail of joints not itemised in fetched pages)"],
+      "inferred": ["that the circle was once complete (disputed, see completenessDebate)", "that uprights 13 and 20 were robbed in historic times because their sockets are recorded (Darvill)"],
+      "unknown": ["inner diameter not in any fetched source", "which stones were fallen or broken in 1625", "date of removal of missing stones"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-marshall-2012-eh-chronology", "sto-wiki-stonehenge", "sto-eh-stones", "sto-eh-research"]
+    },
+    {
+      "id": "trilithons",
+      "name": "Five trilithons (uprights 51-60, lintels 152-160)",
+      "dates": { "from": -2585, "to": null, "modelled": -2540 },
+      "dimensions": { "horseshoeWidthM": 13.7, "heightAboveGroundSmallestPairM": 6.0, "heightAboveGroundTallestM": 7.3, "tallestNote": "Wikipedia: smallest pair ~6 m, largest ~7.3 m; a second passage in the same page says almost 7.5 m (disputed). Heights rise toward the SW apex (Great Trilithon) in the standard plan; intermediate pair heights not obtained", "totalStoneLengthIncludingBuriedM": "9-10 (snippet-only, secondary)", "weightUpToT": 50 },
+      "counts": { "trilithons": 5, "uprights": 10, "lintels": 5 },
+      "evidence": "attested-standing", "confidence": "high for existence, medium for date",
+      "attested": ["horseshoe open NE, axis solstitial (Darvill)", "single antler OxA-4840 in socket of 53/54: 2585-2400 cal BC (93%)", "two samples once thought to date Great Trilithon (55/56) are no longer accepted"],
+      "inferred": ["sarsen circle built after the trilithons (practical grounds)", "state in 1625: trilithon 57/58 (with lintel 158) stood until 1797, so standing in 1625 (inference)"],
+      "unknown": ["which of 51-54, 59-60 were standing in 1625 beyond the Great Trilithon (below)", "heights of the middle pairs"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-wiki-stonehenge", "sto-eh-description", "sto-eh-stones"]
+    },
+    {
+      "id": "great-trilithon",
+      "name": "Great Trilithon (stones 55, 56, lintel 156)",
+      "dates": { "from": -2585, "to": null, "modelled": -2540 },
+      "dimensions": { "stone56AboveGroundM": 6.7, "stone56BuriedM": 2.4, "note": "Wikipedia: 22 ft (6.7 m) above ground and 7.9 ft (2.4 m) below; EH: stone 56 is the tallest sarsen and the only upright left of it" },
+      "counts": { "uprights": 2, "lintels": 1 },
+      "evidence": "attested-standing", "confidence": "medium",
+      "attested": ["stone 56 standing (straightened by Gowland 1901)", "stone 55 lies across the Altar Stone (fell on it)", "Darvill: the great trilithon collapsed after the bluestone oval (2205-1920 cal BC) but before the earliest 17th-century plans"],
+      "inferred": ["Darvill's constraint implies the collapse was before the first plans (Aubrey 1666, Jones 1620s); a ruined Great Trilithon is therefore the best-supported state for 1625, but it is NOT directly documented for 1625"],
+      "unknown": ["date of collapse; whether the fall happened in prehistory, Roman or medieval times; 1620-1625 state of stone 54 and lintel 156"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-wiki-stonehenge", "sto-eh-research", "sto-eh-stones"]
+    },
+    {
+      "id": "bluestones",
+      "name": "Bluestones: Q/R double circle (stage 2), central circle (stage 3), oval + outer circle (stage 4), horseshoe",
+      "dates": { "from": -2620, "to": null, "modelled": -2165 },
+      "dimensions": { "typicalHeightM": 2.0, "typicalWidthM": 1.2, "typicalThicknessM": 0.8, "typicalWeightT": 2, "note": "Wikipedia: about 2 m high, 1-1.5 m wide, 0.8 m thick, about 2 t. Sizes vary; no per-stone data fetched" },
+      "counts": { "stage2DoubleCircle": "50-80", "stage3CentralCircle": "arc of 5 stoneholes only evidenced", "stage4Oval": "c. 24-25", "stage4OuterCircle": "40-60", "totalReusedAbout": 80, "survivingAsStonesOrStumps": 43, "withTenonsAtLeast": 3, "withMortisePairsLintels": 2, "withTongueAndGroove": 2, "EHWebUpTo": 80 },
+      "evidence": "attested-excavated", "confidence": "medium",
+      "attested": ["Q and R stoneholes dumbbell-shaped, paired radially on E side; only one line on S and W", "bluestones from Preseli Hills, SW Wales (EH)", "Craig Rhos-y-felin (rhyolite) and Carn Goedog (spotted dolerite) quarries; megalith quarrying c. 3000 BC per 2019 Antiquity paper (snippet-only, UCL page 403)", "stone 68 grooved, suggesting reuse (EH)"],
+      "inferred": ["Darvill 2012: the same ~80 stones reused through successive settings, partly from Bluestonehenge (West Amesbury, c. 25 stones)", "Waun Mawn (Parker Pearson 2021 Antiquity 'The original Stonehenge?'): 110 m diameter circle dated c. 3400-3200 BCE, dismantled; at least six stoneholes; at least 3 spotted dolerite bluestones probably from there (EH)", "Darvill 2022 'Mythical rings?' challenges this; Parker Pearson et al. 2022 Antiquity 96(390) reply reasserts it (both snippet-only)"],
+      "unknown": ["which bluestones stood where at which date", "how many survive after post-prehistoric breakage; 1625 positions", "whether bluestones were in the Aubrey Holes"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-eh-research", "sto-eh-stones", "sto-wiki-stonehenge"]
+    },
+    {
+      "id": "altar-stone",
+      "name": "Altar Stone (stone 80)",
+      "dates": { "from": -2600, "to": null, "modelled": -2540 },
+      "dimensions": { "lengthM": 4.9, "widthM": 1.0, "thicknessM": 0.5, "weightT": 6, "weightNote": "EH research: about 6 tonnes" },
+      "counts": {},
+      "evidence": "attested-excavated", "confidence": "low",
+      "attested": ["lies prone near the centre, with stone 55 across it", "greenish micaceous sandstone (Old Red Sandstone / Senni-type per earlier work)", "2024 Nature (Clarke et al.): grain ages point to the Orcadian Basin, NE Scotland, >= 700-750 km (snippet-only; Nature page redirected to login). EH research page: moved at least 750 km (450 miles); not from Orkney (2024 Aberystwyth)", "2026 Pirrie et al. (J. Geol. Soc.) undercuts the NE Scotland origin (Wikipedia and search results; not read at source)"],
+      "inferred": ["Darvill 2012 puts it tentatively in Stage 2 inside the trilithons; it could have been placed at any time before the Great Trilithon fell on it", "recumbent vs once upright: not settled; the Wikipedia article says some believe it always lay flat"],
+      "unknown": ["original position and posture", "date of arrival", "source locality"],
+      "sources": ["sto-wiki-altar-stone", "sto-eh-research", "sto-eh-stones", "sto-darvill-2012-remodelled"]
+    },
+    {
+      "id": "station-stones",
+      "name": "Station Stones 91, 92, 93, 94",
+      "dates": { "from": -2620, "to": null, "modelled": -2550 },
+      "dimensions": { "note": "rectangle just inside the bank; stones 91 and 93 survive as undressed sarsens; no coordinates fetched (stones.json author must take positions from a surveyed plan)" },
+      "counts": { "original": 4, "surviving": 2 },
+      "evidence": "attested-standing", "confidence": "low for date",
+      "attested": ["stone 94 set in the north barrow; stone 92 in the centre of a chalk floor then the south barrow", "two survive (91, 93)", "rectangle centred on the monument (EH)"],
+      "inferred": ["Darvill: Stage 2; EH web timeline: raised with the sarsens; Atkinson: near end of Stage I (earlier). Wikipedia: date uncertain, mainstream treats astronomical theories sceptically", "long axis NW-SE: major southern moonrise / northern moonset (Darvill citing Ruggles)"],
+      "unknown": ["real date; whether 92 or 94 stood in 1625"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-wiki-station-stones", "sto-eh-stones", "sto-wiki-archaeoastronomy"]
+    },
+    {
+      "id": "heel-stone",
+      "name": "Heel Stone (96) and stonehole 97",
+      "dates": { "from": -2620, "to": null, "modelled": -2550 },
+      "dimensions": { "heightAboveGroundM": 4.7, "buriedM": 1.2, "thicknessAtLeastM": 2.4, "girthM": 7.6, "weightT": 35, "weightNote": "Wikipedia 35 t; EH 'more than 36 tonnes'", "distanceFromCentreM": 77.4, "leanDeg": 27, "leanDirection": "SW, toward the circle", "leanNote": "Wikipedia says nearly 27 degrees; the figure seems large and may be a typo for a smaller lean; treat as unverified. Wikipedia main page: ~4.9 m high, leans toward circle" },
+      "counts": { "ditchAround": 1 },
+      "evidence": "attested-standing", "confidence": "high for stone, low for sequence",
+      "attested": ["unshaped sarsen standing within a small circular ditch (Heelstone Ditch)", "empty stonehole 97 found beside it in 1979 (EH)"],
+      "inferred": ["Darvill: 97 stood from Stage 1, 96 added 2 m SE of it in Stage 2, 97 later removed (pair straddling the axis); Parker Pearson: 96 is the stone from 97 moved", "ditch dug late Stage 2 / early Stage 3"],
+      "unknown": ["which scenario is right", "state in 1625 (assume standing; leaning today)"],
+      "sources": ["sto-wiki-heel-stone", "sto-eh-stones", "sto-darvill-2012-remodelled", "sto-wiki-stonehenge"]
+    },
+    {
+      "id": "slaughter-stone",
+      "name": "Slaughter Stone (95) with stones D and E",
+      "dates": { "from": -2620, "to": null, "modelled": -2470 },
+      "dimensions": { "lengthM": 4.9, "note": "Wikipedia main page: fallen, about 16 ft (4.9 m) long; no thickness fetched. Surface sometimes reddish (EH)" },
+      "counts": { "companions": 2 },
+      "evidence": "attested-excavated", "confidence": "medium",
+      "attested": ["stonehole E dated 2470-2275 cal BC (90%; two picks)", "95 now lies flat; once upright at the entrance with stones in D and E (EH)"],
+      "inferred": ["D and E removed in Stage 3, leaving 95 and 96 only (Darvill)", "date when 95 fell: unknown"],
+      "unknown": ["whether 95 was upright or fallen in 1625"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-eh-description", "sto-eh-stones", "sto-wiki-stonehenge"]
+    },
+    {
+      "id": "avenue",
+      "name": "Avenue",
+      "dates": { "from": -2430, "to": -2200, "modelled": -2315 },
+      "dimensions": { "lengthKm": 2.5, "straightStretchM": 530, "corridorWidthM": 12 },
+      "counts": {},
+      "evidence": "attested-excavated", "confidence": "medium",
+      "attested": ["first 530 m leaving Stonehenge is straight along the principal axis, then curves E then S to the Avon", "2016 Antiquity: periglacial fissures under the Avenue are aligned on the solstitial axis (abstract only)", "EH: low parallel banks enclosing a corridor c. 12 m wide", "Wikipedia says 'nearly 3 km'; Darvill 2.5 km"],
+      "inferred": ["Heel Stone ditch had substantially silted before the Avenue was built"],
+      "unknown": ["bank/ditch profile; whether built in more than one episode (Darvill: possible)"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-eh-description", "sto-wiki-stonehenge-avenue", "sto-skyatnight-astronomy"]
+    },
+    {
+      "id": "y-z-holes",
+      "name": "Y and Z holes",
+      "dates": { "from": -1850, "to": -1525, "modelled": -1590 },
+      "dimensions": {},
+      "counts": { "note": "30 Y and 29 Z holes in standard accounts (recalled, not in fetched sources)" },
+      "evidence": "attested-excavated", "confidence": "medium",
+      "attested": ["two concentric rings of pits outside the sarsen circle", "Y holes 1630-1525 cal BC (95%), Z holes 2020-1745 (95%) in EH model", "filled with windblown sediment (Darvill)"],
+      "inferred": ["may have held small stones removed, or been left open (Darvill)", "low ridges outside each ring may be hedge lines or spoil (Field et al. 2010 via Darvill)"],
+      "unknown": ["purpose; whether stones ever stood"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-marshall-2012-eh-chronology", "sto-eh-history"]
+    },
+    {
+      "id": "carvings",
+      "name": "Bronze Age carvings (axe-heads, dagger)",
+      "dates": { "from": -1750, "to": -1500, "modelled": -1600 },
+      "dimensions": {},
+      "counts": { "knownBefore2012": 44, "addedByLaserScan2012": 71, "totalAxeheads2012": 115, "daggers": "one dagger added by 2012 scan plus the one on stone 53 noticed 1953", "caveat": "counts are from search snippets of the Historic England report (page 403 on fetch) and a 2025 paper; a 2025 J. Cultural Heritage paper reports more (figure garbled)" },
+      "evidence": "attested-standing", "confidence": "medium",
+      "attested": ["Arreton Down type axes and daggers; dated by metalwork typology 1750-1500 cal BC (Needham et al. 2010)", "on sarsen circle and trilithon stones (Darvill); EH: four sarsens carved with hundreds of axe-head images", "2012 laser scan found stone-working traces on virtually every stone (EH)"],
+      "inferred": [],
+      "unknown": ["exact current count"],
+      "sources": ["sto-darvill-2012-remodelled", "sto-eh-history", "sto-eh-research", "sto-eh-stones"]
+    }
+  ],
+  "alignment": {
+    "solsticialAxis": "NE-SW, midsummer sunrise to NE and midwinter sunset to SW; shared by trilithon horseshoe, bluestone circles, sarsen circle, Station Stone rectangle (long-side NE-SW) and the first 530 m of the Avenue",
+    "azimuthMeasured": null,
+    "azimuthMeasuredNote": "No fetched source gave a numeric survey azimuth. Snippet-only: an old text adopts 49 deg 34' 18'' for the Avenue near the commencement (about 49.57 deg); unattributed. The lead's provisional 49.9 deg is plausible but I could not source it.",
+    "computedMidsummerSunriseAzimuth": {
+      "method": "own computation, lat 51.1789, sun upper limb on horizon, standard refraction 0.57 deg, flat true horizon or raised horizon h; not a source",
+      "c2500BCE_obliquity24.0": { "flatHorizon_h0": 48.2, "h0.5": 49.1, "h0.6": 49.3, "h1.0": 49.9, "geometricCentreFlatNoRefraction": 49.55 },
+      "today_obliquity23.44": { "flatHorizon_h0": 49.3, "h0.5": 50.2, "h0.6": 50.3, "h1.0": 51.0, "geometricCentreFlatNoRefraction": 50.6 },
+      "differenceNote": "the sunrise point at midsummer was about 1.0 deg further north (smaller azimuth) in 2500 BCE than now; midwinter sunset azimuth = 360 minus the midsummer value for a flat horizon, so about 311-312 deg then versus about 310-311 deg now (also horizon dependent)",
+      "horizonElevationNE": "unknown. No fetched source. A DEM horizon profile from the geography researcher is needed; I use 0-1 deg as a range only. Ruggles-based statements (snippet-only) say Stonehenge sightlines are good to about 0.5 deg."
+    },
+    "attested": ["Stukeley recognised the axis in 1720 (Wikipedia)", "midsummer sunrise appears over/left of the Heel Stone, not exactly behind it, and falls in the centre of the Avenue (Sky at Night)", "from the far end of the Avenue the midwinter sunset can be seen through the central arches (Sky at Night)", "the Avenue lies over natural periglacial fissures aligned on the solstice axis (Antiquity 2016 abstract)", "Darvill 2012 treats the solstitial axis as Stonehenge's principal axis and argues the trilithon layout points to midwinter focus"],
+    "inferred": ["Ruggles: midwinter sunset probably the more significant; Parker Pearson links Durrington Walls pig teeth to midwinter feasting, later allowing midsummer visits too (Sky at Night, Wikipedia)", "Station Stone NW-SE long sides to major lunar standstill: proposed (Newham 1966), doubted by mainstream since two stones are lost and dating is uncertain"],
+    "unknown": ["builders' intent", "a numeric surveyed azimuth of the axis from a fetched source", "horizon altitude at the site"],
+    "sources": ["sto-darvill-2012-remodelled", "sto-skyatnight-astronomy", "sto-wiki-archaeoastronomy", "sto-wiki-station-stones", "sto-wiki-stonehenge"]
+  },
+  "laterHistory": [
+    { "year": -1500, "event": "Bronze Age: carvings on sarsens, bluestone working floor outside NW earthwork; Y and Z holes dug; barrow cemeteries in the landscape", "evidence": "attested-excavated", "confidence": "medium", "sources": ["sto-darvill-2012-remodelled"] },
+    { "year": -700, "event": "Vespasian's Camp hillfort built about 1.25 miles (2 km) east; no recorded Iron Age works at the stones themselves in sources read", "evidence": "attested-excavated", "confidence": "medium", "sources": ["sto-eh-history"] },
+    { "year": 43, "event": "Roman period begins: Stonehenge frequently visited, many Roman objects; late 4th c. coins and large quantities of pottery; square-cut trench with bluestone slab and a Roman coin read as a grave; SPACES 2008 found a large Roman pit/shaft. Darvill: bluestones broken up in Roman times and perhaps after; removal of at least seven stones at the N end of the oval to make a horseshoe 'highly likely' Roman (disputed; Atkinson rejected Roman army demolition)", "evidence": "attested-excavated", "confidence": "medium for activity, low for damage", "sources": ["sto-eh-history", "sto-wiki-stonehenge", "sto-darvill-2012-remodelled", "sto-eh-research"] },
+    { "year": 660, "event": "Execution burial: decapitated man aged 28-32, found by Hawley, near Y-hole 9 within the stones. Wikipedia gives 600-690 AD; a search snippet says the 600-690 range belongs to the Broad Town burial and that Stonehenge was 'second half of the 7th century'. Use 600-690 as low-confidence range.", "evidence": "attested-excavated", "confidence": "medium", "sources": ["sto-wiki-stonehenge", "sto-eh-history"] },
+    { "year": 1130, "event": "Henry of Huntingdon, Historia Anglorum, names 'Stanenges' among England's four wonders; stones 'raised up like gates', no one knows how. Date c. 1129-1135 (secondary; Huntingdon work revised to 1154).", "evidence": "attested-documentary", "confidence": "medium", "sources": ["sto-tudortreasures-accounts"] },
+    { "year": 1136, "event": "Geoffrey of Monmouth: Merlin moves the stones from Mount Killaraus, Ireland (Historia Regum Britanniae)", "evidence": "attested-documentary", "confidence": "high for text, none as history", "sources": ["sto-eh-history", "sto-tudortreasures-accounts", "sto-wiki-stonehenge"] },
+    { "year": 1457, "event": "Hardyng's Chronicle says the stones 'hang' and are 'somwat bowand' (bowed); the only medieval hint of leaning", "evidence": "attested-documentary", "confidence": "low", "sources": ["sto-tudortreasures-accounts"] },
+    { "year": 1562, "event": "Folkerzheimer letter describes upright stones with two carrying a third", "evidence": "attested-documentary", "confidence": "medium", "sources": ["sto-tudortreasures-accounts"] },
+    { "year": 1574, "event": "Lucas de Heere watercolour (dated 1573-75), first view drawn on site; text of the accompanying description not read. Content (standing/fallen) not read from any fetched source.", "evidence": "attested-pictorial", "confidence": "high for date range, none for detail", "sources": ["sto-eh-sources", "sto-bakker-1979-deheere-abstract"] },
+    { "year": 1575, "event": "'R.F.' engraving shows the monument 'leaning' with figures (EH sources list); possibly all of these derive from a lost common model (snippet-only)", "evidence": "attested-pictorial", "confidence": "low", "sources": ["sto-eh-sources"] },
+    { "year": 1586, "event": "Camden, Britannia: stones in three circles within a trench, some 28 feet high with lintels on top; also suggests cemented sand (date of fetched account given as c. 1588 by a secondary page; 1586 is first edition per the brief, 1600 engraving not seen)", "evidence": "attested-documentary", "confidence": "medium", "sources": ["sto-tudortreasures-accounts", "sto-webb-1655-stone-heng"] },
+    { "year": 1588, "event": "William Smith watercolour in de Heere's tradition", "evidence": "attested-pictorial", "confidence": "medium", "sources": ["sto-eh-sources"] },
+    { "year": 1620, "event": "Inigo Jones surveys Stonehenge for James I; also first known excavation in the centre, led by the Duke of Buckingham, in the 1620s. Jones's plan (published 1655 by Webb) is a symmetrical Roman restoration, not a record of the stones' real state. Exact survey year: not confirmed from a fetched source (snippet says 1610s commission; EH says 1620s).", "evidence": "attested-documentary", "confidence": "medium", "sources": ["sto-eh-research", "sto-eh-sources", "sto-webb-1655-stone-heng"] },
+    { "year": 1666, "event": "AFTER TIMELINE NOTE: John Aubrey surveys the site and records the ring of pits later called the Aubrey Holes", "evidence": "attested-documentary", "confidence": "high", "sources": ["sto-eh-research", "sto-wiki-stonehenge"] },
+    { "year": 1797, "event": "AFTER TIMELINE: southwest trilithon (57-58 and lintel 158) falls; re-erected 1958. So it stood in 1625 (inference).", "evidence": "attested-documentary", "confidence": "high", "sources": ["sto-eh-description", "sto-wiki-stonehenge"] },
+    { "year": 1900, "event": "AFTER TIMELINE: stone 22 falls 31 December with its lintel; stone 23 re-erected 1963 (Wikipedia wording ambiguous); stone 56 straightened 1901; stone 60 straightened 1959; last consolidation 1964. Stones standing in 1625 by inference unless earlier plans show otherwise.", "evidence": "attested-documentary", "confidence": "high", "sources": ["sto-wiki-stonehenge", "sto-eh-history", "sto-eh-stones"] },
+    { "year": 1625, "event": "Stone robbing: Wikipedia says stones were taken for building until the 17th century and tourists chipped souvenirs in the 19th. No dated robbing event, no named stone taken before 1625 found in fetched sources. Darvill: sockets of stones 13 and 20 recorded, so robbed in historic times (inference).", "evidence": "attested-documentary", "confidence": "low", "sources": ["sto-wiki-stonehenge", "sto-darvill-2012-remodelled"] }
+  ],
+  "completenessDebate": "Missing in the SW: uprights 13, 17, 18, 20, 24 and about 24 lintels (Darvill 2012). Ashbee (1998) argued the circle was never completed; Darvill considers historic robbing more likely because the sockets of 13 and 20 are recorded. Banton et al. 2014 (Antiquity 88: 733-739) report July 2013 drought parchmarks between stones 16 and 21 interpreted as stoneholes where expected uprights should be (Daw, an author, says evidence the circle was 'intended' complete, not that it was); the abstract page I could read says only that the parchmarks 'provide more evidence' and that expected stones are missing; the stone-hole detail is from search snippets. Press (Greaney, EH): 'if these stone holes actually held upright stones then we've got a complete circle'. Net: unresolved; for the 1625 model treat the SW arc as a gap with a low-confidence 'was never there / was robbed' choice and record it as such.",
+  "vegetation": [
+    { "from": -8500, "to": -7000, "note": "Pine posts imply pine available locally (inference only); open or wooded cover unknown from fetched sources.", "evidence": "conjectural", "confidence": "low", "sources": ["sto-eh-history"] },
+    { "from": -3000, "to": -1500, "note": "Windblown sediment filling Y and Z holes suggests cultivated land and open ground in the vicinity (Darvill); Bronze Age shift toward field creation (EH). Detail left to the landscape researcher.", "evidence": "attested-excavated", "confidence": "low", "sources": ["sto-darvill-2012-remodelled", "sto-eh-history"] },
+    { "from": 43, "to": 1625, "note": "No vegetation data fetched; chalk downland grazed grass is the standard assumption (not sourced here).", "evidence": "conjectural", "confidence": "low", "sources": [] }
+  ]
+}

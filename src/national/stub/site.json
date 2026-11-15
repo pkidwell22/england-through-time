@@ -1,0 +1,77 @@
+{
+ "_stub": true,
+ "id": "england-wales",
+ "name": "England and Wales",
+ "subtitle": "Placeholder national map, 4000 BCE – 1625 CE",
+ "scopeNote": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/site.json exists.",
+ "bounds": {
+  "latMin": 49.7,
+  "latMax": 56.0,
+  "lonMin": -6.5,
+  "lonMax": 2.2
+ },
+ "timeline": {
+  "start": -4000,
+  "end": 1625,
+  "scale": [
+   {
+    "year": -4000,
+    "u": 0
+   },
+   {
+    "year": -800,
+    "u": 0.06
+   },
+   {
+    "year": 43,
+    "u": 0.14
+   },
+   {
+    "year": 410,
+    "u": 0.36
+   },
+   {
+    "year": 1066,
+    "u": 0.56
+   },
+   {
+    "year": 1485,
+    "u": 0.8
+   },
+   {
+    "year": 1625,
+    "u": 1
+   }
+  ]
+ },
+ "woodland": {
+  "cover": [
+   {
+    "year": -4000,
+    "value": 0.75
+   },
+   {
+    "year": -800,
+    "value": 0.5
+   },
+   {
+    "year": 43,
+    "value": 0.3
+   },
+   {
+    "year": 1086,
+    "value": 0.15
+   },
+   {
+    "year": 1350,
+    "value": 0.1
+   },
+   {
+    "year": 1625,
+    "value": 0.08
+   }
+  ],
+  "note": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/site.json exists.",
+  "sources": []
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "fix-1": {
+  "title": "Fixture source",
+  "publisher": "Unit tests",
+  "url": "https://example.org/fixture"
+ }
+}

@@ -1,0 +1,113 @@
+[
+ {
+  "id": "old-brentford-hamlet",
+  "label": "Roadside settlement at Old Brentford (conjectural)",
+  "style": "saxon",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.4853,
+   "lon": -0.3007,
+   "rx": 150,
+   "rz": 55,
+   "bearing": 65
+  },
+  "spacing": 30,
+  "fill": 0.32,
+  "grow": [
+   950,
+   950
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "A handful of timber halls beside the road. Brentford was a named place where kings and councils met in 705, 780 and 781, a fishery existed by 996 and an army could cross here in 1016, so some people probably lived nearby; but excavation has found Saxon occupation at only one site, at Old Brentford, and the county history states that no trace of late Saxon occupation has been found. The cluster is placed at Old Brentford for that one site; its position, size and number of buildings are guesses. Buildings are the engine's generic single-storey timber halls. It is shown as already present when the model begins in 950; when it began is not known.",
+  "sources": [
+   "bre-vch-mdx7-growth",
+   "bre-vch-mdx7-econ"
+  ],
+  "preexisting": true
+ },
+ {
+  "id": "brent-crossing-farm",
+  "label": "Farmstead by the Brent crossing (conjectural)",
+  "style": "saxon",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.4829,
+   "lon": -0.3098,
+   "rx": 80,
+   "rz": 40,
+   "bearing": 70
+  },
+  "spacing": 30,
+  "fill": 0.25,
+  "grow": [
+   1040,
+   1090
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "Two or three buildings east of the Brent crossing, appearing late in the window. New Brentford is first heard of about 1170 as Bordwadestone, 'presumably Bord's tun or farm', within Westminster Abbey's manor of Hanwell. Nothing dates the farm's beginning; the years 1040 to 1090 are an arbitrary way of showing that settlement here was probably later and smaller than at Old Brentford. It is the only change shown between 950 and 1100, and it is a guess.",
+  "sources": [
+   "bre-vch-mdx7-growth",
+   "bre-aubrey-domesday-hanwell"
+  ]
+ },
+ {
+  "id": "syon-foreshore-scrub",
+  "label": "Willow and scrub along the Syon bank (conjectural)",
+  "style": "scrub",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.477,
+   "lon": -0.3082,
+   "rx": 300,
+   "rz": 70,
+   "bearing": 40
+  },
+  "spacing": 28,
+  "fill": 0.2,
+  "grow": [
+   950,
+   950
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "Rough growth on the low alluvial strip of the Middlesex bank above the Brent. The bank at Syon is still a natural tidal meadow flooded by the river; what grew there about 1000 is not recorded, and the scrub is a plausible guess. It is shown as already present when the model begins in 950; when it began is not known.",
+  "sources": [
+   "bre-vch-mdx3-heston-isleworth",
+   "bre-vch-mdx7-intro",
+   "bre-wikipedia-syon-house"
+  ],
+  "preexisting": true
+ },
+ {
+  "id": "kew-bank-scrub",
+  "label": "Scrub on the low Surrey bank (conjectural)",
+  "style": "scrub",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.4838,
+   "lon": -0.2915,
+   "rx": 380,
+   "rz": 110,
+   "bearing": 70
+  },
+  "spacing": 30,
+  "fill": 0.16,
+  "grow": [
+   950,
+   950
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "Kew is not recorded before the 14th century and lay within the royal manor later called Richmond; an 18th-century description calls the ground 'dead flat' with barren soil. Nothing is known of this bank about 1000. Thin scrub on low, damp ground is a guess, and no settlement is shown because none is evidenced. It is shown as already present when the model begins in 950; when it began is not known.",
+  "sources": [
+   "bre-vch-surrey3-kew"
+  ],
+  "preexisting": true
+ }
+]

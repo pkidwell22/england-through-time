@@ -1,0 +1,18 @@
+[
+ {
+  "id": "early",
+  "name": "Early",
+  "from": 900,
+  "to": 1015,
+  "presetYear": 1000,
+  "blurb": "x"
+ },
+ {
+  "id": "late",
+  "name": "Late",
+  "from": 1016,
+  "to": 1100,
+  "presetYear": 1016,
+  "blurb": "y"
+ }
+]

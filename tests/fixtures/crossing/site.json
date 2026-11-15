@@ -1,0 +1,57 @@
+{
+ "id": "crossing",
+ "name": "Fixture Crossing",
+ "subtitle": "A test site with a narrow river",
+ "scopeNote": "Invented fixture for unit tests. Not a real place.",
+ "origin": {
+  "lat": 51.48,
+  "lon": -0.3
+ },
+ "bounds": {
+  "xMin": -600,
+  "xMax": 600,
+  "zMin": -600,
+  "zMax": 600
+ },
+ "timeline": {
+  "start": 900,
+  "end": 1100,
+  "scale": [
+   {
+    "year": 900,
+    "u": 0
+   },
+   {
+    "year": 1000,
+    "u": 0.3
+   },
+   {
+    "year": 1100,
+    "u": 1
+   }
+  ]
+ },
+ "river": {
+  "centreline": [
+   [
+    51.48,
+    -0.32,
+    100,
+    100,
+    0
+   ],
+   [
+    51.48,
+    -0.28,
+    100,
+    100,
+    0
+   ]
+  ],
+  "widthScale": 0.5
+ },
+ "terrain": {},
+ "water": {
+  "color": "#4a5c58"
+ }
+}

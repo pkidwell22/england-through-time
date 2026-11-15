@@ -1,0 +1,63 @@
+[
+ {
+  "year": 996,
+  "label": "Half a Thames fishery at Brentford granted to Winchester",
+  "note": "King Æthelred granted half of a Thames fishery at Brentford to the church of St Peter and St Paul, Winchester. It is the only record of activity at Brentford found for the half-century before the battle.",
+  "sources": [
+   "bre-vch-mdx7-econ",
+   "bre-vch-mdx7-growth"
+  ]
+ },
+ {
+  "year": 1013,
+  "label": "Swein's army loses men crossing the Thames",
+  "note": "On its way towards London, the Chronicle says, many of Swein Forkbeard's army drowned in the Thames 'because they kept not to any bridge'. The place is not given and need not be Brentford; it shows what a crossing of the river could cost.",
+  "sources": [
+   "bre-asc-avalon"
+  ]
+ },
+ {
+  "year": 1016,
+  "label": "Cnut besieges London",
+  "note": "The Danish ships came to London, dug a ditch on the south side and dragged their ships to the west of the bridge, then shut the city in. Edmund gathered an army, came to London north of the Thames and drove the besiegers to their ships.",
+  "sources": [
+   "bre-asc-avalon",
+   "bre-clerk-siege-london"
+  ]
+ },
+ {
+  "year": 1016,
+  "label": "Battle of Brentford",
+  "note": "Within two nights of relieving London, Edmund 'went over at Brentford', fought the Danish army and put it to flight. Many of the English drowned 'from their own carelessness', having gone ahead of the army to plunder. Site, numbers and course are unknown; the figures shown are stand-ins.",
+  "sources": [
+   "bre-asc-avalon",
+   "bre-vch-mdx7-growth"
+  ]
+ },
+ {
+  "year": 1016,
+  "label": "Edmund fords the Thames at Brentford again",
+  "note": "Later in the year Edmund gathered the English a fourth time, 'forded over the Thames at Brentford' and went into Kent, driving the Danes to Sheppey. He was beaten at Assandun and died on St Andrew's day (30 November); Cnut took the whole kingdom.",
+  "sources": [
+   "bre-asc-avalon"
+  ]
+ },
+ {
+  "year": 1066,
+  "label": "Norman Conquest",
+  "note": "Nothing is recorded at Brentford in the sources read. Isleworth, held by Earl Ælfgar in 1066, had passed to Walter of St Valery by 1086.",
+  "sources": [
+   "bre-opendomesday-isleworth"
+  ]
+ },
+ {
+  "year": 1086,
+  "label": "Domesday Book: Brentford is not named",
+  "note": "The ground lay in three manors. Isleworth had 118 households, land for 55 ploughs, two mills and woodland for 500 pigs, and was worth £72 (£80 in 1066). Hanwell, held by Westminster Abbey and assessed at 8 hides, had about 17 households and a mill (figures from a secondary summary). The county history thinks Old Brentford was probably counted within the bishop of London's manor of Fulham.",
+  "sources": [
+   "bre-opendomesday-isleworth",
+   "bre-aubrey-domesday-hanwell",
+   "bre-vch-mdx7-growth"
+  ]
+ }
+]

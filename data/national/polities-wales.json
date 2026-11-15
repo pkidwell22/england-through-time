@@ -1,0 +1,1225 @@
+[
+ {
+  "id": "silures",
+  "name": "Silures",
+  "kind": "people",
+  "from": -100,
+  "to": 410,
+  "labelAt": [
+   51.72,
+   -3.25
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "The people of south-east Wales, who fought Rome from about AD 48 until their conquest in the mid 70s. Under Roman rule they formed a self-governing community with its centre at Venta Silurum (Caerwent), which lasted to the end of the Roman period. The name is first recorded by Roman writers in the 1st and 2nd centuries AD (Tacitus, Ptolemy); projecting the people back before the conquest is conjecture, and their territory had no known boundary.",
+  "sources": [
+   "wal-cadw-caerwent",
+   "wal-pleiades-venta-silurum"
+  ]
+ },
+ {
+  "id": "demetae",
+  "name": "Demetae",
+  "kind": "people",
+  "from": -100,
+  "to": 410,
+  "labelAt": [
+   51.92,
+   -4.6
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "The people of south-west Wales, whose Roman-period centre was Moridunum (Carmarthen). Their name survived in the early medieval kingdom of Dyfed. The name is first recorded by Roman writers in the 1st and 2nd centuries AD (Tacitus, Ptolemy); projecting the people back before the conquest is conjecture, and their territory had no known boundary.",
+  "sources": [
+   "wal-pleiades-moridunum"
+  ]
+ },
+ {
+  "id": "ordovices",
+  "name": "Ordovices",
+  "kind": "people",
+  "from": -100,
+  "to": 200,
+  "labelAt": [
+   52.8,
+   -3.75
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "The people of central and north-west Wales. Agricola crushed their rising in AD 77 and founded Segontium afterwards. No Roman-period town or self-governing community is known for them. The name is first recorded by Roman writers in the 1st and 2nd centuries AD (Tacitus, Ptolemy); projecting the people back before the conquest is conjecture, and their territory had no known boundary. The end date is a placeholder: nothing is heard of them after Ptolemy (about AD 150).",
+  "sources": [
+   "wal-cadw-segontium"
+  ]
+ },
+ {
+  "id": "deceangli",
+  "name": "Deceangli",
+  "kind": "people",
+  "from": -100,
+  "to": 200,
+  "labelAt": [
+   53.2,
+   -3.35
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "note": "The people of north-east Wales, attacked by the Roman governor Ostorius Scapula about AD 48. A lead pig from Flintshire dated AD 74 is stamped with their name (RIB 2404.32), whose commentary takes these pigs to establish the form Deceangli. The name is otherwise first recorded by Roman writers (Tacitus, Ptolemy); projecting the people back before the conquest is conjecture, and their territory had no known boundary. The end date is a placeholder.",
+  "sources": [
+   "wal-rib-2404-32"
+  ]
+ },
+ {
+  "id": "gwynedd",
+  "name": "Gwynedd",
+  "kind": "kingdom",
+  "from": 450,
+  "to": 1283,
+  "labelAt": [
+   53.05,
+   -4.05
+  ],
+  "polygon": [
+   [
+    53.35,
+    -3.32
+   ],
+   [
+    53.33,
+    -3.84
+   ],
+   [
+    53.43,
+    -4.45
+   ],
+   [
+    53.31,
+    -4.69
+   ],
+   [
+    53.13,
+    -4.42
+   ],
+   [
+    52.79,
+    -4.77
+   ],
+   [
+    52.8,
+    -4.5
+   ],
+   [
+    52.9,
+    -4.15
+   ],
+   [
+    52.72,
+    -4.06
+   ],
+   [
+    52.54,
+    -4.05
+   ],
+   [
+    52.62,
+    -3.75
+   ],
+   [
+    52.8,
+    -3.55
+   ],
+   [
+    52.9,
+    -3.4
+   ],
+   [
+    53.02,
+    -3.32
+   ],
+   [
+    53.15,
+    -3.25
+   ],
+   [
+    53.28,
+    -3.2
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "The kingdom of north-west Wales, with courts at Deganwy and Aberffraw. It became the strongest Welsh power under Rhodri Mawr (844-878), Gruffudd ap Cynan (died 1137), Owain Gwynedd and the two Llywelyns, and ended with Edward I’s conquest in 1282-3. The polygon is indicative for about 1200-1240 under Llywelyn ap Iorwerth: Gwynedd above and below the Conwy with Anglesey, Llŷn, Meirionnydd and Penllyn. The eastern part (the Perfeddwlad, between Conwy and Dee) changed hands repeatedly. The start date is conventional; the dynasty’s origin legend (Cunedda) is not history.",
+  "sources": [
+   "wal-coflein-deganwy",
+   "wal-dwb-gruffudd-ap-cynan",
+   "wal-dwb-llywelyn-ap-iorwerth",
+   "wal-dwb-llywelyn-ap-gruffydd"
+  ]
+ },
+ {
+  "id": "powys",
+  "name": "Powys",
+  "kind": "kingdom",
+  "from": 500,
+  "to": 1160,
+  "labelAt": [
+   52.72,
+   -3.35
+  ],
+  "polygon": [
+   [
+    52.98,
+    -3.45
+   ],
+   [
+    53.02,
+    -3.1
+   ],
+   [
+    52.86,
+    -3.02
+   ],
+   [
+    52.7,
+    -3.05
+   ],
+   [
+    52.55,
+    -3.12
+   ],
+   [
+    52.45,
+    -3.22
+   ],
+   [
+    52.42,
+    -3.5
+   ],
+   [
+    52.48,
+    -3.75
+   ],
+   [
+    52.62,
+    -3.74
+   ],
+   [
+    52.8,
+    -3.58
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "The kingdom of the central borderland. Its early extent reached further east, into what became Shropshire, before Mercian expansion and the building of Offa’s Dyke. Rhodri Mawr took it over in 855 according to the Dictionary of Welsh Biography; the ODNB says only that he may have controlled it from 855 or later. It was divided for good after the death of Madog ap Maredudd in 1160. The polygon is indicative for about 1100-1160; it is not a surveyed boundary. The start date is conventional.",
+  "sources": [
+   "wal-dwb-rhodri-mawr",
+   "wal-cadw-valle-crucis",
+   "wal-odnb-rhodri-mawr"
+  ]
+ },
+ {
+  "id": "powys-fadog",
+  "name": "Powys Fadog",
+  "kind": "principality",
+  "from": 1160,
+  "to": 1283,
+  "labelAt": [
+   52.95,
+   -3.25
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "Northern Powys after the division of 1160, ruled from Castell Dinas Brân in the later 13th century; its princes founded Valle Crucis in 1201. It was broken up into marcher lordships (Bromfield and Yale, Chirk) after 1282-3. Only the Valle Crucis foundation is from a fetched source; the rest is general knowledge.",
+  "sources": [
+   "wal-cadw-valle-crucis"
+  ]
+ },
+ {
+  "id": "powys-wenwynwyn",
+  "name": "Powys Wenwynwyn",
+  "kind": "principality",
+  "from": 1160,
+  "to": 1283,
+  "labelAt": [
+   52.62,
+   -3.3
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "Southern Powys after the division of 1160, centred on Welshpool. Its ruler Gruffudd ap Gwenwynwyn submitted to Llywelyn ap Gruffudd in 1263, defected in 1274 and fought for Edward I; his heirs kept it as the marcher lordship of Powis.",
+  "sources": [
+   "wal-dwb-llywelyn-ap-gruffydd"
+  ]
+ },
+ {
+  "id": "dyfed",
+  "name": "Dyfed",
+  "kind": "kingdom",
+  "from": 450,
+  "to": 920,
+  "labelAt": [
+   51.88,
+   -4.85
+  ],
+  "polygon": [
+   [
+    52.1,
+    -4.68
+   ],
+   [
+    52.03,
+    -5.08
+   ],
+   [
+    51.9,
+    -5.3
+   ],
+   [
+    51.68,
+    -5.17
+   ],
+   [
+    51.62,
+    -4.92
+   ],
+   [
+    51.67,
+    -4.7
+   ],
+   [
+    51.75,
+    -4.4
+   ],
+   [
+    51.86,
+    -4.27
+   ],
+   [
+    51.98,
+    -4.32
+   ],
+   [
+    52.05,
+    -4.47
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "The kingdom of south-west Wales, heir to the Roman-period Demetae, with a dynasty of partly Irish origin. Hywel Dda acquired it by marriage and joined it to Seisyllwg about 920 to form Deheubarth. The polygon is indicative for about 800. The start date is conventional.",
+  "sources": [
+   "wal-dwb-hywel-dda"
+  ]
+ },
+ {
+  "id": "ceredigion",
+  "name": "Ceredigion",
+  "kind": "kingdom",
+  "from": 500,
+  "to": 730,
+  "labelAt": [
+   52.28,
+   -4.05
+  ],
+  "polygon": [
+   [
+    52.53,
+    -4.02
+   ],
+   [
+    52.47,
+    -3.76
+   ],
+   [
+    52.25,
+    -3.72
+   ],
+   [
+    52.08,
+    -3.85
+   ],
+   [
+    52.03,
+    -4.2
+   ],
+   [
+    52.05,
+    -4.47
+   ],
+   [
+    52.1,
+    -4.68
+   ],
+   [
+    52.22,
+    -4.35
+   ],
+   [
+    52.41,
+    -4.09
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "note": "A small kingdom on Cardigan Bay between the Dyfi and the Teifi, by tradition founded by Ceredig. About 730 its king Seisyll is said to have annexed Ystrad Tywi, creating the larger kingdom later called Seisyllwg. The polygon follows the later county and is indicative. Dates are traditional. No source was fetched for this entry; it rests on general knowledge of the standard literature.",
+  "sources": []
+ },
+ {
+  "id": "seisyllwg",
+  "name": "Seisyllwg",
+  "kind": "kingdom",
+  "from": 730,
+  "to": 920,
+  "labelAt": [
+   52.08,
+   -4.05
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "note": "Ceredigion together with Ystrad Tywi (the Tywi valley). On the death of its king Gwgon in 872 it came under Rhodri Mawr; his grandson Hywel Dda joined it to Dyfed about 920 to form Deheubarth. The name ‘Seisyllwg’ appears only in later texts and some historians doubt it was used at the time; the start date is traditional.",
+  "sources": [
+   "wal-dwb-rhodri-mawr",
+   "wal-dwb-hywel-dda"
+  ]
+ },
+ {
+  "id": "deheubarth",
+  "name": "Deheubarth",
+  "kind": "kingdom",
+  "from": 920,
+  "to": 1283,
+  "labelAt": [
+   51.98,
+   -4.15
+  ],
+  "polygon": [
+   [
+    52.53,
+    -4.02
+   ],
+   [
+    52.47,
+    -3.76
+   ],
+   [
+    52.25,
+    -3.7
+   ],
+   [
+    52.05,
+    -3.65
+   ],
+   [
+    51.9,
+    -3.75
+   ],
+   [
+    51.78,
+    -3.9
+   ],
+   [
+    51.7,
+    -4.12
+   ],
+   [
+    51.78,
+    -4.4
+   ],
+   [
+    51.82,
+    -4.6
+   ],
+   [
+    51.95,
+    -4.62
+   ],
+   [
+    52.1,
+    -4.68
+   ],
+   [
+    52.22,
+    -4.35
+   ],
+   [
+    52.41,
+    -4.09
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "The kingdom of the south-west, formed about 920 when Hywel Dda united Dyfed and Seisyllwg. The Normans overran most of it after 1093; Rhys ap Gruffudd (the Lord Rhys) rebuilt it between 1155 and his death in 1197, after which it split among his descendants, who lost their last lands in 1277-87. The polygon is indicative for the Lord Rhys’s rule about 1170-1197: Ceredigion, Ystrad Tywi and parts of Dyfed, excluding the Norman lordships of Pembroke and Gower.",
+  "sources": [
+   "wal-dwb-hywel-dda",
+   "wal-dwb-rhys-ap-gruffydd",
+   "wal-coflein-dinefwr"
+  ]
+ },
+ {
+  "id": "glywysing",
+  "name": "Glywysing (later Morgannwg)",
+  "kind": "kingdom",
+  "from": 500,
+  "to": 1091,
+  "labelAt": [
+   51.6,
+   -3.5
+  ],
+  "polygon": [
+   [
+    51.62,
+    -3.93
+   ],
+   [
+    51.8,
+    -3.75
+   ],
+   [
+    51.8,
+    -3.35
+   ],
+   [
+    51.74,
+    -3.1
+   ],
+   [
+    51.55,
+    -2.99
+   ],
+   [
+    51.45,
+    -3.17
+   ],
+   [
+    51.39,
+    -3.45
+   ],
+   [
+    51.48,
+    -3.75
+   ],
+   [
+    51.57,
+    -3.85
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "note": "The kingdom between the Tawe and the Usk. In the 10th century, united with Gwent under Morgan Hen (died 974), it came to be called Morgannwg, the origin of ‘Glamorgan’. The Norman Robert fitz Hamon conquered the lowlands about 1091-3. The polygon is indicative for about 950 and excludes Gwent. The start date is conventional. No source was fetched for this entry; it rests on general knowledge of the standard literature.",
+  "sources": []
+ },
+ {
+  "id": "gwent",
+  "name": "Gwent",
+  "kind": "kingdom",
+  "from": 450,
+  "to": 1070,
+  "labelAt": [
+   51.72,
+   -2.85
+  ],
+  "polygon": [
+   [
+    51.55,
+    -2.98
+   ],
+   [
+    51.62,
+    -2.67
+   ],
+   [
+    51.72,
+    -2.68
+   ],
+   [
+    51.81,
+    -2.71
+   ],
+   [
+    51.9,
+    -2.9
+   ],
+   [
+    51.86,
+    -3.06
+   ],
+   [
+    51.7,
+    -3.02
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "note": "The kingdom between the Usk and the Wye, named after Venta Silurum (Caerwent). It was at times joined with Glywysing. William fitz Osbern began its conquest from Chepstow after 1067. The polygon is indicative for about 1000. The start and end dates are approximate.",
+  "sources": [
+   "wal-cadw-chepstow",
+   "wal-cadw-caerwent"
+  ]
+ },
+ {
+  "id": "brycheiniog",
+  "name": "Brycheiniog",
+  "kind": "kingdom",
+  "from": 500,
+  "to": 1093,
+  "labelAt": [
+   51.95,
+   -3.4
+  ],
+  "polygon": [
+   [
+    51.86,
+    -3.75
+   ],
+   [
+    52.05,
+    -3.62
+   ],
+   [
+    52.1,
+    -3.3
+   ],
+   [
+    52.0,
+    -3.1
+   ],
+   [
+    51.86,
+    -3.1
+   ],
+   [
+    51.8,
+    -3.4
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "A small kingdom in the upper Usk valley with a dynasty claiming Irish descent. Its king built the Llangorse crannog about 890; a Mercian army destroyed it in 916. Bernard de Neufmarché conquered the kingdom in 1093 and it became the lordship of Brecon. The polygon is indicative for about 900. The start date is conventional; the conquest date is from general knowledge.",
+  "sources": [
+   "wal-nmw-llangors"
+  ]
+ },
+ {
+  "id": "rhodri-mawr",
+  "name": "Lands of Rhodri Mawr",
+  "kind": "realm",
+  "from": 872,
+  "to": 878,
+  "labelAt": [
+   52.55,
+   -3.9
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "Rhodri became king of Gwynedd in 844, took Powys in 855 (so the Dictionary of Welsh Biography; the ODNB treats control of Powys from 855 or later only as possible) and Seisyllwg in 872, so that for a few years one king ruled most of Wales outside the south-east and Dyfed. He was killed fighting the English; the Dictionary of Welsh Biography gives 877, other reckonings 878. His sons divided the lands. No boundary is drawn because none is known.",
+  "sources": [
+   "wal-dwb-rhodri-mawr",
+   "wal-odnb-rhodri-mawr"
+  ]
+ },
+ {
+  "id": "hywel-dda",
+  "name": "Lands of Hywel Dda",
+  "kind": "realm",
+  "from": 942,
+  "to": 950,
+  "labelAt": [
+   52.4,
+   -3.85
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "Hywel held Seisyllwg from 920 and Dyfed by marriage, and on the death of Idwal Foel in 942 took Gwynedd (and with it Powys), ruling all Wales except Morgannwg and Gwent until his death in 950. The Welsh law-books are attributed to him, though the earliest surviving manuscript dates from the last quarter of the 12th century and the attribution is not contemporary. His kingdom broke up at his death.",
+  "sources": [
+   "wal-dwb-hywel-dda",
+   "wal-bodleian-welsh-law"
+  ]
+ },
+ {
+  "id": "gruffudd-ap-llywelyn",
+  "name": "Kingdom of Gruffudd ap Llywelyn",
+  "kind": "realm",
+  "from": 1055,
+  "to": 1063,
+  "labelAt": [
+   52.35,
+   -3.6
+  ],
+  "polygon": [
+   [
+    53.35,
+    -3.32
+   ],
+   [
+    53.32,
+    -3.83
+   ],
+   [
+    53.42,
+    -4.3
+   ],
+   [
+    53.31,
+    -4.68
+   ],
+   [
+    53.13,
+    -4.4
+   ],
+   [
+    52.8,
+    -4.76
+   ],
+   [
+    52.8,
+    -4.5
+   ],
+   [
+    52.9,
+    -4.15
+   ],
+   [
+    52.55,
+    -4.06
+   ],
+   [
+    52.41,
+    -4.09
+   ],
+   [
+    52.24,
+    -4.27
+   ],
+   [
+    52.13,
+    -4.7
+   ],
+   [
+    52.02,
+    -5.08
+   ],
+   [
+    51.88,
+    -5.31
+   ],
+   [
+    51.67,
+    -5.1
+   ],
+   [
+    51.63,
+    -4.7
+   ],
+   [
+    51.73,
+    -4.42
+   ],
+   [
+    51.55,
+    -4.25
+   ],
+   [
+    51.56,
+    -3.75
+   ],
+   [
+    51.39,
+    -3.4
+   ],
+   [
+    51.5,
+    -3.05
+   ],
+   [
+    51.61,
+    -2.66
+   ],
+   [
+    51.83,
+    -2.65
+   ],
+   [
+    51.98,
+    -3.07
+   ],
+   [
+    52.35,
+    -2.96
+   ],
+   [
+    52.55,
+    -3.1
+   ],
+   [
+    52.73,
+    -2.97
+   ],
+   [
+    52.89,
+    -3.15
+   ],
+   [
+    52.97,
+    -2.73
+   ],
+   [
+    53.08,
+    -2.88
+   ],
+   [
+    53.19,
+    -2.93
+   ],
+   [
+    53.27,
+    -3.08
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "King of Gwynedd and Powys from 1039, Gruffudd took Deheubarth in 1055 and Morgannwg soon after: the only king ever to rule the whole of Wales, with land east of Offa’s Dyke as well. Harold Godwinson’s campaign of 1063 broke his power and he was killed by his own men (5 August 1063 in the usual reckoning; the Dictionary of Welsh Biography’s revised article argues for 1064). The polygon is modern Wales, used as an indication; his holdings beyond the dyke are not drawn.",
+  "sources": [
+   "wal-dwb-gruffudd-ap-llywelyn"
+  ]
+ },
+ {
+  "id": "principality-llywelyn",
+  "name": "Principality of Wales (Llywelyn ap Gruffudd)",
+  "kind": "principality",
+  "from": 1267,
+  "to": 1283,
+  "labelAt": [
+   52.45,
+   -3.55
+  ],
+  "polygon": [
+   [
+    53.28,
+    -3.12
+   ],
+   [
+    53.35,
+    -3.32
+   ],
+   [
+    53.33,
+    -3.84
+   ],
+   [
+    53.43,
+    -4.45
+   ],
+   [
+    53.31,
+    -4.69
+   ],
+   [
+    53.13,
+    -4.42
+   ],
+   [
+    52.79,
+    -4.77
+   ],
+   [
+    52.8,
+    -4.5
+   ],
+   [
+    52.9,
+    -4.15
+   ],
+   [
+    52.54,
+    -4.05
+   ],
+   [
+    52.41,
+    -4.09
+   ],
+   [
+    52.24,
+    -4.26
+   ],
+   [
+    52.05,
+    -4.2
+   ],
+   [
+    51.93,
+    -4.0
+   ],
+   [
+    51.85,
+    -3.8
+   ],
+   [
+    51.85,
+    -3.3
+   ],
+   [
+    52.0,
+    -3.15
+   ],
+   [
+    52.2,
+    -3.2
+   ],
+   [
+    52.4,
+    -3.2
+   ],
+   [
+    52.55,
+    -3.15
+   ],
+   [
+    52.75,
+    -3.1
+   ],
+   [
+    52.95,
+    -3.05
+   ],
+   [
+    53.12,
+    -3.1
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "note": "Llywelyn ap Gruffudd took the homage of the other Welsh lords in 1258 and styled himself Prince of Wales; Henry III recognised the title and the principality in the Treaty of Montgomery (1267). Edward I’s war of 1276-7 cut it back to Gwynedd west of the Conwy; Llywelyn was killed in December 1282 and his brother Dafydd captured in 1283. The polygon is a rough indication of the lands under Llywelyn’s lordship at the treaty in 1267: Gwynedd, both parts of Powys, Builth, Brecon, Gwerthrynion and the Welsh lords of Deheubarth. Its southern and eastern edges were contested and are not well defined.",
+  "sources": [
+   "wal-dwb-llywelyn-ap-gruffydd",
+   "wal-cadw-montgomery",
+   "wal-cadw-dolforwyn"
+  ]
+ },
+ {
+  "id": "principality-north",
+  "name": "Principality of Wales (royal counties of Anglesey, Caernarfon and Merioneth)",
+  "kind": "principality",
+  "from": 1284,
+  "to": 1536,
+  "labelAt": [
+   53.0,
+   -4.0
+  ],
+  "polygon": [
+   [
+    53.3,
+    -3.83
+   ],
+   [
+    53.43,
+    -4.45
+   ],
+   [
+    53.31,
+    -4.69
+   ],
+   [
+    53.13,
+    -4.42
+   ],
+   [
+    52.79,
+    -4.77
+   ],
+   [
+    52.8,
+    -4.5
+   ],
+   [
+    52.9,
+    -4.15
+   ],
+   [
+    52.72,
+    -4.06
+   ],
+   [
+    52.54,
+    -4.05
+   ],
+   [
+    52.62,
+    -3.72
+   ],
+   [
+    52.8,
+    -3.5
+   ],
+   [
+    52.93,
+    -3.42
+   ],
+   [
+    53.0,
+    -3.65
+   ],
+   [
+    53.12,
+    -3.78
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "After the conquest the Statute of Rhuddlan (1284) annexed Llywelyn’s principality to the English crown and set up counties on the English model, governed from Caernarfon. From 1301 the principality was usually granted to the king’s eldest son. Flintshire, also created in 1284, was attached to Chester and is not drawn. The polygon is indicative: the three north-western shires as they stood from 1284. The Laws in Wales Act of 1535-6 ended the legal distinction between Principality and March.",
+  "sources": [
+   "wal-bodleian-welsh-law",
+   "wal-coflein-caernarfon",
+   "wal-legislation-laws-in-wales-1535"
+  ]
+ },
+ {
+  "id": "principality-south",
+  "name": "Principality of Wales (royal counties of Cardigan and Carmarthen)",
+  "kind": "principality",
+  "from": 1284,
+  "to": 1536,
+  "labelAt": [
+   52.1,
+   -4.1
+  ],
+  "polygon": [
+   [
+    52.53,
+    -4.02
+   ],
+   [
+    52.47,
+    -3.76
+   ],
+   [
+    52.25,
+    -3.72
+   ],
+   [
+    52.08,
+    -3.82
+   ],
+   [
+    51.98,
+    -3.9
+   ],
+   [
+    51.86,
+    -3.98
+   ],
+   [
+    51.84,
+    -4.3
+   ],
+   [
+    51.9,
+    -4.45
+   ],
+   [
+    52.03,
+    -4.4
+   ],
+   [
+    52.1,
+    -4.68
+   ],
+   [
+    52.22,
+    -4.35
+   ],
+   [
+    52.41,
+    -4.09
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "note": "The southern part of the crown’s principality: the counties of Cardigan and Carmarthen, governed from Carmarthen and built up from royal lands held since the 1240s and the forfeited lands of the princes of Deheubarth (1277-87). The polygon is indicative for about 1300; medieval Carmarthenshire was smaller than the later county and its edges against the marcher lordships of Kidwelly, Llandovery and Emlyn are approximate. The make-up of these counties is from general knowledge.",
+  "sources": [
+   "wal-bodleian-welsh-law",
+   "wal-coflein-carmarthen-castle"
+  ]
+ },
+ {
+  "id": "march-of-wales",
+  "name": "March of Wales (marcher lordships)",
+  "kind": "march",
+  "from": 1067,
+  "to": 1536,
+  "labelAt": [
+   51.95,
+   -3.1
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "The belt of some forty or more lordships along the border and across south Wales, conquered piecemeal by Norman lords from 1067 (Chepstow, Montgomery, Brecon, Glamorgan, Pembroke) and enlarged after 1282 with new lordships in the north-east (Denbigh, Ruthin, Bromfield and Yale, Chirk). Each lord held royal powers in his lordship and the king’s writ did not run there. The Laws in Wales Act of 1535-6 abolished these powers and divided the lordships among new and existing shires. No polygon is drawn: the March was not one territory, and its extent changed with every war.",
+  "sources": [
+   "wal-cadw-chepstow",
+   "wal-coflein-pembroke",
+   "wal-legislation-laws-in-wales-1535"
+  ]
+ },
+ {
+  "id": "glyndwr",
+  "name": "Wales under Owain Glyndŵr",
+  "kind": "principality",
+  "from": 1400,
+  "to": 1415,
+  "labelAt": [
+   52.6,
+   -3.75
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "note": "Owain Glyndŵr attacked Ruthin on 16 September 1400 and took the title Prince of Wales. After Bryn Glas (1402) and the capture of Aberystwyth and Harlech (1404) he controlled most of Wales, made a treaty with France and planned a parliament and an independent Welsh church. Defeats from 1405 and the loss of Aberystwyth and Harlech (1408-9) ended his rule; he still raided in 1410 and is not heard of after 1412. The end date is nominal: he never surrendered and probably died about 1415-16. No polygon is drawn because control shifted from year to year.",
+  "sources": [
+   "wal-dwb-owain-glyndwr",
+   "wal-coflein-harlech"
+  ]
+ },
+ {
+  "id": "wales-shired",
+  "name": "Wales (shired and united with England)",
+  "kind": "principality",
+  "from": 1536,
+  "to": null,
+  "labelAt": [
+   52.3,
+   -3.7
+  ],
+  "polygon": [
+   [
+    53.35,
+    -3.32
+   ],
+   [
+    53.32,
+    -3.83
+   ],
+   [
+    53.42,
+    -4.3
+   ],
+   [
+    53.31,
+    -4.68
+   ],
+   [
+    53.13,
+    -4.4
+   ],
+   [
+    52.8,
+    -4.76
+   ],
+   [
+    52.8,
+    -4.5
+   ],
+   [
+    52.9,
+    -4.15
+   ],
+   [
+    52.55,
+    -4.06
+   ],
+   [
+    52.41,
+    -4.09
+   ],
+   [
+    52.24,
+    -4.27
+   ],
+   [
+    52.13,
+    -4.7
+   ],
+   [
+    52.02,
+    -5.08
+   ],
+   [
+    51.88,
+    -5.31
+   ],
+   [
+    51.67,
+    -5.1
+   ],
+   [
+    51.63,
+    -4.7
+   ],
+   [
+    51.73,
+    -4.42
+   ],
+   [
+    51.55,
+    -4.25
+   ],
+   [
+    51.56,
+    -3.75
+   ],
+   [
+    51.39,
+    -3.4
+   ],
+   [
+    51.5,
+    -3.05
+   ],
+   [
+    51.61,
+    -2.66
+   ],
+   [
+    51.83,
+    -2.65
+   ],
+   [
+    51.98,
+    -3.07
+   ],
+   [
+    52.35,
+    -2.96
+   ],
+   [
+    52.55,
+    -3.1
+   ],
+   [
+    52.73,
+    -2.97
+   ],
+   [
+    52.89,
+    -3.15
+   ],
+   [
+    52.97,
+    -2.73
+   ],
+   [
+    53.08,
+    -2.88
+   ],
+   [
+    53.19,
+    -2.93
+   ],
+   [
+    53.27,
+    -3.08
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "note": "The Laws in Wales Acts of 1535-6 and 1542-3 united Wales with England, abolished the powers of the marcher lords, created the counties of Monmouth, Brecknock, Radnor, Montgomery and Denbigh beside the older ones, gave Wales members of Parliament and made English the language of the courts. The acts also fixed the boundary with England. The polygon is the modern outline of Wales, generalised; it includes Monmouthshire, which the 1542-3 act placed under the Westminster courts and whose status was long ambiguous. The fetched legislation.gov.uk pages confirm the two acts and their dates; the summary of their provisions is from general knowledge.",
+  "sources": [
+   "wal-legislation-laws-in-wales-1535",
+   "wal-legislation-laws-in-wales-1542"
+  ]
+ }
+]

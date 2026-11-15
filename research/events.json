@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "compiled": "2026-11-13",
+    "method": "Every URL listed under an event's sources was fetched successfully during this research (HTML pages via fetch; three open-access PDFs downloaded and text-extracted). Claims that could not be checked against a fetched page are flagged in the text as 'not verified here'.",
+    "couldNotFetch": [
+      "Historic England registered battlefield report for Barnet (historicengland.org.uk/content/docs/listing/battlefields/barnet) and the NHLE list entry: HTTP 403 on every attempt. The registered area is described here only via the Barnet Battlefield Project report, which reproduces and discusses it.",
+      "Battlefields Trust Barnet page: not located (the IDs tried returned other battles). Battlefields Trust involvement is taken from the Barnet Battlefield Project report and Watson 2022.",
+      "Historic England research report on carbonised grain from Roman London AD 60 (HTTP 403) and the Museum of London LAARC record for site ONE94 (HTTP 530).",
+      "MOLA Southwark monographs and any primary excavation report giving the measured extent or thickness of the Boudican horizon in Southwark.",
+      "Skaldic Project edition of Sigvatr's Vikingarvisur (timed out); medievalists.net page on the 1016 Southwark ditch article (HTTP 403); Lincoln repository chapter on post-Boudican reconstruction (HTTP 403); twentytrees text of the Arrivall (HTTP 410). The Arrivall is quoted only as excerpted in the Barnet Battlefield Project report."
+    ],
+    "coordinateNote": "All lat/lon values are approximate placements chosen by the researcher from general geography, not coordinates published in the cited sources. See each locationNote."
+  },
+  "events": [
+    {
+      "id": "boudica-60",
+      "name": "Boudica's sack of Londinium",
+      "year": 60,
+      "dateNote": "AD 60 or 61; season unknown. Tacitus puts the revolt under the consuls Caesennius Paetus and Petronius Turpilianus (the consuls of AD 61), but many scholars prefer 60 on the grounds that the events need more than one year. The RCHME volume on Roman London prefers 60; MOLA writes 'AD 60/61'. A Bloomberg writing tablet dated 21 October AD 62 shows London trading again by then, which fits either year. Use 60 with a visible 'or 61'.",
+      "lat": 51.5115,
+      "lon": -0.0865,
+      "locationNote": "Site well known in general, not in detail. The pre-revolt town lay on the eastern hill (Cornhill) between the Walbrook and the area north of the bridgehead, with some occupation west of the Walbrook and a suburb at the south end of the bridge in Southwark. The burnt horizon has been recorded on many City sites (King William Street, Lombard Street, Eastcheap, Miles Lane, Fenchurch Street, the Walbrook west bank) and beside the road at the Southwark bridgehead. The point given is an approximate centre of the early town, not a find spot.",
+      "summary": "During the revolt led by Boudica of the Iceni, the governor Suetonius Paulinus reached Londinium ahead of the rebels, judged he had too few troops to hold it, and withdrew, taking those who could march with him. The rebels then destroyed the town and killed those who stayed. Excavation across the City and at the Southwark bridgehead has found a layer of burnt debris of this date. The town was rebuilt within a few years and a fort was built on the eastern hill about AD 63.",
+      "attested": [
+        "Tacitus (Annals 14.33) is the only ancient writer to name Londinium in this context. He calls it a busy centre of merchants and goods, says Suetonius marched there, considered making it his base, decided to sacrifice the one town to save the province, and left; those who stayed behind were killed. Verulamium suffered the same.",
+        "Tacitus says Londinium did not have the status of a colonia. It was a trading town about a decade or so old.",
+        "There was no defence of the town: the governor abandoned it. No pitched fight at London is described in any source.",
+        "A widespread layer of burnt red clay (daub), charred wood and debris, containing pre-60 coins and samian pottery, is recorded on City sites between the Walbrook and the bridgehead. MOLA treats the 'Boudican destruction of the settlement in AD 60' as an event documented by both archaeology and text, and uses it as a dating horizon.",
+        "Burning of this date has also been found in buildings beside the Roman road at the south end of the bridge in Southwark (reported from the mid-1990s onward), so the destruction is taken to have crossed the river.",
+        "Buildings of the period were timber and clay (wattle-and-daub or mud-brick) and mostly low; burnt daub is the main component of the layer.",
+        "Recovery: a stylus tablet from the Bloomberg site records a contract dated 21 October AD 62 to bring twenty loads of provisions from Verulamium to London; a fort of about 3.7 acres with earth-and-timber ramparts and double ditches was built at Plantation Place (Fenchurch Street) in about AD 63."
+      ],
+      "tradition": [
+        "Casualties: Tacitus gives 'close upon seventy thousand' Roman citizens and allies killed across the places attacked (Camulodunum, Londinium, Verulamium together, not London alone). Cassius Dio gives 80,000 and 'two cities' sacked, without naming London. Both are rhetorical round numbers; the Loeb editor's note on Tacitus calls the figure probably valueless.",
+        "Atrocities: Dio's detailed account of mutilation and impalement of captives is not tied to London and has no archaeological support. Dio survives here only in a later epitome and wrote about 150 years after the event (epitome status not verified here).",
+        "Rebel army size: Dio gives 120,000 at the outset and 230,000 at the final battle. Not usable.",
+        "Layer thickness: a secondary website gives 'typically 30-60 cm' of bright red burnt daub, with pits filled to 1.5 m; the 1928 RCHME survey records the layer at 10-13 ft below modern ground. No primary excavation figure was verified here, and the figure will vary site to site.",
+        "Population of Londinium in AD 60: modern estimates of roughly 9,000-10,000 circulate in popular accounts (seen only in search results, not verified here). There is no ancient figure.",
+        "Skulls from the Walbrook as massacre victims: an old suggestion repeated in the press; not established."
+      ],
+      "unknown": [
+        "The month and season, time of day, weather, and how long the destruction took.",
+        "The direction from which the rebels approached and whether they crossed the bridge or the river to reach Southwark.",
+        "How many people remained in the town and how many died there.",
+        "Whether Boudica was present in person, and what the rebels looked like in detail.",
+        "The exact street plan and building-by-building layout of the pre-revolt town; the form of the bridge or crossing in AD 60.",
+        "Whether the whole built area burned or only parts of it; the mapped extent in Southwark."
+      ],
+      "forces": "Unknown. No Roman garrison fought at London; Suetonius withdrew. Rebel numbers in Dio (120,000 to 230,000) are not credible, and Tacitus gives no figure for the force that reached London.",
+      "visualNotes": "Honest staging: a small unwalled riverside town of low timber-and-clay buildings with thatch or shingle roofs on the Cornhill side, a road running to the bridgehead, a modest roadside suburb on the Southwark islands, open country beyond. Show the town emptying, then fire spreading through it and across to the bridgehead suburb, then a burnt-red footprint, then rebuilding and the AD 63 fort. Must not show: city walls, the forum-basilica, amphitheatre or any stone public monuments (all later); a battle or Roman troops defending the town; a specific death toll; scythed chariots; a stone bridge. Label the date '60 or 61'. Any crowd of attackers is conjecture and should be schematic.",
+      "evidence": "attested-excavated",
+      "confidence": "high",
+      "sources": [
+        {"title": "Tacitus, Annals, Book XIV chapters 29-39 (Loeb translation)", "publisher": "LacusCurtius, University of Chicago", "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html"},
+        {"title": "Cassius Dio, Roman History, Epitome of Book LXII (Loeb translation)", "publisher": "LacusCurtius, University of Chicago", "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/62*.html"},
+        {"title": "Introduction: London in A.D. 60, in An Inventory of the Historical Monuments in London, Volume 3, Roman London (RCHME 1928), pp. 27-32", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/rchme/london/vol3/pp27-32"},
+        {"title": "A research framework for London archaeology 2002", "publisher": "Museum of London / MOLA", "url": "https://www.mola.org.uk/sites/default/files/downloads/Research%20framework%20for%20London%20Archaeology%20MOLA%202002.pdf"},
+        {"title": "Roman fort built in response to Boudica's uprising (Plantation Place)", "publisher": "MOLA", "url": "https://www.mola.org.uk/node/27906"},
+        {"title": "Bloomberg writing tablets (contract of 21 October AD 62)", "publisher": "MOLA", "url": "https://www.mola.org.uk/node/27981"},
+        {"title": "Letters from Londinium", "publisher": "Current Archaeology", "url": "https://archaeology.co.uk/articles/features/letters-from-londinium.htm"},
+        {"title": "AD 50 - The story of Roman London", "publisher": "Current Archaeology", "url": "https://archaeology.co.uk/articles/specials/timeline/the-story-of-roman-london.htm"},
+        {"title": "London's catastrophic fires", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/london-catastrophic-fires/"},
+        {"title": "Boudica's Revolt and the Sack of London (secondary; source of the 30-60 cm figure)", "publisher": "roman-britain.co.uk", "url": "https://www.roman-britain.co.uk/boudica-the-iceni-warrior-queen/boudica-sacks-london-and-verulamium"},
+        {"title": "Boudican revolt (lead only)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Boudican_revolt"}
+      ]
+    },
+    {
+      "id": "london-bridge-1014",
+      "name": "Olaf Haraldsson's attack on London Bridge (saga tradition)",
+      "year": 1014,
+      "dateNote": "Uncertain. Snorri places it after Swein Forkbeard's death (February 1014) as part of Aethelred's return, hence the usual '1014'; Hagland and Watson accept 1014 following Ian Howard's chronology. Olaf's early career is poorly dated and he is also associated with Thorkell's army, which attacked London unsuccessfully in 1009-10, so some place his London fighting then, and on the Danish side. The Anglo-Saxon Chronicle for 1014 says only that Aethelred came home in Lent and was gladly received.",
+      "lat": 51.5079,
+      "lon": -0.0868,
+      "locationNote": "The place is known; the event is not. A timber bridge existed by about 1000 (first phase built of timber felled c. 987-1032) on roughly the line of the later medieval bridge, a little downstream of the present London Bridge, with Southwark at its south end. The point given is approximate mid-river on that line.",
+      "summary": "Aethelred returned from exile in 1014 after Swein's death and recovered his kingdom; London was central to that. Norse court poetry composed for Olaf Haraldsson credits him with fighting at London and, in one stanza, with breaking 'Lundúna bryggjur'. About two centuries later Snorri Sturluson built these verses into a detailed story of Olaf's ships pulling the bridge down. No English source mentions such an attack.",
+      "attested": [
+        "A fortified timber bridge at London existed at this time: structural timbers are tree-ring dated to c. 987-1032, and the bridge is mentioned in the law code IV Aethelred.",
+        "The Anglo-Saxon Chronicle shows the bridge mattered militarily: in 1013 part of Swein's army drowned in the Thames because they did not use a bridge, and London held out for Aethelred and Thorkell; in 1016 Cnut's ships could not pass it.",
+        "Aethelred returned in Lent 1014 and then drove Cnut out of Lindsey (Anglo-Saxon Chronicle).",
+        "Near-contemporary skaldic verse exists: Ottarr svarti's Hofudlausn, stanza 7, addresses Olaf with 'you broke the bryggjur of London'; Sigvatr Thordarson's Vikingarvisur lists a battle of Olaf's at London and Sudvirki (Southwark). These are praise poems by Olaf's own poets.",
+        "Olaf was venerated in London soon afterwards: six medieval churches in London and Southwark were dedicated to him, one at the south end of the bridge (Tooley Street is a corruption of St Olave's)."
+      ],
+      "tradition": [
+        "The whole narrative of the attack comes from Snorri's Heimskringla (Saga of St Olaf, written c. 1230): Danes holding London and a fortification at Southwark with large ditches and a rampart of timber, stone and turf; a bridge wide enough for two wagons to pass, with towers and breast-high wooden parapets on the downstream side, standing on piles.",
+        "The tactics are Snorri's alone: Olaf roofed his ships with platforms made from pulled-down houses (wood bound with hazel or withies, often rendered 'wattle' or 'wickerwork' in modern retellings) on stout posts, rowed up under the bridge under a hail of stones and missiles, fastened cables round the piles, and rowed hard downstream until the piles loosened and the loaded bridge gave way; Southwark was then stormed and London submitted to Aethelred.",
+        "That 'bryggjur' means the bridge: the word is plural and can mean wharves or jetties. The editor of Sigvatr's poem argues that his stanza refers to London's wharves, not its bridge.",
+        "That Olaf fought for Aethelred: this is Snorri's framing; the Encyclopaedia Romana page notes other sources put Olaf on the Danish side.",
+        "The link to the nursery rhyme 'London Bridge is falling down': Samuel Laing's 1844 translation was phrased to echo the rhyme; John Clark's study rejects the folk-memory idea."
+      ],
+      "unknown": [
+        "Whether any attack on the bridge happened at all, and if so in which year and on which side Olaf fought.",
+        "Whether the bridge was pulled down, damaged, or simply fought over. Hagland and Watson, who think the attack plausible, say the damage may well be exaggerated.",
+        "The actual form of the bridge superstructure and of any Southwark defences in 1014; no excavated evidence fixes them for this date.",
+        "Numbers of ships and men, the defenders' identity, the season, weather and tide.",
+        "Whether 9th-11th-century axes, spearheads and a grappling iron dredged near the bridge relate to fighting at all (they may be carpenters' losses)."
+      ],
+      "forces": "Unknown. The saga gives no usable numbers and the English sources do not mention the event.",
+      "visualNotes": "Honest staging: show what is evidenced as solid and what is saga as visibly marked legend. Solid: a low timber pile bridge between the walled city (Roman walls still standing) and a small Southwark bridgehead settlement on low islands, tidal river, clinker-built ships of the period. Legend layer (label it 'according to Snorri Sturluson, c. 1230'): roofed ships rowing up to the piles, cables, a section of bridge giving way. Must not show: a stone bridge, houses on the bridge, the Tower of London, a confident collapse of the entire bridge presented as fact, a precise date without '?', or Danish/English banners identifying sides as certain. Scholarly opinion is split: Hagland and Watson see 'no reason to disbelieve' Snorri; others treat it as late embroidery of ambiguous verse.",
+      "evidence": "conjectural",
+      "confidence": "low",
+      "sources": [
+        {"title": "Fact or folklore: the Viking attack on London Bridge, J. R. Hagland and B. Watson, London Archaeologist 10(12), 2005, 328-333 (PDF)", "publisher": "London Archaeologist via Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol10/vol10_12/10_12_328_333.pdf"},
+        {"title": "Fact or folklore: the Viking attack on London Bridge (abstract and link)", "publisher": "Medievalists.net", "url": "https://www.medievalists.net/2010/08/fact-or-folklore-the-viking-attack-on-london-bridge/"},
+        {"title": "Heimskringla, Saga of Olaf Haraldson: chapter on the Danish works at Southwark and the bridge (English translation; translator not stated on the page, wording matches Laing)", "publisher": "Wisdom Library", "url": "https://www.wisdomlib.org/scandinavia/book/heimskringla/d/doc5249.html"},
+        {"title": "Heimskringla, Saga of Olaf Haraldson: chapter on the breaking of the bridge, with verses of Ottar Svarte and Sigvat", "publisher": "Wisdom Library", "url": "https://www.wisdomlib.org/scandinavia/book/heimskringla/d/doc5250.html"},
+        {"title": "Olaf Haraldsson (Encyclopaedia Romana)", "publisher": "University of Chicago (J. Grout)", "url": "https://penelope.uchicago.edu/~grout/encyclopaedia_romana/Britannia/anglo-saxon/maldon/haraldsson.html"},
+        {"title": "The Anglo-Saxon Chronicle, eleventh century (entries for 1009, 1013, 1014)", "publisher": "Avalon Project, Yale Law School", "url": "https://avalon.law.yale.edu/medieval/ang11.asp"},
+        {"title": "Tooley Street Delight (19 March 2022): Sigvatr's stanza, bryggjur as wharves", "publisher": "Norse and Viking Ramblings (academic blog)", "url": "https://norseandviking.blogspot.com/search/label/skaldic"}
+      ]
+    },
+    {
+      "id": "brentford-1016",
+      "name": "Battle of Brentford",
+      "year": 1016,
+      "dateNote": "Summer 1016; day and month not recorded. In the Chronicle's sequence it follows Cnut's siege of London (begun about May), Edmund's fights at Penselwood and Sherston (after midsummer) and his relief of London, with Brentford 'two days' after the relief. It precedes Assandun (18 October 1016).",
+      "lat": 51.4805,
+      "lon": -0.3075,
+      "locationNote": "Poorly known. The Chronicle says only that Edmund crossed the Thames at Brentford. The Victoria County History notes the place-name is usually taken to mean the ford over the Brent, though a Thames crossing is possible, and that stakes on the foreshore at 'Old England' (near the Brent-Thames confluence, by Syon) may have defended a ford; it places the 1016 fight on the south bank. The point given is the approximate Brent-Thames confluence and is a placeholder, not a located battlefield. No archaeology of the battle is known.",
+      "summary": "In 1016 Cnut's army besieged London, digging a ditch on the south side and dragging its ships to the west of the bridge. Edmund Ironside relieved the city, and two days later crossed the Thames at Brentford and fought the Danish army, putting it to flight. Many of the English were lost by drowning, which the Chronicle blames on their own carelessness in going ahead of the army for plunder. Edmund then went to Wessex to raise more men and the Danes returned to besiege London.",
+      "attested": [
+        "The only narrative source is the Anglo-Saxon Chronicle entry for 1016: Edmund 'went over at Brentford', fought the army and put it to flight; many English drowned through their own carelessness, having gone ahead of the main force hoping for booty.",
+        "Context in the same entry: the Danish ships came to Greenwich and then London, 'dug a great ditch on the south side and dragged their ships to the west side of the bridge', then enclosed the city with a ditch so that no one could get in or out; the city held.",
+        "The bridge was held against Cnut in 1016, which is why the ships had to be taken round it through north Southwark.",
+        "After the battle Edmund went to Wessex to gather the army and the Danes resumed the siege of London; later in the year Edmund 'forded over the Thames at Brentford' a second time on his way into Kent.",
+        "An anonymous skaldic poem, Lidsmannaflokkr, in the voice of a Danish soldier, celebrates fighting by the Thames and beside the dyke at London in this campaign (it does not describe Brentford)."
+      ],
+      "tradition": [
+        "That the battle was fought on the south (Surrey) bank after a crossing from north to south: an inference from the Chronicle's wording, repeated by the Victoria County History. Wikipedia reports that Knutsdrapa has been read as implying fighting on both banks (lead only, not verified here).",
+        "That the English dead were battle casualties, not drowned: argued by Frank Stenton and Russell Poole according to Wikipedia (lead only, not verified here).",
+        "That the crossing was at Old England by the Brent mouth, and that the foreshore stakes there relate to a defended ford: possible, unproven, and the stakes are undated in the source read.",
+        "The modern Brentford monument listing the battle marks tradition, not a located site.",
+        "A Danish strength of 8,000-12,000 appears in Wikipedia's infobox without contemporary basis."
+      ],
+      "unknown": [
+        "The date, the exact crossing point, and which bank the fighting was on.",
+        "Whether Cnut was present in person; who commanded the Danes on the day.",
+        "Numbers on either side and losses.",
+        "Where and how the drowning happened (at the ford on the crossing, or in pursuit).",
+        "The course and width of Cnut's ditch through Southwark; no excavated trace was verified here.",
+        "The state of the tide, the weather, and the look of the riverbank (the Thames here was wider, shallower and braided with aits)."
+      ],
+      "forces": "unknown",
+      "visualNotes": "Honest staging: two linked scenes. (1) London: a timber bridge held by the English, Danish ships below it, a ditch being cut across the low ground of north Southwark and ships hauled round to the upstream side, a siege ditch around the walled city. (2) Brentford, about 13 km upstream: a broad, shallow, tidal Thames with gravel banks and aits at the Brent mouth, a small settlement on the north bank road, an English force wading or fording, a Danish force withdrawing, and men in difficulty in the water. Keep both armies schematic and small. Must not show: a pinned battlefield marker presented as exact, a bridge at Brentford, cavalry charges, named commanders at specific spots, casualty figures, or a precise date. The ditch line in Southwark must be drawn as indicative.",
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "sources": [
+        {"title": "The Anglo-Saxon Chronicle, eleventh century (entry for 1016)", "publisher": "Avalon Project, Yale Law School", "url": "https://avalon.law.yale.edu/medieval/ang11.asp"},
+        {"title": "The Danish Conquest, Part 10: The Siege of London (Old English text and translation of the 1016 siege passage; Lidsmannaflokkr)", "publisher": "A Clerk of Oxford (academic blog)", "url": "https://aclerkofoxford.blogspot.com/2016/05/the-danish-conquest-part-10-siege-of.html"},
+        {"title": "Ealing and Brentford: Growth of Brentford, in A History of the County of Middlesex, Volume 7 (Victoria County History), pp. 113-120", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/middx/vol7/pp113-120"},
+        {"title": "Fact or folklore: the Viking attack on London Bridge, Hagland and Watson 2005 (for 1016: Cnut's ships dragged across north Southwark)", "publisher": "London Archaeologist via Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol10/vol10_12/10_12_328_333.pdf"},
+        {"title": "Battle of Brentford (1016) (lead only)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Battle_of_Brentford_(1016)"}
+      ]
+    },
+    {
+      "id": "barnet-1471",
+      "name": "Battle of Barnet",
+      "year": 1471,
+      "dateNote": "Easter Sunday, 14 April 1471 (Julian calendar). Secure. Edward left London about 4 pm on 13 April and deployed in the dark; fighting began around dawn. Warkworth says about 4 am to 10 am; other accounts imply a shorter fight.",
+      "lat": 51.668,
+      "lon": -0.199,
+      "locationNote": "The general area is certain (north of High Barnet along the old St Albans road); the exact battlefield is not. English Heritage registered a battlefield in 1995 centred on Hadley Green / Monken Hadley, following a National Army Museum report. The 2015-18 Barnet Battlefield Project (University of Huddersfield, with the Battlefields Trust and Barnet Museum) concluded 'we cannot accurately identify the battlefield': sources agree it lay between half a mile and a mile north of the town, the terrain of the former Kicks End (Kitts End) Common about 1.9 km north of the Barnet boundary best fits them, and Hadley Green is 'problematic'; but metal-detecting found no conclusive battle scatter. Watson (2022) gives the current best guess as a circle of 1 km radius centred on Kitts End. The point given is near Hadley Highstone, between the registered area and Kitts End; treat it as the middle of a zone roughly 2 km long, not a site.",
+      "summary": "Edward IV, returned from exile, marched out of London on 13 April 1471 and deployed at night close to the army of the Earl of Warwick north of Barnet. The armies fought at dawn on Easter Sunday in thick mist, their lines misaligned so that each overlapped the other at one end. Edward won; Warwick and his brother John Neville, Marquess Montagu, were killed. Their bodies were displayed at St Paul's, and Edward went on to defeat Margaret of Anjou's army at Tewkesbury on 4 May.",
+      "attested": [
+        "Date, commanders and outcome: Edward IV defeated Warwick; Warwick and Montagu were killed; the Duke of Exeter was badly wounded and left for dead; the Earl of Oxford escaped. Henry VI was brought to the field with Edward's army and returned to the Tower.",
+        "Mist or fog: reported independently by the Arrivall, Warkworth and Gerhard von Wesel's newsletter of 17 April 1471 (which says the fog was also in London).",
+        "Misaligned lines: the Arrivall says the two battles did not meet 'directly frount to frount' because of the mist. At the west end the Lancastrians overreached the king's line and drove it back, with fugitives fleeing through Barnet towards London; at the east end the king's line overreached theirs.",
+        "Night before: Edward would not let his men stay in the town, lodged them very close to the enemy and kept silence; Warwick's guns fired through the night and overshot.",
+        "Warwick had arrived first and chose the ground; the Arrivall has him 'undre an hedge-syde' somewhat more than half a mile from Barnet; von Wesel and the Great Chronicle of London imply nearer a mile. The battle was fought on foot.",
+        "Yorkist order of march and battle (Great Chronicle of London, Hall): Gloucester the vanguard, Edward with Clarence the main battle, Hastings the rearward. Oxford led the Lancastrian vanguard and routed the wing opposite him, which was Hastings's.",
+        "A chapel for the dead was established near the field soon after; the hermitage chapel at Kitts End is the usual candidate, but geophysics there found a moat and no graves.",
+        "Survey finds 2015-18: of 1,007 recorded objects only 16-17 were certainly medieval; a few lead round shot are known from the Wrotham Park / Kitts End / Old Fold area. No mass grave has been found."
+      ],
+      "tradition": [
+        "Army sizes: the sources contradict each other along party lines. Arrivall (Yorkist): 9,000 against 30,000. Warkworth: Edward about 7,000-8,000 against Warwick 20,000. Von Wesel: Edward 15,000-20,000. Polydore Vergil (decades later): Edward 'far superior' in numbers. Modern compromise figures (Hammond: about 12,000 Yorkists, 15,000 Lancastrians; others 10,000 and 15,000) are estimates, and the project report notes historians now tend to reduce such numbers further.",
+        "The tidy textbook deployment (Lancastrians: Oxford right, Montagu centre, Exeter left, Warwick in reserve; Yorkists: Hastings left, Edward centre, Gloucester right) is a modern reconstruction. The wing positions are inferred from military convention (vanguard on the right) plus the Arrivall; Hall, the only chronicler to give a Lancastrian order, puts Oxford and Montagu on the left, Warwick and Exeter on the right, and Somerset (who was not there) in the centre.",
+        "Oxford's star badge mistaken for Edward's sun and the cry of 'Treason': from Warkworth alone. The History of Parliament notes it 'is perhaps not to be taken too seriously' and that there is no evidence a star with streams was a de Vere badge.",
+        "Montagu wearing Edward's livery and being killed by Warwick's own men (Warkworth): regarded as improbable.",
+        "Warwick killed fleeing to a wood, or while reaching his horse: details vary by source. The Hadley Highstone obelisk (1740) marks a traditional spot only.",
+        "Casualties: Sir John Paston's letter says over 1,000 besides the notables; Warkworth about 4,000; a foreign report 10,000; von Wesel says more than 10,000 broken arrows lay on the field. None is reliable.",
+        "Place-names 'Gladmore Heath' and 'Dead Man's Bottom': the project report shows 'Gladmore Heath' grew out of a map label ('Gladmore heath field') on Norden's 1598 map, and treats Dead Man's Bottom as a late, possibly spurious association."
+      ],
+      "unknown": [
+        "The exact position, length and orientation of both battle lines (probably roughly east-west across or beside the St Albans road, but six different deployments are considered possible in the project report).",
+        "The real size of either army and of each division, and where Warwick, Montagu and Exeter each stood.",
+        "Where Warwick and Montagu died.",
+        "The number, type and position of guns on either side.",
+        "How far the landscape was open heath or hedged enclosure in 1471 (the commons were probably larger than later maps show).",
+        "How long the fighting lasted and how dense the mist was through the morning."
+      ],
+      "forces": "Uncertain. Contemporary figures range from 7,000-20,000 for Edward and 20,000-30,000 for Warwick and are partisan. Modern estimates of roughly 10,000-12,000 Yorkists against about 15,000 Lancastrians are educated guesses; the true numbers may have been lower.",
+      "visualNotes": "Honest staging: a level hilltop plateau north of the small town of High Barnet, with the road to St Albans running north through open common and heath (Hadley Green, Kicks End Common) edged by hedged enclosures and the bank of Enfield Chase to the east; Monken Hadley church present; a damp hollow on the Yorkist side. Dawn, low light, thick ground mist that hides one line from the other. Two infantry lines on foot, offset so each overlaps the other's flank at opposite ends; the west end of the Yorkist line breaks and streams south through Barnet while the east end pushes forward, so the whole fight rotates. Guns present on both sides, effect unknown. Show the battlefield as a shaded zone from Hadley Green north to Kitts End, with the registered area and the Kitts End alternative both indicated. Must not show: a single confident battlefield pin; exact troop counts; named commanders pinned to precise spots other than in a labelled 'reconstruction'; cavalry charges; the Hadley Highstone obelisk (1740) or later roads and buildings; the star-and-sun confusion presented as fact.",
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "sources": [
+        {"title": "The Barnet Battlefield Project 2015-2018, G. Foard, T. Partida and S. Wilson (University of Huddersfield; PDF, includes excerpts from the Arrivall, Warkworth, von Wesel, Hall and the registered battlefield map)", "publisher": "Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-3872-1/dissemination/pdf/Barnet_Battlefield_Project_2015-2018.pdf"},
+        {"title": "Looking for the site of the Battle of Barnet, B. Watson, London Archaeologist 16(7), Winter 2022, 192-195 (PDF)", "publisher": "London Archaeologist via Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol16/LonArch_16-07/LonArch_16-07_09_Watson_Barnet.pdf"},
+        {"title": "Mystery remains over lost battlefield site of 1471 Battle of Barnet (19 March 2021)", "publisher": "The Barnet Society", "url": "https://www.barnetsociety.org.uk/mystery-remains-over-lost-battlefield-site-of-1471-battle-of-barnet/"},
+        {"title": "Warkworth's Chronicle: the Battle of Barnet (text of the 1839 Camden Society edition)", "publisher": "eblong.com (transcription)", "url": "https://eblong.com/draconc/static/warkworth-barnet.html"},
+        {"title": "'How much ancient divisions survive': unnatural alliances and the battle of Barnet, 14 April 1471", "publisher": "The History of Parliament", "url": "https://historyofparliament.com/2021/04/14/battle-of-barnet/"},
+        {"title": "The Battle of Barnet and the Great North Road (secondary; Norden map, 1995 registration, obelisk)", "publisher": "greatnorthroad.co.uk", "url": "https://greatnorthroad.co.uk/?p=5497"}
+      ]
+    }
+  ]
+}

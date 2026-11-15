@@ -1,0 +1,226 @@
+[
+  {
+    "entity_id": "england-wales/battle-maldon",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=23",
+    "source_reference_WGS84": [
+      51.717147113879726,
+      0.701322989452479
+    ],
+    "app_WGS84": [
+      51.7177,
+      0.7021
+    ],
+    "offset_metres": 82,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-fulford",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=52",
+    "source_reference_WGS84": [
+      53.932627313174166,
+      -1.0708845552518838
+    ],
+    "app_WGS84": [
+      53.931,
+      -1.071
+    ],
+    "offset_metres": 181,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-stamford-bridge",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=41",
+    "source_reference_WGS84": [
+      53.98727997874482,
+      -0.9029876613900539
+    ],
+    "app_WGS84": [
+      53.9869,
+      -0.9034
+    ],
+    "offset_metres": 50,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-hastings",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=17",
+    "source_reference_WGS84": [
+      50.91423331389412,
+      0.4880865732833934
+    ],
+    "app_WGS84": [
+      50.912,
+      0.487
+    ],
+    "offset_metres": 260,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-standard",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=32",
+    "source_reference_WGS84": [
+      54.37613303749644,
+      -1.4442294274673397
+    ],
+    "app_WGS84": [
+      54.3766,
+      -1.4441
+    ],
+    "offset_metres": 53,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-lewes",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=22",
+    "source_reference_WGS84": [
+      50.88269287635692,
+      -0.011365902696558534
+    ],
+    "app_WGS84": [
+      50.8818,
+      -0.0148
+    ],
+    "offset_metres": 261,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-evesham",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=14",
+    "source_reference_WGS84": [
+      52.10808554297775,
+      -1.9437393638711757
+    ],
+    "app_WGS84": [
+      52.106,
+      -1.946
+    ],
+    "offset_metres": 279,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-nevilles-cross",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=28",
+    "source_reference_WGS84": [
+      54.77584678545257,
+      -1.5973342315651515
+    ],
+    "app_WGS84": [
+      54.777,
+      -1.6
+    ],
+    "offset_metres": 214,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-otterburn",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=34",
+    "source_reference_WGS84": [
+      55.2394822495318,
+      -2.1915141776141067
+    ],
+    "app_WGS84": [
+      55.2397,
+      -2.1919
+    ],
+    "offset_metres": 34,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-shrewsbury",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=39",
+    "source_reference_WGS84": [
+      52.75188708039814,
+      -2.7338385614251046
+    ],
+    "app_WGS84": [
+      52.7502,
+      -2.7294
+    ],
+    "offset_metres": 353,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-towton",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=46",
+    "source_reference_WGS84": [
+      53.839797824462,
+      -1.2684242325267343
+    ],
+    "app_WGS84": [
+      53.84,
+      -1.268
+    ],
+    "offset_metres": 36,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-barnet",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=5",
+    "source_reference_WGS84": [
+      51.66308656055808,
+      -0.2003779775656034
+    ],
+    "app_WGS84": [
+      51.666,
+      -0.199
+    ],
+    "offset_metres": 338,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-tewkesbury",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=45",
+    "source_reference_WGS84": [
+      51.98322631970586,
+      -2.160441330911521
+    ],
+    "app_WGS84": [
+      51.9819,
+      -2.1635
+    ],
+    "offset_metres": 256,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-bosworth",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=8",
+    "source_reference_WGS84": [
+      52.583969958071386,
+      -1.4186447703395826
+    ],
+    "app_WGS84": [
+      52.584,
+      -1.4186
+    ],
+    "offset_metres": 5,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-stoke-field",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=42",
+    "source_reference_WGS84": [
+      53.03317268402102,
+      -0.8979569238442698
+    ],
+    "app_WGS84": [
+      53.0336,
+      -0.8946
+    ],
+    "offset_metres": 230,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  },
+  {
+    "entity_id": "england-wales/battle-flodden",
+    "source_url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=15",
+    "source_reference_WGS84": [
+      55.62746864639711,
+      -2.1667875819719558
+    ],
+    "app_WGS84": [
+      55.627,
+      -2.1671
+    ],
+    "offset_metres": 56,
+    "interpretation": "Distance to source reference marker, NOT error relative to true battlefield."
+  }
+]

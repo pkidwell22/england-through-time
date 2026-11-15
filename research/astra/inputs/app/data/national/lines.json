@@ -1,0 +1,3835 @@
+[
+ {
+  "id": "rr-watling-street-se",
+  "name": "Watling Street (Richborough–Canterbury–London)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.2931,
+    1.3326
+   ],
+   [
+    51.2943,
+    1.3068
+   ],
+   [
+    51.2779,
+    1.2837
+   ],
+   [
+    51.2764,
+    1.2196
+   ],
+   [
+    51.2655,
+    1.1939
+   ],
+   [
+    51.2768,
+    1.1521
+   ],
+   [
+    51.2765,
+    1.0801
+   ],
+   [
+    51.2816,
+    1.0849
+   ],
+   [
+    51.2765,
+    1.0801
+   ],
+   [
+    51.2916,
+    0.9749
+   ],
+   [
+    51.3742,
+    0.5466
+   ],
+   [
+    51.3834,
+    0.5114
+   ],
+   [
+    51.3951,
+    0.4975
+   ],
+   [
+    51.3998,
+    0.4178
+   ],
+   [
+    51.4282,
+    0.3277
+   ],
+   [
+    51.4807,
+    -0.0249
+   ],
+   [
+    51.4932,
+    -0.0832
+   ],
+   [
+    51.5007,
+    -0.0914
+   ],
+   [
+    51.5089,
+    -0.0848
+   ]
+  ],
+  "from": 43,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road from the invasion base at Richborough through Canterbury and Rochester to the Thames crossing at London: the first main road of Roman Britain, laid out in the years after AD 43.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 19 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. ‘Watling Street’ is an Anglo-Saxon name. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-watling-street-dover",
+  "name": "Watling Street (Dover–Canterbury)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.1261,
+    1.3122
+   ],
+   [
+    51.1524,
+    1.2715
+   ],
+   [
+    51.1621,
+    1.2481
+   ],
+   [
+    51.1629,
+    1.2333
+   ],
+   [
+    51.1855,
+    1.1929
+   ],
+   [
+    51.2529,
+    1.1184
+   ],
+   [
+    51.2765,
+    1.0801
+   ],
+   [
+    51.2816,
+    1.0849
+   ]
+  ],
+  "from": 50,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road from the port of Dover to Canterbury, where it joined the Richborough road to London.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 8 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-watling-street-nw",
+  "name": "Watling Street (London–St Albans–Wroxeter)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.5156,
+    -0.08
+   ],
+   [
+    51.5128,
+    -0.0873
+   ],
+   [
+    51.5463,
+    -0.157
+   ],
+   [
+    51.5844,
+    -0.2174
+   ],
+   [
+    51.6077,
+    -0.2207
+   ],
+   [
+    51.6242,
+    -0.2395
+   ],
+   [
+    51.6685,
+    -0.2558
+   ],
+   [
+    51.7518,
+    -0.3389
+   ],
+   [
+    51.7488,
+    -0.3603
+   ],
+   [
+    51.8165,
+    -0.4082
+   ],
+   [
+    51.8346,
+    -0.4587
+   ],
+   [
+    51.8649,
+    -0.4862
+   ],
+   [
+    51.9806,
+    -0.6687
+   ],
+   [
+    52.0437,
+    -0.8264
+   ],
+   [
+    52.1308,
+    -0.9858
+   ],
+   [
+    52.2016,
+    -1.0407
+   ],
+   [
+    52.239,
+    -1.0811
+   ],
+   [
+    52.3382,
+    -1.1508
+   ],
+   [
+    52.4268,
+    -1.2284
+   ],
+   [
+    52.493,
+    -1.303
+   ],
+   [
+    52.498,
+    -1.2973
+   ],
+   [
+    52.493,
+    -1.303
+   ],
+   [
+    52.5531,
+    -1.4641
+   ],
+   [
+    52.5992,
+    -1.6199
+   ],
+   [
+    52.6274,
+    -1.7678
+   ],
+   [
+    52.6554,
+    -1.8496
+   ],
+   [
+    52.6559,
+    -1.9551
+   ],
+   [
+    52.6803,
+    -2.0513
+   ],
+   [
+    52.6936,
+    -2.1351
+   ],
+   [
+    52.696,
+    -2.5013
+   ],
+   [
+    52.6908,
+    -2.574
+   ],
+   [
+    52.674,
+    -2.6416
+   ]
+  ],
+  "from": 50,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The main road north-west from London through Verulamium (St Albans), Towcester, High Cross and Wall to the legionary base and later town at Wroxeter. Much of the A5 follows it.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 32 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. It was probably built in stages between the late 40s and about AD 60 as the army moved north-west; a single start year is a simplification. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-watling-street-chester",
+  "name": "Watling Street (Wroxeter–Whitchurch–Chester)",
+  "kind": "roman-road",
+  "path": [
+   [
+    52.674,
+    -2.6416
+   ],
+   [
+    52.6696,
+    -2.6464
+   ],
+   [
+    52.7064,
+    -2.6318
+   ],
+   [
+    52.7858,
+    -2.6542
+   ],
+   [
+    52.828,
+    -2.6482
+   ],
+   [
+    52.8386,
+    -2.66
+   ],
+   [
+    52.861,
+    -2.6522
+   ],
+   [
+    52.8949,
+    -2.662
+   ],
+   [
+    52.9394,
+    -2.6593
+   ],
+   [
+    52.968,
+    -2.6822
+   ],
+   [
+    53.0007,
+    -2.7422
+   ],
+   [
+    53.0429,
+    -2.7848
+   ],
+   [
+    53.0807,
+    -2.8393
+   ],
+   [
+    53.1893,
+    -2.8906
+   ]
+  ],
+  "from": 75,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The continuation from Wroxeter north through Whitchurch (Mediolanum) to the legionary fortress at Chester.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 14 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. Dated here from the founding of the Chester fortress in the mid 70s AD. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-ermine-street",
+  "name": "Ermine Street (London–Lincoln–York)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.5173,
+    -0.0786
+   ],
+   [
+    51.7924,
+    -0.0435
+   ],
+   [
+    51.8421,
+    -0.0256
+   ],
+   [
+    51.9046,
+    0.0263
+   ],
+   [
+    51.8977,
+    0.0207
+   ],
+   [
+    51.9603,
+    -0.0273
+   ],
+   [
+    52.038,
+    -0.0186
+   ],
+   [
+    52.2282,
+    -0.1013
+   ],
+   [
+    52.3263,
+    -0.1755
+   ],
+   [
+    52.3572,
+    -0.2112
+   ],
+   [
+    52.3786,
+    -0.2533
+   ],
+   [
+    52.5107,
+    -0.2924
+   ],
+   [
+    52.5895,
+    -0.3802
+   ],
+   [
+    52.588,
+    -0.3561
+   ],
+   [
+    52.6388,
+    -0.3567
+   ],
+   [
+    52.7276,
+    -0.3624
+   ],
+   [
+    52.7935,
+    -0.392
+   ],
+   [
+    52.8697,
+    -0.474
+   ],
+   [
+    52.9711,
+    -0.5414
+   ],
+   [
+    52.9894,
+    -0.5304
+   ],
+   [
+    53.0959,
+    -0.5141
+   ],
+   [
+    53.2114,
+    -0.545
+   ],
+   [
+    53.245,
+    -0.5363
+   ],
+   [
+    53.594,
+    -0.5583
+   ],
+   [
+    53.7421,
+    -0.583
+   ],
+   [
+    53.8032,
+    -0.6166
+   ],
+   [
+    53.8826,
+    -0.719
+   ],
+   [
+    53.9187,
+    -0.7866
+   ],
+   [
+    53.9376,
+    -0.86
+   ],
+   [
+    53.9528,
+    -0.957
+   ],
+   [
+    53.9572,
+    -1.0759
+   ]
+  ],
+  "from": 60,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The great north road of Roman Britain, from London through Godmanchester, Water Newton and Ancaster to Lincoln, then on to the Humber, crossed by ferry to Brough, and to York.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 31 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The London–Lincoln stretch is probably of the late 40s to about AD 60 (the Lincoln fortress); the stretch beyond the Humber follows the founding of York in AD 71. The short straight across the Humber is the ferry, not a road. ‘Ermine Street’ is an Anglo-Saxon name. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-roman-ridge",
+  "name": "Lincoln–Doncaster–Castleford–Tadcaster–York road",
+  "kind": "roman-road",
+  "path": [
+   [
+    53.235,
+    -0.5366
+   ],
+   [
+    53.2853,
+    -0.5389
+   ],
+   [
+    53.3328,
+    -0.7643
+   ],
+   [
+    53.3681,
+    -0.8761
+   ],
+   [
+    53.4057,
+    -0.9388
+   ],
+   [
+    53.4188,
+    -0.9933
+   ],
+   [
+    53.4344,
+    -1.0179
+   ],
+   [
+    53.4979,
+    -1.051
+   ],
+   [
+    53.5461,
+    -1.1843
+   ],
+   [
+    53.5672,
+    -1.2045
+   ],
+   [
+    53.614,
+    -1.2256
+   ],
+   [
+    53.6835,
+    -1.3363
+   ],
+   [
+    53.7197,
+    -1.3539
+   ],
+   [
+    53.8516,
+    -1.3368
+   ],
+   [
+    53.8852,
+    -1.2632
+   ],
+   [
+    53.9264,
+    -1.1164
+   ],
+   [
+    53.9513,
+    -1.0966
+   ],
+   [
+    53.9601,
+    -1.0784
+   ]
+  ],
+  "from": 71,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The landward route from Lincoln to York by Doncaster, Castleford and Tadcaster, which avoided the Humber ferry; known in places as the Roman Ridge.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 18 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-fosse-way",
+  "name": "Fosse Way (Exeter–Bath–Cirencester–Leicester–Lincoln)",
+  "kind": "roman-road",
+  "path": [
+   [
+    50.7223,
+    -3.5313
+   ],
+   [
+    50.719,
+    -3.4917
+   ],
+   [
+    50.8008,
+    -3.1816
+   ],
+   [
+    50.773,
+    -3.0001
+   ],
+   [
+    50.8299,
+    -2.9615
+   ],
+   [
+    50.8878,
+    -2.8685
+   ],
+   [
+    50.9108,
+    -2.8544
+   ],
+   [
+    50.9996,
+    -2.6831
+   ],
+   [
+    51.1353,
+    -2.5492
+   ],
+   [
+    51.2281,
+    -2.5126
+   ],
+   [
+    51.3008,
+    -2.454
+   ],
+   [
+    51.3637,
+    -2.3664
+   ],
+   [
+    51.389,
+    -2.3573
+   ],
+   [
+    51.4117,
+    -2.2978
+   ],
+   [
+    51.4893,
+    -2.2571
+   ],
+   [
+    51.6718,
+    -2.0557
+   ],
+   [
+    51.7246,
+    -1.9425
+   ],
+   [
+    51.7618,
+    -1.9317
+   ],
+   [
+    51.9145,
+    -1.7263
+   ],
+   [
+    52.0159,
+    -1.6886
+   ],
+   [
+    52.3317,
+    -1.4111
+   ],
+   [
+    52.4853,
+    -1.3095
+   ],
+   [
+    52.5774,
+    -1.1955
+   ],
+   [
+    52.688,
+    -1.0905
+   ],
+   [
+    52.812,
+    -1.035
+   ],
+   [
+    52.904,
+    -1.02
+   ],
+   [
+    52.9493,
+    -0.9773
+   ],
+   [
+    53.0475,
+    -0.8652
+   ],
+   [
+    53.1349,
+    -0.7194
+   ],
+   [
+    53.2024,
+    -0.5511
+   ],
+   [
+    53.235,
+    -0.5366
+   ]
+  ],
+  "from": 47,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "A road running diagonally across England from Exeter by Ilchester, Bath, Cirencester, High Cross and Leicester to Lincoln, remarkably direct for its length.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 31 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. It is often dated to about AD 47 and read as an early frontier line; that reading is debated, and the south-western part is probably a little later. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-stane-street",
+  "name": "Stane Street (London–Chichester)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.5089,
+    -0.0848
+   ],
+   [
+    51.3511,
+    -0.2457
+   ],
+   [
+    51.3181,
+    -0.2658
+   ],
+   [
+    51.263,
+    -0.3206
+   ],
+   [
+    51.1824,
+    -0.3341
+   ],
+   [
+    50.9781,
+    -0.4876
+   ],
+   [
+    50.9512,
+    -0.5161
+   ],
+   [
+    50.8363,
+    -0.7778
+   ]
+  ],
+  "from": 60,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road from London Bridge over the North Downs and the Weald to Chichester.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 8 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. Usually thought to have been built within a generation of the conquest; by AD 70 at the latest. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-devils-highway",
+  "name": "Devil’s Highway (London–Staines–Silchester)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.5089,
+    -0.0848
+   ],
+   [
+    51.5128,
+    -0.0873
+   ],
+   [
+    51.5181,
+    -0.1111
+   ],
+   [
+    51.5083,
+    -0.1991
+   ],
+   [
+    51.4322,
+    -0.5133
+   ],
+   [
+    51.435,
+    -0.5385
+   ],
+   [
+    51.4226,
+    -0.5726
+   ],
+   [
+    51.4037,
+    -0.6069
+   ],
+   [
+    51.3747,
+    -0.6926
+   ],
+   [
+    51.3675,
+    -0.901
+   ],
+   [
+    51.359,
+    -0.9733
+   ],
+   [
+    51.3566,
+    -1.0806
+   ]
+  ],
+  "from": 50,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The main road west from London, crossing the Thames at Staines (Pontes) to reach Silchester (Calleva), where roads branched to Bath, Cirencester, Winchester and Old Sarum.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 12 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-portway",
+  "name": "Portway (Silchester–Old Sarum)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.3566,
+    -1.0806
+   ],
+   [
+    51.3559,
+    -1.0866
+   ],
+   [
+    51.3381,
+    -1.1294
+   ],
+   [
+    51.3092,
+    -1.2094
+   ],
+   [
+    51.1733,
+    -1.6238
+   ],
+   [
+    51.1312,
+    -1.7177
+   ],
+   [
+    51.1259,
+    -1.7273
+   ],
+   [
+    51.1163,
+    -1.7506
+   ],
+   [
+    51.0986,
+    -1.7882
+   ],
+   [
+    51.0927,
+    -1.799
+   ]
+  ],
+  "from": 60,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road from Silchester south-west to Old Sarum (Sorviodunum).",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 10 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-ackling-dyke",
+  "name": "Ackling Dyke and the road to Exeter (Old Sarum–Badbury–Dorchester–Exeter)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.0927,
+    -1.799
+   ],
+   [
+    51.0095,
+    -1.9012
+   ],
+   [
+    50.9774,
+    -1.9549
+   ],
+   [
+    50.9138,
+    -2.0008
+   ],
+   [
+    50.8265,
+    -2.0462
+   ],
+   [
+    50.7862,
+    -2.1629
+   ],
+   [
+    50.7152,
+    -2.4316
+   ],
+   [
+    50.7114,
+    -2.5058
+   ],
+   [
+    50.725,
+    -2.5712
+   ],
+   [
+    50.7403,
+    -2.5987
+   ],
+   [
+    50.7427,
+    -2.6426
+   ],
+   [
+    50.7351,
+    -2.6722
+   ],
+   [
+    50.7432,
+    -2.7193
+   ],
+   [
+    50.7327,
+    -2.7467
+   ],
+   [
+    50.7305,
+    -2.8014
+   ],
+   [
+    50.7404,
+    -2.8386
+   ],
+   [
+    50.7382,
+    -2.9056
+   ],
+   [
+    50.7164,
+    -2.9899
+   ],
+   [
+    50.7286,
+    -3.0574
+   ],
+   [
+    50.7174,
+    -3.084
+   ],
+   [
+    50.7114,
+    -3.1273
+   ],
+   [
+    50.714,
+    -3.1645
+   ],
+   [
+    50.6979,
+    -3.1946
+   ],
+   [
+    50.7028,
+    -3.2289
+   ],
+   [
+    50.6966,
+    -3.3263
+   ],
+   [
+    50.7073,
+    -3.3606
+   ],
+   [
+    50.7035,
+    -3.3916
+   ],
+   [
+    50.7223,
+    -3.5313
+   ]
+  ],
+  "from": 50,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The south-western main road, from Old Sarum across Cranborne Chase (where its bank, the Ackling Dyke, survives) to Badbury Rings, Dorchester and Exeter.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 28 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. West of Dorchester the course is less certain than the line suggests. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-winchester-silchester",
+  "name": "Winchester–Silchester road",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.0605,
+    -1.3121
+   ],
+   [
+    51.0656,
+    -1.3143
+   ],
+   [
+    51.0802,
+    -1.2999
+   ],
+   [
+    51.156,
+    -1.2362
+   ],
+   [
+    51.1965,
+    -1.1977
+   ],
+   [
+    51.2127,
+    -1.1734
+   ],
+   [
+    51.2316,
+    -1.1514
+   ],
+   [
+    51.3183,
+    -1.099
+   ],
+   [
+    51.3566,
+    -1.0806
+   ]
+  ],
+  "from": 50,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road linking Winchester (Venta Belgarum) with Silchester.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 9 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-ermin-way",
+  "name": "Ermin Way (Silchester–Cirencester–Gloucester)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.3566,
+    -1.0806
+   ],
+   [
+    51.3997,
+    -1.2483
+   ],
+   [
+    51.4259,
+    -1.3824
+   ],
+   [
+    51.5159,
+    -1.6478
+   ],
+   [
+    51.6899,
+    -1.9125
+   ],
+   [
+    51.7089,
+    -1.9574
+   ],
+   [
+    51.819,
+    -2.0752
+   ],
+   [
+    51.8688,
+    -2.2266
+   ],
+   [
+    51.8663,
+    -2.2416
+   ]
+  ],
+  "from": 50,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road from Silchester north-west to Cirencester and down the Cotswold edge to Gloucester.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 9 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-akeman-street",
+  "name": "Akeman Street (St Albans–Alchester–Cirencester)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.7478,
+    -0.3631
+   ],
+   [
+    51.729,
+    -0.4474
+   ],
+   [
+    51.7433,
+    -0.4701
+   ],
+   [
+    51.7491,
+    -0.5282
+   ],
+   [
+    51.7675,
+    -0.5859
+   ],
+   [
+    51.7915,
+    -0.6306
+   ],
+   [
+    51.7894,
+    -0.6707
+   ],
+   [
+    51.7956,
+    -0.6551
+   ],
+   [
+    51.7891,
+    -0.6765
+   ],
+   [
+    51.8581,
+    -0.9837
+   ],
+   [
+    51.8687,
+    -1.0081
+   ],
+   [
+    51.879,
+    -1.1684
+   ],
+   [
+    51.8867,
+    -1.1812
+   ],
+   [
+    51.8798,
+    -1.272
+   ],
+   [
+    51.8616,
+    -1.3776
+   ],
+   [
+    51.8346,
+    -1.4803
+   ],
+   [
+    51.7732,
+    -1.6589
+   ],
+   [
+    51.7245,
+    -1.9427
+   ],
+   [
+    51.7136,
+    -1.9638
+   ],
+   [
+    51.7191,
+    -1.9688
+   ]
+  ],
+  "from": 50,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "A cross-country road from Verulamium by Tring and Alchester to Cirencester, linking Watling Street with the Fosse Way.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 20 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. Tree-ring dates from the Alchester fortress (AD 44) suggest an early origin for the western part. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-great-road",
+  "name": "London–Colchester road",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.5173,
+    -0.0786
+   ],
+   [
+    51.5249,
+    -0.0764
+   ],
+   [
+    51.5805,
+    0.1776
+   ],
+   [
+    51.6184,
+    0.2975
+   ],
+   [
+    51.6958,
+    0.4309
+   ],
+   [
+    51.7375,
+    0.4874
+   ],
+   [
+    51.7579,
+    0.5317
+   ],
+   [
+    51.7819,
+    0.6158
+   ],
+   [
+    51.8384,
+    0.7048
+   ],
+   [
+    51.879,
+    0.7856
+   ],
+   [
+    51.8903,
+    0.9024
+   ]
+  ],
+  "from": 44,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road from London to Colchester (Camulodunum), the first capital of the province, by Chelmsford.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 11 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-pye-road",
+  "name": "Pye Road (Colchester–Caistor St Edmund)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.8903,
+    0.9024
+   ],
+   [
+    51.8904,
+    0.9194
+   ],
+   [
+    51.9597,
+    0.9662
+   ],
+   [
+    51.9855,
+    1.0067
+   ],
+   [
+    51.9981,
+    1.0527
+   ],
+   [
+    52.0412,
+    1.0928
+   ],
+   [
+    52.1047,
+    1.0996
+   ],
+   [
+    52.1211,
+    1.0901
+   ],
+   [
+    52.1711,
+    1.0928
+   ],
+   [
+    52.2335,
+    1.1043
+   ],
+   [
+    52.2976,
+    1.0987
+   ],
+   [
+    52.3295,
+    1.1182
+   ],
+   [
+    52.3792,
+    1.1745
+   ],
+   [
+    52.4103,
+    1.1969
+   ],
+   [
+    52.5815,
+    1.2923
+   ]
+  ],
+  "from": 70,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road from Colchester north to Venta Icenorum (Caistor St Edmund, near Norwich).",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 15 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. Probably laid out after the Boudican revolt of AD 60-61. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-peddars-way",
+  "name": "Peddars Way",
+  "kind": "roman-road",
+  "path": [
+   [
+    52.2962,
+    0.8334
+   ],
+   [
+    52.316,
+    0.85
+   ],
+   [
+    52.3974,
+    0.861
+   ],
+   [
+    52.499,
+    0.8337
+   ],
+   [
+    52.7663,
+    0.6461
+   ],
+   [
+    52.9067,
+    0.5586
+   ],
+   [
+    52.935,
+    0.5437
+   ],
+   [
+    52.9603,
+    0.5264
+   ]
+  ],
+  "from": 61,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "A long straight road across west Norfolk to the Wash at Holme next the Sea, probably built to control Icenian territory after the Boudican revolt.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 8 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. ‘Peddars Way’ is a late medieval name. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-ryknild-street",
+  "name": "Ryknild (Icknield) Street (Bourton-on-the-Water–Alcester–Wall–Derby–Templeborough)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.8864,
+    -1.7674
+   ],
+   [
+    51.8976,
+    -1.7509
+   ],
+   [
+    52.0255,
+    -1.8216
+   ],
+   [
+    52.0488,
+    -1.8158
+   ],
+   [
+    52.1689,
+    -1.8517
+   ],
+   [
+    52.2021,
+    -1.8731
+   ],
+   [
+    52.2898,
+    -1.9018
+   ],
+   [
+    52.4387,
+    -1.9234
+   ],
+   [
+    52.6531,
+    -1.843
+   ],
+   [
+    52.6554,
+    -1.8496
+   ],
+   [
+    52.6627,
+    -1.825
+   ],
+   [
+    52.9442,
+    -1.4661
+   ],
+   [
+    52.9659,
+    -1.4274
+   ],
+   [
+    52.9796,
+    -1.4185
+   ],
+   [
+    53.0493,
+    -1.4273
+   ],
+   [
+    53.3184,
+    -1.3986
+   ],
+   [
+    53.3598,
+    -1.3664
+   ],
+   [
+    53.4211,
+    -1.3705
+   ],
+   [
+    53.4188,
+    -1.3855
+   ]
+  ],
+  "from": 60,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "A road branching from the Fosse Way near Bourton-on-the-Water, running north by Alcester, Metchley (Birmingham) and Wall to Derby (Little Chester) and Templeborough near Rotherham.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 19 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. Built in stages in the 50s to 70s AD. The medieval names Icknield and Ryknild Street are both used for it; it is distinct from the prehistoric Icknield Way. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-chester-york",
+  "name": "Chester–Manchester–Castleshaw road (toward York)",
+  "kind": "roman-road",
+  "path": [
+   [
+    53.19,
+    -2.8901
+   ],
+   [
+    53.2313,
+    -2.5887
+   ],
+   [
+    53.2584,
+    -2.5165
+   ],
+   [
+    53.2763,
+    -2.4431
+   ],
+   [
+    53.2989,
+    -2.4179
+   ],
+   [
+    53.3518,
+    -2.4013
+   ],
+   [
+    53.4576,
+    -2.2936
+   ],
+   [
+    53.5544,
+    -2.0365
+   ],
+   [
+    53.5832,
+    -2.0005
+   ],
+   [
+    53.6188,
+    -1.9743
+   ],
+   [
+    53.652,
+    -1.869
+   ]
+  ],
+  "from": 79,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road from Chester east to Manchester and over the Pennines by Castleshaw and Slack, on the way to York.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 11 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. Only the part as far as Slack is drawn: the dataset has no agreed line from there to Tadcaster. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-western-north-road",
+  "name": "Manchester–Ribchester–Lancaster–Carlisle road",
+  "kind": "roman-road",
+  "path": [
+   [
+    53.4742,
+    -2.2504
+   ],
+   [
+    53.4868,
+    -2.2433
+   ],
+   [
+    53.512,
+    -2.2622
+   ],
+   [
+    53.6846,
+    -2.4328
+   ],
+   [
+    53.808,
+    -2.5196
+   ],
+   [
+    53.8415,
+    -2.5763
+   ],
+   [
+    53.8677,
+    -2.675
+   ],
+   [
+    53.8865,
+    -2.6717
+   ],
+   [
+    53.9216,
+    -2.7042
+   ],
+   [
+    53.9487,
+    -2.7151
+   ],
+   [
+    53.9912,
+    -2.7869
+   ],
+   [
+    54.0498,
+    -2.7952
+   ],
+   [
+    54.0262,
+    -2.7943
+   ],
+   [
+    54.0963,
+    -2.6532
+   ],
+   [
+    54.108,
+    -2.6346
+   ],
+   [
+    54.1166,
+    -2.6365
+   ],
+   [
+    54.1439,
+    -2.6069
+   ],
+   [
+    54.1709,
+    -2.5927
+   ],
+   [
+    54.1809,
+    -2.567
+   ],
+   [
+    54.2522,
+    -2.5827
+   ],
+   [
+    54.3371,
+    -2.5559
+   ],
+   [
+    54.3873,
+    -2.576
+   ],
+   [
+    54.4062,
+    -2.6013
+   ],
+   [
+    54.4437,
+    -2.5969
+   ],
+   [
+    54.4467,
+    -2.6081
+   ],
+   [
+    54.4832,
+    -2.6184
+   ],
+   [
+    54.518,
+    -2.6018
+   ],
+   [
+    54.5475,
+    -2.607
+   ],
+   [
+    54.6126,
+    -2.6627
+   ],
+   [
+    54.6816,
+    -2.7609
+   ],
+   [
+    54.7701,
+    -2.799
+   ],
+   [
+    54.8461,
+    -2.8606
+   ],
+   [
+    54.8968,
+    -2.9404
+   ]
+  ],
+  "from": 79,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The western route north, from Manchester by Ribchester and the Lune valley to Brougham and Carlisle.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 33 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The network path between Lancaster and Brougham is one of several possible lines. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-dere-street",
+  "name": "Dere Street (York–Corbridge and into Scotland)",
+  "kind": "roman-road",
+  "path": [
+   [
+    53.9601,
+    -1.0784
+   ],
+   [
+    53.9539,
+    -1.1013
+   ],
+   [
+    53.9717,
+    -1.1379
+   ],
+   [
+    54.0074,
+    -1.3046
+   ],
+   [
+    54.1557,
+    -1.4401
+   ],
+   [
+    54.3011,
+    -1.5485
+   ],
+   [
+    54.3872,
+    -1.653
+   ],
+   [
+    54.6195,
+    -1.6811
+   ],
+   [
+    54.6679,
+    -1.6728
+   ],
+   [
+    54.6953,
+    -1.7093
+   ],
+   [
+    54.7728,
+    -1.679
+   ],
+   [
+    54.7942,
+    -1.7366
+   ],
+   [
+    54.8239,
+    -1.7551
+   ],
+   [
+    54.8898,
+    -1.8369
+   ],
+   [
+    54.9689,
+    -2.0258
+   ],
+   [
+    55.0302,
+    -2.0274
+   ],
+   [
+    55.1222,
+    -2.1399
+   ],
+   [
+    55.1714,
+    -2.1763
+   ],
+   [
+    55.1985,
+    -2.1792
+   ],
+   [
+    55.2765,
+    -2.2524
+   ],
+   [
+    55.2877,
+    -2.2752
+   ],
+   [
+    55.3449,
+    -2.2875
+   ],
+   [
+    55.3723,
+    -2.3345
+   ],
+   [
+    55.3994,
+    -2.3432
+   ],
+   [
+    55.414,
+    -2.3814
+   ],
+   [
+    55.4573,
+    -2.4011
+   ],
+   [
+    55.5136,
+    -2.5499
+   ],
+   [
+    55.5703,
+    -2.66
+   ],
+   [
+    55.6234,
+    -2.6764
+   ],
+   [
+    55.6415,
+    -2.7002
+   ],
+   [
+    55.708,
+    -2.7306
+   ],
+   [
+    55.7795,
+    -2.8085
+   ],
+   [
+    55.7869,
+    -2.8412
+   ],
+   [
+    55.8341,
+    -2.8877
+   ],
+   [
+    55.9097,
+    -3.0809
+   ]
+  ],
+  "from": 80,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The eastern route north from York by Aldborough, Catterick, Piercebridge, Binchester and Corbridge, then over the Cheviots by High Rochester to Newstead and on toward the Forth.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 35 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. Dated from Agricola’s northern campaigns (AD 79-81). The Scottish part was held only intermittently after about AD 105. ‘Dere Street’ is an Anglo-Saxon name. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-stanegate",
+  "name": "Stanegate (Corbridge–Vindolanda–Carlisle)",
+  "kind": "roman-road",
+  "path": [
+   [
+    54.9783,
+    -2.0331
+   ],
+   [
+    54.994,
+    -2.1456
+   ],
+   [
+    55.0055,
+    -2.1646
+   ],
+   [
+    55.0083,
+    -2.2447
+   ],
+   [
+    54.9884,
+    -2.3971
+   ],
+   [
+    54.9903,
+    -2.437
+   ],
+   [
+    54.9823,
+    -2.4961
+   ],
+   [
+    54.9881,
+    -2.5706
+   ],
+   [
+    54.9552,
+    -2.6836
+   ],
+   [
+    54.9524,
+    -2.7563
+   ],
+   [
+    54.9269,
+    -2.8751
+   ],
+   [
+    54.9184,
+    -2.9063
+   ],
+   [
+    54.8968,
+    -2.9404
+   ]
+  ],
+  "from": 85,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road across the Tyne–Solway isthmus from Corbridge to Carlisle by Vindolanda; with its forts it formed the frontier before Hadrian’s Wall was built just to the north.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 13 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. English Heritage notes that by about AD 100 the northernmost units lay along this isthmus; the road is usually dated to the 80s. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere",
+   "wal-eh-hadrians-wall"
+  ]
+ },
+ {
+  "id": "rr-via-julia",
+  "name": "Gloucester–Caerleon–Carmarthen road (‘Via Julia’)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.8645,
+    -2.2449
+   ],
+   [
+    51.8743,
+    -2.2666
+   ],
+   [
+    51.8623,
+    -2.4137
+   ],
+   [
+    51.8623,
+    -2.4734
+   ],
+   [
+    51.8717,
+    -2.4906
+   ],
+   [
+    51.8405,
+    -2.4707
+   ],
+   [
+    51.7293,
+    -2.5215
+   ],
+   [
+    51.7064,
+    -2.5718
+   ],
+   [
+    51.659,
+    -2.6361
+   ],
+   [
+    51.6074,
+    -2.7403
+   ],
+   [
+    51.6163,
+    -2.8068
+   ],
+   [
+    51.6127,
+    -2.9221
+   ],
+   [
+    51.6069,
+    -2.9348
+   ],
+   [
+    51.6139,
+    -2.9669
+   ],
+   [
+    51.6103,
+    -2.9967
+   ],
+   [
+    51.5963,
+    -3.0051
+   ],
+   [
+    51.5506,
+    -3.0897
+   ],
+   [
+    51.4892,
+    -3.1496
+   ],
+   [
+    51.4807,
+    -3.1791
+   ],
+   [
+    51.4846,
+    -3.2278
+   ],
+   [
+    51.4615,
+    -3.2852
+   ],
+   [
+    51.4548,
+    -3.4192
+   ],
+   [
+    51.5234,
+    -3.7208
+   ],
+   [
+    51.5559,
+    -3.7298
+   ],
+   [
+    51.6257,
+    -3.8175
+   ],
+   [
+    51.6683,
+    -3.8069
+   ],
+   [
+    51.664,
+    -3.81
+   ],
+   [
+    51.663,
+    -4.078
+   ],
+   [
+    51.857,
+    -4.305
+   ]
+  ],
+  "from": 75,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The south Wales coast road, from Gloucester by Caerwent to the legionary fortress at Caerleon and on by Cardiff, Neath and Loughor to Carmarthen.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 29 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. West of Neath the Itiner-e network has no link, so the line is drawn straight between the forts at Neath, Loughor and Carmarthen. ‘Via Julia’ is an 18th-century antiquarian name with no Roman authority. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-watling-street-west",
+  "name": "Wroxeter–Kenchester–Abergavenny–Usk–Caerleon road",
+  "kind": "roman-road",
+  "path": [
+   [
+    52.674,
+    -2.6416
+   ],
+   [
+    52.6142,
+    -2.7066
+   ],
+   [
+    52.5858,
+    -2.7564
+   ],
+   [
+    52.5255,
+    -2.8135
+   ],
+   [
+    52.4797,
+    -2.8354
+   ],
+   [
+    52.4538,
+    -2.8359
+   ],
+   [
+    52.391,
+    -2.8771
+   ],
+   [
+    52.3578,
+    -2.8755
+   ],
+   [
+    52.3006,
+    -2.8409
+   ],
+   [
+    52.2687,
+    -2.8433
+   ],
+   [
+    52.2064,
+    -2.8232
+   ],
+   [
+    52.1606,
+    -2.8036
+   ],
+   [
+    52.1173,
+    -2.764
+   ],
+   [
+    52.0805,
+    -2.8199
+   ],
+   [
+    52.0796,
+    -2.8127
+   ],
+   [
+    52.0544,
+    -2.8221
+   ],
+   [
+    51.9891,
+    -2.8963
+   ],
+   [
+    51.9293,
+    -2.8825
+   ],
+   [
+    51.8997,
+    -2.9644
+   ],
+   [
+    51.8212,
+    -3.0148
+   ],
+   [
+    51.785,
+    -2.979
+   ],
+   [
+    51.7769,
+    -2.9266
+   ],
+   [
+    51.7442,
+    -2.9265
+   ],
+   [
+    51.7054,
+    -2.905
+   ],
+   [
+    51.66,
+    -2.9054
+   ],
+   [
+    51.6069,
+    -2.9535
+   ]
+  ],
+  "from": 60,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The border road joining the legionary bases of the Welsh frontier, from Wroxeter by Leintwardine, Kenchester and Abergavenny to Usk and Caerleon; sometimes called Watling Street West.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 26 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-chester-caernarfon",
+  "name": "Chester–St Asaph–Caerhun–Caernarfon road",
+  "kind": "roman-road",
+  "path": [
+   [
+    53.1893,
+    -2.8906
+   ],
+   [
+    53.1834,
+    -2.8876
+   ],
+   [
+    53.1527,
+    -2.939
+   ],
+   [
+    53.1838,
+    -3.0214
+   ],
+   [
+    53.2216,
+    -3.1646
+   ],
+   [
+    53.239,
+    -3.1922
+   ],
+   [
+    53.273,
+    -3.2183
+   ],
+   [
+    53.2818,
+    -3.2477
+   ],
+   [
+    53.2516,
+    -3.4434
+   ],
+   [
+    53.2565,
+    -3.588
+   ],
+   [
+    53.2496,
+    -3.5988
+   ],
+   [
+    53.2503,
+    -3.6674
+   ],
+   [
+    53.2403,
+    -3.693
+   ],
+   [
+    53.239,
+    -3.7578
+   ],
+   [
+    53.2254,
+    -3.8003
+   ],
+   [
+    53.2273,
+    -3.837
+   ],
+   [
+    53.2157,
+    -3.8384
+   ],
+   [
+    53.2292,
+    -3.8395
+   ],
+   [
+    53.2317,
+    -3.8761
+   ],
+   [
+    53.2235,
+    -3.9096
+   ],
+   [
+    53.2413,
+    -3.9899
+   ],
+   [
+    53.195,
+    -4.138
+   ],
+   [
+    53.1546,
+    -4.2103
+   ],
+   [
+    53.1375,
+    -4.2608
+   ]
+  ],
+  "from": 78,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The north Wales road from the fortress at Chester to Segontium (Caernarfon), crossing the Conwy at Caerhun (Canovium).",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 24 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. Dated from Agricola’s campaign of AD 77/8 and the founding of Segontium. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere",
+   "wal-cadw-segontium",
+   "wal-coflein-canovium"
+  ]
+ },
+ {
+  "id": "rr-sarn-helen",
+  "name": "Sarn Helen (Caerhun–Tomen y Mur–Pennal–Llanio–Pumsaint–Llandovery)",
+  "kind": "roman-road",
+  "path": [
+   [
+    53.2157,
+    -3.8384
+   ],
+   [
+    53.1893,
+    -3.8425
+   ],
+   [
+    53.1427,
+    -3.8231
+   ],
+   [
+    53.112,
+    -3.8367
+   ],
+   [
+    53.0925,
+    -3.8719
+   ],
+   [
+    53.027,
+    -3.8898
+   ],
+   [
+    52.9862,
+    -3.8862
+   ],
+   [
+    52.9557,
+    -3.9055
+   ],
+   [
+    52.9471,
+    -3.93
+   ],
+   [
+    52.9013,
+    -3.9218
+   ],
+   [
+    52.8712,
+    -3.8926
+   ],
+   [
+    52.8416,
+    -3.8994
+   ],
+   [
+    52.7821,
+    -3.8784
+   ],
+   [
+    52.7575,
+    -3.902
+   ],
+   [
+    52.7401,
+    -3.8748
+   ],
+   [
+    52.7393,
+    -3.8506
+   ],
+   [
+    52.7511,
+    -3.8286
+   ],
+   [
+    52.7392,
+    -3.8506
+   ],
+   [
+    52.7305,
+    -3.8335
+   ],
+   [
+    52.6818,
+    -3.8332
+   ],
+   [
+    52.6691,
+    -3.8147
+   ],
+   [
+    52.6525,
+    -3.8371
+   ],
+   [
+    52.6038,
+    -3.8448
+   ],
+   [
+    52.5826,
+    -3.9022
+   ],
+   [
+    52.5074,
+    -3.9514
+   ],
+   [
+    52.4,
+    -4.0691
+   ],
+   [
+    52.3785,
+    -4.0719
+   ],
+   [
+    52.3533,
+    -4.0534
+   ],
+   [
+    52.2974,
+    -3.9732
+   ],
+   [
+    52.2528,
+    -3.9889
+   ],
+   [
+    52.1789,
+    -3.9788
+   ],
+   [
+    52.1404,
+    -4.0118
+   ],
+   [
+    52.1153,
+    -3.9772
+   ],
+   [
+    52.0522,
+    -3.9681
+   ],
+   [
+    51.9959,
+    -3.8005
+   ]
+  ],
+  "from": 78,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The west Wales mountain road, running the length of the country from the Conwy valley by Tomen y Mur, Pennal and Llanio to the gold mines at Pumsaint and on to Llandovery.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 35 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. Sarn Helen is the traditional Welsh name for several Roman roads, and long stretches of this one are inferred rather than seen; the network path between forts is among the least certain lines in the file. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-sarn-helen-llanio-carmarthen",
+  "name": "Sarn Helen (Llanio–Carmarthen)",
+  "kind": "roman-road",
+  "path": [
+   [
+    52.1834,
+    -3.9871
+   ],
+   [
+    52.171,
+    -3.981
+   ],
+   [
+    52.129,
+    -4.0212
+   ],
+   [
+    52.096,
+    -4.0856
+   ],
+   [
+    52.0867,
+    -4.1363
+   ],
+   [
+    52.0267,
+    -4.2132
+   ],
+   [
+    51.9625,
+    -4.2626
+   ],
+   [
+    51.8758,
+    -4.2757
+   ],
+   [
+    51.8538,
+    -4.3027
+   ]
+  ],
+  "from": 78,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The branch from Llanio (Bremia) south-west to Carmarthen.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 9 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-sarn-helen-neath-brecon",
+  "name": "Sarn Helen (Neath–Coelbren–Brecon Gaer)",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.6683,
+    -3.8069
+   ],
+   [
+    51.6891,
+    -3.7521
+   ],
+   [
+    51.7065,
+    -3.7431
+   ],
+   [
+    51.751,
+    -3.6917
+   ],
+   [
+    51.7679,
+    -3.6598
+   ],
+   [
+    51.7835,
+    -3.6516
+   ],
+   [
+    51.7986,
+    -3.5878
+   ],
+   [
+    51.8195,
+    -3.5825
+   ],
+   [
+    51.8353,
+    -3.5603
+   ],
+   [
+    51.852,
+    -3.5617
+   ],
+   [
+    51.8821,
+    -3.5364
+   ],
+   [
+    51.8943,
+    -3.5379
+   ],
+   [
+    51.9231,
+    -3.507
+   ],
+   [
+    51.9501,
+    -3.3954
+   ],
+   [
+    51.9581,
+    -3.4495
+   ]
+  ],
+  "from": 75,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The road from the fort at Neath over the hills by Coelbren to Brecon Gaer; parts survive as a track.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 15 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere",
+   "wal-coflein-nidum",
+   "wal-cadw-brecon-gaer"
+  ]
+ },
+ {
+  "id": "rr-brecon-usk",
+  "name": "Llandovery–Brecon Gaer–Abergavenny road",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.9959,
+    -3.8005
+   ],
+   [
+    51.978,
+    -3.7369
+   ],
+   [
+    51.9646,
+    -3.7236
+   ],
+   [
+    51.9629,
+    -3.6968
+   ],
+   [
+    51.9489,
+    -3.6581
+   ],
+   [
+    51.9586,
+    -3.4341
+   ],
+   [
+    51.9364,
+    -3.3328
+   ],
+   [
+    51.9246,
+    -3.315
+   ],
+   [
+    51.9197,
+    -3.2793
+   ],
+   [
+    51.9016,
+    -3.2651
+   ],
+   [
+    51.8889,
+    -3.2352
+   ],
+   [
+    51.8813,
+    -3.1631
+   ],
+   [
+    51.8404,
+    -3.1087
+   ],
+   [
+    51.8212,
+    -3.0148
+   ]
+  ],
+  "from": 75,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The Usk valley road linking the forts at Llandovery, Brecon Gaer and Abergavenny.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 14 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere",
+   "wal-cadw-brecon-gaer"
+  ]
+ },
+ {
+  "id": "rr-carmarthen-llandovery",
+  "name": "Carmarthen–Llandovery road",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.8538,
+    -4.3027
+   ],
+   [
+    51.8656,
+    -4.2872
+   ],
+   [
+    51.8658,
+    -4.2575
+   ],
+   [
+    51.8734,
+    -4.2061
+   ],
+   [
+    51.8714,
+    -4.1238
+   ],
+   [
+    51.88,
+    -4.0975
+   ],
+   [
+    51.8881,
+    -4.0383
+   ],
+   [
+    51.8946,
+    -4.0242
+   ],
+   [
+    51.9027,
+    -3.9839
+   ],
+   [
+    51.9117,
+    -3.9655
+   ],
+   [
+    51.9226,
+    -3.956
+   ],
+   [
+    51.9606,
+    -3.8794
+   ],
+   [
+    51.9674,
+    -3.8729
+   ],
+   [
+    51.9875,
+    -3.8144
+   ],
+   [
+    51.9972,
+    -3.8049
+   ],
+   [
+    51.9959,
+    -3.8005
+   ]
+  ],
+  "from": 75,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The Tywi valley road from Carmarthen to the fort at Llandovery.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 16 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "rr-wroxeter-caersws",
+  "name": "Wroxeter–Forden Gaer–Caersws road",
+  "kind": "roman-road",
+  "path": [
+   [
+    52.674,
+    -2.6416
+   ],
+   [
+    52.6417,
+    -2.6742
+   ],
+   [
+    52.688,
+    -2.7379
+   ],
+   [
+    52.6909,
+    -2.7661
+   ],
+   [
+    52.6885,
+    -2.8653
+   ],
+   [
+    52.6776,
+    -2.9517
+   ],
+   [
+    52.682,
+    -2.9914
+   ],
+   [
+    52.6742,
+    -3.0191
+   ],
+   [
+    52.6748,
+    -3.0467
+   ],
+   [
+    52.668,
+    -3.0631
+   ],
+   [
+    52.6282,
+    -3.0997
+   ],
+   [
+    52.5923,
+    -3.1584
+   ],
+   [
+    52.575,
+    -3.1717
+   ],
+   [
+    52.5617,
+    -3.2061
+   ],
+   [
+    52.5219,
+    -3.2678
+   ],
+   [
+    52.5005,
+    -3.356
+   ],
+   [
+    52.519,
+    -3.3909
+   ],
+   [
+    52.5175,
+    -3.4317
+   ]
+  ],
+  "from": 75,
+  "to": 410,
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The road up the Severn valley from Wroxeter to the forts at Forden Gaer and Caersws in mid Wales.",
+  "uncertainty": "Course: routed through the Itiner-e road network (2024 version, Britain subset) between the named places and simplified to 18 vertices, so it is good to roughly half a kilometre, not to the metre. Itiner-e classes almost all British roads as ‘conjectured’ lines joining known stretches, and its British coordinates are reported to sit about 100 m east of true. The end date marks the end of Roman upkeep about AD 410; much of the line stayed in use as a road or boundary afterwards. The construction date is an estimate from general knowledge of when the forts and towns on it were founded; no road here is dated directly.",
+  "sources": [
+   "wal-itinere-gb",
+   "wal-itinere"
+  ]
+ },
+ {
+  "id": "hadrians-wall",
+  "name": "Hadrian’s Wall",
+  "kind": "frontier-wall",
+  "path": [
+   [
+    54.988,
+    -1.532
+   ],
+   [
+    54.969,
+    -1.61
+   ],
+   [
+    54.976,
+    -1.663
+   ],
+   [
+    54.997,
+    -1.82
+   ],
+   [
+    55.01,
+    -2.006
+   ],
+   [
+    55.026,
+    -2.139
+   ],
+   [
+    55.036,
+    -2.222
+   ],
+   [
+    55.013,
+    -2.331
+   ],
+   [
+    54.995,
+    -2.464
+   ],
+   [
+    54.985,
+    -2.52
+   ],
+   [
+    54.989,
+    -2.602
+   ],
+   [
+    54.96,
+    -2.76
+   ],
+   [
+    54.905,
+    -2.94
+   ],
+   [
+    54.922,
+    -3.05
+   ],
+   [
+    54.928,
+    -3.148
+   ],
+   [
+    54.953,
+    -3.214
+   ]
+  ],
+  "from": 122,
+  "to": 410,
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The north-west frontier of the Roman empire for nearly 300 years: a wall 80 Roman miles long from the Tyne to the Solway, built by the army on Hadrian’s orders after his visit in AD 122, with forts, milecastles and turrets. It was given up about AD 142 when the frontier moved north to the Antonine Wall, and reoccupied some twenty years later.",
+  "uncertainty": "Course: drawn through the positions of the sixteen forts from Wallsend to Bowness-on-Solway, placed from general knowledge, so the line cuts corners between forts by up to a kilometre. The whole wall lies inside the map. The Antonine Wall (Forth–Clyde, about AD 142-160) lies just outside the map’s northern edge and is not drawn. The break in use about 142-160 is not shown. The end date is nominal: garrisons stayed into the early 5th century and some forts were occupied later.",
+  "sources": [
+   "wal-eh-hadrians-wall"
+  ]
+ },
+ {
+  "id": "military-way",
+  "name": "Military Way (Hadrian’s Wall)",
+  "kind": "roman-road",
+  "path": [
+   [
+    54.985,
+    -1.532
+   ],
+   [
+    54.966,
+    -1.61
+   ],
+   [
+    54.973,
+    -1.663
+   ],
+   [
+    54.994,
+    -1.82
+   ],
+   [
+    55.007,
+    -2.006
+   ],
+   [
+    55.023,
+    -2.139
+   ],
+   [
+    55.033,
+    -2.222
+   ],
+   [
+    55.01,
+    -2.331
+   ],
+   [
+    54.992,
+    -2.464
+   ],
+   [
+    54.982,
+    -2.52
+   ],
+   [
+    54.986,
+    -2.602
+   ],
+   [
+    54.957,
+    -2.76
+   ],
+   [
+    54.902,
+    -2.94
+   ],
+   [
+    54.919,
+    -3.05
+   ],
+   [
+    54.925,
+    -3.148
+   ],
+   [
+    54.95,
+    -3.214
+   ]
+  ],
+  "from": 160,
+  "to": 410,
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The road added behind Hadrian’s Wall when it was recommissioned about AD 160, linking the forts and milecastles.",
+  "uncertainty": "Course: the fort positions of the Wall shifted about 300 m south so that the road shows as its own line; the real road ran between the Wall and the Vallum, usually within 50-100 m of the Wall. English Heritage says only that a road was added when the Wall was brought back into use; the year is approximate.",
+  "sources": [
+   "wal-eh-hadrians-wall"
+  ]
+ },
+ {
+  "id": "offas-dyke",
+  "name": "Offa’s Dyke",
+  "kind": "dyke",
+  "path": [
+   [
+    52.218,
+    -3.03
+   ],
+   [
+    52.262,
+    -3.045
+   ],
+   [
+    52.3,
+    -3.068
+   ],
+   [
+    52.344,
+    -3.05
+   ],
+   [
+    52.385,
+    -3.075
+   ],
+   [
+    52.42,
+    -3.105
+   ],
+   [
+    52.47,
+    -3.12
+   ],
+   [
+    52.52,
+    -3.115
+   ],
+   [
+    52.56,
+    -3.118
+   ],
+   [
+    52.61,
+    -3.11
+   ],
+   [
+    52.66,
+    -3.105
+   ],
+   [
+    52.69,
+    -3.085
+   ],
+   [
+    52.75,
+    -3.09
+   ],
+   [
+    52.785,
+    -3.09
+   ],
+   [
+    52.83,
+    -3.095
+   ],
+   [
+    52.88,
+    -3.085
+   ],
+   [
+    52.93,
+    -3.065
+   ],
+   [
+    52.965,
+    -3.075
+   ],
+   [
+    53.01,
+    -3.06
+   ],
+   [
+    53.05,
+    -3.07
+   ],
+   [
+    53.11,
+    -3.12
+   ]
+  ],
+  "from": 785,
+  "to": null,
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A bank up to 2.5 m high with a ditch on the Welsh side, the longest earthwork in Britain, marking the western edge of Mercia. Asser, writing about 893, credits it to King Offa (757-796); English Heritage places the work in the 780s.",
+  "uncertainty": "Course: a generalised line of the near-continuous central section from Rushock Hill near Kington to Treuddyn in Flintshire, drawn from general knowledge of its route and accurate to perhaps a kilometre. Short gaps, including the stretch along the Severn near Buttington, are drawn through. Dating is debated: radiocarbon samples from under the bank at Chirk (2014) gave dates between about AD 430 and 652, which may mean parts are older than Offa; the Offa’s Dyke Association summarises recent scientific dates as provisionally late 8th to early 9th century. Earlier writers took it on to the sea at Prestatyn; the earthworks north of Treuddyn are now usually treated as separate. The year shown is nominal.",
+  "sources": [
+   "wal-eh-offas-dyke",
+   "wal-oda-dating"
+  ]
+ },
+ {
+  "id": "offas-dyke-wye",
+  "name": "Offa’s Dyke (lower Wye section)",
+  "kind": "dyke",
+  "path": [
+   [
+    51.632,
+    -2.648
+   ],
+   [
+    51.66,
+    -2.662
+   ],
+   [
+    51.695,
+    -2.665
+   ],
+   [
+    51.725,
+    -2.672
+   ],
+   [
+    51.76,
+    -2.665
+   ],
+   [
+    51.795,
+    -2.672
+   ],
+   [
+    51.83,
+    -2.64
+   ]
+  ],
+  "from": 785,
+  "to": null,
+  "evidence": "attested-standing",
+  "confidence": "low",
+  "summary": "Lengths of bank on the English side of the Wye gorge, from Sedbury Cliffs on the Severn to near Redbrook and English Bicknor, long treated as the southern end of Offa’s Dyke.",
+  "uncertainty": "Course: generalised from general knowledge. Whether these earthworks are part of Offa’s work, or a separate and possibly different-dated boundary, is disputed; between here and Rushock Hill, across Herefordshire, there are only short isolated lengths, which are not drawn.",
+  "sources": [
+   "wal-eh-offas-dyke"
+  ]
+ },
+ {
+  "id": "wats-dyke",
+  "name": "Wat’s Dyke",
+  "kind": "dyke",
+  "path": [
+   [
+    53.288,
+    -3.207
+   ],
+   [
+    53.25,
+    -3.185
+   ],
+   [
+    53.2,
+    -3.13
+   ],
+   [
+    53.16,
+    -3.085
+   ],
+   [
+    53.115,
+    -3.035
+   ],
+   [
+    53.075,
+    -3.01
+   ],
+   [
+    53.045,
+    -3.005
+   ],
+   [
+    53.01,
+    -3.01
+   ],
+   [
+    52.97,
+    -3.03
+   ],
+   [
+    52.925,
+    -3.04
+   ],
+   [
+    52.895,
+    -3.045
+   ],
+   [
+    52.87,
+    -3.05
+   ],
+   [
+    52.845,
+    -3.045
+   ],
+   [
+    52.82,
+    -3.03
+   ]
+  ],
+  "from": 820,
+  "to": null,
+  "evidence": "attested-standing",
+  "confidence": "low",
+  "summary": "A bank with a ditch on its west side, running about 60 km from Basingwerk on the Dee estuary south past Wrexham and Oswestry to the river Morda at Maesbury, a few kilometres east of Offa’s Dyke.",
+  "uncertainty": "Course: generalised from general knowledge of its route through Hope, Wrexham, Ruabon and Old Oswestry. Its date is unsettled: a radiocarbon date from Maes-y-Clawdd near Oswestry gives only ‘after AD 486±75’, which led some to place it in the 5th century, while luminescence dates from Gobowen point to the early 9th century, the reading followed here. It may be earlier or later than Offa’s Dyke.",
+  "sources": [
+   "wal-coflein-wats-dyke",
+   "wal-oda-dating"
+  ]
+ },
+ {
+  "id": "wansdyke-east",
+  "name": "East Wansdyke",
+  "kind": "dyke",
+  "path": [
+   [
+    51.402,
+    -1.945
+   ],
+   [
+    51.396,
+    -1.905
+   ],
+   [
+    51.383,
+    -1.865
+   ],
+   [
+    51.378,
+    -1.82
+   ],
+   [
+    51.38,
+    -1.775
+   ],
+   [
+    51.385,
+    -1.73
+   ],
+   [
+    51.39,
+    -1.69
+   ],
+   [
+    51.392,
+    -1.655
+   ]
+  ],
+  "from": 500,
+  "to": null,
+  "evidence": "attested-standing",
+  "confidence": "low",
+  "summary": "A massive bank and north-facing ditch running some 20 km along the crest of the Marlborough Downs from Morgan’s Hill to Savernake Forest. The name means ‘Woden’s dyke’.",
+  "uncertainty": "Course: generalised from general knowledge. Its date is not established: it is later than the Roman road it cuts and is usually placed in the 5th or 6th century as a British or early West Saxon frontier work, but a later Saxon date has been argued. The year shown is nominal. No source was fetched for this entry (Historic England’s list entries could not be retrieved).",
+  "sources": []
+ },
+ {
+  "id": "wansdyke-west",
+  "name": "West Wansdyke",
+  "kind": "dyke",
+  "path": [
+   [
+    51.39,
+    -2.575
+   ],
+   [
+    51.385,
+    -2.53
+   ],
+   [
+    51.378,
+    -2.48
+   ],
+   [
+    51.372,
+    -2.445
+   ],
+   [
+    51.362,
+    -2.4
+   ],
+   [
+    51.355,
+    -2.37
+   ]
+  ],
+  "from": 500,
+  "to": null,
+  "evidence": "attested-standing",
+  "confidence": "low",
+  "summary": "A smaller, broken earthwork south of Bristol and Bath, from the hillfort of Maes Knoll by Stantonbury to Odd Down above Bath.",
+  "uncertainty": "Course: generalised from general knowledge. Whether it was built with East Wansdyke is doubted, and the two are not joined: the Roman road between them was once counted as part of the dyke. Date unknown, probably 5th to 7th century; the year shown is nominal. No source was fetched for this entry.",
+  "sources": []
+ },
+ {
+  "id": "devils-dyke-cambs",
+  "name": "Devil’s Dyke (Cambridgeshire)",
+  "kind": "dyke",
+  "path": [
+   [
+    52.275,
+    0.31
+   ],
+   [
+    52.262,
+    0.327
+   ],
+   [
+    52.247,
+    0.347
+   ],
+   [
+    52.232,
+    0.367
+   ],
+   [
+    52.217,
+    0.387
+   ],
+   [
+    52.202,
+    0.405
+   ],
+   [
+    52.188,
+    0.422
+   ]
+  ],
+  "from": 550,
+  "to": null,
+  "evidence": "attested-standing",
+  "confidence": "low",
+  "summary": "A straight bank and ditch about 12 km long from the fen edge at Reach to the wooded clay at Woodditton, the largest of several dykes barring the chalk corridor of the Icknield Way.",
+  "uncertainty": "Course: a straight line between its two ends, placed from general knowledge. It is post-Roman and usually dated to the 5th to 7th centuries, built by the East Angles or their neighbours; the year shown is nominal. No source was fetched for this entry (Historic England’s list entry could not be retrieved).",
+  "sources": []
+ },
+ {
+  "id": "ridgeway",
+  "name": "The Ridgeway",
+  "kind": "road",
+  "path": [
+   [
+    51.409,
+    -1.829
+   ],
+   [
+    51.485,
+    -1.786
+   ],
+   [
+    51.516,
+    -1.7
+   ],
+   [
+    51.575,
+    -1.567
+   ],
+   [
+    51.56,
+    -1.449
+   ],
+   [
+    51.553,
+    -1.33
+   ],
+   [
+    51.54,
+    -1.23
+   ],
+   [
+    51.522,
+    -1.15
+   ],
+   [
+    51.58,
+    -1.09
+   ],
+   [
+    51.64,
+    -1.0
+   ],
+   [
+    51.7,
+    -0.9
+   ],
+   [
+    51.722,
+    -0.83
+   ],
+   [
+    51.762,
+    -0.742
+   ],
+   [
+    51.795,
+    -0.66
+   ],
+   [
+    51.842,
+    -0.608
+   ]
+  ],
+  "from": -3000,
+  "to": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "The chalk ridge route from the Avebury area along the Berkshire Downs to the Thames at Goring, and on along the Chiltern scarp (as the Icknield Way) to Ivinghoe Beacon, passing Barbury, Uffington and Segsbury hillforts. National Trails describe it as in use for at least 5,000 years.",
+  "uncertainty": "Course: the modern National Trail, drawn through its main landmarks from general knowledge. That a single long-distance prehistoric road existed here is an old idea that archaeologists now doubt: the monuments along the ridge are real, but a continuous through-route is not evidenced before the early medieval period, when Anglo-Saxon charters name it. The start date is nominal.",
+  "sources": [
+   "wal-nationaltrail-ridgeway"
+  ]
+ },
+ {
+  "id": "great-north-road",
+  "name": "Great North Road (London–York–Berwick)",
+  "kind": "road",
+  "path": [
+   [
+    51.519,
+    -0.1
+   ],
+   [
+    51.571,
+    -0.148
+   ],
+   [
+    51.653,
+    -0.2
+   ],
+   [
+    51.763,
+    -0.226
+   ],
+   [
+    51.902,
+    -0.202
+   ],
+   [
+    51.99,
+    -0.188
+   ],
+   [
+    52.086,
+    -0.265
+   ],
+   [
+    52.216,
+    -0.288
+   ],
+   [
+    52.294,
+    -0.252
+   ],
+   [
+    52.37,
+    -0.262
+   ],
+   [
+    52.489,
+    -0.289
+   ],
+   [
+    52.651,
+    -0.48
+   ],
+   [
+    52.912,
+    -0.642
+   ],
+   [
+    53.076,
+    -0.809
+   ],
+   [
+    53.23,
+    -0.897
+   ],
+   [
+    53.376,
+    -1.063
+   ],
+   [
+    53.523,
+    -1.133
+   ],
+   [
+    53.648,
+    -1.262
+   ],
+   [
+    53.713,
+    -1.27
+   ],
+   [
+    53.928,
+    -1.386
+   ],
+   [
+    54.094,
+    -1.398
+   ],
+   [
+    54.339,
+    -1.432
+   ],
+   [
+    54.527,
+    -1.553
+   ],
+   [
+    54.776,
+    -1.576
+   ],
+   [
+    54.968,
+    -1.607
+   ],
+   [
+    55.168,
+    -1.69
+   ],
+   [
+    55.413,
+    -1.706
+   ],
+   [
+    55.77,
+    -2.005
+   ]
+  ],
+  "from": 1200,
+  "to": null,
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "The main medieval road from London to the north, by Barnet, Hatfield, Baldock, Stamford, Grantham, Newark, Doncaster, Boroughbridge, Durham and Newcastle to Berwick, with York reached by a branch from near Wetherby or Ferrybridge. Kings and armies used it throughout the Scottish wars.",
+  "uncertainty": "Course: straight segments between the towns on the route, placed from general knowledge; no source was fetched. The name is post-medieval. In the Middle Ages the route out of London by Ware, Royston and Huntingdon (the Old North Road, on Roman Ermine Street) was at least as important as the Barnet line drawn here, and the two joined near Alconbury. The start date is nominal: the route took shape gradually as the towns on it grew in the 12th and 13th centuries.",
+  "sources": []
+ },
+ {
+  "id": "england-wales-border",
+  "name": "England–Wales border",
+  "kind": "border",
+  "path": [
+   [
+    53.33,
+    -3.19
+   ],
+   [
+    53.29,
+    -3.12
+   ],
+   [
+    53.2669,
+    -3.1014
+   ],
+   [
+    53.1893,
+    -2.9223
+   ],
+   [
+    53.1533,
+    -2.9928
+   ],
+   [
+    53.1216,
+    -2.9437
+   ],
+   [
+    53.1214,
+    -2.8809
+   ],
+   [
+    53.0908,
+    -2.9008
+   ],
+   [
+    53.0608,
+    -2.8614
+   ],
+   [
+    53.0199,
+    -2.8587
+   ],
+   [
+    52.9938,
+    -2.8262
+   ],
+   [
+    52.9833,
+    -2.7268
+   ],
+   [
+    52.9252,
+    -2.7284
+   ],
+   [
+    52.8955,
+    -2.8004
+   ],
+   [
+    52.9426,
+    -2.841
+   ],
+   [
+    52.9525,
+    -2.8874
+   ],
+   [
+    52.9387,
+    -2.929
+   ],
+   [
+    52.9689,
+    -2.9747
+   ],
+   [
+    52.9296,
+    -3.0349
+   ],
+   [
+    52.9303,
+    -3.096
+   ],
+   [
+    52.894,
+    -3.1143
+   ],
+   [
+    52.8902,
+    -3.1474
+   ],
+   [
+    52.8671,
+    -3.1277
+   ],
+   [
+    52.848,
+    -3.1627
+   ],
+   [
+    52.7935,
+    -3.1584
+   ],
+   [
+    52.7956,
+    -3.0866
+   ],
+   [
+    52.7715,
+    -3.0795
+   ],
+   [
+    52.7676,
+    -3.0172
+   ],
+   [
+    52.7164,
+    -2.9611
+   ],
+   [
+    52.7242,
+    -3.0215
+   ],
+   [
+    52.6474,
+    -3.0511
+   ],
+   [
+    52.6413,
+    -3.0835
+   ],
+   [
+    52.6307,
+    -3.0598
+   ],
+   [
+    52.586,
+    -3.1392
+   ],
+   [
+    52.5413,
+    -3.1115
+   ],
+   [
+    52.5275,
+    -3.1331
+   ],
+   [
+    52.5755,
+    -3.0144
+   ],
+   [
+    52.5198,
+    -3.0039
+   ],
+   [
+    52.476,
+    -3.1971
+   ],
+   [
+    52.4425,
+    -3.2355
+   ],
+   [
+    52.3482,
+    -3.0607
+   ],
+   [
+    52.3491,
+    -2.9547
+   ],
+   [
+    52.3202,
+    -3.0015
+   ],
+   [
+    52.2775,
+    -3.0118
+   ],
+   [
+    52.2695,
+    -2.9497
+   ],
+   [
+    52.2358,
+    -3.0731
+   ],
+   [
+    52.1669,
+    -3.1219
+   ],
+   [
+    52.1558,
+    -3.0725
+   ],
+   [
+    52.1299,
+    -3.1412
+   ],
+   [
+    52.1167,
+    -3.105
+   ],
+   [
+    52.0783,
+    -3.1258
+   ],
+   [
+    51.9831,
+    -3.0675
+   ],
+   [
+    51.905,
+    -2.9718
+   ],
+   [
+    51.9331,
+    -2.8753
+   ],
+   [
+    51.8805,
+    -2.7684
+   ],
+   [
+    51.8366,
+    -2.7389
+   ],
+   [
+    51.8489,
+    -2.7196
+   ],
+   [
+    51.8327,
+    -2.6582
+   ],
+   [
+    51.7309,
+    -2.6874
+   ],
+   [
+    51.7059,
+    -2.669
+   ],
+   [
+    51.697,
+    -2.681
+   ],
+   [
+    51.665,
+    -2.668
+   ],
+   [
+    51.645,
+    -2.672
+   ],
+   [
+    51.612,
+    -2.66
+   ]
+  ],
+  "from": 1536,
+  "to": null,
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The boundary between Wales and England as fixed by the Laws in Wales Acts of 1535-6 and 1542-3, which assigned each marcher lordship to a Welsh or an English county. It runs from the Dee estuary to the Severn, near but seldom on Offa’s Dyke.",
+  "uncertainty": "Course: the modern boundary, extracted from Office for National Statistics county boundaries (2025) as the edge shared by Welsh and English counties, simplified to 64 vertices; the estuary ends and the lowest part of the Wye are added by hand. The modern line differs from that of 1536-43 only in small later adjustments, which are not shown. Monmouthshire is treated as Welsh: the 1542-3 act left its status ambiguous and it was often counted with England until the 20th century.",
+  "sources": [
+   "wal-legislation-laws-in-wales-1535",
+   "wal-legislation-laws-in-wales-1542",
+   "wal-ons-counties"
+  ]
+ }
+]

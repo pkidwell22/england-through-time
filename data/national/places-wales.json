@@ -1,0 +1,2444 @@
+[
+  {
+    "id": "bryn-celli-ddu",
+    "name": "Bryn Celli Ddu",
+    "lat": 53.2079,
+    "lon": -4.2355,
+    "country": "wales",
+    "kind": "monument",
+    "phases": [
+      {
+        "from": -3100,
+        "to": -2001,
+        "label": "Passage tomb in use",
+        "size": 2
+      },
+      {
+        "from": -2000,
+        "to": null,
+        "label": "Surviving tomb; end of use not dated",
+        "size": 1,
+        "note": "Cadw gives no date for the end of use; 2000 BCE is a display boundary."
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A Neolithic passage tomb on Anglesey under a mound about 26 m across, with a passage aligned on the midsummer sunrise. Cadw describes an earlier bank-and-ditch enclosure with a stone circle on the same spot.",
+    "uncertainty": "The dates are approximate (around 3000 BC is the usual estimate) and come from general knowledge, not from the Cadw page, which gives no years. Whether a henge really preceded the tomb is disputed; the end of use is not dated.",
+    "sources": [
+      "wal-cadw-bryn-celli-ddu"
+    ]
+  },
+  {
+    "id": "barclodiad-y-gawres",
+    "name": "Barclodiad y Gawres",
+    "lat": 53.207,
+    "lon": -4.5035,
+    "country": "wales",
+    "kind": "monument",
+    "phases": [
+      {
+        "from": -3000,
+        "to": -2001,
+        "label": "Passage tomb with carved stones",
+        "size": 1
+      },
+      {
+        "from": -2000,
+        "to": null,
+        "label": "Disused cairn",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A Neolithic passage tomb on the west coast of Anglesey. Several stones carry zig-zags and spirals like those in Irish tombs; Cadw notes Bryn Celli Ddu is the only other tomb in the UK with such art.",
+    "uncertainty": "No radiocarbon date is cited here; about 3000 BC is the conventional estimate by analogy with the Irish tombs. Dates here rest on general knowledge of the standard literature, not on a source fetched for this entry.",
+    "sources": [
+      "wal-cadw-barclodiad"
+    ]
+  },
+  {
+    "id": "pentre-ifan",
+    "name": "Pentre Ifan",
+    "lat": 51.999,
+    "lon": -4.77,
+    "country": "wales",
+    "kind": "monument",
+    "phases": [
+      {
+        "from": -3700,
+        "to": -3001,
+        "label": "Portal dolmen in use",
+        "size": 1
+      },
+      {
+        "from": -3000,
+        "to": null,
+        "label": "Surviving tomb; later use not dated",
+        "size": 1,
+        "note": "Cadw and Coflein give no date for the end of use; 3000 BCE is a display boundary."
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "The best-preserved Neolithic portal dolmen in Wales: a capstone of about 16 tonnes on three uprights, once at the end of a cairn some 30 m long. Excavated by W. F. Grimes in 1936-7.",
+    "uncertainty": "Not closely dated. Coflein says the Nevern valley dolmens were built about 6,000 years ago; Cadw says the capstone has stood for over 5,000 years. The start date here is a middle estimate and the end of use is a guess.",
+    "sources": [
+      "wal-cadw-pentre-ifan",
+      "wal-coflein-pentre-ifan"
+    ]
+  },
+  {
+    "id": "trer-ceiri",
+    "name": "Tre'r Ceiri",
+    "lat": 52.9747,
+    "lon": -4.4238,
+    "country": "wales",
+    "kind": "hillfort",
+    "phases": [
+      {
+        "from": -200,
+        "to": 77,
+        "label": "Stone-walled hillfort",
+        "size": 2
+      },
+      {
+        "from": 78,
+        "to": 399,
+        "label": "Hillfort occupied under Roman rule",
+        "size": 2
+      },
+      {
+        "from": 400,
+        "to": null,
+        "label": "Hillfort with no certain later occupation; sporadic use may have continued",
+        "size": 0,
+        "note": "Coflein: sporadic occupation was likely to have extended into the early medieval period; AD 400 marks only the end of the well-attested Roman-period use."
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "A stone-walled hillfort at about 480 m on Yr Eifl in Llŷn, crowded with some 150 round and sub-rectangular huts. Excavation shows it was probably built in the later Iron Age and stayed in use until at least the 4th century AD.",
+    "uncertainty": "Coflein gives only 'later Iron Age' for the foundation and 'at least the 4th century' for the end; the years 200 BC and AD 400 are placeholders for those phrases. A Bronze Age cairn on the summit is older than the fort.",
+    "sources": [
+      "wal-coflein-trer-ceiri"
+    ]
+  },
+  {
+    "id": "great-orme-mines",
+    "name": "Great Orme copper mines",
+    "lat": 53.331,
+    "lon": -3.848,
+    "country": "wales",
+    "kind": "mine",
+    "phases": [
+      {
+        "from": -1700,
+        "to": -1601,
+        "label": "Early copper workings",
+        "size": 2
+      },
+      {
+        "from": -1600,
+        "to": -1401,
+        "label": "Copper mining boom",
+        "size": 3
+      },
+      {
+        "from": -1400,
+        "to": -901,
+        "label": "Small-scale mining",
+        "size": 1
+      },
+      {
+        "from": -900,
+        "to": null,
+        "label": "Mines disused",
+        "size": 0,
+        "note": "Mining resumed here in the late 17th century, after this timeline ends."
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "Bronze Age copper mines in the limestone of the Great Orme, with kilometres of tunnels dug with bone and stone tools. Nineteen radiocarbon dates span about 1700-900 BC; a 2019 study argues for a boom about 1600-1400 BC that supplied metal across Britain and as far as the Baltic.",
+    "uncertainty": "The boom model rests on metal chemistry and is one research group’s reading. Radiocarbon dates give ranges, not years. The marker is placed at the mine site from general knowledge of its position (Pleiades and Wikidata give only the headland).",
+    "sources": [
+      "wal-liverpool-great-orme",
+      "wal-great-orme-mines"
+    ]
+  },
+  {
+    "id": "parys-mountain",
+    "name": "Parys Mountain",
+    "lat": 53.3887,
+    "lon": -4.3432,
+    "country": "wales",
+    "kind": "mine",
+    "phases": [
+      {
+        "from": -1900,
+        "to": -1501,
+        "label": "Bronze Age copper workings",
+        "size": 1
+      },
+      {
+        "from": -1500,
+        "to": 77,
+        "label": "No mining known",
+        "size": 0
+      },
+      {
+        "from": 78,
+        "to": 399,
+        "label": "Possible Roman copper working",
+        "size": 1
+      },
+      {
+        "from": 400,
+        "to": null,
+        "label": "No mining known",
+        "size": 0,
+        "note": "Large-scale mining began in 1768, after this timeline ends."
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "low",
+    "summary": "A copper-bearing hill in north Anglesey. Hammerstones and charcoal found in old workings point to Early Bronze Age mining; Roman working is inferred from stamped copper ingots found on Anglesey and Pleiades lists it as a Roman mine.",
+    "uncertainty": "Weakly evidenced. The Bronze Age dates are radiocarbon ranges recalled from the literature, not fetched; Roman mining is an inference with no dated workings, and its start and end years are placeholders. Later opencast mining destroyed much of the evidence.",
+    "sources": [
+      "wal-pleiades-parys-mountain"
+    ]
+  },
+  {
+    "id": "llyn-cerrig-bach",
+    "name": "Llyn Cerrig Bach",
+    "lat": 53.2589,
+    "lon": -4.5403,
+    "country": "wales",
+    "kind": "other",
+    "phases": [
+      {
+        "from": -300,
+        "to": 100,
+        "label": "Offerings placed in the lake",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "A small lake in west Anglesey where more than 150 iron and bronze objects, including chariot fittings, swords, spearheads and slave chains, were found in peat in 1942-3 during airfield building. They are read as offerings made over several centuries.",
+    "uncertainty": "The objects were recovered from dredged peat, not excavated. Amgueddfa Cymru dates the deposition to between about 300 BC and AD 100; any link with the Roman attack on Anglesey in AD 60 is conjecture.",
+    "sources": [
+      "wal-museum-llyn-cerrig-bach"
+    ]
+  },
+  {
+    "id": "castell-henllys",
+    "name": "Castell Henllys",
+    "lat": 52.0178,
+    "lon": -4.7453,
+    "country": "wales",
+    "kind": "hillfort",
+    "phases": [
+      {
+        "from": -450,
+        "to": -1,
+        "label": "Defended Iron Age settlement",
+        "size": 1
+      },
+      {
+        "from": 1,
+        "to": 299,
+        "label": "Romano-British farmstead in the annexe",
+        "size": 1
+      },
+      {
+        "from": 300,
+        "to": null,
+        "label": "Abandoned fort",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "A small inland promontory fort in north Pembrokeshire, about 88 by 74 m, excavated over many seasons. The main gateway was begun in the 5th century BC; occupation inside ended about the turn of the era, when a settlement was set up in the annexe.",
+    "uncertainty": "Coflein mentions a possible late or post-Roman reoccupation, which is not shown. The end date of the annexe settlement is a guess.",
+    "sources": [
+      "wal-coflein-castell-henllys"
+    ]
+  },
+  {
+    "id": "caerleon",
+    "name": "Caerleon",
+    "altNames": [
+      {
+        "name": "Isca",
+        "from": 75,
+        "to": 410
+      },
+      {
+        "name": "Caerllion",
+        "from": 800,
+        "to": null
+      }
+    ],
+    "lat": 51.6099,
+    "lon": -2.9565,
+    "country": "wales",
+    "kind": "fort",
+    "phases": [
+      {
+        "from": 75,
+        "to": 299,
+        "label": "Legionary fortress of Legio II Augusta",
+        "size": 4
+      },
+      {
+        "from": 300,
+        "to": 399,
+        "label": "Reduced occupation of the fortress",
+        "size": 2
+      },
+      {
+        "from": 400,
+        "to": 1085,
+        "label": "Ruined fortress; settlement poorly known",
+        "size": 1,
+        "kind": "other"
+      },
+      {
+        "from": 1086,
+        "to": null,
+        "label": "Norman castle and small borough",
+        "size": 1,
+        "kind": "town"
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "high",
+    "summary": "One of three permanent legionary fortresses in Roman Britain, base of the Second Augustan Legion from about AD 75, with baths, barracks and an amphitheatre still visible. A Norman castle and small borough followed in the late 11th century.",
+    "uncertainty": "Pleiades gives c. AD 75-300 for the legion’s base; how much of the legion remained after the late 3rd century, and what happened here between about 400 and the Norman castle (recorded in Domesday Book; 1086 is that date, recalled from general knowledge), is poorly known.",
+    "sources": [
+      "wal-pleiades-isca",
+      "wal-cadw-caerleon"
+    ]
+  },
+  {
+    "id": "segontium",
+    "name": "Segontium",
+    "lat": 53.1373,
+    "lon": -4.2658,
+    "country": "wales",
+    "kind": "fort",
+    "phases": [
+      {
+        "from": 77,
+        "to": 393,
+        "label": "Auxiliary fort",
+        "size": 2
+      },
+      {
+        "from": 394,
+        "to": null,
+        "label": "Abandoned fort (end of occupation about 394)",
+        "size": 0,
+        "note": "Cadw's 'about 394' comes from the latest coins, which give a horizon, not an exact evacuation year."
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "The main Roman fort of north-west Wales, founded under Agricola about AD 77 for a 1,000-strong auxiliary regiment and linked by road to Chester and Caerleon. Coins show it was held until about 394, longer than any other fort in Wales.",
+    "uncertainty": "Cadw gives about AD 394 for the end, from coins; Pleiades gives c. 338. The later date is used here.",
+    "sources": [
+      "wal-cadw-segontium",
+      "wal-pleiades-segontium"
+    ]
+  },
+  {
+    "id": "carmarthen",
+    "name": "Carmarthen",
+    "altNames": [
+      {
+        "name": "Moridunum",
+        "from": 75,
+        "to": 410
+      },
+      {
+        "name": "Caerfyrddin",
+        "from": 1100,
+        "to": null
+      }
+    ],
+    "lat": 51.8593,
+    "lon": -4.3035,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 75,
+        "to": 119,
+        "label": "Roman fort",
+        "size": 1,
+        "kind": "fort"
+      },
+      {
+        "from": 120,
+        "to": 399,
+        "label": "Moridunum, town of the Demetae",
+        "size": 2
+      },
+      {
+        "from": 400,
+        "to": 1108,
+        "label": "Old town and church community",
+        "size": 1
+      },
+      {
+        "from": 1109,
+        "to": 1299,
+        "label": "Royal castle and borough",
+        "size": 2
+      },
+      {
+        "from": 1300,
+        "to": null,
+        "label": "Largest town in Wales",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "The westernmost town of Roman Britain, Moridunum, capital of the Demetae, with an amphitheatre. A royal castle was founded on the Tywi in the early 12th century and the borough became the centre of English royal government in south-west Wales.",
+    "uncertainty": "Pleiades confirms only that Moridunum was the civitas capital of the Demetae. The fort date (c. AD 75), the change to a town (early 2nd century), the castle date (1109) and the claim that Carmarthen was the largest Welsh town in the later Middle Ages come from general knowledge. Continuity between about 400 and 1100 is not demonstrated.",
+    "sources": [
+      "wal-pleiades-moridunum",
+      "wal-coflein-carmarthen-castle"
+    ]
+  },
+  {
+    "id": "caerwent",
+    "name": "Caerwent",
+    "altNames": [
+      {
+        "name": "Venta Silurum",
+        "from": 75,
+        "to": 410
+      }
+    ],
+    "lat": 51.6111,
+    "lon": -2.7687,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 75,
+        "to": 399,
+        "label": "Venta Silurum, town of the Silures",
+        "size": 3
+      },
+      {
+        "from": 400,
+        "to": null,
+        "label": "Village inside the Roman walls",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "The Roman market town and administrative centre of the Silures, founded about AD 75-80. Its town walls, among the best preserved in northern Europe, still surround the village.",
+    "uncertainty": "The town was small by the standards of Roman Britain (about 18 hectares). The pace of decline after the late 4th century is not well dated; an early medieval church community is recorded here but not shown as a separate phase.",
+    "sources": [
+      "wal-cadw-caerwent",
+      "wal-pleiades-venta-silurum"
+    ]
+  },
+  {
+    "id": "dolaucothi",
+    "name": "Dolaucothi gold mines",
+    "lat": 52.0446,
+    "lon": -3.9498,
+    "country": "wales",
+    "kind": "mine",
+    "phases": [
+      {
+        "from": 75,
+        "to": 299,
+        "label": "Roman gold mining",
+        "size": 2
+      },
+      {
+        "from": 300,
+        "to": null,
+        "label": "Workings disused",
+        "size": 0,
+        "note": "Documented mining resumed about 1853, after this timeline ends."
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "low",
+    "summary": "The only known Roman gold mine in Britain, at Pumsaint in Carmarthenshire: opencasts, adits and long aqueducts spread over at least a kilometre, beside a Roman fort.",
+    "uncertainty": "Coflein says only that several features are thought to be Roman or earlier. Mining probably began soon after the conquest of the area in the 70s AD, but neither the start nor the end is dated and pre-Roman working is possible. The years are placeholders.",
+    "sources": [
+      "wal-coflein-dolaucothi"
+    ]
+  },
+  {
+    "id": "nidum",
+    "name": "Nidum",
+    "altNames": [
+      {
+        "name": "Nidum",
+        "from": 75,
+        "to": 320
+      }
+    ],
+    "lat": 51.664,
+    "lon": -3.8124,
+    "country": "wales",
+    "kind": "fort",
+    "phases": [
+      {
+        "from": 75,
+        "to": 124,
+        "label": "Auxiliary fort",
+        "size": 1
+      },
+      {
+        "from": 125,
+        "to": 139,
+        "label": "Fort empty",
+        "size": 0
+      },
+      {
+        "from": 140,
+        "to": 169,
+        "label": "Fort reoccupied",
+        "size": 1
+      },
+      {
+        "from": 170,
+        "to": 274,
+        "label": "Fort empty",
+        "size": 0
+      },
+      {
+        "from": 275,
+        "to": 319,
+        "label": "Late Roman military use",
+        "size": 1
+      },
+      {
+        "from": 320,
+        "to": null,
+        "label": "Abandoned fort",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "A Roman auxiliary fort on the west bank of the river Neath. Excavation shows a first fort of about AD 75-80, a smaller one of 80-90 held until about 125, reoccupation from about 140 to 170 and a late military phase about 275-320.",
+    "uncertainty": "All dates are the excavators’ brackets as summarised by Coflein.",
+    "sources": [
+      "wal-coflein-nidum",
+      "wal-pleiades-nidum"
+    ]
+  },
+  {
+    "id": "abergavenny",
+    "name": "Abergavenny",
+    "altNames": [
+      {
+        "name": "Gobannium",
+        "from": 57,
+        "to": 410
+      },
+      {
+        "name": "Y Fenni",
+        "from": 1100,
+        "to": null
+      }
+    ],
+    "lat": 51.8234,
+    "lon": -3.0195,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 57,
+        "to": 149,
+        "label": "Gobannium, Roman fort",
+        "size": 1,
+        "kind": "fort"
+      },
+      {
+        "from": 150,
+        "to": 1086,
+        "label": "No settlement known",
+        "size": 0
+      },
+      {
+        "from": 1087,
+        "to": null,
+        "label": "Norman castle, priory and town",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "low",
+    "summary": "A Roman fort guarding the Usk valley road, known as Gobannium. A Norman lord built a castle and priory here in the late 11th century and a walled market town grew beside them.",
+    "uncertainty": "Pleiades confirms only a fort and civil settlement. The fort’s dates (founded in the late 50s AD, given up in the 2nd century) and the castle date (c. 1087) are from general knowledge and are approximate.",
+    "sources": [
+      "wal-pleiades-gobannium"
+    ]
+  },
+  {
+    "id": "usk",
+    "name": "Usk",
+    "altNames": [
+      {
+        "name": "Burrium",
+        "from": 55,
+        "to": 410
+      },
+      {
+        "name": "Brynbuga",
+        "from": 1100,
+        "to": null
+      }
+    ],
+    "lat": 51.7039,
+    "lon": -2.9025,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 55,
+        "to": 66,
+        "label": "Legionary fortress",
+        "size": 3,
+        "kind": "fort"
+      },
+      {
+        "from": 67,
+        "to": 149,
+        "label": "Small fort and works depot",
+        "size": 1,
+        "kind": "fort"
+      },
+      {
+        "from": 150,
+        "to": 1119,
+        "label": "No settlement known",
+        "size": 0
+      },
+      {
+        "from": 1120,
+        "to": null,
+        "label": "Norman castle and borough",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "low",
+    "summary": "Site of an early legionary fortress, Burrium, built in the mid-50s AD during the war against the Silures and given up when the legion moved; Caerleon replaced it about AD 75. A Norman castle and planted borough followed in the 12th century.",
+    "uncertainty": "Pleiades confirms only a Roman fort. The fortress dates (c. AD 55-67), the later small fort and the castle date are from general knowledge; the later two are rough.",
+    "sources": [
+      "wal-pleiades-burrium"
+    ]
+  },
+  {
+    "id": "canovium",
+    "name": "Canovium",
+    "lat": 53.216,
+    "lon": -3.8341,
+    "country": "wales",
+    "kind": "fort",
+    "phases": [
+      {
+        "from": 78,
+        "to": 389,
+        "label": "Auxiliary fort at the Conwy crossing",
+        "size": 1
+      },
+      {
+        "from": 390,
+        "to": null,
+        "label": "Abandoned fort",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "A Roman auxiliary fort at Caerhun, guarding the crossing of the Conwy on the road from Chester to Caernarfon. It was occupied, with breaks, from Agricola’s campaign of AD 77/8 into the 4th century.",
+    "uncertainty": "The breaks in occupation are not shown, and the end date is a placeholder for ‘the 4th century’.",
+    "sources": [
+      "wal-coflein-canovium",
+      "wal-pleiades-canovium"
+    ]
+  },
+  {
+    "id": "tomen-y-mur",
+    "name": "Tomen y Mur",
+    "lat": 52.9299,
+    "lon": -3.9268,
+    "country": "wales",
+    "kind": "fort",
+    "phases": [
+      {
+        "from": 78,
+        "to": 139,
+        "label": "Roman auxiliary fort",
+        "size": 1
+      },
+      {
+        "from": 140,
+        "to": 1094,
+        "label": "Abandoned fort",
+        "size": 0
+      },
+      {
+        "from": 1095,
+        "to": 1199,
+        "label": "Castle mound in the fort",
+        "size": 1,
+        "kind": "castle"
+      },
+      {
+        "from": 1200,
+        "to": null,
+        "label": "Earthworks",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "An upland Roman fort in Meirionnydd with a rare set of surrounding earthworks: a small amphitheatre, parade ground, bath-house and practice camps. A castle mound was later raised inside it.",
+    "uncertainty": "Coflein dates the fort to the late 1st century, ‘occupied into the 2nd century if not later’, and the mound to the 12th or 13th century, possibly after Norman armies camped here in the late 11th or early 12th. The years used are placeholders within those ranges.",
+    "sources": [
+      "wal-coflein-tomen-y-mur"
+    ]
+  },
+  {
+    "id": "brecon-gaer",
+    "name": "Y Gaer, Brecon",
+    "lat": 51.957,
+    "lon": -3.451,
+    "country": "wales",
+    "kind": "fort",
+    "phases": [
+      {
+        "from": 75,
+        "to": 299,
+        "label": "Auxiliary cavalry fort",
+        "size": 1
+      },
+      {
+        "from": 300,
+        "to": null,
+        "label": "Later Roman use; final abandonment uncertain",
+        "size": 0,
+        "note": "Cadw gives the foundation (about 75) but no end date; later use was intermittent. 300 is a display boundary."
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A Roman fort west of Brecon, founded about AD 75 where two main roads met and garrisoned by a Spanish cavalry regiment, the Vettones.",
+    "uncertainty": "The foundation date is Cadw’s. The end date is a guess; later Roman use was intermittent. The position is from general knowledge of the site.",
+    "sources": [
+      "wal-cadw-brecon-gaer"
+    ]
+  },
+  {
+    "id": "st-davids",
+    "name": "St Davids",
+    "altNames": [
+      {
+        "name": "Mynyw",
+        "from": 550,
+        "to": 1200
+      },
+      {
+        "name": "Menevia",
+        "from": 550,
+        "to": 1536
+      },
+      {
+        "name": "Tyddewi",
+        "from": 1100,
+        "to": null
+      }
+    ],
+    "lat": 51.8819,
+    "lon": -5.2678,
+    "country": "wales",
+    "kind": "cathedral",
+    "phases": [
+      {
+        "from": 550,
+        "to": 1114,
+        "label": "Monastery and bishop's seat of St David",
+        "size": 2,
+        "kind": "monastery"
+      },
+      {
+        "from": 1115,
+        "to": 1180,
+        "label": "Cathedral under Norman bishops",
+        "size": 2
+      },
+      {
+        "from": 1181,
+        "to": null,
+        "label": "Cathedral and pilgrim shrine",
+        "size": 3
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "The monastery founded by St David in the 6th century was already the seat of bishops in the 9th century (Asser names Archbishop Nobis, his kinsman), long before the first Norman bishop in 1115. The present church was begun in 1181; a 12th-century pope ruled two pilgrimages here equal to one to Rome, and Bishop Henry de Gower built the great palace in 1328-47.",
+    "uncertainty": "Nothing of the early monastery has been found and its foundation date is traditional. Only the papal privilege and the palace dates come from the Cadw page; 1115 (first Norman bishop) and 1181 (present cathedral begun) are from general knowledge. The shrine was dismantled at the Reformation, which is not shown as a phase.",
+    "sources": [
+      "wal-cadw-st-davids",
+      "wal-asser-life-alfred"
+    ]
+  },
+  {
+    "id": "llantwit-major",
+    "name": "Llantwit Major",
+    "altNames": [
+      {
+        "name": "Llanilltud Fawr",
+        "from": 500,
+        "to": null
+      }
+    ],
+    "lat": 51.4062,
+    "lon": -3.475,
+    "country": "wales",
+    "kind": "monastery",
+    "phases": [
+      {
+        "from": 500,
+        "to": 1099,
+        "label": "Monastery and school of St Illtud",
+        "size": 2
+      },
+      {
+        "from": 1100,
+        "to": null,
+        "label": "Parish church and village",
+        "size": 1,
+        "kind": "town"
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "medium",
+    "summary": "Llanilltud Fawr, the monastery of St Illtud in the Vale of Glamorgan, was remembered as the great school of early Christian Wales; the 7th-century Life of St Samson is the earliest witness. Carved stones of the 9th-11th centuries commemorate kings of Glywysing.",
+    "uncertainty": "The foundation date follows the Dictionary of Welsh Biography’s floruit for Illtud (c. 475-525) and is approximate. No early monastic buildings have been found. The Norman takeover date is rounded.",
+    "sources": [
+      "wal-dwb-illtud"
+    ]
+  },
+  {
+    "id": "bangor",
+    "name": "Bangor",
+    "lat": 53.2266,
+    "lon": -4.1274,
+    "country": "wales",
+    "kind": "cathedral",
+    "phases": [
+      {
+        "from": 530,
+        "to": 1119,
+        "label": "Monastery and bishop’s seat of St Deiniol",
+        "size": 1,
+        "kind": "monastery"
+      },
+      {
+        "from": 1120,
+        "to": null,
+        "label": "Cathedral and small town",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "medium",
+    "summary": "A monastery founded by St Deiniol in the 6th century, the seat of the bishops of Gwynedd. The cathedral was rebuilt in stone in the 12th century and damaged in the wars of 1211, 1282 and 1402.",
+    "uncertainty": "The Dictionary of Welsh Biography gives Deiniol’s death as 584 and notes it may really be 572; the foundation year is a guess within his lifetime. The 12th-century rebuilding and the war damage are from general knowledge.",
+    "sources": [
+      "wal-dwb-deiniol"
+    ]
+  },
+  {
+    "id": "llandaff",
+    "name": "Llandaff",
+    "lat": 51.4958,
+    "lon": -3.2181,
+    "country": "wales",
+    "kind": "cathedral",
+    "phases": [
+      {
+        "from": 600,
+        "to": 1119,
+        "label": "Early church community",
+        "size": 1,
+        "kind": "monastery"
+      },
+      {
+        "from": 1120,
+        "to": null,
+        "label": "Cathedral",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A church on the Taff associated with Saints Teilo, Dyfrig and Euddogwy. Bishop Urban began the present cathedral in 1120 and the Book of Llandaff was compiled to back its claims.",
+    "uncertainty": "Llandaff Cathedral gives a Christian presence from at least the 6th century and the present building from about 1120; the early history otherwise rests on 12th-century documents written to support the bishopric, and the 600 start is a placeholder.",
+    "sources": [
+      "wal-llandaff-cathedral-history"
+    ]
+  },
+  {
+    "id": "deganwy",
+    "name": "Deganwy",
+    "altNames": [
+      {
+        "name": "Arx Decantorum",
+        "from": 500,
+        "to": 822
+      },
+      {
+        "name": "Gannoc",
+        "from": 1080,
+        "to": 1300
+      }
+    ],
+    "lat": 53.298,
+    "lon": -3.8287,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 500,
+        "to": 821,
+        "label": "Stronghold of the kings of Gwynedd",
+        "size": 2,
+        "kind": "hillfort"
+      },
+      {
+        "from": 822,
+        "to": 1079,
+        "label": "Stronghold destroyed",
+        "size": 0,
+        "kind": "fort"
+      },
+      {
+        "from": 1080,
+        "to": 1244,
+        "label": "Norman and Welsh castles",
+        "size": 1
+      },
+      {
+        "from": 1245,
+        "to": 1262,
+        "label": "Henry III’s castle and borough",
+        "size": 2
+      },
+      {
+        "from": 1263,
+        "to": null,
+        "label": "Castle destroyed",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "Twin hills above the Conwy estuary: by tradition the seat of Maelgwn, king of Gwynedd, in the 6th century. It was burnt by lightning in 812 and destroyed by the English in 822. Robert of Rhuddlan held it in the late 11th century; Henry III built a great castle in 1245-50, which Llywelyn ap Gruffudd destroyed in 1263.",
+    "uncertainty": "The link with Maelgwn is tradition supported by 5th-6th-century imported pottery; the start date is a placeholder. Coflein notes the borough was still active in 1305, which is not shown.",
+    "sources": [
+      "wal-coflein-deganwy"
+    ]
+  },
+  {
+    "id": "dinefwr",
+    "name": "Dinefwr",
+    "lat": 51.8768,
+    "lon": -4.0185,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1165,
+        "to": 1276,
+        "label": "Chief castle of the princes of Deheubarth",
+        "size": 2
+      },
+      {
+        "from": 1277,
+        "to": 1499,
+        "label": "English royal castle and small borough",
+        "size": 1
+      },
+      {
+        "from": 1500,
+        "to": null,
+        "label": "Castle in decay",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A castle above the Tywi near Llandeilo, thought to have been founded in the later 12th century by the Lord Rhys and remembered as the principal court of Deheubarth. The standing remains are 13th and early 14th century.",
+    "uncertainty": "The Welsh law-books name Dinefwr as the chief court of the south, but no remains older than the 12th century are known, so no earlier phase is shown. The dates 1165 and 1277 (taken by Edward I) are from general knowledge; Coflein says it was still maintained in the early 15th century and may have been replaced by Newton House later that century.",
+    "sources": [
+      "wal-coflein-dinefwr"
+    ]
+  },
+  {
+    "id": "mathrafal",
+    "name": "Mathrafal",
+    "lat": 52.6878,
+    "lon": -3.2865,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1200,
+        "to": 1299,
+        "label": "Enclosure and mound, by tradition the court of Powys",
+        "size": 1
+      },
+      {
+        "from": 1300,
+        "to": null,
+        "label": "Earthworks",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "low",
+    "summary": "An earthwork enclosure and mound on the river Banwy, named in later tradition as the chief court of the kings of Powys.",
+    "uncertainty": "Excavation in 1989 did not find an early medieval royal site: the mound belongs with an oval enclosure filled in by about 1310-1430, the square enclosure was built after about 1200, and the ‘royal court’ tradition is traced only to the mid 13th century. It is shown here only for its 13th-century phase.",
+    "sources": [
+      "wal-coflein-mathrafal"
+    ]
+  },
+  {
+    "id": "aberffraw",
+    "name": "Aberffraw",
+    "lat": 53.1954,
+    "lon": -4.4635,
+    "country": "wales",
+    "kind": "palace",
+    "phases": [
+      {
+        "from": 600,
+        "to": 1282,
+        "label": "Chief court of the kings and princes of Gwynedd",
+        "size": 2
+      },
+      {
+        "from": 1283,
+        "to": null,
+        "label": "Village; court dismantled",
+        "size": 1,
+        "kind": "town"
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "medium",
+    "summary": "By tradition the chief seat of the kings of Gwynedd, on the west coast of Anglesey; the princes styled themselves ‘prince of Aberffraw’ in the 13th century. The settlement declined after a great storm in 1331 altered the coast.",
+    "uncertainty": "Coflein reports the royal seat as tradition. The position of the llys within the village is not securely established and the start date is a placeholder; documentary references begin in the 7th-9th centuries.",
+    "sources": [
+      "wal-coflein-aberffraw"
+    ]
+  },
+  {
+    "id": "dinas-emrys",
+    "name": "Dinas Emrys",
+    "lat": 53.022,
+    "lon": -4.079,
+    "country": "wales",
+    "kind": "hillfort",
+    "phases": [
+      {
+        "from": 300,
+        "to": 599,
+        "label": "Late Roman and post-Roman stronghold",
+        "size": 1
+      },
+      {
+        "from": 600,
+        "to": 1179,
+        "label": "No occupation known",
+        "size": 0
+      },
+      {
+        "from": 1180,
+        "to": 1282,
+        "label": "Stone tower of the princes of Gwynedd",
+        "size": 1,
+        "kind": "castle"
+      },
+      {
+        "from": 1283,
+        "to": null,
+        "label": "Ruin",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "low",
+    "summary": "A rocky stronghold above Nant Gwynant, the legendary site of Vortigern’s fortress and Merlin’s dragons. Excavations in 1910 and 1954-6 found Iron Age, Roman and early medieval occupation; a stone tower was added at the end of the 12th century.",
+    "uncertainty": "The phases of occupation are not closely dated and the years are placeholders. The Vortigern story is 9th-century legend.",
+    "sources": [
+      "wal-coflein-dinas-emrys"
+    ]
+  },
+  {
+    "id": "llangorse-crannog",
+    "name": "Llangorse crannog",
+    "lat": 51.931,
+    "lon": -3.2628,
+    "country": "wales",
+    "kind": "palace",
+    "phases": [
+      {
+        "from": 890,
+        "to": 915,
+        "label": "Royal crannog of Brycheiniog",
+        "size": 2
+      },
+      {
+        "from": 916,
+        "to": null,
+        "label": "Burnt island",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "high",
+    "summary": "The only crannog (artificial island) known in Wales, built in Llangorse Lake for the king of Brycheiniog from timbers felled between AD 889 and 893. The Anglo-Saxon Chronicle records that a Mercian army sent by Æthelflæd destroyed ‘Brecenanmere’ in 916 and took the king’s wife captive.",
+    "uncertainty": "The identification of ‘Brecenanmere’ with the crannog is probable, not certain.",
+    "sources": [
+      "wal-nmw-llangors"
+    ]
+  },
+  {
+    "id": "dinas-powys",
+    "name": "Dinas Powys hillfort",
+    "lat": 51.4375,
+    "lon": -3.2206,
+    "country": "wales",
+    "kind": "hillfort",
+    "phases": [
+      {
+        "from": 450,
+        "to": 699,
+        "label": "Post-Roman chieftain’s stronghold",
+        "size": 1
+      },
+      {
+        "from": 700,
+        "to": null,
+        "label": "Abandoned",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "A small defended hilltop near Cardiff, excavated by Leslie Alcock in the 1950s. Imported Mediterranean and Gaulish pottery, glass and fine metalworking show a wealthy household of the 5th to 7th centuries.",
+    "uncertainty": "The dating of the ramparts has been revised more than once and the end date is approximate. Dates here rest on general knowledge of the standard literature, not on a source fetched for this entry.",
+    "sources": []
+  },
+  {
+    "id": "pillar-of-eliseg",
+    "name": "Pillar of Eliseg",
+    "lat": 52.9921,
+    "lon": -3.1892,
+    "country": "wales",
+    "kind": "monument",
+    "phases": [
+      {
+        "from": 825,
+        "to": null,
+        "label": "Inscribed memorial cross of the kings of Powys",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "The shaft of a 9th-century cross near Llangollen, set up by Cyngen, king of Powys (died 854/5), in honour of his great-grandfather Eliseg. Its long Latin inscription, now illegible, traced the dynasty’s descent.",
+    "uncertainty": "Cadw’s page dates the pillar only to the 9th century; the attribution to Cyngen depends on a transcript of the inscription made in 1696, and the year shown is a placeholder within his reign.",
+    "sources": [
+      "wal-cadw-valle-crucis"
+    ]
+  },
+  {
+    "id": "chepstow",
+    "name": "Chepstow",
+    "altNames": [
+      {
+        "name": "Striguil",
+        "from": 1067,
+        "to": 1400
+      },
+      {
+        "name": "Cas-gwent",
+        "from": 1100,
+        "to": null
+      }
+    ],
+    "lat": 51.6439,
+    "lon": -2.6757,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1067,
+        "to": null,
+        "label": "Castle and borough at the Wye crossing",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "A castle on a cliff above the Wye, begun in 1067 by William fitz Osbern, earl of Hereford, and one of the first Norman strongholds in Wales. Its great tower is among the oldest stone castle buildings in Britain; a walled port town grew beside it.",
+    "uncertainty": "Some scholars date the great tower to William I’s visit of 1081 or later, not to fitz Osbern.",
+    "sources": [
+      "wal-cadw-chepstow"
+    ]
+  },
+  {
+    "id": "pembroke",
+    "name": "Pembroke",
+    "altNames": [
+      {
+        "name": "Penfro",
+        "from": 1093,
+        "to": null
+      }
+    ],
+    "lat": 51.6769,
+    "lon": -4.9206,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1093,
+        "to": 1199,
+        "label": "Earth-and-timber castle",
+        "size": 1
+      },
+      {
+        "from": 1200,
+        "to": null,
+        "label": "Stone castle and walled town",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "A castle on a tidal promontory, established by the Normans about 1093-4 and never taken by the Welsh. The round great tower was built at the start of the 13th century; Henry Tudor, later Henry VII, was born here in 1457.",
+    "uncertainty": "Coflein gives ‘about 1094’ for the foundation. The link of the great tower with William Marshal and the birth of Henry VII are from general knowledge.",
+    "sources": [
+      "wal-coflein-pembroke"
+    ]
+  },
+  {
+    "id": "cardiff",
+    "name": "Cardiff",
+    "altNames": [
+      {
+        "name": "Caerdydd",
+        "from": 1081,
+        "to": null
+      }
+    ],
+    "lat": 51.4823,
+    "lon": -3.1811,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 55,
+        "to": 279,
+        "label": "Series of Roman forts",
+        "size": 1,
+        "kind": "fort"
+      },
+      {
+        "from": 280,
+        "to": 379,
+        "label": "Stone-walled Roman fort",
+        "size": 2,
+        "kind": "fort"
+      },
+      {
+        "from": 380,
+        "to": 1080,
+        "label": "Empty fort walls",
+        "size": 0
+      },
+      {
+        "from": 1081,
+        "to": 1299,
+        "label": "Norman castle and borough",
+        "size": 2,
+        "kind": "castle"
+      },
+      {
+        "from": 1300,
+        "to": null,
+        "label": "Chief town of Glamorgan",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A series of Roman forts stood beside the Taff from the late 50s AD to the late 4th century. About 1081 William I set a castle inside the walls of the last fort, and the borough beside it became the head of the lordship of Glamorgan and one of the larger towns in Wales.",
+    "uncertainty": "The date of the stone fort (late 3rd century) and the size of the medieval town are from general knowledge; the Roman name is uncertain (Pleiades offers ‘Tamion?’). Nothing is known of the site between the 4th and 11th centuries.",
+    "sources": [
+      "wal-coflein-cardiff",
+      "wal-pleiades-cardiff-fort"
+    ]
+  },
+  {
+    "id": "caerphilly",
+    "name": "Caerphilly Castle",
+    "lat": 51.5761,
+    "lon": -3.2203,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1268,
+        "to": 1499,
+        "label": "Concentric castle with water defences",
+        "size": 2
+      },
+      {
+        "from": 1500,
+        "to": null,
+        "label": "Castle in decay",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "The largest castle in Wales, begun in 1268 by Gilbert de Clare, lord of Glamorgan, against Llywelyn ap Gruffudd. Its concentric walls and wide artificial lakes were new to Britain.",
+    "uncertainty": "The date by which the castle was ruinous is approximate (it was derelict when John Leland saw it in the 1530s).",
+    "sources": [
+      "wal-cadw-caerphilly"
+    ]
+  },
+  {
+    "id": "dolwyddelan",
+    "name": "Dolwyddelan Castle",
+    "lat": 53.0531,
+    "lon": -3.9083,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1210,
+        "to": 1282,
+        "label": "Castle of the princes of Gwynedd",
+        "size": 1
+      },
+      {
+        "from": 1283,
+        "to": 1299,
+        "label": "English garrison",
+        "size": 1
+      },
+      {
+        "from": 1300,
+        "to": null,
+        "label": "Little used",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A stone keep guarding a route through Snowdonia, built by Llywelyn ap Iorwerth, ruler of Gwynedd from 1201 to 1240. It fell to Edward I in 1283, who refitted it.",
+    "uncertainty": "The building date is not recorded; 1210 is a placeholder within Llywelyn’s reign. The castle was lived in again from the late 15th century, which is not shown.",
+    "sources": [
+      "wal-cadw-dolwyddelan"
+    ]
+  },
+  {
+    "id": "castell-y-bere",
+    "name": "Castell y Bere",
+    "lat": 52.6583,
+    "lon": -3.9711,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1221,
+        "to": 1293,
+        "label": "Castle of the princes of Gwynedd, then English",
+        "size": 1
+      },
+      {
+        "from": 1294,
+        "to": null,
+        "label": "Abandoned",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "A castle on a rock in the Dysynni valley, begun in 1221 by Llywelyn ap Iorwerth to guard the southern border of Gwynedd. It was taken by Edward I’s forces in 1283 and given up after the Welsh rising of 1294.",
+    "sources": [
+      "wal-cadw-castell-y-bere"
+    ]
+  },
+  {
+    "id": "dolbadarn",
+    "name": "Dolbadarn Castle",
+    "lat": 53.1166,
+    "lon": -4.1142,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1210,
+        "to": 1283,
+        "label": "Castle of the princes of Gwynedd",
+        "size": 1
+      },
+      {
+        "from": 1284,
+        "to": null,
+        "label": "Abandoned tower",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A round stone tower at the foot of the Llanberis pass, most likely built by Llywelyn ap Iorwerth in the late 12th or early 13th century.",
+    "uncertainty": "Cadw gives only ‘late 12th or early 13th century’; 1210 is a placeholder. The end date reflects the removal of its timber to Caernarfon in 1284, a detail from general knowledge.",
+    "sources": [
+      "wal-cadw-dolbadarn"
+    ]
+  },
+  {
+    "id": "criccieth",
+    "name": "Criccieth Castle",
+    "lat": 52.9161,
+    "lon": -4.2325,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1230,
+        "to": 1282,
+        "label": "Castle of the princes of Gwynedd",
+        "size": 1
+      },
+      {
+        "from": 1283,
+        "to": 1403,
+        "label": "English castle and borough",
+        "size": 1
+      },
+      {
+        "from": 1404,
+        "to": null,
+        "label": "Burnt ruin",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A castle on a headland in Cardigan Bay. Llywelyn ap Iorwerth built the twin-towered gatehouse, Llywelyn ap Gruffudd added the outer ward, Edward I refitted it, and Owain Glyndŵr burnt it in 1404.",
+    "uncertainty": "The first building date is not recorded; about 1230 is the usual estimate, from general knowledge.",
+    "sources": [
+      "wal-cadw-criccieth"
+    ]
+  },
+  {
+    "id": "flint",
+    "name": "Flint",
+    "altNames": [
+      {
+        "name": "Y Fflint",
+        "from": 1277,
+        "to": null
+      }
+    ],
+    "lat": 53.2517,
+    "lon": -3.1299,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1277,
+        "to": null,
+        "label": "Edward I’s castle and borough",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "The first of Edward I’s castles in Wales, begun in 1277 and largely finished by 1284, with a planned borough beside it. Richard II met Henry Bolingbroke here in 1399.",
+    "sources": [
+      "wal-cadw-flint"
+    ]
+  },
+  {
+    "id": "rhuddlan",
+    "name": "Rhuddlan",
+    "altNames": [
+      {
+        "name": "Cledemutha",
+        "from": 921,
+        "to": 1063
+      }
+    ],
+    "lat": 53.2892,
+    "lon": -3.4642,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 921,
+        "to": 1063,
+        "label": "English burh, then Welsh royal seat",
+        "size": 1,
+        "kind": "town"
+      },
+      {
+        "from": 1073,
+        "to": 1276,
+        "label": "Norman motte and borough",
+        "size": 1
+      },
+      {
+        "from": 1277,
+        "to": null,
+        "label": "Edward I’s castle and borough",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "The lowest crossing of the Clwyd. Edward the Elder founded a burh here in 921; it was Gruffudd ap Llywelyn’s seat until 1063; Robert of Rhuddlan raised a motte in 1073. Edward I began the present concentric castle in 1277 and issued the Statute of Rhuddlan here in 1284.",
+    "uncertainty": "Only the 1277 date comes from Cadw and the Statute from the Bodleian guide. The burh of ‘Cledemutha’ (921), Gruffudd’s court and the motte of 1073 are from general knowledge; the identification of Cledemutha with Rhuddlan is generally, not universally, accepted.",
+    "sources": [
+      "wal-cadw-rhuddlan",
+      "wal-bodleian-welsh-law"
+    ]
+  },
+  {
+    "id": "conwy",
+    "name": "Conwy",
+    "altNames": [
+      {
+        "name": "Aberconwy",
+        "from": 1192,
+        "to": 1283
+      }
+    ],
+    "lat": 53.2801,
+    "lon": -3.8256,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1192,
+        "to": 1282,
+        "label": "Aberconwy Abbey (here from about 1192)",
+        "size": 1,
+        "kind": "monastery",
+        "note": "Monastic Wales: founded 24 July 1186 at Rhedynog Felen, south of Caernarfon; by 1192 the monks had settled near the mouth of the Conwy."
+      },
+      {
+        "from": 1283,
+        "to": null,
+        "label": "Edward I’s castle and walled town",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "Edward I and Master James of St George built the castle and a 1.3 km circuit of town walls here between 1283 and 1287. The site had been the Cistercian abbey of Aberconwy, burial place of Llywelyn ap Iorwerth, which the king moved up the valley to Maenan.",
+    "uncertainty": "The abbey was founded in 1186 elsewhere and is shown here only from its move, by 1192 (Monastic Wales).",
+    "sources": [
+      "wal-cadw-conwy",
+      "wal-monasticwales-aberconwy-1186"
+    ]
+  },
+  {
+    "id": "caernarfon",
+    "name": "Caernarfon",
+    "altNames": [
+      {
+        "name": "Caernarvon",
+        "from": 1283,
+        "to": null
+      }
+    ],
+    "lat": 53.1393,
+    "lon": -4.2769,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1090,
+        "to": 1114,
+        "label": "Norman motte",
+        "size": 1
+      },
+      {
+        "from": 1115,
+        "to": 1282,
+        "label": "Court of the princes of Gwynedd",
+        "size": 1,
+        "kind": "palace"
+      },
+      {
+        "from": 1283,
+        "to": 1535,
+        "label": "Edward I’s castle and walled borough; seat of government for North Wales",
+        "size": 3
+      },
+      {
+        "from": 1536,
+        "to": null,
+        "label": "County town; castle in decay",
+        "size": 2,
+        "kind": "town"
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "Edward I began the castle and walled borough in 1283, with a quay, all at once; work lasted 47 years and was still unfinished about 1330. It was the centre of royal government in North Wales. The castle was in decay by the 16th century.",
+    "uncertainty": "The Norman motte of about 1090 and the Welsh court that followed are from general knowledge and their dates are approximate.",
+    "sources": [
+      "wal-coflein-caernarfon",
+      "wal-cadw-caernarfon"
+    ]
+  },
+  {
+    "id": "harlech",
+    "name": "Harlech Castle",
+    "lat": 52.86,
+    "lon": -4.1092,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1283,
+        "to": 1403,
+        "label": "Edward I’s castle",
+        "size": 2
+      },
+      {
+        "from": 1404,
+        "to": 1408,
+        "label": "Court of Owain Glyndŵr",
+        "size": 2
+      },
+      {
+        "from": 1409,
+        "to": null,
+        "label": "Royal castle",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "A concentric castle on a crag above Cardigan Bay, begun in May 1283 and largely complete by 1289. Owain Glyndŵr took it in 1404 and kept his court and family here until it was retaken in 1409; it fell again to the Yorkists in 1468 after a long siege.",
+    "sources": [
+      "wal-coflein-harlech",
+      "wal-cadw-harlech"
+    ]
+  },
+  {
+    "id": "beaumaris",
+    "name": "Beaumaris",
+    "lat": 53.2649,
+    "lon": -4.0896,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1295,
+        "to": null,
+        "label": "Edward I’s unfinished castle; borough and port",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "The last of Edward I’s Welsh castles, begun in 1295 after the rising of Madog ap Llywelyn. Money ran short and work petered out by the 1320s, leaving the towers below their planned height. The borough became the main port of Anglesey.",
+    "uncertainty": "Glyndŵr’s supporters held it from 1403 for about two years, which is not shown as a phase.",
+    "sources": [
+      "wal-coflein-beaumaris",
+      "wal-cadw-beaumaris"
+    ]
+  },
+  {
+    "id": "kidwelly",
+    "name": "Kidwelly",
+    "altNames": [
+      {
+        "name": "Cydweli",
+        "from": 1106,
+        "to": null
+      }
+    ],
+    "lat": 51.7394,
+    "lon": -4.3057,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1106,
+        "to": null,
+        "label": "Norman castle and borough",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A Norman ringwork of the early 12th century, rebuilt in stone as a concentric castle in the late 13th and 14th centuries. The Lord Rhys captured it in 1159.",
+    "uncertainty": "Cadw gives only ‘early 12th century’; 1106 (the grant to Bishop Roger of Salisbury) is from general knowledge.",
+    "sources": [
+      "wal-cadw-kidwelly"
+    ]
+  },
+  {
+    "id": "montgomery",
+    "name": "Montgomery",
+    "altNames": [
+      {
+        "name": "Trefaldwyn",
+        "from": 1223,
+        "to": null
+      }
+    ],
+    "lat": 52.5633,
+    "lon": -3.1499,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1071,
+        "to": 1222,
+        "label": "Hen Domen, earth-and-timber castle",
+        "size": 1
+      },
+      {
+        "from": 1223,
+        "to": null,
+        "label": "Royal stone castle and borough",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "Henry III began the stone castle about 1223 against Llywelyn ap Iorwerth, replacing the nearby timber castle of Hen Domen. It withstood attacks in 1228, 1231 and 1245. The treaty that recognised Llywelyn ap Gruffudd as Prince of Wales was sealed at the nearby ford in 1267.",
+    "uncertainty": "The marker is at the stone castle; Hen Domen lies about 1.5 km north-west. Its foundation about 1071 by Roger of Montgomery is from general knowledge.",
+    "sources": [
+      "wal-cadw-montgomery"
+    ]
+  },
+  {
+    "id": "dolforwyn",
+    "name": "Dolforwyn Castle",
+    "lat": 52.5465,
+    "lon": -3.252,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1273,
+        "to": 1276,
+        "label": "Castle of Llywelyn ap Gruffudd",
+        "size": 1
+      },
+      {
+        "from": 1277,
+        "to": 1389,
+        "label": "Mortimer castle",
+        "size": 1
+      },
+      {
+        "from": 1390,
+        "to": null,
+        "label": "Abandoned",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "high",
+    "summary": "A castle built by Llywelyn ap Gruffudd in 1273 on a ridge above the Severn, in defiance of the king and facing royal Montgomery. Roger Mortimer took it in 1277 after a two-week siege.",
+    "uncertainty": "Cadw says only that it was abandoned in the 14th century; the end year is a placeholder.",
+    "sources": [
+      "wal-cadw-dolforwyn"
+    ]
+  },
+  {
+    "id": "raglan",
+    "name": "Raglan Castle",
+    "lat": 51.7703,
+    "lon": -2.8501,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1435,
+        "to": null,
+        "label": "Fortress-palace of the Herberts and Somersets",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "A late medieval fortress-palace in Gwent. Sir William ap Thomas built the moated Great Tower about 1435 and his son William Herbert, earl of Pembroke, enlarged it.",
+    "uncertainty": "An earlier manor stood here; it is not shown.",
+    "sources": [
+      "wal-cadw-raglan"
+    ]
+  },
+  {
+    "id": "denbigh",
+    "name": "Denbigh",
+    "altNames": [
+      {
+        "name": "Dinbych",
+        "from": 1260,
+        "to": null
+      }
+    ],
+    "lat": 53.1806,
+    "lon": -3.4206,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1260,
+        "to": 1281,
+        "label": "Court of Dafydd ap Gruffudd",
+        "size": 1,
+        "kind": "palace"
+      },
+      {
+        "from": 1282,
+        "to": null,
+        "label": "De Lacy castle and walled borough",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A Welsh princely residence of Dafydd ap Gruffudd, whose attack on Hawarden in 1282 set off Edward I’s final war. Henry de Lacy then built a large castle and walled town on the site; the half-built castle was captured in the rising of 1294.",
+    "uncertainty": "The start date of the Welsh court is a placeholder. The position is from general knowledge.",
+    "sources": [
+      "wal-cadw-denbigh"
+    ]
+  },
+  {
+    "id": "sycharth",
+    "name": "Sycharth",
+    "lat": 52.8248,
+    "lon": -3.1805,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1350,
+        "to": 1402,
+        "label": "Hall of Owain Glyndŵr",
+        "size": 1
+      },
+      {
+        "from": 1403,
+        "to": null,
+        "label": "Burnt motte",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "medium",
+    "summary": "A motte and bailey in the Cynllaith valley, the chief home of Owain Glyndŵr. A poem of about 1390 praises its fine timber hall on a green mound; it was burnt in 1403 and has no later history.",
+    "uncertainty": "Coflein says the castle may be as early as the 12th century but direct evidence is lacking; the start date here marks only the 14th-century hall.",
+    "sources": [
+      "wal-coflein-sycharth",
+      "wal-dwb-owain-glyndwr"
+    ]
+  },
+  {
+    "id": "dinas-bran",
+    "name": "Castell Dinas Brân",
+    "lat": 52.9792,
+    "lon": -3.1596,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1260,
+        "to": 1276,
+        "label": "Castle of the princes of Powys Fadog",
+        "size": 1
+      },
+      {
+        "from": 1277,
+        "to": null,
+        "label": "Burnt ruin",
+        "size": 0
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A hilltop castle above Llangollen, built inside an Iron Age hillfort by the rulers of northern Powys in the 1260s and burnt by its own garrison before Edward I’s army in 1277.",
+    "uncertainty": "The building date is an estimate. Dates here rest on general knowledge of the standard literature, not on a source fetched for this entry.",
+    "sources": []
+  },
+  {
+    "id": "tintern",
+    "name": "Tintern Abbey",
+    "altNames": [
+      {
+        "name": "Tyndyrn",
+        "from": 1131,
+        "to": null
+      }
+    ],
+    "lat": 51.6971,
+    "lon": -2.6772,
+    "country": "wales",
+    "kind": "monastery",
+    "phases": [
+      {
+        "from": 1131,
+        "to": 1535,
+        "label": "Cistercian abbey",
+        "size": 2
+      },
+      {
+        "from": 1536,
+        "to": null,
+        "label": "Dissolved 1536; stripped and slowly decaying to a ruin",
+        "size": 1,
+        "note": "Cadw: the lands passed to the Earl of Worcester and the buildings decayed slowly into ruin; the lead may have been stripped early."
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "The first Cistercian abbey in Wales, founded in 1131 on the Wye. The great church was begun in 1269. The abbey surrendered in 1536 in the first round of the dissolution.",
+    "sources": [
+      "wal-cadw-tintern"
+    ]
+  },
+  {
+    "id": "strata-florida",
+    "name": "Strata Florida Abbey",
+    "altNames": [
+      {
+        "name": "Ystrad Fflur",
+        "from": 1184,
+        "to": null
+      }
+    ],
+    "lat": 52.2754,
+    "lon": -3.8383,
+    "country": "wales",
+    "kind": "monastery",
+    "phases": [
+      {
+        "from": 1184,
+        "to": 1538,
+        "label": "Cistercian abbey on its Teifi site",
+        "size": 2,
+        "note": "Cadw: the abbey has stood beside the Teifi since 1184; the community founded in 1164 began on an earlier site."
+      },
+      {
+        "from": 1539,
+        "to": null,
+        "label": "Dissolved 1539; lead stripped, then left to fall into ruin",
+        "size": 0,
+        "note": "Cadw: partly dismantled from 1539, starting with about 10 tons of roof lead, and then allowed to fall into ruin."
+      }
+    ],
+    "evidence": "attested-excavated",
+    "confidence": "high",
+    "summary": "A Cistercian abbey in the Ceredigion uplands, founded in 1164 by a Norman lord and soon taken under the patronage of the Lord Rhys. The monks entered their new church in 1201. Welsh princes were buried here and it supported the Welsh cause; it closed by 1539.",
+    "uncertainty": "The community founded in 1164 first lived on another site and is shown at this marker only from 1184 (Cadw).",
+    "sources": [
+      "wal-coflein-strata-florida",
+      "wal-cadw-strata-florida"
+    ]
+  },
+  {
+    "id": "valle-crucis",
+    "name": "Valle Crucis Abbey",
+    "altNames": [
+      {
+        "name": "Glyn y Groes",
+        "from": 1201,
+        "to": null
+      }
+    ],
+    "lat": 52.9887,
+    "lon": -3.1865,
+    "country": "wales",
+    "kind": "monastery",
+    "phases": [
+      {
+        "from": 1201,
+        "to": 1536,
+        "label": "Cistercian abbey",
+        "size": 1
+      },
+      {
+        "from": 1537,
+        "to": null,
+        "label": "Dissolved 1537; lead stripped, east range made into a house",
+        "size": 1,
+        "note": "Coflein/Cadw: the lead was stripped for the Crown and the east range was converted into a house, lived in until about 1654."
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "A Cistercian abbey near Llangollen, founded in 1201 by Madog ap Gruffudd, prince of northern Powys, and named after the nearby Pillar of Eliseg. It was dissolved in 1537.",
+    "sources": [
+      "wal-cadw-valle-crucis"
+    ]
+  },
+  {
+    "id": "neath-abbey",
+    "name": "Neath Abbey",
+    "lat": 51.6609,
+    "lon": -3.8261,
+    "country": "wales",
+    "kind": "monastery",
+    "phases": [
+      {
+        "from": 1130,
+        "to": 1538,
+        "label": "Abbey (Savigniac, then Cistercian)",
+        "size": 2
+      },
+      {
+        "from": 1539,
+        "to": null,
+        "label": "Dissolved 1539; decaying, with a Tudor mansion built into it later in the century",
+        "size": 0,
+        "note": "Bought by Sir Richard Williams in 1542; the mansion in the south-east corner of the cloister dates from the second half of the 16th century (Coflein), not from 1539."
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "Founded in 1130 by the Norman knight Richard de Granville; by the late 13th century one of the wealthiest abbeys in Wales.",
+    "uncertainty": "The dissolution year (1539) and the abbey’s first affiliation to Savigny are from general knowledge; Cadw’s page gives neither.",
+    "sources": [
+      "wal-cadw-neath-abbey"
+    ]
+  },
+  {
+    "id": "margam",
+    "name": "Margam Abbey",
+    "lat": 51.5624,
+    "lon": -3.7299,
+    "country": "wales",
+    "kind": "monastery",
+    "phases": [
+      {
+        "from": 1147,
+        "to": 1535,
+        "label": "Cistercian abbey",
+        "size": 2
+      },
+      {
+        "from": 1536,
+        "to": null,
+        "label": "Nave kept as parish church",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "high",
+    "summary": "A Cistercian abbey founded about 1147 and dissolved in 1536, thought to stand on an earlier monastic site: early Christian carved stones were found around it. The western part of the nave survives as the parish church.",
+    "sources": [
+      "wal-coflein-margam"
+    ]
+  },
+  {
+    "id": "basingwerk",
+    "name": "Basingwerk Abbey",
+    "altNames": [
+      {
+        "name": "Dinas Basing",
+        "from": 1131,
+        "to": null
+      }
+    ],
+    "lat": 53.288,
+    "lon": -3.2073,
+    "country": "wales",
+    "kind": "monastery",
+    "phases": [
+      {
+        "from": 1131,
+        "to": 1535,
+        "label": "Abbey (Savigniac, then Cistercian)",
+        "size": 1
+      },
+      {
+        "from": 1536,
+        "to": null,
+        "label": "Dissolved 1536; sold, partly demolished and robbed for stone",
+        "size": 0,
+        "note": "Cadw: the buildings were sold and partly demolished; lead went to repair Holt Castle and Dublin Castle."
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "An abbey near Holywell on the Dee estuary, founded in 1131 and much rebuilt in the 13th century. Wat’s Dyke reaches the estuary close by.",
+    "uncertainty": "The dissolution year is from general knowledge. Monastic Wales says the first site of about 1131 may have been at Coleshill, about 5 km south-east, or nearer the present site, and that the community probably moved when it became a dependency of Buildwas in 1157; the 1131 start is therefore the foundation, not necessarily this site.",
+    "sources": [
+      "wal-cadw-basingwerk",
+      "wal-monasticwales-basingwerk"
+    ]
+  },
+  {
+    "id": "swansea",
+    "name": "Swansea",
+    "altNames": [
+      {
+        "name": "Abertawe",
+        "from": 1106,
+        "to": null
+      }
+    ],
+    "lat": 51.6204,
+    "lon": -3.9411,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 1106,
+        "to": 1299,
+        "label": "Norman castle and borough of Gower",
+        "size": 1,
+        "kind": "castle"
+      },
+      {
+        "from": 1300,
+        "to": null,
+        "label": "Port and market town",
+        "size": 2,
+        "kind": "port"
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "medium",
+    "summary": "The castle at the mouth of the Tawe was founded in or soon after 1106 as the head of the Norman lordship of Gower; a borough and port grew beside it. The first castle was earth and timber, rebuilt in stone probably between 1221 and 1284.",
+    "uncertainty": "Size is a rough judgement; medieval Swansea had perhaps 1,000-2,000 people. A Norse origin for the name is often suggested but no Viking-age settlement has been found.",
+    "sources": [
+      "wal-coflein-swansea-castle"
+    ]
+  },
+  {
+    "id": "haverfordwest",
+    "name": "Haverfordwest",
+    "altNames": [
+      {
+        "name": "Hwlffordd",
+        "from": 1110,
+        "to": null
+      }
+    ],
+    "lat": 51.8024,
+    "lon": -4.9703,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 1110,
+        "to": 1299,
+        "label": "Castle and Flemish borough",
+        "size": 1,
+        "kind": "castle"
+      },
+      {
+        "from": 1300,
+        "to": null,
+        "label": "Chief town of Pembrokeshire",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "A castle founded about 1110 by Tancred, a Fleming, at the tidal limit of the Western Cleddau. The town below it became one of the largest and richest in medieval Wales.",
+    "uncertainty": "The town’s later size is from general knowledge; it was made a county in itself in the late 15th or 16th century.",
+    "sources": [
+      "wal-coflein-haverfordwest"
+    ]
+  },
+  {
+    "id": "brecon",
+    "name": "Brecon",
+    "altNames": [
+      {
+        "name": "Aberhonddu",
+        "from": 1093,
+        "to": null
+      }
+    ],
+    "lat": 51.9513,
+    "lon": -3.3918,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 1093,
+        "to": null,
+        "label": "Norman castle, priory and walled town",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "Bernard de Neufmarché defeated the king of Brycheiniog near here in 1093 and built a castle and a Benedictine priory (now the cathedral) at the meeting of the Usk and Honddu. A walled town followed.",
+    "uncertainty": "The marker is at the priory church. Dates here rest on general knowledge of the standard literature, not on a source fetched for this entry.",
+    "sources": []
+  },
+  {
+    "id": "wrexham",
+    "name": "Wrexham",
+    "altNames": [
+      {
+        "name": "Wrecsam",
+        "from": 1161,
+        "to": null
+      }
+    ],
+    "lat": 53.0467,
+    "lon": -2.9936,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 1161,
+        "to": 1399,
+        "label": "Market settlement in the lordship of Bromfield",
+        "size": 1
+      },
+      {
+        "from": 1400,
+        "to": null,
+        "label": "Largest town of north-east Wales",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "low",
+    "summary": "A market town on the Welsh side of the border, first recorded in the 12th century. It was never a chartered walled borough but by the 16th century was among the most populous towns in Wales.",
+    "uncertainty": "The first mention (a castle at ‘Wristlesham’, 1161) and the growth of the town are from general knowledge; the phase dates are approximate.",
+    "sources": []
+  },
+  {
+    "id": "aberystwyth",
+    "name": "Aberystwyth",
+    "lat": 52.4133,
+    "lon": -4.0895,
+    "country": "wales",
+    "kind": "castle",
+    "phases": [
+      {
+        "from": 1277,
+        "to": null,
+        "label": "Edward I’s castle and borough",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "Edward I’s brother Edmund began the castle and borough in 1277, at first called Llanbadarn. Owain Glyndŵr held it from 1404 to 1408.",
+    "uncertainty": "An earlier castle of the same name stood about 2 km to the south. The Dictionary of Welsh Biography confirms Glyndŵr’s capture of Aberystwyth in 1404; the other dates are from general knowledge.",
+    "sources": [
+      "wal-dwb-owain-glyndwr"
+    ]
+  },
+  {
+    "id": "monmouth",
+    "name": "Monmouth",
+    "altNames": [
+      {
+        "name": "Trefynwy",
+        "from": 1100,
+        "to": null
+      }
+    ],
+    "lat": 51.8125,
+    "lon": -2.7167,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 1068,
+        "to": null,
+        "label": "Norman castle, priory and town",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-standing",
+    "confidence": "medium",
+    "summary": "William fitz Osbern built a castle where the Monnow meets the Wye soon after 1066; a priory and walled town followed. Henry V was born in the castle in 1386 or 1387. A Roman fort, Blestium, had stood here.",
+    "uncertainty": "The Roman fort is not shown as a phase. Dates here rest on general knowledge of the standard literature, not on a source fetched for this entry.",
+    "sources": []
+  },
+  {
+    "id": "machynlleth",
+    "name": "Machynlleth",
+    "lat": 52.591,
+    "lon": -3.849,
+    "country": "wales",
+    "kind": "town",
+    "phases": [
+      {
+        "from": 1291,
+        "to": null,
+        "label": "Market town",
+        "size": 1,
+        "note": "Owain Glyndŵr is said to have held a parliament here in 1404."
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "low",
+    "summary": "A small market town in the Dyfi valley, with a market charter of 1291. By tradition Owain Glyndŵr was crowned Prince of Wales and held a parliament here in 1404.",
+    "uncertainty": "The 1404 parliament rests on later tradition and a few contemporary references; the ‘Parliament House’ shown in the town is a later building. Dates here rest on general knowledge of the standard literature, not on a source fetched for this entry.",
+    "sources": []
+  },
+  {
+    "id": "battle-mynydd-carn",
+    "name": "Battle of Mynydd Carn (site unknown)",
+    "lat": 51.7642,
+    "lon": -4.7603,
+    "country": "wales",
+    "kind": "battle",
+    "phases": [
+      {
+        "from": 1081,
+        "to": 1081,
+        "label": "Battle of Mynydd Carn",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "low",
+    "summary": "In 1081 Gruffudd ap Cynan, returning from exile in Ireland, and Rhys ap Tewdwr defeated and killed Trahaearn ap Caradog, Caradog ap Gruffudd and Meilyr ap Rhiwallon. The victory secured Gwynedd for Gruffudd’s line and Deheubarth for Rhys’s.",
+    "uncertainty": "The battlefield is unlocated: Coflein says the site remains undetermined. The marker is Coflein's catalogue grid reference (near Templeton), but Coflein's own discussion favours northern Pembrokeshire, in the cantref of Cemais around the Carningli hills. The point is a catalogue reference only, not a battlefield or a source-supported candidate.",
+    "sources": [
+      "wal-coflein-mynydd-carn",
+      "wal-dwb-gruffudd-ap-cynan",
+      "wal-cadw-battlefields"
+    ]
+  },
+  {
+    "id": "battle-crug-mawr",
+    "name": "Battle of Crug Mawr",
+    "lat": 52.0958,
+    "lon": -4.6204,
+    "country": "wales",
+    "kind": "battle",
+    "phases": [
+      {
+        "from": 1136,
+        "to": 1136,
+        "label": "Battle of Crug Mawr",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "medium",
+    "summary": "In 1136 Owain and Cadwaladr of Gwynedd with Gruffudd ap Rhys routed a Norman and Flemish army near Cardigan; many of the defeated drowned in the Teifi. It was the largest Welsh victory of the rising that followed Henry I’s death.",
+    "uncertainty": "Gerald of Wales places the battle at the hill of Crug Mawr (probably Banc-y-Warren, used for the marker); a Welsh chronicle suggests it was fought nearer Cardigan castle and the river.",
+    "sources": [
+      "wal-coflein-crug-mawr",
+      "wal-cadw-battlefields"
+    ]
+  },
+  {
+    "id": "battle-orewin-bridge",
+    "name": "Battle of Orewin Bridge",
+    "lat": 52.1532,
+    "lon": -3.4192,
+    "country": "wales",
+    "kind": "battle",
+    "phases": [
+      {
+        "from": 1282,
+        "to": 1282,
+        "label": "Battle of Orewin (Irfon) Bridge",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "medium",
+    "summary": "On 11 December 1282 the king’s forces with Roger Mortimer and Gruffudd ap Gwenwynwyn came on the Welsh army without warning near Builth. Llywelyn ap Gruffudd, Prince of Wales, and his leading men were killed; native rule in Wales ended within months.",
+    "uncertainty": "Only Walter of Guisborough gives a location (a bridge and ford on the Irfon), and his account resembles his own description of Stirling Bridge. The marker uses Coflein’s grid reference; where and how Llywelyn died is disputed.",
+    "sources": [
+      "wal-coflein-irfon-bridge",
+      "wal-dwb-llywelyn-ap-gruffydd",
+      "wal-cadw-battlefields"
+    ]
+  },
+  {
+    "id": "battle-bryn-glas",
+    "name": "Battle of Bryn Glas",
+    "lat": 52.3066,
+    "lon": -3.0938,
+    "country": "wales",
+    "kind": "battle",
+    "phases": [
+      {
+        "from": 1402,
+        "to": 1402,
+        "label": "Battle of Bryn Glas (Pilleth)",
+        "size": 2
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "medium",
+    "summary": "On 22 June 1402 Owain Glyndŵr’s men defeated the levies of Herefordshire at Pilleth in Maelienydd and captured Edmund Mortimer, who then joined Glyndŵr’s cause.",
+    "uncertainty": "Chronicles name the hill of Bryn Glas west of Pilleth church, but fieldwork there has found no trace of the fighting and other sources point to neighbouring hills.",
+    "sources": [
+      "wal-coflein-bryn-glas",
+      "wal-dwb-owain-glyndwr",
+      "wal-cadw-battlefields"
+    ]
+  },
+  {
+    "id": "battle-bryn-derwin",
+    "name": "Battle of Bryn Derwin",
+    "lat": 52.995,
+    "lon": -4.285,
+    "country": "wales",
+    "kind": "battle",
+    "phases": [
+      {
+        "from": 1255,
+        "to": 1255,
+        "label": "Battle of Bryn Derwin",
+        "size": 1
+      }
+    ],
+    "evidence": "attested-documentary",
+    "confidence": "low",
+    "summary": "In 1255 Llywelyn ap Gruffudd defeated his brothers Owain and Dafydd and became sole ruler of Gwynedd west of the Conwy, the first step toward his principality.",
+    "uncertainty": "The battlefield is not located; the marker is at the pass of Bwlch Derwin on the border of Arfon and Eifionydd, the usual identification, placed from general knowledge.",
+    "sources": [
+      "wal-dwb-llywelyn-ap-gruffydd",
+      "wal-cadw-battlefields"
+    ]
+  }
+]

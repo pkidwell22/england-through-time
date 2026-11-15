@@ -1,0 +1,2612 @@
+{
+ "note": "Street network for the London Bridge district (the realism benchmark). Loaded by src/scene/street/network.ts for site 'london' only; other sites and the overview outside the district keep the generated lattice. Points are [lat, lon]. `years` = when the street is used for placing houses and drawing its surface; zones still decide when each house exists. Evidence: attested-* lines name the street from a source but their exact line here is estimated from the landmarks already in the data and the map views (see `positional`); conjectural lines are generated. See docs/STREETS.md.",
+ "district": "london-bridgehead",
+ "streets": [
+  {
+   "id": "fish-street-hill",
+   "name": "New Fish Street / Fish Street Hill",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 9.5,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "attested-pictorial",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70); Stow, A Survey of London (1603), 'Bridgewarde within'",
+   "sourceIds": [
+    "bho-stow-bridgewarde-within"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1400,
+     "material": "gravel"
+    },
+    {
+     "from": 1400,
+     "to": 1625,
+     "material": "cobble"
+    }
+   ],
+   "note": "Runs north from the bridge foot. North of Thames Street it is laid on the line of the Roman road from the bridge (landmark road-ermine), which the medieval street is generally taken to follow; the bend at Thames Street is a modelling choice to meet the medieval bridge at the site origin.",
+   "points": [
+    [
+     51.509018,
+     -0.0865
+    ],
+    [
+     51.509521,
+     -0.086385
+    ],
+    [
+     51.510061,
+     -0.085923
+    ],
+    [
+     51.510196,
+     -0.085807
+    ],
+    [
+     51.510564,
+     -0.085634
+    ],
+    [
+     51.510933,
+     -0.085461
+    ]
+   ],
+   "reach": {
+    "anchor": "last",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "The street was carried south to the bridge as the waterfront was reclaimed. Its south end in each period follows this model's reclaimed bank (site.river.northBankSetback, ground at least 0.45 m above high water); until it reaches the bridge's line the bridge's approach and ramp meet it there. The dates of each extension are the model's.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1109,
+      "end": [
+       51.509469,
+       -0.086397
+      ]
+     },
+     {
+      "from": 1110,
+      "to": 1177,
+      "end": [
+       51.509382,
+       -0.086417
+      ]
+     },
+     {
+      "from": 1178,
+      "to": 1240,
+      "end": [
+       51.509296,
+       -0.086437
+      ]
+     },
+     {
+      "from": 1241,
+      "to": 1303,
+      "end": [
+       51.509209,
+       -0.086456
+      ]
+     },
+     {
+      "from": 1304,
+      "to": 1371,
+      "end": [
+       51.509122,
+       -0.086476
+      ]
+     },
+     {
+      "from": 1372,
+      "to": 1387,
+      "end": [
+       51.509035,
+       -0.086496
+      ]
+     },
+     {
+      "from": 1388,
+      "to": 1625,
+      "end": [
+       51.509018,
+       -0.0865
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gracechurch-street",
+   "name": "Gracechurch Street (foot)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 9,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "attested-pictorial",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70); Stow, A Survey of London (1603), 'Bridgewarde within'",
+   "sourceIds": [
+    "bho-stow-bridgewarde-within"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1400,
+     "material": "gravel"
+    },
+    {
+     "from": 1400,
+     "to": 1625,
+     "material": "cobble"
+    }
+   ],
+   "note": "Continues the Fish Street line north on the Roman road (road-ermine); only its foot lies in the district.",
+   "points": [
+    [
+     51.510933,
+     -0.085461
+    ],
+    [
+     51.511697,
+     -0.085129
+    ],
+    [
+     51.512461,
+     -0.084768
+    ]
+   ]
+  },
+  {
+   "id": "eastcheap",
+   "name": "Great Eastcheap",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 11,
+   "kind": "market",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Stow, A Survey of London (1603), 'Bridgewarde within'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-bridgewarde-within",
+    "bho-stow-towerstreet-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1400,
+     "material": "gravel"
+    },
+    {
+     "from": 1400,
+     "to": 1625,
+     "material": "cobble"
+    }
+   ],
+   "note": "A market street (cooks' and butchers' row); width taken wider than the lanes for that reason. It lies along the northern edge of the district, so only its south side is modelled in detail.",
+   "points": [
+    [
+     51.510933,
+     -0.085461
+    ],
+    [
+     51.511031,
+     -0.084191
+    ],
+    [
+     51.511157,
+     -0.082747
+    ],
+    [
+     51.511247,
+     -0.081737
+    ]
+   ]
+  },
+  {
+   "id": "candlewick-street",
+   "name": "Candlewick Street (Cannon Street)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 7.5,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Stow, Survey of London: Downegate warde; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-downegate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1300,
+     "material": "earth"
+    },
+    {
+     "from": 1300,
+     "to": 1625,
+     "material": "gravel"
+    }
+   ],
+   "points": [
+    [
+     51.510933,
+     -0.085461
+    ],
+    [
+     51.510996,
+     -0.087077
+    ],
+    [
+     51.511085,
+     -0.089098
+    ],
+    [
+     51.511175,
+     -0.091407
+    ]
+   ]
+  },
+  {
+   "id": "thames-street-lower",
+   "name": "Thames Street (east of the bridge)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 6.5,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Stow, A Survey of London (1603), 'Billinsgate warde'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-billinsgate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1300,
+     "material": "earth"
+    },
+    {
+     "from": 1300,
+     "to": 1625,
+     "material": "gravel"
+    }
+   ],
+   "note": "Placed just north of St Magnus and of Billingsgate, as Stow and the map views have them.",
+   "points": [
+    [
+     51.509521,
+     -0.086385
+    ],
+    [
+     51.509449,
+     -0.085057
+    ],
+    [
+     51.509378,
+     -0.083613
+    ],
+    [
+     51.509288,
+     -0.08217
+    ],
+    [
+     51.509108,
+     -0.080438
+    ]
+   ]
+  },
+  {
+   "id": "thames-street-upper",
+   "name": "Thames Street (west of the bridge)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 6.5,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Stow, Survey of London: Downegate warde; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-downegate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1300,
+     "material": "earth"
+    },
+    {
+     "from": 1300,
+     "to": 1625,
+     "material": "gravel"
+    }
+   ],
+   "note": "West of Fishmongers' Hall it follows the line of the late Roman riverside wall (landmark riverside-wall), as Thames Street is generally said to. The Steelyard landmark's estimated position lies across this line (see docs/STREETS.md).",
+   "points": [
+    [
+     51.509521,
+     -0.086385
+    ],
+    [
+     51.509665,
+     -0.087366
+    ],
+    [
+     51.509863,
+     -0.088376
+    ],
+    [
+     51.510124,
+     -0.089993
+    ],
+    [
+     51.510276,
+     -0.091407
+    ],
+    [
+     51.510438,
+     -0.093139
+    ]
+   ]
+  },
+  {
+   "id": "pudding-lane",
+   "name": "Pudding Lane",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.5,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, A Survey of London (1603), 'Billinsgate warde'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-billinsgate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.50944,
+     -0.084941
+    ],
+    [
+     51.510169,
+     -0.084883
+    ],
+    [
+     51.511013,
+     -0.084797
+    ]
+   ]
+  },
+  {
+   "id": "botolph-lane",
+   "name": "Botolph Lane",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, A Survey of London (1603), 'Billinsgate warde'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-billinsgate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.509404,
+     -0.084191
+    ],
+    [
+     51.510169,
+     -0.084147
+    ],
+    [
+     51.51104,
+     -0.084104
+    ]
+   ]
+  },
+  {
+   "id": "st-mary-at-hill",
+   "name": "St Mary at Hill",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 4.0,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, A Survey of London (1603), 'Billinsgate warde'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-billinsgate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.50936,
+     -0.083397
+    ],
+    [
+     51.510169,
+     -0.083354
+    ],
+    [
+     51.511094,
+     -0.083296
+    ]
+   ]
+  },
+  {
+   "id": "love-lane",
+   "name": "Love Lane",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, A Survey of London (1603), 'Billinsgate warde'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-billinsgate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.510079,
+     -0.084883
+    ],
+    [
+     51.510061,
+     -0.084147
+    ],
+    [
+     51.510043,
+     -0.083354
+    ]
+   ]
+  },
+  {
+   "id": "billingsgate-lane",
+   "name": "Billingsgate (way to the dock)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 5.0,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, A Survey of London (1603), 'Billinsgate warde'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-billinsgate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.509413,
+     -0.084306
+    ],
+    [
+     51.509108,
+     -0.084306
+    ]
+   ],
+   "reach": {
+    "anchor": "first",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "The way to the dock ends at the head of Billingsgate dock (site.river.inlets 'billingsgate-inlet'), which stayed water while the frontage either side was reclaimed; the line beyond it in 'points' lies in the dock.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1625,
+      "end": [
+       51.509234,
+       -0.084306
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "crooked-lane",
+   "name": "Crooked Lane",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.5,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, A Survey of London (1603), 'Bridgewarde within'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-bridgewarde-within"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.510151,
+     -0.085865
+    ],
+    [
+     51.510348,
+     -0.086356
+    ],
+    [
+     51.510573,
+     -0.086861
+    ],
+    [
+     51.510996,
+     -0.087149
+    ]
+   ]
+  },
+  {
+   "id": "miles-lane",
+   "name": "St Michael's Lane (Miles Lane)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, A Survey of London (1603), 'Bridgewarde within'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-bridgewarde-within"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.509674,
+     -0.087395
+    ],
+    [
+     51.510348,
+     -0.087366
+    ],
+    [
+     51.511004,
+     -0.087337
+    ]
+   ]
+  },
+  {
+   "id": "st-martins-lane",
+   "name": "St Martin Orgar's Lane",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, A Survey of London (1603), 'Bridgewarde within'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-bridgewarde-within"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.509863,
+     -0.088347
+    ],
+    [
+     51.510438,
+     -0.088319
+    ],
+    [
+     51.511058,
+     -0.08829
+    ]
+   ]
+  },
+  {
+   "id": "bush-lane",
+   "name": "Bush Lane",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, Survey of London: Downegate warde; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-downegate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.510034,
+     -0.089387
+    ],
+    [
+     51.511094,
+     -0.089416
+    ]
+   ]
+  },
+  {
+   "id": "old-swan-lane",
+   "name": "Old Swan Lane",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, Survey of London: Downegate warde; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-downegate-warde"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.509908,
+     -0.088665
+    ],
+    [
+     51.509252,
+     -0.088665
+    ]
+   ],
+   "reach": {
+    "anchor": "first",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "The lane was carried south as the waterfront was reclaimed. Its end in each period follows this model's reclaimed north bank (site.river.northBankSetback, where the ground is at least 0.45 m above high water), not a documented line; the dates of each extension are the model's.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1104,
+      "end": [
+       51.509784,
+       -0.088665
+      ]
+     },
+     {
+      "from": 1105,
+      "to": 1170,
+      "end": [
+       51.509695,
+       -0.088665
+      ]
+     },
+     {
+      "from": 1171,
+      "to": 1233,
+      "end": [
+       51.509607,
+       -0.088665
+      ]
+     },
+     {
+      "from": 1234,
+      "to": 1293,
+      "end": [
+       51.509518,
+       -0.088665
+      ]
+     },
+     {
+      "from": 1294,
+      "to": 1355,
+      "end": [
+       51.509429,
+       -0.088665
+      ]
+     },
+     {
+      "from": 1356,
+      "to": 1434,
+      "end": [
+       51.509341,
+       -0.088665
+      ]
+     },
+     {
+      "from": 1435,
+      "to": 1625,
+      "end": [
+       51.509252,
+       -0.088665
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ebbgate-lane",
+   "name": "Ebbgate Lane",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.5,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, A Survey of London (1603), 'Bridgewarde within'; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-bridgewarde-within"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The lane is documented by name; its line here is estimated, not surveyed.",
+   "points": [
+    [
+     51.509782,
+     -0.087943
+    ],
+    [
+     51.509225,
+     -0.087943
+    ]
+   ],
+   "reach": {
+    "anchor": "first",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "The lane was carried south as the waterfront was reclaimed. Its end in each period follows this model's reclaimed north bank (site.river.northBankSetback, where the ground is at least 0.45 m above high water), not a documented line; the dates of each extension are the model's.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1104,
+      "end": [
+       51.509692,
+       -0.087943
+      ]
+     },
+     {
+      "from": 1105,
+      "to": 1170,
+      "end": [
+       51.509602,
+       -0.087943
+      ]
+     },
+     {
+      "from": 1171,
+      "to": 1234,
+      "end": [
+       51.509512,
+       -0.087943
+      ]
+     },
+     {
+      "from": 1235,
+      "to": 1295,
+      "end": [
+       51.509423,
+       -0.087943
+      ]
+     },
+     {
+      "from": 1296,
+      "to": 1358,
+      "end": [
+       51.509333,
+       -0.087943
+      ]
+     },
+     {
+      "from": 1359,
+      "to": 1374,
+      "end": [
+       51.509243,
+       -0.087943
+      ]
+     },
+     {
+      "from": 1375,
+      "to": 1625,
+      "end": [
+       51.509225,
+       -0.087943
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "alley-n1",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.4,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.509485,
+     -0.085706
+    ],
+    [
+     51.509863,
+     -0.085677
+    ]
+   ]
+  },
+  {
+   "id": "alley-n2",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.4,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.509593,
+     -0.086933
+    ],
+    [
+     51.510007,
+     -0.086904
+    ]
+   ]
+  },
+  {
+   "id": "alley-n3",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.6,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.509333,
+     -0.082892
+    ],
+    [
+     51.510097,
+     -0.082863
+    ]
+   ]
+  },
+  {
+   "id": "alley-n4",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.4,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.509962,
+     -0.088954
+    ],
+    [
+     51.510438,
+     -0.088925
+    ]
+   ]
+  },
+  {
+   "id": "alley-n5",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.6,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.509494,
+     -0.085605
+    ],
+    [
+     51.509072,
+     -0.085605
+    ]
+   ],
+   "reach": {
+    "anchor": "first",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "The lane was carried south as the waterfront was reclaimed. Its end in each period follows this model's reclaimed north bank (site.river.northBankSetback, where the ground is at least 0.45 m above high water), not a documented line; the dates of each extension are the model's.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1105,
+      "end": [
+       51.509353,
+       -0.085605
+      ]
+     },
+     {
+      "from": 1106,
+      "to": 1172,
+      "end": [
+       51.509265,
+       -0.085605
+      ]
+     },
+     {
+      "from": 1173,
+      "to": 1235,
+      "end": [
+       51.509177,
+       -0.085605
+      ]
+     },
+     {
+      "from": 1236,
+      "to": 1248,
+      "end": [
+       51.50909,
+       -0.085605
+      ]
+     },
+     {
+      "from": 1249,
+      "to": 1625,
+      "end": [
+       51.509072,
+       -0.085605
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "alley-n6",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.6,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.509333,
+     -0.082892
+    ],
+    [
+     51.508928,
+     -0.082892
+    ]
+   ]
+  },
+  {
+   "id": "alley-n7",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.6,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.510034,
+     -0.089387
+    ],
+    [
+     51.509404,
+     -0.089401
+    ]
+   ],
+   "reach": {
+    "anchor": "first",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "The lane was carried south as the waterfront was reclaimed. Its end in each period follows this model's reclaimed north bank (site.river.northBankSetback, where the ground is at least 0.45 m above high water), not a documented line; the dates of each extension are the model's.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1106,
+      "end": [
+       51.509876,
+       -0.08939
+      ]
+     },
+     {
+      "from": 1107,
+      "to": 1172,
+      "end": [
+       51.509789,
+       -0.089392
+      ]
+     },
+     {
+      "from": 1173,
+      "to": 1233,
+      "end": [
+       51.509701,
+       -0.089394
+      ]
+     },
+     {
+      "from": 1234,
+      "to": 1293,
+      "end": [
+       51.509614,
+       -0.089396
+      ]
+     },
+     {
+      "from": 1294,
+      "to": 1353,
+      "end": [
+       51.509526,
+       -0.089398
+      ]
+     },
+     {
+      "from": 1354,
+      "to": 1385,
+      "end": [
+       51.509439,
+       -0.0894
+      ]
+     },
+     {
+      "from": 1386,
+      "to": 1625,
+      "end": [
+       51.509404,
+       -0.089401
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "alley-n8",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.2,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.51051,
+     -0.085677
+    ],
+    [
+     51.510528,
+     -0.084941
+    ]
+   ]
+  },
+  {
+   "id": "alley-n9",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.2,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.510573,
+     -0.084147
+    ],
+    [
+     51.5106,
+     -0.083354
+    ]
+   ]
+  },
+  {
+   "id": "alley-n10",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.2,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.510708,
+     -0.087366
+    ],
+    [
+     51.510726,
+     -0.08829
+    ]
+   ]
+  },
+  {
+   "id": "alley-n11",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.2,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.510708,
+     -0.088319
+    ],
+    [
+     51.510753,
+     -0.089416
+    ]
+   ]
+  },
+  {
+   "id": "alley-n12",
+   "name": "Alley (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.2,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: courts and alleys of about this width opened off the main streets in every period view, but none is placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.509854,
+     -0.086644
+    ],
+    [
+     51.509989,
+     -0.087366
+    ]
+   ]
+  },
+  {
+   "id": "borough-high-street",
+   "name": "Long Southwark / Borough High Street",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 12,
+   "kind": "market",
+   "frontage": "both",
+   "evidence": "attested-pictorial",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70); Stow, Survey of London: Bridge warde without; Wyngaerde (c. 1544), Norden (1600) and Visscher (1616) panoramas",
+   "sourceIds": [
+    "bho-stow-bridge-warde-without"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1400,
+     "material": "gravel"
+    },
+    {
+     "from": 1400,
+     "to": 1625,
+     "material": "cobble"
+    }
+   ],
+   "note": "On the line of the Roman road south from the bridge (landmark road-watling-south). Wide at the bridge foot, where the Southwark market stood.",
+   "points": [
+    [
+     51.506645,
+     -0.08777
+    ],
+    [
+     51.506196,
+     -0.0879
+    ],
+    [
+     51.505647,
+     -0.088376
+    ],
+    [
+     51.505153,
+     -0.088809
+    ],
+    [
+     51.504002,
+     -0.089805
+    ]
+   ],
+   "reach": {
+    "anchor": "last",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "Its last few metres at the bridge foot are foreshore in the model; the street ends where the ground is dry and the bridge's ramp meets it.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1625,
+      "end": [
+       51.50661,
+       -0.08778
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "st-olaves-street",
+   "name": "St Olave's Street (Tooley Street)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 7,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Stow, Survey of London: Bridge warde without; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-bridge-warde-without"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1300,
+     "material": "earth"
+    },
+    {
+     "from": 1300,
+     "to": 1625,
+     "material": "gravel"
+    }
+   ],
+   "note": "Passes south of St Olave's church, which stood between the street and the river.",
+   "points": [
+    [
+     51.506375,
+     -0.087828
+    ],
+    [
+     51.506106,
+     -0.087077
+    ],
+    [
+     51.50598,
+     -0.085634
+    ],
+    [
+     51.505836,
+     -0.084003
+    ],
+    [
+     51.505728,
+     -0.082747
+    ]
+   ],
+   "reach": {
+    "anchor": "first",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "Its line runs onto the Southwark marsh, which was embanked piecemeal. Its end in each period follows this model's embanked ground (site.river.southEmbankment, at least 0.45 m above high water), not a documented line; the dates of each extension are the model's.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1063,
+      "end": [
+       51.506101,
+       -0.08702
+      ]
+     },
+     {
+      "from": 1064,
+      "to": 1078,
+      "end": [
+       51.506089,
+       -0.086879
+      ]
+     },
+     {
+      "from": 1079,
+      "to": 1095,
+      "end": [
+       51.506076,
+       -0.086737
+      ]
+     },
+     {
+      "from": 1096,
+      "to": 1101,
+      "end": [
+       51.506064,
+       -0.086596
+      ]
+     },
+     {
+      "from": 1102,
+      "to": 1132,
+      "end": [
+       51.506024,
+       -0.086143
+      ]
+     },
+     {
+      "from": 1133,
+      "to": 1160,
+      "end": [
+       51.505997,
+       -0.085832
+      ]
+     },
+     {
+      "from": 1161,
+      "to": 1177,
+      "end": [
+       51.505985,
+       -0.085691
+      ]
+     },
+     {
+      "from": 1178,
+      "to": 1184,
+      "end": [
+       51.505973,
+       -0.08555
+      ]
+     },
+     {
+      "from": 1185,
+      "to": 1188,
+      "end": [
+       51.50596,
+       -0.085409
+      ]
+     },
+     {
+      "from": 1189,
+      "to": 1193,
+      "end": [
+       51.505948,
+       -0.085268
+      ]
+     },
+     {
+      "from": 1194,
+      "to": 1197,
+      "end": [
+       51.505935,
+       -0.085128
+      ]
+     },
+     {
+      "from": 1198,
+      "to": 1208,
+      "end": [
+       51.50592,
+       -0.084959
+      ]
+     },
+     {
+      "from": 1209,
+      "to": 1215,
+      "end": [
+       51.505893,
+       -0.08465
+      ]
+     },
+     {
+      "from": 1216,
+      "to": 1222,
+      "end": [
+       51.505881,
+       -0.084509
+      ]
+     },
+     {
+      "from": 1223,
+      "to": 1231,
+      "end": [
+       51.505772,
+       -0.083261
+      ]
+     },
+     {
+      "from": 1232,
+      "to": 1625,
+      "end": [
+       51.505728,
+       -0.082747
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "clink-street",
+   "name": "Clink Street (to the Bishop of Winchester's palace)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 5,
+   "kind": "lane",
+   "frontage": "south",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±20 m",
+   "source": "Stow, Survey of London: Bridge warde without; Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70)",
+   "sourceIds": [
+    "bho-stow-bridge-warde-without"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "Houses on the landward side only. Ends at the palace precinct; its line is estimated.",
+   "points": [
+    [
+     51.506555,
+     -0.087799
+    ],
+    [
+     51.506645,
+     -0.088665
+    ],
+    [
+     51.506726,
+     -0.089603
+    ]
+   ]
+  },
+  {
+   "id": "bankside",
+   "name": "Bankside (east end)",
+   "years": [
+    1300,
+    1625
+   ],
+   "width": 6,
+   "kind": "principal",
+   "frontage": "south",
+   "evidence": "attested-pictorial",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Copperplate map (c. 1553-59) and the 'Agas' woodcut (c. 1561-70); Wyngaerde (c. 1544), Norden (1600) and Visscher (1616) panoramas; Stow, A Survey of London (1603), 'The Suburbs without the walls'",
+   "sourceIds": [
+    "bho-stow-suburbs-without-walls"
+   ],
+   "surface": [
+    {
+     "from": 1300,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "The riverside way west of the palace, with houses on its south side facing the water.",
+   "points": [
+    [
+     51.506816,
+     -0.091335
+    ],
+    [
+     51.506861,
+     -0.093428
+    ],
+    [
+     51.506987,
+     -0.096603
+    ]
+   ]
+  },
+  {
+   "id": "st-thomas-street",
+   "name": "St Thomas Street",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 5,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "positional": "±30 m",
+   "source": "Stow, Survey of London: Bridge warde without",
+   "sourceIds": [
+    "bho-stow-bridge-warde-without"
+   ],
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "note": "By St Thomas's hospital (not modelled). Line estimated.",
+   "points": [
+    [
+     51.505719,
+     -0.088333
+    ],
+    [
+     51.505566,
+     -0.087077
+    ],
+    [
+     51.50544,
+     -0.085634
+    ]
+   ],
+   "reach": {
+    "anchor": "first",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "Its line runs onto the Southwark marsh, which was embanked piecemeal. Its end in each period follows this model's embanked ground (site.river.southEmbankment, at least 0.45 m above high water), not a documented line; the dates of each extension are the model's.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1092,
+      "end": [
+       51.505442,
+       -0.085662
+      ]
+     },
+     {
+      "from": 1093,
+      "to": 1625,
+      "end": [
+       51.50544,
+       -0.085634
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "alley-s1",
+   "name": "Lane (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.6,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: lanes and yards behind the street frontages, as in the period views; not placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.505926,
+     -0.088145
+    ],
+    [
+     51.505854,
+     -0.089069
+    ]
+   ]
+  },
+  {
+   "id": "alley-s2",
+   "name": "Lane (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: lanes and yards behind the street frontages, as in the period views; not placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.505387,
+     -0.088607
+    ],
+    [
+     51.505315,
+     -0.089531
+    ]
+   ]
+  },
+  {
+   "id": "alley-s3",
+   "name": "Lane (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: lanes and yards behind the street frontages, as in the period views; not placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.50607,
+     -0.087366
+    ],
+    [
+     51.505602,
+     -0.087308
+    ]
+   ]
+  },
+  {
+   "id": "alley-s4",
+   "name": "Lane (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: lanes and yards behind the street frontages, as in the period views; not placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.505998,
+     -0.086067
+    ],
+    [
+     51.505476,
+     -0.086038
+    ]
+   ],
+   "reach": {
+    "anchor": "last",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "Its line runs onto the Southwark marsh, which was embanked piecemeal. Its end in each period follows this model's embanked ground (site.river.southEmbankment, at least 0.45 m above high water), not a documented line; the dates of each extension are the model's.",
+    "stages": [
+     {
+      "from": 1050,
+      "to": 1131,
+      "end": [
+       51.505563,
+       -0.086043
+      ]
+     },
+     {
+      "from": 1132,
+      "to": 1625,
+      "end": [
+       51.505998,
+       -0.086067
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "alley-s5",
+   "name": "Lane (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 3.0,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: lanes and yards behind the street frontages, as in the period views; not placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.505899,
+     -0.084768
+    ],
+    [
+     51.505387,
+     -0.08471
+    ]
+   ],
+   "reach": {
+    "anchor": "last",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "Its line runs onto the Southwark marsh, which was embanked piecemeal. Its end in each period follows this model's embanked ground (site.river.southEmbankment, at least 0.45 m above high water), not a documented line; the dates of each extension are the model's.",
+    "stages": [
+     {
+      "from": 1206,
+      "to": 1207,
+      "end": [
+       51.50544,
+       -0.084716
+      ]
+     },
+     {
+      "from": 1208,
+      "to": 1625,
+      "end": [
+       51.505899,
+       -0.084768
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "alley-s6",
+   "name": "Lane (generated)",
+   "years": [
+    1050,
+    1625
+   ],
+   "width": 2.4,
+   "kind": "alley",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated: lanes and yards behind the street frontages, as in the period views; not placed from a source.",
+   "surface": [
+    {
+     "from": 1050,
+     "to": 1625,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.506034,
+     -0.088015
+    ],
+    [
+     51.506303,
+     -0.088665
+    ]
+   ]
+  },
+  {
+   "id": "saxon-fish-street",
+   "name": "Way from the late Saxon bridge (Fish Street line)",
+   "years": [
+    990,
+    1049
+   ],
+   "width": 8,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "reconstructed",
+   "confidence": "low",
+   "positional": "±20 m",
+   "source": "Saxon bridge position (landmark saxon-bridge); Research Framework for London Archaeology, Saxon (AD 410-1066)",
+   "sourceIds": [
+    "mola-saxon-ad-4101066-research"
+   ],
+   "surface": [
+    {
+     "from": 990,
+     "to": 1049,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.509501,
+     -0.085727
+    ],
+    [
+     51.510061,
+     -0.085923
+    ],
+    [
+     51.510196,
+     -0.085807
+    ],
+    [
+     51.510564,
+     -0.085634
+    ],
+    [
+     51.510933,
+     -0.085461
+    ]
+   ],
+   "note": "Its south end meets the timber bridge's north end (moved with the bridge's line, 2026-11)."
+  },
+  {
+   "id": "saxon-thames-street",
+   "name": "Riverside street on the old wall line (late Saxon)",
+   "years": [
+    950,
+    1049
+   ],
+   "width": 5,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "±20 m",
+   "source": "Assumed to follow the decayed Roman riverside wall; the late Saxon street pattern near the bridge is not well known.",
+   "sourceIds": [
+    "mola-saxon-ad-4101066-research"
+   ],
+   "surface": [
+    {
+     "from": 950,
+     "to": 1049,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.510348,
+     -0.091407
+    ],
+    [
+     51.510124,
+     -0.089993
+    ],
+    [
+     51.509935,
+     -0.0865
+    ],
+    [
+     51.5098,
+     -0.083007
+    ]
+   ]
+  },
+  {
+   "id": "saxon-eastcheap",
+   "name": "Eastcheap (late Saxon market)",
+   "years": [
+    890,
+    1049
+   ],
+   "width": 8,
+   "kind": "market",
+   "frontage": "both",
+   "evidence": "reconstructed",
+   "confidence": "low",
+   "positional": "±20 m",
+   "source": "Research Framework for London Archaeology, Saxon (AD 410-1066): the market streets of the late Saxon town",
+   "sourceIds": [
+    "mola-saxon-ad-4101066-research"
+   ],
+   "surface": [
+    {
+     "from": 890,
+     "to": 1049,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.511175,
+     -0.091407
+    ],
+    [
+     51.511085,
+     -0.089098
+    ],
+    [
+     51.510996,
+     -0.087077
+    ],
+    [
+     51.510933,
+     -0.085461
+    ],
+    [
+     51.511157,
+     -0.082747
+    ]
+   ]
+  },
+  {
+   "id": "saxon-southwark",
+   "name": "Way south from the late Saxon bridge",
+   "years": [
+    990,
+    1049
+   ],
+   "width": 8,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "reconstructed",
+   "confidence": "low",
+   "positional": "±20 m",
+   "source": "Saxon bridge position (landmark saxon-bridge) and the Roman road line (road-watling-south)",
+   "surface": [
+    {
+     "from": 990,
+     "to": 1049,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.506344,
+     -0.087433
+    ],
+    [
+     51.506196,
+     -0.0879
+    ],
+    [
+     51.505647,
+     -0.088376
+    ],
+    [
+     51.505153,
+     -0.088809
+    ]
+   ],
+   "note": "Its north end meets the timber bridge's south end (moved with the bridge's line, 2026-11)."
+  },
+  {
+   "id": "roman-bridge-road",
+   "name": "Road north from the Roman bridge",
+   "years": [
+    50,
+    410
+   ],
+   "width": 8,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Landmark road-ermine; Research Framework for London Archaeology, Roman (AD 43-410)",
+   "sourceIds": [
+    "rfla-roman-ad-43-410"
+   ],
+   "surface": [
+    {
+     "from": 50,
+     "to": 410,
+     "material": "gravel"
+    }
+   ],
+   "points": [
+    [
+     51.510196,
+     -0.085807
+    ],
+    [
+     51.511499,
+     -0.085201
+    ],
+    [
+     51.512802,
+     -0.084595
+    ]
+   ]
+  },
+  {
+   "id": "roman-quay-road",
+   "name": "Street behind the Roman quays",
+   "years": [
+    62,
+    410
+   ],
+   "width": 6,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "±20 m",
+   "source": "Generated parallel to the reconstructed quay line (landmark roman-quay); a street behind the waterfront is likely but not placed from excavation.",
+   "surface": [
+    {
+     "from": 62,
+     "to": 410,
+     "material": "gravel"
+    }
+   ],
+   "points": [
+    [
+     51.5106,
+     -0.091263
+    ],
+    [
+     51.510438,
+     -0.088506
+    ],
+    [
+     51.510169,
+     -0.085807
+    ],
+    [
+     51.509881,
+     -0.083801
+    ],
+    [
+     51.509764,
+     -0.082747
+    ]
+   ]
+  },
+  {
+   "id": "roman-cross-street",
+   "name": "East-west street north of the waterfront (conjectural)",
+   "years": [
+    50,
+    410
+   ],
+   "width": 6,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "±20 m",
+   "source": "Generated: Londinium's streets ran roughly parallel and at right angles to the river; this line is not from a source.",
+   "surface": [
+    {
+     "from": 50,
+     "to": 410,
+     "material": "gravel"
+    }
+   ],
+   "points": [
+    [
+     51.511409,
+     -0.091263
+    ],
+    [
+     51.511319,
+     -0.088665
+    ],
+    [
+     51.511202,
+     -0.085807
+    ],
+    [
+     51.511067,
+     -0.082747
+    ]
+   ]
+  },
+  {
+   "id": "roman-lane-1",
+   "name": "Lane (generated)",
+   "years": [
+    62,
+    410
+   ],
+   "width": 4,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated lane at right angles to the waterfront.",
+   "surface": [
+    {
+     "from": 62,
+     "to": 410,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.510411,
+     -0.088232
+    ],
+    [
+     51.511355,
+     -0.088203
+    ]
+   ]
+  },
+  {
+   "id": "roman-lane-2",
+   "name": "Lane (generated)",
+   "years": [
+    62,
+    410
+   ],
+   "width": 4,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated lane at right angles to the waterfront.",
+   "surface": [
+    {
+     "from": 62,
+     "to": 410,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.51051,
+     -0.089964
+    ],
+    [
+     51.511391,
+     -0.089935
+    ]
+   ]
+  },
+  {
+   "id": "roman-lane-3",
+   "name": "Lane (generated)",
+   "years": [
+    62,
+    410
+   ],
+   "width": 4,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated lane at right angles to the waterfront.",
+   "surface": [
+    {
+     "from": 62,
+     "to": 410,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.509899,
+     -0.083902
+    ],
+    [
+     51.511085,
+     -0.08383
+    ]
+   ]
+  },
+  {
+   "id": "roman-lane-4",
+   "name": "Lane (generated)",
+   "years": [
+    62,
+    410
+   ],
+   "width": 4,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated lane at right angles to the waterfront.",
+   "surface": [
+    {
+     "from": 62,
+     "to": 410,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.510276,
+     -0.086789
+    ],
+    [
+     51.511247,
+     -0.08676
+    ]
+   ]
+  },
+  {
+   "id": "roman-southwark-road",
+   "name": "Road south from the Roman bridge (Borough High Street line)",
+   "years": [
+    50,
+    410
+   ],
+   "width": 8,
+   "kind": "principal",
+   "frontage": "both",
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "positional": "±20 m",
+   "source": "Landmark road-watling-south; Research Framework for London Archaeology, Roman (AD 43-410)",
+   "sourceIds": [
+    "rfla-roman-ad-43-410",
+    "rfla-prehistory-research-framework-london"
+   ],
+   "surface": [
+    {
+     "from": 50,
+     "to": 410,
+     "material": "gravel"
+    }
+   ],
+   "points": [
+    [
+     51.506196,
+     -0.087597
+    ],
+    [
+     51.506142,
+     -0.0879
+    ],
+    [
+     51.504002,
+     -0.089805
+    ]
+   ]
+  },
+  {
+   "id": "roman-southwark-east",
+   "name": "Street east from the Southwark bridgehead (conjectural)",
+   "years": [
+    62,
+    410
+   ],
+   "width": 5,
+   "kind": "lane",
+   "frontage": "both",
+   "evidence": "conjectural",
+   "confidence": "low",
+   "positional": "n/a",
+   "source": "Generated; Roman Southwark had more than one road from the bridgehead, but this line is not from a source.",
+   "surface": [
+    {
+     "from": 62,
+     "to": 410,
+     "material": "earth"
+    }
+   ],
+   "points": [
+    [
+     51.505989,
+     -0.0879
+    ],
+    [
+     51.505854,
+     -0.086789
+    ],
+    [
+     51.505746,
+     -0.085345
+    ]
+   ],
+   "reach": {
+    "anchor": "first",
+    "evidence": "conjectural",
+    "confidence": "low",
+    "note": "Its eastern part lies in the model's marsh all through the Roman period; the conjectural street ends where the ground is dry.",
+    "stages": [
+     {
+      "from": 62,
+      "to": 410,
+      "end": [
+       51.505898,
+       -0.08715
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

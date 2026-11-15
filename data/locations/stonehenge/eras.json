@@ -1,0 +1,58 @@
+[
+ {
+  "id": "earlier-neolithic",
+  "name": "Earlier Neolithic landscape",
+  "from": -4000,
+  "to": -3001,
+  "presetYear": -3500,
+  "blurb": "Before any stone is raised. Woodland is thinning into open chalk grassland. Robin Hood's Ball (just outside this map), long barrows and, by about 3500 BCE, the Greater Cursus mark the first lasting monuments; the Mesolithic pine posts near the later stones are older still and not shown. Dates are approximate and several rest on a single antler."
+ },
+ {
+  "id": "first-stonehenge",
+  "name": "First Stonehenge",
+  "from": -3000,
+  "to": -2621,
+  "presetYear": -2850,
+  "blurb": "Stage 1 in Darvill et al.'s chronology: a circular ditch and bank about 110 m across with a north-east and a smaller southern entrance, 56 Aubrey Holes (possibly holding the first bluestones, which is argued over) and many cremation burials. Timber structures are inferred from postholes. The model switches the ditch on about 3000 to 2900 BCE; the exact date is a range."
+ },
+ {
+  "id": "sarsens-durrington",
+  "name": "Sarsens and Durrington",
+  "from": -2620,
+  "to": -2281,
+  "presetYear": -2500,
+  "blurb": "Stages 2 and 3. The trilithons, the sarsen circle and the first bluestone settings go up, c. 2620 to 2480 BCE; the Heel Stone, Slaughter Stone and Station Stones belong here too, with uncertain order. At Durrington Walls a village stands for a decade or so and a great timber circle is replaced by the henge bank, then Woodhenge. The Avenue is laid out in this era. Whether the sarsen circle was ever completed is unresolved."
+ },
+ {
+  "id": "beaker-bronze-age",
+  "name": "Beaker and Early Bronze Age",
+  "from": -2280,
+  "to": -1501,
+  "presetYear": -1900,
+  "blurb": "Stages 4 and 5. The bluestones are rearranged into an oval and a circle; the Y and Z holes are dug; axe and dagger carvings are made on the sarsens. Beaker burials appear (the Amesbury Archer, c. 2340 to 2300 BCE, lies outside this map). Round barrow cemeteries multiply on the ridges, among them Normanton Down and Bush Barrow."
+ },
+ {
+  "id": "later-prehistory",
+  "name": "Later prehistory",
+  "from": -1500,
+  "to": 42,
+  "presetYear": -600,
+  "blurb": "Almost nothing is recorded at the stones themselves after the last stone settings (about 1500 BCE). Fields and enclosures spread; the land is largely cleared by 800 to 500 BCE; Vespasian's Camp hillfort is built, with a placeholder date of about 700 to 600 BCE. The model's stone states stay as left."
+ },
+ {
+  "id": "roman-medieval",
+  "name": "Roman to medieval",
+  "from": 43,
+  "to": 1499,
+  "presetYear": 979,
+  "blurb": "Roman coins and pottery at the stones (late 4th century), a 7th-century execution burial, Amesbury Abbey (founded c. 979, refounded as a priory in 1177) and the first written accounts of the stones (Henry of Huntingdon c. 1130, Geoffrey of Monmouth c. 1136). No dated event changes the stones; which stood or lay by 1625 is inferred from later drawings and plans."
+ },
+ {
+  "id": "tudor-jacobean",
+  "name": "Tudor and Jacobean rediscovery",
+  "from": 1500,
+  "to": 1625,
+  "presetYear": 1620,
+  "blurb": "The priory is dissolved c. 1540 and the first drawings of the stones appear (de Heere 1573 to 75), then Camden's Britannia (1586) and, in 1620, Inigo Jones's survey for James I and the Duke of Buckingham's dig. These are the earliest views that can anchor the state of the stones."
+ }
+]

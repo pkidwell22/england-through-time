@@ -1,0 +1,14 @@
+node_modules
+.next
+.next-prod
+*.tsbuildinfo
+
+# local only: large or re-creatable
+docs/screenshots/
+tests/*-shots/
+research/venv/
+research/raw-lidar/
+research/raw-terrain/
+research/raw-gazetteer/
+.DS_Store
+.env*

@@ -1,0 +1,50 @@
+[
+ {
+  "id": "prehistoric",
+  "name": "Prehistoric Thames",
+  "from": -4000,
+  "to": 42,
+  "presetYear": -1500,
+  "blurb": "A wide, braided tidal river between gravel terraces and marsh. Woodland is cleared gradually from the Bronze Age. No town stands here; evidence for settlement on the site of the later City is slight."
+ },
+ {
+  "id": "roman",
+  "name": "Roman Londinium",
+  "from": 43,
+  "to": 410,
+  "presetYear": 150,
+  "blurb": "A new town founded around 47\u201350 CE beside a bridge. Burned in 60/61, rebuilt with a forum, amphitheatre, fort and quays, walled around 200, then shrinking through the 3rd and 4th centuries."
+ },
+ {
+  "id": "saxon",
+  "name": "Post-Roman & Anglo-Saxon",
+  "from": 411,
+  "to": 1065,
+  "presetYear": 780,
+  "blurb": "The walled city is largely empty for generations. A trading settlement, Lundenwic, grows to the west along the Strand; from 886 settlement moves back inside the Roman walls."
+ },
+ {
+  "id": "medieval",
+  "name": "Norman & Medieval London",
+  "from": 1066,
+  "to": 1484,
+  "presetYear": 1400,
+  "blurb": "The Tower, a vast cathedral, a stone bridge lined with houses, over a hundred parish churches and many religious houses. Westminster grows as a separate royal centre."
+ },
+ {
+  "id": "tudor",
+  "name": "Tudor London",
+  "from": 1485,
+  "to": 1602,
+  "presetYear": 1575,
+  "blurb": "Rapid growth beyond the walls. The monasteries are dissolved and converted, St Paul's loses its spire (1561), the Royal Exchange opens and playhouses rise on Bankside."
+ },
+ {
+  "id": "jacobean",
+  "name": "Jacobean London",
+  "from": 1603,
+  "to": 1625,
+  "presetYear": 1616,
+  "blurb": "The city of James I: a crowded timber metropolis of roughly 200,000 or more, with the first strict classical building, the Banqueting House (1619\u201322), at Whitehall."
+ }
+]

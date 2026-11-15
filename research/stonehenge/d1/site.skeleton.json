@@ -1,0 +1,67 @@
+{
+ "id": "stonehenge",
+ "name": "Stonehenge and its landscape",
+ "subtitle": "Skeleton: being built",
+ "scopeNote": "Work in progress.",
+ "origin": {
+  "lat": 51.17888,
+  "lon": -1.82619,
+  "note": "FINAL. Centre of the sarsen circle to within ~3 m (geography research: circle fitted to OSM-mapped uprights 51.178859, -1.826208; EH 2010 survey NGR SU 12244219; the stone catalogue's fitted centre 51.178868, -1.8261962). Megalith landmarks are anchored at the catalogue's fitted centre. Local x = metres east, z = metres south."
+ },
+ "bounds": {
+  "xMin": -2700,
+  "xMax": 3700,
+  "zMin": -2800,
+  "zMax": 2200
+ },
+ "timeline": {
+  "start": -4000,
+  "end": 1625,
+  "initialYear": -2400
+ },
+ "terrain": {
+  "base": 40
+ },
+ "district": {
+  "name": "The stones",
+  "bounds": {
+   "xMin": -400,
+   "xMax": 400,
+   "zMin": -350,
+   "zMax": 300
+  },
+  "note": "Skeleton."
+ },
+ "views": [
+  {
+   "id": "landscape",
+   "name": "Whole landscape",
+   "position": [
+    400,
+    2600,
+    4200
+   ],
+   "target": [
+    400,
+    40,
+    -300
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "stones",
+   "name": "The stones",
+   "position": [
+    90,
+    75,
+    -110
+   ],
+   "target": [
+    0,
+    42,
+    0
+   ],
+   "scope": "district"
+  }
+ ]
+}

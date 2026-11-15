@@ -1,0 +1,835 @@
+{
+  "items": [
+    {
+      "id": "prehistoric-thames-landscape",
+      "name": "Prehistoric Thames landscape of the City, Southwark and Westminster reach",
+      "lat": 51.508,
+      "lon": -0.095,
+      "phases": [
+        {
+          "label": "Earlier Neolithic snapshot (c. 4000 BCE)",
+          "from": -4000,
+          "to": -2500,
+          "dateNote": "Period-level only. No dated palaeoenvironmental sequence for the City/Southwark reach was verified in a fetched source for exactly 4000 BCE; the picture is generalised from the London research framework and the Jon Cotton (Museum of London) lecture.",
+          "form": "Truthful visual: no settlement, no bridge, no embankments. A wider, shallower Thames than today with low, unembanked banks; on the south side low-lying marsh and braided channels around low sand-and-gravel islands (eyots); on the north side two low gravel/brickearth hills (later Cornhill and Ludgate Hill) divided by the Walbrook stream, with the Fleet to the west. Largely wooded dry ground (drowned Neolithic/Bronze Age forests are recorded at Chelsea and Bankside). Human presence should be shown, at most, as transient: evidence for the Mesolithic-Neolithic transition is described as poorly represented and the monuments of this period lie on the west London gravels, not in the central area.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "River width at 4000 BCE unknown. Channel positions between the Southwark eyots are known only in outline from borehole/excavation models; any exact channel geometry in a 3D model is reconstruction."}
+        },
+        {
+          "label": "Middle Bronze Age snapshot (c. 1500 BCE)",
+          "from": -2500,
+          "to": -800,
+          "dateNote": "Firm at the level of 'mid 2nd millennium BC': Southwark/Bermondsey sand islands under plough for short periods in the mid second millennium BC; later Bramcote Green trackway radiocarbon-dated to the mid 2nd millennium BC; c. 2000-1500 BC sea-level rise causing flooding and land loss.",
+          "form": "Truthful visual: partly cleared sand islands in north Southwark and Bermondsey carrying small ploughed fields (ard marks later sealed under river alluvium), with wetland, peat and alder-fringed channels between them and short timber/brushwood trackways across the marsh. Rising river levels progressively drown the lower ground. Diatom evidence places the tidal head upstream of Westminster in the Middle/Late Bronze Age, so the reach was tidal at this date. North bank still without any nucleated settlement (Bronze Age field ditches are reported under the later Cripplegate area, see uncertainty). Metalwork and human skulls were deposited in the river, mostly in the later Bronze Age.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Field and trackway dimensions not given in the fetched abstracts. Tops of the Southwark eyots are reported at roughly +1.6 to +1.8 m OD (search-result snippets of ADS grey literature, not fetched in full)."}
+        },
+        {
+          "label": "Late Iron Age snapshot (c. 100 BCE)",
+          "from": -800,
+          "to": 43,
+          "dateNote": "Negative evidence, but a stable scholarly position: London Museum states there was no major settlement on the site before the Romans; Cotton states no trace of a major earlier settlement has been found beneath Londinium. The research framework words it more cautiously ('the question of a pre-Roman settlement is still uncertain').",
+          "form": "Truthful visual: an open, farmed and managed landscape with NO town, oppidum or bridge on the City site. Scattered late Iron Age farmsteads are recorded on the south side (Grange Road, Cherry Garden Pier, Borough High Street and Tooley Street in Southwark). Tree-ring evidence from the first Roman quays shows the oaks felled in the AD 50s-60s were fast-grown, not primeval forest, implying managed secondary woodland by the late Iron Age. Large enclosed sites lay well outside the study area (Uphall Camp, Ilford; Woolwich) and seem to have fallen out of use by the 80s BC.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "At the Roman conquest the river at high tide is described as up to 1 km wide to the east of the Southwark islands, with a tidal range of only just over 1 m (Milne); the north bank lay about 100 m north of the modern quayside."}
+        }
+      ],
+      "evidence": "reconstructed",
+      "confidence": "medium",
+      "uncertainty": "Tidal-head history is contested and I could not fetch the primary monograph (Sidell et al. 2000, The Holocene evolution of the London Thames, MoLAS Monograph 5). Fetched sources give: tidal head upstream of Westminster in the Middle/Late Bronze Age (Cotton); a Roman bridging point 'where the tide turned' with a tidal range just over 1 m (Cotton, Milne); and a relative fall in river level in the late Roman period with the tidal head drifting east (Milne). Older LAMAS papers (seen only as search snippets) argued the City reach was barely tidal in the 1st century AD. Position at 4000 BCE: not verified - do not animate a specific tidal limit for that date. Woodland history: elm decline c. 5010 BP and lime decline c. 3070 BP are reported for Silvertown (east London) in a search snippet only; not fetched, and not specific to the central reach. Bronze Age field ditches beneath Roman Cripplegate are from an ADS search snippet of the MoLAS Monograph 21 abstract, not fetched.",
+      "correctionsToDraft": "Draft is broadly right. Refinements: (1) the 'wider, braided' Thames should be shown as shallow multi-channel marsh on the SOUTH side only; the north bank was firm rising ground. (2) Bronze Age cultivation on the eyots was short-lived (mid 2nd millennium BC) and then buried by alluvium as water rose - do not show continuous farming to the Roman period. (3) The reach was already tidal in the Middle/Late Bronze Age according to diatom evidence. (4) 'No significant pre-Roman settlement on the City site' is confirmed as the mainstream position, with the caveat that the research framework still calls the question formally open.",
+      "sources": [
+        {"title": "Prehistory - A Research Framework for London Archaeology", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/prehistory/"},
+        {"title": "The Early River Thames: The Iron Age and Before (Jon Cotton, 10 Oct 2016)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/node/13163"},
+        {"title": "Archaeology in Southwark - prehistoric", "publisher": "Southwark Council", "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/design-and-conservation/archaeology-and-2"},
+        {"title": "A timeline of Roman London: Londinium from start to end", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "Discovering the Port of Roman London (Gustav Milne, 27 Sept 2017, lecture transcript)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/sites/default/files/2017-09-27_GustavMilne_RomanPort.pdf"},
+        {"title": "Brigham & Watson, Current archaeological work at Regis House in the City of London (part 2), London Archaeologist 8(3)", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol08/vol08_03/08_03_063_069.pdf"}
+      ]
+    },
+    {
+      "id": "bronze-age-southwark-bermondsey",
+      "name": "Bronze Age ard marks, field systems and timber trackways, north Southwark and Bermondsey",
+      "lat": 51.5015,
+      "lon": -0.076,
+      "phases": [
+        {
+          "label": "Cultivation of the sand islands (ard marks, field systems)",
+          "from": -1800,
+          "to": -1000,
+          "dateNote": "Research framework: islands 'under plough for short periods in the mid second millennium BC', at least one field manured; Southwark Council lists ploughing/field systems at Phoenix Wharf, Wolseley Street and Hopton Street as Neolithic and Bronze Age. The from/to years are my bracketing of 'mid second millennium BC', not published dates.",
+          "form": "Criss-cross ard (scratch-plough) marks cut into the sandy surface of the eyots, with stakeholes and worked flint; small plots, not large coaxial field systems. Later sealed by peat and river alluvium.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Plot sizes unknown from fetched sources."}
+        },
+        {
+          "label": "Timber trackways across the marsh (Bramcote Green, Bricklayers Arms)",
+          "from": -1700,
+          "to": -1300,
+          "dateNote": "Bramcote Green: two phases; the later one radiocarbon-dated to the mid 2nd millennium BC (Thomas et al., Proc. Prehist. Soc. 62, 1996). The from/to years are a bracket for 'mid 2nd millennium BC'. Note these sites lie c. 2-3 km SE of London Bridge, at or beyond the edge of the stated study area.",
+          "form": "Earlier trackway: two parallel lines of alder logs pinned by alder stakes. Later trackway: a single line of oak logs with alder stakes along one side. They crossed marsh between higher ground to the south and Bermondsey island to the north.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Lengths and widths not given in the abstract; effectively one or two logs wide."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Exact site coordinates were not verified; the lat/lon is a general Bermondsey/Horsleydown location, not a specific trench. Bramcote Green itself is further south-east (South Bermondsey). The extent of cultivated land across the eyots as a whole is unknown - only small windows have been excavated.",
+      "correctionsToDraft": "Draft correct in substance. Add that the cultivation was episodic and ended as water levels rose; the trackways are at the SE margin of the study area.",
+      "sources": [
+        {"title": "Bramcote Green, Bermondsey: a Bronze Age trackway and palaeo-environmental sequence (abstract)", "publisher": "Proceedings of the Prehistoric Society / Cambridge University Press", "url": "https://cambridge.org/core/journals/proceedings-of-the-prehistoric-society/article/bramcote-green-bermondsey-a-bronze-age-trackway-and-palaeoenvironmental-sequence/1C69FF0EA8905C6D3F8A4573E9636708"},
+        {"title": "Prehistory - A Research Framework for London Archaeology", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/prehistory/"},
+        {"title": "Archaeology in Southwark - prehistoric", "publisher": "Southwark Council", "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/design-and-conservation/archaeology-and-2"},
+        {"title": "The Early River Thames: The Iron Age and Before (Jon Cotton)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/node/13163"}
+      ]
+    },
+    {
+      "id": "londinium-founding-boudica-recovery",
+      "name": "Founding of Londinium, Boudican destruction and recovery",
+      "lat": 51.5134,
+      "lon": -0.0907,
+      "phases": [
+        {
+          "label": "Foundation and first town",
+          "from": 47,
+          "to": 60,
+          "dateNote": "Firm terminus: timber drain beside the main east-west road at No 1 Poultry dendro-dated AD 47 (research framework). London Museum gives 'around 47-50 CE'; City of London gives 'around AD 50'. First waterfront revetment at Regis House dendro-dated AD 52. An AD 43 military origin is a minority view.",
+          "form": "A new, unwalled planted town on the two low hills of the north bank, focused on the northern bridgehead (Cornhill) and along the main east-west road; timber and earth (wattle-and-daub, mudbrick) buildings; a timber-revetted river bank. No stone public buildings yet. London Museum: about 10,000 people by AD 60.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Built-up extent before AD 60 not quantified in fetched sources; buildings overwhelmingly single-storey timber/earth (heights conjectural)."}
+        },
+        {
+          "label": "Boudican destruction",
+          "from": 60,
+          "to": 61,
+          "dateNote": "Tacitus; the year is AD 60 or 61 (both used by institutional sources). Attested archaeologically as a red burnt horizon.",
+          "form": "The whole early town burnt; a thick layer of burnt debris. Many inhabitants probably left beforehand (London Museum).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Recovery under military supervision",
+          "from": 61,
+          "to": 75,
+          "dateNote": "Plantation Place fort built AD 63 (MOLA); first major timber quay at Regis House AD 63 (dendro: 'eleven years' after the AD 52 revetment; Milne gives c. AD 62-3). End date is my bracket for the start of the Flavian public-building programme.",
+          "form": "Rapid rebuilding: a timber-and-earth fort on the eastern hill, a massive state-built oak quay upstream of the bridgehead with open-fronted warehouses, then from the 70s the first forum-basilica and the timber amphitheatre.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "high",
+      "uncertainty": "Exact foundation year (47-50) and whether origin was civil/commercial or military. Pre-Boudican built-up area and population are estimates. lat/lon is No 1 Poultry (site of the AD 47 drain), approximate.",
+      "correctionsToDraft": "Draft 'c. 47-50' and '60/61' confirmed. Add: AD 47 is a dendro date for a roadside drain (earliest dated feature), not a documented foundation date. Recovery was faster than often assumed: fort and quay by AD 63.",
+      "sources": [
+        {"title": "Roman (AD 43 - 410) - A Research Framework for London Archaeology", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/roman/"},
+        {"title": "A timeline of Roman London: Londinium from start to end", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "Roman London information sheet (Sept 2015)", "publisher": "City of London Corporation / Guildhall Galleries", "url": "https://www.cityoflondon.gov.uk/assets/Things-to-do/roman-amphitheatre-roman-london.pdf"},
+        {"title": "Roman fort built in response to Boudica's revolt discovered", "publisher": "MOLA", "url": "https://www.mola.org.uk/discoveries/news/roman-fort-built-response-boudicas-revolt-discovered"},
+        {"title": "Brigham & Watson, Regis House (part 2), London Archaeologist 8(3)", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol08/vol08_03/08_03_063_069.pdf"}
+      ]
+    },
+    {
+      "id": "plantation-place-fort",
+      "name": "Post-Boudican fort, Plantation Place (Fenchurch Street)",
+      "lat": 51.511,
+      "lon": -0.0825,
+      "phases": [
+        {
+          "label": "Timber-and-earth fort",
+          "from": 63,
+          "to": 85,
+          "dateNote": "Construction AD 63 per MOLA. Marsden (2018) describes it as occupied 'for a short time'. The end year is NOT from a fetched source (my recollection of the MOLA monograph is disuse by c. AD 85) - treat as approximate.",
+          "form": "Rectangular fort with earthen banks about 3 m high reinforced with interlaced timbers and faced with turves and a timber wall; fighting platform fronted by a palisade; double ditches 1.9 m and 3 m deep; towers at the gateways.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": 3, "note": "Area about 3.7 acres (c. 1.5 ha). Side lengths not given in the fetched source. heightM is bank height only; palisade and tower heights are conjectural."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Only part of the circuit was excavated; plan and orientation are partly reconstructed. Disuse date not verified here. lat/lon approximate (Plantation Place, between Fenchurch Street and Mincing Lane).",
+      "correctionsToDraft": "Not in the draft list - add it. It is the main physical evidence for the 'recovery' phase and stood on the eastern hill before the wall or the Cripplegate fort existed.",
+      "sources": [
+        {"title": "Roman fort built in response to Boudica's revolt discovered", "publisher": "MOLA", "url": "https://www.mola.org.uk/discoveries/news/roman-fort-built-response-boudicas-revolt-discovered"},
+        {"title": "Marsden, The purpose of the Cripplegate Roman fort, London Archaeologist 15(5), 2018", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol15/vol15_05/LonArch-15-05_6_marsden.pdf"}
+      ]
+    },
+    {
+      "id": "roman-london-bridge",
+      "name": "Roman London Bridge",
+      "lat": 51.508,
+      "lon": -0.087,
+      "phases": [
+        {
+          "label": "First crossing (bridge or ferry) at the bridgehead",
+          "from": 50,
+          "to": 85,
+          "dateNote": "Disputed. Brigham & Watson: the AD 63 quay stops abruptly on the line of Fish Street Hill, which 'strongly suggests that the Thames bridge was already in place'. Milne: a landing stage of c. AD 70 east of the bridgehead was 'perhaps a ferry terminal before the bridge was constructed', with a timber bridge 'built by AD 85-90'. London Museum and City of London simply say a timber bridge was built early. No direct date for a first bridge exists.",
+          "form": "Conjectural: either a ferry or a simple timber trestle/pile bridge on the Fish Street Hill line. Nothing of its superstructure has been found.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown. River width at the crossing is not documented in fetched sources."}
+        },
+        {
+          "label": "Timber bridge with pier base (Pudding Lane / Fish Street Hill find, 1981)",
+          "from": 85,
+          "to": 410,
+          "dateNote": "Milne: bridge built by AD 85-90. The timber structure found in 1981 lay south of and earlier than a late 1st-century quay; Milne's 1982 Britannia note presents the pier-base identification as provisional, weighing evidence for and against; Historic England's dendro report calls it 'what may be the pier base'. End date is open: there is no evidence for when the Roman bridge went out of use; the bridgehead area was unoccupied from the early 5th to the late 9th/10th century.",
+          "form": "Evidenced: a rectangular box-like structure of large squared oak timbers on the foreshore, interpreted as the northernmost pier base of a timber bridge; a gravelled approach road with side ditches and a revetted causeway on the Fish Street Hill line. Conjectural: number of piers, timber superstructure, any drawbridge section (London Museum: 'possibly with a drawbridge'), and any later masonry piers.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Pier-base dimensions were not obtainable from a fetched source (my unverified recollection is roughly 7 m x 5 m). Overall bridge length and deck height unknown."}
+        }
+      ],
+      "evidence": "reconstructed",
+      "confidence": "low",
+      "uncertainty": "A LAMAS paper (search snippet only) notes that no physical remains of a Roman bridge have been certainly identified. Alignment: all fetched sources put the north end on the line of Fish Street Hill, i.e. slightly downstream (east) of the present London Bridge, landing in Southwark on the north island near the head of Borough High Street. One secondary source says this is the same location as the medieval stone bridge (begun 1176), whose north end was also at Fish Street Hill by St Magnus; whether the Roman line was identical or a few tens of metres east of the medieval one was not verified. lat/lon is an approximate mid-river point on that line; north abutment approx 51.5093, -0.0862.",
+      "correctionsToDraft": "'First bridge c. 50s' is an inference, not a dated structure: the only quasi-direct dates are 'in place by AD 63' (inferred from quay layout) and 'built by AD 85-90' (Milne). The Pudding Lane pier base belongs to the late 1st-century timber bridge, not to a 50s bridge, and its identification is still described as probable rather than certain. Model the bridge as timber throughout unless you flag masonry piers as conjecture.",
+      "sources": [
+        {"title": "Discovering the Port of Roman London (Gustav Milne, lecture transcript)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/sites/default/files/2017-09-27_GustavMilne_RomanPort.pdf"},
+        {"title": "Milne, Further Evidence for Roman London Bridge?, Britannia 13 (1982) - abstract", "publisher": "Britannia / Cambridge University Press", "url": "https://cambridge.org/core/journals/britannia/article/further-evidence-for-roman-london-bridge/A19C8685D8125B06CCA44A43D3898298"},
+        {"title": "Brigham & Watson, Regis House (part 2), London Archaeologist 8(3)", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol08/vol08_03/08_03_063_069.pdf"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "The Port of Roman London (secondary summary)", "publisher": "The History of London", "url": "https://www.thehistoryoflondon.co.uk/the-port-of-roman-london/"}
+      ]
+    },
+    {
+      "id": "first-forum-basilica",
+      "name": "First forum and basilica (Gracechurch Street / Cornhill)",
+      "lat": 51.5124,
+      "lon": -0.0848,
+      "phases": [
+        {
+          "label": "Construction and use",
+          "from": 75,
+          "to": 120,
+          "dateNote": "Marsden (2019): 'initially built c. AD 70-80'. MOLA (2025, 85 Gracechurch Street): 'late 70s or 80s AD', probably under Agricola (78-84). London Museum brackets it 62-100. The from year is a mid-point of these; treat as +/- 10 years.",
+          "form": "A walled forum courtyard with ranges of rooms and a basilica across its north side, set on a raised platform at the high point of Cornhill. Evidenced: foundations of flint, Kentish ragstone and Roman tile about 1 m wide and up to 4 m deep; the basilica is extrapolated as a two-storey-height aisled hall.",
+          "dimensions": {"lengthM": 40, "widthM": 20, "heightM": 12, "note": "Length/width are for the BASILICA (about 40 m x 20 m, Current Archaeology 422). Height 'up to 12 m' is an extrapolation from foundation size, not a measurement. Whole forum 'roughly the size of a football pitch' (MOLA); the figure of c. 100 m x 50 m for the whole complex comes from Wikipedia only (lead, not verified)."}
+        },
+        {
+          "label": "Demolition as the second forum was completed",
+          "from": 120,
+          "to": 130,
+          "dateNote": "MOLA: much of the first forum stayed in use until the second was completed, then was demolished; Current Archaeology gives c. AD 120.",
+          "form": "Systematically levelled and buried beneath the courtyard of the second forum.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Exact foundation date; elevation and roof form are reconstruction. lat/lon approximate (85 Gracechurch Street area).",
+      "correctionsToDraft": "Draft 'c. 70s' is acceptable but the current MOLA position after the 2025 Gracechurch Street discovery is 'late 70s or 80s'. It was not demolished before the second forum was started - the second was built around it while it remained in use.",
+      "sources": [
+        {"title": "Roman London's first basilica discovered (85 Gracechurch Street)", "publisher": "MOLA", "url": "https://www.mola.org.uk/node/33933"},
+        {"title": "The basilica in the basement: rediscovering the heart of Roman London, Current Archaeology 422", "publisher": "Current Archaeology / The Past", "url": "https://the-past.com/current-archaeology/422/feature/the-basilica-in-the-the-basement-rediscovering-the-heart-of-roman-london/"},
+        {"title": "Marsden, Reconstructing the forum and basilica of Roman London, London Archaeologist 15(8), 2019", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol15/vol15_08/LonArch-15-08_4_Marsden.pdf"}
+      ]
+    },
+    {
+      "id": "second-forum-basilica",
+      "name": "Second ('great') forum-basilica (Leadenhall / Gracechurch Street)",
+      "lat": 51.5127,
+      "lon": -0.0845,
+      "phases": [
+        {
+          "label": "Construction",
+          "from": 100,
+          "to": 125,
+          "dateNote": "Marsden (2019): rebuilt 'between c. AD 100-125'. MOLA: begun about 20 years after the first. London Museum: 100-120. Wikipedia (lead) gives c. 90-120 and some authors run completion to c. 130.",
+          "form": "A near-square walled forum of four ranges around a very large open courtyard, with the basilica (long aisled hall with nave, north and south aisles, an eastern apse and a range of rooms on the north) forming the whole north side. Ragstone-and-tile masonry.",
+          "dimensions": {"lengthM": 167, "widthM": 167, "heightM": null, "note": "c. 166-168 m square is the standard published figure but I could verify it only via Wikipedia (168 m x 167 m, citing Marsden) - treat as a lead. Institutional sources fetched say only: almost 5 times the size of the first forum, courtyard about the size of Trafalgar Square, basilica larger than St Paul's, 'nearly 2 hectares' (secondary). Height is NOT documented: 'three storeys' and specific heights (25-27 m is often quoted) are reconstruction."}
+        },
+        {
+          "label": "In use, with alterations",
+          "from": 125,
+          "to": 300,
+          "dateNote": "Brigham's Britannia 1990 reassessment covers AD 100-400. Marsden notes it was 'being neglected only a century later' and 'in a ruinous state in the early 4th century'.",
+          "form": "As built; a rectangular water feature near the courtyard centre (7.43 m N-S, probably over 14 m E-W) is interpreted either as a pool (Marsden) or part of a cross-walkway (Brigham). Inner east and west porticoes and the cross-walkway shown on the Museum of London model are, per Marsden, 'highly conjectural' and should be omitted.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Pool: 7.43 m wide, probably >14 m long, walls 0.5 m thick."}
+        },
+        {
+          "label": "Demolition / ruin",
+          "from": 300,
+          "to": 320,
+          "dateNote": "London Museum: 'in the early 300s CE the forum and basilica were demolished'. Marsden: basilica ruinous in the early 4th century. The popular explanation (punishment for supporting Carausius/Allectus) is conjecture. End year is a bracket.",
+          "form": "Levelled to foundations and robbed, except fragments such as a basilica pier (preserved in a basement at 90 Gracechurch Street).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Overall dimensions not verified from an institutional source; elevation, number of storeys, roof and height entirely reconstructed; whether a west apse existed is open; demolition may have been piecemeal. lat/lon approximate centre (Gracechurch Street between Cornhill and Lombard/Fenchurch Street).",
+      "correctionsToDraft": "Draft 'c. 100-130' fits (best current statement c. 100-125). Demolition 'c. 300' confirmed as 'early 300s'. Flag all height figures as conjecture.",
+      "sources": [
+        {"title": "Marsden, Reconstructing the forum and basilica of Roman London, London Archaeologist 15(8), 2019", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol15/vol15_08/LonArch-15-08_4_Marsden.pdf"},
+        {"title": "Brigham, A Reassessment of the Second Basilica in London, A.D. 100-400, Britannia 21 (1990) - abstract", "publisher": "Britannia / Cambridge University Press", "url": "https://www.cambridge.org/core/journals/britannia/article/reassessment-of-the-second-basilica-in-london-ad-100400-excavations-at-leadenhall-court-198486/B68344E4B64EE6D6750782B1F308BB1A"},
+        {"title": "Roman London's first basilica discovered", "publisher": "MOLA", "url": "https://www.mola.org.uk/node/33933"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "Londinium (used only as a lead for the 168 x 167 m figure)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Londinium"}
+      ]
+    },
+    {
+      "id": "amphitheatre-guildhall",
+      "name": "Roman amphitheatre, Guildhall Yard",
+      "lat": 51.5155,
+      "lon": -0.0914,
+      "phases": [
+        {
+          "label": "Timber amphitheatre",
+          "from": 74,
+          "to": 120,
+          "dateNote": "MOLA monograph abstract: 'built around AD 74' (this is the excavators' date). London Museum and City of London round it to 'AD 70'.",
+          "form": "Oval arena dug slightly into the ground, surrounded by a timber palisade, with timber seating on earth banks; eastern entrance and plank-lined timber drains evidenced.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Dimensions of the timber phase not given in fetched sources (it was smaller than the rebuilt version: City of London says the rebuild 'enlarged' it)."}
+        },
+        {
+          "label": "Rebuilt with masonry arena wall and entrances",
+          "from": 120,
+          "to": 300,
+          "dateNote": "MOLA: rebuilt 'shortly after AD 120'. City of London: 'early second century'. London Museum says c. 100 CE - the MOLA date is preferred. Later repairs and refurbishments attested.",
+          "form": "Evidenced: curved ragstone-and-tile arena wall, masonry-lined eastern entrance passage flanked by two small chambers (one with a slot for a vertically sliding beast door), timber drains; superstructure of the seating remained timber. Decoration with painted plaster and imported marble. Conjectural: the full ellipse (only the east end is excavated), seating tiers, boxes on the long sides, outer wall height.",
+          "dimensions": {"lengthM": 100, "widthM": null, "heightM": null, "note": "London Museum: 'over 100 m long', arena roughly the size of Guildhall Yard, capacity 'as many as 7,000' (other estimates 6,000-10,500 seen in secondary sources). Arena axes and overall width were not obtainable from a fetched source; my unverified recollection of Bateman et al. 2008 is an overall footprint of c. 100 m x 85 m and an arena of roughly 60 m x 45 m. Heights unknown."}
+        },
+        {
+          "label": "Disuse, dismantling and robbing",
+          "from": 300,
+          "to": 365,
+          "dateNote": "City of London: in use 'until the start of the fourth century when it was dismantled and most of the material salvaged'. MOLA: 'by the mid-4th century, the amphitheatre had been abandoned'. Site then derelict until the 11th century.",
+          "form": "Walls robbed for stone; hollow of the arena silting up and accumulating dark earth.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Only the eastern entrance and part of the arena wall are excavated; the outline marked in Guildhall Yard is a projection. Arena and overall axes not verified here. Historic England list entry 1013411 could not be fetched (HTTP 403).",
+      "correctionsToDraft": "Timber phase: use c. 74 (MOLA) rather than 70. Stone phase: 'shortly after AD 120' - draft 'c. 120s' confirmed. It was never an all-stone building: only the arena wall and entrances were masonry; the seating stayed timber. Disuse: early-to-mid 4th century.",
+      "sources": [
+        {"title": "London's Roman amphitheatre: Guildhall Yard, City of London (MOLA Monograph 35) - abstract", "publisher": "MOLA", "url": "https://mola.iro.bl.uk/concern/books/80edc531-99f3-4659-94b7-5d5595480e63?locale=en"},
+        {"title": "London's Roman Amphitheatre information sheet (Sept 2015)", "publisher": "City of London Corporation / Guildhall Galleries", "url": "https://www.cityoflondon.gov.uk/assets/Things-to-do/roman-amphitheatre-london.pdf"},
+        {"title": "The Roman amphitheatre in central London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/roman-amphitheatre-central-london/"},
+        {"title": "Amphitheatre (London) (used only for coordinates)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Amphitheatre_(London)"}
+      ]
+    },
+    {
+      "id": "cripplegate-fort",
+      "name": "Cripplegate fort",
+      "lat": 51.5172,
+      "lon": -0.0945,
+      "phases": [
+        {
+          "label": "Construction and garrison",
+          "from": 120,
+          "to": 160,
+          "dateNote": "Marsden (2018): 'general agreement that the fort was built c. AD 120'. Other statements: AD 90-120 or 120-150. Ditch already silting by the mid 2nd century; coin of Hadrian (minted 118) and pottery of 120-130 in the primary ditch silts; barrack demolition debris AD 120-160 and 150-250. Howe & Lakin: lifespan 'may have been as little as half a century'.",
+          "form": "Playing-card-shaped stone fort with rounded corners, internal turrets, four gates and rows of barrack blocks; V-shaped outer ditch. Masonry (Kentish ragstone) curtain wall backed by an earth bank.",
+          "dimensions": {"lengthM": 220, "widthM": 215, "heightM": null, "note": "Area about 11 acres (4.5 ha) is verified (Marsden citing Howe & Lakin 2004 and Shepherd 2012). Side lengths are NOT verified: c. 220 m x 215 m is the commonly quoted figure (Wikipedia: 'more than 200 m x 200 m'); a review snippet of Shepherd 2012 gives '243 by 220 m over the walls'. Ditch c. 2.9 m wide, 1.67 m deep on the east side, narrowing to a token 0.4 m gulley at the SE corner. Fort wall about 1.2 m thick (Wikipedia citing Museum of London plaque - lead). Wall height unknown."}
+        },
+        {
+          "label": "Disuse; north and west walls absorbed into the city wall",
+          "from": 160,
+          "to": 225,
+          "dateNote": "Buildings out of use by the end of the 2nd century (MOLA Monograph 21 abstract); ditch deliberately filled at the end of the 2nd / start of the 3rd century; by c. AD 200 the north and west walls were incorporated into the new city defences and thickened internally.",
+          "form": "Barracks demolished and levelled; the fort's north and west curtain reused as part of the city wall, its south and east walls redundant inside the town.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Garrison and purpose are unresolved (governor's guard vs Marsden's suggestion of a short-lived base for Hadrian's visit in 122). Internal plan is known only in the south-west quarter and partly reconstructed elsewhere. Exact side lengths and wall height not verified. lat/lon is an approximate centre (Wood Street / London Wall).",
+      "correctionsToDraft": "'c. 120' confirmed. Add that the fort was probably effectively disused by the mid-to-late 2nd century and ceased to exist as a separate fort by c. 200 - do not show it garrisoned through the 3rd-4th centuries.",
+      "sources": [
+        {"title": "Marsden, The purpose of the Cripplegate Roman fort, London Archaeologist 15(5), 2018", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol15/vol15_05/LonArch-15-05_6_marsden.pdf"},
+        {"title": "Roman and medieval Cripplegate, City of London: excavations 1992-8 (MoLAS Monograph 21) - abstract", "publisher": "MOLA", "url": "https://mola.iro.bl.uk/concern/books/c1f24fa0-2cee-4170-8c88-3951d6a463e6?locale=en"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "London Wall (lead for wall thickness and side lengths only)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/London_Wall"}
+      ]
+    },
+    {
+      "id": "landward-city-wall",
+      "name": "Landward city wall (London Wall)",
+      "lat": 51.5162,
+      "lon": -0.0868,
+      "phases": [
+        {
+          "label": "Construction",
+          "from": 190,
+          "to": 225,
+          "dateNote": "Historic England list entries (seen via search snippet; pages returned HTTP 403): 'between approximately AD 190 and AD 225'. Current Archaeology 401: around AD 195-225. English Heritage: about AD 200. London Museum: 200-220.",
+          "form": "A continuous stone curtain from the Blackfriars area in the west round to the Tower area in the east, incorporating the north and west walls of the Cripplegate fort. Rubble core in hard mortar, faced both sides with squared Kentish ragstone, with horizontal bands of red bonding tiles every fifth or sixth course; external ditch; internal earth bank; small square internal turrets.",
+          "dimensions": {"lengthM": 3000, "widthM": 2.5, "heightM": 6.4, "note": "Length: 'about 3 km' landward (London Museum; Historic England snippet). English Heritage's 'roughly 2.5 miles' (c. 4 km) appears to describe the whole circuit including the river side. Enclosed about 330 acres / 134 ha. Thickness 2-2.6 m at base (English Heritage). Height 'over 6 m' (English Heritage); 6.4 m to the wall-walk is from an on-site plaque cited by Wikipedia. Parapet/merlon height above that is conjectural. Ditch up to 1.8 m deep and 4.8 m wide. About 35,000 cubic metres of ragstone shipped from near Maidstone."}
+        },
+        {
+          "label": "Maintained through the late Roman period (bastions added - see separate item)",
+          "from": 225,
+          "to": 410,
+          "dateNote": "Survived as a standing structure; heightened and repaired in the medieval period (medieval height over 10 m).",
+          "form": "As built, with later external bastions on the eastern sector.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "At Tower Hill the surviving wall stands 10.7 m, of which only the lower c. 4 m is Roman."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Reason for building (no immediate threat; Clodius Albinus/Severan politics are hypotheses). Whether an earlier boundary earthwork existed. Original parapet form. lat/lon is a point on the northern sector; the wall is a line feature - key approximate points (from general knowledge, not surveyed): Tower Hill 51.5099,-0.0761; Aldgate 51.5136,-0.0765; Bishopsgate 51.5160,-0.0813; Cripplegate 51.5180,-0.0935; Aldersgate 51.5167,-0.0970; Newgate 51.5155,-0.1007; Ludgate 51.5140,-0.1023.",
+      "correctionsToDraft": "'c. 190-225' confirmed. Length: about 3 km for the landward wall (not the whole circuit). Height: use c. 6.4 m to wall-walk for the Roman phase; everything above about 4-6 m in surviving stretches is medieval.",
+      "sources": [
+        {"title": "History of London Wall", "publisher": "English Heritage", "url": "https://www.english-heritage.org.uk/visit/places/london-wall/history/"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "Fortress Londinium: tracing London's Roman defences, Current Archaeology 401", "publisher": "Current Archaeology / The Past", "url": "https://the-past.com/current-archaeology/401/feature/fortress-londinium-tracing-londons-roman-defences/"},
+        {"title": "London Wall (lead for plaque height and ditch figures)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/London_Wall"}
+      ]
+    },
+    {
+      "id": "city-wall-gates",
+      "name": "Gates of the Roman wall",
+      "lat": 51.5155,
+      "lon": -0.1007,
+      "phases": [
+        {
+          "label": "Original gates (with the wall)",
+          "from": 200,
+          "to": 410,
+          "dateNote": "English Heritage: four city gates plus the entrance at the Cripplegate fort. Current Archaeology names the four as Ludgate, Newgate, Bishopsgate and Aldgate. Gate names are all medieval.",
+          "form": "Newgate is the best known: a double-carriageway gate flanked by square towers (this description is from general knowledge of the published plan, not from a fetched source). Cripplegate was the reused north gate of the fort. The fort's west gate (twin-towered, preserved under London Wall car park) was blocked, probably in the later 4th century.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "No gate dimensions verified. All gate superstructures are conjectural."}
+        },
+        {
+          "label": "Aldersgate inserted",
+          "from": 350,
+          "to": 410,
+          "dateNote": "c. 350 per Ross & Clark 2008 as cited by Wikipedia (lead only). London Museum lists Aldersgate among the wall's gates without dating it.",
+          "form": "A later Roman gate cut through the wall west of the fort; form not verified.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "unknown"}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Ludgate has never been excavated as a Roman gate (its Roman origin is inferred). Aldgate and Bishopsgate plans are fragmentary. Date of Aldersgate rests on a lead. lat/lon is Newgate (approximate).",
+      "correctionsToDraft": "Draft list is right in treating Moorgate as medieval (it began as a medieval postern). Refinement: only FOUR gates (Ludgate, Newgate, Bishopsgate, Aldgate) plus the fort's north gate (Cripplegate) are original; Aldersgate is a later Roman addition (c. 350?), so it should not appear in a c. 200-225 frame.",
+      "sources": [
+        {"title": "History of London Wall", "publisher": "English Heritage", "url": "https://www.english-heritage.org.uk/visit/places/london-wall/history/"},
+        {"title": "Fortress Londinium, Current Archaeology 401", "publisher": "Current Archaeology / The Past", "url": "https://the-past.com/current-archaeology/401/feature/fortress-londinium-tracing-londons-roman-defences/"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "London Wall (lead for Aldersgate date, Moorgate, blocked fort gate)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/London_Wall"}
+      ]
+    },
+    {
+      "id": "city-wall-bastions",
+      "name": "Late Roman bastions (eastern sector)",
+      "lat": 51.5099,
+      "lon": -0.0761,
+      "phases": [
+        {
+          "label": "Bastions added to the eastern wall",
+          "from": 350,
+          "to": 410,
+          "dateNote": "English Heritage: 'D-shaped bastions added to the eastern sections in the 4th century'. London Museum: towers added 'around 350 CE' to the eastern and parts of the northern wall. Wikipedia's 'c. 360' is a lead. Exact date not established.",
+          "form": "Solid D-shaped/semicircular towers built against (not bonded into) the outer face of the wall, containing reused stone including tomb sculpture (e.g. the Classicianus monument fragments at Tower Hill).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "About 21-22 bastions are known on the whole circuit, roughly 64 m apart on the eastern section (Merrifield via Wikipedia - lead). Individual dimensions and heights not verified."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Number of genuinely Roman bastions. The western group of hollow bastions (Cripplegate/Noble Street/Postman's Park area) is medieval (13th century) - Historic England titles the Postman's Park entry 'Roman wall and medieval bastion' and Bastion 12 has 13th-century masonry. Do not show western bastions in a Roman frame.",
+      "correctionsToDraft": "'Bastions (4th c.)' is right only for the EASTERN sector (roughly Tower to Bishopsgate/Moorgate). West-side bastions belong in your medieval dataset.",
+      "sources": [
+        {"title": "History of London Wall", "publisher": "English Heritage", "url": "https://www.english-heritage.org.uk/visit/places/london-wall/history/"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "London Wall (lead for count and spacing)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/London_Wall"}
+      ]
+    },
+    {
+      "id": "riverside-wall",
+      "name": "Riverside wall",
+      "lat": 51.5098,
+      "lon": -0.09,
+      "phases": [
+        {
+          "label": "Construction",
+          "from": 255,
+          "to": 275,
+          "dateNote": "English Heritage: added AD 250-270. London Museum: c. 275. Milne: waterfront severed 'by the end of the 3rd century'. Wikipedia leads: 'from about 255' and 'begun 280 in phases'. The 255-275 bracket reflects tree-ring dated piles at Blackfriars as I recall them, but that primary report was not fetched.",
+          "form": "A tall masonry wall along the north bank from Blackfriars to the Tower, closing the circuit and cutting the quays off from the town. Unlike the landward wall it was built partly of reused masonry from demolished buildings (Milne), on timber piles and chalk raft in places.",
+          "dimensions": {"lengthM": 1700, "widthM": null, "heightM": null, "note": "Length 1,700 m (English Heritage). Thickness and height not verified ('tall' per Milne; presumably comparable to the landward wall - conjecture)."}
+        },
+        {
+          "label": "Late 4th-century rebuilding at the eastern end",
+          "from": 388,
+          "to": 410,
+          "dateNote": "A stretch at the Tower is attributed to a late 4th-century rebuild (Parnell 1978 via Wikipedia; 'c. 390', 'decade after 388') - lead only.",
+          "form": "Additional/rebuilt length of riverside wall inside the later Tower of London.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "unknown"}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Whether it was one build or several; exact line in the central sector; parts collapsed or were eroded by the river in the post-Roman period. lat/lon is an approximate mid-point on the Thames Street line.",
+      "correctionsToDraft": "'c. 255-275' is consistent with institutional statements (250-270 / 275). It ran on the line of Thames Street, i.e. about 100 m inland of today's river edge, not at the modern embankment.",
+      "sources": [
+        {"title": "History of London Wall", "publisher": "English Heritage", "url": "https://www.english-heritage.org.uk/visit/places/london-wall/history/"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "Discovering the Port of Roman London (Gustav Milne)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/sites/default/files/2017-09-27_GustavMilne_RomanPort.pdf"},
+        {"title": "London Wall (lead for late 4th-century rebuild)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/London_Wall"}
+      ]
+    },
+    {
+      "id": "governors-palace-cannon-street",
+      "name": "'Governor's palace' complex, Cannon Street (interpretation disputed)",
+      "lat": 51.5107,
+      "lon": -0.0896,
+      "phases": [
+        {
+          "label": "Construction",
+          "from": 80,
+          "to": 100,
+          "dateNote": "Marsden's excavations (1961-72) dated the complex to AD 80-100 (as summarised in a secondary source; the LAMAS report itself could not be parsed). Wikipedia (lead) notes 2nd-century rebuilding.",
+          "form": "Massive ragstone masonry terraces stepping down the hillside to the river east of the Walbrook mouth, with ranges of rooms, hypocausts and a large ornamental pool on an upper terrace. Marsden reconstructed three ranges around a garden court; only the south and east ranges were actually excavated.",
+          "dimensions": {"lengthM": 130, "widthM": 100, "heightM": null, "note": "About 130 m x 100 m overall is a secondary figure (Londonist, seen in a search snippet; page not fetchable) for Marsden's reconstructed complex. Heights unknown."}
+        },
+        {
+          "label": "Use and decline",
+          "from": 100,
+          "to": 300,
+          "dateNote": "Out of use 'around 300' per Wikipedia citing Marsden - lead only, not verified.",
+          "form": "As above; later subdivided/robbed.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "reconstructed",
+      "confidence": "low",
+      "uncertainty": "Function and unity are both disputed. Marsden identified it as the provincial governor's praetorium; Perring and Milne doubted it was a single unified building (Milne's 1996 paper is titled 'A palace disproved'), and it may be several separate public and private buildings on adjoining terraces. Marsden himself (2018) now calls it the 'so-called palace'. Historic England list entry 1001997 and the LAMAS 26 report could not be read. lat/lon from a gazetteer derived from the Historic England entry.",
+      "correctionsToDraft": "Dates 'c. 80-100' match Marsden's published dating, but label it neutrally (e.g. 'large terraced public complex, formerly called the governor's palace') and do not model it as one symmetrical palace with confidence; the western range is entirely hypothetical.",
+      "sources": [
+        {"title": "Cannon Street Station's grandiose Roman past (secondary summary of Marsden and of Perring & Milne)", "publisher": "London Guided Walks", "url": "https://londonguidedwalks.co.uk/cannon-street-station/"},
+        {"title": "Marsden, The purpose of the Cripplegate Roman fort, London Archaeologist 15(5), 2018 ('so-called palace')", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol15/vol15_05/LonArch-15-05_6_marsden.pdf"},
+        {"title": "Roman governor's palace (site of) - gazetteer entry with coordinates", "publisher": "Aubrey Research (derived from Historic England NHLE 1001997)", "url": "https://www.aubreyresearch.com/roman-britain/sites/roman-governors-palace-site-of"}
+      ]
+    },
+    {
+      "id": "huggin-hill-baths",
+      "name": "Huggin Hill public baths",
+      "lat": 51.5116,
+      "lon": -0.0953,
+      "phases": [
+        {
+          "label": "Construction and use",
+          "from": 75,
+          "to": 180,
+          "dateNote": "Only 'latter part of the first century AD' is verified (secondary source). The draft's 'c. 70-90' is consistent with that. The from/to years are brackets, not published dates.",
+          "form": "A large public bath-house terraced into the steep hillside above the river, fed by springs: hot room (caldarium), cold room (frigidarium), changing room and at least seven rooms at the south end; massive ragstone walls, some surviving about 3 m high; tanks/reservoirs on the upper terrace (now Cleary Garden).",
+          "dimensions": {"lengthM": 75, "widthM": null, "heightM": null, "note": "Complex 'likely extended about 75 metres along the river front' (secondary). Surviving walls c. 3 m high; original heights unknown. Not fully excavated."}
+        },
+        {
+          "label": "Demolition",
+          "from": 180,
+          "to": 200,
+          "dateNote": "NOT verified from a primary/institutional source. Wikipedia says the baths remained in use until demolition 'around 200 AD'; the draft says late 2nd century; my recollection of the 1989 excavation (Rowsome) is deliberate demolition in the later 2nd century. Marsden's 1976 LAMAS report (snippet) says the date of the later terracing is not established.",
+          "form": "Deliberately dismantled; site later built over with late Roman structures.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "low",
+      "uncertainty": "Construction and demolition dates and the full plan could not be verified (Historic England entry 1001981 and LAMAS 27 not readable). Whether it was a public bath or part of a larger official complex is open. lat/lon from a gazetteer derived from the Historic England entry.",
+      "correctionsToDraft": "Nothing contradicts 'c. 70-90, demolished late 2nd c.', but I could confirm only 'late 1st century' for construction; treat the demolition date as c. 180-200 with low confidence.",
+      "sources": [
+        {"title": "Vic Keegan's Lost London 25: the Huggin Hill Roman Baths (secondary)", "publisher": "OnLondon", "url": "https://www.onlondon.co.uk/vic-keegans-lost-london-25-the-huggin-hill-roman-baths/"},
+        {"title": "Huggin Hill Roman bath house - gazetteer entry with coordinates", "publisher": "Aubrey Research (derived from Historic England NHLE 1001981)", "url": "https://www.aubreyresearch.com/roman-britain/sites/huggin-hill-roman-bath-house-120m-wnw-of-st-jamess-church"},
+        {"title": "Londinium (lead for demolition c. 200)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Londinium"}
+      ]
+    },
+    {
+      "id": "temple-of-mithras",
+      "name": "Temple of Mithras (London Mithraeum), Walbrook",
+      "lat": 51.5124,
+      "lon": -0.0906,
+      "phases": [
+        {
+          "label": "Built as a mithraeum",
+          "from": 240,
+          "to": 320,
+          "dateNote": "MOLA: 'built in AD 240 to 250 based on coin dates... in use as a mithraeum for 80 years before being repurposed'. Historic England listing: constructed c. AD 240-250.",
+          "form": "Small rectangular aisled hall on the east bank of the Walbrook, partly sunken and windowless: central nave with raised side aisles on sleeper walls carrying seven columns each side, a raised dais and a projecting apse at the WEST end, single doorway at the east end, timber-lined well in one corner. Kentish ragstone rubble walls with tile banding.",
+          "dimensions": {"lengthM": 18, "widthM": 8, "heightM": null, "note": "c. 18 m x 8 m (59 ft x 26 ft) is repeated by secondary sources; the Historic England listing gives no dimensions and Shepherd 1998 was not accessed. Roof form and height unknown (reconstruction)."}
+        },
+        {
+          "label": "Converted, probably to Bacchus",
+          "from": 320,
+          "to": 390,
+          "dateNote": "Listing: 'probably converted to the worship of Bacchus from the early 4th century'; fell out of use in the late 4th century. The 320 change-point follows MOLA's '80 years'; end year is a bracket for 'late 4th century'.",
+          "form": "Same building with colonnades removed and floor raised; Mithraic sculptures buried beneath the floor.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Standing ruin",
+          "from": 390,
+          "to": null,
+          "dateNote": "Listing: survived as a standing ruin into the Anglo-Saxon period. Open-ended.",
+          "form": "Roofless shell gradually buried by Walbrook valley deposits.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "high",
+      "uncertainty": "Original position: the lat/lon is my estimate of the original find-spot on the Bloomberg site (the listing says the 1962 reconstruction at 51.5127,-0.0917 stood about 75 m north-west of and 6 m above the original; the remains were moved back close to the original spot in 2017). Dimensions rest on secondary sources. The original was oriented east-west with the apse at the west.",
+      "correctionsToDraft": "'c. 240-250' confirmed. 'Later rededication' = probably Bacchus, early 4th century; disuse late 4th century. Orient the model with the apse to the WEST (the 1962 reconstruction had it wrongly to the north).",
+      "sources": [
+        {"title": "Mithras and Mithraism: top 10 things you need to know", "publisher": "MOLA", "url": "https://www.mola.org.uk/node/29561"},
+        {"title": "Temple of Mithras, Grade II listing text (mirror of Historic England NHLE 1391846)", "publisher": "British Listed Buildings / Historic England", "url": "https://britishlistedbuildings.co.uk/101391846-temple-of-mithras-cordwainer-ward"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"}
+      ]
+    },
+    {
+      "id": "roman-waterfront-quays",
+      "name": "Roman north-bank waterfront and quays (bridgehead sector)",
+      "lat": 51.5097,
+      "lon": -0.0868,
+      "phases": [
+        {
+          "label": "First revetment",
+          "from": 52,
+          "to": 63,
+          "dateNote": "Dendrochronology, Regis House: AD 52.",
+          "form": "Simple piled embankment/timber revetment of the natural river bank, which lay about 100 m north of the modern quayside, just north of Thames Street.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Neronian quay and warehouses",
+          "from": 63,
+          "to": 102,
+          "dateNote": "Dendrochronology: quay built eleven years after the AD 52 revetment (AD 63; Milne says c. AD 62-3), probably by the army. A large open-work landing stage east of the bridgehead c. AD 70 (Milne); nearly 60 m long per a secondary source.",
+          "form": "Massive box-quay of squared oak baulks stacked up to six tiers, infilled behind with gravel and clay, with a row of open-fronted masonry-and-timber warehouse bays (horrea) set about 5 m behind the quay front.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": 2, "note": "Baulks up to 600 mm x 400 mm in section and up to 9 m long; quay face 'over 2 m' high. The earliest quays advanced the frontage about 15 m (secondary source)."}
+        },
+        {
+          "label": "Early 2nd-century advances",
+          "from": 102,
+          "to": 125,
+          "dateNote": "Dendrochronology: extension 'in or immediately after AD 102'; then one or two further advances of about 4.5 m and 4.0 m before the Hadrianic fire.",
+          "form": "Post-and-plank revetments on mortised baseplates with tiebacks, infilled with organic dumps and huge quantities of oyster shell; warehouses extended south over the old quay.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Later 2nd- to mid 3rd-century quays",
+          "from": 125,
+          "to": 255,
+          "dateNote": "Milne: development 'continued unabated into the 3rd century', each quay further south; the frontage reached the Walbrook mouth and by AD 200 extended beyond it. Brigham (Britannia 21): later quays of early-2nd to mid-3rd century date. The London oak chronology runs to AD 294.",
+          "form": "Successive timber quays; total Roman advance in the bridgehead sector of the order of 35 m into the river (Schofield via Wikipedia - lead), with timber frontages for some 300 m either side of the bridge.",
+          "dimensions": {"lengthM": null, "widthM": 35, "heightM": null, "note": "widthM = approximate total southward advance of the north bank during the Roman period (lead-level figure). Of the c. 100 m between the 1st-century bank and today's river wall, roughly the remaining two-thirds is medieval and later reclamation."}
+        },
+        {
+          "label": "Port in decline; quays cut off and dismantled",
+          "from": 255,
+          "to": 410,
+          "dateNote": "London Museum: port closed around 250 CE. Milne: after the riverside wall, quays 'neither extended or even maintained, and had been largely dismantled by the 4th century'; warehouses subdivided into dwellings. Research framework: no late Roman port facilities have been recorded. Activity at Pudding Lane continued to the very late 4th/early 5th century.",
+          "form": "Decayed and robbed timber quays in front of the riverside wall; river level relatively lower, exposing more foreshore.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "high",
+      "uncertainty": "Dates and advances are well fixed only in the bridgehead sector (Regis House, Pudding Lane, Miles Lane); elsewhere along the front the sequence differs and is less well documented, especially downstream. Total advance figure is a lead. lat/lon is Regis House (King William Street / Fish Street Hill), approximate.",
+      "correctionsToDraft": "Give the animation fixed tree-ring anchor dates: AD 52 (revetment), 63 (first great quay), c. 70 (landing stage east of bridge), 102 (extension), then steps to the mid 3rd century. The Roman bank moved south by tens of metres (c. 35 m), not the full c. 100 m to today's edge.",
+      "sources": [
+        {"title": "Brigham & Watson, Current archaeological work at Regis House in the City of London (part 2), London Archaeologist 8(3)", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol08/vol08_03/08_03_063_069.pdf"},
+        {"title": "Discovering the Port of Roman London (Gustav Milne)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/sites/default/files/2017-09-27_GustavMilne_RomanPort.pdf"},
+        {"title": "Brigham, The Late Roman Waterfront in London, Britannia 21 (1990) - abstract", "publisher": "Britannia / Cambridge University Press", "url": "https://cambridge.org/core/journals/britannia/article/abs/late-roman-waterfront-in-london/2117E8E13B6BDD7D20B96FA98FB5C190"},
+        {"title": "Roman (AD 43 - 410) - A Research Framework for London Archaeology", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/roman/"},
+        {"title": "The Port of Roman London (secondary)", "publisher": "The History of London", "url": "https://www.thehistoryoflondon.co.uk/the-port-of-roman-london/"},
+        {"title": "London Wall (lead for c. 35 m advance, citing Schofield 1993)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/London_Wall"}
+      ]
+    },
+    {
+      "id": "roman-southwark",
+      "name": "Roman Southwark settlement",
+      "lat": 51.505,
+      "lon": -0.0895,
+      "phases": [
+        {
+          "label": "Bridgehead suburb established",
+          "from": 50,
+          "to": 120,
+          "dateNote": "Southwark Council: settled after AD 43; LAMAS/London Archaeologist summaries (snippets) say Southwark developed as a suburb from the mid 1st century AD. Start year tied to the founding of Londinium; not independently dated here.",
+          "form": "Settlement on two larger sand-and-gravel islands (the 'north island' and 'south island') separated by tidal channels (the Southwark Street Channel divides them; the Borough Channel lies south), the islands only just above high water. The road from the bridge ran south down the north island roughly on the line of Borough High Street on a causeway/timber corduroy across the channels. Timber and earth buildings, waterfront revetments, jetties and warehouses (including a timber warehouse with a ramp for barrels), metalworking workshops.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Settled area not verified from a fetched source (figures of roughly 12-24 ha circulate - my recollection only). Eyot tops about +1.6 to +1.8 m OD (snippets)."}
+        },
+        {
+          "label": "Peak with stone buildings",
+          "from": 120,
+          "to": 300,
+          "dateNote": "Period-level only. Southwark Council lists stone buildings with mosaics, hypocausts and painted walls, a bath-house on Borough High Street, a Romano-Celtic temple precinct at Tabard Square on the southern edge, and mosaics and a mausoleum at Landmark Court/Liberty of Southwark.",
+          "form": "Ribbon development along the bridge road with substantial masonry buildings near the river and the Winchester Palace area; temple precinct and large roadside cemetery with mausolea south of the present Borough station, where Watling Street and Stane Street converged.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Late Roman contraction",
+          "from": 300,
+          "to": 410,
+          "dateNote": "Not verified from a fetched source; from general knowledge of the Southwark literature (settlement shrinking towards the bridgehead, burials encroaching on formerly built-up plots, dark earth).",
+          "form": "Reduced occupation near the bridgehead; dark earth over earlier buildings.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Island outlines and channel courses are modelled from scattered excavations and boreholes; the built-up extent and its change through time are approximate; whether Southwark burned in the Boudican revolt and the dating of late contraction were not verified here (MoLAS Monograph 12 abstract returned HTTP 403/404). lat/lon is an approximate centre of the north island (Borough High Street near London Bridge station).",
+      "correctionsToDraft": "Confirmed: two main islands forming the southern bridgehead. Show Southwark as part of Londinium from the start (c. 50s), with water/marsh on all sides at high tide and a river up to c. 1 km wide to the east.",
+      "sources": [
+        {"title": "Archaeology in Southwark - Roman", "publisher": "Southwark Council", "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/design-and-conservation/archaeology-and/roman"},
+        {"title": "Discovering the Port of Roman London (Gustav Milne)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/sites/default/files/2017-09-27_GustavMilne_RomanPort.pdf"},
+        {"title": "Roman (AD 43 - 410) - A Research Framework for London Archaeology", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/roman/"}
+      ]
+    },
+    {
+      "id": "roman-main-roads",
+      "name": "Main Roman roads at Londinium",
+      "lat": 51.5134,
+      "lon": -0.0907,
+      "phases": [
+        {
+          "label": "Road system laid out",
+          "from": 47,
+          "to": 410,
+          "dateNote": "Main east-west road through the town in existence by AD 47 (dated roadside drain at No 1 Poultry). The research framework notes that knowledge of the major roads is sound but 'their dating needs some refinement', and that Watling Street and Stane Street appear to be post-conquest creations tied to the bridge.",
+          "form": "Cambered gravel (metalled) roads with side ditches. (1) Main east-west street across the Walbrook via Poultry/Cheapside, leaving west by Newgate towards Silchester and Verulamium (Holborn/Oxford Street line) and east by Aldgate towards Colchester. (2) North-south street from the bridge up Fish Street Hill to the forum, continuing north through Bishopsgate as Ermine Street. (3) South of the river, the bridge road along Borough High Street to the junction of Watling Street (to Canterbury and the Kent ports, roughly Tabard Street/Old Kent Road) and Stane Street (to Chichester, roughly Swan Street/Newington Causeway/Kennington Park Road).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Carriageway widths not verified from fetched sources (typically several metres; unknown here)."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Names (Watling Street, Ermine Street, Stane Street) are post-Roman. Exact lines inside the modern street grid are known only at excavated points; the Stane Street line in north Southwark was only directly evidenced recently (Harper Road/Swan Street). Whether the first Watling Street headed for a Westminster crossing before the bridge existed is a hypothesis not addressed by the fetched sources. lat/lon is No 1 Poultry on the main east-west road.",
+      "correctionsToDraft": "Draft list is fine; add the Colchester road via Aldgate and the western road via Newgate, and note that the internal street grid was only partly regular.",
+      "sources": [
+        {"title": "Roman (AD 43 - 410) - A Research Framework for London Archaeology", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/roman/"},
+        {"title": "Prehistory - A Research Framework for London Archaeology (note on Watling Street and Stane Street)", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/prehistory/"},
+        {"title": "Archaeology in Southwark - Roman", "publisher": "Southwark Council", "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/design-and-conservation/archaeology-and/roman"},
+        {"title": "Brigham & Watson, Regis House (part 2) (bridge approach road on the Fish Street Hill line)", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol08/vol08_03/08_03_063_069.pdf"}
+      ]
+    },
+    {
+      "id": "hadrianic-fire",
+      "name": "Hadrianic fire(s)",
+      "lat": 51.5097,
+      "lon": -0.0868,
+      "phases": [
+        {
+          "label": "Major fire horizon",
+          "from": 120,
+          "to": 130,
+          "dateNote": "Not historically documented; dated archaeologically. Regis House: Dunning AD 120-130, Marsh 'no later than AD 125', archaeomagnetic dates on burnt mudbrick walls AD 110-130 and 130-180. London Museum: 120-130 CE, and it is unclear whether it was one fire or several. Wikipedia leads: burnt samian stock c. 120-125 (Hill & Rowsome 2011); fire horizons 120s-130s (Hingley 2018).",
+          "form": "Widespread destruction of timber and mudbrick buildings; at Regis House burnt mudbrick debris up to 2.0 m thick on the lower terrace. Masonry public buildings (second forum, fort, amphitheatre walls) were under construction or new at about this time and are not known to have been destroyed.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Extent of the burnt area not quantified in fetched sources; commonly mapped across much of the town west and east of the Walbrook."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Single conflagration vs several fires over a decade or more; cause (accident vs Perring's 'Hadrianic war' hypothesis); exact year and extent. lat/lon is Regis House, one well-dated exposure, not a centre of the fire.",
+      "correctionsToDraft": "'c. 120s' confirmed; best single bracket c. 120-130, most likely mid 120s. Show rebuilding at lower density afterwards rather than abandonment.",
+      "sources": [
+        {"title": "Brigham & Watson, Regis House (part 2), London Archaeologist 8(3)", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol08/vol08_03/08_03_063_069.pdf"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "Londinium (lead for Hill & Rowsome and Hingley datings)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Londinium"}
+      ]
+    },
+    {
+      "id": "late-roman-contraction-dark-earth-end",
+      "name": "Late Roman contraction, 'dark earth', end of Roman administration and 5th-century abandonment",
+      "lat": 51.514,
+      "lon": -0.088,
+      "phases": [
+        {
+          "label": "Contraction of the built-up area",
+          "from": 150,
+          "to": 300,
+          "dateNote": "London Museum: after c. 150 'the number of houses gradually reduced'. Marsden & West (Britannia 23, 1992): most scholars agree the much thinner later Roman evidence reflects a substantial drop in urban population; the classic bracket for the decline is AD 150-250 (Sheldon, Morris). Perring (draft paper, snippet) says the orthodoxy of a sharp mid/late 2nd-century collapse is being challenged.",
+          "form": "Fewer, larger masonry town-houses with gardens and open plots replacing dense timber strip-buildings; public works continue (wall c. 190-225, riverside wall c. 255-275, Mithraeum 240s).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Dark earth and 4th-century town",
+          "from": 300,
+          "to": 410,
+          "dateNote": "Forum-basilica demolished early 300s; amphitheatre abandoned by mid 4th century; dark earth at Regis House provisionally coin-dated to the 4th century; bastions c. 350; city renamed Augusta by 367 (London Museum). Research framework: late Roman London 'less well understood than the early town'.",
+          "form": "Within the walls: scattered high-status stone houses (especially near the river and Walbrook), large areas of open ground covered by thick dark humic soil ('dark earth' - interpreted variously as cultivation/garden soil, reworked building debris and refuse; described as 'incompletely understood'), derelict public buildings, defences still maintained.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Dark earth is commonly up to about a metre thick (general knowledge; no figure in fetched sources)."}
+        },
+        {
+          "label": "End of Roman administration",
+          "from": 407,
+          "to": 410,
+          "dateNote": "Conventional: troops withdrawn under Constantine III from 407; Honorius declines to defend Britain c. 410 (London Museum).",
+          "form": "No physical event; marks the end of imperial supply and administration.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Abandonment of the walled city",
+          "from": 410,
+          "to": 886,
+          "dateNote": "Research framework: 'no evidence to suggest that the Roman walled city continued to be occupied for long after AD 410', though whether the gap is 'apparent or real' is unresolved. London Museum: 'largely empty by 450 CE'. Regis House/Pudding Lane: bridgehead area unoccupied from the early 5th century until the late 9th/early 10th century, colonised by elder and nettles. Middle Saxon Lundenwic grew up outside the walls to the west (Strand/Covent Garden); formal reoccupation of the walled area is dated to 886 (possibly beginning mid 9th century). St Paul's (founded 604) is the documentary exception - outside this brief.",
+          "form": "Standing walls, gates and ruinous masonry buildings among scrub, wasteland and dark earth; no evidence of structures of the 5th-6th centuries inside the walls.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Scale and timing of 2nd-3rd-century contraction are actively debated; the origin of dark earth is unresolved; how long any population lingered after 410 is unknown (a late Roman burial at St Martin-in-the-Fields is radiocarbon dated AD 390-430, and a Saxon pot there c. 500, but that is outside the walls). lat/lon is a nominal centre of the walled city.",
+      "correctionsToDraft": "Draft sequence confirmed. Two cautions: (1) contraction of housing starts in the later 2nd century, well before the '3rd-4th century' in the draft, while monumental defences are still being built; (2) 'abandonment in the 5th century' should be rendered as an evidence gap c. 410/450 to the mid-late 9th century inside the walls, with the walls themselves still standing.",
+      "sources": [
+        {"title": "Saxon (AD 410 - 1066) - A Research Framework for London Archaeology", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/saxon-ad-410-1066/"},
+        {"title": "Roman (AD 43 - 410) - A Research Framework for London Archaeology", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/roman/"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "Marsden & West, Population Change in Roman London, Britannia 23 (1992) - extract", "publisher": "Britannia / Cambridge University Press", "url": "https://cambridge.org/core/journals/britannia/article/abs/population-change-in-roman-london/398604A4963E556AE24827C326276902"},
+        {"title": "Brigham & Watson, Regis House (part 2), London Archaeologist 8(3)", "publisher": "London Archaeologist / Archaeology Data Service", "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol08/vol08_03/08_03_063_069.pdf"},
+        {"title": "London's last Roman? (St Martin-in-the-Fields)", "publisher": "Current Archaeology", "url": "https://archaeology.co.uk/articles/features/londons-last-roman.htm"}
+      ]
+    },
+    {
+      "id": "population-and-extent-estimates",
+      "name": "Population and extent estimates for Londinium (for scaling building density)",
+      "lat": 51.514,
+      "lon": -0.088,
+      "phases": [
+        {
+          "label": "Pre-Boudican town",
+          "from": 47,
+          "to": 60,
+          "dateNote": "London Museum: about 10,000 people by AD 60. An estimate, basis not stated.",
+          "form": "Compact timber town around the bridgehead and along the main east-west road, plus the north Southwark island.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Population c. 10,000 (estimate). Area not verified."}
+        },
+        {
+          "label": "Growth to peak",
+          "from": 61,
+          "to": 150,
+          "dateNote": "City of London Corporation: 'by the middle of the second century the population had grown to an estimated 20,000-30,000... the highpoint in the city's fortunes'. London Museum: 'about 30,000 people by 150 CE'. Higher figures of 45,000-60,000 for c. AD 100-140 circulate (Wikipedia and popular sites) but I found no institutional or peer-reviewed source for them; a Taylor & Francis chapter abstract (snippet) says 'at most 50,000'.",
+          "form": "Densest occupation: closely packed timber-and-earth strip buildings across both hills, the Walbrook valley and north Southwark; major public buildings completed c. 100-130.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Recommended scaling: 20,000-30,000 at peak (c. 100-150), treat 45,000-60,000 as an unsupported upper bound. The area later walled was about 134 ha / 330 acres north of the river (English Heritage), but the 2nd-century built-up area was not coextensive with it; Wikipedia's '1.4 sq km' for the early town is a lead only."}
+        },
+        {
+          "label": "Later Roman decline",
+          "from": 150,
+          "to": 410,
+          "dateNote": "No institutional numeric estimate found for the 3rd or 4th century. Marsden & West 1992: substantial drop in urban population probable. Wikipedia's 'fallen by up to two-thirds after c. 150' is unsourced there. City of London: by the early 5th century 'large parts of the city had already been abandoned'.",
+          "form": "Lower-density town of scattered stone houses and open ground within the walls.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "If a number is needed for density scaling, something of the order of 10,000 or fewer in the 4th century is a modelling assumption, NOT a sourced estimate."}
+        },
+        {
+          "label": "Post-Roman",
+          "from": 410,
+          "to": null,
+          "dateNote": "London Museum: largely empty by 450 CE.",
+          "form": "Effectively no resident urban population inside the walls.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Population approximately nil inside the walls for the purposes of the model, until Lundenwic (outside the walls) and the late 9th-century reoccupation."}
+        }
+      ],
+      "evidence": "conjectural",
+      "confidence": "low",
+      "uncertainty": "All population figures are modern estimates with unstated methods; the research framework lists 'estimating population size' as an open research objective. Built-up area by period is not published as a simple series in any source I could fetch.",
+      "correctionsToDraft": "The draft's 'peak c. 100-140 CE' is consistent with the sources, but institutional figures put the peak at 20,000-30,000 (not 45,000-60,000), and place it 'by the middle of the second century'.",
+      "sources": [
+        {"title": "Roman London information sheet (Sept 2015)", "publisher": "City of London Corporation / Guildhall Galleries", "url": "https://www.cityoflondon.gov.uk/assets/Things-to-do/roman-amphitheatre-roman-london.pdf"},
+        {"title": "A timeline of Roman London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"},
+        {"title": "Marsden & West, Population Change in Roman London, Britannia 23 (1992) - extract", "publisher": "Britannia / Cambridge University Press", "url": "https://cambridge.org/core/journals/britannia/article/abs/population-change-in-roman-london/398604A4963E556AE24827C326276902"},
+        {"title": "Roman (AD 43 - 410) - A Research Framework for London Archaeology", "publisher": "Research Frameworks Network / Museum of London / Historic England", "url": "https://researchframeworks.org/rfla/roman/"},
+        {"title": "History of London Wall (enclosed area)", "publisher": "English Heritage", "url": "https://www.english-heritage.org.uk/visit/places/london-wall/history/"},
+        {"title": "Londinium (lead for higher estimates)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Londinium"}
+      ]
+    }
+  ],
+  "generalNotes": [
+    "Year convention: signed historical integers, negative = BCE, no year 0. Where a phase 'from'/'to' is my bracket for a period-level statement (e.g. 'mid 2nd millennium BC', 'late 4th century') the dateNote says so; do not present those as measured dates.",
+    "Verification status: every URL in 'sources' was fetched successfully during this research and supports the claim it is attached to. Entries marked 'lead' (Wikipedia) or 'secondary' are weaker and are flagged in the text. Anything described as 'my recollection', 'general knowledge' or 'not verified' is NOT backed by a fetched source and should be treated as conjecture until checked.",
+    "Sources I could not access: all Historic England list entries and research reports (HTTP 403), British History Online (401), the ADS library catalogue pages (403), londonmithraeum.com (403), and most long LAMAS Transactions PDFs (downloaded but not machine-readable in this environment). The key unread primary works are: Bateman, Cowan & Wroe-Brown 2008 (amphitheatre), Shepherd 2012 and Howe & Lakin 2004 (fort), Marsden 1987 and Milne 1992 (forum-basilica), Marsden 1975 and Milne 1996 (palace), Marsden 1976 and Rowsome 1999 (Huggin Hill), Shepherd 1998 (Mithraeum), Watson, Brigham & Dyson 2001 (bridge), Sidell et al. 2000 (Holocene Thames), Drummond-Murray & Thompson 2002 and Cowan et al. 2009 (Southwark).",
+    "Heights: no Roman building in this dataset has a documented original height except the city wall (c. 6.4 m to the wall-walk) and the Plantation Place fort bank (c. 3 m). The first basilica's 'up to 12 m' is an excavators' extrapolation. Every other height in a 3D model is reconstruction and should be flagged as such in the viewer.",
+    "Coordinates are WGS84 to about 4 decimal places and are approximate site centres placed from published locations and general knowledge of the modern street plan, not surveyed points; the Mithraeum, palace, Huggin Hill and amphitheatre coordinates derive from gazetteer/listing data, the rest are estimates. Linear features (wall, riverside wall, waterfront, roads, bridge) need their own geometry.",
+    "Building materials for the general fabric of the town: 1st-2nd century housing overwhelmingly timber-framed with wattle-and-daub or mudbrick walls (Regis House, London Museum); stone (Kentish ragstone with tile courses, flint in the first basilica) largely confined to public buildings, the fort, defences and later town-houses.",
+    "Shoreline: the 1st-century north bank lay about 100 m north of the modern quayside, just north of Thames Street; Roman reclamation moved it south by a few tens of metres by the mid 3rd century; the riverside wall of c. 255-275 then fixed the town's river edge on the Thames Street line. The south bank had no fixed edge - islands and tidal channels."
+  ]
+}

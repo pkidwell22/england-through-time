@@ -1,0 +1,18 @@
+[
+ {
+  "id": "before-the-battle",
+  "name": "The ridge before the battle",
+  "from": 1400,
+  "to": 1470,
+  "presetYear": 1450,
+  "blurb": "A small market town on its hilltop, the main road from London to St Albans and the north running across open greens and commons, a moated manor at Old Fold, a small church at Hadley on the edge of Enfield Chase. Barnet's chapel is rebuilt in these decades. How much of the land was hedged closes and how much was open heath is only partly known."
+ },
+ {
+  "id": "battle-and-after",
+  "name": "The battle and after",
+  "from": 1471,
+  "to": 1500,
+  "presetYear": 1471,
+  "blurb": "Easter Sunday, 14 April 1471: Edward IV and the Earl of Warwick fight at dawn in thick mist somewhere on this ridge. The two shaded zones and the blocks of figures appear for 1471 only and mark possibilities, not a located battlefield. A chapel for the dead follows, on a site still not proven, and Hadley church is rebuilt about 1494."
+ }
+]

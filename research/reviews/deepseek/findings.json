@@ -1,0 +1,518 @@
+[
+  {
+    "id": "DS-LON-001",
+    "severity": "S1",
+    "entity_type": "landmark",
+    "entity_id": "london/winchester-palace",
+    "location": "london",
+    "origin_file": "locations/london/landmarks.json",
+    "json_path": "$[33].phases",
+    "app_claim": "The lifecycle has a bishop's palace from 1144 to 1300, then begins 'Palace with great hall' at 1300 with a continuing model and the note 'The standing great hall is a 14th-century rebuild.'",
+    "problem": "The model omits the early 13th-century great hall. Archaeology records a hall connected to a chapel and the 'great gutter' of 1253-54; the hall's west gable was reconstructed with its rose window in the early 14th century, and the hall and adjoining parts were rebuilt around 1340. The app's 1300 boundary therefore both starts the great hall about 50-80 years too late and makes the later rebuild appear complete at the beginning of the 14th century. The standing fabric is mainly 14th-century work on earlier foundations, so both phases need to remain visible.",
+    "evidence": [
+      {
+        "title": "Winchester Palace 404707",
+        "publisher": "Historic England Heritage Gateway",
+        "url": "https://historicengland.org.uk/listing/heritage-gateway/results/record/0d636742-8028-4a8c-8b7c-e1f9aaf2d338/cf3371fb-96b4-4a04-a0a6-32afda0124eb",
+        "accessed": "2026-11-14",
+        "what_it_says": "Records an early 13th-century great-hall foundation, a hall connected to a chapel and the 1253-54 'great gutter', an early 14th-century reconstruction of the west gable with a rose window, and rebuilding of the hall and adjoining parts around 1340."
+      },
+      {
+        "title": "History of Winchester Palace",
+        "publisher": "English Heritage",
+        "url": "https://www.english-heritage.org.uk/visit/places/winchester-palace/history/",
+        "accessed": "2026-11-14",
+        "what_it_says": "Describes the palace as founded in the 12th century and the surviving great hall with its rose-window gable as part of the medieval palace; it does not place the first great hall at 1300."
+      }
+    ],
+    "proposed_correction": {
+      "$[33].phases[0].to": 1220,
+      "$[33].phases[1].from": 1220,
+      "$[33].phases[1].built": 1250,
+      "$[33].phases[1].continues": false,
+      "$[33].phases[1].to": 1340,
+      "$[33].phases[1].end": "handover",
+      "$[33].phases[1].label": "Palace with early 13th-century great hall",
+      "$[33].phases[1].dateNote": "Hall, chapel and drain documented by 1253-54; archaeological remains show the great hall was constructed in the early 13th century.",
+      "$[33].phases[2]": {
+        "label": "Palace with rebuilt great hall and west gable",
+        "from": 1340,
+        "continues": true,
+        "to": null,
+        "model": {
+          "kind": "courtyard",
+          "l": 70,
+          "w": 48,
+          "h": 10,
+          "range": 10,
+          "wall": "ragstone",
+          "roof": "tile",
+          "greatHall": true
+        },
+        "dateNote": "The west gable was reconstructed with its rose window in the early 14th century; the hall and adjoining parts were rebuilt around 1340. The standing fabric is mainly 14th-century work on earlier foundations."
+      }
+    },
+    "confidence": "high",
+    "status": "verified-wrong",
+    "already_in_astra_review": false
+  },
+  {
+    "id": "DS-LON-002",
+    "severity": "S1",
+    "entity_type": "landmark",
+    "entity_id": "london/custom-house",
+    "location": "london",
+    "origin_file": "locations/london/landmarks.json",
+    "json_path": "$[62]",
+    "app_claim": "One phase, 'Custom house at Wool Quay', from 1377, built 1382, with no end; uncertainty says 'An Elizabethan rebuilding in 1559 is often stated but could not be confirmed' and that the model shows one building throughout.",
+    "problem": "The surviving fabric history directly contradicts both the one-building lifecycle and the uncertainty text. Churchman's Custom House was superseded in 1559 by a new Custom House erected under William Paulet, Marquess of Winchester. The model leaves the 1382 building standing unchanged through the rest of the timeline.",
+    "evidence": [
+      {
+        "title": "Custom House Quay and the Old Custom House",
+        "publisher": "British History Online / Survey of London, vol. 15",
+        "url": "https://www.british-history.ac.uk/survey-london/vol15/pt2/pp31-43",
+        "accessed": "2026-11-14",
+        "what_it_says": "States that Churchman's Custom House lasted 180 years and in 1559 was superseded by a new Custom House erected under William Paulet, Marquess of Winchester; it then describes that Elizabethan building."
+      }
+    ],
+    "proposed_correction": {
+      "$[62].summary": "The quay where duties were collected. A custom house stood at Wool Quay by 1377, John Churchman built a new one in 1382, and it was replaced in 1559.",
+      "$[62].phases[0].to": 1559,
+      "$[62].phases[0].end": "replaced",
+      "$[62].phases[1]": {
+        "label": "Elizabethan Custom House",
+        "from": 1559,
+        "built": 1559,
+        "to": null,
+        "dateNote": "Superseded Churchman's Custom House in 1559. Later views show a three-storey brick building with octagonal stair towers; precise dimensions and appearance are not modelled.",
+        "model": {
+          "kind": "hall",
+          "l": 24,
+          "w": 10,
+          "h": 7,
+          "wall": "brick",
+          "roof": "tile",
+          "placeholder": true
+        }
+      },
+      "$[62].uncertainty": "The 1559 replacement is documented. Use the same generic scale for both buildings and do not claim their precise appearance."
+    },
+    "confidence": "high",
+    "status": "verified-wrong",
+    "already_in_astra_review": false
+  },
+  {
+    "id": "DS-LON-003",
+    "severity": "S1",
+    "entity_type": "landmark",
+    "entity_id": "london/charterhouse",
+    "location": "london",
+    "origin_file": "locations/london/landmarks.json",
+    "json_path": "$[50].phases",
+    "app_claim": "The 'Carthusian monastery' phase runs from 1371 to 1545, while its own note says 'Dissolved 1537-38'; the next phase begins in 1545 as 'Mansion, later Sutton's Hospital'.",
+    "problem": "The lifecycle keeps the monastery standing for seven years after the community was disbanded. The house was actually disbanded on 15 November 1538, then used by suppression commissioners and as a storehouse before Sir Edward North bought it. The app also leaves an unexplained 1538-45 gap while visually retaining the monastic phase.",
+    "evidence": [
+      {
+        "title": "House of Carthusian monks: The priory of Charterhouse",
+        "publisher": "British History Online / Victoria County History, Middlesex, vol. 1",
+        "url": "https://www.british-history.ac.uk/vch/middx/vol1/pp159-169",
+        "accessed": "2026-11-14",
+        "what_it_says": "States that the House of the Salutation was actually disbanded on 15 November 1538, that the buildings were divided and controlled by suppression commissioners, later used as a storehouse, and on 14 April 1546 were sold to Sir Edward North."
+      },
+      {
+        "title": "The Charterhouse: our history",
+        "publisher": "The Charterhouse",
+        "url": "https://thecharterhouse.org/explore-the-charterhouse/history/",
+        "accessed": "2026-11-14",
+        "what_it_says": "States that the monastery was confiscated and dissolved, its buildings repurposed as stores and tenanted, and that Sir Edward North purchased the site in 1545 and converted it into a mansion."
+      }
+    ],
+    "proposed_correction": {
+      "$[50].summary": "A Carthusian monastery founded in 1371; after its dissolution in 1538 the precinct was used as a royal store before Sir Edward North converted it into a mansion in the 1540s. Sutton's Hospital followed from 1611.",
+      "$[50].phases[0].to": 1538,
+      "$[50].phases[0].end": "handover",
+      "$[50].phases[1]": {
+        "label": "Dissolved Charterhouse precinct and royal store",
+        "from": 1538,
+        "continues": true,
+        "to": 1545,
+        "end": "handover",
+        "dateNote": "Community disbanded 15 November 1538; buildings were divided, controlled by suppression commissioners, and later used as a storehouse. North acquired the site in 1545 or on 14 April 1546, depending on the source.",
+        "model": {
+          "kind": "courtyard",
+          "l": 104,
+          "w": 91,
+          "h": 5,
+          "range": 7,
+          "wall": "ragstone",
+          "roof": "tile",
+          "placeholder": true
+        }
+      },
+      "$[50].phases[2]": {
+        "label": "North's mansion, later Sutton's Hospital",
+        "from": 1545,
+        "continues": true,
+        "to": null,
+        "dateNote": "Purchase date is given as 1545 by The Charterhouse and 14 April 1546 by the Victoria County History. The conversion was gradual; exact construction dates are not established.",
+        "model": {
+          "kind": "courtyard",
+          "l": 60,
+          "w": 50,
+          "h": 10,
+          "range": 9,
+          "wall": "ragstone",
+          "roof": "tile"
+        }
+      }
+    },
+    "confidence": "high",
+    "status": "verified-wrong",
+    "already_in_astra_review": false
+  },
+  {
+    "id": "DS-LON-004",
+    "severity": "S2",
+    "entity_type": "landmark",
+    "entity_id": "london/st-olave",
+    "location": "london",
+    "origin_file": "locations/london/landmarks.json",
+    "json_path": "$[31].phases[0]",
+    "app_claim": "A single 'Church' phase from 1070, built in 1096; summary and uncertainty only say it existed by the late 11th century.",
+    "problem": "The lifecycle turns a probable pre-Conquest foundation and later documentary references into a 26-year construction project beginning in 1070 and completed in 1096. The earliest likely origin is at least 1018, a church probably stood in 1086, and 1096 is a naming/attestation date, not a completion date.",
+    "evidence": [
+      {
+        "title": "St Olave, Southwark",
+        "publisher": "The Worshipful Company of Parish Clerks",
+        "url": "https://www.londonparishclerks.com/about-us/parish-clerks/st-olave-southwark/",
+        "accessed": "2026-11-14",
+        "what_it_says": "Records royal patronage before the Conquest, a probable origin as Earl Godwin's chapel from at least 1018, a church in Domesday (1086), and the first named reference to St Olave in 1096. It describes the Norman stone church as a replacement, not a 1070-96 construction campaign."
+      }
+    ],
+    "proposed_correction": {
+      "$[31].phases[0].label": "Church (pre-Conquest origin; form unknown)",
+      "$[31].phases[0].from": 1018,
+      "$[31].phases[0].built": null,
+      "$[31].phases[0].continues": true,
+      "$[31].phases[0].model.placeholder": true,
+      "$[31].phases[0].dateNote": "Probable origin as Earl Godwin's chapel, from at least 1018; a church probably stood here in Domesday (1086) and St Olave is first named in 1096. The earlier form is unknown, so 1018 is a display anchor rather than a firm construction date."
+    },
+    "confidence": "high",
+    "status": "verified-wrong",
+    "already_in_astra_review": false
+  },
+  {
+    "id": "DS-LON-005",
+    "severity": "S2",
+    "entity_type": "event",
+    "entity_id": "london/londinium-founded",
+    "location": "london",
+    "origin_file": "locations/london/events.json",
+    "json_path": "$[2]",
+    "app_claim": "The event is labelled \"Londinium founded\" at the precise year 48, although its note says the earliest dated feature is a roadside drain of 47 CE and that there is no documented foundation date.",
+    "problem": "A dated foundation event is not supported. The app has converted an archaeological terminus and a broad c. 47-50 origin into a single year, and the event label asserts a documented founding that the note denies.",
+    "evidence": [
+      {
+        "title": "A timeline of Roman London: Londinium from start to end",
+        "publisher": "London Museum",
+        "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/",
+        "accessed": "2026-11-14",
+        "what_it_says": "Dates the foundation broadly to 47-50 CE rather than to a single year."
+      }
+    ],
+    "proposed_correction": {
+      "$[2].year": 47,
+      "$[2].label": "Earliest dated feature at Londinium",
+      "$[2].note": "A tree-ring-dated roadside drain of 47 CE is the earliest dated feature. There is no documented foundation date; the settlement probably emerged c. 47-50 CE."
+    },
+    "confidence": "high",
+    "status": "verified-wrong",
+    "already_in_astra_review": false
+  },
+  {
+    "id": "DS-LON-006",
+    "severity": "S2",
+    "entity_type": "landmark",
+    "entity_id": "london/st-mary-overie",
+    "location": "london",
+    "origin_file": "locations/london/landmarks.json",
+    "json_path": "$[32].phases",
+    "app_claim": "The landmark summary starts with the Augustinian refoundation of 1106, and the first modelled phase is the 'Norman priory church' from 1106; no church is shown at the Southwark cathedral site before 1106.",
+    "problem": "This omits the minster that is the first documented predecessor of Southwark Cathedral. Southwark Cathedral says the first written reference is a 'minster' in Domesday Book (1086) and that the church was 're-founded' in 1106; the Victoria County History likewise describes the 1106 establishment of Augustinian canons as a refoundation. The app therefore makes an attested church disappear for twenty years after the timeline reaches 1086 and presents the Augustinian house as a new foundation.",
+    "evidence": [
+      {
+        "title": "Our history",
+        "publisher": "Southwark Cathedral",
+        "url": "https://cathedral.southwark.anglican.org/about-us/our-history/",
+        "accessed": "2026-11-14",
+        "what_it_says": "States that the first written reference is the mention of a 'minster' in Domesday Book in 1086, and that in 1106 the church was 're-founded' by two Norman knights as an Augustinian priory."
+      },
+      {
+        "title": "Austin canons: Priory of Southwark",
+        "publisher": "British History Online / Victoria County History, London, vol. 1",
+        "url": "https://www.british-history.ac.uk/vch/london/vol1/pp480-484",
+        "accessed": "2026-11-14",
+        "what_it_says": "States that whatever the nature of any earlier foundation on the site, the order of Austin Canons was established at St Mary's, Southwark, in 1106, and calls the founders re-founders."
+      }
+    ],
+    "proposed_correction": {
+      "$[32].summary": "St Mary Overie was recorded as a minster in Domesday Book (1086) and refounded as an Augustinian priory in 1106. The priory church was burned in 1212 and rebuilt in Gothic style; it became the parish church of St Saviour in 1540 and survives as Southwark Cathedral.",
+      "$[32].phases": [
+        {
+          "label": "Minster recorded in Domesday (form unknown)",
+          "from": 1086,
+          "continues": true,
+          "to": 1106,
+          "end": "handover",
+          "model": {
+            "kind": "church",
+            "l": 40,
+            "w": 16,
+            "h": 12,
+            "wall": "ragstone",
+            "roof": "shingle",
+            "placeholder": true
+          },
+          "dateNote": "Earliest written reference is a minster in Domesday Book (1086). A later tradition of a 7th-century nunnery is not firm fabric evidence; the pre-1106 form is unknown."
+        },
+        {
+          "label": "Norman priory church",
+          "from": 1106,
+          "built": 1140,
+          "to": 1212,
+          "end": "burned",
+          "model": {
+            "kind": "church",
+            "l": 55,
+            "w": 18,
+            "h": 13,
+            "wall": "ragstone",
+            "roof": "shingle",
+            "transept": {
+              "l": 34,
+              "w": 9
+            },
+            "tower": {
+              "w": 9,
+              "h": 22,
+              "at": "crossing"
+            }
+          },
+          "dateNote": "Refounded 1106; burned 11 July 1212 in the same fire as the bridge."
+        },
+        {
+          "label": "Gothic priory church",
+          "from": 1220,
+          "built": 1300,
+          "to": 1520,
+          "end": "handover",
+          "model": {
+            "kind": "church",
+            "l": 80,
+            "w": 21,
+            "h": 17,
+            "wall": "ragstone",
+            "roof": "lead",
+            "aisles": true,
+            "transept": {
+              "l": 36,
+              "w": 10
+            },
+            "tower": {
+              "w": 10.5,
+              "h": 30,
+              "at": "crossing"
+            }
+          }
+        },
+        {
+          "label": "Church with heightened tower",
+          "from": 1520,
+          "continues": true,
+          "to": null,
+          "model": {
+            "kind": "church",
+            "l": 80,
+            "w": 21,
+            "h": 17,
+            "wall": "ragstone",
+            "roof": "lead",
+            "aisles": true,
+            "transept": {
+              "l": 36,
+              "w": 10
+            },
+            "tower": {
+              "w": 10.5,
+              "h": 45,
+              "at": "crossing",
+              "pinnacles": true
+            }
+          },
+          "dateNote": "Priory surrendered 27 October 1539; parish church of St Saviour from 1540."
+        }
+      ]
+    },
+    "confidence": "high",
+    "status": "verified-wrong",
+    "already_in_astra_review": false
+  },
+  {
+    "id": "DS-LON-007",
+    "severity": "S4",
+    "entity_type": "landmark",
+    "entity_id": "london/st-mary-overie",
+    "location": "london",
+    "origin_file": "locations/london/landmarks.json",
+    "json_path": "$[32].phases[3] (after the DS-LON-006 insertion)",
+    "app_claim": "The 'Church with heightened tower' phase starts in 1520 with continues=true and no built year, so the heightened tower is complete immediately in 1520.",
+    "problem": "The heightening was a construction campaign. The Victoria County History says the two upper stages of the tower were built in 1520-28. Under the app's extension-phase semantics, continues=true with no built year completes the new work at once; a built year is needed to hold the predecessor while the tower rises.",
+    "evidence": [
+      {
+        "title": "Colleges: St Mary Overie, Southwark",
+        "publisher": "British History Online / Victoria County History, Surrey, vol. 4",
+        "url": "https://www.british-history.ac.uk/vch/surrey/vol4/pp151-161",
+        "accessed": "2026-11-14",
+        "what_it_says": "States that the two upper stages of the tower were added in 1520-28."
+      }
+    ],
+    "proposed_correction": {
+      "$[32].phases": [
+        {
+          "label": "Minster recorded in Domesday (form unknown)",
+          "from": 1086,
+          "continues": true,
+          "to": 1106,
+          "end": "handover",
+          "model": {
+            "kind": "church",
+            "l": 40,
+            "w": 16,
+            "h": 12,
+            "wall": "ragstone",
+            "roof": "shingle",
+            "placeholder": true
+          },
+          "dateNote": "Earliest written reference is a minster in Domesday Book (1086). A later tradition of a 7th-century nunnery is not firm fabric evidence; the pre-1106 form is unknown."
+        },
+        {
+          "label": "Norman priory church",
+          "from": 1106,
+          "built": 1140,
+          "to": 1212,
+          "end": "burned",
+          "model": {
+            "kind": "church",
+            "l": 55,
+            "w": 18,
+            "h": 13,
+            "wall": "ragstone",
+            "roof": "shingle",
+            "transept": {
+              "l": 34,
+              "w": 9
+            },
+            "tower": {
+              "w": 9,
+              "h": 22,
+              "at": "crossing"
+            }
+          },
+          "dateNote": "Refounded 1106; burned 11 July 1212 in the same fire as the bridge."
+        },
+        {
+          "label": "Gothic priory church",
+          "from": 1220,
+          "built": 1300,
+          "to": 1520,
+          "end": "handover",
+          "model": {
+            "kind": "church",
+            "l": 80,
+            "w": 21,
+            "h": 17,
+            "wall": "ragstone",
+            "roof": "lead",
+            "aisles": true,
+            "transept": {
+              "l": 36,
+              "w": 10
+            },
+            "tower": {
+              "w": 10.5,
+              "h": 30,
+              "at": "crossing"
+            }
+          }
+        },
+        {
+          "label": "Heightened tower campaign (1520-28)",
+          "from": 1520,
+          "continues": true,
+          "to": null,
+          "model": {
+            "kind": "church",
+            "l": 80,
+            "w": 21,
+            "h": 17,
+            "wall": "ragstone",
+            "roof": "lead",
+            "aisles": true,
+            "transept": {
+              "l": 36,
+              "w": 10
+            },
+            "tower": {
+              "w": 10.5,
+              "h": 45,
+              "at": "crossing",
+              "pinnacles": true
+            }
+          },
+          "dateNote": "Two upper stages added 1520-28. Priory surrendered 27 October 1539; parish church of St Saviour from 1540.",
+          "built": 1528
+        }
+      ]
+    },
+    "confidence": "high",
+    "status": "verified-wrong",
+    "already_in_astra_review": false
+  },
+  {
+    "id": "DS-NAT-001",
+    "severity": "S3",
+    "entity_type": "place",
+    "entity_id": "england-wales/battle-brentford-1016",
+    "location": "brentford",
+    "origin_file": "national/places.json",
+    "json_path": "$[155]",
+    "app_claim": "The national Battle of Brentford record is attested-documentary and its uncertainty says 'Dates are supported here only by Wikipedia', but its source list contains only nat-wp-brentford-1016.",
+    "problem": "The only listed authority is Wikipedia even though the battle narrative and year are directly supported by the Anglo-Saxon Chronicle and its location uncertainty is discussed by the Victoria County History. This is a sourcing defect, not evidence that the 1016 date is wrong. It also hides the distinction between the documented fight and the unlocated crossing/battlefield.",
+    "evidence": [
+      {
+        "title": "The Anglo-Saxon Chronicle, eleventh century (entries for 1013 and 1016; Ingram translation)",
+        "publisher": "Avalon Project, Yale Law School",
+        "url": "https://avalon.law.yale.edu/medieval/ang11.asp",
+        "accessed": "2026-11-14",
+        "what_it_says": "The 1016 entry says that within two nights after relieving London Edmund went over at Brentford, fought the enemy and put them to flight, with many English drowned through carelessness while seeking plunder."
+      },
+      {
+        "title": "Ealing and Brentford: Growth of Brentford",
+        "publisher": "British History Online / Victoria County History, Middlesex, vol. 7",
+        "url": "https://www.british-history.ac.uk/vch/middx/vol7/pp113-120",
+        "accessed": "2026-11-14",
+        "what_it_says": "Describes the 1016 battle as fought on the south bank between Edmund Ironside and Cnut, and treats the strategic ford as important while noting that no trace of late Saxon occupation has been found."
+      }
+    ],
+    "proposed_correction": {
+      "$[155].sources": [
+        "ev-the-anglo-saxon-chronicle-eleventh-century-entry",
+        "ev-ealing-and-brentford-growth-of-brentford-in-a-hi"
+      ],
+      "$[155].uncertainty": "The Anglo-Saxon Chronicle places Edmund's crossing at Brentford two nights after the relief of London. The month, exact crossing point and battlefield are not recorded; the VCH places the fighting on the south bank but no battle archaeology is known. The map point is a Brent-Thames confluence placeholder, not a located battlefield."
+    },
+    "confidence": "high",
+    "status": "verified-wrong",
+    "already_in_astra_review": false
+  }
+]

@@ -1,0 +1,1206 @@
+[
+ {
+  "id": "road-london-barnet-hadley",
+  "name": "Road from London through Barnet to the fork (Great North Road)",
+  "lat": 51.6562,
+  "lon": -0.2019,
+  "tier": "overview",
+  "path": [
+   [
+    51.6466,
+    -0.1872
+   ],
+   [
+    51.6477,
+    -0.1903
+   ],
+   [
+    51.6493,
+    -0.1932
+   ],
+   [
+    51.6509,
+    -0.1962
+   ],
+   [
+    51.6523,
+    -0.1984
+   ],
+   [
+    51.6531,
+    -0.2002
+   ],
+   [
+    51.6541,
+    -0.2015
+   ],
+   [
+    51.6562,
+    -0.2019
+   ],
+   [
+    51.6583,
+    -0.2009
+   ],
+   [
+    51.6591,
+    -0.2005
+   ],
+   [
+    51.6615,
+    -0.1994
+   ],
+   [
+    51.663,
+    -0.199
+   ],
+   [
+    51.6643,
+    -0.1993
+   ],
+   [
+    51.6653,
+    -0.1991
+   ],
+   [
+    51.6665,
+    -0.199
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The main road north from London climbed Barnet Hill, ran through the market town past its chapel, and crossed Hadley Green to a fork where the Hadley Highstone now stands. Both armies came this way.",
+  "uncertainty": "Drawn on the line of the modern A1000. The route is medieval, but its exact course and width in 1471 are not mapped by any source earlier than Ogilby (1675); Barnet Hill was cut down and embanked in 1823, and across the greens the road was a broad unfenced track, not a made carriageway. The obelisk at the fork dates from 1740 and is not shown.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 9
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-vch-herts-barnet",
+   "bar-osm-overpass"
+  ]
+ },
+ {
+  "id": "road-st-albans",
+  "name": "St Albans road (now Kitts End Road)",
+  "lat": 51.6728,
+  "lon": -0.2034,
+  "tier": "overview",
+  "path": [
+   [
+    51.6665,
+    -0.199
+   ],
+   [
+    51.6678,
+    -0.1987
+   ],
+   [
+    51.669,
+    -0.1992
+   ],
+   [
+    51.67,
+    -0.1996
+   ],
+   [
+    51.6713,
+    -0.2006
+   ],
+   [
+    51.672,
+    -0.2017
+   ],
+   [
+    51.6728,
+    -0.2034
+   ],
+   [
+    51.6736,
+    -0.2044
+   ],
+   [
+    51.675,
+    -0.2057
+   ],
+   [
+    51.6761,
+    -0.2066
+   ],
+   [
+    51.6775,
+    -0.2078
+   ],
+   [
+    51.6793,
+    -0.2093
+   ],
+   [
+    51.6806,
+    -0.211
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The road from London to St Albans, the Midlands and the north-west: the left-hand branch at the fork, running north-west past Kitts End to Dancers Hill. In 1471 this was the great road, and Warwick's army had marched down it from St Albans; today it is a country lane.",
+  "uncertainty": "A St Albans road through South Mimms is recorded about 1220 and a document of 1479 puts it on or near this line between Kitts End and Dancers Hill; Ogilby's survey of 1675 is the first to show the course exactly, and it then followed the modern lane almost exactly. Its line in 1471 is therefore very probably this one but is not directly attested. Where it crossed open common it may have been up to 100 m wide.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 9
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-vch-middx-south-mimms-intro",
+   "bar-watson-2022-looking-for-the-site",
+   "bar-osm-overpass"
+  ]
+ },
+ {
+  "id": "road-hatfield",
+  "name": "Hatfield road (later the Great North Road)",
+  "lat": 51.6722,
+  "lon": -0.1937,
+  "tier": "overview",
+  "path": [
+   [
+    51.6665,
+    -0.199
+   ],
+   [
+    51.6667,
+    -0.198
+   ],
+   [
+    51.669,
+    -0.1959
+   ],
+   [
+    51.6722,
+    -0.1937
+   ],
+   [
+    51.6755,
+    -0.1908
+   ],
+   [
+    51.6797,
+    -0.1871
+   ],
+   [
+    51.6822,
+    -0.185
+   ]
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The right-hand branch at the fork, heading north-east to Potters Bar, Hatfield and the north along the edge of Enfield Chase.",
+  "uncertainty": "Drawn on the modern A1000. The survey report argues that in the later Middle Ages this road ran just outside the Chase boundary bank and only shifted east into the Chase after the bank decayed, so the 1471 line was probably a little west of the one shown. It is first shown in detail in 1675; that it already existed as a major route in 1471 is an inference.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 8
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-vch-middx-south-mimms-intro",
+   "bar-osm-overpass"
+  ]
+ },
+ {
+  "id": "road-wood-street",
+  "name": "Wood Street (road west to Barnet Common)",
+  "lat": 51.6528,
+  "lon": -0.2123,
+  "tier": "overview",
+  "path": [
+   [
+    51.6531,
+    -0.2002
+   ],
+   [
+    51.653,
+    -0.2036
+   ],
+   [
+    51.653,
+    -0.2069
+   ],
+   [
+    51.6528,
+    -0.2123
+   ],
+   [
+    51.6527,
+    -0.2179
+   ],
+   [
+    51.6527,
+    -0.2205
+   ]
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The lane branching west at Barnet chapel, widening as a drove towards Barnet Common.",
+  "uncertainty": "Line taken from the modern street. Its medieval existence is inferred from the town plan and later maps, not from a 15th-century record.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 7
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-vch-herts-barnet",
+   "bar-osm-overpass"
+  ]
+ },
+ {
+  "id": "lane-hadley-church",
+  "name": "Lane from the green to Hadley church",
+  "lat": 51.6614,
+  "lon": -0.1955,
+  "tier": "overview",
+  "path": [
+   [
+    51.66,
+    -0.1987
+   ],
+   [
+    51.6612,
+    -0.1972
+   ],
+   [
+    51.6618,
+    -0.1961
+   ],
+   [
+    51.6614,
+    -0.1944
+   ],
+   [
+    51.661,
+    -0.1931
+   ]
+  ],
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "A lane from the main road across the east side of the green to the church at the edge of Enfield Chase.",
+  "uncertainty": "Some way to the church must have existed, but this line is simply the modern Hadley Green Road; nothing documents the 15th-century lane.",
+  "phases": [
+   {
+    "label": "Lane",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 4
+    }
+   }
+  ],
+  "sources": [
+   "bar-osm-overpass",
+   "bar-vch-middx-monken-hadley-intro"
+  ]
+ },
+ {
+  "id": "monken-mead-brook",
+  "name": "Monken Mead Brook",
+  "lat": 51.6676,
+  "lon": -0.1896,
+  "tier": "overview",
+  "path": [
+   [
+    51.6641,
+    -0.1946
+   ],
+   [
+    51.6655,
+    -0.1935
+   ],
+   [
+    51.6662,
+    -0.1926
+   ],
+   [
+    51.667,
+    -0.1905
+   ],
+   [
+    51.6676,
+    -0.1896
+   ],
+   [
+    51.6682,
+    -0.1869
+   ],
+   [
+    51.6686,
+    -0.1831
+   ],
+   [
+    51.6689,
+    -0.1778
+   ]
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "A small stream rising north of Hadley church and running east through a shallow valley inside Enfield Chase. One contemporary newsletter puts Edward's army in a hollow or marsh; this valley is the usual candidate.",
+  "uncertainty": "The modern stream line. The valley floor is narrow and the survey report doubts that it held much marsh; a pond at its east end is early modern. Whether any part of either army stood here is unknown.",
+  "phases": [
+   {
+    "label": "Stream",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "stream",
+     "width": 2
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-battlefields-trust-barnet",
+   "bar-osm-overpass"
+  ]
+ },
+ {
+  "id": "margery-mead-stream",
+  "name": "Stream at the head of Margery Mead",
+  "lat": 51.6732,
+  "lon": -0.2139,
+  "tier": "overview",
+  "path": [
+   [
+    51.6696,
+    -0.2076
+   ],
+   [
+    51.6709,
+    -0.2103
+   ],
+   [
+    51.6722,
+    -0.2125
+   ],
+   [
+    51.6732,
+    -0.2139
+   ],
+   [
+    51.6732,
+    -0.2173
+   ],
+   [
+    51.6734,
+    -0.22
+   ]
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "A stream falling north-west from the Kitts End side of the ridge into the broad, flat valley called Margery Mead, which may have been marshy before modern drainage.",
+  "uncertainty": "The modern watercourse. A document of 1479 mentions a brook on the heath in this area, which suggests heathland reached further this way than later maps show; the stream's medieval course is not recorded.",
+  "phases": [
+   {
+    "label": "Stream",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "stream",
+     "width": 2
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-osm-overpass"
+  ]
+ },
+ {
+  "id": "gannick-bank",
+  "name": "Gannick Bank (boundary of Enfield Chase)",
+  "lat": 51.669,
+  "lon": -0.1952,
+  "tier": "overview",
+  "path": [
+   [
+    51.664,
+    -0.1968
+   ],
+   [
+    51.666,
+    -0.1974
+   ],
+   [
+    51.6672,
+    -0.1968
+   ],
+   [
+    51.669,
+    -0.1952
+   ],
+   [
+    51.6722,
+    -0.193
+   ],
+   [
+    51.6755,
+    -0.1901
+   ],
+   [
+    51.6797,
+    -0.1864
+   ]
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The bank and hedge that divided Enfield Chase from the commons outside it, running north from Hadley towards Potters Bar beside the Hatfield road. If it was still a substantial hedged bank in 1471 it would have been a serious obstacle on the east side of the field.",
+  "uncertainty": "A perambulation of 1572 describes a hedge along this boundary and one of 1675 'a great bank'; part of the line was picked up by geophysics in Wrotham Park. Its state in 1471 is not recorded, and a claim of 1693 that the pale was pulled down at the battle is late and probably unreliable. The line shown is approximate: it is set just east of the modern road, not taken from the survey plans.",
+  "phases": [
+   {
+    "label": "Hedge",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "hedge",
+     "h": 2.5,
+     "bank": true
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018"
+  ]
+ },
+ {
+  "id": "hedge-side-hadley",
+  "name": "A possible 'hedge-side' on the Hadley Green interpretation",
+  "lat": 51.6631,
+  "lon": -0.201,
+  "tier": "overview",
+  "path": [
+   [
+    51.6631,
+    -0.207
+   ],
+   [
+    51.6632,
+    -0.204
+   ],
+   [
+    51.6631,
+    -0.201
+   ],
+   [
+    51.6631,
+    -0.1985
+   ],
+   [
+    51.6629,
+    -0.1968
+   ]
+  ],
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "The Arrivall says Warwick's men were drawn up 'under a hedge-side' rather more than half a mile from Barnet. On the Hadley Green interpretation that hedge ran east–west near the north edge of the green; A. H. Burne thought he could identify it beside Old Fold.",
+  "uncertainty": "The hedge of 1471 has never been identified and this line is a placeholder for one interpretation only. The survey report regards Burne's identification as unproven and notes that the same words fit the hedged closes north of Kicks End Common, or the hedge on the Chase boundary, at least as well.",
+  "phases": [
+   {
+    "label": "Hedge",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "hedge",
+     "h": 2.2
+    }
+   }
+  ],
+  "sources": [
+   "bar-arrivall-part-3",
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-wikipedia-battle-of-barnet"
+  ]
+ },
+ {
+  "id": "hedge-kicks-end-closes",
+  "name": "Edge of the closes north of Kicks End Common",
+  "lat": 51.6737,
+  "lon": -0.1968,
+  "tier": "overview",
+  "path": [
+   [
+    51.6728,
+    -0.203
+   ],
+   [
+    51.6734,
+    -0.2
+   ],
+   [
+    51.6737,
+    -0.1968
+   ],
+   [
+    51.6741,
+    -0.1924
+   ]
+  ],
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Hedged closes lay north of the common by 1479. The survey report's simplest reading of the sources puts Warwick's line behind this boundary, facing south across the common, with a frontage of about 650 m between the two roads.",
+  "uncertainty": "That enclosures existed here is documented (many are named in 1479, and roughly two thirds of the later Wrotham Park was already enclosed), but none is mapped before the 18th century, after the park was laid out. The line shown is a guess at the northern edge of the common.",
+  "phases": [
+   {
+    "label": "Hedge",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "hedge",
+     "h": 2.2
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018"
+  ]
+ },
+ {
+  "id": "hedge-old-fold-east",
+  "name": "Edge of the Old Fold estate beside the green",
+  "lat": 51.6631,
+  "lon": -0.2012,
+  "tier": "overview",
+  "path": [
+   [
+    51.6602,
+    -0.2018
+   ],
+   [
+    51.6617,
+    -0.2015
+   ],
+   [
+    51.6631,
+    -0.2012
+   ],
+   [
+    51.6648,
+    -0.2008
+   ]
+  ],
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Old Fold was a compact, fully hedged estate when first mapped in 1726, with its moated house at the eastern edge next to Hadley Green.",
+  "uncertainty": "Whether the land west of the green was already enclosed in 1471 is not known; the report says so explicitly. This single hedge stands for that possibility.",
+  "phases": [
+   {
+    "label": "Hedge",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "hedge",
+     "h": 2.0
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-vch-middx-south-mimms-manors"
+  ]
+ },
+ {
+  "id": "barnet-church",
+  "name": "Chapel of St John the Baptist, Chipping Barnet",
+  "lat": 51.65317,
+  "lon": -0.20092,
+  "bearing": 88,
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The town's church, standing at the angle where Wood Street leaves the High Street on the crest of the ridge, about 400 ft (122 m) above sea level. A chapel of St John is recorded here in 1361; it was largely rebuilt in the first half of the 15th century and was treated as a parish church by the time of the battle.",
+  "uncertainty": "The building was almost entirely remodelled by Butterfield in 1875: the medieval nave arcades survive as the present north aisle, with parts of the old tower. The recorded old plan had a nave about 60 ft long and 16–19 ft wide and a chancel about 16 by 19 ft; aisle widths, heights and the tower's size are estimates. The split into three phases at 1420 and 1453 is a simplification of 'tower early 15th century, chancel about 1450, nave arcades and clerestory by John Beauchamp, who died in 1453'. Nothing is known of the form of the 14th-century chapel.",
+  "phases": [
+   {
+    "label": "14th-century chapel (form unknown)",
+    "from": 1400,
+    "continues": true,
+    "to": 1420,
+    "end": "handover",
+    "dateNote": "A chapel of St John at 'le Barnet' received a bequest in 1361. The 1420 end date is a placeholder for 'early 15th century'.",
+    "model": {
+     "kind": "church",
+     "l": 24,
+     "w": 7,
+     "h": 6,
+     "wall": "ragstone",
+     "roof": "tile-old",
+     "placeholder": true
+    }
+   },
+   {
+    "label": "Chapel with new west tower",
+    "from": 1420,
+    "continues": true,
+    "to": 1453,
+    "end": "handover",
+    "dateNote": "Tower early 15th century; chancel rebuilt about 1450.",
+    "model": {
+     "kind": "church",
+     "l": 29,
+     "w": 7,
+     "h": 6.5,
+     "wall": "ragstone",
+     "roof": "tile-old",
+     "tower": {
+      "w": 5.5,
+      "h": 16,
+      "at": "west"
+     }
+    }
+   },
+   {
+    "label": "Rebuilt nave with arcades and clerestory",
+    "from": 1453,
+    "continues": true,
+    "to": null,
+    "dateNote": "Nave arcades and clerestory by John Beauchamp (died 1453); the completion year is not recorded.",
+    "model": {
+     "kind": "church",
+     "l": 29,
+     "w": 15,
+     "h": 9,
+     "wall": "ragstone",
+     "roof": "lead",
+     "tower": {
+      "w": 5.5,
+      "h": 16,
+      "at": "west"
+     },
+     "aisles": true
+    }
+   }
+  ],
+  "sources": [
+   "bar-vch-herts-barnet",
+   "bar-osm-overpass"
+  ]
+ },
+ {
+  "id": "hadley-church",
+  "name": "St Mary's church, Monken Hadley",
+  "lat": 51.6616,
+  "lon": -0.1939,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The parish church of Hadley, on the plateau at the edge of Enfield Chase east of the green. Hadley is listed as a parish church about 1175 and a hermitage 'in the park of Hadley' is recorded about 1136. The church that stood here on the day of the battle was replaced about 1494 by the present building, which carries that date on its west tower.",
+  "uncertainty": "Nothing is known of the form of the church that stood in 1471 except that the later nave may preserve its plan; the small building shown before 1494 is a placeholder. The suggestion that the rebuilding followed damage in the battle is a modern guess with no evidence. The 1494 church is shown without the aisles (probably 16th century) and without its 19th-century additions; the walls are brown flint with stone dressings, for which the nearest available material is used. No dimensions were found in the sources; all are estimates. The site of the 12th-century hermitage is unknown.",
+  "phases": [
+   {
+    "label": "Earlier church (form unknown)",
+    "from": 1400,
+    "continues": true,
+    "to": 1490,
+    "end": "replaced",
+    "dateNote": "A church existed by about 1175. When demolition for the rebuilding began is not recorded; 1490 is a placeholder.",
+    "model": {
+     "kind": "church",
+     "l": 20,
+     "w": 7,
+     "h": 6,
+     "wall": "ragstone",
+     "roof": "tile-old",
+     "placeholder": true
+    }
+   },
+   {
+    "label": "Rebuilt church with west tower",
+    "from": 1490,
+    "built": 1494,
+    "to": null,
+    "dateNote": "Rebuilt about 1494 (date on the tower). The start of work is not recorded.",
+    "model": {
+     "kind": "church",
+     "l": 27,
+     "w": 9,
+     "h": 8,
+     "wall": "ragstone",
+     "roof": "tile",
+     "tower": {
+      "w": 6,
+      "h": 17,
+      "at": "west"
+     }
+    }
+   }
+  ],
+  "sources": [
+   "bar-vch-middx-monken-hadley-church",
+   "bar-vch-middx-monken-hadley-intro",
+   "bar-listing-st-mary-monken-hadley",
+   "bar-wikipedia-st-mary-monken-hadley",
+   "bar-barnet-battlefield-project-2015-2018"
+  ]
+ },
+ {
+  "id": "old-fold-manor",
+  "name": "Old Fold manor house (moated)",
+  "lat": 51.6644,
+  "lon": -0.2017,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "A moated manor house at the north-west corner of Hadley Green, held by the Frowyk family of London merchants from soon after 1271 until 1527. A manor house is mentioned in 1310 and three sides of its moat survive beside the golf club house. It was certainly standing in 1471 and, on the Hadley Green interpretation, lay in or just behind Warwick's line.",
+  "uncertainty": "Only the moat survives; nothing is known of the medieval house, so the timber-framed hall shown is a generic placeholder and the moat itself is not modelled. The position is that of the modern club buildings and may be 50 m out.",
+  "phases": [
+   {
+    "label": "Manor house (form unknown)",
+    "from": 1400,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "hall",
+     "l": 18,
+     "w": 8,
+     "h": 6,
+     "wall": "frame",
+     "roof": "tile-old",
+     "placeholder": true
+    }
+   }
+  ],
+  "sources": [
+   "bar-vch-middx-south-mimms-manors",
+   "bar-vch-middx-south-mimms-intro",
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-osm-overpass"
+  ]
+ },
+ {
+  "id": "battle-chapel",
+  "name": "Chapel for the dead of the battle (site not proven)",
+  "lat": 51.6719,
+  "lon": -0.1961,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "The Great Chronicle of London (about 1512) says the common dead were buried on the plain and that a little chapel was afterwards built there to remember their souls. A will suggests it was still in use in 1519–20; by Stow's day it had become a house. Since 1970 it has been identified with 'the Hermitage', a moated site on the former Kicks End Common, one arm of whose moat survives as a pond.",
+  "uncertainty": "The chapel's existence is documented; its place is not. Geophysics and test pits at the moated site in 2017–19 confirmed the moat and a later house but found no chapel and no graves, and the report says the identification is 'still not beyond reasonable doubt'. The chronicle puts it half a mile from the town in one passage and a mile in another. The foundation date is unknown (shown here as built within a few years of 1471), and the building shown is a generic small chapel. It may have been a room in an existing hermitage, not a new building.",
+  "phases": [
+   {
+    "label": "Chapel (date, form and site uncertain)",
+    "from": 1472,
+    "built": 1476,
+    "to": null,
+    "dateNote": "Founded at some time after the battle and before about 1512. The years shown are placeholders.",
+    "model": {
+     "kind": "church",
+     "l": 11,
+     "w": 5.5,
+     "h": 4.5,
+     "wall": "ragstone",
+     "roof": "tile",
+     "placeholder": true
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-watson-2022-looking-for-the-site",
+   "bar-vch-middx-south-mimms-intro",
+   "bar-barnet-society-2021"
+  ]
+ },
+ {
+  "id": "zone-registered",
+  "name": "Registered battlefield area (Hadley Green)",
+  "lat": 51.663,
+  "lon": -0.199,
+  "tier": "overview",
+  "path": [
+   [
+    51.6588,
+    -0.2035
+   ],
+   [
+    51.6625,
+    -0.208
+   ],
+   [
+    51.6668,
+    -0.206
+   ],
+   [
+    51.6672,
+    -0.2
+   ],
+   [
+    51.6668,
+    -0.1935
+   ],
+   [
+    51.665,
+    -0.1895
+   ],
+   [
+    51.6608,
+    -0.1905
+   ],
+   [
+    51.6588,
+    -0.1975
+   ]
+  ],
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "The area registered as the battlefield by English Heritage in 1995, following a National Army Museum report: Hadley Green, Old Fold and the ground north of Monken Hadley. Its northern edge is a little over half a mile from Barnet, matching the Arrivall's distance.",
+  "uncertainty": "The outline is an approximation drawn for this model, not the official boundary (Historic England's entry could not be fetched). The 2015–18 survey called this location 'problematic': the green is only about 350 m wide, the road crosses it north–south so the armies could not have stood on opposite sides of it as one account says, there is no hollow for Edward's line, and the putative chapel lies well to the north. It has not been disproved; much of it is built over or golf course and has never been systematically searched.",
+  "phases": [
+   {
+    "label": "Area of possibility (1471 only)",
+    "from": 1471,
+    "to": 1472,
+    "end": "handover",
+    "model": {
+     "kind": "zone-marker",
+     "color": "#c9962a",
+     "opacity": 0.22,
+     "label": "Registered battlefield (Hadley Green)"
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-battlefields-trust-barnet",
+   "bar-wikipedia-battle-of-barnet"
+  ]
+ },
+ {
+  "id": "zone-kitts-end",
+  "name": "Kitts End: the 2015–18 survey's alternative site",
+  "lat": 51.6712,
+  "lon": -0.197,
+  "tier": "overview",
+  "path": [
+   [
+    51.6672,
+    -0.1996
+   ],
+   [
+    51.67,
+    -0.203
+   ],
+   [
+    51.674,
+    -0.2052
+   ],
+   [
+    51.6752,
+    -0.1975
+   ],
+   [
+    51.6738,
+    -0.1912
+   ],
+   [
+    51.67,
+    -0.1888
+   ],
+   [
+    51.6674,
+    -0.1925
+   ]
+  ],
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "The former Kicks End Common and its surroundings, between the St Albans and Hatfield roads north of the fork: a level hilltop of open common, about 1.9 km from the Barnet boundary, edged by hedged closes on the north and the bank of Enfield Chase on the east, with the Monken Mead valley falling away to the south-east. The survey report judged that this ground 'most closely' fits the written accounts, and the putative battle chapel lies on it.",
+  "uncertainty": "The outline is drawn for this model from the report's description. Metal-detecting here in 2015–18 recovered no clear battle scatter, so the suggestion rests on the documents and terrain alone; the report itself concludes 'we cannot accurately identify the battlefield' and considers six different deployments. Watson (2022) describes the best guess more loosely, as a circle of 1 km radius centred on Kitts End.",
+  "phases": [
+   {
+    "label": "Area of possibility (1471 only)",
+    "from": 1471,
+    "to": 1472,
+    "end": "handover",
+    "model": {
+     "kind": "zone-marker",
+     "color": "#3f78b5",
+     "opacity": 0.22,
+     "label": "Kitts End (survey's alternative)"
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-watson-2022-looking-for-the-site",
+   "bar-battlefields-trust-barnet",
+   "bar-barnet-society-2021"
+  ]
+ },
+ {
+  "id": "troops-lanc-right",
+  "name": "Lancastrian right (Oxford)",
+  "lat": 51.6636,
+  "lon": -0.20552,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Stand-in for the western wing of Warwick's army, which the sources agree overlapped and routed the king's left; its men chased the fugitives towards Barnet and, returning in the mist, were taken for enemies by their own side. That the Earl of Oxford led the attack is attested; that this was the 'right wing' is inference.",
+  "uncertainty": "A stand-in, not a record. Its name, wing and commander are given by modern reconstruction. The wing-by-wing order of battle is a modern reconstruction from military convention and a few phrases in the Arrivall; the only chronicler to give a Lancastrian order (Hall, decades later) arranges it differently. The real numbers are unknown: contemporary figures contradict each other and modern figures of roughly 10,000 Yorkists and 15,000 Lancastrians are estimates. On those estimates one figure here stands for about two men. The position follows the registered-battlefield (Hadley Green) interpretation, which the 2015–18 survey found hard to square with the sources; frontage, depth, spacing and exact place are invented for legibility. No guns, archers, horses or reserves are distinguished, and the two colours are arbitrary tints, not liveries.",
+  "phases": [
+   {
+    "label": "Abstract troop block (1471 only)",
+    "from": 1471,
+    "to": 1472,
+    "end": "handover",
+    "dateNote": "Shown for the year 1471 only; the battle lasted a few hours on the morning of 14 April.",
+    "model": {
+     "kind": "troops",
+     "count": 2400,
+     "cols": 160,
+     "spacing": 1.25,
+     "faction": "a",
+     "facing": 180,
+     "banner": true,
+     "mounted": false,
+     "rankSpacing": 1.8
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-arrivall-part-3",
+   "bar-wikipedia-battle-of-barnet",
+   "bar-battlefields-trust-barnet"
+  ]
+ },
+ {
+  "id": "troops-lanc-centre",
+  "name": "Lancastrian centre (Montagu)",
+  "lat": 51.6636,
+  "lon": -0.20219,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Stand-in for the middle of Warwick's line. Modern accounts put John Neville, Marquess Montagu, here and Warwick himself with a reserve behind; no contemporary source says where either stood. Both were killed.",
+  "uncertainty": "A stand-in, not a record. Its name, wing and commander are given by modern reconstruction. The wing-by-wing order of battle is a modern reconstruction from military convention and a few phrases in the Arrivall; the only chronicler to give a Lancastrian order (Hall, decades later) arranges it differently. The real numbers are unknown: contemporary figures contradict each other and modern figures of roughly 10,000 Yorkists and 15,000 Lancastrians are estimates. On those estimates one figure here stands for about two men. The position follows the registered-battlefield (Hadley Green) interpretation, which the 2015–18 survey found hard to square with the sources; frontage, depth, spacing and exact place are invented for legibility. No guns, archers, horses or reserves are distinguished, and the two colours are arbitrary tints, not liveries.",
+  "phases": [
+   {
+    "label": "Abstract troop block (1471 only)",
+    "from": 1471,
+    "to": 1472,
+    "end": "handover",
+    "dateNote": "Shown for the year 1471 only; the battle lasted a few hours on the morning of 14 April.",
+    "model": {
+     "kind": "troops",
+     "count": 2400,
+     "cols": 160,
+     "spacing": 1.25,
+     "faction": "a",
+     "facing": 180,
+     "banner": true,
+     "mounted": false,
+     "rankSpacing": 1.8
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-arrivall-part-3",
+   "bar-wikipedia-battle-of-barnet",
+   "bar-battlefields-trust-barnet"
+  ]
+ },
+ {
+  "id": "troops-lanc-left",
+  "name": "Lancastrian left (Exeter)",
+  "lat": 51.6636,
+  "lon": -0.19886,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Stand-in for the eastern wing of Warwick's army, which the king's line overlapped. The Duke of Exeter was badly wounded and left for dead; his place on the left is a modern inference.",
+  "uncertainty": "A stand-in, not a record. Its name, wing and commander are given by modern reconstruction. The wing-by-wing order of battle is a modern reconstruction from military convention and a few phrases in the Arrivall; the only chronicler to give a Lancastrian order (Hall, decades later) arranges it differently. The real numbers are unknown: contemporary figures contradict each other and modern figures of roughly 10,000 Yorkists and 15,000 Lancastrians are estimates. On those estimates one figure here stands for about two men. The position follows the registered-battlefield (Hadley Green) interpretation, which the 2015–18 survey found hard to square with the sources; frontage, depth, spacing and exact place are invented for legibility. No guns, archers, horses or reserves are distinguished, and the two colours are arbitrary tints, not liveries.",
+  "phases": [
+   {
+    "label": "Abstract troop block (1471 only)",
+    "from": 1471,
+    "to": 1472,
+    "end": "handover",
+    "dateNote": "Shown for the year 1471 only; the battle lasted a few hours on the morning of 14 April.",
+    "model": {
+     "kind": "troops",
+     "count": 2400,
+     "cols": 160,
+     "spacing": 1.25,
+     "faction": "a",
+     "facing": 180,
+     "banner": true,
+     "mounted": false,
+     "rankSpacing": 1.8
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-arrivall-part-3",
+   "bar-wikipedia-battle-of-barnet",
+   "bar-battlefields-trust-barnet"
+  ]
+ },
+ {
+  "id": "troops-york-left",
+  "name": "Yorkist left (Hastings)",
+  "lat": 51.6611,
+  "lon": -0.20233,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Stand-in for the western end of the king's line, which was overlapped, broken and driven back through Barnet towards London. Lord Hastings led the rearward, which later sources place here.",
+  "uncertainty": "A stand-in, not a record. Its name, wing and commander are given by modern reconstruction. The wing-by-wing order of battle is a modern reconstruction from military convention and a few phrases in the Arrivall; the only chronicler to give a Lancastrian order (Hall, decades later) arranges it differently. The real numbers are unknown: contemporary figures contradict each other and modern figures of roughly 10,000 Yorkists and 15,000 Lancastrians are estimates. On those estimates one figure here stands for about two men. The position follows the registered-battlefield (Hadley Green) interpretation, which the 2015–18 survey found hard to square with the sources; frontage, depth, spacing and exact place are invented for legibility. No guns, archers, horses or reserves are distinguished, and the two colours are arbitrary tints, not liveries.",
+  "phases": [
+   {
+    "label": "Abstract troop block (1471 only)",
+    "from": 1471,
+    "to": 1472,
+    "end": "handover",
+    "dateNote": "Shown for the year 1471 only; the battle lasted a few hours on the morning of 14 April.",
+    "model": {
+     "kind": "troops",
+     "count": 1600,
+     "cols": 160,
+     "spacing": 1.25,
+     "faction": "b",
+     "facing": 0,
+     "banner": true,
+     "mounted": false,
+     "rankSpacing": 1.8
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-arrivall-part-3",
+   "bar-wikipedia-battle-of-barnet",
+   "bar-battlefields-trust-barnet"
+  ]
+ },
+ {
+  "id": "troops-york-centre",
+  "name": "Yorkist centre (Edward IV)",
+  "lat": 51.6611,
+  "lon": -0.199,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Stand-in for the king's own division. The Arrivall, written by a servant of the king, describes Edward fighting in the midst of the press.",
+  "uncertainty": "A stand-in, not a record. Its name, wing and commander are given by modern reconstruction. The wing-by-wing order of battle is a modern reconstruction from military convention and a few phrases in the Arrivall; the only chronicler to give a Lancastrian order (Hall, decades later) arranges it differently. The real numbers are unknown: contemporary figures contradict each other and modern figures of roughly 10,000 Yorkists and 15,000 Lancastrians are estimates. On those estimates one figure here stands for about two men. The position follows the registered-battlefield (Hadley Green) interpretation, which the 2015–18 survey found hard to square with the sources; frontage, depth, spacing and exact place are invented for legibility. No guns, archers, horses or reserves are distinguished, and the two colours are arbitrary tints, not liveries.",
+  "phases": [
+   {
+    "label": "Abstract troop block (1471 only)",
+    "from": 1471,
+    "to": 1472,
+    "end": "handover",
+    "dateNote": "Shown for the year 1471 only; the battle lasted a few hours on the morning of 14 April.",
+    "model": {
+     "kind": "troops",
+     "count": 1600,
+     "cols": 160,
+     "spacing": 1.25,
+     "faction": "b",
+     "facing": 0,
+     "banner": true,
+     "mounted": false,
+     "rankSpacing": 1.8
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-arrivall-part-3",
+   "bar-wikipedia-battle-of-barnet",
+   "bar-battlefields-trust-barnet"
+  ]
+ },
+ {
+  "id": "troops-york-right",
+  "name": "Yorkist right (Gloucester)",
+  "lat": 51.66065,
+  "lon": -0.19567,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Stand-in for the eastern end of the king's line, which overlapped the enemy's. Richard, Duke of Gloucester, aged eighteen, led the vanguard, conventionally placed on the right.",
+  "uncertainty": "A stand-in, not a record. Its name, wing and commander are given by modern reconstruction. The wing-by-wing order of battle is a modern reconstruction from military convention and a few phrases in the Arrivall; the only chronicler to give a Lancastrian order (Hall, decades later) arranges it differently. The real numbers are unknown: contemporary figures contradict each other and modern figures of roughly 10,000 Yorkists and 15,000 Lancastrians are estimates. On those estimates one figure here stands for about two men. The position follows the registered-battlefield (Hadley Green) interpretation, which the 2015–18 survey found hard to square with the sources; frontage, depth, spacing and exact place are invented for legibility. No guns, archers, horses or reserves are distinguished, and the two colours are arbitrary tints, not liveries.",
+  "phases": [
+   {
+    "label": "Abstract troop block (1471 only)",
+    "from": 1471,
+    "to": 1472,
+    "end": "handover",
+    "dateNote": "Shown for the year 1471 only; the battle lasted a few hours on the morning of 14 April.",
+    "model": {
+     "kind": "troops",
+     "count": 1600,
+     "cols": 160,
+     "spacing": 1.25,
+     "faction": "b",
+     "facing": 0,
+     "banner": true,
+     "mounted": false,
+     "rankSpacing": 1.8
+    }
+   }
+  ],
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-arrivall-part-3",
+   "bar-wikipedia-battle-of-barnet",
+   "bar-battlefields-trust-barnet"
+  ]
+ }
+]

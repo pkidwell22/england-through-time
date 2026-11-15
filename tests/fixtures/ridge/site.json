@@ -1,0 +1,84 @@
+{
+ "id": "ridge",
+ "name": "Fixture Ridge",
+ "subtitle": "A test site with no river",
+ "scopeNote": "Invented fixture for unit tests. Not a real place.",
+ "origin": {
+  "lat": 51.66,
+  "lon": -0.2
+ },
+ "bounds": {
+  "xMin": -800,
+  "xMax": 800,
+  "zMin": -700,
+  "zMax": 700
+ },
+ "timeline": {
+  "start": 1400,
+  "end": 1500,
+  "initialYear": 1471
+ },
+ "terrain": {
+  "base": 30,
+  "slope": {
+   "bearing": 0,
+   "gradient": 0.01
+  },
+  "hills": [
+   {
+    "name": "Knoll",
+    "lat": 51.661,
+    "lon": -0.199,
+    "height": 8,
+    "sigma": 150
+   }
+  ],
+  "valleys": [
+   {
+    "name": "Dry valley",
+    "path": [
+     [
+      51.657,
+      -0.206
+     ],
+     [
+      51.657,
+      -0.194
+     ]
+    ],
+    "depth": 6,
+    "sigma": 60
+   }
+  ]
+ },
+ "polygons": {
+  "common": [
+   [
+    51.659,
+    -0.203
+   ],
+   [
+    51.662,
+    -0.203
+   ],
+   [
+    51.662,
+    -0.197
+   ],
+   [
+    51.659,
+    -0.197
+   ]
+  ]
+ },
+ "atmosphere": {
+  "fog": 0.0003,
+  "sunElevation": 12,
+  "sunAzimuth": 95,
+  "mist": {
+   "from": 1471,
+   "to": 1471,
+   "density": 0.004
+  }
+ }
+}

@@ -1,0 +1,1688 @@
+{
+ "licence": "CC0 1.0 — https://polyhaven.com/license",
+ "generated": "2026-11-14T05:45:56.610Z",
+ "assets": [
+  {
+   "id": "island_tree_01",
+   "name": "Gnarled broadleaf (coastal)",
+   "category": "tree",
+   "variants": 1,
+   "triangles": [
+    11999,
+    2499,
+    4
+   ],
+   "size": {
+    "height": 5.027,
+    "width": 4.755,
+    "depth": 4.818
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "island_tree_01_branches_c.webp",
+    "island_tree_01_branches_n.webp",
+    "island_tree_01_branches_r.webp",
+    "island_tree_01_c.webp",
+    "island_tree_01_n.webp",
+    "island_tree_01_r.webp",
+    "leaf0_c.webp",
+    "leaf1_c.webp",
+    "model.json"
+   ],
+   "bytes": 2309394
+  },
+  {
+   "id": "island_tree_02",
+   "name": "Small twisted broadleaf",
+   "category": "tree",
+   "variants": 1,
+   "triangles": [
+    12000,
+    2499,
+    4
+   ],
+   "size": {
+    "height": 3.407,
+    "width": 4.208,
+    "depth": 4.071
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "island_tree_02_branches_c.webp",
+    "island_tree_02_branches_n.webp",
+    "island_tree_02_branches_r.webp",
+    "island_tree_02_c.webp",
+    "island_tree_02_n.webp",
+    "island_tree_02_r.webp",
+    "leaf0_c.webp",
+    "leaf1_c.webp",
+    "model.json"
+   ],
+   "bytes": 2168250
+  },
+  {
+   "id": "island_tree_03",
+   "name": "Low windswept broadleaf",
+   "category": "tree",
+   "variants": 1,
+   "triangles": [
+    11997,
+    2500,
+    4
+   ],
+   "size": {
+    "height": 2.615,
+    "width": 2.972,
+    "depth": 2.913
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "island_tree_03_branches_c.webp",
+    "island_tree_03_branches_n.webp",
+    "island_tree_03_branches_r.webp",
+    "island_tree_03_c.webp",
+    "island_tree_03_n.webp",
+    "island_tree_03_r.webp",
+    "leaf0_c.webp",
+    "leaf1_c.webp",
+    "model.json"
+   ],
+   "bytes": 2111327
+  },
+  {
+   "id": "tree_small_02",
+   "name": "Slender young broadleaf",
+   "category": "tree",
+   "variants": 1,
+   "triangles": [
+    11999,
+    2500,
+    4
+   ],
+   "size": {
+    "height": 4.557,
+    "width": 2.917,
+    "depth": 4.292
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "leaf0_c.webp",
+    "leaf1_c.webp",
+    "model.json",
+    "tree_small_02_branches_c.webp",
+    "tree_small_02_branches_n.webp",
+    "tree_small_02_branches_r.webp",
+    "tree_small_02_trunk_c.webp",
+    "tree_small_02_trunk_n.webp",
+    "tree_small_02_trunk_r.webp"
+   ],
+   "bytes": 2154877
+  },
+  {
+   "id": "pine_sapling_small",
+   "name": "Pine sapling",
+   "category": "tree",
+   "variants": 3,
+   "triangles": [
+    6000,
+    1500,
+    4
+   ],
+   "size": {
+    "height": 1.299,
+    "width": 0.788,
+    "depth": 0.727
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "leaf0_c.webp",
+    "leaf1_c.webp",
+    "model.json",
+    "pine_sapling_small_bark_c.webp",
+    "pine_sapling_small_bark_n.webp",
+    "pine_sapling_small_bark_r.webp"
+   ],
+   "bytes": 2283896
+  },
+  {
+   "id": "pine_sapling_medium",
+   "name": "Young pine",
+   "category": "tree",
+   "variants": 3,
+   "triangles": [
+    12000,
+    2500,
+    4
+   ],
+   "size": {
+    "height": 11.493,
+    "width": 5.18,
+    "depth": 4.742
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "leaf0_c.webp",
+    "leaf1_c.webp",
+    "model.json",
+    "pine_sapling_medium_bark_c.webp",
+    "pine_sapling_medium_bark_n.webp",
+    "pine_sapling_medium_bark_r.webp",
+    "pine_sapling_medium_dead_branches_c.webp",
+    "pine_sapling_medium_dead_branches_n.webp",
+    "pine_sapling_medium_dead_branches_r.webp"
+   ],
+   "bytes": 3733528
+  },
+  {
+   "id": "shrub_02",
+   "name": "Leafy sapling shrub",
+   "category": "shrub",
+   "variants": 4,
+   "triangles": [
+    800,
+    4
+   ],
+   "size": {
+    "height": 1.689,
+    "width": 1.312,
+    "depth": 1.641
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "model.json",
+    "shrub_02_c.webp",
+    "shrub_02_n.webp",
+    "shrub_02_r.webp"
+   ],
+   "bytes": 431006
+  },
+  {
+   "id": "shrub_03",
+   "name": "Meadow herb with seed spikes",
+   "category": "shrub",
+   "variants": 4,
+   "triangles": [
+    800,
+    4
+   ],
+   "size": {
+    "height": 0.403,
+    "width": 0.201,
+    "depth": 0.151
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "model.json",
+    "shrub_03_c.webp",
+    "shrub_03_n.webp",
+    "shrub_03_r.webp"
+   ],
+   "bytes": 402752
+  },
+  {
+   "id": "shrub_04",
+   "name": "Glossy-leaved shrub sprigs",
+   "category": "shrub",
+   "variants": 1,
+   "triangles": [
+    701,
+    4
+   ],
+   "size": {
+    "height": 0.219,
+    "width": 0.584,
+    "depth": 0.146
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "model.json",
+    "shrub_04_c.webp",
+    "shrub_04_n.webp",
+    "shrub_04_r.webp"
+   ],
+   "bytes": 228617
+  },
+  {
+   "id": "fern_02",
+   "name": "Fern clumps",
+   "category": "shrub",
+   "variants": 4,
+   "triangles": [
+    800,
+    4
+   ],
+   "size": {
+    "height": 0.287,
+    "width": 0.552,
+    "depth": 0.613
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "fern_02_c.webp",
+    "fern_02_n.webp",
+    "fern_02_r.webp",
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "model.json"
+   ],
+   "bytes": 370667
+  },
+  {
+   "id": "nettle_plant",
+   "name": "Stinging nettle",
+   "category": "shrub",
+   "variants": 6,
+   "triangles": [
+    800,
+    4
+   ],
+   "size": {
+    "height": 0.131,
+    "width": 0.077,
+    "depth": 0.089
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "imp4_c.webp",
+    "imp4_n.webp",
+    "imp5_c.webp",
+    "imp5_n.webp",
+    "model.json",
+    "nettle_plant_c.webp",
+    "nettle_plant_n.webp",
+    "nettle_plant_r.webp"
+   ],
+   "bytes": 659687
+  },
+  {
+   "id": "weed_plant_02",
+   "name": "Low weed clusters",
+   "category": "groundcover",
+   "variants": 5,
+   "triangles": [
+    800,
+    4
+   ],
+   "size": {
+    "height": 0.072,
+    "width": 0.219,
+    "depth": 0.291
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "imp4_c.webp",
+    "imp4_n.webp",
+    "model.json",
+    "weed_plant_02_c.webp",
+    "weed_plant_02_n.webp",
+    "weed_plant_02_r.webp"
+   ],
+   "bytes": 301178
+  },
+  {
+   "id": "shrub_sorrel_01",
+   "name": "Sorrel clumps",
+   "category": "groundcover",
+   "variants": 6,
+   "triangles": [
+    799,
+    4
+   ],
+   "size": {
+    "height": 0.056,
+    "width": 0.038,
+    "depth": 0.055
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "imp4_c.webp",
+    "imp4_n.webp",
+    "imp5_c.webp",
+    "imp5_n.webp",
+    "model.json",
+    "shrub_sorrel_01_c.webp",
+    "shrub_sorrel_01_n.webp",
+    "shrub_sorrel_01_r.webp"
+   ],
+   "bytes": 255840
+  },
+  {
+   "id": "dandelion_01",
+   "name": "Dandelion rosettes",
+   "category": "groundcover",
+   "variants": 5,
+   "triangles": [
+    800,
+    4
+   ],
+   "size": {
+    "height": 0.164,
+    "width": 0.22,
+    "depth": 0.258
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "dandelion_01_c.webp",
+    "dandelion_01_n.webp",
+    "dandelion_01_r.webp",
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "imp4_c.webp",
+    "imp4_n.webp",
+    "model.json"
+   ],
+   "bytes": 331271
+  },
+  {
+   "id": "celandine_01",
+   "name": "Lesser celandine",
+   "category": "groundcover",
+   "variants": 5,
+   "triangles": [
+    800,
+    4
+   ],
+   "size": {
+    "height": 0.186,
+    "width": 0.276,
+    "depth": 0.228
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "celandine_01_c.webp",
+    "celandine_01_n.webp",
+    "celandine_01_r.webp",
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "imp4_c.webp",
+    "imp4_n.webp",
+    "model.json"
+   ],
+   "bytes": 342736
+  },
+  {
+   "id": "moss_01",
+   "name": "Moss clump",
+   "category": "groundcover",
+   "variants": 6,
+   "triangles": [
+    24,
+    4
+   ],
+   "size": {
+    "height": 0.026,
+    "width": 0.014,
+    "depth": 0.016
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "imp4_c.webp",
+    "imp4_n.webp",
+    "imp5_c.webp",
+    "imp5_n.webp",
+    "model.json",
+    "moss_01_c.webp",
+    "moss_01_n.webp",
+    "moss_01_r.webp"
+   ],
+   "bytes": 197478
+  },
+  {
+   "id": "grass_medium_01",
+   "name": "Grass tuft (green)",
+   "category": "grass",
+   "variants": 6,
+   "triangles": [
+    800,
+    4
+   ],
+   "size": {
+    "height": 0.147,
+    "width": 0.317,
+    "depth": 0.327
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "grass_medium_01_c.webp",
+    "grass_medium_01_n.webp",
+    "grass_medium_01_r.webp",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "imp4_c.webp",
+    "imp4_n.webp",
+    "imp5_c.webp",
+    "imp5_n.webp",
+    "model.json"
+   ],
+   "bytes": 537577
+  },
+  {
+   "id": "grass_medium_02",
+   "name": "Grass tuft (green-brown)",
+   "category": "grass",
+   "variants": 5,
+   "triangles": [
+    800,
+    4
+   ],
+   "size": {
+    "height": 0.157,
+    "width": 0.119,
+    "depth": 0.12
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "grass_medium_02_c.webp",
+    "grass_medium_02_n.webp",
+    "grass_medium_02_r.webp",
+    "imp0_c.webp",
+    "imp0_n.webp",
+    "imp1_c.webp",
+    "imp1_n.webp",
+    "imp2_c.webp",
+    "imp2_n.webp",
+    "imp3_c.webp",
+    "imp3_n.webp",
+    "imp4_c.webp",
+    "imp4_n.webp",
+    "model.json"
+   ],
+   "bytes": 322316
+  },
+  {
+   "id": "dead_tree_trunk",
+   "name": "Fallen log",
+   "category": "deadwood",
+   "variants": 1,
+   "triangles": [
+    1499,
+    397,
+    40
+   ],
+   "size": {
+    "height": 0.29,
+    "width": 3.051,
+    "depth": 0.278
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "dead_tree_trunk_c.webp",
+    "dead_tree_trunk_n.webp",
+    "dead_tree_trunk_r.webp",
+    "geo.bin",
+    "model.json"
+   ],
+   "bytes": 608598
+  },
+  {
+   "id": "dead_tree_trunk_02",
+   "name": "Dead trunk with stub",
+   "category": "deadwood",
+   "variants": 1,
+   "triangles": [
+    1498,
+    398,
+    40
+   ],
+   "size": {
+    "height": 1.055,
+    "width": 4.051,
+    "depth": 1.056
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "dead_tree_trunk_02_c.webp",
+    "dead_tree_trunk_02_n.webp",
+    "dead_tree_trunk_02_r.webp",
+    "geo.bin",
+    "model.json"
+   ],
+   "bytes": 820671
+  },
+  {
+   "id": "tree_stump_01",
+   "name": "Tree stump with roots",
+   "category": "deadwood",
+   "variants": 1,
+   "triangles": [
+    1495,
+    399,
+    39
+   ],
+   "size": {
+    "height": 0.573,
+    "width": 1.426,
+    "depth": 1.59
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "tree_stump_01_c.webp",
+    "tree_stump_01_n.webp",
+    "tree_stump_01_r.webp"
+   ],
+   "bytes": 846341
+  },
+  {
+   "id": "tree_stump_02",
+   "name": "Mossy tree stump",
+   "category": "deadwood",
+   "variants": 1,
+   "triangles": [
+    1495,
+    400,
+    39
+   ],
+   "size": {
+    "height": 0.522,
+    "width": 1.522,
+    "depth": 1.393
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "tree_stump_02_c.webp",
+    "tree_stump_02_n.webp",
+    "tree_stump_02_r.webp"
+   ],
+   "bytes": 870973
+  },
+  {
+   "id": "dry_branches_medium_01",
+   "name": "Dry branches",
+   "category": "deadwood",
+   "variants": 3,
+   "triangles": [
+    1500,
+    400,
+    40
+   ],
+   "size": {
+    "height": 0.341,
+    "width": 0.323,
+    "depth": 1.299
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "dry_branches_medium_01_c.webp",
+    "dry_branches_medium_01_n.webp",
+    "dry_branches_medium_01_r.webp",
+    "geo.bin",
+    "model.json"
+   ],
+   "bytes": 860929
+  },
+  {
+   "id": "root_cluster_01",
+   "name": "Root cluster",
+   "category": "deadwood",
+   "variants": 1,
+   "triangles": [
+    1498,
+    397,
+    40
+   ],
+   "size": {
+    "height": 1.509,
+    "width": 4.123,
+    "depth": 2.683
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "root_cluster_01_c.webp",
+    "root_cluster_01_n.webp",
+    "root_cluster_01_r.webp"
+   ],
+   "bytes": 836626
+  },
+  {
+   "id": "boulder_01",
+   "name": "Weathered boulder",
+   "category": "rock",
+   "variants": 1,
+   "triangles": [
+    1451,
+    395,
+    37
+   ],
+   "size": {
+    "height": 1.004,
+    "width": 1.272,
+    "depth": 1.83
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "boulder_01_c.webp",
+    "boulder_01_n.webp",
+    "boulder_01_r.webp",
+    "geo.bin",
+    "model.json"
+   ],
+   "bytes": 767463
+  },
+  {
+   "id": "rock_07",
+   "name": "Rock (earth tones)",
+   "category": "rock",
+   "variants": 1,
+   "triangles": [
+    1500,
+    399,
+    39
+   ],
+   "size": {
+    "height": 0.144,
+    "width": 0.169,
+    "depth": 0.32
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "rock_07_c.webp",
+    "rock_07_n.webp",
+    "rock_07_r.webp"
+   ],
+   "bytes": 396879
+  },
+  {
+   "id": "rock_09",
+   "name": "Small rock (rust-brown)",
+   "category": "rock",
+   "variants": 1,
+   "triangles": [
+    1500,
+    400,
+    40
+   ],
+   "size": {
+    "height": 0.033,
+    "width": 0.074,
+    "depth": 0.145
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "rock_09_c.webp",
+    "rock_09_n.webp",
+    "rock_09_r.webp"
+   ],
+   "bytes": 370133
+  },
+  {
+   "id": "stone_01",
+   "name": "Quartz pebble stone",
+   "category": "rock",
+   "variants": 1,
+   "triangles": [
+    1500,
+    400,
+    40
+   ],
+   "size": {
+    "height": 0.072,
+    "width": 0.147,
+    "depth": 0.089
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "stone_01_c.webp",
+    "stone_01_n.webp",
+    "stone_01_r.webp"
+   ],
+   "bytes": 607165
+  },
+  {
+   "id": "rock_moss_set_01",
+   "name": "Mossy rocks set A",
+   "category": "rock",
+   "variants": 6,
+   "triangles": [
+    1500,
+    400,
+    40
+   ],
+   "size": {
+    "height": 1.473,
+    "width": 2.238,
+    "depth": 3.369
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "rock_moss_set_01_c.webp",
+    "rock_moss_set_01_n.webp",
+    "rock_moss_set_01_r.webp"
+   ],
+   "bytes": 581529
+  },
+  {
+   "id": "rock_moss_set_02",
+   "name": "Mossy rocks set B",
+   "category": "rock",
+   "variants": 7,
+   "triangles": [
+    1500,
+    400,
+    40
+   ],
+   "size": {
+    "height": 0.745,
+    "width": 1.693,
+    "depth": 1.215
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "rock_moss_set_02_c.webp",
+    "rock_moss_set_02_n.webp",
+    "rock_moss_set_02_r.webp"
+   ],
+   "bytes": 741328
+  },
+  {
+   "id": "namaqualand_boulder_02",
+   "name": "Sandstone boulders",
+   "category": "rock",
+   "variants": 1,
+   "triangles": [
+    1500,
+    396,
+    39
+   ],
+   "size": {
+    "height": 0.883,
+    "width": 2.532,
+    "depth": 1.234
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "boulder_02_c.webp",
+    "boulder_02_n.webp",
+    "boulder_02_r.webp",
+    "geo.bin",
+    "model.json"
+   ],
+   "bytes": 764916
+  },
+  {
+   "id": "namaqualand_boulder_05",
+   "name": "Sandstone boulder (rounded)",
+   "category": "rock",
+   "variants": 1,
+   "triangles": [
+    1500,
+    400,
+    40
+   ],
+   "size": {
+    "height": 0.538,
+    "width": 1.364,
+    "depth": 0.748
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "namaqualand_boulder_05_c.webp",
+    "namaqualand_boulder_05_n.webp",
+    "namaqualand_boulder_05_r.webp"
+   ],
+   "bytes": 723702
+  },
+  {
+   "id": "wine_barrel_01",
+   "name": "Oak cask (iron hoops)",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1499,
+    400,
+    39
+   ],
+   "size": {
+    "height": 0.871,
+    "width": 0.742,
+    "depth": 0.756
+   },
+   "baked": true,
+   "period": {
+    "from": 1,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wine_barrel_01_c.webp",
+    "wine_barrel_01_n.webp",
+    "wine_barrel_01_r.webp"
+   ],
+   "bytes": 138203
+  },
+  {
+   "id": "wooden_barrels_01",
+   "name": "Barrels and loose staves",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1494,
+    389,
+    38
+   ],
+   "size": {
+    "height": 0.957,
+    "width": 4.44,
+    "depth": 3.345
+   },
+   "baked": true,
+   "period": {
+    "from": 1,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_barrels_01_barrel01_c.webp",
+    "wooden_barrels_01_barrel01_n.webp",
+    "wooden_barrels_01_barrel01_r.webp",
+    "wooden_barrels_01_barrel02_c.webp",
+    "wooden_barrels_01_barrel02_n.webp",
+    "wooden_barrels_01_barrel02_r.webp",
+    "wooden_barrels_01_pieces_c.webp",
+    "wooden_barrels_01_pieces_n.webp",
+    "wooden_barrels_01_pieces_r.webp"
+   ],
+   "bytes": 369782
+  },
+  {
+   "id": "wooden_bucket_01",
+   "name": "Wooden bucket with bail",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1499,
+    400,
+    38
+   ],
+   "size": {
+    "height": 0.55,
+    "width": 0.367,
+    "depth": 0.342
+   },
+   "baked": true,
+   "period": {
+    "from": 1,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_bucket_01_c.webp",
+    "wooden_bucket_01_n.webp",
+    "wooden_bucket_01_r.webp"
+   ],
+   "bytes": 164775
+  },
+  {
+   "id": "wooden_bucket_02",
+   "name": "Wide wooden tub",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1500,
+    398,
+    39
+   ],
+   "size": {
+    "height": 0.35,
+    "width": 0.615,
+    "depth": 0.616
+   },
+   "baked": true,
+   "period": {
+    "from": 1,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_bucket_02_c.webp",
+    "wooden_bucket_02_n.webp",
+    "wooden_bucket_02_r.webp"
+   ],
+   "bytes": 183122
+  },
+  {
+   "id": "wooden_crate_01",
+   "name": "Sea chest with rope handles",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1500,
+    400,
+    39
+   ],
+   "size": {
+    "height": 0.35,
+    "width": 0.825,
+    "depth": 0.409
+   },
+   "baked": true,
+   "period": {
+    "from": 1500,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_crate_01_c.webp",
+    "wooden_crate_01_n.webp",
+    "wooden_crate_01_r.webp"
+   ],
+   "bytes": 157603
+  },
+  {
+   "id": "treasure_chest",
+   "name": "Iron-bound chest",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1498,
+    395,
+    37
+   ],
+   "size": {
+    "height": 0.619,
+    "width": 0.959,
+    "depth": 0.523
+   },
+   "baked": true,
+   "period": {
+    "from": 1100,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "treasure_chest_c.webp",
+    "treasure_chest_n.webp",
+    "treasure_chest_r.webp"
+   ],
+   "bytes": 214395
+  },
+  {
+   "id": "wooden_bowl_01",
+   "name": "Carved wooden bowl",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1500,
+    400,
+    40
+   ],
+   "size": {
+    "height": 0.094,
+    "width": 0.313,
+    "depth": 0.309
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_bowl_01_c.webp",
+    "wooden_bowl_01_n.webp",
+    "wooden_bowl_01_r.webp"
+   ],
+   "bytes": 116635
+  },
+  {
+   "id": "wooden_bowl_02",
+   "name": "Turned wooden bowl (burr)",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1500,
+    400,
+    38
+   ],
+   "size": {
+    "height": 0.073,
+    "width": 0.131,
+    "depth": 0.125
+   },
+   "baked": true,
+   "period": {
+    "from": -500,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_bowl_02_c.webp",
+    "wooden_bowl_02_n.webp",
+    "wooden_bowl_02_r.webp"
+   ],
+   "bytes": 213231
+  },
+  {
+   "id": "ceramic_pot",
+   "name": "Lidded glazed jar",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1500,
+    400,
+    39
+   ],
+   "size": {
+    "height": 0.372,
+    "width": 0.656,
+    "depth": 0.502
+   },
+   "baked": true,
+   "period": {
+    "from": 1100,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "ceramic_pot_c.webp",
+    "ceramic_pot_n.webp",
+    "ceramic_pot_r.webp",
+    "geo.bin",
+    "model.json"
+   ],
+   "bytes": 118033
+  },
+  {
+   "id": "wooden_stool_01",
+   "name": "Turned-leg stool",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1499,
+    399,
+    40
+   ],
+   "size": {
+    "height": 0.437,
+    "width": 0.425,
+    "depth": 0.442
+   },
+   "baked": true,
+   "period": {
+    "from": 1100,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_stool_01_c.webp",
+    "wooden_stool_01_n.webp",
+    "wooden_stool_01_r.webp"
+   ],
+   "bytes": 182380
+  },
+  {
+   "id": "wooden_stool_02",
+   "name": "Rustic footstool",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1499,
+    400,
+    40
+   ],
+   "size": {
+    "height": 0.182,
+    "width": 0.265,
+    "depth": 0.183
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_stool_02_c.webp",
+    "wooden_stool_02_n.webp",
+    "wooden_stool_02_r.webp"
+   ],
+   "bytes": 183192
+  },
+  {
+   "id": "wooden_table_02",
+   "name": "Plain plank table",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    196,
+    196,
+    40
+   ],
+   "size": {
+    "height": 0.8,
+    "width": 1.134,
+    "depth": 0.706
+   },
+   "baked": true,
+   "period": {
+    "from": 1,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_table_02_c.webp",
+    "wooden_table_02_n.webp",
+    "wooden_table_02_r.webp"
+   ],
+   "bytes": 84738
+  },
+  {
+   "id": "stone_fire_pit",
+   "name": "Stone hearth ring",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1500,
+    400,
+    38
+   ],
+   "size": {
+    "height": 0.388,
+    "width": 1.448,
+    "depth": 1.433
+   },
+   "baked": true,
+   "period": {
+    "from": -4000,
+    "to": 1625
+   },
+   "confidence": "high",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "stone_fire_pit_c.webp",
+    "stone_fire_pit_n.webp",
+    "stone_fire_pit_r.webp"
+   ],
+   "bytes": 199562
+  },
+  {
+   "id": "kite_shield",
+   "name": "Kite shield",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1498,
+    398,
+    39
+   ],
+   "size": {
+    "height": 1.394,
+    "width": 0.543,
+    "depth": 0.135
+   },
+   "baked": true,
+   "period": {
+    "from": 1050,
+    "to": 1250
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "kite_shield_body_c.webp",
+    "kite_shield_body_n.webp",
+    "kite_shield_body_r.webp",
+    "kite_shield_clamps_and_trim_c.webp",
+    "kite_shield_clamps_and_trim_n.webp",
+    "kite_shield_clamps_and_trim_r.webp",
+    "model.json"
+   ],
+   "bytes": 251644
+  },
+  {
+   "id": "wooden_axe",
+   "name": "Wood axe",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1500,
+    399,
+    40
+   ],
+   "size": {
+    "height": 0.63,
+    "width": 0.047,
+    "depth": 0.214
+   },
+   "baked": true,
+   "period": {
+    "from": -500,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "wooden_axe_c.webp",
+    "wooden_axe_n.webp",
+    "wooden_axe_r.webp"
+   ],
+   "bytes": 149063
+  },
+  {
+   "id": "large_castle_door",
+   "name": "Arched iron-strapped door",
+   "category": "prop",
+   "variants": 1,
+   "triangles": [
+    1500,
+    386,
+    36
+   ],
+   "size": {
+    "height": 2.965,
+    "width": 2.012,
+    "depth": 0.296
+   },
+   "baked": true,
+   "period": {
+    "from": 1100,
+    "to": 1625
+   },
+   "confidence": "medium",
+   "files": [
+    "geo.bin",
+    "large_castle_door_c.webp",
+    "large_castle_door_n.webp",
+    "large_castle_door_r.webp",
+    "model.json"
+   ],
+   "bytes": 257849
+  },
+  {
+   "id": "dutch_ship_medium",
+   "name": "Dutch merchant ship",
+   "category": "vessel",
+   "variants": 1,
+   "triangles": [
+    7969,
+    1990,
+    194
+   ],
+   "size": {
+    "height": 24.657,
+    "width": 24.07,
+    "depth": 6.809
+   },
+   "baked": true,
+   "period": {
+    "from": 1590,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "dutch_ship_medium_hull_c.webp",
+    "dutch_ship_medium_hull_n.webp",
+    "dutch_ship_medium_hull_r.webp",
+    "dutch_ship_medium_rigging_c.webp",
+    "dutch_ship_medium_rigging_n.webp",
+    "dutch_ship_medium_rigging_r.webp",
+    "dutch_ship_medium_sails_c.webp",
+    "dutch_ship_medium_sails_n.webp",
+    "dutch_ship_medium_sails_r.webp",
+    "geo.bin",
+    "model.json"
+   ],
+   "bytes": 1458286
+  },
+  {
+   "id": "ship_pinnace",
+   "name": "Pinnace",
+   "category": "vessel",
+   "variants": 1,
+   "triangles": [
+    7955,
+    1975,
+    193
+   ],
+   "size": {
+    "height": 32.575,
+    "width": 9.527,
+    "depth": 39.789
+   },
+   "baked": true,
+   "period": {
+    "from": 1570,
+    "to": 1625
+   },
+   "confidence": "low",
+   "files": [
+    "geo.bin",
+    "model.json",
+    "ship_pinnace_aft_c.webp",
+    "ship_pinnace_aft_n.webp",
+    "ship_pinnace_aft_r.webp",
+    "ship_pinnace_deck_c.webp",
+    "ship_pinnace_deck_n.webp",
+    "ship_pinnace_deck_r.webp",
+    "ship_pinnace_details_c.webp",
+    "ship_pinnace_details_n.webp",
+    "ship_pinnace_details_r.webp",
+    "ship_pinnace_hull_c.webp",
+    "ship_pinnace_hull_n.webp",
+    "ship_pinnace_hull_r.webp",
+    "ship_pinnace_interior_c.webp",
+    "ship_pinnace_interior_n.webp",
+    "ship_pinnace_interior_r.webp",
+    "ship_pinnace_rigging_c.webp",
+    "ship_pinnace_rigging_n.webp",
+    "ship_pinnace_rigging_r.webp",
+    "ship_pinnace_sails_c.webp",
+    "ship_pinnace_sails_n.webp",
+    "ship_pinnace_sails_r.webp"
+   ],
+   "bytes": 2734834
+  }
+ ]
+}

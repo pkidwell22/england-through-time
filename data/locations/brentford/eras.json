@@ -1,0 +1,18 @@
+[
+ {
+  "id": "late-saxon",
+  "name": "Late Anglo-Saxon Brentford",
+  "from": 950,
+  "to": 1065,
+  "presetYear": 1016,
+  "blurb": "A named crossing place on the road west from London, where the Brent meets the Thames. Kings met here in 705 and church councils in 780 and 781, and half a Thames fishery at Brentford was granted away in 996, but no late Saxon building has been excavated. In 1016 Edmund Ironside crossed the Thames here twice in his war with Cnut."
+ },
+ {
+  "id": "early-norman",
+  "name": "After the Conquest",
+  "from": 1066,
+  "to": 1100,
+  "presetYear": 1086,
+  "blurb": "Brentford is not named in Domesday Book (1086); its ground lay within the manors of Isleworth, Hanwell and the bishop of London's Fulham. Nothing is recorded as changing here in these years, and the scene is left as it was."
+ }
+]

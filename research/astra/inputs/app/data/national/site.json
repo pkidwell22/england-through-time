@@ -1,0 +1,95 @@
+{
+ "id": "england-wales",
+ "name": "England and Wales",
+ "subtitle": "The land that became England and Wales, 4000 BCE – 1625 CE",
+ "scopeNote": "This map shows the land that became England and Wales. For most of the period neither existed: 'England' as a single kingdom dates only from the 10th century (Aethelstan, 927), and Wales was a land of separate kingdoms until the conquest of 1282-3. Earlier names, peoples and borders are shown as they stood at each date; borders were zones rather than lines, and the outlines drawn are indicative.",
+ "bounds": {
+  "latMin": 49.7,
+  "latMax": 56.0,
+  "lonMin": -6.5,
+  "lonMax": 2.3
+ },
+ "timeline": {
+  "start": -4000,
+  "end": 1625,
+  "scale": [
+   {
+    "year": -4000,
+    "u": 0
+   },
+   {
+    "year": -800,
+    "u": 0.06
+   },
+   {
+    "year": 43,
+    "u": 0.14
+   },
+   {
+    "year": 410,
+    "u": 0.36
+   },
+   {
+    "year": 1066,
+    "u": 0.56
+   },
+   {
+    "year": 1485,
+    "u": 0.8
+   },
+   {
+    "year": 1625,
+    "u": 1
+   }
+  ]
+ },
+ "woodland": {
+  "cover": [
+   {
+    "year": -4000,
+    "value": 0.75
+   },
+   {
+    "year": -3000,
+    "value": 0.7
+   },
+   {
+    "year": -2000,
+    "value": 0.6
+   },
+   {
+    "year": -500,
+    "value": 0.5
+   },
+   {
+    "year": 43,
+    "value": 0.3
+   },
+   {
+    "year": 400,
+    "value": 0.2
+   },
+   {
+    "year": 600,
+    "value": 0.25
+   },
+   {
+    "year": 1086,
+    "value": 0.15
+   },
+   {
+    "year": 1350,
+    "value": 0.08
+   },
+   {
+    "year": 1625,
+    "value": 0.07
+   }
+  ],
+  "note": "Only two points are anchored. Rackham estimated that half of England had been cleared by about 500 BCE, and that woodland and wood-pasture covered about 15% of the land recorded in Domesday Book (1086); Domesday omits the far north, and the average hides big regional differences. For 1350 secondary accounts of Rackham give between about 6% and 10%; 8% is used. Everything else is interpolation: the early Neolithic 'wildwood' was not a closed canopy everywhere and 75% is a convention; Roman-period and post-Roman values (including a modest regrowth after 400) are guesses; the 1625 figure assumes little net change after the Black Death. The trend is for England; Wales was more wooded at most dates.",
+  "sources": [
+   "nat-herefordshire-woodland",
+   "nat-ou-woodland"
+  ]
+ }
+}

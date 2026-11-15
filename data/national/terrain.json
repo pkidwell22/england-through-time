@@ -1,0 +1,53 @@
+{
+  "image": "/assets/national/height.png",
+  "width": 2048,
+  "height": 1466,
+  "bounds": { "latMin": 49.7, "latMax": 56.0, "lonMin": -6.5, "lonMax": 2.3 },
+  "encoding": "rg16",
+  "scale": 0.1,
+  "offset": -300,
+  "seaLevel": [
+    { "year": -4000, "value": -6.0 },
+    { "year": -3000, "value": -4.5 },
+    { "year": -2000, "value": -3.2 },
+    { "year": -1000, "value": -2.3 },
+    { "year": 43, "value": -1.6 },
+    { "year": 410, "value": -1.3 },
+    { "year": 1066, "value": -0.8 },
+    { "year": 1300, "value": -0.5 },
+    { "year": 1625, "value": -0.25 }
+  ],
+  "notes": [
+    "GRID: present-day elevation, land and sea floor. Land is the Copernicus DEM GLO-90 (a surface model: it includes buildings and tree canopy, so towns and woods read a few metres high) area-averaged to this grid; sea floor is the GEBCO_2025 Grid (15 arc-seconds). Cells are about 300 m east-west by 480 m north-south, so sharp summits read low (Snowdon's cell is about 900-970 m against a true 1085 m). Vertical datums differ slightly (EGM2008 geoid for land, mean sea level for sea floor); treat anything within about 2 m of zero as uncertain. Depths are clamped at -300 m (only Beaufort's Dyke comes close).",
+    "DECODING: elevation = (R*256 + G)*0.1 - 300. Read the PNG as raw bytes with no colour-space conversion and decode to a float array before any interpolation; filtering the R and G bytes separately gives garbage where G wraps (every 25.6 m).",
+    "SEA-LEVEL CURVE: one relative sea-level curve (mean sea level, 0 = present) for the Thames / Fenland / Hampshire-Sussex-Kent region, drawn through the medians of the validated sea-level index points in the Shennan, Bradley & Edwards (2018) database for those regions: about -6 m at 4000 BCE, rising at a slowing rate to about -1.6 m in the Roman period. Confidence: medium. The scatter of individual index points is +/-1.5 to 2 m before 1000 BCE and about +/-1 m after, partly because buried peat compacts (which makes old shorelines look too low; the Thames and Kent points for the last 2500 years sit 1.5-3 m below this curve mainly for that reason). After 1000 CE there are very few index points; the last three keyframes are an interpolation to zero, not measurements.",
+    "HOW WRONG THE CURVE IS ELSEWHERE: relative sea level differs by region because the land is still adjusting to the loss of the last ice sheet (south sinking, north rising). Index-point medians for about 4000 BCE: Devon and Cornwall about -8 m (curve too high by 2 m); Bristol Channel / Somerset about -6 m (close); Lincolnshire Marshes and Norfolk -6 to -7 m (close); Humber -4 to -5 m; Tees about -3 m; mid Wales about -3.5 m; Mersey and Lancashire about -2 m; Morecambe Bay and Cumbria -0.5 m to 0; Northumberland about +1.5 m and the Solway +2 to +4 m (sea level there was HIGHER than today and has fallen since). So north of a line roughly from the Mersey to the Tees this curve drowns too little or shows the wrong sign; apply it at full strength only south of about 53.5 N.",
+    "TIDES: the values are mean sea level. The line people saw as the coast was high water, 2-3.5 m above mean level on most of these coasts (more in the Bristol Channel), and tidal range itself has changed: in the Thames at London the tidal limit and high-water level rose markedly between the Roman period and today as the river was embanked.",
+    "A PRESENT-DAY GRID CANNOT SHOW PEAT GROWTH, SILTING OR EROSION. Lowering the sea on today's surface reproduces drowned valleys and offshore shallows, but not land that has since been built up (alluvium, peat, shingle, dunes), cut away (soft cliffs) or lowered (drained, shrunken peat). The cases below matter at national scale and need masks or hand corrections.",
+    "FENS (about 3,900 sq km around the Wash): until drained they were peat fen, meres and tidal salt-marsh with islands (Ely, March, Whittlesey), settled only on the silt 'Townlands' and the islands. Large-scale drainage began in the 1630s and continued in the 1650s, i.e. after this timeline ends, so for the whole period 4000 BCE-1625 CE the Fens should be drawn as wetland, grading from forested lowland being inundated in the 4th-3rd millennia BCE to its greatest marine extent in the Iron Age. The grid will mislead: drained peat has shrunk and wasted by several metres, so much of the southern Fens now lies below 0 m (Holme Fen about -2.75 m, the lowest land in Britain) and a simple 'below sea level = water' rule floods it as open sea even at present sea level, while the pre-drainage surface was actually a few metres higher and was marsh, not sea.",
+    "SOMERSET LEVELS (about 650 sq km): marsh with winter freshwater floods and occasional sea floods; the Sweet Track (3800s BCE) and the Iron Age Glastonbury lake village were built in it. Medieval abbeys (Glastonbury, Athelney, Muchelney) embanked and drained parts in the 13th century, but by 1500 only about 20,000 of 70,000 floodable acres were reclaimed and about 30,500 acres were still undrained in 1638; the 1607 Bristol Channel flood covered about 500 sq km. Today's surface is 3-6 m above datum and lies below high spring tides behind sea walls, so the grid shows it as dry at every keyframe; draw it as wetland throughout.",
+    "HUMBERHEAD LEVELS, HULL VALLEY AND HOLDERNESS MERES, LANCASHIRE MOSSES, ROMNEY AND PEVENSEY LEVELS: the same applies on a smaller scale. All were fen, mere or salt-marsh for most or all of the period and were drained mainly in the 17th-19th centuries.",
+    "ROMNEY MARSH: in prehistory a shallow bay and lagoon behind a shingle barrier; reclaimed piecemeal ('innings') from the early Middle Ages, much of Walland and Denge marshes by the 14th century. The 13th-century storms (especially 1287) destroyed Old Winchelsea, blocked New Romney's harbour and turned the River Rother west to Rye. Dungeness is a shingle foreland that has grown throughout the period and is still growing; its present shape is wrong for every earlier date.",
+    "WANTSUM CHANNEL: Thanet was an island, separated from Kent by a tidal strait reported as up to about 3 km wide, with the Roman forts of Reculver and Richborough at its two mouths. It silted heavily in the 12th-13th centuries and was dry apart from a central drain by the 16th century. The channel floor is now 1-5 m above datum (alluvium), so the grid never reopens it; it needs a mask for dates before about 1500.",
+    "THE WASH AND OTHER ESTUARIES: the Wash extended much further inland (see Fens); medieval and later sea banks have moved its shore seaward by several km. The Dee, Ribble, Humber and Thames estuaries and Poole/Chichester harbours have likewise been narrowed by silting and embanking; Chester, Sandwich, Rye, Winchelsea and others were working sea ports that are now inland.",
+    "ERODING COASTS: soft cliffs have retreated, so past coasts lay SEAWARD of today's, which lowering the sea on this grid only approximates. Holderness (boulder clay) retreats about 1.5-1.8 m a year, about 5 km since Roman times, with at least 23 lost towns and villages; Ravenser Odd, a borough on a sandbank at the Humber mouth (chartered 1299, over 100 houses), was abandoned after the floods of 1356-57 and destroyed by the storm of January 1362. On the Suffolk coast Dunwich, a major port with about 3,000 people in 1086, was wrecked in stages from the surges of 1286-87 through 1328, 1347 and 1362, its decline driven as much by the river mouth shifting north as by cliff loss. At about 300 m per pixel these losses are 1-15 pixels wide.",
+    "DOGGERLAND: already drowned. Britain was cut off from the continent around 6500 BCE; Dogger Bank survived as an island until at least about 5000 BCE. At 4000 BCE (-6 m) the bank's crest (about -15 to -20 m today) was 10 m or more under water, so no North Sea land should be drawn; the grid agrees. Only nearshore shoals and a fringe of coastal lowland (the outer Wash, the Thames estuary flats, Bridgwater and Morecambe bays) emerge at -6 m: about 2.6% of the grid's cells lie between -6 and 0 m.",
+    "RIVERS AND LAKES: tidal rivers that Copernicus flattens to 0 m (Thames tideway, Severn, Humber) are encoded as shallow water (at most -0.5 m); inland lakes carry their surface level, not their bed."
+  ],
+  "sources": [
+    "ter-gebco-2025",
+    "ter-gebco-terms",
+    "ter-copdem-glo90",
+    "ter-copdem-aws",
+    "ter-holsea-2018",
+    "ter-shennan-2009",
+    "ter-wiki-doggerland",
+    "ter-wiki-fens",
+    "ter-wiki-somerset-levels",
+    "ter-wiki-romney-marsh",
+    "ter-wiki-wantsum",
+    "ter-wiki-holderness",
+    "ter-wiki-ravenser-odd",
+    "ter-wiki-dunwich"
+  ]
+}

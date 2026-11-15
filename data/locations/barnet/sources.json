@@ -1,0 +1,92 @@
+{
+ "bar-barnet-battlefield-project-2015-2018": {
+  "title": "The Barnet Battlefield Project 2015-2018, G. Foard, T. Partida and S. Wilson (University of Huddersfield; PDF report with historic landscape mapping, source extracts and survey results)",
+  "publisher": "Archaeology Data Service",
+  "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-3872-1/dissemination/pdf/Barnet_Battlefield_Project_2015-2018.pdf"
+ },
+ "bar-watson-2022-looking-for-the-site": {
+  "title": "Looking for the site of the Battle of Barnet, B. Watson, London Archaeologist 16(7), Winter 2022, 192-195 (PDF)",
+  "publisher": "London Archaeologist via Archaeology Data Service",
+  "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol16/LonArch_16-07/LonArch_16-07_09_Watson_Barnet.pdf"
+ },
+ "bar-battlefields-trust-barnet": {
+  "title": "Battle of Barnet, 14 April 1471 (UK Battlefields Resource Centre)",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/warsoftheroses/battleview.asp?BattleFieldId=5"
+ },
+ "bar-vch-middx-monken-hadley-intro": {
+  "title": "Monken Hadley: Introduction, A History of the County of Middlesex vol. 5 (1976), pp. 260-263",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/middx/vol5/pp260-263"
+ },
+ "bar-vch-middx-monken-hadley-church": {
+  "title": "Monken Hadley: Church, A History of the County of Middlesex vol. 5 (1976), pp. 267-269",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/middx/vol5/pp267-269"
+ },
+ "bar-vch-middx-south-mimms-intro": {
+  "title": "South Mimms: Introduction, A History of the County of Middlesex vol. 5 (1976), pp. 271-282",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/middx/vol5/pp271-282"
+ },
+ "bar-vch-middx-south-mimms-manors": {
+  "title": "South Mimms: Manors, A History of the County of Middlesex vol. 5 (1976), pp. 282-285",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/middx/vol5/pp282-285"
+ },
+ "bar-vch-herts-barnet": {
+  "title": "Parishes: Barnet, A History of the County of Hertford vol. 2 (1908), pp. 329-337",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/herts/vol2/pp329-337"
+ },
+ "bar-arrivall-part-3": {
+  "title": "Historie of the Arrivall of Edward IV, part 3: Coventry to the Battle of Barnet (transcription of the 1838 Camden Society text)",
+  "publisher": "All About History (transcription)",
+  "url": "https://allabouthistory.co.uk/History/o3/History-of-the-Arrival-of-Edward-IV-Part-3"
+ },
+ "bar-warkworth-barnet": {
+  "title": "Warkworth's Chronicle: the Battle of Barnet (text of the 1839 Camden Society edition)",
+  "publisher": "eblong.com (transcription)",
+  "url": "https://eblong.com/draconc/static/warkworth-barnet.html"
+ },
+ "bar-barnet-society-2021": {
+  "title": "Mystery remains over lost battlefield site of 1471 Battle of Barnet (19 March 2021)",
+  "publisher": "The Barnet Society",
+  "url": "https://www.barnetsociety.org.uk/mystery-remains-over-lost-battlefield-site-of-1471-battle-of-barnet/"
+ },
+ "bar-barnet-museum-battle": {
+  "title": "The Battle of Barnet",
+  "publisher": "Barnet Museum",
+  "url": "https://www.barnetmuseum.co.uk/battle-of-barnet/"
+ },
+ "bar-listing-st-mary-monken-hadley": {
+  "title": "Parish Church of St Mary the Virgin, Monken Hadley (copy of the statutory list entry 1078819)",
+  "publisher": "British Listed Buildings",
+  "url": "https://britishlistedbuildings.co.uk/101078819-parish-church-of-st-mary-the-virgin-high-barnet-ward"
+ },
+ "bar-wikipedia-battle-of-barnet": {
+  "title": "Battle of Barnet (used as a lead only: summary of the English Heritage 1995 interpretation and modern estimates)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Barnet"
+ },
+ "bar-wikipedia-st-mary-monken-hadley": {
+  "title": "St Mary the Virgin, Monken Hadley (used as a lead only)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Mary_the_Virgin,_Monken_Hadley"
+ },
+ "bar-wikipedia-hadley-green": {
+  "title": "Hadley Green (used as a lead only)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hadley_Green"
+ },
+ "bar-osm-overpass": {
+  "title": "OpenStreetMap data for the Barnet / Hadley / Kitts End area (modern road and stream lines, building and pond positions), queried through the Overpass API",
+  "publisher": "OpenStreetMap contributors (ODbL)",
+  "url": "https://overpass-api.de/api/interpreter"
+ },
+ "bar-eudem-elevation": {
+  "title": "EU-DEM 25 m elevation model, sampled on a 250 m grid through the Open Topo Data API",
+  "publisher": "Copernicus / Open Topo Data",
+  "url": "https://api.opentopodata.org/v1/eudem25m"
+ }
+}

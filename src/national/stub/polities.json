@@ -1,0 +1,161 @@
+[
+ {
+  "id": "britannia",
+  "name": "Britannia",
+  "kind": "province",
+  "from": 43,
+  "to": 410,
+  "labelAt": [
+   52.6,
+   -1.4
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/polities.json exists.",
+  "sources": [],
+  "polygon": [
+   [
+    50.7,
+    -3.8
+   ],
+   [
+    50.7,
+    1.2
+   ],
+   [
+    52.9,
+    1.4
+   ],
+   [
+    55.0,
+    -1.5
+   ],
+   [
+    54.9,
+    -3.2
+   ],
+   [
+    53.3,
+    -3.0
+   ],
+   [
+    51.6,
+    -2.9
+   ]
+  ]
+ },
+ {
+  "id": "mercia",
+  "name": "Mercia",
+  "kind": "kingdom",
+  "from": 600,
+  "to": 918,
+  "labelAt": [
+   52.6,
+   -1.7
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/polities.json exists.",
+  "sources": [],
+  "polygon": [
+   [
+    51.7,
+    -2.6
+   ],
+   [
+    51.7,
+    -0.4
+   ],
+   [
+    53.2,
+    -0.3
+   ],
+   [
+    53.4,
+    -2.9
+   ]
+  ]
+ },
+ {
+  "id": "wessex",
+  "name": "Wessex",
+  "kind": "kingdom",
+  "from": 519,
+  "to": 927,
+  "labelAt": [
+   51.1,
+   -2.0
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/polities.json exists.",
+  "sources": [],
+  "polygon": [
+   [
+    50.6,
+    -3.6
+   ],
+   [
+    50.7,
+    -0.8
+   ],
+   [
+    51.5,
+    -0.9
+   ],
+   [
+    51.6,
+    -2.6
+   ]
+  ]
+ },
+ {
+  "id": "northumbria",
+  "name": "Northumbria",
+  "kind": "kingdom",
+  "from": 654,
+  "to": 954,
+  "labelAt": [
+   54.5,
+   -1.7
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/polities.json exists.",
+  "sources": [],
+  "polygon": [
+   [
+    53.6,
+    -0.2
+   ],
+   [
+    53.6,
+    -2.9
+   ],
+   [
+    55.9,
+    -3.0
+   ],
+   [
+    55.8,
+    -2.0
+   ]
+  ]
+ },
+ {
+  "id": "england",
+  "name": "Kingdom of England",
+  "kind": "realm",
+  "from": 927,
+  "to": null,
+  "labelAt": [
+   52.4,
+   -1.2
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/polities.json exists.",
+  "sources": []
+ }
+]

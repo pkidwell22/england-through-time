@@ -1,0 +1,291 @@
+[
+ {
+  "year": -3870,
+  "label": "Coneybury Anomaly feasting pit: earliest cattle bone 3950-3790 BCE",
+  "note": "English Heritage: the earliest cattle bone from the Stonehenge landscape, 3950-3790 BC, came from the Coneybury Anomaly, a feasting pit. That dates one bone, not every use of the pit; the tick is placed at the middle of the range.",
+  "sources": [
+   "sto-eh-reconstructed",
+   "sto-wp-coneybury"
+  ]
+ },
+ {
+  "year": -3600,
+  "label": "Robin Hood's Ball and first long barrows",
+  "note": "Approximate. Robin Hood's Ball (causewayed enclosure, outside this map) is dated 'centuries around 3500 BC' by English Heritage; Amesbury 42 long barrow gave 3640 to 3370 cal BCE. Most other long barrows are undated.",
+  "sources": [
+   "sto-wp-robinhood",
+   "sto-ia47-am42",
+   "sto-eh-history"
+  ]
+ },
+ {
+  "year": -3500,
+  "label": "Greater Cursus built",
+  "note": "A red deer antler in the west terminal ditch gave 3630 to 3375 BCE; a 2009 paper found another antler about a millennium younger, so the date is debated. Whether the Cursus or the Amesbury 42 barrow is older is unknown.",
+  "sources": [
+   "sto-wp-cursus",
+   "sto-antiq-thomas2009",
+   "sto-ia47-am42"
+  ]
+ },
+ {
+  "year": -3000,
+  "label": "Stonehenge Stage 1: ditch, bank, Aubrey Holes",
+  "note": "Darvill et al. 2012 Table 3 gives 3000 to 2620 BCE for Stage 1; the ditch itself is modelled at about 2955 to 2830 BCE (68%), and 2990 to 2755 BCE at 95%. The model switches it on in 3001 to 2995 BCE. The Aubrey Holes may predate the ditch.",
+  "sources": [
+   "sto-darvill-2012-remodelled",
+   "sto-wiki-aubrey-holes"
+  ]
+ },
+ {
+  "year": -2900,
+  "label": "Cremation burials at Stonehenge (c. 3000 to 2600 BCE)",
+  "note": "More than 150 people were probably buried as cremations in the Aubrey Holes and ditch; the span is a range, not an event. One cremated woman beside Aubrey Hole 7 probably predates the ditch.",
+  "sources": [
+   "sto-darvill-2012-remodelled",
+   "sto-eh-research",
+   "sto-wiki-aubrey-holes"
+  ]
+ },
+ {
+  "year": -2620,
+  "label": "Stage 2 begins: trilithons, bluestone double circle",
+  "note": "Start of Darvill et al.'s Stage 2 (2620 to 2480 BCE). Order within the stage is not settled: trilithons first, then sarsen circle, or all in quick succession.",
+  "sources": [
+   "sto-darvill-2012-remodelled"
+  ]
+ },
+ {
+  "year": -2620,
+  "label": "Woodhenge timber rings raised (c. 2635-2575 BCE)",
+  "note": "Historic England 2024 chronological model (95% range); the tick is a display year.",
+  "sources": [
+   "sto-he-woodhenge-2024-summary"
+  ]
+ },
+ {
+  "year": -2560,
+  "label": "Sarsen circle raised (modelled c. 2560 to 2470 BCE)",
+  "note": "The English Heritage Bayesian model puts the sarsen circle at 2580 to 2475 BCE and the trilithons at 2585 to 2400 BCE (93%). The span shown is a modelling choice inside those ranges.",
+  "sources": [
+   "sto-marshall-2012-eh-chronology",
+   "sto-darvill-2012-remodelled"
+  ]
+ },
+ {
+  "year": -2515,
+  "label": "Durrington Walls village",
+  "note": "Eight houses excavated in 2006 about 5 m square, dated 2600 to 2500 BCE at first; later modelling gives an occupation of only about 10 to 12 years ending c. 2500 to 2460 BCE. The number of houses is unknown (a few dozen is shown, conjecturally).",
+  "sources": [
+   "sto-bristol-2007",
+   "sto-archco-durrington"
+  ]
+ },
+ {
+  "year": -2480,
+  "label": "Durrington timber ring replaced by the henge bank",
+  "note": "About 300 posts in a ring 440 to 450 m across were pulled and the sockets packed with chalk; the henge bank and ditch were completed c. 2480 to 2450 BCE. Also the start of Stonehenge Stage 3 (2480 to 2280 BCE).",
+  "sources": [
+   "sto-archco-durrington",
+   "sto-wp-durrington",
+   "sto-darvill-2012-remodelled"
+  ]
+ },
+ {
+  "year": -2400,
+  "label": "Woodhenge ditch and bank built (display date c. 2400 BCE)",
+  "note": "Historic England's 2024 model: timber settings 2635-2575 cal BC; ditch and bank 2495-2180 cal BC (93%), most likely 2465-2345. 2400 BCE is a display date.",
+  "sources": [
+   "sto-he-woodhenge-2024-summary",
+   "sto-wp-woodhenge"
+  ]
+ },
+ {
+  "year": -2400,
+  "label": "West Amesbury henge (Bluestonehenge): stones removed",
+  "note": "Stone sockets for up to about 27 stones, removed 2469 to 2286 BCE; the ditch and bank are c. 2400 BCE. That the stones were bluestones that went to Stonehenge is suspected, not proven.",
+  "sources": [
+   "sto-wp-bluestonehenge"
+  ]
+ },
+ {
+  "year": -2340,
+  "label": "Beaker burials: Amesbury Archer and a Stonehenge ditch burial",
+  "note": "The Amesbury Archer (c. 2340 to 2300 BCE, grave outside this map) and a Beaker burial in the Stonehenge ditch (2340 to 2195 BCE) are of similar date.",
+  "sources": [
+   "sto-wp-archer",
+   "sto-darvill-2012-remodelled"
+  ]
+ },
+ {
+  "year": -2315,
+  "label": "The Avenue is built",
+  "note": "Darvill: 2430 to 2200 BCE; English Heritage: four antler picks date construction to 2345 to 2200 BCE. About 2.5 to 2.8 km long, its first 530 m or so straight on the solstice axis. -2315 is a recommended display date inside the ranges.",
+  "sources": [
+   "sto-darvill-2012-remodelled",
+   "sto-eh-reconstructed",
+   "sto-wp-avenue"
+  ]
+ },
+ {
+  "year": -2165,
+  "label": "Bluestone circle and oval (Stage 4)",
+  "note": "Stage 4 is 2280 to 2020 BCE: circle modelled at about 2165, oval about 2060 BCE. Around 80 bluestones were used in all; 43 survive as stones or stumps.",
+  "sources": [
+   "sto-darvill-2012-remodelled",
+   "sto-marshall-2012-eh-chronology"
+  ]
+ },
+ {
+  "year": -1950,
+  "label": "Bush Barrow burial (c. 1950 BCE)",
+  "note": "A rich Early Bronze Age burial on Normanton Down with a gold lozenge plate. The date of about 1950 BCE is from Wikipedia; the other grave goods are not itemised in the research notes.",
+  "sources": [
+   "sto-wp-bushbarrow",
+   "sto-wp-normanton"
+  ]
+ },
+ {
+  "year": -1800,
+  "label": "Z holes dug (date uncertain)",
+  "note": "English Heritage's model gives 2020 to 1745 BCE; its web page says 1800 to 1500 BCE. The holes were filled with windblown sediment. Purpose unknown.",
+  "sources": [
+   "sto-marshall-2012-eh-chronology",
+   "sto-eh-history"
+  ]
+ },
+ {
+  "year": -1590,
+  "label": "Y holes dug; carvings on the sarsens",
+  "note": "Y holes 1630 to 1525 BCE (modelled). Axe and dagger carvings are dated 1750 to 1500 BCE. The last prehistoric structural change, with the stone settings ending 1630 to 1340 BCE.",
+  "sources": [
+   "sto-marshall-2012-eh-chronology",
+   "sto-darvill-2012-remodelled"
+  ]
+ },
+ {
+  "year": -1500,
+  "label": "Middle Bronze Age fields in the east",
+  "note": "A 2015 to 2016 survey found early fields and enclosures in the eastern part of the World Heritage Site. The sources say only 'Middle Bronze Age'; the date shown is the brief's.",
+  "sources": [
+   "sto-roberts2018"
+  ]
+ },
+ {
+  "year": -700,
+  "label": "Vespasian's Camp hillfort (placeholder date)",
+  "note": "Iron Age hillfort of about 14 ha above the Avon. No construction date was retrieved; c. 700 to 600 BCE is a placeholder. The name comes from Camden and is not Roman.",
+  "sources": [
+   "sto-wp-vespasian",
+   "sto-eh-history"
+  ]
+ },
+ {
+  "year": 375,
+  "label": "Roman coins and pottery at the stones (late 4th century)",
+  "note": "Late 4th-century coins and pottery were found at Stonehenge; Darvill thinks some bluestones were broken or removed in Roman times, his view not shared by all. A Roman building lay near the Cuckoo Stone.",
+  "sources": [
+   "sto-eh-history",
+   "sto-wiki-stonehenge",
+   "sto-wp-cuckoo",
+   "sto-darvill-2012-remodelled"
+  ]
+ },
+ {
+  "year": 660,
+  "label": "Execution burial at Stonehenge (600 to 690 CE)",
+  "note": "A decapitated man aged 28 to 32 was buried inside the stones. One source disputes the range; 'second half of the 7th century' is the safer wording. Low confidence on the exact span.",
+  "sources": [
+   "sto-wiki-stonehenge",
+   "sto-eh-history"
+  ]
+ },
+ {
+  "year": 979,
+  "label": "Amesbury Abbey founded",
+  "note": "A Benedictine house founded c. 979 by Queen Aelfthryth. Its buildings and site within Amesbury are not known from the sources read.",
+  "sources": [
+   "sto-wp-amesburyabbey"
+  ]
+ },
+ {
+  "year": 1086,
+  "label": "Domesday Book: Amblesberie, 111 households, eight mills",
+  "note": "Amesbury already a crossing of the London to Exeter road.",
+  "sources": [
+   "sto-wp-amesbury"
+  ]
+ },
+ {
+  "year": 1130,
+  "label": "Henry of Huntingdon names 'Stanenges' (c. 1130)",
+  "note": "One of England's four wonders in his Historia Anglorum, the stones 'raised up like gates'. The date is approximate.",
+  "sources": [
+   "sto-tudortreasures-accounts",
+   "sto-eh-history"
+  ]
+ },
+ {
+  "year": 1136,
+  "label": "Geoffrey of Monmouth: Merlin and the Giants' Dance (c. 1136)",
+  "note": "In the Historia Regum Britanniae Merlin moves the stones from Mount Killaraus in Ireland. A legend, not evidence of construction.",
+  "sources": [
+   "sto-eh-history",
+   "sto-tudortreasures-accounts",
+   "sto-wiki-stonehenge"
+  ]
+ },
+ {
+  "year": 1177,
+  "label": "Amesbury refounded as a Fontevraud priory",
+  "note": "The abbey was replaced by a priory of the Order of Fontevraud. The medieval buildings are not located in the sources read.",
+  "sources": [
+   "sto-wp-amesburyabbey"
+  ]
+ },
+ {
+  "year": 1457,
+  "label": "Hardyng: stones 'somwat bowand' (c. 1457)",
+  "note": "Hardyng's Chronicle says the stones 'hang' and are somewhat bowed: the only medieval hint of leaning.",
+  "sources": [
+   "sto-tudortreasures-accounts"
+  ]
+ },
+ {
+  "year": 1540,
+  "label": "Amesbury Priory dissolved (1539 or 1540)",
+  "note": "Sources conflict: the project brief says 1539, the Wikipedia Amesbury article says c. 1540. The estate passed to Edward Seymour, Earl of Hertford.",
+  "sources": [
+   "sto-wp-amesbury",
+   "sto-wp-amesburyabbey"
+  ]
+ },
+ {
+  "year": 1574,
+  "label": "Lucas de Heere watercolour (1573 to 75)",
+  "note": "The first view drawn on site. The date is a range; the accompanying text was not read.",
+  "sources": [
+   "sto-eh-sources",
+   "sto-bakker-1979-deheere-abstract"
+  ]
+ },
+ {
+  "year": 1586,
+  "label": "Camden's Britannia describes Stonehenge (1586)",
+  "note": "Three circles within a trench, some stones 28 feet high with lintels on top. 1586 is the first edition; later editions followed.",
+  "sources": [
+   "sto-tudortreasures-accounts",
+   "sto-webb-1655-stone-heng"
+  ]
+ },
+ {
+  "year": 1620,
+  "label": "Inigo Jones surveys for James I; Buckingham digs",
+  "note": "James I visited Wilton in 1620 and commissioned a survey (per Webb's 1655 publication); the same year the Duke of Buckingham made the first known excavation in the centre. Jones's plan is an idealised restoration, not a record.",
+  "sources": [
+   "sto-eh-sources",
+   "sto-eh-research",
+   "sto-webb-1655-stone-heng"
+  ]
+ }
+]

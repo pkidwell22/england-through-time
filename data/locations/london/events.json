@@ -1,0 +1,263 @@
+[
+  {
+    "year": -1500,
+    "label": "Bronze Age farming on the Southwark eyots",
+    "note": "Plough (ard) marks and timber trackways are known from Southwark and Bermondsey; the cultivation was short-lived and was drowned as water levels rose.",
+    "sources": [
+      "cup-bramcote-green-bermondsey-bronze",
+      "rfla-prehistory-research-framework-london",
+      "southwark-council-archaeology-southwark-prehistoric",
+      "gresham-early-river-thames-iron"
+    ]
+  },
+  {
+    "year": 43,
+    "label": "Roman invasion of Britain"
+  },
+  {
+    "year": 47,
+    "label": "Londinium founded (47–50 CE)",
+    "note": "London Museum dates the foundation to 47–50 CE; the earliest dated feature is a roadside drain of 47 CE (tree-ring date). There is no documented foundation year.",
+    "sources": [
+      "rfla-roman-ad-43-410",
+      "london-museum-timeline-roman-london",
+      "city-of-london-roman-london-information-sheet",
+      "mola-roman-fort-built-response",
+      "london-archaeologist-brigham-watson-regis-house"
+    ]
+  },
+  {
+    "year": 60,
+    "label": "Boudican revolt: Londinium burned",
+    "note": "60 or 61 CE. Recovery was quick: a fort and a new quay by 63.",
+    "sources": [
+      "rfla-roman-ad-43-410",
+      "london-museum-timeline-roman-london",
+      "city-of-london-roman-london-information-sheet",
+      "mola-roman-fort-built-response",
+      "london-archaeologist-brigham-watson-regis-house"
+    ]
+  },
+  {
+    "year": 125,
+    "label": "Hadrianic fire",
+    "note": "A major fire c. 120–130, most likely the mid 120s.",
+    "sources": [
+      "london-archaeologist-brigham-watson-regis-house",
+      "london-museum-timeline-roman-london"
+    ]
+  },
+  {
+    "year": 200,
+    "label": "City wall built",
+    "note": "Landward wall c. 190–225.",
+    "sources": [
+      "english-heritage-history-london-wall",
+      "london-museum-timeline-roman-london",
+      "current-archaeology-fortress-londinium-tracing-londons"
+    ]
+  },
+  {
+    "year": 410,
+    "label": "End of Roman administration",
+    "sources": [
+      "mola-saxon-ad-4101066-research",
+      "rfla-roman-ad-43-410",
+      "london-museum-timeline-roman-london",
+      "britannia-marsden-west-population-change",
+      "london-archaeologist-brigham-watson-regis-house",
+      "current-archaeology-londons-last-roman-st"
+    ]
+  },
+  {
+    "year": 604,
+    "label": "St Paul's founded",
+    "sources": [
+      "bho-secular-canons-cathedral-st",
+      "gresham-archaeology-st-pauls-cathedral",
+      "gresham-london-notsodark-ages-lyn",
+      "project-gutenberg-w-benham-old-st"
+    ]
+  },
+  {
+    "year": 886,
+    "label": "Alfred restores Lundenburh",
+    "note": "Settlement returns inside the Roman walls; reoccupation may have begun a generation earlier.",
+    "sources": [
+      "lamas-saxon-origins-queenhithe-r",
+      "mola-saxon-ad-4101066-research",
+      "london-museum-vikings-london"
+    ]
+  },
+  {
+    "year": 1066,
+    "label": "Norman Conquest"
+  },
+  {
+    "year": 1087,
+    "label": "Fire destroys St Paul's",
+    "sources": [
+      "bho-london-viewers-their-certificates",
+      "bho-austin-canons-priory-southwark",
+      "bho-secular-canons-cathedral-st",
+      "bho-stow-bridges-this-citie"
+    ]
+  },
+  {
+    "year": 1091,
+    "label": "Storm destroys the timber London Bridge",
+    "note": "The rebuilding date is not recorded.",
+    "sources": [
+      "london-museum-london-bridge"
+    ]
+  },
+  {
+    "year": 1135,
+    "label": "Fire burns the timber bridge",
+    "note": "1135 or 1136 depending on the source.",
+    "sources": [
+      "bho-london-viewers-their-certificates",
+      "bho-austin-canons-priory-southwark",
+      "bho-secular-canons-cathedral-st",
+      "bho-stow-bridges-this-citie"
+    ]
+  },
+  {
+    "year": 1209,
+    "label": "Stone London Bridge complete",
+    "sources": [
+      "lamas-medieval-london-bridge-role",
+      "current-archaeology-life-across-water-exploring",
+      "bho-stow-bridges-this-citie",
+      "bho-stow-towers-castels-bridge",
+      "bho-austin-canons-priory-southwark",
+      "bho-old-new-london-vol"
+    ]
+  },
+  {
+    "year": 1212,
+    "label": "Great fire of Southwark and the bridge",
+    "sources": [
+      "bho-london-viewers-their-certificates",
+      "bho-austin-canons-priory-southwark",
+      "bho-secular-canons-cathedral-st",
+      "bho-stow-bridges-this-citie"
+    ],
+    "note": "11 July 1212: Southwark, St Mary Overie and the houses on the new bridge burn."
+  },
+  {
+    "year": 1348,
+    "label": "Black Death",
+    "note": "November 1348 to 1349–50; buildings survive but a large part of the population dies.",
+    "sources": [
+      "mola-medieval-c1066c1500-research-framework",
+      "london-museum-great-pestilence-london",
+      "bho-religious-houses-house-carthusian"
+    ]
+  },
+  {
+    "year": 1381,
+    "label": "Peasants' Revolt: Savoy Palace destroyed",
+    "sources": [
+      "bho-stow-liberties-dutchie-lancaster"
+    ]
+  },
+  {
+    "year": 1485,
+    "label": "Tudor accession"
+  },
+  {
+    "year": 1538,
+    "label": "Dissolution of the London religious houses",
+    "note": "1536–40.",
+    "sources": [
+      "bho-friaries-black-friars-vch",
+      "bho-stow-faringdon-ward-infra",
+      "folger-shakespeares-theater-folger-shakespeare"
+    ]
+  },
+  {
+    "year": 1561,
+    "label": "St Paul's spire destroyed by lightning",
+    "sources": [
+      "bho-stow-faringdon-ward-infra",
+      "current-archaeology-st-pauls-before-wren",
+      "london-museum-history-st-pauls-cathedral",
+      "nc-state-virtual-pauls-cross-project"
+    ],
+    "note": "4 June 1561; the roofs were repaired by 1566 but the spire was never rebuilt."
+  },
+  {
+    "year": 1563,
+    "label": "Plague epidemic",
+    "note": "Boulton: plague epidemics in 1563, 1603, 1625 and 1665 each killed between 20 and 25% of Londoners.",
+    "sources": [
+      "boulton-bills-of-mortality"
+    ]
+  },
+  {
+    "year": 1577,
+    "label": "Drawbridge tower demolished; Nonsuch House begun",
+    "sources": [
+      "bho-stow-towers-castels-bridge",
+      "current-archaeology-life-across-water-exploring",
+      "moeml-drawbridge-tower",
+      "ianvisits-london-bridges-lost-nonsuch"
+    ]
+  },
+  {
+    "year": 1599,
+    "label": "Globe playhouse built",
+    "sources": [
+      "shakespeares-globe-globe",
+      "reed-globe-theatre-citing-bowsher",
+      "folger-shakespeares-theater-folger-shakespeare",
+      "cup-blatherwick-gurr-shakespeares-factory",
+      "bho-survey-london-vol-22"
+    ]
+  },
+  {
+    "year": 1603,
+    "label": "James I accedes"
+  },
+  {
+    "year": 1603,
+    "label": "Plague epidemic",
+    "note": "Boulton: plague epidemics in 1563, 1603, 1625 and 1665 each killed between 20 and 25% of Londoners.",
+    "sources": [
+      "boulton-bills-of-mortality"
+    ]
+  },
+  {
+    "year": 1613,
+    "label": "Globe burns; rebuilt 1614",
+    "sources": [
+      "shakespeares-globe-globe",
+      "reed-globe-theatre-citing-bowsher",
+      "folger-shakespeares-theater-folger-shakespeare",
+      "cup-blatherwick-gurr-shakespeares-factory",
+      "bho-survey-london-vol-22"
+    ],
+    "note": "Burned 29 June 1613; rebuilt with a tiled roof by 1614."
+  },
+  {
+    "year": 1622,
+    "label": "Banqueting House complete",
+    "sources": [
+      "bho-survey-london-vol-13"
+    ],
+    "note": "Inigo Jones, 1619–22."
+  },
+  {
+    "year": 1625,
+    "label": "Plague epidemic",
+    "note": "Boulton: plague epidemics in 1563, 1603, 1625 and 1665 each killed between 20 and 25% of Londoners.",
+    "sources": [
+      "boulton-bills-of-mortality"
+    ]
+  },
+  {
+    "year": 1625,
+    "label": "Death of James I — end of timeline"
+  }
+]

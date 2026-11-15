@@ -1,0 +1,88 @@
+[
+ {
+  "id": "caernarfon",
+  "name": "Caernarfon",
+  "lat": 53.139,
+  "lon": -4.277,
+  "country": "wales",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 77,
+    "to": 394,
+    "label": "Segontium fort",
+    "size": 2
+   },
+   {
+    "from": 1283,
+    "to": null,
+    "label": "Castle and borough",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": [],
+  "altNames": [
+   {
+    "name": "Segontium",
+    "from": 77,
+    "to": 394
+   }
+  ]
+ },
+ {
+  "id": "caerleon",
+  "name": "Caerleon",
+  "lat": 51.61,
+  "lon": -2.955,
+  "country": "wales",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 75,
+    "to": 300,
+    "label": "Legionary fortress Isca",
+    "size": 4
+   },
+   {
+    "from": 300,
+    "to": null,
+    "label": "Abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": [],
+  "altNames": [
+   {
+    "name": "Isca",
+    "from": 75,
+    "to": 300
+   }
+  ]
+ },
+ {
+  "id": "st-davids",
+  "name": "St Davids",
+  "lat": 51.882,
+  "lon": -5.268,
+  "country": "wales",
+  "kind": "cathedral",
+  "phases": [
+   {
+    "from": 600,
+    "to": null,
+    "label": "Monastery, later cathedral",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": []
+ }
+]

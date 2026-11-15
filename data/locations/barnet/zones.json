@@ -1,0 +1,157 @@
+[
+ {
+  "id": "chipping-barnet",
+  "label": "Chipping Barnet town",
+  "style": "medieval",
+  "shape": {
+   "type": "ref",
+   "polygon": "barnet-town"
+  },
+  "spacing": 21,
+  "fill": 0.6,
+  "gridBearing": 160,
+  "grow": [
+   1400,
+   1400
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "A small market town strung along the main road on the hilltop, with a Thursday market granted to the abbot of St Albans in 1199 and a chapel where Wood Street branches west. Houses are generic and stand on a lattice, not on real plots. The town's extent in 1471 is not known: there is no early map, and the survey report notes that even its northern end is uncertain (by 1553 shops and cottages had spread north beside Hadley Green). The outline is a guess of about 70 m either side of the street.",
+  "sources": [
+   "bar-vch-herts-barnet",
+   "bar-barnet-battlefield-project-2015-2018"
+  ],
+  "preexisting": true
+ },
+ {
+  "id": "hadley-village",
+  "label": "Hadley village",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.6616,
+   "lon": -0.1953,
+   "rx": 150,
+   "rz": 60,
+   "bearing": 100
+  },
+  "spacing": 30,
+  "fill": 0.4,
+  "gridBearing": 100,
+  "grow": [
+   1400,
+   1400
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "A small, partly green-edge village near the church. Inhabitants of Hadley are named in the 14th century (a William atte Green in 1345) and timber-framed cottages from Hadley Green contained 15th-century work, so some houses stood here in 1471; how many and exactly where is unknown. The later rows along the north and east of the green may be encroachments made after the battle, so they are not shown.",
+  "sources": [
+   "bar-vch-middx-monken-hadley-intro",
+   "bar-barnet-battlefield-project-2015-2018"
+  ],
+  "preexisting": true
+ },
+ {
+  "id": "kitts-end",
+  "label": "Kitts End hamlet",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.6722,
+   "lon": -0.2026,
+   "rx": 40,
+   "rz": 110,
+   "bearing": 140
+  },
+  "spacing": 34,
+  "fill": 0.35,
+  "gridBearing": 140,
+  "grow": [
+   1400,
+   1400
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "A few houses on the west side of the St Albans road. Kitts (Kicks) End is first named in 1479, eight years after the battle; the report accepts that it existed by then but says its extent is unknown and that it may have lain only along the west side of the road. Showing it from 1400 is an assumption. The large coaching hamlet with eight inns belongs to the 17th and 18th centuries and was later swallowed by Wrotham Park.",
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-vch-middx-south-mimms-intro"
+  ],
+  "preexisting": true
+ },
+ {
+  "id": "kicks-end-heath",
+  "label": "Heath on Kicks End Common",
+  "style": "scrub",
+  "shape": {
+   "type": "ref",
+   "polygon": "kicks-end-common"
+  },
+  "spacing": 30,
+  "fill": 0.18,
+  "grow": [
+   1400,
+   1400
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "Rough heath and furze standing for the open common between the two roads, called Kitts End Heath in 1479 and inclosed in 1781. The common was open in 1471 and was probably larger than later maps show; its vegetation and exact bounds are not recorded.",
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-vch-middx-south-mimms-intro"
+  ],
+  "preexisting": true
+ },
+ {
+  "id": "hadley-green-rough",
+  "label": "Rough ground on Hadley Green",
+  "style": "scrub",
+  "shape": {
+   "type": "ref",
+   "polygon": "hadley-green"
+  },
+  "spacing": 36,
+  "fill": 0.1,
+  "grow": [
+   1400,
+   1400
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "A light scatter of scrub on the old common of Hadley, a grazed green crossed by the main road and never part of Enfield Chase. Its medieval extent probably reached further north-east, opening into the Chase; the outline used is the modern green.",
+  "sources": [
+   "bar-vch-middx-monken-hadley-intro",
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-wikipedia-hadley-green"
+  ],
+  "preexisting": true
+ },
+ {
+  "id": "chase-wood-pasture",
+  "label": "Wood-pasture on the edge of Enfield Chase",
+  "style": "scrub",
+  "shape": {
+   "type": "ref",
+   "polygon": "chase-west-edge"
+  },
+  "spacing": 44,
+  "fill": 0.14,
+  "grow": [
+   1400,
+   1400
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "Open pasture with scattered thorn and trees east of the Chase boundary. A map of 1701 shows this western fringe of the Chase almost bare of coppices, and the report suggests that may reflect its late medieval character; nothing records it directly for 1471.",
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018"
+  ],
+  "preexisting": true
+ }
+]

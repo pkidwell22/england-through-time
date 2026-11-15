@@ -1,0 +1,520 @@
+[
+ {
+  "year": -4000,
+  "label": "Farming reaches Britain",
+  "note": "Around 4000 BCE; the date is a rounded convention."
+ },
+ {
+  "year": -3650,
+  "label": "Long barrows and causewayed enclosures",
+  "note": "West Kennet, Windmill Hill, Hambledon Hill and the first enclosure at Maiden Castle (about 5,500 years ago).",
+  "sources": [
+   "nat-eh-maiden-castle"
+  ]
+ },
+ {
+  "year": -3000,
+  "label": "Stonehenge: first ditch and bank",
+  "note": "About 3000 BCE.",
+  "sources": [
+   "nat-eh-stonehenge"
+  ]
+ },
+ {
+  "year": -2850,
+  "label": "Avebury henge begun",
+  "note": "Built and altered from about 2850 to about 2200 BCE.",
+  "sources": [
+   "nat-eh-avebury"
+  ]
+ },
+ {
+  "year": -2600,
+  "label": "Deep flint mining begins at Grime's Graves",
+  "note": "About 2600 to 2100 BCE.",
+  "sources": [
+   "nat-eh-grimes-graves"
+  ]
+ },
+ {
+  "year": -2500,
+  "label": "Sarsens and bluestones raised at Stonehenge",
+  "note": "About 2500 BCE.",
+  "sources": [
+   "nat-eh-stonehenge"
+  ]
+ },
+ {
+  "year": -2400,
+  "label": "Silbury Hill built; first metal and Beaker pottery",
+  "note": "The mound was raised between about 2470 and 2350 BCE. Copper, gold and Beaker burials appear in Britain at about the same time.",
+  "sources": [
+   "nat-eh-silbury"
+  ]
+ },
+ {
+  "year": -2049,
+  "label": "Holme timber circle (Seahenge) built",
+  "note": "Timbers felled in 2049 BCE by tree-ring dating."
+ },
+ {
+  "year": -1500,
+  "label": "Fields and farmsteads divide the land",
+  "note": "From about 1500 BCE; the last digging at Stonehenge dates to 1800-1500 BCE.",
+  "sources": [
+   "nat-eh-stonehenge"
+  ]
+ },
+ {
+  "year": -1300,
+  "label": "Flag Fen causeway built",
+  "note": "In stages between about 1365 and 967 BCE.",
+  "sources": [
+   "nat-wp-flag-fen"
+  ]
+ },
+ {
+  "year": -800,
+  "label": "Iron working begins",
+  "note": "A conventional date for the start of the Iron Age."
+ },
+ {
+  "year": -550,
+  "label": "First hillfort at Danebury",
+  "note": "About 550 BCE; hillfort building begins across southern Britain around 600 BCE.",
+  "sources": [
+   "nat-wp-danebury",
+   "nat-eh-maiden-castle"
+  ]
+ },
+ {
+  "year": -400,
+  "label": "Great developed hillforts",
+  "note": "Maiden Castle is trebled in size about 400 BCE.",
+  "sources": [
+   "nat-eh-maiden-castle"
+  ]
+ },
+ {
+  "year": -100,
+  "label": "Cross-Channel trade through Hengistbury Head",
+  "note": "Italian wine reaches Britain; most amphorae predate 50 BCE.",
+  "sources": [
+   "nat-wp-hengistbury"
+  ]
+ },
+ {
+  "year": -55,
+  "label": "Julius Caesar's first expedition",
+  "note": "A second and larger expedition followed in 54 BCE.",
+  "sources": [
+   "nat-wp-roman-britain"
+  ]
+ },
+ {
+  "year": -20,
+  "label": "Calleva and Camulodunon founded",
+  "note": "Coin-issuing kingdoms in the south-east; Calleva was established about 20-10 BCE.",
+  "sources": [
+   "nat-eh-silchester",
+   "nat-wp-camulodunum"
+  ]
+ },
+ {
+  "year": 43,
+  "label": "Roman invasion under Claudius",
+  "note": "The army is widely believed to have landed at Richborough.",
+  "sources": [
+   "nat-eh-richborough",
+   "nat-wp-roman-britain"
+  ]
+ },
+ {
+  "year": 49,
+  "label": "Colonia founded at Colchester",
+  "note": "The first Roman city in Britain.",
+  "sources": [
+   "nat-wp-camulodunum"
+  ]
+ },
+ {
+  "year": 60,
+  "label": "Boudica's revolt",
+  "note": "60 or 61 CE: Colchester, London and Verulamium burned.",
+  "sources": [
+   "nat-wp-camulodunum",
+   "nat-wp-verulamium",
+   "nat-wp-roman-britain"
+  ]
+ },
+ {
+  "year": 71,
+  "label": "Legionary fortress founded at York",
+  "sources": [
+   "nat-wp-eboracum"
+  ]
+ },
+ {
+  "year": 122,
+  "label": "Hadrian's Wall begun",
+  "sources": [
+   "nat-eh-housesteads"
+  ]
+ },
+ {
+  "year": 197,
+  "label": "Britain divided into two provinces",
+  "note": "Britannia Superior and Inferior; the date lies between about 197 and 213.",
+  "sources": [
+   "nat-wp-roman-britain"
+  ]
+ },
+ {
+  "year": 211,
+  "label": "Emperor Septimius Severus dies at York",
+  "sources": [
+   "nat-wp-eboracum"
+  ]
+ },
+ {
+  "year": 286,
+  "label": "Carausius seizes Britain",
+  "note": "A breakaway 'British empire' until 296; the Saxon Shore forts belong to these decades.",
+  "sources": [
+   "nat-wp-roman-britain",
+   "nat-eh-richborough",
+   "nat-eh-pevensey"
+  ]
+ },
+ {
+  "year": 306,
+  "label": "Constantine proclaimed emperor at York",
+  "sources": [
+   "nat-wp-eboracum"
+  ]
+ },
+ {
+  "year": 367,
+  "label": "The 'barbarian conspiracy'",
+  "note": "Concerted attacks by Picts, Scots and Saxons; order restored by Count Theodosius.",
+  "sources": [
+   "nat-wp-roman-britain"
+  ]
+ },
+ {
+  "year": 410,
+  "label": "End of Roman rule",
+  "note": "About 410; no single event is securely recorded.",
+  "sources": [
+   "nat-wp-roman-britain"
+  ]
+ },
+ {
+  "year": 597,
+  "label": "Augustine's mission reaches Kent",
+  "sources": [
+   "nat-wp-kent"
+  ]
+ },
+ {
+  "year": 625,
+  "label": "Ship burial at Sutton Hoo",
+  "note": "About 625, dated by its coins.",
+  "sources": [
+   "nat-nt-sutton-hoo"
+  ]
+ },
+ {
+  "year": 635,
+  "label": "Aidan founds Lindisfarne",
+  "sources": [
+   "nat-eh-lindisfarne"
+  ]
+ },
+ {
+  "year": 664,
+  "label": "Synod of Whitby",
+  "sources": [
+   "nat-eh-whitby"
+  ]
+ },
+ {
+  "year": 735,
+  "label": "Death of Bede at Jarrow",
+  "note": "His Ecclesiastical History, finished about 731, is the main source for the two centuries before.",
+  "sources": [
+   "nat-eh-jarrow"
+  ]
+ },
+ {
+  "year": 757,
+  "label": "Offa becomes king of Mercia",
+  "note": "Reigned 757-796.",
+  "sources": [
+   "nat-wp-mercia"
+  ]
+ },
+ {
+  "year": 793,
+  "label": "Vikings raid Lindisfarne",
+  "note": "8 June 793.",
+  "sources": [
+   "nat-eh-lindisfarne"
+  ]
+ },
+ {
+  "year": 825,
+  "label": "Battle of Ellendun",
+  "note": "Wessex overtakes Mercia; Kent, Sussex and Essex pass to Egbert.",
+  "sources": [
+   "nat-wp-wessex",
+   "nat-wp-kent",
+   "nat-wp-essex"
+  ]
+ },
+ {
+  "year": 865,
+  "label": "The Great Army lands in East Anglia",
+  "note": "York falls in 866/7, East Anglia in 869, eastern Mercia in 877.",
+  "sources": [
+   "nat-wp-danelaw",
+   "nat-wp-scandinavian-york",
+   "nat-wp-mercia"
+  ]
+ },
+ {
+  "year": 878,
+  "label": "Battle of Edington",
+  "note": "Alfred defeats Guthrum.",
+  "sources": [
+   "nat-wp-edington"
+  ]
+ },
+ {
+  "year": 886,
+  "label": "Alfred and Guthrum's treaty",
+  "note": "Made between 886 and 890; Alfred also occupied London in 886.",
+  "sources": [
+   "nat-wp-danelaw"
+  ]
+ },
+ {
+  "year": 917,
+  "label": "Edward the Elder and Aethelflaed retake the southern Danelaw",
+  "note": "East Anglia submits in 917-918; Mercia is annexed to Wessex in 918.",
+  "sources": [
+   "nat-wp-danelaw",
+   "nat-wp-east-anglia",
+   "nat-wp-mercia"
+  ]
+ },
+ {
+  "year": 927,
+  "label": "Aethelstan takes York: a kingdom of all the English",
+  "sources": [
+   "nat-wp-aethelstan"
+  ]
+ },
+ {
+  "year": 937,
+  "label": "Battle of Brunanburh",
+  "note": "Site unknown.",
+  "sources": [
+   "nat-wp-brunanburh"
+  ]
+ },
+ {
+  "year": 954,
+  "label": "Eric Bloodaxe expelled from York",
+  "note": "End of Scandinavian kingship in England.",
+  "sources": [
+   "nat-wp-scandinavian-york"
+  ]
+ },
+ {
+  "year": 991,
+  "label": "Battle of Maldon",
+  "note": "Renewed Viking attacks and the first payments of tribute.",
+  "sources": [
+   "nat-wp-maldon"
+  ]
+ },
+ {
+  "year": 1016,
+  "label": "Battle of Brentford; Cnut wins the kingdom",
+  "note": "Edmund Ironside's victory at Brentford was followed by defeat at Assandun and his death; Cnut became king of all England.",
+  "sources": [
+   "nat-wp-brentford-1016",
+   "nat-wp-wessex"
+  ]
+ },
+ {
+  "year": 1066,
+  "label": "Stamford Bridge and Hastings",
+  "note": "25 September and 14 October 1066: the Norman Conquest.",
+  "sources": [
+   "nat-wp-stamford-bridge",
+   "nat-eh-battle-abbey"
+  ]
+ },
+ {
+  "year": 1069,
+  "label": "Harrying of the North",
+  "note": "Winter of 1069-70.",
+  "sources": [
+   "nat-eh-lindisfarne"
+  ]
+ },
+ {
+  "year": 1086,
+  "label": "Domesday survey",
+  "note": "Ordered at Christmas 1085; more than 13,000 places, but not London, Winchester, Durham or Northumberland.",
+  "sources": [
+   "nat-tna-domesday"
+  ]
+ },
+ {
+  "year": 1092,
+  "label": "William II takes Carlisle",
+  "note": "Cumbria is brought into the English kingdom."
+ },
+ {
+  "year": 1135,
+  "label": "Death of Henry I: the Anarchy",
+  "note": "Civil war between Stephen and Matilda until 1153."
+ },
+ {
+  "year": 1170,
+  "label": "Murder of Thomas Becket at Canterbury"
+ },
+ {
+  "year": 1209,
+  "label": "Scholars leave Oxford for Cambridge",
+  "sources": [
+   "nat-cam-early-records"
+  ]
+ },
+ {
+  "year": 1215,
+  "label": "Magna Carta",
+  "note": "Sealed at Runnymede, 15 June 1215."
+ },
+ {
+  "year": 1220,
+  "label": "Salisbury Cathedral founded",
+  "note": "The see moves down from Old Sarum.",
+  "sources": [
+   "nat-eh-old-sarum"
+  ]
+ },
+ {
+  "year": 1265,
+  "label": "Battle of Evesham",
+  "note": "Simon de Montfort, whose parliament that year included townsmen, is killed."
+ },
+ {
+  "year": 1284,
+  "label": "Statute of Rhuddlan",
+  "note": "Follows Edward I's conquest of Wales in 1282-3.",
+  "sources": [
+   "nat-wp-welsh-marches"
+  ]
+ },
+ {
+  "year": 1290,
+  "label": "Expulsion of the Jews",
+  "sources": [
+   "nat-wp-winchester"
+  ]
+ },
+ {
+  "year": 1315,
+  "label": "Great Famine",
+  "note": "Harvest failures of 1315-17."
+ },
+ {
+  "year": 1348,
+  "label": "Black Death",
+  "note": "Arrived at Melcombe (Weymouth) in June 1348 and had crossed the country by the end of 1349; 40-60% mortality is widely accepted.",
+  "sources": [
+   "nat-wp-black-death"
+  ]
+ },
+ {
+  "year": 1362,
+  "label": "The 'Great Drowning of Men'",
+  "note": "A January storm surge finishes Ravenser Odd and much of Dunwich; plague had returned in 1361-2.",
+  "sources": [
+   "nat-wp-ravenser-odd",
+   "nat-wp-dunwich",
+   "nat-wp-black-death"
+  ]
+ },
+ {
+  "year": 1377,
+  "label": "First poll tax",
+  "note": "The best medieval evidence for the relative size of English towns.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "year": 1381,
+  "label": "Peasants' Revolt"
+ },
+ {
+  "year": 1455,
+  "label": "First Battle of St Albans",
+  "note": "Opening of the Wars of the Roses."
+ },
+ {
+  "year": 1461,
+  "label": "Battle of Towton",
+  "note": "29 March 1461.",
+  "sources": [
+   "nat-wp-towton"
+  ]
+ },
+ {
+  "year": 1471,
+  "label": "Battles of Barnet and Tewkesbury",
+  "note": "14 April and 4 May 1471: Edward IV recovers the throne.",
+  "sources": [
+   "nat-wp-barnet",
+   "nat-wp-tewkesbury"
+  ]
+ },
+ {
+  "year": 1485,
+  "label": "Battle of Bosworth",
+  "note": "22 August 1485: Henry VII, the first Tudor king.",
+  "sources": [
+   "nat-wp-bosworth"
+  ]
+ },
+ {
+  "year": 1513,
+  "label": "Battle of Flodden"
+ },
+ {
+  "year": 1536,
+  "label": "Dissolution of the monasteries begins; union with Wales",
+  "note": "Lesser houses suppressed from 1536, the greater by surrender in 1537-40; the Pilgrimage of Grace rises against it. The Laws in Wales Acts (1535-42) end the marcher lordships.",
+  "sources": [
+   "nat-wp-dissolution",
+   "nat-wp-welsh-marches"
+  ]
+ },
+ {
+  "year": 1588,
+  "label": "Spanish Armada"
+ },
+ {
+  "year": 1603,
+  "label": "James VI of Scotland becomes James I of England"
+ },
+ {
+  "year": 1625,
+  "label": "Death of James I"
+ }
+]

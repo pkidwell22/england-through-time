@@ -1,0 +1,82 @@
+[
+ {
+  "id": "neolithic",
+  "name": "Neolithic: first farmers and great monuments",
+  "from": -4000,
+  "to": -2201,
+  "presetYear": -2500,
+  "blurb": "Farming arrives about 4000 BCE. Communities clear patches of woodland, mine flint and quarry stone axes, and build long barrows, causewayed enclosures and, after 3000 BCE, henges and stone circles. There are no towns and few permanent villages."
+ },
+ {
+  "id": "bronze-age",
+  "name": "Bronze Age",
+  "from": -2200,
+  "to": -801,
+  "presetYear": -1500,
+  "blurb": "Metalworking, round barrows and, from about 1500 BCE, a countryside divided into fields and farmsteads. The great monuments fall out of use; offerings are made in rivers and fens instead."
+ },
+ {
+  "id": "iron-age",
+  "name": "Iron Age",
+  "from": -800,
+  "to": 42,
+  "presetYear": -100,
+  "blurb": "Hillforts dominate much of the south and west until about 100 BCE. In the last century before the conquest, coin-issuing kingdoms and large lowland centres (oppida) appear in the south-east, in contact with Roman Gaul. The peoples named on the map are those recorded by Roman writers."
+ },
+ {
+  "id": "roman",
+  "name": "Roman Britain",
+  "from": 43,
+  "to": 410,
+  "presetYear": 150,
+  "blurb": "Conquest from 43 CE brings forts, roads and a network of towns. The north and west stay under the army behind Hadrian's Wall. The province is split in two about 200 and into four about 300; towns shrink in the 4th century and Roman government ends about 410."
+ },
+ {
+  "id": "early-anglo-saxon",
+  "name": "Early Anglo-Saxon kingdoms",
+  "from": 411,
+  "to": 792,
+  "presetYear": 700,
+  "blurb": "Towns empty. English-speaking kingdoms form in the east and south while British kingdoms hold the west. Christianity returns from Rome (597) and Iona (635); by 700 there are monasteries, bishoprics and a few trading towns (wics), and Mercia is becoming the leading power."
+ },
+ {
+  "id": "viking-age",
+  "name": "Viking Age and the making of England",
+  "from": 793,
+  "to": 1065,
+  "presetYear": 900,
+  "blurb": "Raids from 793, then conquest: the Great Army destroys Northumbria, East Anglia and half of Mercia in 866-877. Wessex survives, fortifies its burhs and takes back the Danelaw. From 927 there is a single kingdom of the English, conquered in turn by Cnut in 1016."
+ },
+ {
+  "id": "norman-angevin",
+  "name": "Norman and Angevin England",
+  "from": 1066,
+  "to": 1215,
+  "presetYear": 1150,
+  "blurb": "The Norman Conquest replaces the ruling class and covers the country with castles, new cathedrals and monasteries. Domesday Book (1086) records it. Towns and population grow fast; Norman lords push into Wales and create the March."
+ },
+ {
+  "id": "later-medieval",
+  "name": "Later medieval England",
+  "from": 1216,
+  "to": 1484,
+  "presetYear": 1340,
+  "blurb": "Population peaks about 1300, with new towns, ports and universities. Then famine (1315-17) and the Black Death (1348-9) roughly halve it. Wales is conquered in 1282-3. War with Scotland and France is followed by the Wars of the Roses."
+ },
+ {
+  "id": "tudor",
+  "name": "Tudor England and Wales",
+  "from": 1485,
+  "to": 1602,
+  "presetYear": 1575,
+  "blurb": "The monasteries are dissolved (1536-40) and Wales is joined to England in law (1536-42). Population recovers; London grows far beyond every other town, cloth towns rise and some old cities decay."
+ },
+ {
+  "id": "jacobean",
+  "name": "Jacobean England and Wales",
+  "from": 1603,
+  "to": 1625,
+  "presetYear": 1616,
+  "blurb": "James VI of Scotland inherits the English crown in 1603. About four to five million people, most of them in villages; London holds perhaps one in twenty of them and Norwich, Bristol, York and Newcastle follow far behind."
+ }
+]

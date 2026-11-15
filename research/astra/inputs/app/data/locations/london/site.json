@@ -1,0 +1,621 @@
+{
+ "id": "london",
+ "name": "London and the Thames",
+ "subtitle": "One place within the land that became England, 4000 BCE \u2013 1625 CE",
+ "scopeNote": "This is a single anchor location: about 4.8 \u00d7 3 km around the City of London, Southwark and Westminster. It is not a visualisation of England as a whole. Most of the country changed on different timetables.",
+ "origin": {
+  "lat": 51.509,
+  "lon": -0.0865,
+  "note": "North end of medieval London Bridge (near St Magnus the Martyr). Local coordinates are metres east (x) and south (z) of this point."
+ },
+ "bounds": {
+  "xMin": -3300,
+  "xMax": 1500,
+  "zMin": -1500,
+  "zMax": 1500
+ },
+ "timeline": {
+  "start": -4000,
+  "end": 1625,
+  "scale": [
+   {
+    "year": -4000,
+    "u": 0
+   },
+   {
+    "year": -800,
+    "u": 0.06
+   },
+   {
+    "year": 43,
+    "u": 0.14
+   },
+   {
+    "year": 410,
+    "u": 0.36
+   },
+   {
+    "year": 1066,
+    "u": 0.56
+   },
+   {
+    "year": 1485,
+    "u": 0.8
+   },
+   {
+    "year": 1625,
+    "u": 1
+   }
+  ]
+ },
+ "river": {
+  "centreline": [
+   [
+    51.4805,
+    -0.127,
+    150,
+    130,
+    0.2
+   ],
+   [
+    51.4875,
+    -0.1265,
+    150,
+    130,
+    0.2
+   ],
+   [
+    51.4945,
+    -0.1235,
+    160,
+    130,
+    0.2
+   ],
+   [
+    51.5008,
+    -0.121,
+    230,
+    130,
+    0.3
+   ],
+   [
+    51.5062,
+    -0.1195,
+    260,
+    130,
+    0.3
+   ],
+   [
+    51.5086,
+    -0.1165,
+    190,
+    130,
+    0.4
+   ],
+   [
+    51.5098,
+    -0.11,
+    165,
+    135,
+    0.6
+   ],
+   [
+    51.5097,
+    -0.104,
+    160,
+    140,
+    0.8
+   ],
+   [
+    51.5088,
+    -0.0943,
+    120,
+    140,
+    1
+   ],
+   [
+    51.5079,
+    -0.0877,
+    125,
+    140,
+    1
+   ],
+   [
+    51.5062,
+    -0.076,
+    130,
+    140,
+    0.8
+   ],
+   [
+    51.5045,
+    -0.064,
+    140,
+    140,
+    0.5
+   ],
+   [
+    51.504,
+    -0.052,
+    140,
+    140,
+    0.5
+   ]
+  ],
+  "northBankSetback": [
+   {
+    "year": -4000,
+    "value": 110
+   },
+   {
+    "year": 50,
+    "value": 110
+   },
+   {
+    "year": 63,
+    "value": 104
+   },
+   {
+    "year": 102,
+    "value": 95
+   },
+   {
+    "year": 250,
+    "value": 75
+   },
+   {
+    "year": 1000,
+    "value": 72
+   },
+   {
+    "year": 1050,
+    "value": 64
+   },
+   {
+    "year": 1200,
+    "value": 42
+   },
+   {
+    "year": 1350,
+    "value": 18
+   },
+   {
+    "year": 1450,
+    "value": 6
+   },
+   {
+    "year": 1500,
+    "value": 0
+   }
+  ],
+  "southEmbankment": [
+   {
+    "year": -4000,
+    "value": 0
+   },
+   {
+    "year": 50,
+    "value": 0.08
+   },
+   {
+    "year": 200,
+    "value": 0.25
+   },
+   {
+    "year": 450,
+    "value": 0.12
+   },
+   {
+    "year": 1000,
+    "value": 0.2
+   },
+   {
+    "year": 1200,
+    "value": 0.5
+   },
+   {
+    "year": 1400,
+    "value": 0.85
+   },
+   {
+    "year": 1600,
+    "value": 1
+   }
+  ],
+  "note": "The 1625 bank lines are approximated from the modern river with the Victorian embankments removed. Excavated Roman quays (tree-ring dates 52, 63, c. 70, 102 CE and on to the mid 3rd century) advanced the north bank by roughly 35 m; the Roman riverside wall on the Thames Street line then stayed the landward limit, and the remaining ground was won piecemeal between about 1000 and 1500. No verified figure was found for the medieval advance, so the roughly 110 m total and its timing are modelling assumptions. The prehistoric and Roman south bank is modelled as tidal marsh with channels and gravel eyots (the reach was tidal by the Middle to Late Bronze Age); channel positions are illustrative, not mapped.",
+  "sources": [
+   "london-archaeologist-brigham-watson-regis-house",
+   "gresham-discovering-port-roman-london",
+   "britannia-brigham-late-roman-waterfront",
+   "rfla-roman-ad-43-410",
+   "history-london-port-roman-london-secondary",
+   "rfla-prehistory-research-framework-london",
+   "gresham-early-river-thames-iron",
+   "southwark-council-archaeology-southwark-prehistoric",
+   "london-museum-timeline-roman-london",
+   "lamas-saxon-origins-queenhithe-r",
+   "mola-medieval-c1066c1500-research-framework",
+   "hrp-tower-london-historic-environment",
+   "bho-stow-queene-hith-warde"
+  ]
+ },
+ "terrain": {
+  "hills": [
+   {
+    "name": "Cornhill",
+    "lat": 51.5132,
+    "lon": -0.085,
+    "height": 5,
+    "sigma": 360
+   },
+   {
+    "name": "Ludgate Hill",
+    "lat": 51.5138,
+    "lon": -0.099,
+    "height": 5,
+    "sigma": 330
+   },
+   {
+    "name": "Tower Hill",
+    "lat": 51.5095,
+    "lon": -0.0765,
+    "height": 2,
+    "sigma": 200
+   },
+   {
+    "name": "Thorney Island",
+    "lat": 51.4995,
+    "lon": -0.1275,
+    "height": 1.2,
+    "sigma": 170
+   }
+  ],
+  "valleys": [
+   {
+    "name": "Walbrook",
+    "path": [
+     [
+      51.519,
+      -0.0865
+     ],
+     [
+      51.516,
+      -0.0885
+     ],
+     [
+      51.5135,
+      -0.09
+     ],
+     [
+      51.5115,
+      -0.091
+     ],
+     [
+      51.5098,
+      -0.0915
+     ]
+    ],
+    "depth": 6,
+    "sigma": 70,
+    "fill": [
+     {
+      "year": 50,
+      "value": 0
+     },
+     {
+      "year": 400,
+      "value": 0.35
+     },
+     {
+      "year": 1300,
+      "value": 0.6
+     },
+     {
+      "year": 1500,
+      "value": 0.8
+     },
+     {
+      "year": 1600,
+      "value": 0.85
+     }
+    ]
+   },
+   {
+    "name": "Fleet",
+    "path": [
+     [
+      51.523,
+      -0.1055
+     ],
+     [
+      51.518,
+      -0.1052
+     ],
+     [
+      51.514,
+      -0.1047
+     ],
+     [
+      51.5112,
+      -0.1043
+     ]
+    ],
+    "depth": 8,
+    "sigma": 85
+   }
+  ],
+  "eyots": [
+   {
+    "name": "Southwark north island",
+    "lat": 51.5055,
+    "lon": -0.09,
+    "height": 2.4,
+    "sigma": 170
+   },
+   {
+    "name": "Southwark south island",
+    "lat": 51.5028,
+    "lon": -0.0925,
+    "height": 2.2,
+    "sigma": 150
+   },
+   {
+    "name": "Horsleydown eyot",
+    "lat": 51.5035,
+    "lon": -0.0765,
+    "height": 2,
+    "sigma": 160
+   },
+   {
+    "name": "Bermondsey eyot",
+    "lat": 51.4985,
+    "lon": -0.076,
+    "height": 2.4,
+    "sigma": 220
+   }
+  ],
+  "note": "Relief is an analytic approximation (two low gravel hills divided by the Walbrook, the Fleet valley to the west, a low marshy south bank) at true vertical scale. It is not derived from a survey or borehole model.",
+  "sources": [
+   "rfla-prehistory-research-framework-london",
+   "gresham-early-river-thames-iron",
+   "southwark-council-archaeology-southwark-prehistoric",
+   "london-museum-timeline-roman-london",
+   "gresham-discovering-port-roman-london",
+   "london-archaeologist-brigham-watson-regis-house",
+   "southwark-council-archaeology-southwark-roman",
+   "rfla-roman-ad-43-410"
+  ]
+ },
+ "polygons": {
+  "walled-city": [
+   [
+    51.5084,
+    -0.0768
+   ],
+   [
+    51.51,
+    -0.0762
+   ],
+   [
+    51.5135,
+    -0.0764
+   ],
+   [
+    51.515,
+    -0.079
+   ],
+   [
+    51.5158,
+    -0.0812
+   ],
+   [
+    51.5172,
+    -0.085
+   ],
+   [
+    51.5177,
+    -0.0886
+   ],
+   [
+    51.518,
+    -0.0932
+   ],
+   [
+    51.5182,
+    -0.0963
+   ],
+   [
+    51.5166,
+    -0.0968
+   ],
+   [
+    51.516,
+    -0.099
+   ],
+   [
+    51.5154,
+    -0.1012
+   ],
+   [
+    51.5139,
+    -0.1023
+   ],
+   [
+    51.5105,
+    -0.1028
+   ],
+   [
+    51.5099,
+    -0.096
+   ],
+   [
+    51.5091,
+    -0.09
+   ],
+   [
+    51.5087,
+    -0.083
+   ]
+  ]
+ },
+ "woodland": {
+  "cover": [
+   {
+    "year": -4000,
+    "value": 1
+   },
+   {
+    "year": -3000,
+    "value": 0.9
+   },
+   {
+    "year": -1500,
+    "value": 0.55
+   },
+   {
+    "year": -800,
+    "value": 0.4
+   },
+   {
+    "year": -100,
+    "value": 0.25
+   },
+   {
+    "year": 43,
+    "value": 0.2
+   },
+   {
+    "year": 200,
+    "value": 0.12
+   },
+   {
+    "year": 550,
+    "value": 0.2
+   },
+   {
+    "year": 900,
+    "value": 0.15
+   },
+   {
+    "year": 1300,
+    "value": 0.06
+   },
+   {
+    "year": 1625,
+    "value": 0.05
+   }
+  ],
+  "note": "Illustrative trend only: closed woodland in the early Neolithic, progressive clearance from the Bronze Age, a largely open farmed landscape by the late Iron Age, some regeneration after the Roman period. The percentages are not measurements.",
+  "sources": [
+   "rfla-prehistory-research-framework-london",
+   "gresham-early-river-thames-iron",
+   "southwark-council-archaeology-southwark-prehistoric",
+   "london-museum-timeline-roman-london",
+   "gresham-discovering-port-roman-london",
+   "london-archaeologist-brigham-watson-regis-house",
+   "cup-bramcote-green-bermondsey-bronze"
+  ]
+ },
+ "district": {
+  "name": "London Bridge bridgehead",
+  "bounds": {
+   "xMin": -330,
+   "xMax": 240,
+   "zMin": -260,
+   "zMax": 420
+  },
+  "note": "The realism benchmark: the river crossing and both bridgeheads, modelled in more detail than the rest of the scene. Everything outside this rectangle is a schematic overview."
+ },
+ "views": [
+  {
+   "id": "overview",
+   "name": "Whole area",
+   "position": [
+    -500,
+    1900,
+    2900
+   ],
+   "target": [
+    -700,
+    0,
+    -150
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "city",
+   "name": "City from the south",
+   "position": [
+    -250,
+    520,
+    1350
+   ],
+   "target": [
+    -250,
+    0,
+    -350
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "westminster",
+   "name": "Westminster & Strand",
+   "position": [
+    -1900,
+    520,
+    1900
+   ],
+   "target": [
+    -2500,
+    0,
+    500
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "bridge",
+   "name": "Bridge from Bankside",
+   "position": [
+    -520,
+    95,
+    330
+   ],
+   "target": [
+    -20,
+    12,
+    110
+   ],
+   "scope": "district"
+  },
+  {
+   "id": "bridge-low",
+   "name": "Bridge from the water",
+   "position": [
+    240,
+    14,
+    210
+   ],
+   "target": [
+    -60,
+    14,
+    120
+   ],
+   "scope": "district"
+  },
+  {
+   "id": "bridgehead",
+   "name": "North bridgehead",
+   "position": [
+    150,
+    70,
+    130
+   ],
+   "target": [
+    -10,
+    8,
+    -40
+   ],
+   "scope": "district"
+  }
+ ]
+}

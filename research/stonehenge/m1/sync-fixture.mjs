@@ -1,0 +1,11 @@
+import fs from "node:fs";
+fs.writeFileSync("sync-stones.json", JSON.stringify([
+ { id: "1", set: "sarsen-circle", type: "sarsen", role: "upright", az: 10, r: 15.4, w: 2.1, t: 1.1, h: 4.1, dressed: true, tenons: true, built: "standing", state1625: "standing", sources: ["x"], notes: "n" },
+ { id: "2", set: "sarsen-circle", type: "sarsen", role: "upright", az: 22, r: 15.4, w: 2.1, t: 1.1, h: 4.1, built: "absent", state1625: "missing" },
+ { id: "3", set: "sarsen-circle", type: "sarsen", role: "upright", az: 34, r: 15.4, w: 2.1, t: 1.1, h: 4.1, built: "standing", state1625: "fallen", fallToward: 200, pieces: 2 },
+ { id: "4", set: "heel", type: "sarsen", role: "outlier", az: 51, r: 77, w: 2.4, t: 2.1, h: 4.7, built: "standing", state1625: "leaning", lean: 25, leanToward: 231 },
+], null, 1));
+fs.writeFileSync("sync-landmarks.json", JSON.stringify([{ id: "a", phases: [
+ { label: "p", model: { kind: "megaliths", catalogue: { sets: ["sarsen-circle", "heel"], state: "built" }, surface: "fresh" } },
+ { label: "q", model: { kind: "megaliths", catalogue: { sets: ["sarsen-circle", "heel"], state: "1625" }, stones: [] } },
+] }], null, 1));

@@ -1,0 +1,15 @@
+[
+ {
+  "id": "clinker-skiff",
+  "name": "Small clinker boat (fishing)",
+  "from": 600,
+  "to": 1625,
+  "dateNote": "A Thames fishery at Brentford existed by 996, when the king granted half of it to Winchester. Small clinker rowing boats are the ordinary craft of the medieval and Tudor river (see the London catalogue for their evidence).",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "An open rowing boat of a few metres, built clinker in the northern tradition, used for fishing and ferrying.",
+  "uncertainty": "The fishery is documented; its boats are not. Size and form are generic for the tradition.",
+  "sources": ["bre-vch-mdx7-econ"],
+  "model": { "hull": "double", "build": "clinker", "len": 5.2, "beam": 1.5, "depth": 0.6, "sheer": 0.3, "bow": 0.45, "stern": 0.55, "rudder": "none", "oars": 1, "hullMat": "timber", "passesBridge": true, "draft": 0.4, "crew": 1 }
+ }
+]

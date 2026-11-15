@@ -1,0 +1,3000 @@
+{
+  "summary": {
+    "when": "2026-11-14T23:44:54.702Z",
+    "base": "http://127.0.0.1:4310",
+    "passed": 290,
+    "failed": 0,
+    "total": 290
+  },
+  "results": [
+    {
+      "group": "brentford 1 load",
+      "name": "no page errors / console errors / failed requests on load (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "no console error for a missing /favicon.ico",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "dataset validator reports no problems",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "engine ready, dataset exposed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "site id is brentford",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "opens at the site's initial year (1016 CE)",
+      "pass": true,
+      "detail": "1016 CE"
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "one WebGL canvas in the stage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "canvas is non-blank",
+      "pass": true,
+      "detail": "{\"distinct\":193,\"lumRange\":196}"
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "canvas is non-blank at 950 CE",
+      "pass": true,
+      "detail": "{\"distinct\":186,\"lumRange\":113}"
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "canvas is non-blank at 1100 CE",
+      "pass": true,
+      "detail": "{\"distinct\":196,\"lumRange\":112.66666666666666}"
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "WebGL context alive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 1 load",
+      "name": "fps readout shows a number",
+      "pass": true,
+      "detail": "60 fps"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "slider min → \"950 CE\"",
+      "pass": true,
+      "detail": "950 CE"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "t at min is 950",
+      "pass": true,
+      "detail": "950"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "slider max → \"1100 CE\"",
+      "pass": true,
+      "detail": "1100 CE"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "t at max is 1100",
+      "pass": true,
+      "detail": "1100"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "timeline end labels read 950 CE and 1100 CE",
+      "pass": true,
+      "detail": "[\"950 CE\",\"\",\"1100 CE\"]"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "setT(99999) clamps to 1100 CE",
+      "pass": true,
+      "detail": "1100"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "setT(-99999) clamps to 950 CE",
+      "pass": true,
+      "detail": "950"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "typing \"9999\" clamps to 1100 CE",
+      "pass": true,
+      "detail": "1100 CE"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "typing \"100 BCE\" clamps to 950 CE",
+      "pass": true,
+      "detail": "950 CE"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "typed 1016 works",
+      "pass": true,
+      "detail": "1016 CE"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "slider 0 → 950 CE; slider 1 → 1100 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "slider at the middle anchor (u=0.5) reads 1016 CE",
+      "pass": true,
+      "detail": "1016 CE"
+    },
+    {
+      "group": "brentford 2 timeline endpoints",
+      "name": "setT(NaN) is ignored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 3 era presets",
+      "name": "2 eras defined: late-saxon, early-norman",
+      "pass": true,
+      "detail": "[\"late-saxon\",\"early-norman\"]"
+    },
+    {
+      "group": "brentford 3 era presets",
+      "name": "era-late-saxon → 1016 CE, \"Late Anglo-Saxon Brentford\"",
+      "pass": true,
+      "detail": "readout=1016 CE era=Late Anglo-Saxon Brentford"
+    },
+    {
+      "group": "brentford 3 era presets",
+      "name": "era-late-saxon button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 3 era presets",
+      "name": "era-early-norman → 1086 CE, \"After the Conquest\"",
+      "pass": true,
+      "detail": "readout=1086 CE era=After the Conquest"
+    },
+    {
+      "group": "brentford 3 era presets",
+      "name": "era-early-norman button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 3 era presets",
+      "name": "era boundaries (first/last year of each era) show the right era",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "play starts forwards",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "5 yr/s plays at about 5 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured 4.99"
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "play-pause shows pause state while playing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "pause holds the year",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "25 yr/s plays at about 25 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured 24.95"
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "reverse decreases the year",
+      "pass": true,
+      "detail": "measured -24.94"
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "playback stops at 1100 CE",
+      "pass": true,
+      "detail": "playing=false t=1100 readout=1100 CE"
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "pressing play at the end restarts from 950 CE",
+      "pass": true,
+      "detail": "playing=true t=962.5"
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "reverse playback stops at 950 CE",
+      "pass": true,
+      "detail": "playing=false t=950"
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "pressing reverse at the start restarts from 1100 CE",
+      "pass": true,
+      "detail": "t=1087.5"
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "Auto 1× advances",
+      "pass": true,
+      "detail": "{\"years\":1.1198880000013105,\"rate\":1.117206703805632}"
+    },
+    {
+      "group": "brentford 4 playback",
+      "name": "space bar toggles play/pause",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) after slider change",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=976 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) after era preset",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1016 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) after typed year",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=970 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) after playback",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=993 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) at 950 CE",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=950 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[ford-middlesex] camera unchanged (<1 m) after slider change",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=976 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[ford-middlesex] camera unchanged (<1 m) after era preset",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1016 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[ford-middlesex] camera unchanged (<1 m) after typed year",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=970 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[ford-middlesex] camera unchanged (<1 m) after playback",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=993 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "[ford-middlesex] camera unchanged (<1 m) at 950 CE",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=950 CE"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "reset view returns to the first view in data (target snapped to ground allowed, <5 m)",
+      "pass": true,
+      "detail": "diff=0.000 cam={\"position\":[100.00000000000003,1250.0000000000005,1900.0000000000005],\"target\":[0,0,-50],\"mode\":\"orbit\"} declared={\"position\":[100,1250,1900],\"target\":[0,0,-50]}"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"overview\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=0.000 declared y=1250 actual y=1250.00"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"overview\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=1250.0000000000005"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"ford-middlesex\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=0.000 declared y=60 actual y=60.00"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"ford-middlesex\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=59.99999999999996"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"ford-surrey\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=0.000 declared y=55 actual y=55.00"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"ford-surrey\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=54.99999999999992"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"brent-mouth\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=0.000 declared y=140 actual y=140.00"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"brent-mouth\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=139.99999999999994"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"water-low\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=6.545 declared y=6 actual y=12.54"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "view \"water-low\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=12.544772835759952"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "mouse drag orbits the camera",
+      "pass": true,
+      "detail": "diff=1124.38"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "walk mode engages with the camera at eye height",
+      "pass": true,
+      "detail": "{\"position\":[0,3.0617715294403127,-50],\"target\":[-1.7918667648954072,3.0617715294403127,-89.95984501342396],\"mode\":\"walk\"}"
+    },
+    {
+      "group": "brentford 5 camera preservation",
+      "name": "back to orbit mode",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "exactly one episode",
+      "pass": true,
+      "detail": "[\"brentford-1016\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "episode \"brentford-1016\" has year 1016",
+      "pass": true,
+      "detail": "1016"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "Events menu lists the episode with its year",
+      "pass": true,
+      "detail": "[\"Go to an event…\",\"Battle of Brentford (1016 CE)\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "choosing the episode jumps to 1016 CE",
+      "pass": true,
+      "detail": "1016 CE t=1016.5"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "episode panel opens with the episode name",
+      "pass": true,
+      "detail": "Battle of Brentford"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "panel lists Well evidenced / Tradition or late sources / Not known",
+      "pass": true,
+      "detail": "[\"Well evidenced\",\"Tradition or late sources\",\"Not known (invented in any staging)\",\"Sources\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "attested / tradition / unknown lists match the data counts",
+      "pass": true,
+      "detail": "{\"panel\":[{\"cls\":\"facts att\",\"n\":6},{\"cls\":\"facts trad\",\"n\":6},{\"cls\":\"facts unk\",\"n\":8}],\"data\":[6,6,8]}"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "episode panel shows evidence/confidence badges and sources",
+      "pass": true,
+      "detail": "{\"badges\":[\"Evidence: documents\",\"Confidence: medium\"],\"links\":7,\"sources\":7}"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "episode date note is shown",
+      "pass": true,
+      "detail": "1016; day and month not recorded. In the Chronicle it comes 'within two nights' of Edmund's relief of London, after Cnut"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "?event=<id> deep link jumps to the battle year and opens its panel",
+      "pass": true,
+      "detail": "1016 CE / Battle of Brentford"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "6 staged landmarks (troops / zone-marker) exist",
+      "pass": true,
+      "detail": "marker-crossing, marker-crossing-alt, marker-danish-position, troops-english-main, troops-english-advance, troops-danish"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing: absent in 1015, present in 1016, absent in 1017",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing: absent at 950 CE and 1100 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing-alt: absent in 1015, present in 1016, absent in 1017",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing-alt: absent at 950 CE and 1100 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-danish-position: absent in 1015, present in 1016, absent in 1017",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-danish-position: absent at 950 CE and 1100 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-main: absent in 1015, present in 1016, absent in 1017",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-main: absent at 950 CE and 1100 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-advance: absent in 1015, present in 1016, absent in 1017",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-advance: absent at 950 CE and 1100 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-danish: absent in 1015, present in 1016, absent in 1017",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-danish: absent at 950 CE and 1100 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "scene graph: staged landmarks hidden in 1015",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "scene graph: staged landmarks visible in 1016",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "scene graph: staged landmarks hidden in 1017",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=216 chars links=2"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing-alt: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing-alt: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-crossing-alt: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=199 chars links=2"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-danish-position: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-danish-position: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "marker-danish-position: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=253 chars links=3"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-main: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-main: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-main: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=328 chars links=1"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-advance: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-advance: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-english-advance: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=366 chars links=2"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-danish: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-danish: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "troops-danish: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=359 chars links=2"
+    },
+    {
+      "group": "brentford 7 data validity",
+      "name": "landmarks: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 7 data validity",
+      "name": "zones: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 7 data validity",
+      "name": "episodes: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 7 data validity",
+      "name": "sources: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 7 data validity",
+      "name": "years: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 7 data validity",
+      "name": "tiers: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 7 data validity",
+      "name": "all 15 landmark info panels render name, evidence badge, phases and sources",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 7 data validity",
+      "name": "all 4 zone info panels render",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 8 scope badge",
+      "name": "site declares no benchmark district (whole site schematic)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 8 scope badge",
+      "name": "scope badge in view (reset) reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "brentford 8 scope badge",
+      "name": "scope badge in view overview reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "brentford 8 scope badge",
+      "name": "scope badge in view ford-middlesex reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "brentford 8 scope badge",
+      "name": "scope badge in view ford-surrey reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "brentford 8 scope badge",
+      "name": "scope badge in view brent-mouth reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "brentford 8 scope badge",
+      "name": "scope badge in view water-low reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "quality → low: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=low year=1016 CE camDiff=0 distinct=175 tris=261231 calls=74 dpr=1"
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "quality → high: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=high year=1016 CE camDiff=0 distinct=195 tris=341703 calls=114 dpr=1"
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "quality → medium: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=medium year=1016 CE camDiff=0 distinct=201 tris=340884 calls=111 dpr=1"
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "quality → low: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=low year=1016 CE camDiff=0 distinct=176 tris=261231 calls=74 dpr=1"
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "quality → medium: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=medium year=1016 CE camDiff=0 distinct=206 tris=340884 calls=111 dpr=1"
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "no errors while switching quality",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "low quality draws no more triangles than high",
+      "pass": true,
+      "detail": "low=261231 high=341703"
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "quality select reflects state",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "evidence toggle works",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "brentford 9 quality switch",
+      "name": "geometry count does not grow across repeated quality switches",
+      "pass": true,
+      "detail": "before={\"geometries\":153,\"textures\":221} after={\"geometries\":171,\"textures\":263}"
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "no page errors / console errors / failed requests on load (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "no console error for a missing /favicon.ico",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "dataset validator reports no problems",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "engine ready, dataset exposed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "site id is barnet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "opens at the site's initial year (1471 CE)",
+      "pass": true,
+      "detail": "1471 CE"
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "one WebGL canvas in the stage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "canvas is non-blank",
+      "pass": true,
+      "detail": "{\"distinct\":137,\"lumRange\":159.33333333333334}"
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "canvas is non-blank at 1400 CE",
+      "pass": true,
+      "detail": "{\"distinct\":113,\"lumRange\":67.33333333333334}"
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "canvas is non-blank at 1500 CE",
+      "pass": true,
+      "detail": "{\"distinct\":116,\"lumRange\":66}"
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "WebGL context alive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "fps readout shows a number",
+      "pass": true,
+      "detail": "56 fps"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "slider min → \"1400 CE\"",
+      "pass": true,
+      "detail": "1400 CE"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "t at min is 1400",
+      "pass": true,
+      "detail": "1400"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "slider max → \"1500 CE\"",
+      "pass": true,
+      "detail": "1500 CE"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "t at max is 1500",
+      "pass": true,
+      "detail": "1500"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "timeline end labels read 1400 CE and 1500 CE",
+      "pass": true,
+      "detail": "[\"1400 CE\",\"1494 CE — Hadley church rebuilt\",\"1500 CE\"]"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "setT(99999) clamps to 1500 CE",
+      "pass": true,
+      "detail": "1500"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "setT(-99999) clamps to 1400 CE",
+      "pass": true,
+      "detail": "1400"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "typing \"9999\" clamps to 1500 CE",
+      "pass": true,
+      "detail": "1500 CE"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "typing \"100 BCE\" clamps to 1400 CE",
+      "pass": true,
+      "detail": "1400 CE"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "typed 1471 works",
+      "pass": true,
+      "detail": "1471 CE"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "slider 0 → 1400 CE; slider 1 → 1500 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "slider at the middle anchor (u=0.6) reads 1471 CE",
+      "pass": true,
+      "detail": "1471 CE"
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "name": "setT(NaN) is ignored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 3 era presets",
+      "name": "2 eras defined: before-the-battle, battle-and-after",
+      "pass": true,
+      "detail": "[\"before-the-battle\",\"battle-and-after\"]"
+    },
+    {
+      "group": "barnet 3 era presets",
+      "name": "era-before-the-battle → 1450 CE, \"The ridge before the battle\"",
+      "pass": true,
+      "detail": "readout=1450 CE era=The ridge before the battle"
+    },
+    {
+      "group": "barnet 3 era presets",
+      "name": "era-before-the-battle button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 3 era presets",
+      "name": "era-battle-and-after → 1471 CE, \"The battle and after\"",
+      "pass": true,
+      "detail": "readout=1471 CE era=The battle and after"
+    },
+    {
+      "group": "barnet 3 era presets",
+      "name": "era-battle-and-after button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 3 era presets",
+      "name": "era boundaries (first/last year of each era) show the right era",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "play starts forwards",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "5 yr/s plays at about 5 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured 4.99"
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "play-pause shows pause state while playing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "pause holds the year",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "25 yr/s plays at about 25 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured 24.95"
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "reverse decreases the year",
+      "pass": true,
+      "detail": "measured -24.55"
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "playback stops at 1500 CE",
+      "pass": true,
+      "detail": "playing=false t=1500 readout=1500 CE"
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "pressing play at the end restarts from 1400 CE",
+      "pass": true,
+      "detail": "playing=true t=1412.5"
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "reverse playback stops at 1400 CE",
+      "pass": true,
+      "detail": "playing=false t=1400"
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "pressing reverse at the start restarts from 1500 CE",
+      "pass": true,
+      "detail": "t=1487.5"
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "Auto 1× advances",
+      "pass": true,
+      "detail": "{\"years\":0.7888100000029681,\"rate\":0.7874712985701016}"
+    },
+    {
+      "group": "barnet 4 playback",
+      "name": "space bar toggles play/pause",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) after slider change",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1423 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) after era preset",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1450 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) after typed year",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1420 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) after playback",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1443 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[default] camera unchanged (<1 m) at 1400 CE",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1400 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[hadley-green] camera unchanged (<1 m) after slider change",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1423 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[hadley-green] camera unchanged (<1 m) after era preset",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1450 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[hadley-green] camera unchanged (<1 m) after typed year",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1420 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[hadley-green] camera unchanged (<1 m) after playback",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1443 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "[hadley-green] camera unchanged (<1 m) at 1400 CE",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1400 CE"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "reset view returns to the first view in data (target snapped to ground allowed, <5 m)",
+      "pass": true,
+      "detail": "diff=0.000 cam={\"position\":[-60,1250,1500],\"target\":[-60,66,-450],\"mode\":\"orbit\"} declared={\"position\":[-60,1250,1500],\"target\":[-60,66,-450]}"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"south\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=0.000 declared y=1250 actual y=1250.00"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"south\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=1250"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"hadley-green\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=0.000 declared y=150.7 actual y=150.70"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"hadley-green\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=150.69999999999993"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"warwick-side\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=0.000 declared y=134.4 actual y=134.40"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"warwick-side\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=134.39999999999998"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"road-fork\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=0.040 declared y=127.6 actual y=127.60"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"road-fork\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=127.59999999999997"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"low-green\" frames its declared camera (ground clearance adjustment allowed, <12 m)",
+      "pass": true,
+      "detail": "diff=7.102 declared y=69 actual y=76.10"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "view \"low-green\": camera is finite and above ground (y>0)",
+      "pass": true,
+      "detail": "y=76.10240151062895"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "mouse drag orbits the camera",
+      "pass": true,
+      "detail": "diff=1100.74"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "walk mode engages with the camera at eye height",
+      "pass": true,
+      "detail": "{\"position\":[-60,65.94000549316407,-450],\"target\":[-59.74298168144639,65.94000549316407,-489.99917426127604],\"mode\":\"walk\"}"
+    },
+    {
+      "group": "barnet 5 camera preservation",
+      "name": "back to orbit mode",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "exactly one episode",
+      "pass": true,
+      "detail": "[\"barnet-1471\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "episode \"barnet-1471\" has year 1471",
+      "pass": true,
+      "detail": "1471"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "Events menu lists the episode with its year",
+      "pass": true,
+      "detail": "[\"Go to an event…\",\"Battle of Barnet (1471 CE)\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "choosing the episode jumps to 1471 CE",
+      "pass": true,
+      "detail": "1471 CE t=1471.28"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "episode panel opens with the episode name",
+      "pass": true,
+      "detail": "Battle of Barnet"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "panel lists Well evidenced / Tradition or late sources / Not known",
+      "pass": true,
+      "detail": "[\"Well evidenced\",\"Tradition or late sources\",\"Not known (invented in any staging)\",\"Sources\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "attested / tradition / unknown lists match the data counts",
+      "pass": true,
+      "detail": "{\"panel\":[{\"cls\":\"facts att\",\"n\":7},{\"cls\":\"facts trad\",\"n\":6},{\"cls\":\"facts unk\",\"n\":7}],\"data\":[7,6,7]}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "episode panel shows evidence/confidence badges and sources",
+      "pass": true,
+      "detail": "{\"badges\":[\"Evidence: documents\",\"Confidence: medium\"],\"links\":7,\"sources\":7}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "episode date note is shown",
+      "pass": true,
+      "detail": "Easter Sunday, 14 April 1471 (Julian calendar; 23 April by the modern calendar). Secure. Edward reached Barnet on the ev"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "?event=<id> deep link jumps to the battle year and opens its panel",
+      "pass": true,
+      "detail": "1471 CE / Battle of Barnet"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "8 staged landmarks (troops / zone-marker) exist",
+      "pass": true,
+      "detail": "zone-registered, zone-kitts-end, troops-lanc-right, troops-lanc-centre, troops-lanc-left, troops-york-left, troops-york-centre, troops-york-right"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-registered: absent in 1470, present in 1471, absent in 1472",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-registered: absent at 1400 CE and 1500 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-kitts-end: absent in 1470, present in 1471, absent in 1472",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-kitts-end: absent at 1400 CE and 1500 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-right: absent in 1470, present in 1471, absent in 1472",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-right: absent at 1400 CE and 1500 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-centre: absent in 1470, present in 1471, absent in 1472",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-centre: absent at 1400 CE and 1500 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-left: absent in 1470, present in 1471, absent in 1472",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-left: absent at 1400 CE and 1500 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-left: absent in 1470, present in 1471, absent in 1472",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-left: absent at 1400 CE and 1500 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-centre: absent in 1470, present in 1471, absent in 1472",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-centre: absent at 1400 CE and 1500 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-right: absent in 1470, present in 1471, absent in 1472",
+      "pass": true,
+      "detail": "{\"before\":[\"absent\"],\"at\":[\"intact\"],\"after\":[\"gone\"]}"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-right: absent at 1400 CE and 1500 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "scene graph: staged landmarks hidden in 1470",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "scene graph: staged landmarks visible in 1471",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "scene graph: staged landmarks hidden in 1472",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-registered: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-registered: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-registered: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=537 chars links=3"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-kitts-end: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-kitts-end: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "zone-kitts-end: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=421 chars links=4"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-right: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-right: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-right: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=857 chars links=4"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-centre: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-centre: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-centre: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=857 chars links=4"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-left: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-left: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-lanc-left: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=857 chars links=4"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-left: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-left: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-left: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=857 chars links=4"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-centre: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-centre: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-centre: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=857 chars links=4"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-right: panel is labelled conjectural (\"Conjecture\" badge) and as a stand-in",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-right: panel shows low confidence",
+      "pass": true,
+      "detail": "[\"Conjecture\",\"Confidence: low\",\"Stand-in, not a record\",\"Schematic model\"]"
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "troops-york-right: panel says what is not known / sources or no-source text present",
+      "pass": true,
+      "detail": "unc=857 chars links=4"
+    },
+    {
+      "group": "barnet 7 data validity",
+      "name": "landmarks: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 7 data validity",
+      "name": "zones: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 7 data validity",
+      "name": "episodes: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 7 data validity",
+      "name": "sources: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 7 data validity",
+      "name": "years: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 7 data validity",
+      "name": "tiers: every evidence/confidence/source/date is valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 7 data validity",
+      "name": "all 23 landmark info panels render name, evidence badge, phases and sources",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 7 data validity",
+      "name": "all 6 zone info panels render",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 8 scope badge",
+      "name": "site declares no benchmark district (whole site schematic)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 8 scope badge",
+      "name": "scope badge in view (reset) reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "barnet 8 scope badge",
+      "name": "scope badge in view south reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "barnet 8 scope badge",
+      "name": "scope badge in view hadley-green reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "barnet 8 scope badge",
+      "name": "scope badge in view warwick-side reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "barnet 8 scope badge",
+      "name": "scope badge in view road-fork reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "barnet 8 scope badge",
+      "name": "scope badge in view low-green reads \"Schematic site\"",
+      "pass": true,
+      "detail": "Schematic site"
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "quality → low: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=low year=1471 CE camDiff=0 distinct=287 tris=924901 calls=106 dpr=1"
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "quality → high: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=high year=1471 CE camDiff=0 distinct=133 tris=1856869 calls=261 dpr=1"
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "quality → medium: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=medium year=1471 CE camDiff=0 distinct=133 tris=1366699 calls=188 dpr=1"
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "quality → low: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=low year=1471 CE camDiff=0 distinct=290 tris=924901 calls=106 dpr=1"
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "quality → medium: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=medium year=1471 CE camDiff=0 distinct=138 tris=1366699 calls=188 dpr=1"
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "no errors while switching quality",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "low quality draws no more triangles than high",
+      "pass": true,
+      "detail": "low=924901 high=1856869"
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "quality select reflects state",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "evidence toggle works",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "barnet 9 quality switch",
+      "name": "geometry count does not grow across repeated quality switches",
+      "pass": true,
+      "detail": "before={\"geometries\":184,\"textures\":233} after={\"geometries\":189,\"textures\":275}"
+    },
+    {
+      "group": "perf",
+      "name": "perf run brentford quality=low completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "perf",
+      "name": "perf run brentford quality=medium completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "perf",
+      "name": "perf run brentford quality=high completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "perf",
+      "name": "perf run barnet quality=low completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "perf",
+      "name": "perf run barnet quality=medium completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "perf",
+      "name": "perf run barnet quality=high completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "session",
+      "name": "brentford: no page/console errors during the whole run (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "session",
+      "name": "barnet: no page/console errors during the whole run (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "retried": [
+    {
+      "group": "brentford 2 timeline endpoints",
+      "looksLikeHotReload": false,
+      "firstAttemptFailures": [
+        {
+          "name": "slider min → \"950 CE\"",
+          "detail": "1016 CE"
+        },
+        {
+          "name": "t at min is 950",
+          "detail": "1016.504"
+        }
+      ]
+    },
+    {
+      "group": "barnet 2 timeline endpoints",
+      "looksLikeHotReload": false,
+      "firstAttemptFailures": [
+        {
+          "name": "slider min → \"1400 CE\"",
+          "detail": "1471 CE"
+        },
+        {
+          "name": "t at min is 1400",
+          "detail": "1471.50025"
+        }
+      ]
+    }
+  ],
+  "info": [
+    {
+      "group": "brentford 1 load",
+      "name": "dataset counts",
+      "detail": {
+        "n": 15,
+        "z": 4,
+        "e": 1,
+        "ev": 7
+      }
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "episode panel",
+      "detail": {
+        "badges": [
+          "Evidence: documents",
+          "Confidence: medium"
+        ],
+        "lists": [
+          {
+            "cls": "facts att",
+            "n": 6
+          },
+          {
+            "cls": "facts trad",
+            "n": 6
+          },
+          {
+            "cls": "facts unk",
+            "n": 8
+          }
+        ]
+      }
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "staged landmarks whose own name does not say stand-in/conjecture (the panel badges do; informational)",
+      "detail": []
+    },
+    {
+      "group": "brentford 6 episode and conjectural staging",
+      "name": "real mouse click at projected troop block",
+      "detail": {
+        "at": [
+          319,
+          677
+        ],
+        "panelTitle": "Edmund's army (stand-in figures)",
+        "expected": "Edmund's army (stand-in figures)"
+      }
+    },
+    {
+      "group": "brentford 7 data validity",
+      "name": "evidence mix across landmarks and zones",
+      "detail": {
+        "landmarks": 15,
+        "zones": 4,
+        "byEv": {
+          "reconstructed": 5,
+          "conjectural": 14
+        }
+      }
+    },
+    {
+      "group": "barnet 1 load",
+      "name": "dataset counts",
+      "detail": {
+        "n": 23,
+        "z": 6,
+        "e": 1,
+        "ev": 9
+      }
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "episode panel",
+      "detail": {
+        "badges": [
+          "Evidence: documents",
+          "Confidence: medium"
+        ],
+        "lists": [
+          {
+            "cls": "facts att",
+            "n": 7
+          },
+          {
+            "cls": "facts trad",
+            "n": 6
+          },
+          {
+            "cls": "facts unk",
+            "n": 7
+          }
+        ]
+      }
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "staged landmarks whose own name does not say stand-in/conjecture (the panel badges do; informational)",
+      "detail": [
+        "Kitts End: the 2015–18 survey's alternative site",
+        "Lancastrian right (Oxford)",
+        "Lancastrian centre (Montagu)",
+        "Lancastrian left (Exeter)",
+        "Yorkist left (Hastings)",
+        "Yorkist centre (Edward IV)",
+        "Yorkist right (Gloucester)"
+      ]
+    },
+    {
+      "group": "barnet 6 episode and conjectural staging",
+      "name": "real mouse click at projected troop block",
+      "detail": {
+        "at": [
+          253,
+          460
+        ],
+        "panelTitle": "Lancastrian right (Oxford)",
+        "expected": "Lancastrian right (Oxford)"
+      }
+    },
+    {
+      "group": "barnet 7 data validity",
+      "name": "evidence mix across landmarks and zones",
+      "detail": {
+        "landmarks": 23,
+        "zones": 6,
+        "byEv": {
+          "attested-documentary": 2,
+          "reconstructed": 10,
+          "conjectural": 17
+        }
+      }
+    }
+  ],
+  "perf": [
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "overview",
+      "year": "1015 CE",
+      "fps": 41,
+      "rafFps": 40.3,
+      "frameMs": 24.63,
+      "worstMs": 50,
+      "benchMs": 41.35,
+      "benchFps": 24,
+      "triangles": 153731,
+      "calls": 50,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "overview",
+      "year": "1016 CE",
+      "fps": 41,
+      "rafFps": 41.5,
+      "frameMs": 24.26,
+      "worstMs": 50.1,
+      "benchMs": 40.49,
+      "benchFps": 25,
+      "triangles": 261231,
+      "calls": 74,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "ford-middlesex",
+      "year": "1015 CE",
+      "fps": 41,
+      "rafFps": 41.8,
+      "frameMs": 24.44,
+      "worstMs": 33.4,
+      "benchMs": 39.12,
+      "benchFps": 26,
+      "triangles": 147035,
+      "calls": 52,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "ford-middlesex",
+      "year": "1016 CE",
+      "fps": 41,
+      "rafFps": 41.7,
+      "frameMs": 24.63,
+      "worstMs": 50,
+      "benchMs": 41.33,
+      "benchFps": 24,
+      "triangles": 254535,
+      "calls": 76,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "ford-surrey",
+      "year": "1015 CE",
+      "fps": 42,
+      "rafFps": 42.8,
+      "frameMs": 24.07,
+      "worstMs": 50.1,
+      "benchMs": 40.48,
+      "benchFps": 25,
+      "triangles": 154117,
+      "calls": 50,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "ford-surrey",
+      "year": "1016 CE",
+      "fps": 41,
+      "rafFps": 40.8,
+      "frameMs": 24.26,
+      "worstMs": 50,
+      "benchMs": 40.47,
+      "benchFps": 25,
+      "triangles": 261617,
+      "calls": 74,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "brent-mouth",
+      "year": "1015 CE",
+      "fps": 42,
+      "rafFps": 43.4,
+      "frameMs": 23.7,
+      "worstMs": 50.1,
+      "benchMs": 41.12,
+      "benchFps": 24,
+      "triangles": 153617,
+      "calls": 50,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "brent-mouth",
+      "year": "1016 CE",
+      "fps": 42,
+      "rafFps": 42.3,
+      "frameMs": 23.7,
+      "worstMs": 50,
+      "benchMs": 40.71,
+      "benchFps": 25,
+      "triangles": 209977,
+      "calls": 62,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "water-low",
+      "year": "1015 CE",
+      "fps": 44,
+      "rafFps": 46.6,
+      "frameMs": 22.78,
+      "worstMs": 33.5,
+      "benchMs": 40.34,
+      "benchFps": 25,
+      "triangles": 144911,
+      "calls": 46,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "low",
+      "view": "water-low",
+      "year": "1016 CE",
+      "fps": 43,
+      "rafFps": 42.9,
+      "frameMs": 23.33,
+      "worstMs": 33.4,
+      "benchMs": 40.94,
+      "benchFps": 24,
+      "triangles": 212315,
+      "calls": 66,
+      "instances": 15,
+      "trees": 1351,
+      "pixelRatio": 1,
+      "loadMs": 10248
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "overview",
+      "year": "1015 CE",
+      "fps": 34,
+      "rafFps": 35.1,
+      "frameMs": 29.26,
+      "worstMs": 33.4,
+      "benchMs": 48.12,
+      "benchFps": 21,
+      "triangles": 148784,
+      "calls": 81,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "overview",
+      "year": "1016 CE",
+      "fps": 34,
+      "rafFps": 35.8,
+      "frameMs": 29.44,
+      "worstMs": 50.1,
+      "benchMs": 48.19,
+      "benchFps": 21,
+      "triangles": 340884,
+      "calls": 111,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "ford-middlesex",
+      "year": "1015 CE",
+      "fps": 18,
+      "rafFps": 35.9,
+      "frameMs": 57.03,
+      "worstMs": 1450,
+      "benchMs": 47.52,
+      "benchFps": 21,
+      "triangles": 384016,
+      "calls": 142,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "ford-middlesex",
+      "year": "1016 CE",
+      "fps": 34,
+      "rafFps": 34.4,
+      "frameMs": 29.26,
+      "worstMs": 50.1,
+      "benchMs": 48.6,
+      "benchFps": 21,
+      "triangles": 435480,
+      "calls": 124,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "ford-surrey",
+      "year": "1015 CE",
+      "fps": 20,
+      "rafFps": 35.6,
+      "frameMs": 49.07,
+      "worstMs": 1450.1,
+      "benchMs": 47.74,
+      "benchFps": 21,
+      "triangles": 426757,
+      "calls": 130,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "ford-surrey",
+      "year": "1016 CE",
+      "fps": 34,
+      "rafFps": 34.3,
+      "frameMs": 29.26,
+      "worstMs": 50.1,
+      "benchMs": 48.54,
+      "benchFps": 21,
+      "triangles": 726357,
+      "calls": 184,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "brent-mouth",
+      "year": "1015 CE",
+      "fps": 35,
+      "rafFps": 35,
+      "frameMs": 28.89,
+      "worstMs": 50.1,
+      "benchMs": 48,
+      "benchFps": 21,
+      "triangles": 148202,
+      "calls": 79,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "brent-mouth",
+      "year": "1016 CE",
+      "fps": 34,
+      "rafFps": 35.2,
+      "frameMs": 29.26,
+      "worstMs": 50.1,
+      "benchMs": 48.14,
+      "benchFps": 21,
+      "triangles": 452277,
+      "calls": 152,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "water-low",
+      "year": "1015 CE",
+      "fps": 21,
+      "rafFps": 34.9,
+      "frameMs": 47.41,
+      "worstMs": 1450,
+      "benchMs": 48.15,
+      "benchFps": 21,
+      "triangles": 371026,
+      "calls": 82,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "medium",
+      "view": "water-low",
+      "year": "1016 CE",
+      "fps": 34,
+      "rafFps": 34.6,
+      "frameMs": 29.26,
+      "worstMs": 50.1,
+      "benchMs": 48.36,
+      "benchFps": 21,
+      "triangles": 724795,
+      "calls": 166,
+      "instances": 21,
+      "trees": 1463,
+      "pixelRatio": 1,
+      "loadMs": 12503
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "overview",
+      "year": "1015 CE",
+      "fps": 34,
+      "rafFps": 34.8,
+      "frameMs": 29.63,
+      "worstMs": 33.4,
+      "benchMs": 48.61,
+      "benchFps": 21,
+      "triangles": 149603,
+      "calls": 84,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "overview",
+      "year": "1016 CE",
+      "fps": 34,
+      "rafFps": 33.5,
+      "frameMs": 29.81,
+      "worstMs": 50.1,
+      "benchMs": 49.01,
+      "benchFps": 20,
+      "triangles": 341703,
+      "calls": 114,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "ford-middlesex",
+      "year": "1015 CE",
+      "fps": 17,
+      "rafFps": 34.8,
+      "frameMs": 58.7,
+      "worstMs": 1466.7,
+      "benchMs": 48.44,
+      "benchFps": 21,
+      "triangles": 534944,
+      "calls": 174,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "ford-middlesex",
+      "year": "1016 CE",
+      "fps": 34,
+      "rafFps": 33.5,
+      "frameMs": 29.81,
+      "worstMs": 50.1,
+      "benchMs": 48.8,
+      "benchFps": 20,
+      "triangles": 501689,
+      "calls": 123,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "ford-surrey",
+      "year": "1015 CE",
+      "fps": 19,
+      "rafFps": 34.9,
+      "frameMs": 51.48,
+      "worstMs": 1466.6,
+      "benchMs": 48.05,
+      "benchFps": 21,
+      "triangles": 561386,
+      "calls": 156,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "ford-surrey",
+      "year": "1016 CE",
+      "fps": 21,
+      "rafFps": 33.7,
+      "frameMs": 48.52,
+      "worstMs": 1433.2,
+      "benchMs": 58.24,
+      "benchFps": 17,
+      "triangles": 945586,
+      "calls": 216,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "brent-mouth",
+      "year": "1015 CE",
+      "fps": 33,
+      "rafFps": 34.7,
+      "frameMs": 30.18,
+      "worstMs": 150,
+      "benchMs": 48.46,
+      "benchFps": 21,
+      "triangles": 149021,
+      "calls": 83,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "brent-mouth",
+      "year": "1016 CE",
+      "fps": 34,
+      "rafFps": 33.9,
+      "frameMs": 29.81,
+      "worstMs": 50.1,
+      "benchMs": 48.66,
+      "benchFps": 21,
+      "triangles": 579946,
+      "calls": 186,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "water-low",
+      "year": "1015 CE",
+      "fps": 21,
+      "rafFps": 34.7,
+      "frameMs": 48.15,
+      "worstMs": 1449.9,
+      "benchMs": 57.21,
+      "benchFps": 17,
+      "triangles": 595987,
+      "calls": 88,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "brentford",
+      "quality": "high",
+      "view": "water-low",
+      "year": "1016 CE",
+      "fps": 34,
+      "rafFps": 33.6,
+      "frameMs": 29.81,
+      "worstMs": 50.1,
+      "benchMs": 48.8,
+      "benchFps": 20,
+      "triangles": 711991,
+      "calls": 112,
+      "instances": 21,
+      "trees": 1692,
+      "pixelRatio": 1,
+      "loadMs": 12644
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "south",
+      "year": "1470 CE",
+      "fps": 41,
+      "rafFps": 40.8,
+      "frameMs": 24.63,
+      "worstMs": 33.4,
+      "benchMs": 40.99,
+      "benchFps": 24,
+      "triangles": 299875,
+      "calls": 62,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "south",
+      "year": "1471 CE",
+      "fps": 40,
+      "rafFps": 40.7,
+      "frameMs": 25,
+      "worstMs": 33.4,
+      "benchMs": 41.57,
+      "benchFps": 24,
+      "triangles": 925011,
+      "calls": 106,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "hadley-green",
+      "year": "1470 CE",
+      "fps": 41,
+      "rafFps": 41.7,
+      "frameMs": 24.63,
+      "worstMs": 33.5,
+      "benchMs": 39.38,
+      "benchFps": 25,
+      "triangles": 301883,
+      "calls": 60,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "hadley-green",
+      "year": "1471 CE",
+      "fps": 40,
+      "rafFps": 41.1,
+      "frameMs": 25,
+      "worstMs": 50,
+      "benchMs": 42.43,
+      "benchFps": 24,
+      "triangles": 927019,
+      "calls": 104,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "warwick-side",
+      "year": "1470 CE",
+      "fps": 42,
+      "rafFps": 43.1,
+      "frameMs": 23.89,
+      "worstMs": 50.1,
+      "benchMs": 39.86,
+      "benchFps": 25,
+      "triangles": 302964,
+      "calls": 67,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "warwick-side",
+      "year": "1471 CE",
+      "fps": 41,
+      "rafFps": 40.7,
+      "frameMs": 24.63,
+      "worstMs": 50,
+      "benchMs": 41.32,
+      "benchFps": 24,
+      "triangles": 928100,
+      "calls": 111,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "road-fork",
+      "year": "1470 CE",
+      "fps": 42,
+      "rafFps": 43,
+      "frameMs": 24.07,
+      "worstMs": 50,
+      "benchMs": 40.99,
+      "benchFps": 24,
+      "triangles": 298645,
+      "calls": 54,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "road-fork",
+      "year": "1471 CE",
+      "fps": 42,
+      "rafFps": 40.8,
+      "frameMs": 24.07,
+      "worstMs": 33.5,
+      "benchMs": 41.01,
+      "benchFps": 24,
+      "triangles": 408565,
+      "calls": 64,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "low-green",
+      "year": "1470 CE",
+      "fps": 43,
+      "rafFps": 43.6,
+      "frameMs": 23.33,
+      "worstMs": 50.1,
+      "benchMs": 40.75,
+      "benchFps": 25,
+      "triangles": 304045,
+      "calls": 64,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "low",
+      "view": "low-green",
+      "year": "1471 CE",
+      "fps": 40,
+      "rafFps": 39.9,
+      "frameMs": 25,
+      "worstMs": 50.1,
+      "benchMs": 42.71,
+      "benchFps": 23,
+      "triangles": 855005,
+      "calls": 102,
+      "instances": 167,
+      "trees": 2956,
+      "pixelRatio": 1,
+      "loadMs": 11777
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "south",
+      "year": "1470 CE",
+      "fps": 34,
+      "rafFps": 34.9,
+      "frameMs": 29.07,
+      "worstMs": 50.1,
+      "benchMs": 48.19,
+      "benchFps": 21,
+      "triangles": 308267,
+      "calls": 120,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "south",
+      "year": "1471 CE",
+      "fps": 33,
+      "rafFps": 33.6,
+      "frameMs": 30.37,
+      "worstMs": 50.1,
+      "benchMs": 49.17,
+      "benchFps": 20,
+      "triangles": 1366699,
+      "calls": 188,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "hadley-green",
+      "year": "1470 CE",
+      "fps": 18,
+      "rafFps": 34.5,
+      "frameMs": 54.26,
+      "worstMs": 1466.6,
+      "benchMs": 48.12,
+      "benchFps": 21,
+      "triangles": 337548,
+      "calls": 112,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "hadley-green",
+      "year": "1471 CE",
+      "fps": 33,
+      "rafFps": 32.7,
+      "frameMs": 30.18,
+      "worstMs": 50.1,
+      "benchMs": 49.26,
+      "benchFps": 20,
+      "triangles": 1395980,
+      "calls": 180,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "warwick-side",
+      "year": "1470 CE",
+      "fps": 35,
+      "rafFps": 35.1,
+      "frameMs": 28.7,
+      "worstMs": 50,
+      "benchMs": 47.13,
+      "benchFps": 21,
+      "triangles": 330941,
+      "calls": 111,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "warwick-side",
+      "year": "1471 CE",
+      "fps": 33,
+      "rafFps": 33.6,
+      "frameMs": 30,
+      "worstMs": 50.1,
+      "benchMs": 49.08,
+      "benchFps": 20,
+      "triangles": 1389263,
+      "calls": 178,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "road-fork",
+      "year": "1470 CE",
+      "fps": 34,
+      "rafFps": 35.7,
+      "frameMs": 29.07,
+      "worstMs": 50.1,
+      "benchMs": 47.8,
+      "benchFps": 21,
+      "triangles": 329492,
+      "calls": 95,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "road-fork",
+      "year": "1471 CE",
+      "fps": 34,
+      "rafFps": 35.1,
+      "frameMs": 29.44,
+      "worstMs": 50.1,
+      "benchMs": 48.07,
+      "benchFps": 21,
+      "triangles": 699332,
+      "calls": 117,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "low-green",
+      "year": "1470 CE",
+      "fps": 20,
+      "rafFps": 35.4,
+      "frameMs": 49.07,
+      "worstMs": 1433.3,
+      "benchMs": 48.13,
+      "benchFps": 21,
+      "triangles": 458414,
+      "calls": 131,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "medium",
+      "view": "low-green",
+      "year": "1471 CE",
+      "fps": 33,
+      "rafFps": 33.5,
+      "frameMs": 30,
+      "worstMs": 50.1,
+      "benchMs": 48.67,
+      "benchFps": 21,
+      "triangles": 1442670,
+      "calls": 193,
+      "instances": 277,
+      "trees": 2981,
+      "pixelRatio": 1,
+      "loadMs": 14552
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "south",
+      "year": "1470 CE",
+      "fps": 34,
+      "rafFps": 34,
+      "frameMs": 29.63,
+      "worstMs": 50.1,
+      "benchMs": 49.11,
+      "benchFps": 20,
+      "triangles": 365141,
+      "calls": 169,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "south",
+      "year": "1471 CE",
+      "fps": 33,
+      "rafFps": 33.4,
+      "frameMs": 30.56,
+      "worstMs": 50.1,
+      "benchMs": 49.75,
+      "benchFps": 20,
+      "triangles": 1856869,
+      "calls": 261,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "hadley-green",
+      "year": "1470 CE",
+      "fps": 18,
+      "rafFps": 34.5,
+      "frameMs": 54.63,
+      "worstMs": 1483.3,
+      "benchMs": 48.43,
+      "benchFps": 21,
+      "triangles": 387163,
+      "calls": 134,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "hadley-green",
+      "year": "1471 CE",
+      "fps": 33,
+      "rafFps": 33.4,
+      "frameMs": 30.37,
+      "worstMs": 50.1,
+      "benchMs": 49.92,
+      "benchFps": 20,
+      "triangles": 1948877,
+      "calls": 285,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "warwick-side",
+      "year": "1470 CE",
+      "fps": 35,
+      "rafFps": 34.7,
+      "frameMs": 28.89,
+      "worstMs": 50.1,
+      "benchMs": 48.17,
+      "benchFps": 21,
+      "triangles": 446292,
+      "calls": 184,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "warwick-side",
+      "year": "1471 CE",
+      "fps": 33,
+      "rafFps": 32.6,
+      "frameMs": 30.37,
+      "worstMs": 50.1,
+      "benchMs": 49.65,
+      "benchFps": 20,
+      "triangles": 1937580,
+      "calls": 271,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "road-fork",
+      "year": "1470 CE",
+      "fps": 34,
+      "rafFps": 35,
+      "frameMs": 29.26,
+      "worstMs": 50.1,
+      "benchMs": 48.13,
+      "benchFps": 21,
+      "triangles": 363675,
+      "calls": 104,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "road-fork",
+      "year": "1471 CE",
+      "fps": 33,
+      "rafFps": 34.4,
+      "frameMs": 30,
+      "worstMs": 50.1,
+      "benchMs": 49.19,
+      "benchFps": 20,
+      "triangles": 791307,
+      "calls": 130,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "low-green",
+      "year": "1470 CE",
+      "fps": 20,
+      "rafFps": 34.8,
+      "frameMs": 50.18,
+      "worstMs": 1466.6,
+      "benchMs": 48.64,
+      "benchFps": 21,
+      "triangles": 715826,
+      "calls": 197,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    },
+    {
+      "site": "barnet",
+      "quality": "high",
+      "view": "low-green",
+      "year": "1471 CE",
+      "fps": 33,
+      "rafFps": 32.9,
+      "frameMs": 30.56,
+      "worstMs": 50.1,
+      "benchMs": 50.19,
+      "benchFps": 20,
+      "triangles": 2133378,
+      "calls": 283,
+      "instances": 277,
+      "trees": 3007,
+      "pixelRatio": 1,
+      "loadMs": 14832
+    }
+  ]
+}

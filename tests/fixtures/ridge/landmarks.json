@@ -1,0 +1,323 @@
+[
+ {
+  "id": "block-a",
+  "name": "Block A",
+  "lat": 51.66,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "troops",
+     "count": 120,
+     "cols": 30,
+     "spacing": 1.4,
+     "faction": "a",
+     "facing": 0,
+     "banner": true
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ]
+ },
+ {
+  "id": "horse-b",
+  "name": "Horse B",
+  "lat": 51.662,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "troops",
+     "count": 24,
+     "cols": 8,
+     "spacing": 2.6,
+     "faction": "b",
+     "facing": 180,
+     "mounted": true
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ]
+ },
+ {
+  "id": "area",
+  "name": "Area",
+  "lat": 51.66,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "zone-marker",
+     "path": [
+      [
+       51.6595,
+       -0.2025
+      ],
+      [
+       51.6615,
+       -0.2025
+      ],
+      [
+       51.6615,
+       -0.1985
+      ],
+      [
+       51.6595,
+       -0.1985
+      ]
+     ],
+     "color": "#c0392b",
+     "opacity": 0.25,
+     "label": "Possible deployment area"
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ]
+ },
+ {
+  "id": "camp",
+  "name": "Camp",
+  "lat": 51.66,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "camp",
+     "count": 6,
+     "fires": 2
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ]
+ },
+ {
+  "id": "tents",
+  "name": "Tents",
+  "lat": 51.66,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "tents",
+     "count": 3
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ]
+ },
+ {
+  "id": "hedge",
+  "name": "Hedge",
+  "lat": 51.66,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "hedge",
+     "h": 2,
+     "bank": true
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ],
+  "path": [
+   [
+    51.659,
+    -0.203
+   ],
+   [
+    51.661,
+    -0.201
+   ],
+   [
+    51.662,
+    -0.198
+   ]
+  ]
+ },
+ {
+  "id": "strips",
+  "name": "Strips",
+  "lat": 51.66,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "field-strips",
+     "polygon": "common",
+     "bearing": 20,
+     "pitch": 9
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ]
+ },
+ {
+  "id": "ford",
+  "name": "Ford",
+  "lat": 51.66,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "ford",
+     "width": 8,
+     "stakes": true
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ],
+  "path": [
+   [
+    51.657,
+    -0.2005
+   ],
+   [
+    51.657,
+    -0.1995
+   ]
+  ]
+ },
+ {
+  "id": "lane",
+  "name": "Lane",
+  "lat": 51.66,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "road",
+     "width": 6
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ],
+  "path": [
+   [
+    51.655,
+    -0.2
+   ],
+   [
+    51.665,
+    -0.2
+   ]
+  ]
+ },
+ {
+  "id": "chapel",
+  "name": "Chapel",
+  "lat": 51.66,
+  "lon": -0.2,
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "Fixture.",
+  "phases": [
+   {
+    "label": "fixture",
+    "from": 1471,
+    "to": 1471,
+    "end": "handover",
+    "model": {
+     "kind": "church",
+     "l": 18,
+     "w": 7,
+     "h": 6
+    }
+   }
+  ],
+  "sources": [
+   "fix-1"
+  ]
+ }
+]

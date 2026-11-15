@@ -1,0 +1,1138 @@
+{
+  "application": "Review and merge these field-level proposals against current JSON. This script has not applied them. Source registry additions may also be required; citations are preserved in curated.sqlite.",
+  "changes": [
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[36].phases[2].built",
+      "old": null,
+      "new": 1517,
+      "reviews": [
+        "L01"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[36].phases[2].continues",
+      "old": true,
+      "new": false,
+      "reviews": [
+        "L01"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[36].phases[2].label",
+      "old": "Abbey with nave completed westwards",
+      "new": "Westward nave rebuilding (1376–1517)",
+      "reviews": [
+        "L01"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[38].phases[1].built",
+      "old": null,
+      "new": 1399,
+      "reviews": [
+        "L02"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[38].phases[1].continues",
+      "old": true,
+      "new": false,
+      "reviews": [
+        "L02"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[38].phases[1].label",
+      "old": "Hall with hammerbeam roof",
+      "new": "Hammerbeam roof campaign; substantially complete by about 1399",
+      "reviews": [
+        "L02"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[38].phases[1].dateNote",
+      "old": "Roof commissioned 1393, substantially built 1397–99, work ceased 1401.",
+      "new": "Commissioned 1393; lanterns completed 1397–98; decorative work still unfinished when work stopped in 1401. The built value 1399 is an approximate display anchor.",
+      "reviews": [
+        "L02"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[46].phases[1].built",
+      "old": null,
+      "new": 1327,
+      "reviews": [
+        "L03"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[46].phases[1].continues",
+      "old": true,
+      "new": false,
+      "reviews": [
+        "L03"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[21].phases[0].label",
+      "old": "Timber bridge",
+      "new": "Successive timber bridges; storm destruction in 1091",
+      "reviews": [
+        "L04"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[21].phases[0].dateNote",
+      "old": "In existence by c. 1000. The 1014 'pulling down' is saga tradition only; burned in 1135 or 1136 depending on the source.",
+      "new": "A bridge existed by about 1000. London Museum records destruction by the storm of 1091; the exact rebuilding chronology is unresolved. This phase represents successive bridges, not one intact structure.",
+      "reviews": [
+        "L04"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[10].phases[0].label",
+      "old": "Mithraeum",
+      "new": "Temple: Mithraic until about 320–330, then repurposed",
+      "reviews": [
+        "L05"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[10].phases[0].dateNote",
+      "old": "Built c. 240–250; out of use in the late 4th century.",
+      "new": "Construction c.240–250; MOLA estimates about 80 years of Mithraic use before repurposing. The 380 phase end is a modelling estimate, not a dated end of Mithraic worship.",
+      "reviews": [
+        "L05"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[49].phases[0].label",
+      "old": "Priory church",
+      "new": "Priory church; parish use after surrender in 1539",
+      "reviews": [
+        "L06"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[49].phases[0].dateNote",
+      "old": null,
+      "new": "Surrendered October 1539. The date of complete nave demolition needs a fabric-specific source; 1543 is a display boundary, not continued monastic occupation.",
+      "reviews": [
+        "L06"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[45].phases[1].dateNote",
+      "old": "Church demolished after 1538; an indoor playhouse occupied the upper frater from 1596 (King's Men from 1608–09).",
+      "new": "Church demolished after dissolution in 1538. Blackfriars I theatre opened in 1576; Blackfriars II was established in 1596, with the King’s Men using it from 1608–09. These were distinct venues within the former precinct.",
+      "reviews": [
+        "L07"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[36].summary",
+      "old": "Edward the Confessor's great church, consecrated in 1065, was replaced from 1245 by Henry III's Gothic abbey. The nave took until the early 16th century; the west towers were not built until the 18th century and are not shown.",
+      "new": "A Benedictine monastery existed here from about 960; its appearance is not reconstructed. Edward the Confessor enlarged it in the 1040s, and his church was consecrated in 1065. Henry III’s Gothic rebuilding began in 1245; the westward nave was completed in 1517. The eighteenth-century west towers are outside this timeline.",
+      "reviews": [
+        "L08"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[60].phases[0].dateNote",
+      "old": null,
+      "new": "Occupied by the archbishops from 1197; church plan revised in 1200; first Great Hall built before 1234 (Historic England 1000818). The built value 1230 is an illustrative anchor, not a documented completion.",
+      "reviews": [
+        "L09"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[61].phases[0].dateNote",
+      "old": null,
+      "new": "Foundation 1082 is supported by Southwark’s collection record. The displayed 1140 completion and immediate 1538 demolition require separate archaeological or documentary evidence.",
+      "reviews": [
+        "L10"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[52].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "L11"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/london/landmarks.json",
+      "path": "$[52].phases[0].dateNote",
+      "old": "Hall c. 1411–30; precinct complete c. 1450.",
+      "new": "Begun 1411. City of London gives a 1411–1440 building campaign; the wider precinct campaign ran to about 1450. The built value 1430 is provisional and requires a hall-specific source.",
+      "reviews": [
+        "L11"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[74].summary",
+      "old": "Founded in 635 from Iona. Cuthbert died here in 687 and the Lindisfarne Gospels were made about 710-725. Raided on 8 June 793, left for good in 875, and refounded as a cell of Durham by 1122 until its closure in 1537.",
+      "new": "Founded in 635 from Iona. Cuthbert died on Inner Farne in 687 and was buried here and the Lindisfarne Gospels were made about 710-725. Raided on 8 June 793, left for good in 875, and refounded as a cell of Durham by 1122 until its closure in 1537.",
+      "reviews": [
+        "N01"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities-wales.json",
+      "path": "$[16].note",
+      "old": "Hywel held Seisyllwg from 920 and Dyfed by marriage, and on the death of Idwal Foel in 942 took Gwynedd (and with it Powys), ruling all Wales except Morgannwg and Gwent until his death in 950. The Welsh law-books are attributed to him, though no manuscript is earlier than the 13th century. His kingdom broke up at his death.",
+      "new": "Hywel held Seisyllwg from 920 and Dyfed by marriage, and on the death of Idwal Foel in 942 took Gwynedd (and with it Powys), ruling all Wales except Morgannwg and Gwent until his death in 950. The Welsh law-books are attributed to him, though the earliest surviving manuscript dates from the last quarter of the 12th century and the attribution is not contemporary. His kingdom broke up at his death.",
+      "reviews": [
+        "N02"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[33].from",
+      "old": 654,
+      "new": 634,
+      "reviews": [
+        "N03"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[33].name",
+      "old": "Kingdom of the Northumbrians",
+      "new": "Northumbrian kingship from Oswald (earlier unions not shown)",
+      "reviews": [
+        "N03"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[33].note",
+      "old": "Bernicia and Deira united. At its height it ran from the Humber and Mersey to the Firth of Forth; the polygon shows about 700 and is cut off at the northern edge of this map. York fell to the Great Army in 867. Frontiers were zones of shifting lordship, not lines. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+      "new": "Oswald reunited Northumbrian rule in 634, following earlier unions under Æthelfrith and Edwin. Bernicia and Deira were divided again after Oswald’s death in 642 and reunited later; this single display range does not assert uninterrupted unified government. The indicative polygon depicts about 700, not every year from 634. Earlier kingships require separate phases; 654 is not the first existence of Northumbria.",
+      "reviews": [
+        "N03"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[16].phases[1].label",
+      "old": "Abandoned as the upland climate worsened",
+      "new": "Surviving settlement remains; end of occupation uncertain",
+      "reviews": [
+        "N04"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[16].phases[1].note",
+      "old": null,
+      "new": "800 BCE is a display cutoff, not a dated abandonment. Duration of use is unknown; English Heritage describes changing settlement by about 1000 BCE and soil erosion, not a proven climate event.",
+      "reviews": [
+        "N04"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[65].name",
+      "old": "Battle of Mynydd Carn",
+      "new": "Mynydd Carn (unlocated; catalogue reference marker)",
+      "reviews": [
+        "N05"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[65].uncertainty",
+      "old": "The battlefield has not been found. Sources place it a day’s march from St Davids at a hill with a cairn; the marker uses the grid reference in the Coflein record, which is one suggestion among several in Pembrokeshire.",
+      "new": "The battlefield is unlocated. Coflein’s catalogue marker is near Templeton, while its documentary discussion favours northern Pembrokeshire in Cemais. The displayed point is not a verified battlefield or a source-supported candidate; it is a catalogue reference only.",
+      "reviews": [
+        "N05"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[75].phases[0].from",
+      "old": 674,
+      "new": 681,
+      "reviews": [
+        "N06"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[75].phases[0].label",
+      "old": "Wearmouth founded; Jarrow follows in 681",
+      "new": "Jarrow monastery; twin of Wearmouth (founded 674)",
+      "reviews": [
+        "N06"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[75].phases[0].note",
+      "old": null,
+      "new": "Jarrow founded c.681; church dedicated 23 April 685. Wearmouth’s earlier foundation belongs to a different site about 10 km away.",
+      "reviews": [
+        "N06"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities-wales.json",
+      "path": "$[15].note",
+      "old": "Rhodri became king of Gwynedd in 844, took Powys in 855 and Seisyllwg in 872, so that for a few years one king ruled most of Wales outside the south-east and Dyfed. He was killed fighting the English; the Dictionary of Welsh Biography gives 877, other reckonings 878. His sons divided the lands. No boundary is drawn because none is known.",
+      "new": "Rhodri became king of Gwynedd in 844, may have taken control of Powys in or after 855 and Seisyllwg in 872, so that for a few years one king ruled most of Wales outside the south-east and Dyfed. He was killed fighting the English; the Dictionary of Welsh Biography gives 877, other reckonings 878. His sons divided the lands. No boundary is drawn because none is known.",
+      "reviews": [
+        "N07"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities-wales.json",
+      "path": "$[5].note",
+      "old": "The kingdom of the central borderland. Its early extent reached further east, into what became Shropshire, before Mercian expansion and the building of Offa’s Dyke. Rhodri Mawr took it over in 855. It was divided for good after the death of Madog ap Maredudd in 1160. The polygon is indicative for about 1100-1160; it is not a surveyed boundary. The start date is conventional.",
+      "new": "The kingdom of the central borderland. Its early extent reached further east, into what became Shropshire, before Mercian expansion and the building of Offa’s Dyke. Rhodri Mawr may have taken control in 855 or later. It was divided for good after the death of Madog ap Maredudd in 1160. The polygon is indicative for about 1100-1160; it is not a surveyed boundary. The start date is conventional.",
+      "reviews": [
+        "N08"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[35].summary",
+      "old": "Roman Venta, refounded by Alfred with a new street grid and the largest burh in the Burghal Hidage. It was second only to London at Domesday but thirtieth in the 1377 poll tax.",
+      "new": "Roman Venta, refounded by Alfred with a new street grid and one of the joint-highest assessed burhs in the Burghal Hidage (2,400 hides, also assigned to Wallingford). It was second only to London at Domesday but thirtieth in the 1377 poll tax.",
+      "reviews": [
+        "N09"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[161].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "N10"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[161].uncertainty",
+      "old": "Date (14 May 1264) confirmed by the Battlefields Trust, which describes the site as securely located on the north side of the town. Historic England registers it as 'Battle of Lewes 1264' (list entry 1000018).",
+      "new": "The battle date, 14 May 1264, is secure. The Battlefields Trust locates the general area north of Lewes but says the exact ground between Offham Hill and the medieval town remains uncertain. This point is a reference marker, not a surveyed battle centre.",
+      "reviews": [
+        "N10"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[19].summary",
+      "old": "The monastery founded by St David in the 6th century became the leading church of Wales and, under Norman bishops from 1115, a cathedral. The present church was begun in 1181; a 12th-century pope ruled two pilgrimages here equal to one to Rome, and Bishop Henry de Gower built the great palace in 1328-47.",
+      "new": "The monastery founded by St David in the 6th century became a leading Welsh episcopal centre long before the first Norman bishop in 1115. Its earlier buildings are poorly known. The present church was begun in 1181; a 12th-century pope ruled two pilgrimages here equal to one to Rome, and Bishop Henry de Gower built the great palace in 1328-47.",
+      "reviews": [
+        "N11"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[132].phases[0].label",
+      "old": "Cistercian abbey, a great wool producer",
+      "new": "Monastic community founded 1132; Cistercian from 1135",
+      "reviews": [
+        "N12"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[132].phases[0].note",
+      "old": null,
+      "new": "Foundation and affiliation are distinct: National Trust dates acceptance into the Cistercian order three years after 1132.",
+      "reviews": [
+        "N12"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[58].phases[0].label",
+      "old": "Gariannonum, Saxon Shore fort on the Great Estuary",
+      "new": "Saxon Shore fort; possibly Gariannonum",
+      "reviews": [
+        "N13"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[58].phases[0].note",
+      "old": null,
+      "new": "The ancient name may refer to Burgh Castle, Caister, or both; the identification is not settled.",
+      "reviews": [
+        "N13"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[3].phases[0].label",
+      "old": "Mound under construction",
+      "new": "Mound building occurred within this approximate dating interval",
+      "reviews": [
+        "N14"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[3].phases[0].note",
+      "old": null,
+      "new": "2470–2350 BCE is a possible chronological bracket. Work probably occupied a short part of that interval, not all 120 years. The model must not be read as a continuous construction schedule.",
+      "reviews": [
+        "N14"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[53].phases[1].note",
+      "old": null,
+      "new": "The hall sequence bridges late Roman and fifth-century occupation. 411 and 519/520 are display boundaries, not dated construction and abandonment events.",
+      "reviews": [
+        "N15"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[53].phases[2].label",
+      "old": "Abandoned",
+      "new": "Later occupation uncertain; eventual abandonment",
+      "reviews": [
+        "N15"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[53].phases[2].note",
+      "old": null,
+      "new": "520 is a provisional display cutoff; the source does not fix an abandonment year.",
+      "reviews": [
+        "N15"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[52].phases[1].label",
+      "old": "Abandoned",
+      "new": "Post-Roman occupation and abandonment uncertain",
+      "reviews": [
+        "N16"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[52].phases[1].note",
+      "old": null,
+      "new": "The institutional history discusses uncertainty into the late fourth or early fifth century; it does not establish a departure in 411. The numerical boundary is a display convention.",
+      "reviews": [
+        "N16"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[52].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "N16"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[51].phases[1].label",
+      "old": "Abandoned",
+      "new": "Post-Roman history uncertain",
+      "reviews": [
+        "N17"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[51].phases[1].note",
+      "old": null,
+      "new": "English Heritage gives garrisoning to the end of the fourth century, not a securely dated abandonment on a 410/411 boundary. The numerical boundary is a display convention.",
+      "reviews": [
+        "N17"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[51].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "N17"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[49].phases[2].label",
+      "old": "Deserted",
+      "new": "Post-Roman urban decline; exact end uncertain",
+      "reviews": [
+        "N18"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[49].phases[2].note",
+      "old": null,
+      "new": "The history says the town continued until the last days of Roman Britain; it does not establish immediate desertion in 411. The numerical boundary is a display convention.",
+      "reviews": [
+        "N18"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[49].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "N18"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[18].phases[1].label",
+      "old": "Abandoned fort",
+      "new": "Later Roman use and eventual abandonment uncertain",
+      "reviews": [
+        "N19"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[18].phases[1].note",
+      "old": null,
+      "new": "Cadw supports foundation around 75 and the cavalry unit, but supplies no 300 abandonment. The app itself calls the end date a guess. The numerical boundary is a display convention.",
+      "reviews": [
+        "N19"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[9].phases[1].label",
+      "old": "Abandoned fort",
+      "new": "Late Roman decline; final abandonment uncertain",
+      "reviews": [
+        "N20"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[9].phases[1].note",
+      "old": null,
+      "new": "Cadw’s c.394 endpoint derives from coins. A last-coin horizon does not prove an exact evacuation in 394, and the app currently makes occupied and abandoned phases overlap in that year. The numerical boundary is a display convention.",
+      "reviews": [
+        "N20"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[9].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "N20"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[76].phases[1].label",
+      "old": "Abandoned",
+      "new": "Ninth-century abandonment; exact date unknown",
+      "reviews": [
+        "N21"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[76].phases[1].note",
+      "old": null,
+      "new": "English Heritage explicitly says the monastery was abandoned at an unknown point in the ninth century; 867/868 is not a securely dated destruction. The numerical boundary is a display convention.",
+      "reviews": [
+        "N21"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[76].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "N21"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[57].phases[2].label",
+      "old": "Deserted walls",
+      "new": "After siege tradition; later Anglo-Saxon reoccupation",
+      "reviews": [
+        "N22"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[57].phases[2].size",
+      "old": 0,
+      "new": 1,
+      "reviews": [
+        "N22"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[57].phases[2].note",
+      "old": null,
+      "new": "The late-fifth-century siege is a retrospective annal with conflicting transmitted/secondary dates. English Heritage describes reoccupation about a century later and possible high-status activity before 1066; the interval is not uniformly deserted.",
+      "reviews": [
+        "N22"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[57].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "N22"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[18].summary",
+      "old": "The largest hillfort in Britain. In the middle Iron Age (about 400-120 BCE) it was the main settlement of southern Dorset; by the Roman invasion it was almost empty.",
+      "new": "One of the largest hillforts in Britain. In the middle Iron Age (about 400-120 BCE) it was the main settlement of southern Dorset; by the Roman invasion it was almost empty.",
+      "reviews": [
+        "N23"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[3].to",
+      "old": 43,
+      "new": 61,
+      "reviews": [
+        "N24"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[3].kind",
+      "old": "people",
+      "new": "kingdom",
+      "reviews": [
+        "N24"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[3].name",
+      "old": "Iceni",
+      "new": "Iceni: independent and client kingdom",
+      "reviews": [
+        "N24"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[3].note",
+      "old": "People of Norfolk and north Suffolk, a client kingdom until Boudica's revolt of 60/61. Named in Roman sources (Caesar, Tacitus, Ptolemy) and on coins or inscriptions; the label marks the heartland only, no boundary is known, and the name outlived the conquest as a Roman civitas. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+      "new": "The Iceni retained a client kingdom under Prasutagus after AD 43; Boudica’s revolt followed in AD 60/61. The endpoint 61 marks the end of this political phase, not extinction of the people. Their subsequent Roman civitas requires a separate record. The pre-43 start remains approximate.",
+      "reviews": [
+        "N24"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[12].to",
+      "old": 43,
+      "new": 70,
+      "reviews": [
+        "N25"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[12].kind",
+      "old": "people",
+      "new": "kingdom",
+      "reviews": [
+        "N25"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[12].name",
+      "old": "Brigantes",
+      "new": "Brigantes: pre-conquest and client kingship",
+      "reviews": [
+        "N25"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[12].note",
+      "old": "A large confederation across the Pennines, ruled by Cartimandua as a client of Rome until about 69. Named in Roman sources (Caesar, Tacitus, Ptolemy) and on coins or inscriptions; the label marks the heartland only, no boundary is known, and the name outlived the conquest as a Roman civitas. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+      "new": "Cartimandua and Venutius ruled after AD 43; Tacitus describes the crisis of 69. The displayed end around 70 marks a transition towards Roman conquest, not the disappearance of the Brigantes. Roman-period community and conquest phases require separate records; the exact transition is not a single securely dated event.",
+      "reviews": [
+        "N25"
+      ],
+      "confidence": "medium",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[14].evidence",
+      "old": "attested-documentary",
+      "new": "conjectural",
+      "reviews": [
+        "N26"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[14].confidence",
+      "old": "low",
+      "new": "low",
+      "reviews": [
+        "N26"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[14].name",
+      "old": "Carvetii",
+      "new": "Possible pre-Roman antecedents of the Carvetii",
+      "reviews": [
+        "N26"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/polities.json",
+      "path": "$[14].note",
+      "old": "People of the Eden valley and Solway plain, attested only by 3rd-century inscriptions; probably a sub-group of the Brigantes before then. Named in Roman sources (Caesar, Tacitus, Ptolemy) and on coins or inscriptions; the label marks the heartland only, no boundary is known, and the name outlived the conquest as a Roman civitas. Not checked against a fetched source: dates and size come from general reference knowledge.",
+      "new": "This pre-Roman placement is conjectural. The civitas Carvetiorum is securely named on RIB 3526 dated 222/223, with later third-century evidence; a separate Roman-period record is needed. Neither 50 BCE nor AD 43 is an attested boundary for this people.",
+      "reviews": [
+        "N26"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/lines.json",
+      "path": "$[32].evidence",
+      "old": "attested-excavated",
+      "new": "reconstructed",
+      "reviews": [
+        "N27"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[83].uncertainty",
+      "old": "The size comes from metal-detected finds; dates other than 872-3 are approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+      "new": "This point is a reference for Torksey, not the Viking camp centroid. The 872–873 camp occupied high ground north of the village, mostly in Brampton parish (HER MLI125067, centred SK 836 802, estimated extent 725 × 1509 m). Its footprint needs a separate entity; later town phases should retain their own location.",
+      "reviews": [
+        "N28"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[33].phases[2].label",
+      "old": "Saxon Shore fort",
+      "new": "Small fort c.250; stone shore fort built c.275–290",
+      "reviews": [
+        "N29"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[33].phases[2].note",
+      "old": null,
+      "new": "The small fort and its stone replacement are separate stages. The surviving stone walls date to the 275–290 construction bracket, not 251.",
+      "reviews": [
+        "N29"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[0].phases[1].label",
+      "old": "Disused mound",
+      "new": "Surviving tomb; end of use uncertain",
+      "reviews": [
+        "N30"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[0].phases[1].note",
+      "old": null,
+      "new": "Cadw provides no 2000 BCE closure. The app already admits that the end of use is not dated. The numerical year is only a display anchor.",
+      "reviews": [
+        "N30"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[2].phases[1].label",
+      "old": "Disused tomb",
+      "new": "Surviving tomb; later use uncertain",
+      "reviews": [
+        "N32"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places-wales.json",
+      "path": "$[2].phases[1].note",
+      "old": null,
+      "new": "Cadw supports a Neolithic tomb but no exact cessation year; the displayed boundary is not an excavation result. The numerical year is only a display anchor.",
+      "reviews": [
+        "N32"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[10].phases[1].label",
+      "old": "Earthworks, out of use",
+      "new": "Earthworks; Bronze Age burial landscape",
+      "reviews": [
+        "N33"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[10].phases[1].note",
+      "old": null,
+      "new": "English Heritage describes continued importance for early Bronze Age burials. Calling the entire complex out of use from 2000 BCE suppresses that continuing activity. The numerical year is only a display anchor.",
+      "reviews": [
+        "N33"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[74].phases[4].label",
+      "old": "Ruin; a Tudor fort is built nearby",
+      "new": "Former priory retained; harbour defences added in 1542–45",
+      "reviews": [
+        "N34"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[74].phases[4].note",
+      "old": null,
+      "new": "Priory suppressed in 1537, but buildings were retained for Crown defence. English Heritage dates the nearby earth-and-timber harbour works to 1542–45; do not imply instant ruination or a fort already present in 1538.",
+      "reviews": [
+        "N34"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[31].summary",
+      "old": "Founded as a military base about 47 and refounded as a city in the 90s. At 78 hectares it was one of the largest cities of Roman Britain. It was never built over.",
+      "new": "Founded as a military base about 47 and refounded as a city in the 90s. At 78 hectares it was one of the largest cities of Roman Britain. Much of the Roman urban area escaped later development, while a smaller community continued by the ford at the site of the later village.",
+      "reviews": [
+        "N35"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[31].phases[3].label",
+      "old": "City centre abandoned",
+      "new": "Roman city centre abandoned; smaller settlement persists by the ford",
+      "reviews": [
+        "N35"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[31].phases[3].note",
+      "old": null,
+      "new": "The circa-450 boundary concerns the former urban centre, not complete depopulation of Wroxeter.",
+      "reviews": [
+        "N35"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[0].phases[3].label",
+      "old": "Ruin on open downland",
+      "new": "Standing remains; Roman and later activity",
+      "reviews": [
+        "H01"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[0].phases[3].note",
+      "old": null,
+      "new": "AD 43 is an era boundary only. The dates when individual stones fell or were removed are generally unknown; it is not a dated destruction of Stonehenge.",
+      "reviews": [
+        "H01"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[1].phases[0].label",
+      "old": "Large seasonal settlement of the Stonehenge builders",
+      "new": "Short-lived late Neolithic settlement (date uncertain)",
+      "reviews": [
+        "H02"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "national/places.json",
+      "path": "$[1].phases[0].note",
+      "old": null,
+      "new": "Relatively short occupation within the radiocarbon bracket 2580–2470 BCE. The displayed 2550–2451 interval is an uncertainty/display window, not a measured century of continuous occupation.",
+      "reviews": [
+        "H02"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/stonehenge/landmarks.json",
+      "path": "$[11].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "H03"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    },
+    {
+      "file": "locations/stonehenge/landmarks.json",
+      "path": "$[12].confidence",
+      "old": "high",
+      "new": "medium",
+      "reviews": [
+        "H04"
+      ],
+      "confidence": "high",
+      "status": "proposed"
+    }
+  ]
+}

@@ -1,0 +1,2222 @@
+{
+  "summary": {
+    "when": "2026-11-14T10:12:28.040Z",
+    "base": "http://127.0.0.1:4310",
+    "passed": 275,
+    "failed": 2,
+    "total": 277
+  },
+  "results": [
+    {
+      "group": "1 load",
+      "name": "no page errors / console errors / failed requests on load (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "1 load",
+      "name": "no console error for a missing /favicon.ico",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "1 load",
+      "name": "dataset-problems warning (\"Dataset \\\"stonehenge\\\" has\") does not appear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "window.__ltt ready",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "window.__lttData.site.id === \"stonehenge\"",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "opens at the initial year (2400 BCE)",
+      "pass": true,
+      "detail": "2400 BCE"
+    },
+    {
+      "group": "1 load",
+      "name": "one WebGL canvas in the stage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "WebGL context alive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "scope badge reads a detailed/district scope in the default view",
+      "pass": true,
+      "detail": "Schematic overview"
+    },
+    {
+      "group": "1 load",
+      "name": "LIDAR grid decoded in the browser (not silently falling back to analytic relief)",
+      "pass": true,
+      "detail": "{\"use\":\"replace-analytic\",\"grid\":true}"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider min reads \"4000 BCE\"",
+      "pass": true,
+      "detail": "4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t at min is -3999",
+      "pass": true,
+      "detail": "-3999"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider max reads \"1625 CE\"",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t at max is 1625",
+      "pass": true,
+      "detail": "1625"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "timeline end labels read 4000 BCE and 1625 CE",
+      "pass": true,
+      "detail": "[\"4000 BCE\",\"1620 CE — Inigo Jones surveys for James I; Buckingham digs\",\"1625 CE\"]"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "setT(99999) clamps to 1625",
+      "pass": true,
+      "detail": "1625"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "setT(-99999) clamps to 4000 BCE",
+      "pass": true,
+      "detail": "-3999"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "typing \"9999\" clamps to 1625 CE",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "typing \"5000 BCE\" clamps to 4000 BCE",
+      "pass": true,
+      "detail": "4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=0 reads \"1 BCE\"",
+      "pass": true,
+      "detail": "1 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=0 readout is not year 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=0.5 reads \"1 BCE\"",
+      "pass": true,
+      "detail": "1 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=0.5 readout is not year 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=0.999 reads \"1 BCE\"",
+      "pass": true,
+      "detail": "1 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=0.999 readout is not year 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=1 reads \"1 CE\"",
+      "pass": true,
+      "detail": "1 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=1 readout is not year 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=1.5 reads \"1 CE\"",
+      "pass": true,
+      "detail": "1 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=1.5 readout is not year 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=-0.001 reads \"2 BCE\"",
+      "pass": true,
+      "detail": "2 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=-0.001 readout is not year 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=-0.999 reads \"2 BCE\"",
+      "pass": true,
+      "detail": "2 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=-0.999 readout is not year 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=-1 reads \"2 BCE\"",
+      "pass": true,
+      "detail": "2 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=-1 readout is not year 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=-1.001 reads \"3 BCE\"",
+      "pass": true,
+      "detail": "3 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "t=-1.001 readout is not year 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "typing \"1 BCE\" reads \"1 BCE\"",
+      "pass": true,
+      "detail": "1 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "typing \"1 CE\" reads \"1 CE\"",
+      "pass": true,
+      "detail": "1 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "typing \"1\" reads \"1 CE\"",
+      "pass": true,
+      "detail": "1 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "typing \"2 BCE\" reads \"2 BCE\"",
+      "pass": true,
+      "detail": "2 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "typing \"2500 BCE\" reads \"2500 BCE\"",
+      "pass": true,
+      "detail": "2500 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "typing \"1620\" reads \"1620 CE\"",
+      "pass": true,
+      "detail": "1620 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "typing \"0\" is rejected (no year 0)",
+      "pass": true,
+      "detail": "1620 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider 0 -> 4000 BCE; slider 1 -> 1625 CE",
+      "pass": true,
+      "detail": "4000 BCE / 1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider at anchor u=0 reads 4000 BCE",
+      "pass": true,
+      "detail": "4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider at anchor u=0.05 reads 3700 BCE",
+      "pass": true,
+      "detail": "3700 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider at anchor u=0.24 reads 3000 BCE",
+      "pass": true,
+      "detail": "3000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider at anchor u=0.5 reads 2500 BCE",
+      "pass": true,
+      "detail": "2500 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider at anchor u=0.7 reads 2000 BCE",
+      "pass": true,
+      "detail": "2000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider at anchor u=0.84 reads 1500 BCE",
+      "pass": true,
+      "detail": "1500 BCE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider at anchor u=0.91 reads 1 CE",
+      "pass": true,
+      "detail": "1 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider at anchor u=0.955 reads 1000 CE",
+      "pass": true,
+      "detail": "1000 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "slider at anchor u=1 reads 1625 CE",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints and BCE/CE readout",
+      "name": "setT(NaN) is ignored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "3 era presets",
+      "name": "7 eras defined: earlier-neolithic, first-stonehenge, sarsens-durrington, beaker-bronze-age, later-prehistory, roman-medieval, tudor-jacobean",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-earlier-neolithic jumps to 3500 BCE, era \"Earlier Neolithic landscape\"",
+      "pass": true,
+      "detail": "readout=3500 BCE era=Earlier Neolithic landscape"
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-earlier-neolithic button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-first-stonehenge jumps to 2850 BCE, era \"First Stonehenge\"",
+      "pass": true,
+      "detail": "readout=2850 BCE era=First Stonehenge"
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-first-stonehenge button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-sarsens-durrington jumps to 2500 BCE, era \"Sarsens and Durrington\"",
+      "pass": true,
+      "detail": "readout=2500 BCE era=Sarsens and Durrington"
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-sarsens-durrington button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-beaker-bronze-age jumps to 1900 BCE, era \"Beaker and Early Bronze Age\"",
+      "pass": true,
+      "detail": "readout=1900 BCE era=Beaker and Early Bronze Age"
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-beaker-bronze-age button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-later-prehistory jumps to 600 BCE, era \"Later prehistory\"",
+      "pass": true,
+      "detail": "readout=600 BCE era=Later prehistory"
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-later-prehistory button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-roman-medieval jumps to 979 CE, era \"Roman to medieval\"",
+      "pass": true,
+      "detail": "readout=979 CE era=Roman to medieval"
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-roman-medieval button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-tudor-jacobean jumps to 1620 CE, era \"Tudor and Jacobean rediscovery\"",
+      "pass": true,
+      "detail": "readout=1620 CE era=Tudor and Jacobean rediscovery"
+    },
+    {
+      "group": "3 era presets",
+      "name": "era-tudor-jacobean button highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "3 era presets",
+      "name": "era boundaries (first/last year of each era) show the right era",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[inside] camera unchanged (<1 m) after setT(-2995)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=2997 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[inside] camera unchanged (<1 m) after setT(1620)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1620 CE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[inside] camera unchanged (<1 m) after slider change",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=3148 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[inside] camera unchanged (<1 m) after era preset (first-stonehenge)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=2850 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[inside] camera unchanged (<1 m) after era preset (tudor-jacobean)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1620 CE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[inside] camera unchanged (<1 m) after typed year",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=3500 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[inside] camera unchanged (<1 m) after playback",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=2661 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[inside] camera unchanged (<1 m) at 4000 BCE",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=4000 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[avenue] camera unchanged (<1 m) after setT(-2995)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=2997 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[avenue] camera unchanged (<1 m) after setT(1620)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1620 CE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[avenue] camera unchanged (<1 m) after slider change",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=3148 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[avenue] camera unchanged (<1 m) after era preset (first-stonehenge)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=2850 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[avenue] camera unchanged (<1 m) after era preset (tudor-jacobean)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1620 CE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[avenue] camera unchanged (<1 m) after typed year",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=3500 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[avenue] camera unchanged (<1 m) after playback",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=2661 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[avenue] camera unchanged (<1 m) at 4000 BCE",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=4000 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[landscape] camera unchanged (<1 m) after setT(-2995)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=2997 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[landscape] camera unchanged (<1 m) after setT(1620)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1620 CE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[landscape] camera unchanged (<1 m) after slider change",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=3148 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[landscape] camera unchanged (<1 m) after era preset (first-stonehenge)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=2850 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[landscape] camera unchanged (<1 m) after era preset (tudor-jacobean)",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=1620 CE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[landscape] camera unchanged (<1 m) after typed year",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=3500 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[landscape] camera unchanged (<1 m) after playback",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=2661 BCE"
+    },
+    {
+      "group": "4 camera preserved across year changes",
+      "name": "[landscape] camera unchanged (<1 m) at 4000 BCE",
+      "pass": true,
+      "detail": "diff=0.00e+0 m year=4000 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "8 episodes defined",
+      "pass": true,
+      "detail": "stonehenge-midsummer-sunrise-2500bce, stonehenge-midwinter-sunset-2500bce, stonehenge-raising-sarsens, durrington-midwinter-feast-2500bce, bush-barrow-burial, amesbury-abbey-979, inigo-jones-survey-1620, robin-hoods-ball-3550bce"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "Events menu lists \"Midsummer sunrise along the axis, c. 2500 BCE\" with its year",
+      "pass": true,
+      "detail": "[\"Midsummer sunrise along the axis, c. 2500 BCE (2500 BCE)\"]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midsummer-sunrise-2500bce: choosing it jumps to 2500 BCE",
+      "pass": true,
+      "detail": "2500 BCE t=-2498.53"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midsummer-sunrise-2500bce: info panel opens with the episode name",
+      "pass": true,
+      "detail": "Midsummer sunrise along the axis, c. 2500 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midsummer-sunrise-2500bce: panel has evidenced / tradition / not-known lists matching the data and 6 source links",
+      "pass": true,
+      "detail": "{\"h3\":[\"Well evidenced\",\"Tradition or late sources\",\"Not known (invented in any staging)\",\"Sources\"],\"facts\":[4,2,4],\"badges\":[\"Reconstruction\",\"Confidence: medium\"],\"links\":6}"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midsummer-sunrise-2500bce: camera moved to the episode's view (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00 cam=[-2,44,2] declared=[-2,43.96,2]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midsummer-sunrise-2500bce: camera above the ground",
+      "pass": true,
+      "detail": "y=43.96 ground=39.96"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "Events menu lists \"Midwinter sunset through the Great Trilithon, c. 2500 BCE\" with its year",
+      "pass": true,
+      "detail": "[\"Midwinter sunset through the Great Trilithon, c. 2500 BCE (2500 BCE)\"]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midwinter-sunset-2500bce: choosing it jumps to 2500 BCE",
+      "pass": true,
+      "detail": "2500 BCE t=-2498.02"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midwinter-sunset-2500bce: info panel opens with the episode name",
+      "pass": true,
+      "detail": "Midwinter sunset through the Great Trilithon, c. 2500 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midwinter-sunset-2500bce: panel has evidenced / tradition / not-known lists matching the data and 5 source links",
+      "pass": true,
+      "detail": "{\"h3\":[\"Well evidenced\",\"Tradition or late sources\",\"Not known (invented in any staging)\",\"Sources\"],\"facts\":[3,2,3],\"badges\":[\"Reconstruction\",\"Confidence: medium\"],\"links\":5}"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midwinter-sunset-2500bce: camera moved to the episode's view (<12 m)",
+      "pass": true,
+      "detail": "diff=4.36 cam=[84.1,46.9,-70.8] declared=[84.14,42.59,-70.85]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midwinter-sunset-2500bce: camera above the ground",
+      "pass": true,
+      "detail": "y=46.95 ground=37.60"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "Events menu lists \"Raising the sarsens\" with its year",
+      "pass": true,
+      "detail": "[\"Raising the sarsens (2500 BCE)\"]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-raising-sarsens: choosing it jumps to 2500 BCE",
+      "pass": true,
+      "detail": "2500 BCE t=-2498.5"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-raising-sarsens: info panel opens with the episode name",
+      "pass": true,
+      "detail": "Raising the sarsens"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-raising-sarsens: panel has evidenced / tradition / not-known lists matching the data and 6 source links",
+      "pass": true,
+      "detail": "{\"h3\":[\"Well evidenced\",\"Tradition or late sources\",\"Not known (invented in any staging)\",\"Sources\"],\"facts\":[4,1,3],\"badges\":[\"Reconstruction\",\"Confidence: medium\"],\"links\":6}"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-raising-sarsens: camera moved to the episode's view (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00 cam=[42,53.3,42] declared=[42,53.28,42]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-raising-sarsens: camera above the ground",
+      "pass": true,
+      "detail": "y=53.28 ground=39.28"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "Events menu lists \"Midwinter feasting at Durrington Walls, c. 2500 BCE\" with its year",
+      "pass": true,
+      "detail": "[\"Midwinter feasting at Durrington Walls, c. 2500 BCE (2500 BCE)\"]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "durrington-midwinter-feast-2500bce: choosing it jumps to 2500 BCE",
+      "pass": true,
+      "detail": "2500 BCE t=-2498.02"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "durrington-midwinter-feast-2500bce: info panel opens with the episode name",
+      "pass": true,
+      "detail": "Midwinter feasting at Durrington Walls, c. 2500 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "durrington-midwinter-feast-2500bce: panel has evidenced / tradition / not-known lists matching the data and 5 source links",
+      "pass": true,
+      "detail": "{\"h3\":[\"Well evidenced\",\"Tradition or late sources\",\"Not known (invented in any staging)\",\"Sources\"],\"facts\":[4,2,3],\"badges\":[\"Reconstruction\",\"Confidence: medium\"],\"links\":5}"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "durrington-midwinter-feast-2500bce: camera moved to the episode's view (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00 cam=[3120,78.5,-1080] declared=[3120,78.46,-1080]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "durrington-midwinter-feast-2500bce: camera above the ground",
+      "pass": true,
+      "detail": "y=78.46 ground=8.46"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "Events menu lists \"Bush Barrow burial, c. 1900 BCE\" with its year",
+      "pass": true,
+      "detail": "[\"Bush Barrow burial, c. 1900 BCE (1900 BCE)\"]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "bush-barrow-burial: choosing it jumps to 1900 BCE",
+      "pass": true,
+      "detail": "1900 BCE t=-1898.5"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "bush-barrow-burial: info panel opens with the episode name",
+      "pass": true,
+      "detail": "Bush Barrow burial, c. 1900 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "bush-barrow-burial: panel has evidenced / tradition / not-known lists matching the data and 5 source links",
+      "pass": true,
+      "detail": "{\"h3\":[\"Well evidenced\",\"Tradition or late sources\",\"Not known (invented in any staging)\",\"Sources\"],\"facts\":[3,2,3],\"badges\":[\"Evidence: excavated\",\"Confidence: medium\"],\"links\":5}"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "bush-barrow-burial: camera moved to the episode's view (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00 cam=[-520,66.8,840] declared=[-520,66.78,840]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "bush-barrow-burial: camera above the ground",
+      "pass": true,
+      "detail": "y=66.78 ground=41.78"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "Events menu lists \"Amesbury Abbey founded, 979\" with its year",
+      "pass": true,
+      "detail": "[\"Amesbury Abbey founded, 979 (979 CE)\"]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "amesbury-abbey-979: choosing it jumps to 979 CE",
+      "pass": true,
+      "detail": "979 CE t=979.5"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "amesbury-abbey-979: info panel opens with the episode name",
+      "pass": true,
+      "detail": "Amesbury Abbey founded, 979"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "amesbury-abbey-979: panel has evidenced / tradition / not-known lists matching the data and 4 source links",
+      "pass": true,
+      "detail": "{\"h3\":[\"Well evidenced\",\"Not known (invented in any staging)\",\"Sources\"],\"facts\":[3,2],\"badges\":[\"Evidence: documents\",\"Confidence: medium\"],\"links\":4}"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "amesbury-abbey-979: camera moved to the episode's view (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00 cam=[2650,54.8,1000] declared=[2650,54.76,1000]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "amesbury-abbey-979: camera above the ground",
+      "pass": true,
+      "detail": "y=54.76 ground=9.76"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "Events menu lists \"Inigo Jones surveys Stonehenge for James I, 1620\" with its year",
+      "pass": true,
+      "detail": "[\"Inigo Jones surveys Stonehenge for James I, 1620 (1620 CE)\"]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "inigo-jones-survey-1620: choosing it jumps to 1620 CE",
+      "pass": true,
+      "detail": "1620 CE t=1620.6"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "inigo-jones-survey-1620: info panel opens with the episode name",
+      "pass": true,
+      "detail": "Inigo Jones surveys Stonehenge for James I, 1620"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "inigo-jones-survey-1620: panel has evidenced / tradition / not-known lists matching the data and 5 source links",
+      "pass": true,
+      "detail": "{\"h3\":[\"Well evidenced\",\"Tradition or late sources\",\"Not known (invented in any staging)\",\"Sources\"],\"facts\":[3,1,2],\"badges\":[\"Evidence: documents\",\"Confidence: medium\"],\"links\":5}"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "inigo-jones-survey-1620: camera moved to the episode's view (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00 cam=[-46,46.9,46] declared=[-46,46.86,46]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "inigo-jones-survey-1620: camera above the ground",
+      "pass": true,
+      "detail": "y=46.86 ground=40.86"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "Events menu lists \"Robin Hood's Ball causewayed enclosure, c. 3550 BCE\" with its year",
+      "pass": true,
+      "detail": "[\"Robin Hood's Ball causewayed enclosure, c. 3550 BCE (3550 BCE) — off map\"]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "robin-hoods-ball-3550bce: choosing it jumps to 3550 BCE",
+      "pass": true,
+      "detail": "3550 BCE t=-3548.5"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "robin-hoods-ball-3550bce: info panel opens with the episode name",
+      "pass": true,
+      "detail": "Robin Hood's Ball causewayed enclosure, c. 3550 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "robin-hoods-ball-3550bce: panel has evidenced / tradition / not-known lists matching the data and 3 source links",
+      "pass": true,
+      "detail": "{\"h3\":[\"Well evidenced\",\"Not known (invented in any staging)\",\"Sources\"],\"facts\":[2,1],\"badges\":[\"Evidence: excavated\",\"Confidence: low\"],\"links\":3}"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "robin-hoods-ball-3550bce: off-map episode still frames the site (camera finite, changed or kept)",
+      "pass": true,
+      "detail": "[2022.996760671112,1526.440002441406,1807.2448521672309]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midsummer-sunrise-2500bce: ?event= deep link jumps to 2500 BCE and opens the panel",
+      "pass": true,
+      "detail": "2500 BCE / Midsummer sunrise along the axis, c. 2500 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midsummer-sunrise-2500bce: deep link loads without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midwinter-sunset-2500bce: ?event= deep link jumps to 2500 BCE and opens the panel",
+      "pass": true,
+      "detail": "2500 BCE / Midwinter sunset through the Great Trilithon, c. 2500 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-midwinter-sunset-2500bce: deep link loads without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-raising-sarsens: ?event= deep link jumps to 2500 BCE and opens the panel",
+      "pass": true,
+      "detail": "2500 BCE / Raising the sarsens"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "stonehenge-raising-sarsens: deep link loads without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "durrington-midwinter-feast-2500bce: ?event= deep link jumps to 2500 BCE and opens the panel",
+      "pass": true,
+      "detail": "2500 BCE / Midwinter feasting at Durrington Walls, c. 2500 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "durrington-midwinter-feast-2500bce: deep link loads without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "bush-barrow-burial: ?event= deep link jumps to 1900 BCE and opens the panel",
+      "pass": true,
+      "detail": "1900 BCE / Bush Barrow burial, c. 1900 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "bush-barrow-burial: deep link loads without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "amesbury-abbey-979: ?event= deep link jumps to 979 CE and opens the panel",
+      "pass": true,
+      "detail": "979 CE / Amesbury Abbey founded, 979"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "amesbury-abbey-979: deep link loads without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "inigo-jones-survey-1620: ?event= deep link jumps to 1620 CE and opens the panel",
+      "pass": true,
+      "detail": "1620 CE / Inigo Jones surveys Stonehenge for James I, 1620"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "inigo-jones-survey-1620: deep link loads without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "robin-hoods-ball-3550bce: ?event= deep link jumps to 3550 BCE and opens the panel",
+      "pass": true,
+      "detail": "3550 BCE / Robin Hood's Ball causewayed enclosure, c. 3550 BCE"
+    },
+    {
+      "group": "5 episodes open their panel and move the camera",
+      "name": "robin-hoods-ball-3550bce: deep link loads without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "landmarkStatus works for every landmark at the initial year",
+      "pass": true,
+      "detail": "55 landmarks"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "trilithons absent at 3500 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "trilithons absent at 3000 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "trilithons absent at 2700 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "trilithons absent at 2601 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "sarsen-circle absent at 3500 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "sarsen-circle absent at 3000 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "sarsen-circle absent at 2700 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "sarsen-circle absent at 2601 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "trilithons present at 2400 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "trilithons present at 2000 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "trilithons present at 1620 CE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"gone:0.00\",\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "sarsen-circle present at 2400 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "sarsen-circle present at 2000 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "sarsen-circle present at 1620 CE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"gone:0.00\",\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "stonehenge-ditch-bank absent at 3100 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "stonehenge-ditch-bank present at 2900 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"intact:1.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "aubrey-holes absent at 3100 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "aubrey-holes present at 2950 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "aubrey-bluestones present at 2950 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "aubrey-bluestones absent at 2619 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "bluestone-arcs present at 2500 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "bluestone-circle present at 2100 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "bluestone-circle present at 2100 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "bluestone-horseshoe present at 1900 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "avenue absent at 2401 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "avenue present at 2000 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"gone:0.00\",\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "king-barrows absent at 3000 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "king-barrows present at 1800 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"intact:1.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "normanton-down-barrows absent at 3000 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "normanton-down-barrows present at 1800 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"intact:1.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "cursus-barrows absent at 3000 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "cursus-barrows present at 1800 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"intact:1.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "bush-barrow absent at 3000 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "bush-barrow present at 1800 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "durrington-southern-circle absent at 2300 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "durrington-southern-circle absent at 2280 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "durrington-southern-circle present at 2420 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "durrington-northern-circle absent at 2300 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "durrington-northern-circle absent at 2280 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "durrington-northern-circle present at 2420 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "woodhenge absent at 2350 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "woodhenge absent at 2330 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "woodhenge present at 2420 BCE",
+      "pass": true,
+      "detail": "[\"ruin:0.55\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "woodhenge present at 2600 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "woodhenge-henge absent at 2600 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "lesser-cursus present at 3400 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "amesbury-abbey absent at 978 CE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "amesbury-abbey present at 1100 CE",
+      "pass": true,
+      "detail": "[\"intact:1.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "amesbury-abbey absent at 1600 CE",
+      "pass": true,
+      "detail": "[\"gone:0.00\",\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "st-mary-and-st-melor present at 1620 CE",
+      "pass": true,
+      "detail": "[\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunrise-marker absent at 2510 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunrise-marker absent at 2501 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunrise-marker present at 2500 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunrise-marker absent at 2498 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunrise-marker absent at 2400 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunset-marker absent at 2510 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunset-marker absent at 2501 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunset-marker present at 2500 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunset-marker absent at 2498 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "solstice-sunset-marker absent at 2400 BCE",
+      "pass": true,
+      "detail": "[\"gone:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "greater-cursus present at 3400 BCE",
+      "pass": true,
+      "detail": "[\"intact:1.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "greater-cursus absent at 3700 BCE",
+      "pass": true,
+      "detail": "[\"absent:0.00\",\"absent:0.00\",\"absent:0.00\",\"absent:0.00\"]"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "landmarkStatus is finite for every landmark at sample years",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "scene graph at 3000 BCE: no sarsen, no trilithons, no barrows; ditch present",
+      "pass": true,
+      "detail": "{\"t\":false,\"s\":false,\"b\":false,\"d\":true}"
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "scene graph at 2400 BCE: sarsens and trilithons visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "6 lifecycle states in the live engine (anachronism table)",
+      "name": "scene graph at 1620: parish church visible, priory gone; solstice markers hidden",
+      "pass": true,
+      "detail": "{\"c\":true,\"a\":false,\"s\":false}"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "6 views: landscape, avenue, inside, durrington, barrows, low",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=landscape loads, camera finite and above ground",
+      "pass": true,
+      "detail": "y=1100.00 ground=46.50 target y=40.00 ground@target=27.52"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=landscape frames its declared camera (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=landscape target is within 6 m of the ground",
+      "pass": false,
+      "detail": "target y=40.00 ground=27.52"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=landscape no page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=avenue loads, camera finite and above ground",
+      "pass": true,
+      "detail": "y=45.94 ground=37.23 target y=42.92 ground@target=39.92"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=avenue frames its declared camera (<12 m)",
+      "pass": true,
+      "detail": "diff=0.71"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=avenue target is within 6 m of the ground",
+      "pass": true,
+      "detail": "target y=42.92 ground=39.92"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=avenue no page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=inside loads, camera finite and above ground",
+      "pass": true,
+      "detail": "y=43.96 ground=39.96 target y=36.80 ground@target=34.81"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=inside frames its declared camera (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=inside target is within 6 m of the ground",
+      "pass": true,
+      "detail": "target y=36.80 ground=34.81"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=inside no page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=durrington loads, camera finite and above ground",
+      "pass": true,
+      "detail": "y=280.92 ground=30.92 target y=36.54 ground@target=36.54"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=durrington frames its declared camera (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=durrington target is within 6 m of the ground",
+      "pass": true,
+      "detail": "target y=36.54 ground=36.54"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=durrington no page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=barrows loads, camera finite and above ground",
+      "pass": true,
+      "detail": "y=160.44 ground=30.44 target y=34.67 ground@target=34.67"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=barrows frames its declared camera (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=barrows target is within 6 m of the ground",
+      "pass": true,
+      "detail": "target y=34.67 ground=34.67"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=barrows no page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=low loads, camera finite and above ground",
+      "pass": true,
+      "detail": "y=43.46 ground=40.46 target y=41.92 ground@target=39.92"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=low frames its declared camera (<12 m)",
+      "pass": true,
+      "detail": "diff=0.00"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=low target is within 6 m of the ground",
+      "pass": true,
+      "detail": "target y=41.92 ground=39.92"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "?view=low no page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "7 named views load and the camera is above ground",
+      "name": "camera above ground for every view at 4 sampled years",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "labels appear in the 'inside' view at 2400 BCE",
+      "pass": true,
+      "detail": "[{\"id\":\"durrington-walls-henge\",\"text\":\"Durrington Walls henge\"},{\"id\":\"slaughter-stone\",\"text\":\"Slaughter Stone\"},{\"id\":\"heel-stone\",\"text\":\"Heel Stone (and stonehole 97)\"},{\"id\":\"woodhenge-henge\",\"text\":\"Woodhenge ditch and bank · building\"}]"
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "label click \"durrington-walls-henge\" opens its panel with name, evidence and confidence badges",
+      "pass": true,
+      "detail": "{\"h2\":\"Durrington Walls henge\",\"badges\":[\"Evidence: excavated\",\"Confidence: medium\",\"Schematic model\"],\"links\":5,\"unc\":\"Not knownPosition (centre +/-60 m) and outline are an ELLIPSE (466 x 490 m, Gazetteer of Great Britain), NOT a surveyed outline. Ditch about 5.5 m deep, 18 m wide at the top, 7 m at the base (Wikipedia; Current Archaeology gives other figures); modelled ditch 14 m wide, bank 25 m"
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "label click \"durrington-walls-henge\" panel states what is not known (attested-excavated)",
+      "pass": true,
+      "detail": "unc=632"
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "label click \"slaughter-stone\" opens its panel with name, evidence and confidence badges",
+      "pass": true,
+      "detail": "{\"h2\":\"Slaughter Stone\",\"badges\":[\"Evidence: standing fabric\",\"Confidence: medium\",\"Benchmark district\"],\"links\":5,\"unc\":\"Not knownWhether it stood upright originally is inferred from its stonehole and Darvill's reconstruction of an entrance facade; D and E (removed in Stage 3) are not drawn. When it fell is not recorded: it lay flat in the 1720s. The 'Slaughter' name is 17th-century folklore. The"
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "label click \"heel-stone\" opens its panel with name, evidence and confidence badges",
+      "pass": true,
+      "detail": "{\"h2\":\"Heel Stone (and stonehole 97)\",\"badges\":[\"Evidence: standing fabric\",\"Confidence: medium\",\"Benchmark district\"],\"links\":7,\"unc\":\"Not knownIt leans toward the circle today (the lean is not modelled); when it began to lean is unknown. Darvill gives two scenarios (96 added beside 97, or 97's stone moved to 96); the stone in 97 is inferred from the hole alone (marked hypothetical) and shown onl"
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "label click \"woodhenge-henge\" opens its panel with name, evidence and confidence badges",
+      "pass": true,
+      "detail": "{\"h2\":\"Woodhenge ditch and bank\",\"badges\":[\"Evidence: excavated\",\"Confidence: medium\",\"Schematic model\"],\"links\":3,\"unc\":\"Not knownOverall diameter, widths and heights are from Wikipedia; whether the bank lay outside the ditch is assumed (outer, as for a henge); the ditch radius (38 m) is derived from 110 m overall. Entrance width (20 degrees) is a visual choice. Ploughing and levelling are mentio"
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "label click \"woodhenge-henge\" panel states what is not known (attested-excavated)",
+      "pass": true,
+      "detail": "unc=346"
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "at least one label was clickable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "canvas clicks in the inside view pick at least one landmark",
+      "pass": true,
+      "detail": "{\"lm:sarsen-circle\":16,\"lm:bluestone-arcs\":1,\"lm:stonehenge-ditch-bank\":2,\"lm:durrington-walls-henge\":1}"
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "canvas clicks in the inside view hit the sarsens or trilithons",
+      "pass": true,
+      "detail": "{\"lm:sarsen-circle\":16,\"lm:bluestone-arcs\":1,\"lm:stonehenge-ditch-bank\":2,\"lm:durrington-walls-henge\":1}"
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "all 55 landmark info panels render name, evidence badge, phases, sources and uncertainty",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "all 4 zone info panels render",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality -> low: applied, year and camera kept",
+      "pass": true,
+      "detail": "quality=low year=2401 BCE/2401 BCE camDiff=0.00e+0 m tris=788805 calls=42 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality -> high: applied, year and camera kept",
+      "pass": true,
+      "detail": "quality=high year=2401 BCE/2401 BCE camDiff=0.00e+0 m tris=2010525 calls=75 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality -> medium: applied, year and camera kept",
+      "pass": true,
+      "detail": "quality=medium year=2401 BCE/2401 BCE camDiff=0.00e+0 m tris=1704382 calls=72 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality -> low: applied, year and camera kept",
+      "pass": true,
+      "detail": "quality=low year=2401 BCE/2401 BCE camDiff=0.00e+0 m tris=788805 calls=42 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality -> medium: applied, year and camera kept",
+      "pass": true,
+      "detail": "quality=medium year=2401 BCE/2401 BCE camDiff=0.00e+0 m tris=1704382 calls=72 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "no errors while switching quality",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "perf",
+      "name": "perf run quality=low completed without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "perf",
+      "name": "perf run quality=medium completed without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "perf",
+      "name": "perf run quality=high completed without page/console errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "perf",
+      "name": "every benchmark run renders within 33 ms/frame (30 fps, headless Metal)",
+      "pass": false,
+      "detail": "medium/landscape/2400 BCE=36.82ms, medium/landscape/1620 CE=38.11ms, medium/barrows/2400 BCE=33.09ms, high/landscape/2400 BCE=39.08ms, high/landscape/1620 CE=39.51ms, high/barrows/2400 BCE=36.9ms, high/barrows/1620 CE=36.64ms"
+    },
+    {
+      "group": "perf",
+      "name": "(info) strict 30 fps budget",
+      "pass": true,
+      "detail": "7/36 runs above 33 ms"
+    },
+    {
+      "group": "perf",
+      "name": "no view exceeds 5 M triangles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "session",
+      "name": "no page/console errors during the whole run (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "retried": [
+    {
+      "group": "7 named views load and the camera is above ground",
+      "looksLikeHotReload": true,
+      "firstAttemptFailures": [
+        {
+          "name": "?view=landscape target is within 6 m of the ground",
+          "detail": "target y=40.00 ground=27.52"
+        }
+      ]
+    }
+  ],
+  "info": [
+    {
+      "group": "1 load",
+      "name": "dataset counts",
+      "detail": {
+        "landmarks": 55,
+        "zones": 4,
+        "episodes": 8,
+        "events": 32,
+        "eras": 7,
+        "views": 6,
+        "lidar": {
+          "use": "replace-analytic",
+          "grid": true
+        }
+      }
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "visible labels (inside, 2400 BCE)",
+      "detail": [
+        {
+          "id": "durrington-walls-henge",
+          "text": "Durrington Walls henge"
+        },
+        {
+          "id": "slaughter-stone",
+          "text": "Slaughter Stone"
+        },
+        {
+          "id": "heel-stone",
+          "text": "Heel Stone (and stonehole 97)"
+        },
+        {
+          "id": "woodhenge-henge",
+          "text": "Woodhenge ditch and bank · building"
+        }
+      ]
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "click at the centre of the screen in the inside view",
+      "detail": [
+        null
+      ]
+    },
+    {
+      "group": "8 picking and info panel",
+      "name": "landmarks hit by a 9x6 click grid in the inside view",
+      "detail": {
+        "lm:sarsen-circle": 16,
+        "lm:bluestone-arcs": 1,
+        "lm:stonehenge-ditch-bank": 2,
+        "lm:durrington-walls-henge": 1
+      }
+    },
+    {
+      "group": "perf",
+      "name": "benchmark conditions",
+      "detail": {
+        "loadAvg1": 5.1,
+        "cpus": 14,
+        "busy": false,
+        "limitMsPerFrame": 33
+      }
+    }
+  ],
+  "perf": [
+    {
+      "quality": "low",
+      "view": "landscape",
+      "year": "2400 BCE",
+      "msPerFrame": 9.98,
+      "fps": 60,
+      "triangles": 1153513,
+      "calls": 61,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "landscape",
+      "year": "1620 CE",
+      "msPerFrame": 20.15,
+      "fps": 29,
+      "triangles": 1200705,
+      "calls": 98,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "avenue",
+      "year": "2400 BCE",
+      "msPerFrame": 8.18,
+      "fps": 60,
+      "triangles": 899153,
+      "calls": 42,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "avenue",
+      "year": "1620 CE",
+      "msPerFrame": 7.91,
+      "fps": 60,
+      "triangles": 914859,
+      "calls": 75,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "inside",
+      "year": "2400 BCE",
+      "msPerFrame": 7.67,
+      "fps": 60,
+      "triangles": 1130375,
+      "calls": 47,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "inside",
+      "year": "1620 CE",
+      "msPerFrame": 8.32,
+      "fps": 60,
+      "triangles": 805015,
+      "calls": 67,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "durrington",
+      "year": "2400 BCE",
+      "msPerFrame": 8.65,
+      "fps": 60,
+      "triangles": 509195,
+      "calls": 24,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "durrington",
+      "year": "1620 CE",
+      "msPerFrame": 8.25,
+      "fps": 60,
+      "triangles": 394069,
+      "calls": 41,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "barrows",
+      "year": "2400 BCE",
+      "msPerFrame": 9.38,
+      "fps": 60,
+      "triangles": 1138554,
+      "calls": 53,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "barrows",
+      "year": "1620 CE",
+      "msPerFrame": 9.71,
+      "fps": 60,
+      "triangles": 1043912,
+      "calls": 84,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "low",
+      "year": "2400 BCE",
+      "msPerFrame": 8.47,
+      "fps": 60,
+      "triangles": 1131731,
+      "calls": 48,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "low",
+      "view": "low",
+      "year": "1620 CE",
+      "msPerFrame": 7.68,
+      "fps": 60,
+      "triangles": 808055,
+      "calls": 68,
+      "instances": 142,
+      "trees": 4570,
+      "pixelRatio": 1,
+      "loadMs": 29371
+    },
+    {
+      "quality": "medium",
+      "view": "landscape",
+      "year": "2400 BCE",
+      "msPerFrame": 36.82,
+      "fps": 37,
+      "triangles": 2239314,
+      "calls": 117,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "landscape",
+      "year": "1620 CE",
+      "msPerFrame": 38.11,
+      "fps": 37,
+      "triangles": 2807562,
+      "calls": 217,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "avenue",
+      "year": "2400 BCE",
+      "msPerFrame": 26.05,
+      "fps": 44,
+      "triangles": 1950860,
+      "calls": 75,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "avenue",
+      "year": "1620 CE",
+      "msPerFrame": 26.65,
+      "fps": 43,
+      "triangles": 2075598,
+      "calls": 150,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "inside",
+      "year": "2400 BCE",
+      "msPerFrame": 24.57,
+      "fps": 44,
+      "triangles": 2182082,
+      "calls": 80,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "inside",
+      "year": "1620 CE",
+      "msPerFrame": 24.35,
+      "fps": 44,
+      "triangles": 2046320,
+      "calls": 144,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "durrington",
+      "year": "2400 BCE",
+      "msPerFrame": 20.71,
+      "fps": 60,
+      "triangles": 1292366,
+      "calls": 46,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "durrington",
+      "year": "1620 CE",
+      "msPerFrame": 26.95,
+      "fps": 44,
+      "triangles": 1141842,
+      "calls": 97,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "barrows",
+      "year": "2400 BCE",
+      "msPerFrame": 33.09,
+      "fps": 41,
+      "triangles": 2069157,
+      "calls": 89,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "barrows",
+      "year": "1620 CE",
+      "msPerFrame": 32.26,
+      "fps": 40,
+      "triangles": 2148755,
+      "calls": 165,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "low",
+      "year": "2400 BCE",
+      "msPerFrame": 28.61,
+      "fps": 43,
+      "triangles": 2183438,
+      "calls": 81,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "medium",
+      "view": "low",
+      "year": "1620 CE",
+      "msPerFrame": 26.25,
+      "fps": 43,
+      "triangles": 1968794,
+      "calls": 143,
+      "instances": 209,
+      "trees": 18247,
+      "pixelRatio": 1,
+      "loadMs": 28675
+    },
+    {
+      "quality": "high",
+      "view": "landscape",
+      "year": "2400 BCE",
+      "msPerFrame": 39.08,
+      "fps": 36,
+      "triangles": 2852023,
+      "calls": 152,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "landscape",
+      "year": "1620 CE",
+      "msPerFrame": 39.51,
+      "fps": 36,
+      "triangles": 2707843,
+      "calls": 195,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "avenue",
+      "year": "2400 BCE",
+      "msPerFrame": 32.35,
+      "fps": 42,
+      "triangles": 2672397,
+      "calls": 101,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "avenue",
+      "year": "1620 CE",
+      "msPerFrame": 29.49,
+      "fps": 41,
+      "triangles": 2379845,
+      "calls": 153,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "inside",
+      "year": "2400 BCE",
+      "msPerFrame": 28,
+      "fps": 43,
+      "triangles": 2899643,
+      "calls": 102,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "inside",
+      "year": "1620 CE",
+      "msPerFrame": 29.23,
+      "fps": 42,
+      "triangles": 3006227,
+      "calls": 205,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "durrington",
+      "year": "2400 BCE",
+      "msPerFrame": 26.93,
+      "fps": 42,
+      "triangles": 1470509,
+      "calls": 49,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "durrington",
+      "year": "1620 CE",
+      "msPerFrame": 28.27,
+      "fps": 42,
+      "triangles": 1802499,
+      "calls": 162,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "barrows",
+      "year": "2400 BCE",
+      "msPerFrame": 36.9,
+      "fps": 39,
+      "triangles": 1986602,
+      "calls": 76,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "barrows",
+      "year": "1620 CE",
+      "msPerFrame": 36.64,
+      "fps": 38,
+      "triangles": 2118538,
+      "calls": 151,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "low",
+      "year": "2400 BCE",
+      "msPerFrame": 27.76,
+      "fps": 42,
+      "triangles": 2489581,
+      "calls": 84,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    },
+    {
+      "quality": "high",
+      "view": "low",
+      "year": "1620 CE",
+      "msPerFrame": 29.4,
+      "fps": 42,
+      "triangles": 2857533,
+      "calls": 202,
+      "instances": 209,
+      "trees": 39269,
+      "pixelRatio": 1,
+      "loadMs": 29541
+    }
+  ]
+}

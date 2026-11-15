@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Model library preview</title>
+<style>
+  body { margin: 0; background: #1d1f22; color: #ddd; font: 12px/1.3 -apple-system, Helvetica, sans-serif; }
+  #wrap { position: relative; display: inline-block; }
+  .lab { position: absolute; padding: 3px 6px; background: rgba(0,0,0,.55); border-radius: 3px; pointer-events: none; white-space: nowrap; }
+  .lab b { color: #fff; }
+  h1 { font-size: 14px; margin: 8px 10px; font-weight: 600; }
+</style>
+</head>
+<body>
+<h1 id="title">Model library preview</h1>
+<div id="wrap"><canvas id="c"></canvas></div>
+<script type="module">
+// Usage: /assets/models/preview.html?cat=tree,shrub&variants=all&cell=300
+//   cat       categories (default all)      ids       explicit ids
+//   variants  "0" (default) or "all"        cell      cell size in px
+// Columns: LOD0 | LOD1 | LOD2 framed identically, so the LODs can be compared. Static page, not part of the app.
+import { THREE, loadModelData, buildLod } from "./viewer.js";
+
+const q = new URLSearchParams(location.search);
+const cats = q.get("cat") ? new Set(q.get("cat").split(",")) : null;
+const ids = q.get("ids") ? q.get("ids").split(",") : null;
+const allVariants = q.get("variants") === "all";
+const CELL = +(q.get("cell") || 260);
+const index = await (await fetch("./index.json", { cache: "no-store" })).json();
+const assets = index.assets.filter((a) => (!cats || cats.has(a.category)) && (!ids || ids.includes(a.id)));
+
+const rows = [];
+for (const a of assets) {
+  const data = await loadModelData(a.id);
+  const vs = allVariants ? data.meta.variants.map((_, i) => i) : [0];
+  for (const v of vs) rows.push({ a, data, v });
+}
+const COLS = 3;
+const canvas = document.getElementById("c");
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+renderer.setSize(COLS * CELL, rows.length * CELL);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.setScissorTest(true);
+document.getElementById("title").textContent = `Model library preview: ${rows.length} rows (${[...new Set(rows.map((r) => r.a.category))].join(", ")}), columns LOD0 | LOD1 | LOD2`;
+
+const wrap = document.getElementById("wrap");
+const label = (x, y, html) => { const d = document.createElement("div"); d.className = "lab"; d.style.left = `${x + 4}px`; d.style.top = `${y + 4}px`; d.innerHTML = html; wrap.appendChild(d); };
+
+for (const [r, row] of rows.entries()) {
+  const { a, data, v } = row;
+  const meta = data.meta.variants[v];
+  const b = meta.bounds;
+  const size = new THREE.Vector3(b.max[0] - b.min[0], b.max[1] - b.min[1], b.max[2] - b.min[2]);
+  const centre = new THREE.Vector3((b.min[0] + b.max[0]) / 2, (b.min[1] + b.max[1]) / 2, (b.min[2] + b.max[2]) / 2);
+  const rad = Math.max(size.length() / 2, 0.05);
+  for (let c = 0; c < COLS; c++) {
+    const x = c * CELL, y = r * CELL;
+    if (c >= meta.lods.length) { label(x, y, "(no LOD)"); continue; }
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x9fb4c8);
+    scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x5b5040, 1.1));
+    const sun = new THREE.DirectionalLight(0xfff1dc, 2.6);
+    sun.position.set(centre.x + rad * 2, centre.y + rad * 3, centre.z + rad * 2.5);
+    sun.target.position.copy(centre);
+    sun.castShadow = true;
+    sun.shadow.mapSize.set(1024, 1024);
+    const sc = sun.shadow.camera;
+    sc.left = sc.bottom = -rad * 1.6; sc.right = sc.top = rad * 1.6; sc.near = 0.01; sc.far = rad * 10;
+    sun.shadow.bias = -0.0005;
+    scene.add(sun, sun.target);
+    const ground = new THREE.Mesh(new THREE.CircleGeometry(rad * 2.5, 48), new THREE.MeshStandardMaterial({ color: 0x6f6650, roughness: 1 }));
+    ground.rotation.x = -Math.PI / 2;
+    ground.position.y = b.min[1] + 0.001;
+    ground.receiveShadow = true;
+    scene.add(ground);
+    const obj = await buildLod(a.id, data, v, c);
+    scene.add(obj);
+    const cam = new THREE.PerspectiveCamera(35, 1, rad * 0.02, rad * 20);
+    const dir = new THREE.Vector3(0.75, 0.42, 1).normalize();
+    cam.position.copy(centre).addScaledVector(dir, rad / Math.sin(THREE.MathUtils.degToRad(17)) * 0.95);
+    cam.lookAt(centre);
+    renderer.setViewport(x, rows.length * CELL - y - CELL, CELL, CELL);
+    renderer.setScissor(x, rows.length * CELL - y - CELL, CELL, CELL);
+    renderer.render(scene, cam);
+    const L = meta.lods[c];
+    label(x, y, `<b>${a.id}</b>${data.meta.variants.length > 1 ? ` v${v}` : ""} · LOD${c} · ${L.triangles} tris${c === 0 ? ` · ${meta.size.height.toFixed(2)} m tall` : ""}`);
+  }
+}
+window.previewDone = true;
+</script>
+</body>
+</html>

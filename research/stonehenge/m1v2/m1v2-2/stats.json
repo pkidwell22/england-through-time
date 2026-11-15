@@ -1,0 +1,36 @@
+{
+  "low-2400bce": {
+    "fps": 60,
+    "frameMs": 16.67,
+    "worstMs": 16.8,
+    "calls": 77,
+    "triangles": 2528838,
+    "instances": 218,
+    "trees": 39269,
+    "pixelRatio": 1,
+    "size": [
+      1600,
+      900
+    ],
+    "bench": {
+      "msPerFrame": 16.51
+    }
+  },
+  "low-1620": {
+    "fps": 0,
+    "frameMs": -30842.2,
+    "worstMs": -30842.2,
+    "calls": 139,
+    "triangles": 2554954,
+    "instances": 218,
+    "trees": 39269,
+    "pixelRatio": 1,
+    "size": [
+      1600,
+      900
+    ],
+    "bench": {
+      "msPerFrame": 16
+    }
+  }
+}

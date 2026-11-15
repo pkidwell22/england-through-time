@@ -1,0 +1,42 @@
+[
+ {
+  "id": "prehistoric",
+  "name": "Prehistory",
+  "from": -4000,
+  "to": 42,
+  "presetYear": -3000,
+  "blurb": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/eras.json exists."
+ },
+ {
+  "id": "roman",
+  "name": "Roman Britain",
+  "from": 43,
+  "to": 410,
+  "presetYear": 150,
+  "blurb": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/eras.json exists."
+ },
+ {
+  "id": "early-medieval",
+  "name": "Early medieval",
+  "from": 411,
+  "to": 1065,
+  "presetYear": 800,
+  "blurb": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/eras.json exists."
+ },
+ {
+  "id": "medieval",
+  "name": "Medieval",
+  "from": 1066,
+  "to": 1484,
+  "presetYear": 1300,
+  "blurb": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/eras.json exists."
+ },
+ {
+  "id": "tudor-stuart",
+  "name": "Tudor and early Stuart",
+  "from": 1485,
+  "to": 1625,
+  "presetYear": 1600,
+  "blurb": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/eras.json exists."
+ }
+]

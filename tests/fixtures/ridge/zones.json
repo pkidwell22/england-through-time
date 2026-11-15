@@ -1,0 +1,25 @@
+[
+ {
+  "id": "hamlet",
+  "label": "Hamlet (fixture)",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.6585,
+   "lon": -0.2,
+   "rx": 120,
+   "rz": 80
+  },
+  "spacing": 22,
+  "fill": 0.5,
+  "grow": [
+   1400,
+   1410
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "Fixture.",
+  "sources": []
+ }
+]

@@ -1,0 +1,436 @@
+{
+ "id": "brentford",
+ "name": "Brentford and the Thames ford",
+ "subtitle": "A river crossing west of London, 950 – 1100 CE, and the fight of 1016",
+ "scopeNote": "About 3 × 2.4 km around the meeting of the River Brent and the Thames, about 15 km west of London Bridge. This is a reconstruction of a landscape, not of a battle. In 1016 the Anglo-Saxon Chronicle says only that King Edmund 'went over at Brentford', fought the Danish army and put it to flight, and that many of the English drowned through their own carelessness, having gone ahead of the army for plunder. Where the crossing was, which bank the fighting was on, how many fought and how the day went are not recorded, and no archaeology of the battle is known. No trace of a late Saxon settlement has been excavated at Brentford either. The river, banks and road are placed from the modern map and the county history; the houses, fields, figures and shaded areas are labelled guesses.",
+ "origin": {
+  "lat": 51.4815,
+  "lon": -0.302,
+  "note": "A point on the low ground called Old England, between the lower Brent and the Thames (the site of the later Brentford Dock), chosen because the county history places the probable Thames ford here. Local coordinates are metres east (x) and south (z) of this point. It is a convenient centre for the model, not a located battlefield."
+ },
+ "bounds": {
+  "xMin": -1500,
+  "xMax": 1500,
+  "zMin": -1200,
+  "zMax": 1200
+ },
+ "timeline": {
+  "start": 950,
+  "end": 1100,
+  "scale": [
+   {
+    "year": 950,
+    "u": 0
+   },
+   {
+    "year": 1016,
+    "u": 0.5
+   },
+   {
+    "year": 1100,
+    "u": 1
+   }
+  ],
+  "initialYear": 1016
+ },
+ "river": {
+  "centreline": [
+   [
+    51.4526,
+    -0.3033,
+    65,
+    65,
+    0
+   ],
+   [
+    51.4582,
+    -0.3081,
+    65,
+    65,
+    0
+   ],
+   [
+    51.4603,
+    -0.3139,
+    65,
+    65,
+    0
+   ],
+   [
+    51.4622,
+    -0.3172,
+    65,
+    65,
+    0
+   ],
+   [
+    51.4654,
+    -0.3208,
+    70,
+    70,
+    0
+   ],
+   [
+    51.4685,
+    -0.3197,
+    90,
+    70,
+    0
+   ],
+   [
+    51.4706,
+    -0.3189,
+    90,
+    70,
+    0
+   ],
+   [
+    51.4722,
+    -0.3153,
+    75,
+    75,
+    0
+   ],
+   [
+    51.4746,
+    -0.3087,
+    75,
+    75,
+    0
+   ],
+   [
+    51.476,
+    -0.3064,
+    75,
+    80,
+    0
+   ],
+   [
+    51.4779,
+    -0.3049,
+    80,
+    80,
+    0
+   ],
+   [
+    51.4794,
+    -0.3033,
+    85,
+    85,
+    0
+   ],
+   [
+    51.4811,
+    -0.3011,
+    90,
+    85,
+    0
+   ],
+   [
+    51.4829,
+    -0.2991,
+    95,
+    90,
+    0
+   ],
+   [
+    51.484,
+    -0.2973,
+    105,
+    100,
+    0
+   ],
+   [
+    51.4852,
+    -0.2956,
+    110,
+    105,
+    0
+   ],
+   [
+    51.486,
+    -0.2931,
+    110,
+    105,
+    0
+   ],
+   [
+    51.4868,
+    -0.2891,
+    95,
+    90,
+    0
+   ],
+   [
+    51.487,
+    -0.2882,
+    90,
+    85,
+    0
+   ],
+   [
+    51.4857,
+    -0.2827,
+    85,
+    85,
+    0
+   ],
+   [
+    51.483,
+    -0.278,
+    80,
+    80,
+    0
+   ],
+   [
+    51.4796,
+    -0.2755,
+    80,
+    80,
+    0
+   ],
+   [
+    51.4749,
+    -0.2723,
+    80,
+    80,
+    0
+   ],
+   [
+    51.4715,
+    -0.2662,
+    80,
+    80,
+    0
+   ]
+  ],
+  "northBankSetback": [
+   {
+    "year": 950,
+    "value": 0
+   },
+   {
+    "year": 1100,
+    "value": 0
+   }
+  ],
+  "southEmbankment": [
+   {
+    "year": 950,
+    "value": 0.45
+   },
+   {
+    "year": 1100,
+    "value": 0.45
+   }
+  ],
+  "note": "The centreline follows the modern Thames (OpenStreetMap) from Richmond to Mortlake; 'left' is the Middlesex bank (Isleworth, Syon, Brentford) and 'right' the Surrey bank (Kew). The course of the river about 1000 is not known in detail and is assumed to be close to the modern one. Half-widths are a modelling assumption: the modern channel is roughly 110 to 150 m wide in the Syon reach and about 240 m from bank to bank across the aits (estimated from the modern map, not surveyed), and it is drawn somewhat wider here to stand for an unembanked river with shelving gravel foreshores. No measured width or depth for the 11th century was found. A writer of 1695 is quoted as saying the Thames at Brentford was 'not above 3ft deep at low water'; that is 700 years later and is the only depth figure found. Whether and how strongly the reach was tidal about 1000 could not be established from the sources read (it is tidal today; Iron Age and Romano-British hut floors on the Brentford foreshore now lie below high-tide level, so the river has risen since). The model shows one water level. No bank is embanked in this period: the two keyframe sets are constant, and the right-bank value of 0.45 is a rendering choice that gives low, damp but mostly firm ground on the Kew side instead of open creeks; it does not represent a flood bank.",
+  "sources": [
+   "bre-osm-nominatim",
+   "bre-vch-mdx7-comms",
+   "bre-bclhs-brentford-bridge",
+   "bre-vch-mdx1-iron-age",
+   "bre-vch-mdx3-heston-isleworth",
+   "bre-tdp-foreshore-pioneers",
+   "bre-tdp-brentford-aits"
+  ]
+ },
+ "terrain": {
+  "hills": [],
+  "valleys": [
+   {
+    "name": "River Brent",
+    "path": [
+     [
+      51.4925,
+      -0.325
+     ],
+     [
+      51.4913,
+      -0.3206
+     ],
+     [
+      51.4882,
+      -0.3215
+     ],
+     [
+      51.487,
+      -0.3179
+     ],
+     [
+      51.4853,
+      -0.3136
+     ],
+     [
+      51.4838,
+      -0.3099
+     ],
+     [
+      51.4823,
+      -0.3124
+     ],
+     [
+      51.4809,
+      -0.3111
+     ],
+     [
+      51.4819,
+      -0.3071
+     ],
+     [
+      51.4825,
+      -0.303
+     ],
+     [
+      51.4829,
+      -0.3004
+     ]
+    ],
+    "depth": 5,
+    "sigma": 110
+   }
+  ],
+  "eyots": [
+   {
+    "name": "Gravel shoal at the later Lot's Ait",
+    "lat": 51.4847,
+    "lon": -0.2983,
+    "height": 0.6,
+    "sigma": 14,
+    "stretch": 5,
+    "bearing": 53,
+    "shoal": true
+   },
+   {
+    "name": "Gravel shoal at the later Brentford Ait (upper)",
+    "lat": 51.4853,
+    "lon": -0.2962,
+    "height": 0.6,
+    "sigma": 16,
+    "stretch": 6,
+    "bearing": 53,
+    "shoal": true
+   },
+   {
+    "name": "Gravel shoal at the later Brentford Ait (lower)",
+    "lat": 51.4866,
+    "lon": -0.2925,
+    "height": 0.6,
+    "sigma": 16,
+    "stretch": 6,
+    "bearing": 53,
+    "shoal": true
+   }
+  ],
+  "note": "Relief is the engine's analytic approximation: ground rising gently from the Middlesex bank (the county history describes land 'rising gently from the Thames' to about 23 m some 2 km north), a low flat Surrey bank, and a shallow valley for the Brent with alluvium at its mouth. It is not a survey or borehole model, and the Syon bank west of the Brent is in reality lower and flatter than drawn. The Brent valley follows the modern river and canal line, which was straightened below Brentford Bridge between 1699 and 1760; its medieval meanders and its second mouth (the later dock stood on an island between the Thames and two mouths of the Brent) are not modelled. The three eyots stand at the positions of today's Lot's Ait and Brentford Ait. Those islands are later forms (osiers were grown on aits here by 1397; nothing earlier was found), so low gravel shoals standing just above the water, drawn long and narrow along the stream, are a guess at what was there about 1000; their size and height are not recorded. Brentford Ait lay in Surrey and Lot's Ait in Ealing parish, which hints at which bank each grew from.",
+  "sources": [
+   "bre-vch-mdx7-intro",
+   "bre-vch-mdx3-heston-isleworth",
+   "bre-vch-mdx7-econ",
+   "bre-wikipedia-brentford-dock",
+   "bre-wikipedia-brentford-ait",
+   "bre-wikipedia-lots-ait",
+   "bre-osm-nominatim"
+  ]
+ },
+ "polygons": {},
+ "woodland": {
+  "cover": [
+   {
+    "year": 950,
+    "value": 0.16
+   },
+   {
+    "year": 1016,
+    "value": 0.15
+   },
+   {
+    "year": 1100,
+    "value": 0.13
+   }
+  ],
+  "note": "Illustrative only. Domesday Book (1086) records woodland for 500 pigs at Isleworth and for 50 at Hanwell, so the manors still held woodland, but it does not say where; it is more likely to have been on the clay to the north than on the gravel by the river (an inference, not a source statement). The slight fall across the window is an assumption, and the percentages are not measurements.",
+  "sources": [
+   "bre-opendomesday-isleworth",
+   "bre-aubrey-domesday-hanwell",
+   "bre-vch-mdx7-intro"
+  ]
+ },
+ "views": [
+  {
+   "id": "overview",
+   "name": "Whole site",
+   "position": [
+    100,
+    1250,
+    1900
+   ],
+   "target": [
+    0,
+    0,
+    -50
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "ford-middlesex",
+   "name": "The ford from the Middlesex bank",
+   "position": [
+    -330,
+    60,
+    -110
+   ],
+   "target": [
+    60,
+    2,
+    190
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "ford-surrey",
+   "name": "The ford from the Surrey bank",
+   "position": [
+    330,
+    55,
+    400
+   ],
+   "target": [
+    -80,
+    2,
+    80
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "brent-mouth",
+   "name": "The mouth of the Brent",
+   "position": [
+    450,
+    140,
+    60
+   ],
+   "target": [
+    -100,
+    0,
+    -170
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "water-low",
+   "name": "Low over the water",
+   "position": [
+    215,
+    6,
+    -170
+   ],
+   "target": [
+    -14,
+    3,
+    133
+   ],
+   "scope": "overview"
+  }
+ ]
+}

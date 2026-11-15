@@ -1,0 +1,1558 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Fact review</title><style>body{font:16px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#202426;background:#fff;max-width:1040px;margin:48px auto;padding:0 32px}h1{font-size:32px;line-height:1.2}h2{margin-top:52px;border-bottom:1px solid #ddd;padding-bottom:8px}h3{margin-top:36px}h4{margin-top:32px}a{color:#145fa5;overflow-wrap:anywhere}code{font-size:13px;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f6f8;padding:20px;border:1px solid #ddd;line-height:1.5}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #d6d9dc;padding:9px 12px;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3f5f6}li{margin:12px 0}</style><body><h1>Adversarial fact review — London Through Time</h1>
+<p>Checked 2026-11-14. Reviewer: <strong>gpt-6-astra</strong>. Scope: England and Wales, 4000 BCE–1625 CE; London, Brentford, Barnet, and a deliberately lighter final Stonehenge pass.</p>
+<p><strong>142 current review targets: 50 verified, 34 disputed, 13 rejected and 45 unverifiable.</strong> The reviews identify <strong>12 S1, 35 S2 and 45 S3 problems</strong>. 49 correction proposals and 8 sourced additional statements are stored in <code>data/db/curated.sqlite</code>. None has been applied to application JSON.</p>
+<p>The most consequential errors are buildings appearing complete at the start of construction, early polities disappearing in AD 43, Cuthbert’s death being moved to his burial island, and intact post-Dissolution buildings being turned instantly into ruins. The imported research also contains false positives: several proposed “omissions” are already present or explicitly caveated.</p>
+<h2>Counts and interpretation</h2>
+<table>
+<thead>
+<tr>
+<th>Verdict in report</th>
+<th>SQLite verdict</th>
+<th style="text-align:right">Rows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Verified</td>
+<td><code>confirmed</code></td>
+<td style="text-align:right">50</td>
+</tr>
+<tr>
+<td>Disputed</td>
+<td><code>disputed</code></td>
+<td style="text-align:right">34</td>
+</tr>
+<tr>
+<td>Rejected</td>
+<td><code>rejected</code></td>
+<td style="text-align:right">13</td>
+</tr>
+<tr>
+<td>Unverifiable</td>
+<td><code>unverifiable</code></td>
+<td style="text-align:right">45</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Severity</th>
+<th>Meaning</th>
+<th style="text-align:right">Rows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S1</td>
+<td>Wrong visible date, place, existence or stated fact</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>S2</td>
+<td>Misleading or overconfident interpretation</td>
+<td style="text-align:right">35</td>
+</tr>
+<tr>
+<td>S3</td>
+<td>Citation or sourcing defect</td>
+<td style="text-align:right">45</td>
+</tr>
+<tr>
+<td>S4</td>
+<td>Minor wording</td>
+<td style="text-align:right">0</td>
+</tr>
+</tbody>
+</table>
+<p>Counts are latest reviews per target, not distinct root causes. The append-only table contains 144 rows for this run: 2 earlier source-limitation reviews were superseded after additional evidence resolved the Edington and Ellendun years. Verified rows have no problem severity. S3 bibliography-only reviews do not assert that the underlying history is false. Additional omission statements are listed separately below and are not added again to these counts. The schema permits <code>confirmed</code>, not <code>verified</code>; the required reviewer name is unchanged, and each note records the display-verdict mapping. No schema was altered.</p>
+<h2>Evidence and coverage</h2>
+<p>The preserved generated snapshot contains <strong>3,434 fact rows</strong>, 243 national places, 73 London landmarks, 28 national battles, 42 line features and 72 polities. It was captured at <code>2026-11-14T05:56:46.788599+00:00</code>; its build input fingerprint is <code>ef8a96b0829dacb217c386da8811e4cb603152821f90cb8488e97c999d9c7408</code>. The brief’s approximate 2,900 count is outdated. Stonehenge was populated in this snapshot; its old missing-source warning is also outdated (zero dangling citations).</p>
+<p>All rows received calendar/range and citation-metadata screening. Priority review inspected London’s landmark sequences; all 43 places reaching size 4–5; all 28 battles; the Roman network and all polity dates; the 544 attested/high rows grouped by their 84 owning entities; and episode attested/tradition/unknown distinctions. <strong>This is not a claim that every field was independently verified.</strong> 43 of the 544 strongest rows have individual verdicts; the rest remain explicitly unadjudicated in <a href="factkeeper-coverage.csv">the coverage ledger</a>. Source reading and comparison were performed at entity/claim level, so one sound foundation date did not certify its location, size and later phases.</p>
+<p>The secondary systematic sample takes every twelfth national place, sorted by namespaced id, after excluding battles, high-confidence places and any place reaching size 4: 12 entities from a pool of 137. The selection and inspected passages are in <a href="factkeeper-systematic-sample.json">the sampling record</a>. Its unsourced cases were left unverified.</p>
+<p>All <strong>77 non-agreement leads</strong> from the 248-comparison research file were rechecked against their cited pages/texts and the current app snapshot. <a href="factkeeper-comparison-review.json">The complete comparison ledger</a> records accepted findings, existing caveats, disagreements and optional enrichments. The 171 agreement-only links were not accepted as proof.</p>
+<p>Availability checks attempted <strong>554 distinct URLs</strong>, including the registered app bibliography, lead citations and added sources. HTTP status counts: <code>{'200': 542, 'network error': 1, '400': 3, '403': 8}</code>. 3 HTTP-200 responses were browser-challenge pages, not readable sources. Selected blocked sources were recovered through web retrieval; the ODNB check used its public extract, not paywalled full text. <a href="factkeeper-fetch-manifest.json">The fetch manifest</a> and <a href="factkeeper-read-log.jsonl">passage log</a> distinguish retrieval from reading. No 403, timeout, API endpoint response or login challenge has been called a dead historical source merely for blocking automation.</p>
+<p>Coordinates were tested against published <em>reference markers</em>, not treated as ground-truth battlefield centres. Sixteen Battlefields Trust grid references could be converted and compared: offsets range from about 5 to 353 m; Bosworth agrees to about 5 m. These differences do not establish battlefield extent. Torksey’s camp centre is about 1 km north of the app’s town marker. The <a href="factkeeper-coordinate-check.json">coordinate calculations</a> retain the source and method.</p>
+<h2>Full S1 and S2 findings</h2>
+<h3>London</h3>
+<h4>L01 — Westminster nave complete 141 years too early (S1; rejected)</h4>
+<p><strong>App:</strong> Westminster Abbey: Abbey with nave completed westwards [1376]. Context: Nave built slowly 1376–1517. No west towers before 1745.</p>
+<p><strong>Finding:</strong> The phase begins in 1376 with continues=true and no built year, although its own dateNote says 1376–1517. The Abbey’s nave history explicitly gives completion in 1517. Under the documented lifecycle this displays the finished westward nave at the start of the campaign.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.westminster-abbey.org/history/explore-our-history/nave">Westminster Abbey: The Nave</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 1). Target <code>landmark:london/westminster-abbey:phase:2</code>; <code>data/locations/london/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/london/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[36].phases[2].built&quot;: 1517,
+    &quot;$[36].phases[2].continues&quot;: false,
+    &quot;$[36].phases[2].label&quot;: &quot;Westward nave rebuilding (1376–1517)&quot;
+  }
+}
+</code></pre>
+<h4>L02 — Westminster roof appears when commissioned (S1; rejected)</h4>
+<p><strong>App:</strong> Westminster Hall and Palace: Hall with hammerbeam roof [1393]. Context: Roof commissioned 1393, substantially built 1397–99, work ceased 1401.</p>
+<p><strong>Finding:</strong> 1393 is the commission date. Parliament dates the lanterns to 1397–98 and says decorative work remained unfinished when work stopped in 1401. continues=true with no built date falsely makes the new roof complete in 1393. Use 1399 only as a labelled substantial-completion display anchor, not an exact completion claim.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.parliament.uk/about/living-heritage/building/palace/westminsterhall/architecture/the-hammer-beam-roof-/">The hammer-beam roof</a>.</p>
+<p><strong>Exact proposal</strong> (medium confidence; review row 2). Target <code>landmark:london/westminster-hall:phase:1</code>; <code>data/locations/london/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/london/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[38].phases[1].built&quot;: 1399,
+    &quot;$[38].phases[1].continues&quot;: false,
+    &quot;$[38].phases[1].label&quot;: &quot;Hammerbeam roof campaign; substantially complete by about 1399&quot;,
+    &quot;$[38].phases[1].dateNote&quot;: &quot;Commissioned 1393; lanterns completed 1397–98; decorative work still unfinished when work stopped in 1401. The built value 1399 is an approximate display anchor.&quot;
+  }
+}
+</code></pre>
+<h4>L03 — Greyfriars finished church shown in foundation year (S1; rejected)</h4>
+<p><strong>App:</strong> Greyfriars (Christ Church): Great church [1306]. Context: Great church built 1306–27 (300 × 89 × 64 ft); kept as Christ Church parish church from 1547.</p>
+<p><strong>Finding:</strong> VCH records the foundation stone in 1306 and completion in 1327. The phase has continues=true and omits built, so the documented 21-year construction period disappears.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.british-history.ac.uk/vch/london/vol1/pp502-507">Friaries: The grey friars (VCH London vol. 1)</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 3). Target <code>landmark:london/greyfriars:phase:1</code>; <code>data/locations/london/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/london/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[46].phases[1].built&quot;: 1327,
+    &quot;$[46].phases[1].continues&quot;: false
+  }
+}
+</code></pre>
+<h4>L04 — Timber bridge survives the 1091 storm in the chronology (S2; disputed)</h4>
+<p><strong>App:</strong> Late Saxon and Norman timber bridge: Timber bridge [990 → 1135]. Context: In existence by c. 1000. The 1014 'pulling down' is saga tradition only; burned in 1135 or 1136 depending on the source.</p>
+<p><strong>Finding:</strong> The single intact 990–1135 phase omits the bridge’s destruction in the 1091 storm recorded by London Museum. The rebuilding year is not supplied by that source. Do not invent an exact replacement date; qualify this phase as a succession of bridges and record the destruction separately.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.londonmuseum.org.uk/collections/london-stories/london-bridge/">London Bridge</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 4). Target <code>landmark:london/saxon-bridge:phase:0</code>; <code>data/locations/london/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/london/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[21].phases[0].label&quot;: &quot;Successive timber bridges; storm destruction in 1091&quot;,
+    &quot;$[21].phases[0].dateNote&quot;: &quot;A bridge existed by about 1000. London Museum records destruction by the storm of 1091; the exact rebuilding chronology is unresolved. This phase represents successive bridges, not one intact structure.&quot;
+  }
+}
+</code></pre>
+<h4>L05 — Mithraic use extended past repurposing (S2; disputed)</h4>
+<p><strong>App:</strong> Temple of Mithras: Mithraeum [240 → 380]. Context: Built c. 240–250; out of use in the late 4th century.</p>
+<p><strong>Finding:</strong> MOLA dates construction to AD 240–250 and Mithraic use for about 80 years before repurposing. The phase calls the building a Mithraeum until 380 despite the summary acknowledging an early-fourth-century conversion. The structure may survive; its cult identity must not be held constant.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.mola.org.uk/node/29561">Mithras and Mithraism: top 10 things you need to know</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 5). Target <code>landmark:london/mithraeum:phase:0</code>; <code>data/locations/london/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/london/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[10].phases[0].label&quot;: &quot;Temple: Mithraic until about 320–330, then repurposed&quot;,
+    &quot;$[10].phases[0].dateNote&quot;: &quot;Construction c.240–250; MOLA estimates about 80 years of Mithraic use before repurposing. The 380 phase end is a modelling estimate, not a dated end of Mithraic worship.&quot;
+  }
+}
+</code></pre>
+<h4>L06 — Priory status retained beyond surrender (S2; disputed)</h4>
+<p><strong>App:</strong> St Bartholomew's Priory and Hospital: Priory church [1123 → 1543].</p>
+<p><strong>Finding:</strong> VCH dates surrender to October 1539; the church’s history associates dissolution and loss of the nave with 1539. The app keeps a Priory church phase until 1543 without distinguishing institutional closure from gradual demolition. The sources read do not establish 1543 as the exact demolition year.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.british-history.ac.uk/vch/london/vol1/pp475-480">Austin canons: Priory of St Bartholomew, Smithfield (VCH London vol. 1)</a>; <a href="https://www.greatstbarts.com/history/">History</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 6). Target <code>landmark:london/st-bartholomew:phase:0</code>; <code>data/locations/london/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/london/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[49].phases[0].label&quot;: &quot;Priory church; parish use after surrender in 1539&quot;,
+    &quot;$[49].phases[0].dateNote&quot;: &quot;Surrendered October 1539. The date of complete nave demolition needs a fabric-specific source; 1543 is a display boundary, not continued monastic occupation.&quot;
+  }
+}
+</code></pre>
+<h4>L07 — First Blackfriars theatre omitted (S2; disputed)</h4>
+<p><strong>App:</strong> Blackfriars: Converted precinct (church demolished) [1538]. Context: Church demolished after 1538; an indoor playhouse occupied the upper frater from 1596 (King's Men from 1608–09).</p>
+<p><strong>Finding:</strong> The converted-precinct dateNote begins theatre use in 1596. EMLoT distinguishes Blackfriars I (1576) from Blackfriars II (1596). The earlier venue matters to the displayed institutional history; neither date means the whole precinct became a theatre.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://emlot.org/">Early Modern London Theatres: project scope and theatre dates</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 7). Target <code>landmark:london/blackfriars:phase:1</code>; <code>data/locations/london/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/london/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[45].phases[1].dateNote&quot;: &quot;Church demolished after dissolution in 1538. Blackfriars I theatre opened in 1576; Blackfriars II was established in 1596, with the King’s Men using it from 1608–09. These were distinct venues within the former precinct.&quot;
+  }
+}
+</code></pre>
+<h4>L08 — Westminster’s earlier monastery missing from its history (S2; disputed)</h4>
+<p><strong>App:</strong> Westminster Abbey: Edward the Confessor's abbey [1045].</p>
+<p><strong>Finding:</strong> 1045 dates the displayed Confessor campaign, not the beginning of monastic Westminster. The Abbey’s history records a Benedictine monastery founded around 960. Add that distinction in the summary without inventing an excavated building form.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.westminster-abbey.org/history/history-of-westminster-abbey">History of Westminster Abbey</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 8). Target <code>landmark:london/westminster-abbey:begun:0</code>; <code>data/locations/london/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/london/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[36].summary&quot;: &quot;A Benedictine monastery existed here from about 960; its appearance is not reconstructed. Edward the Confessor enlarged it in the 1040s, and his church was consecrated in 1065. Henry III’s Gothic rebuilding began in 1245; the westward nave was completed in 1517. The eighteenth-century west towers are outside this timeline.&quot;
+  }
+}
+</code></pre>
+<h4>L11 — Guildhall’s precise completion is not established by its citation (S2; disputed)</h4>
+<p><strong>App:</strong> Guildhall: Great Hall [1430]. Context: Hall c. 1411–30; precinct complete c. 1450.</p>
+<p><strong>Finding:</strong> The City of London’s own page dates building to 1411–1440; the Gresham lecture describes a wider 1411–1450 civic campaign. Neither inspected source establishes the app’s high-confidence 1430 completion of this model. Do not mechanically replace it with 1450, which includes the precinct.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.guildhall.cityoflondon.gov.uk/visual-guides/the-many-lives-of-guildhall">The many lives of Guildhall</a>; <a href="https://www.gresham.ac.uk/node/13035">Envy of Kings: The Guildhall of London and the Power of the Medieval Corporation</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 11). Target <code>landmark:london/guildhall:completed:0</code>; <code>data/locations/london/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/london/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[52].confidence&quot;: &quot;medium&quot;,
+    &quot;$[52].phases[0].dateNote&quot;: &quot;Begun 1411. City of London gives a 1411–1440 building campaign; the wider precinct campaign ran to about 1450. The built value 1430 is provisional and requires a hall-specific source.&quot;
+  }
+}
+</code></pre>
+<h3>National map — England and Wales</h3>
+<h4>N01 — Cuthbert died on Inner Farne, not Lindisfarne (S1; rejected)</h4>
+<p><strong>App:</strong> Lindisfarne: Lindisfarne. Context: Founded in 635 from Iona. Cuthbert died here in 687 and the Lindisfarne Gospels were made about 710-725. Raided on 8 June 793, left for good in 875, and refounded as a cell of Durham by 1122 until its closure in 1537.</p>
+<p><strong>Finding:</strong> The app’s “died here” confuses death with burial. Bede IV.29 places his last retreat and death in his island solitude before burial at Lindisfarne; National Trust’s Farne history explicitly identifies Inner Farne. The app’s English Heritage page gives death followed by burial, without saying that the death occurred on Lindisfarne.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.gutenberg.org/files/38326/38326-h/38326-h.html">Bede, Ecclesiastical History of England, translated A. M. Sellar (1907)</a>; <a href="https://www.nationaltrust.org.uk/visit/north-east/farne-islands/history-of-the-farne-islands-inhabitants">National Trust: Farne Islands inhabitants</a>; <a href="https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/history/">History of Lindisfarne Priory</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 25). Target <code>place:england-wales/lindisfarne:located_at</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[74].summary&quot;: &quot;Founded in 635 from Iona. Cuthbert died on Inner Farne in 687 and was buried here and the Lindisfarne Gospels were made about 710-725. Raided on 8 June 793, left for good in 875, and refounded as a cell of Durham by 1122 until its closure in 1537.&quot;
+  }
+}
+</code></pre>
+<h4>N02 — Welsh law manuscripts placed a century too late (S1; rejected)</h4>
+<p><strong>App:</strong> Lands of Hywel Dda: realm: Lands of Hywel Dda [942 → 950]. Context: Hywel held Seisyllwg from 920 and Dyfed by marriage, and on the death of Idwal Foel in 942 took Gwynedd (and with it Powys), ruling all Wales except Morgannwg and Gwent until his death in 950. The Welsh law-books are attributed to him, though no manuscript is earlier than the 13th century. His kingdom broke up at his death.</p>
+<p><strong>Finding:</strong> Dictionary of Welsh Biography explicitly dates the earliest extant law manuscript to the last quarter of the twelfth century. “No manuscript is earlier than the 13th century” is false. Manuscript survival also does not provide contemporary proof that Hywel personally compiled the laws.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://biography.wales/article/s-HYWE-DDA-0950.html">Hywel Dda (died 950), king and legislator</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 26). Target <code>polity:england-wales/hywel-dda:existed</code>; <code>data/national/polities-wales.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/polities-wales.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[16].note&quot;: &quot;Hywel held Seisyllwg from 920 and Dyfed by marriage, and on the death of Idwal Foel in 942 took Gwynedd (and with it Powys), ruling all Wales except Morgannwg and Gwent until his death in 950. The Welsh law-books are attributed to him, though the earliest surviving manuscript dates from the last quarter of the 12th century and the attribution is not contemporary. His kingdom broke up at his death.&quot;
+  }
+}
+</code></pre>
+<h4>N03 — Northumbria is absent during Edwin and Oswald (S1; rejected)</h4>
+<p><strong>App:</strong> Kingdom of the Northumbrians: kingdom: Kingdom of the Northumbrians [654 → 867]. Context: Bernicia and Deira united. At its height it ran from the Humber and Mersey to the Firth of Forth; the polygon shows about 700 and is cut off at the northern edge of this map. York fell to the Great Army in 867. Frontiers were zones of shifting lordship, not lines. Dates are supported here only by Wikipedia, which is a lead rather than verification.</p>
+<p><strong>Finding:</strong> A first existence in 654 is incompatible with Bede’s accounts of Edwin ruling both components and Oswald restoring Northumbrian rule before 642. English Heritage independently describes Oswald’s accession in 634. A single continuous polygon cannot represent every division. The proposed minimal correction labels its scope from Oswald; earlier unions still need separate records.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.gutenberg.org/files/38326/38326-h/38326-h.html">Bede, Ecclesiastical History of England, translated A. M. Sellar (1907)</a>; <a href="https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/history/">History of Lindisfarne Priory</a>.</p>
+<p><strong>Exact proposal</strong> (medium confidence; review row 27). Target <code>polity:england-wales/northumbria:existed</code>; <code>data/national/polities.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/polities.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[33].from&quot;: 634,
+    &quot;$[33].name&quot;: &quot;Northumbrian kingship from Oswald (earlier unions not shown)&quot;,
+    &quot;$[33].note&quot;: &quot;Oswald reunited Northumbrian rule in 634, following earlier unions under Æthelfrith and Edwin. Bernicia and Deira were divided again after Oswald’s death in 642 and reunited later; this single display range does not assert uninterrupted unified government. The indicative polygon depicts about 700, not every year from 634. Earlier kingships require separate phases; 654 is not the first existence of Northumbria.&quot;
+  }
+}
+</code></pre>
+<h4>N04 — Grimspound climate-driven abandonment is invented (S2; rejected)</h4>
+<p><strong>App:</strong> Grimspound: Abandoned as the upland climate worsened [-800].</p>
+<p><strong>Finding:</strong> English Heritage says the duration of use is unknown and discusses settlement change by about 1000 BCE with erosion and soil nutrient loss. It does not establish abandonment in 800 BCE caused by worsening climate. Reject the causal claim and qualify the nominal phase boundary.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/grimspound/history/">History of Grimspound</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 28). Target <code>place:england-wales/grimspound:phase:1</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[16].phases[1].label&quot;: &quot;Surviving settlement remains; end of occupation uncertain&quot;,
+    &quot;$[16].phases[1].note&quot;: &quot;800 BCE is a display cutoff, not a dated abandonment. Duration of use is unknown; English Heritage describes changing settlement by about 1000 BCE and soil erosion, not a proven climate event.&quot;
+  }
+}
+</code></pre>
+<h4>N05 — Coflein’s catalogue point is mistaken for a battlefield candidate (S2; disputed)</h4>
+<p><strong>App:</strong> Battle of Mynydd Carn: Battle of Mynydd Carn. Context: In 1081 Gruffudd ap Cynan, returning from exile in Ireland, and Rhys ap Tewdwr defeated and killed Trahaearn ap Caradog, Caradog ap Gruffudd and Meilyr ap Rhiwallon. The victory secured Gwynedd for Gruffudd’s line and Deheubarth for Rhys’s.</p>
+<p><strong>Finding:</strong> Coflein’s heading and grid reference are near Templeton, but its documentary assessment favours northern Pembrokeshire in Cemais, around the Carningli–Llanllawer–Dinas hills. The source does not establish its catalogue point as a historically supported candidate. The app admits the site is unknown, but still calls this point one suggestion without explaining the contradiction. No exact replacement coordinate is justified.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://coflein.gov.uk/en/site/300319/">Battle of Mynydd Carn (NPRN 300319), site record</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 29). Target <code>place:england-wales/battle-mynydd-carn:located_at</code>; <code>data/national/places-wales.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places-wales.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[65].name&quot;: &quot;Mynydd Carn (unlocated; catalogue reference marker)&quot;,
+    &quot;$[65].uncertainty&quot;: &quot;The battlefield is unlocated. Coflein’s catalogue marker is near Templeton, while its documentary discussion favours northern Pembrokeshire in Cemais. The displayed point is not a verified battlefield or a source-supported candidate; it is a catalogue reference only.&quot;
+  }
+}
+</code></pre>
+<h4>N06 — Wearmouth’s foundation appears at Jarrow seven years early (S2; disputed)</h4>
+<p><strong>App:</strong> Jarrow and Wearmouth: Wearmouth founded; Jarrow follows in 681 [674 → 800].</p>
+<p><strong>Finding:</strong> The entity deliberately combines Wearmouth and Jarrow but its marker is at Jarrow. Cambridge’s handbook and English Heritage distinguish Wearmouth 674 from Jarrow c.681, with dedication in 685. Retain the two-house explanation but date the Jarrow marker from its own foundation.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.asnc.cam.ac.uk/resources/ASHistBib06.pdf">Anglo-Saxon England: a bibliographical handbook for students of Anglo-Saxon history</a>; <a href="https://www.english-heritage.org.uk/visit/places/st-pauls-monastery-jarrow/history/">History of St Paul's Monastery, Jarrow</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 30). Target <code>place:england-wales/jarrow:phase:0</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[75].phases[0].from&quot;: 681,
+    &quot;$[75].phases[0].label&quot;: &quot;Jarrow monastery; twin of Wearmouth (founded 674)&quot;,
+    &quot;$[75].phases[0].note&quot;: &quot;Jarrow founded c.681; church dedicated 23 April 685. Wearmouth’s earlier foundation belongs to a different site about 10 km away.&quot;
+  }
+}
+</code></pre>
+<h4>N07 — Rhodri’s acquisition of Powys is too definite (S2; disputed)</h4>
+<p><strong>App:</strong> Lands of Rhodri Mawr: realm: Lands of Rhodri Mawr [872 → 878]. Context: Rhodri became king of Gwynedd in 844, took Powys in 855 and Seisyllwg in 872, so that for a few years one king ruled most of Wales outside the south-east and Dyfed. He was killed fighting the English; the Dictionary of Welsh Biography gives 877, other reckonings 878. His sons divided the lands. No boundary is drawn because none is known.</p>
+<p><strong>Finding:</strong> Thornton’s ODNB extract says control of Powys was possible in 855 or at some later date. The app turns that qualified reconstruction into a fixed event. This correction does not settle the independent 877/878 death-date issue.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/581824952">Rhodri Mawr (b. before 844, d. 878), king of Gwynedd</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 31). Target <code>polity:england-wales/rhodri-mawr:existed</code>; <code>data/national/polities-wales.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/polities-wales.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[15].note&quot;: &quot;Rhodri became king of Gwynedd in 844, may have taken control of Powys in or after 855 and Seisyllwg in 872, so that for a few years one king ruled most of Wales outside the south-east and Dyfed. He was killed fighting the English; the Dictionary of Welsh Biography gives 877, other reckonings 878. His sons divided the lands. No boundary is drawn because none is known.&quot;
+  }
+}
+</code></pre>
+<h4>N08 — Rhodri’s acquisition of Powys is too definite (S2; disputed)</h4>
+<p><strong>App:</strong> Powys: kingdom: Powys [500 → 1160]. Context: The kingdom of the central borderland. Its early extent reached further east, into what became Shropshire, before Mercian expansion and the building of Offa’s Dyke. Rhodri Mawr took it over in 855. It was divided for good after the death of Madog ap Maredudd in 1160. The polygon is indicative for about 1100-1160; it is not a surveyed boundary. The start date is conventional.</p>
+<p><strong>Finding:</strong> Thornton’s ODNB extract says control of Powys was possible in 855 or at some later date. The app turns that qualified reconstruction into a fixed event. This correction does not settle the independent 877/878 death-date issue.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/581824952">Rhodri Mawr (b. before 844, d. 878), king of Gwynedd</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 32). Target <code>polity:england-wales/powys:existed</code>; <code>data/national/polities-wales.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/polities-wales.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[5].note&quot;: &quot;The kingdom of the central borderland. Its early extent reached further east, into what became Shropshire, before Mercian expansion and the building of Offa’s Dyke. Rhodri Mawr may have taken control in 855 or later. It was divided for good after the death of Madog ap Maredudd in 1160. The polygon is indicative for about 1100-1160; it is not a surveyed boundary. The start date is conventional.&quot;
+  }
+}
+</code></pre>
+<h4>N09 — Winchester’s exclusive largest-burh claim is unsupported (S2; disputed)</h4>
+<p><strong>App:</strong> Winchester: Winchester. Context: Roman Venta, refounded by Alfred with a new street grid and the largest burh in the Burghal Hidage. It was second only to London at Domesday but thirtieth in the 1377 poll tax.</p>
+<p><strong>Finding:</strong> The Burghal Hidage edition gives Winchester and Wallingford the same 2,400-hide assessment. It measures assessed defensive support, not a population census. The app’s own Wallingford entry recognises the tie. Replace the exclusive superlative with the actual assessment.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-769-1/dissemination/pdf/vol13/13_084_092.pdf">The Burghal Hidage: the establishment of a text</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 33). Target <code>place:england-wales/winchester:located_at</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[35].summary&quot;: &quot;Roman Venta, refounded by Alfred with a new street grid and one of the joint-highest assessed burhs in the Burghal Hidage (2,400 hides, also assigned to Wallingford). It was second only to London at Domesday but thirtieth in the 1377 poll tax.&quot;
+  }
+}
+</code></pre>
+<h4>N10 — Lewes repeats the source’s shorthand but omits its qualification (S2; disputed)</h4>
+<p><strong>App:</strong> Battle of Lewes: Battle of Lewes. Context: Simon de Montfort captured Henry III and the Lord Edward on 14 May 1264 and ruled in the king's name for a year.</p>
+<p><strong>Finding:</strong> The Trust’s data box calls the locality secure, but its narrative explicitly says the exact ground between Offham Hill and the medieval town is uncertain. A high-confidence precise point plus the abridged uncertainty note suppresses that distinction.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.battlefieldstrust.com/resource-centre/medieval/battleview.asp?BattleFieldId=22">Battle of Lewes - 1264</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 34). Target <code>place:england-wales/battle-lewes:located_at</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[161].confidence&quot;: &quot;medium&quot;,
+    &quot;$[161].uncertainty&quot;: &quot;The battle date, 14 May 1264, is secure. The Battlefields Trust locates the general area north of Lewes but says the exact ground between Offham Hill and the medieval town remains uncertain. This point is a reference marker, not a surveyed battle centre.&quot;
+  }
+}
+</code></pre>
+<h4>N11 — St Davids did not first become an episcopal centre in 1115 (S1; rejected)</h4>
+<p><strong>App:</strong> St Davids: St Davids. Context: The monastery founded by St David in the 6th century became the leading church of Wales and, under Norman bishops from 1115, a cathedral. The present church was begun in 1181; a 12th-century pope ruled two pilgrimages here equal to one to Rome, and Bishop Henry de Gower built the great palace in 1328-47.</p>
+<p><strong>Finding:</strong> Asser’s ninth-century Life describes bishops of St Davids, including Nobis. The app’s wording makes Norman appointments in 1115 the beginning of cathedral status. Separate the early episcopal institution from later Norman bishops and the surviving fabric.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.gutenberg.org/files/63384/63384-h/63384-h.htm">Asser’s Life of King Alfred, translated from Stevenson’s text</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 35). Target <code>place:england-wales/st-davids:located_at</code>; <code>data/national/places-wales.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places-wales.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[19].summary&quot;: &quot;The monastery founded by St David in the 6th century became a leading Welsh episcopal centre long before the first Norman bishop in 1115. Its earlier buildings are poorly known. The present church was begun in 1181; a 12th-century pope ruled two pilgrimages here equal to one to Rome, and Bishop Henry de Gower built the great palace in 1328-47.&quot;
+  }
+}
+</code></pre>
+<h4>N12 — Cistercian affiliation assigned to the foundation day (S2; disputed)</h4>
+<p><strong>App:</strong> Fountains Abbey: Cistercian abbey, a great wool producer [1132 → 1539].</p>
+<p><strong>Finding:</strong> National Trust’s detailed foundation account says thirteen Benedictines founded the community in 1132 and it joined the Cistercian order three years later. Its introductory shorthand calls it Cistercian from foundation; the detailed sequence should govern the phase label.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.nationaltrust.org.uk/visit/yorkshire/fountains-abbey-and-studley-royal-water-garden/history-of-fountains-abbey-and-studley-royal">History of Fountains Abbey and Studley Royal</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 36). Target <code>place:england-wales/fountains:phase:0</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[132].phases[0].label&quot;: &quot;Monastic community founded 1132; Cistercian from 1135&quot;,
+    &quot;$[132].phases[0].note&quot;: &quot;Foundation and affiliation are distinct: National Trust dates acceptance into the Cistercian order three years after 1132.&quot;
+  }
+}
+</code></pre>
+<h4>N13 — Gariannonum identification presented as certain (S2; disputed)</h4>
+<p><strong>App:</strong> Burgh Castle: Gariannonum, Saxon Shore fort on the Great Estuary [280 → 410].</p>
+<p><strong>Finding:</strong> English Heritage says one or both of Burgh Castle and Caister were known as Gariannonum. The app phase names Burgh Castle without qualification.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/burgh-castle/history/">History of Burgh Castle</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 37). Target <code>place:england-wales/burgh-castle:phase:0</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[58].phases[0].label&quot;: &quot;Saxon Shore fort; possibly Gariannonum&quot;,
+    &quot;$[58].phases[0].note&quot;: &quot;The ancient name may refer to Burgh Castle, Caister, or both; the identification is not settled.&quot;
+  }
+}
+</code></pre>
+<h4>N14 — Silbury’s dating bracket becomes 120 years of continuous work (S2; disputed)</h4>
+<p><strong>App:</strong> Silbury Hill: Mound under construction [-2470 → -2350].</p>
+<p><strong>Finding:</strong> English Heritage says the mound was probably built over a short period somewhere between c.2470 and 2350 BCE. The app represents that uncertainty interval as an uninterrupted construction phase. The source supports neither an exact start at 2470 nor 120 years of work.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/silbury-hill/history/">History of Silbury Hill</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 38). Target <code>place:england-wales/silbury-hill:phase:0</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[3].phases[0].label&quot;: &quot;Mound building occurred within this approximate dating interval&quot;,
+    &quot;$[3].phases[0].note&quot;: &quot;2470–2350 BCE is a possible chronological bracket. Work probably occupied a short part of that interval, not all 120 years. The model must not be read as a continuous construction schedule.&quot;
+  }
+}
+</code></pre>
+<h4>N15 — Birdoswald’s post-Roman halls have invented exact boundaries (S2; disputed)</h4>
+<p><strong>App:</strong> Birdoswald: Timber halls built over the granaries [411 → 519].</p>
+<p><strong>Finding:</strong> English Heritage describes uninterrupted occupation from late Roman times and successive hall buildings; it does not date their first appearance to 411 or abandonment to 520. The phased interpretation is reasonable, the exact switch is not established.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/birdoswald-roman-fort-hadrians-wall/history-and-stories/history/">History of Birdoswald</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 39). Target <code>place:england-wales/birdoswald:phase:1</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[53].phases[1].note&quot;: &quot;The hall sequence bridges late Roman and fifth-century occupation. 411 and 519/520 are display boundaries, not dated construction and abandonment events.&quot;,
+    &quot;$[53].phases[2].label&quot;: &quot;Later occupation uncertain; eventual abandonment&quot;,
+    &quot;$[53].phases[2].note&quot;: &quot;520 is a provisional display cutoff; the source does not fix an abandonment year.&quot;
+  }
+}
+</code></pre>
+<h4>N16 — chesters: an exact abandonment exceeds the evidence (S2; disputed)</h4>
+<p><strong>App:</strong> Chesters: Abandoned [411].</p>
+<p><strong>Finding:</strong> The institutional history discusses uncertainty into the late fourth or early fifth century; it does not establish a departure in 411.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/history/">History of Chesters Roman Fort And Museum Hadrians Wall</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 40). Target <code>place:england-wales/chesters:phase:1</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[52].phases[1].label&quot;: &quot;Post-Roman occupation and abandonment uncertain&quot;,
+    &quot;$[52].phases[1].note&quot;: &quot;The institutional history discusses uncertainty into the late fourth or early fifth century; it does not establish a departure in 411. The numerical boundary is a display convention.&quot;,
+    &quot;$[52].confidence&quot;: &quot;medium&quot;
+  }
+}
+</code></pre>
+<h4>N17 — housesteads: an exact abandonment exceeds the evidence (S2; disputed)</h4>
+<p><strong>App:</strong> Housesteads: Abandoned [411].</p>
+<p><strong>Finding:</strong> English Heritage gives garrisoning to the end of the fourth century, not a securely dated abandonment on a 410/411 boundary.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/housesteads-roman-fort-hadrians-wall/history/">History of Housesteads Roman Fort</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 41). Target <code>place:england-wales/housesteads:phase:1</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[51].phases[1].label&quot;: &quot;Post-Roman history uncertain&quot;,
+    &quot;$[51].phases[1].note&quot;: &quot;English Heritage gives garrisoning to the end of the fourth century, not a securely dated abandonment on a 410/411 boundary. The numerical boundary is a display convention.&quot;,
+    &quot;$[51].confidence&quot;: &quot;medium&quot;
+  }
+}
+</code></pre>
+<h4>N18 — corbridge: an exact abandonment exceeds the evidence (S2; disputed)</h4>
+<p><strong>App:</strong> Corbridge: Deserted [411].</p>
+<p><strong>Finding:</strong> The history says the town continued until the last days of Roman Britain; it does not establish immediate desertion in 411.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/corbridge-roman-town-hadrians-wall/history-and-stories/history/">History of Corbridge Roman Town</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 42). Target <code>place:england-wales/corbridge:phase:2</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[49].phases[2].label&quot;: &quot;Post-Roman urban decline; exact end uncertain&quot;,
+    &quot;$[49].phases[2].note&quot;: &quot;The history says the town continued until the last days of Roman Britain; it does not establish immediate desertion in 411. The numerical boundary is a display convention.&quot;,
+    &quot;$[49].confidence&quot;: &quot;medium&quot;
+  }
+}
+</code></pre>
+<h4>N19 — brecon-gaer: an exact abandonment exceeds the evidence (S2; disputed)</h4>
+<p><strong>App:</strong> Y Gaer, Brecon: Abandoned fort [300].</p>
+<p><strong>Finding:</strong> Cadw supports foundation around 75 and the cavalry unit, but supplies no 300 abandonment. The app itself calls the end date a guess.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://cadw.gov.wales/visit/places-to-visit/y-gaer-roman-fort">Y Gaer Roman Fort</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 43). Target <code>place:england-wales/brecon-gaer:phase:1</code>; <code>data/national/places-wales.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places-wales.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[18].phases[1].label&quot;: &quot;Later Roman use and eventual abandonment uncertain&quot;,
+    &quot;$[18].phases[1].note&quot;: &quot;Cadw supports foundation around 75 and the cavalry unit, but supplies no 300 abandonment. The app itself calls the end date a guess. The numerical boundary is a display convention.&quot;
+  }
+}
+</code></pre>
+<h4>N20 — segontium: an exact abandonment exceeds the evidence (S2; disputed)</h4>
+<p><strong>App:</strong> Segontium: Abandoned fort [394].</p>
+<p><strong>Finding:</strong> Cadw’s c.394 endpoint derives from coins. A last-coin horizon does not prove an exact evacuation in 394, and the app currently makes occupied and abandoned phases overlap in that year.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://cadw.gov.wales/visit/places-to-visit/segontium-roman-fort">Segontium Roman Fort</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 44). Target <code>place:england-wales/segontium:phase:1</code>; <code>data/national/places-wales.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places-wales.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[9].phases[1].label&quot;: &quot;Late Roman decline; final abandonment uncertain&quot;,
+    &quot;$[9].phases[1].note&quot;: &quot;Cadw’s c.394 endpoint derives from coins. A last-coin horizon does not prove an exact evacuation in 394, and the app currently makes occupied and abandoned phases overlap in that year. The numerical boundary is a display convention.&quot;,
+    &quot;$[9].confidence&quot;: &quot;medium&quot;
+  }
+}
+</code></pre>
+<h4>N21 — whitby: an exact abandonment exceeds the evidence (S2; disputed)</h4>
+<p><strong>App:</strong> Whitby: Abandoned [868 → 1077].</p>
+<p><strong>Finding:</strong> English Heritage explicitly says the monastery was abandoned at an unknown point in the ninth century; 867/868 is not a securely dated destruction.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/whitby-abbey/history-and-stories/history/">History of Whitby Abbey</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 45). Target <code>place:england-wales/whitby:phase:1</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[76].phases[1].label&quot;: &quot;Ninth-century abandonment; exact date unknown&quot;,
+    &quot;$[76].phases[1].note&quot;: &quot;English Heritage explicitly says the monastery was abandoned at an unknown point in the ninth century; 867/868 is not a securely dated destruction. The numerical boundary is a display convention.&quot;,
+    &quot;$[76].confidence&quot;: &quot;medium&quot;
+  }
+}
+</code></pre>
+<h4>N22 — Pevensey falsely deserted throughout the Saxon centuries (S1; rejected)</h4>
+<p><strong>App:</strong> Pevensey: Deserted walls [472 → 1065].</p>
+<p><strong>Finding:</strong> English Heritage says reoccupation followed roughly a century after the late-fifth-century siege and identifies possible high-status Saxon occupation. The app labels every year 472–1065 deserted. Also, its source gives 471 while the consulted Ingram/Giles Chronicle has 490: neither licenses an unqualified precise siege boundary.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/pevensey-castle/history/">History of Pevensey Castle</a>; <a href="https://www.gutenberg.org/files/657/657.txt">The Anglo-Saxon Chronicle, Ingram/Giles composite English translation</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 46). Target <code>place:england-wales/pevensey:phase:2</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[57].phases[2].label&quot;: &quot;After siege tradition; later Anglo-Saxon reoccupation&quot;,
+    &quot;$[57].phases[2].size&quot;: 1,
+    &quot;$[57].phases[2].note&quot;: &quot;The late-fifth-century siege is a retrospective annal with conflicting transmitted/secondary dates. English Heritage describes reoccupation about a century later and possible high-status activity before 1066; the interval is not uniformly deserted.&quot;,
+    &quot;$[57].confidence&quot;: &quot;medium&quot;
+  }
+}
+</code></pre>
+<h4>N23 — Maiden Castle is not Britain’s largest hillfort (S1; rejected)</h4>
+<p><strong>App:</strong> Maiden Castle: Maiden Castle. Context: The largest hillfort in Britain. In the middle Iron Age (about 400-120 BCE) it was the main settlement of southern Dorset; by the Roman invasion it was almost empty.</p>
+<p><strong>Finding:</strong> English Heritage calls Maiden Castle one of the largest, not the largest. The Oxford hillfort atlas records Ham Hill at 84 hectares, while Cambridge’s excavation account explicitly says Ham Hill dwarfs Maiden Castle. The absolute superlative is wrong.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/maiden-castle/history/">History of Maiden Castle</a>; <a href="https://hillforts.arch.ox.ac.uk/records/EN0448.html">Oxford Atlas of Hillforts: Ham Hill</a>; <a href="https://www.cam.ac.uk/research/news/inside-britains-biggest-iron-age-fortress">Cambridge: Britain’s biggest Iron Age fortress</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 47). Target <code>place:england-wales/maiden-castle:located_at</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[18].summary&quot;: &quot;One of the largest hillforts in Britain. In the middle Iron Age (about 400-120 BCE) it was the main settlement of southern Dorset; by the Roman invasion it was almost empty.&quot;
+  }
+}
+</code></pre>
+<h4>N24 — Iceni vanish before Prasutagus and Boudica (S1; rejected)</h4>
+<p><strong>App:</strong> Iceni: people: Iceni [-50 → 43]. Context: People of Norfolk and north Suffolk, a client kingdom until Boudica's revolt of 60/61. Named in Roman sources (Caesar, Tacitus, Ptolemy) and on coins or inscriptions; the label marks the heartland only, no boundary is known, and the name outlived the conquest as a Roman civitas. Dates are supported here only by Wikipedia, which is a lead rather than verification.</p>
+<p><strong>Finding:</strong> The type is people but the interval ends in 43. Tacitus Annals 14.31 explicitly describes Prasutagus’s kingdom and the Icenian revolt in 60/61. At minimum the pre-conquest/client political phase must extend through the revolt; its end must not imply the people disappeared.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html">Tacitus, Annals, Book XIV chapters 29-39 (Loeb translation)</a>.</p>
+<p><strong>Exact proposal</strong> (medium confidence; review row 48). Target <code>polity:england-wales/iceni:existed</code>; <code>data/national/polities.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/polities.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[3].to&quot;: 61,
+    &quot;$[3].kind&quot;: &quot;kingdom&quot;,
+    &quot;$[3].name&quot;: &quot;Iceni: independent and client kingdom&quot;,
+    &quot;$[3].note&quot;: &quot;The Iceni retained a client kingdom under Prasutagus after AD 43; Boudica’s revolt followed in AD 60/61. The endpoint 61 marks the end of this political phase, not extinction of the people. Their subsequent Roman civitas requires a separate record. The pre-43 start remains approximate.&quot;
+  }
+}
+</code></pre>
+<h4>N25 — Brigantes disappear while their client rulers are still active (S1; rejected)</h4>
+<p><strong>App:</strong> Brigantes: people: Brigantes [-50 → 43]. Context: A large confederation across the Pennines, ruled by Cartimandua as a client of Rome until about 69. Named in Roman sources (Caesar, Tacitus, Ptolemy) and on coins or inscriptions; the label marks the heartland only, no boundary is known, and the name outlived the conquest as a Roman civitas. Dates are supported here only by Wikipedia, which is a lead rather than verification.</p>
+<p><strong>Finding:</strong> Tacitus Histories 3.45 describes Cartimandua’s fall and Venutius taking the throne in the events of 69. English Heritage records Stanwick’s decline only after 70. Ending the people/polity in 43 contradicts both the narrative and the app’s own summary.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Histories/3B*.html">Tacitus, Histories 3.45 (Loeb translation)</a>; <a href="https://www.english-heritage.org.uk/visit/places/stanwick-iron-age-fortifications/history/">History of Stanwick Iron Age Fortifications</a>.</p>
+<p><strong>Exact proposal</strong> (medium confidence; review row 49). Target <code>polity:england-wales/brigantes:existed</code>; <code>data/national/polities.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/polities.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[12].to&quot;: 70,
+    &quot;$[12].kind&quot;: &quot;kingdom&quot;,
+    &quot;$[12].name&quot;: &quot;Brigantes: pre-conquest and client kingship&quot;,
+    &quot;$[12].note&quot;: &quot;Cartimandua and Venutius ruled after AD 43; Tacitus describes the crisis of 69. The displayed end around 70 marks a transition towards Roman conquest, not the disappearance of the Brigantes. Roman-period community and conquest phases require separate records; the exact transition is not a single securely dated event.&quot;
+  }
+}
+</code></pre>
+<h4>N26 — Carvetii appear only before their evidence begins (S2; disputed)</h4>
+<p><strong>App:</strong> Carvetii: people: Carvetii [-50 → 43]. Context: People of the Eden valley and Solway plain, attested only by 3rd-century inscriptions; probably a sub-group of the Brigantes before then. Named in Roman sources (Caesar, Tacitus, Ptolemy) and on coins or inscriptions; the label marks the heartland only, no boundary is known, and the name outlived the conquest as a Roman civitas. Not checked against a fetched source: dates and size come from general reference knowledge.</p>
+<p><strong>Finding:</strong> The app shows the Carvetii in 50 BCE–AD 43 but admits their name is attested only by third-century inscriptions. RIB 3526 identifies a civitas in 222/223 and calls this its earliest dated evidence. The plotted interval is a conjectural prehistory, while the securely evidenced Roman community is omitted.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://romaninscriptionsofbritain.org/inscriptions/3526">RIB 3526: Milestone of Severus Alexander</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 50). Target <code>polity:england-wales/carvetii:existed</code>; <code>data/national/polities.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/polities.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[14].evidence&quot;: &quot;conjectural&quot;,
+    &quot;$[14].confidence&quot;: &quot;low&quot;,
+    &quot;$[14].name&quot;: &quot;Possible pre-Roman antecedents of the Carvetii&quot;,
+    &quot;$[14].note&quot;: &quot;This pre-Roman placement is conjectural. The civitas Carvetiorum is securely named on RIB 3526 dated 222/223, with later third-century evidence; a separate Roman-period record is needed. Neither 50 BCE nor AD 43 is an attested boundary for this people.&quot;
+  }
+}
+</code></pre>
+<h4>N27 — Military Way’s deliberately shifted geometry is labelled excavated (S2; disputed)</h4>
+<p><strong>App:</strong> Military Way (Hadrian’s Wall): roman-road: Military Way (Hadrian’s Wall) [160 → 410]. Context: The road added behind Hadrian’s Wall when it was recommissioned about AD 160, linking the forts and milecastles.</p>
+<p><strong>Finding:</strong> The app says its path is the wall-fort coordinates shifted about 300 m south merely for visibility. English Heritage supports the addition of a road, not this derived survey line. The geometry’s evidence class should describe reconstruction; the approximate AD 160 anchor is already qualified.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/">History of Hadrian’s Wall</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 51). Target <code>line:england-wales/military-way:existed</code>; <code>data/national/lines.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/lines.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[32].evidence&quot;: &quot;reconstructed&quot;
+  }
+}
+</code></pre>
+<h4>N28 — Torksey village marker conflates camp and later town (S2; disputed)</h4>
+<p><strong>App:</strong> Torksey: Torksey. Context: The Great Army's camp of 872-3 covered some 55 hectares, larger than most towns of the day.</p>
+<p><strong>Finding:</strong> Lincolnshire HER locates the camp on high ground north of Torksey, mostly in Brampton parish, centred SK 836 802. One coordinate serves both the camp and later town. Do not move the whole multi-period entity to a camp centroid; identify this marker’s scope and request a separate camp location.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://heritage-explorer.lincolnshire.gov.uk/Monument/MLI125067">MLI125067: Winter Camp of the Viking Great Army at Torksey</a>; <a href="https://www.cambridge.org/core/journals/antiquaries-journal/article/winter-camp-of-the-viking-great-army-ad-8723-torksey-lincolnshire/C54BB610EA9E0E567DC2C0622BA753EB">The winter camp of the Viking Great Army, AD 872–3, Torksey, Lincolnshire</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 52). Target <code>place:england-wales/torksey:located_at</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[83].uncertainty&quot;: &quot;This point is a reference for Torksey, not the Viking camp centroid. The 872–873 camp occupied high ground north of the village, mostly in Brampton parish (HER MLI125067, centred SK 836 802, estimated extent 725 × 1509 m). Its footprint needs a separate entity; later town phases should retain their own location.&quot;
+  }
+}
+</code></pre>
+<h4>N29 — Richborough’s small fort and stone shore fort conflated (S2; disputed)</h4>
+<p><strong>App:</strong> Richborough: Saxon Shore fort [251 → 410].</p>
+<p><strong>Finding:</strong> English Heritage distinguishes a small fort around 250 from the surviving stone fort of 275–290. The phase begins in 251 with an undifferentiated Saxon Shore fort label; qualify the transition without pretending that the stone circuit existed from 251.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/richborough-roman-fort-and-amphitheatre/history-and-stories/history/">History of Richborough</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 53). Target <code>place:england-wales/richborough:phase:2</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[33].phases[2].label&quot;: &quot;Small fort c.250; stone shore fort built c.275–290&quot;,
+    &quot;$[33].phases[2].note&quot;: &quot;The small fort and its stone replacement are separate stages. The surviving stone walls date to the 275–290 construction bracket, not 251.&quot;
+  }
+}
+</code></pre>
+<h4>N30 — bryn-celli-ddu: end-of-use language outruns evidence (S2; disputed)</h4>
+<p><strong>App:</strong> Bryn Celli Ddu: Disused mound [-2000].</p>
+<p><strong>Finding:</strong> Cadw provides no 2000 BCE closure. The app already admits that the end of use is not dated.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://cadw.gov.wales/visit/places-to-visit/bryn-celli-ddu-chambered-tomb">Bryn Celli Ddu Chambered Tomb</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 54). Target <code>place:england-wales/bryn-celli-ddu:phase:1</code>; <code>data/national/places-wales.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places-wales.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[0].phases[1].label&quot;: &quot;Surviving tomb; end of use uncertain&quot;,
+    &quot;$[0].phases[1].note&quot;: &quot;Cadw provides no 2000 BCE closure. The app already admits that the end of use is not dated. The numerical year is only a display anchor.&quot;
+  }
+}
+</code></pre>
+<h4>N32 — pentre-ifan: end-of-use language outruns evidence (S2; disputed)</h4>
+<p><strong>App:</strong> Pentre Ifan: Disused tomb [-3000].</p>
+<p><strong>Finding:</strong> Cadw supports a Neolithic tomb but no exact cessation year; the displayed boundary is not an excavation result.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://cadw.gov.wales/visit/places-to-visit/pentre-ifan-chambered-tomb">Pentre Ifan Chambered Tomb</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 55). Target <code>place:england-wales/pentre-ifan:phase:1</code>; <code>data/national/places-wales.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places-wales.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[2].phases[1].label&quot;: &quot;Surviving tomb; later use uncertain&quot;,
+    &quot;$[2].phases[1].note&quot;: &quot;Cadw supports a Neolithic tomb but no exact cessation year; the displayed boundary is not an excavation result. The numerical year is only a display anchor.&quot;
+  }
+}
+</code></pre>
+<h4>N33 — thornborough-henges: end-of-use language outruns evidence (S2; disputed)</h4>
+<p><strong>App:</strong> Thornborough Henges: Earthworks, out of use [-2000].</p>
+<p><strong>Finding:</strong> English Heritage describes continued importance for early Bronze Age burials. Calling the entire complex out of use from 2000 BCE suppresses that continuing activity.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/thornborough-henges/history/">History of Thornborough Henges</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 56). Target <code>place:england-wales/thornborough-henges:phase:1</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[10].phases[1].label&quot;: &quot;Earthworks; Bronze Age burial landscape&quot;,
+    &quot;$[10].phases[1].note&quot;: &quot;English Heritage describes continued importance for early Bronze Age burials. Calling the entire complex out of use from 2000 BCE suppresses that continuing activity. The numerical year is only a display anchor.&quot;
+  }
+}
+</code></pre>
+<h4>N34 — Lindisfarne becomes a ruin immediately after suppression (S1; rejected)</h4>
+<p><strong>App:</strong> Lindisfarne: Ruin; a Tudor fort is built nearby [1538].</p>
+<p><strong>Finding:</strong> The cited English Heritage history explicitly says the priory buildings were not dismantled at the Reformation because of Crown defence needs. The 1538 phase calls them a ruin and introduces a Tudor fort before the source’s 1542–45 harbour defences. Institutional closure is not physical destruction.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/history/">History of Lindisfarne Priory</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 57). Target <code>place:england-wales/lindisfarne:phase:4</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[74].phases[4].label&quot;: &quot;Former priory retained; harbour defences added in 1542–45&quot;,
+    &quot;$[74].phases[4].note&quot;: &quot;Priory suppressed in 1537, but buildings were retained for Crown defence. English Heritage dates the nearby earth-and-timber harbour works to 1542–45; do not imply instant ruination or a fort already present in 1538.&quot;
+  }
+}
+</code></pre>
+<h4>N35 — Wroxeter’s preservation claim erases the surviving settlement (S2; disputed)</h4>
+<p><strong>App:</strong> Wroxeter: Wroxeter. Context: Founded as a military base about 47 and refounded as a city in the 90s. At 78 hectares it was one of the largest cities of Roman Britain. It was never built over.</p>
+<p><strong>Finding:</strong> English Heritage limits abandonment to the city centre and describes a community continuing by the ford, later around St Andrew’s. “It was never built over” overstates the survival of the whole city area. The distinction matters because the model also changes the city to size zero in 451.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/wroxeter-roman-city/history/">History of Wroxeter Roman City</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 58). Target <code>place:england-wales/wroxeter:located_at</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[31].summary&quot;: &quot;Founded as a military base about 47 and refounded as a city in the 90s. At 78 hectares it was one of the largest cities of Roman Britain. Much of the Roman urban area escaped later development, while a smaller community continued by the ford at the site of the later village.&quot;,
+    &quot;$[31].phases[3].label&quot;: &quot;Roman city centre abandoned; smaller settlement persists by the ford&quot;,
+    &quot;$[31].phases[3].note&quot;: &quot;The circa-450 boundary concerns the former urban centre, not complete depopulation of Wroxeter.&quot;
+  }
+}
+</code></pre>
+<h4>H01 — AD 43 is not a dated ruin event at Stonehenge (S2; disputed)</h4>
+<p><strong>App:</strong> Stonehenge: Ruin on open downland [43].</p>
+<p><strong>Finding:</strong> English Heritage describes Roman-period activity but supplies no destruction or abrupt ruin event at the conquest. The national layer switches to ruin in AD 43 while the detailed site uses AD 1 as an explicitly arbitrary loss-of-stones convention. These two dates must not be read as alternative historical events.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/">History of Stonehenge</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 59). Target <code>place:england-wales/stonehenge:phase:3</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[0].phases[3].label&quot;: &quot;Standing remains; Roman and later activity&quot;,
+    &quot;$[0].phases[3].note&quot;: &quot;AD 43 is an era boundary only. The dates when individual stones fell or were removed are generally unknown; it is not a dated destruction of Stonehenge.&quot;
+  }
+}
+</code></pre>
+<h4>H02 — Durrington’s uncertain short occupation becomes a century-long settlement (S2; disputed)</h4>
+<p><strong>App:</strong> Durrington Walls: Large seasonal settlement of the Stonehenge builders [-2550 → -2451].</p>
+<p><strong>Finding:</strong> English Heritage places relatively short occupation within 2580–2470 BCE, followed by the henge. The app’s 2550–2451 settlement phase can imply approximately a century of occupation, while the detailed site describes about a decade. Preserve the bracket/short-duration distinction and leave the exact year unresolved.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/stonehenge-reconstructed/">Stonehenge Reconstructed: Durrington Walls and Woodhenge</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 60). Target <code>place:england-wales/durrington-walls:phase:0</code>; <code>data/national/places.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;national/places.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[1].phases[0].label&quot;: &quot;Short-lived late Neolithic settlement (date uncertain)&quot;,
+    &quot;$[1].phases[0].note&quot;: &quot;Relatively short occupation within the radiocarbon bracket 2580–2470 BCE. The displayed 2550–2451 interval is an uncertainty/display window, not a measured century of continuous occupation.&quot;
+  }
+}
+</code></pre>
+<h3>Brentford</h3>
+<p>No S1/S2 defect was established in the reviewed claims. This does not certify conjectural scenery, troops, positions or numerical estimates. The verified and unresolved episode checks remain in the ledger.</p>
+<h3>Barnet</h3>
+<p>No S1/S2 defect was established in the reviewed claims. This does not certify conjectural scenery, troops, positions or numerical estimates. The verified and unresolved episode checks remain in the ledger.</p>
+<h3>Stonehenge — light final pass</h3>
+<h4>H03 — Stonehenge modelling conventions inherit high archaeological confidence (S2; disputed)</h4>
+<p><strong>App:</strong> Aubrey Holes: Aubrey Holes: filled, visible as dimples [-2500]. Context: The date of filling is not known; 2500 BCE is a convention. They were refilled and later rediscovered by Aubrey (1666) as hollows; still visible as dimples in 1625 is a modelling choice.</p>
+<p><strong>Finding:</strong> The entity’s own uncertainty text admits that the phase date and visible state are modelling conventions. The checked chronological research does not date filled dimples to 2500 BCE or bank erosion to AD 1. Archaeological confidence in the feature’s existence must not certify its invented visible-state chronology. With only entity-level confidence available, medium is the safer aggregate label.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-1893-1/dissemination/pdf/englishh2-135552.pdf">Marshall, Darvill, Parker Pearson &amp; Wainwright 2012. Stonehenge, Amesbury, Wiltshire: chronological modelling. English Heritage Research Report 1-2012 (PDF, text extracted locally)</a>; <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A118920A90FB7CCB2838CEEB10BE477D/S0003598X00048225a.pdf/stonehenge_remodelled.pdf">Darvill, Marshall, Parker Pearson &amp; Wainwright 2012. Stonehenge remodelled. Antiquity 86(334): 1021-1040 (PDF, text extracted locally from the fetched file)</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 61). Target <code>landmark:stonehenge/aubrey-holes:phase:1</code>; <code>data/locations/stonehenge/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/stonehenge/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[11].confidence&quot;: &quot;medium&quot;
+  }
+}
+</code></pre>
+<h4>H04 — Stonehenge modelling conventions inherit high archaeological confidence (S2; disputed)</h4>
+<p><strong>App:</strong> Stonehenge ditch and bank: Silted and slumped earthwork, as seen by the first drawings [1]. Context: Erosion and silting are undated; the lowered bank (1.1 m) from year 1 CE is a convention. The ditch was largely silted long before 1625 (EH). The outer bank was ploughed away later.</p>
+<p><strong>Finding:</strong> The entity’s own uncertainty text admits that the phase date and visible state are modelling conventions. The checked chronological research does not date filled dimples to 2500 BCE or bank erosion to AD 1. Archaeological confidence in the feature’s existence must not certify its invented visible-state chronology. With only entity-level confidence available, medium is the safer aggregate label.</p>
+<p><strong>Evidence, accessed 2026-11-14:</strong> <a href="https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-1893-1/dissemination/pdf/englishh2-135552.pdf">Marshall, Darvill, Parker Pearson &amp; Wainwright 2012. Stonehenge, Amesbury, Wiltshire: chronological modelling. English Heritage Research Report 1-2012 (PDF, text extracted locally)</a>; <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A118920A90FB7CCB2838CEEB10BE477D/S0003598X00048225a.pdf/stonehenge_remodelled.pdf">Darvill, Marshall, Parker Pearson &amp; Wainwright 2012. Stonehenge remodelled. Antiquity 86(334): 1021-1040 (PDF, text extracted locally from the fetched file)</a>.</p>
+<p><strong>Exact proposal</strong> (high confidence; review row 62). Target <code>landmark:stonehenge/stonehenge-ditch-bank:phase:6</code>; <code>data/locations/stonehenge/landmarks.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;file&quot;: &quot;locations/stonehenge/landmarks.json&quot;,
+  &quot;new_values&quot;: {
+    &quot;$[12].confidence&quot;: &quot;medium&quot;
+  }
+}
+</code></pre>
+<h2>Additional sourced statements and omissions</h2>
+<p>The following are in <code>curated_fact</code> with their own citations. A01–A04 accompany the related findings above. The three epidemic events are separate omissions. A05 preserves a scholarly uncertainty that survived challenge. These are proposals for editorial integration, not invented generated fact ids.</p>
+<h3>A01 — The timber London Bridge was destroyed by a storm in 1091.</h3>
+<p>S2 omission associated with L04. Exact rebuilding date not supplied by this source.</p>
+<p>Evidence, accessed 2026-11-14: <a href="https://www.londonmuseum.org.uk/collections/london-stories/london-bridge/">London Bridge</a>.</p>
+<pre><code class="language-json">{
+  &quot;curated_fact_id&quot;: 1,
+  &quot;entity_id&quot;: &quot;london/saxon-bridge&quot;,
+  &quot;kind&quot;: &quot;destroyed&quot;,
+  &quot;statement&quot;: &quot;The timber London Bridge was destroyed by a storm in 1091.&quot;,
+  &quot;year_from&quot;: 1091,
+  &quot;year_to&quot;: 1091,
+  &quot;confidence&quot;: &quot;high&quot;
+}
+</code></pre>
+<h3>A02 — A Benedictine monastery existed at Westminster around 960, before Edward the Confessor’s enlargement.</h3>
+<p>S2 omission associated with L08. Circa date; no proposed model of the unknown early fabric.</p>
+<p>Evidence, accessed 2026-11-14: <a href="https://www.westminster-abbey.org/history/history-of-westminster-abbey">History of Westminster Abbey</a>.</p>
+<pre><code class="language-json">{
+  &quot;curated_fact_id&quot;: 2,
+  &quot;entity_id&quot;: &quot;london/westminster-abbey&quot;,
+  &quot;kind&quot;: &quot;foundation&quot;,
+  &quot;statement&quot;: &quot;A Benedictine monastery existed at Westminster around 960, before Edward the Confessor’s enlargement.&quot;,
+  &quot;year_from&quot;: 960,
+  &quot;year_to&quot;: 960,
+  &quot;confidence&quot;: &quot;medium&quot;
+}
+</code></pre>
+<h3>A-plague-1563 — London suffered a major plague epidemic in 1563.</h3>
+<p>S2 timeline omission. Boulton’s mortality discussion identifies this epidemic; no exact mortality percentage is copied into the new claim.</p>
+<p>Evidence, accessed 2026-11-14: <a href="https://www.staff.ncl.ac.uk/j.p.boulton/bills.htm">London Bills of Mortality, 1660–1700: introduction</a>.</p>
+<pre><code class="language-json">{
+  &quot;curated_fact_id&quot;: 3,
+  &quot;entity_id&quot;: &quot;london&quot;,
+  &quot;kind&quot;: &quot;epidemic&quot;,
+  &quot;statement&quot;: &quot;London suffered a major plague epidemic in 1563.&quot;,
+  &quot;year_from&quot;: 1563,
+  &quot;year_to&quot;: 1563,
+  &quot;confidence&quot;: &quot;high&quot;
+}
+</code></pre>
+<h3>A-plague-1603 — London suffered a major plague epidemic in 1603.</h3>
+<p>S2 timeline omission. Boulton’s mortality discussion identifies this epidemic; no exact mortality percentage is copied into the new claim.</p>
+<p>Evidence, accessed 2026-11-14: <a href="https://www.staff.ncl.ac.uk/j.p.boulton/bills.htm">London Bills of Mortality, 1660–1700: introduction</a>.</p>
+<pre><code class="language-json">{
+  &quot;curated_fact_id&quot;: 4,
+  &quot;entity_id&quot;: &quot;london&quot;,
+  &quot;kind&quot;: &quot;epidemic&quot;,
+  &quot;statement&quot;: &quot;London suffered a major plague epidemic in 1603.&quot;,
+  &quot;year_from&quot;: 1603,
+  &quot;year_to&quot;: 1603,
+  &quot;confidence&quot;: &quot;high&quot;
+}
+</code></pre>
+<h3>A-plague-1625 — London suffered a major plague epidemic in 1625.</h3>
+<p>S2 timeline omission. Boulton’s mortality discussion identifies this epidemic; no exact mortality percentage is copied into the new claim.</p>
+<p>Evidence, accessed 2026-11-14: <a href="https://www.staff.ncl.ac.uk/j.p.boulton/bills.htm">London Bills of Mortality, 1660–1700: introduction</a>.</p>
+<pre><code class="language-json">{
+  &quot;curated_fact_id&quot;: 5,
+  &quot;entity_id&quot;: &quot;london&quot;,
+  &quot;kind&quot;: &quot;epidemic&quot;,
+  &quot;statement&quot;: &quot;London suffered a major plague epidemic in 1625.&quot;,
+  &quot;year_from&quot;: 1625,
+  &quot;year_to&quot;: 1625,
+  &quot;confidence&quot;: &quot;high&quot;
+}
+</code></pre>
+<h3>A03 — The first Blackfriars theatre dates to 1576, distinct from the second venue established in 1596.</h3>
+<p>S2 omission associated with L07; source is EMLoT’s theatre list, not a reconstruction of venue plans.</p>
+<p>Evidence, accessed 2026-11-14: <a href="https://emlot.org/">Early Modern London Theatres: project scope and theatre dates</a>.</p>
+<pre><code class="language-json">{
+  &quot;curated_fact_id&quot;: 6,
+  &quot;entity_id&quot;: &quot;london/blackfriars&quot;,
+  &quot;kind&quot;: &quot;theatre_opened&quot;,
+  &quot;statement&quot;: &quot;The first Blackfriars theatre dates to 1576, distinct from the second venue established in 1596.&quot;,
+  &quot;year_from&quot;: 1576,
+  &quot;year_to&quot;: 1576,
+  &quot;confidence&quot;: &quot;high&quot;
+}
+</code></pre>
+<h3>A04 — The civitas of the Carvetii is named on RIB 3526, dated by imperial titulature to 10 December 222–9 December 223.</h3>
+<p>S2 omission associated with N26. These are attestation dates, not the founding and abolition dates of the civitas.</p>
+<p>Evidence, accessed 2026-11-14: <a href="https://romaninscriptionsofbritain.org/inscriptions/3526">RIB 3526: Milestone of Severus Alexander</a>.</p>
+<pre><code class="language-json">{
+  &quot;curated_fact_id&quot;: 7,
+  &quot;entity_id&quot;: &quot;england-wales/carvetii&quot;,
+  &quot;kind&quot;: &quot;epigraphic_attestation&quot;,
+  &quot;statement&quot;: &quot;The civitas of the Carvetii is named on RIB 3526, dated by imperial titulature to 10 December 222–9 December 223.&quot;,
+  &quot;year_from&quot;: 222,
+  &quot;year_to&quot;: 223,
+  &quot;confidence&quot;: &quot;high&quot;
+}
+</code></pre>
+<h3>A05 — The exact geological provenance of Stonehenge’s Altar Stone remains unresolved in the November 2026 multi-proxy study.</h3>
+<p>The 2024 Scottish-provenance paper is a hypothesis with substantial evidence, but the 2026 study finds no examined outcrop matches all characteristics. The app’s caution is not an error. Do not infer that all of Scotland has been excluded.</p>
+<p>Evidence, accessed 2026-11-14: <a href="https://research.aber.ac.uk/en/publications/searching-for-the-origin-of-the-stonehenge-altar-stone-new-sedime/">Pirrie et al. (2026): Altar Stone provenance</a>.</p>
+<pre><code class="language-json">{
+  &quot;curated_fact_id&quot;: 8,
+  &quot;entity_id&quot;: &quot;stonehenge/altar-stone&quot;,
+  &quot;kind&quot;: &quot;scholarly_dispute&quot;,
+  &quot;statement&quot;: &quot;The exact geological provenance of Stonehenge’s Altar Stone remains unresolved in the November 2026 multi-proxy study.&quot;,
+  &quot;year_from&quot;: null,
+  &quot;year_to&quot;: null,
+  &quot;confidence&quot;: &quot;high&quot;
+}
+</code></pre>
+<h2>Systemic problems</h2>
+<ol>
+<li>
+<p><strong>One confidence label is copied onto different claims.</strong> The generated fact table inherits an entity’s evidence/confidence for its coordinates, dimensions, phase boundaries and size bins. There are 150 high-confidence national <code>size</code> rows. Site identity or standing fabric does not independently establish a numerical ordinal rank. Keep visual size as an editorial scale and preserve claim-level limits; this review does not manufacture alternative population estimates.</p>
+</li>
+<li>
+<p><strong>A nonempty citation list is not independent support.</strong> 397 fact rows have no resolved citation; 400 have only Wikipedia citations. <a href="factkeeper-source-backlog.csv">The complete source backlog</a> identifies each stable target and JSON path. An entity-wide source can support one date while saying nothing about another, as at Lambeth, Guildhall and the Roman abandonment phases.</p>
+</li>
+<li>
+<p><strong>Date windows are mistaken for durations.</strong> A radiocarbon range is not necessarily a century-long building schedule. Approximate annual anchors are acceptable when clearly identified; labels such as completed, abandoned and disused can contradict that caveat. Silbury and Durrington are substantive examples. Already explicit caveats at Uffington, Silchester and Seahenge were not turned into spurious errors.</p>
+</li>
+<li>
+<p><strong>Institutional and physical histories are conflated.</strong> Dissolution does not establish demolition, nor does a bishop’s appointment date found an episcopal institution. Lindisfarne, St Bartholomew’s and St Davids expose these distinctions. Annual transitions shared by two phases can represent within-year change; overlap alone was not labelled an impossible historical succession.</p>
+</li>
+<li>
+<p><strong>Coordinates often express editorial reference points.</strong> Catalogue pins, modern village centres and battlefield registration polygons are not excavated battle centres. Mynydd Carn’s catalogue/text contradiction needs an explicit warning. Barnet, Brunanburh and Assandun already carry material caveats. Modern polity polygons likewise must not imply surveyed contemporary frontiers.</p>
+</li>
+<li>
+<p><strong>Road existence is better evidenced than segment dates or exact geometry.</strong> The Itiner-e paper describes a compiled network around the Roman imperial maximum, with evidenced, conjectured and hypothetical lines. The app’s 31 routed/simplified lines explicitly admit inferred construction years and a nominal 410 end of upkeep. The secondary Britain dataset reports an approximately 100 m datum offset; the app’s research note says it was left uncorrected beneath a 300–700 m simplification tolerance. Those are limits, not metre-accurate excavated roads. The separate Military Way wrongly retains an excavated evidence label for a deliberately shifted line (N27).</p>
+</li>
+<li>
+<p><strong>Source conflicts must be retained.</strong> Pevensey’s web chronology and the older Chronicle translation disagree; the old translation also places the Ellendun sequence under 823. Durham’s archive gives 31 December 1539 while VCH says 1540. The review preserves these conflicts instead of selecting the most convenient exact date. Wikipedia and the separate research database were leads throughout.</p>
+</li>
+</ol>
+<h2>S3 review register</h2>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Target</th>
+<th>Sourcing limitation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L09</td>
+<td><code>landmark:london/lambeth-palace:completed:0</code></td>
+<td>Lambeth’s 1230 completion has no supporting source</td>
+</tr>
+<tr>
+<td>L10</td>
+<td><code>landmark:london/bermondsey-abbey:completed:0</code></td>
+<td>Bermondsey completion and demolition unsupported</td>
+</tr>
+<tr>
+<td>B-dyrham</td>
+<td><code>place:england-wales/battle-dyrham:phase:0</code></td>
+<td>battle-dyrham: source limitation</td>
+</tr>
+<tr>
+<td>C-atrebates</td>
+<td><code>polity:england-wales/atrebates:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-belgae</td>
+<td><code>polity:england-wales/belgae:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-bernicia</td>
+<td><code>polity:england-wales/bernicia:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-boston</td>
+<td><code>place:england-wales/boston:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-bristol</td>
+<td><code>place:england-wales/bristol:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-britannia</td>
+<td><code>polity:england-wales/britannia:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-britannia-inferior</td>
+<td><code>polity:england-wales/britannia-inferior:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-britannia-prima</td>
+<td><code>polity:england-wales/britannia-prima:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-britannia-secunda</td>
+<td><code>polity:england-wales/britannia-secunda:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-britannia-superior</td>
+<td><code>polity:england-wales/britannia-superior:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-catuvellauni</td>
+<td><code>polity:england-wales/catuvellauni:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-danebury</td>
+<td><code>place:england-wales/danebury:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-danelaw</td>
+<td><code>polity:england-wales/danelaw:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-deira</td>
+<td><code>polity:england-wales/deira:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-dobunni</td>
+<td><code>polity:england-wales/dobunni:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-dunwich</td>
+<td><code>place:england-wales/dunwich:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-earldom-chester</td>
+<td><code>polity:england-wales/earldom-chester:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-earldom-hereford</td>
+<td><code>polity:england-wales/earldom-hereford:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-earldom-northumbria</td>
+<td><code>polity:england-wales/earldom-northumbria:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-earldom-shrewsbury</td>
+<td><code>polity:england-wales/earldom-shrewsbury:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-earldom-wessex</td>
+<td><code>polity:england-wales/earldom-wessex:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-east-anglia</td>
+<td><code>polity:england-wales/east-anglia:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-east-anglia-danish</td>
+<td><code>polity:england-wales/east-anglia-danish:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-england</td>
+<td><code>polity:england-wales/england:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-essex</td>
+<td><code>polity:england-wales/essex:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-exeter</td>
+<td><code>place:england-wales/exeter:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-flavia-caesariensis</td>
+<td><code>polity:england-wales/flavia-caesariensis:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-hengistbury-head</td>
+<td><code>place:england-wales/hengistbury-head:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-hwicce</td>
+<td><code>polity:england-wales/hwicce:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-ipswich</td>
+<td><code>place:england-wales/ipswich:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-jorvik</td>
+<td><code>polity:england-wales/jorvik:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-kent</td>
+<td><code>polity:england-wales/kent:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-kings-lynn</td>
+<td><code>place:england-wales/kings-lynn:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-lindsey</td>
+<td><code>polity:england-wales/lindsey:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-maxima-caesariensis</td>
+<td><code>polity:england-wales/maxima-caesariensis:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-mercia</td>
+<td><code>polity:england-wales/mercia:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-plymouth</td>
+<td><code>place:england-wales/plymouth:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-southampton</td>
+<td><code>place:england-wales/southampton:located_at</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-sussex</td>
+<td><code>polity:england-wales/sussex:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-trinovantes</td>
+<td><code>polity:england-wales/trinovantes:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-valentia</td>
+<td><code>polity:england-wales/valentia:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+<tr>
+<td>C-wessex</td>
+<td><code>polity:england-wales/wessex:existed</code></td>
+<td>Priority entity rests only on Wikipedia</td>
+</tr>
+</tbody>
+</table>
+<p>Each row’s full explanation, checked URL and access date are in SQLite and <a href="factkeeper-review-ledger.json">the authored ledger</a>. No S3 row is a factual rejection solely because a page blocked a request.</p>
+<h2>Disposition of all 77 imported disagreements</h2>
+<table>
+<thead>
+<tr>
+<th>Lead</th>
+<th>Outcome</th>
+<th>Independent assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>em-app-1066-travel</code></td>
+<td>enrichment</td>
+<td>EH supports Fulford before Stamford Bridge and Hastings. The app already has a separate Fulford place. No continuous foot-march animation or contrary route is asserted by the cited event. <a href="https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/king-harold/">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-army-865</code></td>
+<td>no defect established</td>
+<td>The current event says East Anglia, not Thetford, for 865. The Cambridge paper supports a more detailed campaign but does not refute that event. <a href="https://www.cambridge.org/core/journals/antiquaries-journal/article/winter-camp-of-the-viking-great-army-ad-8723-torksey-lincolnshire/C54BB610EA9E0E567DC2C0622BA753EB">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-assandun-point</code></td>
+<td>already qualified</td>
+<td>The project still lists Ashdon/Hadstock and Ashingdon/Canewdon alternatives. The app already calls the point a hypothesis, labels confidence low and states the question is open. <a href="https://assandun.uk/home">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-brentford-time</code></td>
+<td>already qualified</td>
+<td>The Chronicle supports a relative sequence only. Both episode dateNotes explicitly say the day and month are unknown; fraction 0.5 is staging, not a claimed date. <a href="https://www.gutenberg.org/files/657/657.txt">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-bridge-1014</code></td>
+<td>already qualified</td>
+<td>The Chronicle does not give bridge demolition in 1014. The app already describes the saga framing, disputed date and allegiance and does not show collapse; E04–E05 confirm these safeguards. <a href="https://www.gutenberg.org/files/657/657.txt">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-brunanburh-point</code></td>
+<td>already qualified</td>
+<td>The Chronicle poem supports the battle, not Bromborough coordinates. The app already describes more than forty candidate sites and marks the location unknown/low. <a href="https://www.gutenberg.org/files/657/657.txt">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-cuthbert-place</code></td>
+<td>substantiated</td>
+<td>Bede IV.29 and the Farne history distinguish death on Farne from burial at Lindisfarne. <a href="https://www.gutenberg.org/files/38326/38326-h/38326-h.html">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-gruffudd</code></td>
+<td>already qualified</td>
+<td>The revised DWB article argues 1064; the current app note already preserves that alternative alongside conventional 1063. This does not justify replacing 1063 outright. <a href="https://biography.wales/article/s12-GRUF-APL-1063.html">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-hywel-manuscripts</code></td>
+<td>substantiated</td>
+<td>DWB explicitly dates the oldest manuscript to the last quarter of the twelfth century. <a href="https://biography.wales/article/s-HYWE-DDA-0950.html">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-jarrow-start</code></td>
+<td>substantiated with narrower scope</td>
+<td>The Cambridge handbook dates the two sites separately. The problem is the Jarrow marker’s 674 onset, not denial that Wearmouth was founded in 674. <a href="https://www.asnc.cam.ac.uk/resources/ASHistBib06.pdf">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-northumbria-start</code></td>
+<td>substantiated</td>
+<td>Bede and EH attest earlier Northumbrian unions. A continuous 654 start loses Edwin and Oswald. <a href="https://www.gutenberg.org/files/38326/38326-h/38326-h.html">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-rhodri-powys</code></td>
+<td>substantiated</td>
+<td>Thornton’s accessible ODNB extract uses possible control in 855 or later. The overstatement recurs in two polity notes. <a href="https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/581824952">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-torksey-camp</code></td>
+<td>substantiated with narrower remedy</td>
+<td>HER gives the northern camp and estimated centre. Moving the shared town/camp point would misplace later phases; identify it as a town reference and add a separate camp feature. <a href="https://heritage-explorer.lincolnshire.gov.uk/Monument/MLI125067">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-whitby-end</code></td>
+<td>substantiated</td>
+<td>EH explicitly denies knowledge of the precise ninth-century abandonment. <a href="https://www.english-heritage.org.uk/visit/places/whitby-abbey/history-and-stories/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-winchester-largest</code></td>
+<td>substantiated</td>
+<td>The edition gives Winchester and Wallingford equal 2,400-hide assessments, not exclusive population rank. <a href="https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-769-1/dissemination/pdf/vol13/13_084_092.pdf">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-durham-1540</code></td>
+<td>retain existing 1539 endpoint</td>
+<td>The Durham archival catalogue explicitly gives surrender on 31 December 1539. VCH’s 1540 does not prove the app wrong; retain source-specific chronology rather than substituting 1540. <a href="https://reed.dur.ac.uk/xtf/view?docId=ark%2F32150_s1dz010q061.xml">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-lewes-location</code></td>
+<td>substantiated</td>
+<td>The Trust’s prose qualifies its own secure-location data box. <a href="https://www.battlefieldstrust.com/resource-centre/medieval/battleview.asp?BattleFieldId=22">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-mynydd-site</code></td>
+<td>substantiated</td>
+<td>Coflein’s northern narrative conflicts with its Templeton catalogue point. No replacement exact coordinate is established. <a href="https://coflein.gov.uk/en/site/300319/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-birdoswald-halls</code></td>
+<td>substantiated</td>
+<td>EH supports continuity and successive halls, not exact 411 and 520 switches. <a href="https://www.english-heritage.org.uk/visit/places/birdoswald-roman-fort-hadrians-wall/history-and-stories/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-brecon-end</code></td>
+<td>substantiated</td>
+<td>The app calls 300 a guess, but the phase still says abandoned. Cadw supplies no evacuation year. <a href="https://cadw.gov.wales/visit/places-to-visit/y-gaer-roman-fort">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-bryn-closure</code></td>
+<td>substantiated</td>
+<td>Cadw does not establish the 2000 BCE cessation represented by Disused mound. <a href="https://cadw.gov.wales/visit/places-to-visit/bryn-celli-ddu-chambered-tomb">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-burgh-name</code></td>
+<td>substantiated</td>
+<td>EH leaves Gariannonum shared between or uncertain between Burgh Castle and Caister. <a href="https://www.english-heritage.org.uk/visit/places/burgh-castle/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-chesters-411</code></td>
+<td>substantiated</td>
+<td>EH’s late-fourth/early-fifth-century caveat does not support exact 411 abandonment. <a href="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-durrington-date</code></td>
+<td>substantiated</td>
+<td>EH’s short occupation inside a dating bracket differs from the century-long displayed settlement interval. <a href="https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/stonehenge-reconstructed/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-grimspound-abandon</code></td>
+<td>substantiated</td>
+<td>EH states duration unknown and soil/settlement change, not a climate-caused 800 BCE abandonment. <a href="https://www.english-heritage.org.uk/visit/places/grimspound/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-london-shrink</code></td>
+<td>no contradiction established</td>
+<td>London Museum describes house decline after c.150. The app’s earlier phase still calls London the chief town; its relative rank need not fall at the first decline. 351 is a schematic phase boundary, not an explicit claim that decline first began then. <a href="https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-provinces-date</code></td>
+<td>already qualified; bibliography weak</td>
+<td>EH supports division after the late-second-century revolt without fixing 197. The app already states 197–213 alternatives. Retain the caveat; Wikipedia-only source provenance is recorded separately. <a href="https://www.english-heritage.org.uk/learn/story-of-england/romans/introduction/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-richborough-fort</code></td>
+<td>substantiated</td>
+<td>EH distinguishes the c.250 small fort from the surviving stone fort of 275–290. <a href="https://www.english-heritage.org.uk/visit/places/richborough-roman-fort-and-amphitheatre/history-and-stories/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-segontium-end</code></td>
+<td>substantiated as uncertainty</td>
+<td>Cadw derives c.394 from coins. That is not an exact evacuation observation. <a href="https://cadw.gov.wales/visit/places-to-visit/segontium-roman-fort">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-stonehenge-roman</code></td>
+<td>substantiated</td>
+<td>EH gives no conquest-year destruction. The national and detailed-site ruin boundaries are different modelling conventions. <a href="https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-uffington-date</code></td>
+<td>already qualified</td>
+<td>The exact EH bracket 1740–210 BCE is already in the current uncertainty text, which explicitly calls the chosen 1000 BCE start unmeasured. No replacement year is justified. <a href="https://www.english-heritage.org.uk/visit/places/uffington-castle-white-horse-and-dragon-hill/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>x-lambeth-link</code></td>
+<td>partly substantiated</td>
+<td>HE supplies 1197 occupation, revised 1200 plan and hall before 1234. These are distinct events, not proof of 1230 completion of the model. <a href="https://historicengland.org.uk/listing/the-list/list-entry/1000818">Source</a></td>
+</tr>
+<tr>
+<td><code>x-plague-missing</code></td>
+<td>substantiated omission</td>
+<td>Boulton identifies 1563, 1603 and 1625 epidemics, none of which is represented as plague in the London event array. New sourced statements A-plague-1563/1603/1625 are recorded. <a href="https://www.staff.ncl.ac.uk/j.p.boulton/bills.htm">Source</a></td>
+</tr>
+<tr>
+<td><code>x-westminster-roof-link</code></td>
+<td>substantiated</td>
+<td>Parliament distinguishes the commission, lanterns and finishing work. <a href="https://www.parliament.uk/about/living-heritage/building/palace/westminsterhall/architecture/the-hammer-beam-roof-/">Source</a></td>
+</tr>
+<tr>
+<td><code>x-woodland-link</code></td>
+<td>alternative synthesis, not a replacement curve</td>
+<td>Government synthesis is for England, includes woodland/wood pasture and gives broad estimates. The app curve is explicitly illustrative across England and Wales. Different definitions and geographic scope prevent treating 15%/10% as universal measured replacements. <a href="https://www.gov.uk/government/publications/identifying-and-protecting-archaeological-features-in-woodland/identifying-and-protecting-woodland-archaeology">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-dyrham-class</code></td>
+<td>classification proposal not adopted</td>
+<td>A later document can be attested-documentary without being contemporary testimony. The app already marks low confidence and explains the three-century delay. The Chronicle is a better citation, but the event itself is not newly verified. <a href="https://www.gutenberg.org/files/657/657.txt">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-ellendun-transfer</code></td>
+<td>enrichment; edition chronology unresolved</td>
+<td>The Chronicle distinguishes the victory from Æthelwulf’s subsequent operation, but the app’s summary need not mean instantaneous transfer. The consulted old translation’s annal is 823, not conventional 825; do not change the date on that edition alone. <a href="https://www.gutenberg.org/files/657/657.txt">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-english-unification</code></td>
+<td>enrichment</td>
+<td>The Chronicle supports contested northern control through 954. The app’s separate Jorvik note already says York was lost again after 927; no claim that every English king continuously held it was found. <a href="https://www.gutenberg.org/files/657/657.txt">Source</a></td>
+</tr>
+<tr>
+<td><code>em-app-st-davids-bishop</code></td>
+<td>substantiated</td>
+<td>Asser’s references to earlier bishops refute first episcopal status in 1115. <a href="https://www.gutenberg.org/files/63384/63384-h/63384-h.htm">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-anarchy</code></td>
+<td>no defect established</td>
+<td>The royal history distinguishes the 1135 succession from Matilda’s 1139 invasion. Calling the wider 1135–1154 reign/crisis the Anarchy is not itself a false claim that her invasion occurred in 1135. <a href="https://www.royal.uk/stephen-and-matilda">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-battle-abbey-approx</code></td>
+<td>already qualified</td>
+<td>EH says about 1071; the app summary also says about 1071. Annual display precision remains a general limitation, not a demonstrated erroneous year. <a href="https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-beaumaris-incomplete</code></td>
+<td>already qualified</td>
+<td>Cadw confirms unfinished gatehouse/towers. The current app already says work petered out and uses an unfinished-castle phase label. No finished detailed Beaumaris model exists in the reviewed dataset. <a href="https://cadw.gov.wales/visit/places-to-visit/beaumaris-castle">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-bosworth-archaeology</code></td>
+<td>already qualified</td>
+<td>The Trust supports the Fenn Lanes locality. The current app already records the relocated archaeological site and says its point is not a surveyed centre; coordinate check finds it about 5 m from the source reference point. <a href="https://www.battlefieldstrust.com/resource-centre/warsoftheroses/battleview.asp?BattleFieldId=8">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-bryn-site</code></td>
+<td>already qualified; enrichment</td>
+<td>Coflein lists alternative hills and negative survey. The app already describes uncertainty and neighbouring hills. Listing Graig Hill and Blacke Hyll explicitly is useful enrichment, not proof the present caveat is false. <a href="https://coflein.gov.uk/en/site/306352/">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-fountains-order</code></td>
+<td>substantiated</td>
+<td>The detailed NT narrative distinguishes Benedictine founders in 1132 from acceptance into the Cistercian order three years later. <a href="https://www.nationaltrust.org.uk/visit/yorkshire/fountains-abbey-and-studley-royal-water-garden/history-of-fountains-abbey-and-studley-royal">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-harlech-sea</code></td>
+<td>enrichment</td>
+<td>Cadw confirms the 108-step sea access. Adding supply-route geometry could improve a future site model, but the present national point does not claim modern shoreline geometry represents medieval Harlech. <a href="https://cadw.gov.wales/visit/places-to-visit/harlech-castle">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-margam-approx</code></td>
+<td>already qualified</td>
+<td>Coflein says around 1147, and the app summary already says about 1147. Do not replace a qualified scalar anchor with another arbitrary year. <a href="https://coflein.gov.uk/en/site/132/">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-rhuddlan-engineering</code></td>
+<td>enrichment</td>
+<td>Cadw confirms diversion/deepening of the Clwyd. A separate engineering event would add detail; the castle’s existing 1277 statement remains true without it. <a href="https://cadw.gov.wales/visit/places-to-visit/rhuddlan-castle">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-strata-closure</code></td>
+<td>retain qualified closure; review fabric separately</td>
+<td>Coflein says closed by 1539 and the app summary repeats by 1539. This does not prove a distinct exact closure day or immediate physical ruin. No change to the annual end value is established. <a href="https://coflein.gov.uk/en/site/95764/">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-towton-numbers</code></td>
+<td>already qualified</td>
+<td>The Trust rejects inflated figures. The app already calls its army and casualty numbers chroniclers’ estimates; no exact army-size claim is verified. A source-linked numerical-claims table would be enrichment. <a href="https://www.battlefieldstrust.com/resource-centre/warsoftheroses/battleview.asp?BattleFieldId=46">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-welsh-acts</code></td>
+<td>already qualified; optional administrative refinement</td>
+<td>OpenLearn distinguishes 1536 and 1543. The current app already writes 1535–6 and 1542–3, preserving statutory/common dating conventions. The later court-system detail does not invalidate its 1536 display start. <a href="https://www.open.edu/openlearn/mod/oucontent/view.php?id=14609&amp;printable=1">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-whitby-approx</code></td>
+<td>already qualified</td>
+<td>The current summary says about 657 and about 1078. The separate ninth-century abandonment problem remains N21. <a href="https://www.english-heritage.org.uk/visit/places/whitby-abbey/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-arbor-low-certainty</code></td>
+<td>enrichment</td>
+<td>EH confirms cumulative construction and later monuments. The app’s broad phase does not expressly say every feature existed unchanged for the entire millennium; its uncertainty already says not closely dated. <a href="https://www.english-heritage.org.uk/visit/places/arbor-low-stone-circle-and-gib-hill-barrow/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-barclodiad-fabric</code></td>
+<td>no model error established</td>
+<td>Cadw identifies the present mound as reconstruction, but standing carved stones are real evidence. The app has a national point, not a detailed mound model. Downgrading all evidence to reconstructed solely on the present envelope would conflate fabric components. <a href="https://cadw.gov.wales/visit/places-to-visit/barclodiad-y-gawres-chambered-tomb">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-castlerigg-end</code></td>
+<td>no cessation claim found</td>
+<td>The current transition is from Stone circle to Standing monument, with low confidence and explicit dating uncertainty. Unlike Disused tomb, that label does not assert ceremonial cessation. No rejection is recorded. <a href="https://www.english-heritage.org.uk/visit/places/castlerigg-stone-circle/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-pentre-end</code></td>
+<td>substantiated</td>
+<td>The phase explicitly says Disused tomb from 3000 BCE, without an end-of-use source. <a href="https://cadw.gov.wales/visit/places-to-visit/pentre-ifan-chambered-tomb">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-seahenge-end</code></td>
+<td>already qualified</td>
+<td>Norfolk confirms timber felling in 2049 BCE. The current app explicitly says use duration is unknown and the endpoint nominal. No replacement ceremonial end is justified. <a href="https://www.heritage.norfolk.gov.uk/dating-the-second-timber-circle-on-holme-next-the-sea-beach-1">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-silbury-duration</code></td>
+<td>substantiated</td>
+<td>The phrase Mound under construction across the entire dating bracket is stronger than a brief campaign somewhere within it. <a href="https://www.english-heritage.org.uk/visit/places/silbury-hill/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-silchester-start</code></td>
+<td>already qualified; reject duration inference</td>
+<td>EH gives an establishment bracket of c.20–10 BCE and the app summary preserves it. The national phase says oppidum, not ten years under construction. The imported construction-duration objection does not fit this data shape. <a href="https://www.english-heritage.org.uk/visit/places/silchester-roman-city-walls-and-amphitheatre/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>pr-cmp-thornborough-end</code></td>
+<td>substantiated</td>
+<td>EH explicitly describes early Bronze Age burial use, which Out of use from 2000 BCE obscures. <a href="https://www.english-heritage.org.uk/visit/places/thornborough-henges/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>x-banqueting-link</code></td>
+<td>disagree: already implemented</td>
+<td>Both the 1619 burned ending and the replacement construction through 1622 are already in the app. HRP confirms them. Calling the link missing is incorrect. <a href="https://www.hrp.org.uk/banqueting-house/history-and-stories/the-story-of-banqueting-house/">Source</a></td>
+</tr>
+<tr>
+<td><code>x-bermondsey-link</code></td>
+<td>partly substantiated</td>
+<td>Southwark corroborates 1082 and later abbey status but cannot verify the model’s completion or demolition. <a href="https://heritage.southwark.gov.uk/objects/3588/grange-walk--no-7-former--abbey-gatehouse">Source</a></td>
+</tr>
+<tr>
+<td><code>x-bridge-storm-link</code></td>
+<td>substantiated omission</td>
+<td>London Museum identifies destruction in 1091; the existing bridge phase and event list omit it. <a href="https://www.londonmuseum.org.uk/collections/london-stories/london-bridge/">Source</a></td>
+</tr>
+<tr>
+<td><code>x-famine-link</code></td>
+<td>enrichment</td>
+<td>Cambridge distinguishes crop failures in 1315–17 from the wider 1315–22 crisis and cattle plague. This is useful context; a short crop-failure event is not false merely because it does not encode every later consequence. <a href="https://www.campop.geog.cam.ac.uk/blog/2024/08/29/hansel-and-gretel/">Source</a></td>
+</tr>
+<tr>
+<td><code>x-globe-date-link</code></td>
+<td>disagree: day already present</td>
+<td>Shakespeare Birthplace Trust confirms 29 June 1613. That day is already in the app summary and London event note. A day-level renderer is a separate feature, not a factual correction. <a href="https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-globe-theatre/">Source</a></td>
+</tr>
+<tr>
+<td><code>x-henry-chapel-link</code></td>
+<td>enrichment</td>
+<td>Abbey source confirms 19 February 1516 consecration. The app’s annual completion anchor is compatible; distinguish ceremony from finishing work rather than replacing the year. <a href="https://www.westminster-abbey.org/history/history-of-westminster-abbey">Source</a></td>
+</tr>
+<tr>
+<td><code>x-plague-end-link</code></td>
+<td>small wording refinement only</td>
+<td>London Museum places the peak through spring 1349 and separately uses a by-1352 mortality estimate. The current app does not use 1352 as an epidemic end, so that particular conflation is absent. <a href="https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/">Source</a></td>
+</tr>
+<tr>
+<td><code>x-theatre-gap</code></td>
+<td>substantiated omission</td>
+<td>EMLoT’s home page names both Blackfriars I (1576) and II (1596). <a href="https://emlot.org/">Source</a></td>
+</tr>
+<tr>
+<td><code>x-westminster-early-link</code></td>
+<td>substantiated omission</td>
+<td>Abbey history confirms the earlier c.960 Benedictine monastery. <a href="https://www.westminster-abbey.org/history/history-of-westminster-abbey">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-bury-dissolution</code></td>
+<td>retain year; richer chronology optional</td>
+<td>Re-read source confirms 4 November 1539. The annual phase already includes the surrender year. Closure must not be equated with instant demolition; a following calendar-year display phase is not by itself an erroneous surrender date. <a href="https://www.british-history.ac.uk/vch/suff/vol2/pp56-72">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-furness-dissolution</code></td>
+<td>retain year; richer chronology optional</td>
+<td>Re-read source confirms 9 April 1537. The annual phase already includes the surrender year. Closure must not be equated with instant demolition; a following calendar-year display phase is not by itself an erroneous surrender date. <a href="https://www.english-heritage.org.uk/visit/places/furness-abbey/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-gloucester-dissolution</code></td>
+<td>retain year; richer chronology optional</td>
+<td>Re-read source confirms 2 January 1540. The annual phase already includes the surrender year. Closure must not be equated with instant demolition; a following calendar-year display phase is not by itself an erroneous surrender date. <a href="https://www.british-history.ac.uk/vch/glos/vol2/pp53-61">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-peterborough-dissolution</code></td>
+<td>retain year; richer chronology optional</td>
+<td>Re-read source confirms 29 November 1539. The annual phase already includes the surrender year. Closure must not be equated with instant demolition; a following calendar-year display phase is not by itself an erroneous surrender date. <a href="https://www.british-history.ac.uk/vch/northants/vol2/pp83-95">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-rievaulx-dissolution</code></td>
+<td>retain year; richer chronology optional</td>
+<td>Re-read source confirms 3 December 1538. The annual phase already includes the surrender year. Closure must not be equated with instant demolition; a following calendar-year display phase is not by itself an erroneous surrender date. <a href="https://www.english-heritage.org.uk/visit/places/rievaulx-abbey/history-and-stories/history/">Source</a></td>
+</tr>
+<tr>
+<td><code>lm-app-sherborne-dissolution</code></td>
+<td>retain year; richer chronology optional</td>
+<td>Re-read source confirms 18 March 1539. The annual phase already includes the surrender year. Closure must not be equated with instant demolition; a following calendar-year display phase is not by itself an erroneous surrender date. <a href="https://www.british-history.ac.uk/vch/dorset/vol2/pp62-70">Source</a></td>
+</tr>
+<tr>
+<td><code>x-oxford-date-link</code></td>
+<td>disagree with implied foundation correction</td>
+<td>Oxford explicitly records teaching in 1096 and rapid growth from 1167. The app says schools gathered in the twelfth century and uses 1167 as a growth phase, not as a known foundation. Its source provenance could improve, but the imported implication is not present. <a href="https://www.ox.ac.uk/about/the-university/history">Source</a></td>
+</tr>
+<tr>
+<td><code>x-white-tower-link</code></td>
+<td>already qualified</td>
+<td>HRP gives 1078–1100; the current app summary says begun in the 1070s and complete by about 1100. The construction interval is already encoded. <a href="https://www.hrp.org.uk/tower-of-london/whats-on/white-tower/">Source</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Twenty strongest claims that survived challenge</h2>
+<p>These are the specific fields tested hardest against accessible documentary/institutional evidence. A verified date is not blanket approval of the owning model.</p>
+<ol>
+<li>
+<p><strong>Stone London Bridge completed in 1209.</strong> London Museum independently gives completion of the first stone bridge in 1209. Checked the completion field, not generated arch dimensions. <a href="https://www.londonmuseum.org.uk/collections/london-stories/london-bridge/">London Bridge</a>. <code>landmark:london/old-london-bridge:completed:0</code>.</p>
+</li>
+<li>
+<p><strong>Confessor’s church consecrated in 1065.</strong> The Abbey gives 28 December 1065. This confirms the app’s use of 1065 for the consecrated church, not every part of the monastery. <a href="https://www.westminster-abbey.org/history/history-of-westminster-abbey">History of Westminster Abbey</a>. <code>landmark:london/westminster-abbey:completed:0</code>.</p>
+</li>
+<li>
+<p><strong>Henry III’s east-end campaign reached consecration in 1269.</strong> The Abbey gives 13 October 1269 and explicitly says the old nave remained. The app correctly limits this phase to the east end, transepts and first nave bays. <a href="https://www.westminster-abbey.org/history/history-of-westminster-abbey">History of Westminster Abbey</a>. <code>landmark:london/westminster-abbey:completed:1</code>.</p>
+</li>
+<li>
+<p><strong>Henry VII Chapel consecrated in 1516.</strong> The Abbey gives 19 February 1516. Keep consecration distinct from a claim that every decorative work ended then. <a href="https://www.westminster-abbey.org/history/history-of-westminster-abbey">History of Westminster Abbey</a>. <code>landmark:london/henry-vii-chapel:completed:0</code>.</p>
+</li>
+<li>
+<p><strong>Previous Banqueting House burned in 1619.</strong> Historic Royal Palaces records the predecessor’s fire in 1619. The app already links it to Jones’s replacement; the research-session omission is not present. <a href="https://www.hrp.org.uk/banqueting-house/history-and-stories/the-story-of-banqueting-house/">The story of Banqueting House</a>. <code>landmark:london/banqueting-house:ended:0</code>.</p>
+</li>
+<li>
+<p><strong>Jones’s Banqueting House completed in 1622.</strong> Historic Royal Palaces explicitly gives completion in 1622 and distinguishes the predecessor. <a href="https://www.hrp.org.uk/banqueting-house/history-and-stories/the-story-of-banqueting-house/">The story of Banqueting House</a>. <code>landmark:london/banqueting-house:completed:1</code>.</p>
+</li>
+<li>
+<p><strong>White Tower complete by about 1100.</strong> HRP gives the building interval 1078–1100; the app summary preserves about 1100. This is a conventional endpoint, not precision to a day or proof about every turret. <a href="https://www.hrp.org.uk/tower-of-london/whats-on/white-tower/">White Tower</a>. <code>landmark:london/white-tower:completed:0</code>.</p>
+</li>
+<li>
+<p><strong>Bridge waterworks operational in 1582.</strong> Stow’s 1603 Survey describes the Peter Moris forcier made in 1582 to supply the eastern City. This is contemporary documentary support for the operational year. <a href="https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-19">Stow, Survey of London: Of the ancient and present rivers</a>. <code>landmark:london/bridge-waterworks:completed:0</code>.</p>
+</li>
+<li>
+<p><strong>Gresham’s Exchange begun in 1566.</strong> Stow dates the commencement and first brick to 1566, then distinguishes roofing in November 1567 and the later royal naming. <a href="https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp187-200">Stow, A Survey of London (1603), 'Cornehill warde'</a>. <code>landmark:london/royal-exchange:begun:0</code>.</p>
+</li>
+<li>
+<p><strong>Temple round church consecrated in 1185.</strong> The Temple Church’s history explicitly dates consecration of the Round to 1185, separately from the Chancel. <a href="https://www.templechurch.com/history">History</a>. <code>landmark:london/temple-church:completed:0</code>.</p>
+</li>
+<li>
+<p><strong>First Globe burned in 1613.</strong> Shakespeare Birthplace Trust gives 29 June 1613 and identifies the performance fire; the app summary already contains the day. <a href="https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-globe-theatre/">Shakespeare’s Globe Theatre</a>. <code>landmark:london/globe:ended:0</code>.</p>
+</li>
+<li>
+<p><strong>Second Globe present in 1614.</strong> Shakespeare Birthplace Trust says rebuilt by February 1614 with a tiled roof. This supports the annual phase, without certifying the conjectured diameter or side count. <a href="https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-globe-theatre/">Shakespeare’s Globe Theatre</a>. <code>landmark:london/globe:begun:1</code>.</p>
+</li>
+<li>
+<p><strong>London Charterhouse founded in 1371.</strong> The Charterhouse’s history explicitly dates foundation to 1371, distinguishing the earlier plague burial ground and later mansion. <a href="https://thecharterhouse.org/explore-the-charterhouse/history/">History</a>. <code>landmark:london/charterhouse:begun:0</code>.</p>
+</li>
+<li>
+<p><strong>Battle of Hastings — battle year.</strong> The independently opened battlefield account identifies this battle in 1066. This confirms only the dated battle phase. The separate location, size, army numbers and every detail in the owning summary are not certified by this verdict. <a href="https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=17">Battlefields Hub: Battle of Hastings</a>. <code>place:england-wales/battle-hastings:phase:0</code>.</p>
+</li>
+<li>
+<p><strong>Battle of Neville's Cross — battle year.</strong> The independently opened battlefield account identifies this battle in 1346. This confirms only the dated battle phase. The separate location, size, army numbers and every detail in the owning summary are not certified by this verdict. <a href="https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=28">Battlefields Hub: Battle of Neville's Cross</a>. <code>place:england-wales/battle-nevilles-cross:phase:0</code>.</p>
+</li>
+<li>
+<p><strong>Battle of Shrewsbury — battle year.</strong> The independently opened battlefield account identifies this battle in 1403. This confirms only the dated battle phase. The separate location, size, army numbers and every detail in the owning summary are not certified by this verdict. <a href="https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=39">Battlefields Hub: Battle of Shrewsbury</a>. <code>place:england-wales/battle-shrewsbury:phase:0</code>.</p>
+</li>
+<li>
+<p><strong>First Battle of St Albans — battle year.</strong> The independently opened battlefield account identifies this battle in 1455. This confirms only the dated battle phase. The separate location, size, army numbers and every detail in the owning summary are not certified by this verdict. <a href="https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=111">Battlefields Hub: First Battle of St Albans</a>. <code>place:england-wales/battle-st-albans-1455:phase:0</code>.</p>
+</li>
+<li>
+<p><strong>Battle of Towton — battle year.</strong> The independently opened battlefield account identifies this battle in 1461. This confirms only the dated battle phase. The separate location, size, army numbers and every detail in the owning summary are not certified by this verdict. <a href="https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=46">Battlefields Hub: Battle of Towton</a>. <code>place:england-wales/battle-towton:phase:0</code>.</p>
+</li>
+<li>
+<p><strong>Battle of Tewkesbury — battle year.</strong> The independently opened battlefield account identifies this battle in 1471. This confirms only the dated battle phase. The separate location, size, army numbers and every detail in the owning summary are not certified by this verdict. <a href="https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=45">Battlefields Hub: Battle of Tewkesbury</a>. <code>place:england-wales/battle-tewkesbury:phase:0</code>.</p>
+</li>
+<li>
+<p><strong>Battle of Flodden — battle year.</strong> The independently opened battlefield account identifies this battle in 1513. This confirms only the dated battle phase. The separate location, size, army numbers and every detail in the owning summary are not certified by this verdict. <a href="https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=15">Battlefields Hub: Battle of Flodden</a>. <code>place:england-wales/battle-flodden:phase:0</code>.</p>
+</li>
+</ol>
+<h2>What remains unverified, and why</h2>
+<ul>
+<li>
+<p>The coverage ledger deliberately leaves facts without individual adjudication visible. In particular, most size bins, exact numeric coordinates, landmark heights, detailed building forms and every century of a long institutional phase lack claim-level independent evidence in this pass. A source proving a place existed was not used to approve those other fields.</p>
+</li>
+<li>
+<p>Stonehenge was treated last and lightly. Its 127 per-stone states in 1625, the fall dates inferred from later antiquarian drawings, complete-circle reconstructions, weathering schedules and the exact form of prehistoric pits were not independently established. Their explicit conjectural labels should remain.</p>
+</li>
+<li>
+<p>Exact battle deployments, army totals, casualty counts, tide/weather and the locations of unlocated battles remain unresolved. Sixteen coordinate comparisons test only agreement with modern reference markers. No browser/rendering review or reconstruction of all source GIS geometries was performed.</p>
+</li>
+<li>
+<p>An ordinal place-size calibration against primary town-population/tax tables was not reconstructed. Taxpayer, fiscal assessment, wealth, enclosed area, institutional significance and population are not interchangeable. The imported research likewise identifies gaps in complete urban rankings.</p>
+</li>
+<li>
+<p>Many early kingdom beginnings are traditional or nominal, and the 72 polity labels cannot encode every union, division, overlordship and frontier shift. The review identifies demonstrable contradictions and citation gaps, not a newly researched complete constitutional atlas.</p>
+</li>
+<li>
+<p>No builds or server operations were run. The main data and rendering code were not edited. Lifecycle findings use the documented data semantics and actual phase fields; their proposed display changes still need implementation and visual verification by the app owner.</p>
+</li>
+</ul>
+<h2>Preservation, handoff and validation</h2>
+<p>All writes by this review are confined to the five permitted curated tables and <code>research/astra/</code> (working files use the <code>factkeeper-</code> prefix; this report uses the expressly required filename). The generated history database and the separate England research database remain read-only. A pre-write backup is <a href="factkeeper-curated-before.sqlite">factkeeper-curated-before.sqlite</a>. This folder has no Git metadata, so no branch or commit is claimed.</p>
+<p>Concurrent changes were observed outside this review: 177 initially inventoried files changed or disappeared, mainly interface screenshots and rendering files; the data changes were assets, Barnet site configuration and Stonehenge terrain. <a href="factkeeper-drift.json">The drift log</a> records hashes without overwriting anything. Reviewed owner objects with changed JSON at final insertion: none. Source snapshots, stable entity/origin keys and original values are retained in every review note.</p>
+<p>The existing curated schema was preserved. SQLite integrity and foreign-key checks pass; all 142 targets exist in the preserved generated snapshot; all proposals are valid JSON with exact field values and confidence; all reviews carry checked URLs and access dates. The 77 lead dispositions and 20 strongest claims are complete. <a href="factkeeper-validation.json">Validation details</a> include counts and untouched research/database hashes.</p>
+<p>The Markdown parses into four tables and 55 JSON code blocks, and its section/link structure was checked. An HTML preview was prepared, but visual inspection was unavailable: isolated Chrome exited under the environment restrictions, and the browser-access host was unavailable. No screenshot or successful visual-layout check is claimed. See <a href="factkeeper-report-visual-check.json">the preview limitation record</a>.</p>
+<p>Use <a href="factkeeper-proposed-corrections.json">the consolidated field-level proposals</a> when preparing app edits. Several reviews concern different fields of the same entity: merge those deltas, compare the recorded old value, and retain concurrent changes. Whole-entity old/new objects in SQLite are provenance, not permission to overwrite a later entity. Corrections remain <strong>proposed</strong>, not accepted or applied.</p>
+</body></html>

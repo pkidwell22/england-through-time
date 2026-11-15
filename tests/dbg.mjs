@@ -1,0 +1,13 @@
+import { chromium } from "playwright-core";
+const [,, query, out, js] = process.argv;
+const browser = await chromium.launch({ channel: "chrome", headless: true, args: ["--use-angle=metal", "--enable-gpu", "--ignore-gpu-blocklist"] });
+const page = await browser.newPage({ viewport: { width: 1600, height: 900 } });
+page.on("pageerror", (e) => console.error("PAGE ERROR", e.message));
+page.on("console", (m) => { if (m.type() === "error" || m.type() === "warning") console.log("console:", m.text().slice(0, 300)); });
+await page.goto(`${process.env.LTT_URL ?? "http://127.0.0.1:4310"}/?${query}`);
+await page.waitForFunction(() => window.__ltt && window.__ltt.getState().ready, null, { timeout: 60000 });
+await page.waitForTimeout(1500);
+if (js) console.log(JSON.stringify(await page.evaluate(js)));
+await page.waitForTimeout(500);
+if (out) await page.screenshot({ path: out });
+await browser.close();

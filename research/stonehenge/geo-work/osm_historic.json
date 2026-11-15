@@ -1,0 +1,8745 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-14T04:55:27Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 429261798,
+  "lat": 51.1922043,
+  "lon": -1.8078742,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 429261800,
+  "lat": 51.1916518,
+  "lon": -1.8075971,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 429261801,
+  "lat": 51.1922739,
+  "lon": -1.8064237,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 429885909,
+  "lat": 51.1720908,
+  "lon": -1.8154635,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 429885910,
+  "lat": 51.1715795,
+  "lon": -1.8160214,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 429887881,
+  "lat": 51.1531167,
+  "lon": -1.8249325,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 429887884,
+  "lat": 51.1517085,
+  "lon": -1.8289090,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 429887890,
+  "lat": 51.1869546,
+  "lon": -1.8634575,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 429897673,
+  "lat": 51.2071181,
+  "lon": -1.8184178,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "long_barrow"
+  }
+},
+{
+  "type": "node",
+  "id": 431811214,
+  "lat": 51.1755876,
+  "lon": -1.8160090,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 445361006,
+  "lat": 51.1849166,
+  "lon": -1.8519746,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 445363162,
+  "lat": 51.1697841,
+  "lon": -1.8524754,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "long_barrow"
+  }
+},
+{
+  "type": "node",
+  "id": 445416451,
+  "lat": 51.1886067,
+  "lon": -1.7866988,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "long_barrow"
+  }
+},
+{
+  "type": "node",
+  "id": 447567044,
+  "lat": 51.1554005,
+  "lon": -1.8319646,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486551134,
+  "lat": 51.1958649,
+  "lon": -1.8296793,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486554770,
+  "lat": 51.1959926,
+  "lon": -1.8309720,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486554781,
+  "lat": 51.1960441,
+  "lon": -1.8313507,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486554792,
+  "lat": 51.1955698,
+  "lon": -1.8321157,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486554803,
+  "lat": 51.1961342,
+  "lon": -1.8318733,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486554816,
+  "lat": 51.1956303,
+  "lon": -1.8324676,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486555795,
+  "lat": 51.1958904,
+  "lon": -1.8321898,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486555805,
+  "lat": 51.1959130,
+  "lon": -1.8324682,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486555818,
+  "lat": 51.1961342,
+  "lon": -1.8326629,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 486555835,
+  "lat": 51.1959318,
+  "lon": -1.8327728,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 527015800,
+  "lat": 51.1715024,
+  "lon": -1.8467760,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 527357301,
+  "lat": 51.1922271,
+  "lon": -1.7894158,
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Durrington Walls",
+    "source": "NPE",
+    "wikidata": "Q471738",
+    "wikipedia": "en:Durrington Walls"
+  }
+},
+{
+  "type": "node",
+  "id": 527357434,
+  "lat": 51.1850987,
+  "lon": -1.7949539,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "tumulus": "round_barrow"
+  }
+},
+{
+  "type": "node",
+  "id": 527357437,
+  "lat": 51.1842594,
+  "lon": -1.7946706,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "historic:civilization": "prehistoric",
+    "tumulus": "round_barrow"
+  }
+},
+{
+  "type": "node",
+  "id": 751577983,
+  "lat": 51.1837842,
+  "lon": -1.8578270,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "cross",
+    "name": "Airman's Cross",
+    "wheelchair": "yes",
+    "wikidata": "Q26535562"
+  }
+},
+{
+  "type": "node",
+  "id": 766794799,
+  "lat": 51.1898173,
+  "lon": -1.7855031,
+  "tags": {
+    "board_type": "history",
+    "information": "board",
+    "name": "Woodhenge",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 956444190,
+  "lat": 51.1956263,
+  "lon": -1.7828409,
+  "tags": {
+    "addr:city": "Durrington",
+    "addr:housenumber": "2",
+    "addr:postcode": "SP4 8BN",
+    "addr:street": "Stonehenge Road",
+    "amenity": "pub",
+    "check_date": "2025-12-01",
+    "check_date:currency:XBT": "2025-12-01",
+    "currency:GBP": "yes",
+    "currency:XBT": "no",
+    "description": "The Stonehenge Inn is the closest Inn to the World Heritage site of the prehistoric Stonehenge monument. A versatile venue, with accommodation, great for watching live sport, a light casual lunch, family get together or hosting your work functions.",
+    "fhrs:id": "261957",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Stonehenge Inn",
+    "name:zh": "巨石阵旅馆",
+    "payment:lightning": "no",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "no",
+    "tourism": "guest_house",
+    "website": "https://thestonehengeinn.co.uk/"
+  }
+},
+{
+  "type": "node",
+  "id": 2477075210,
+  "lat": 51.1880805,
+  "lon": -1.8053359,
+  "tags": {
+    "board_type": "history",
+    "check_date": "2024-10-04",
+    "information": "board",
+    "name": "Stonehenge Cursus and long barrow",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 2531304255,
+  "lat": 51.1948545,
+  "lon": -1.7729953,
+  "tags": {
+    "amenity": "veterinary",
+    "name": "Stonehenge Veterinary Practice"
+  }
+},
+{
+  "type": "node",
+  "id": 2736468284,
+  "lat": 51.1825809,
+  "lon": -1.8392075,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Major Hewetson"
+  }
+},
+{
+  "type": "node",
+  "id": 2791709946,
+  "lat": 51.1559304,
+  "lon": -1.8590817,
+  "tags": {
+    "historic": "monument",
+    "name": "Milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2798262550,
+  "lat": 51.1891399,
+  "lon": -1.7916343,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "bigstone",
+    "name": "Cuckoo Stone",
+    "wikidata": "Q23073287",
+    "wikipedia": "en:Cuckoo Stone"
+  }
+},
+{
+  "type": "node",
+  "id": 2798262568,
+  "lat": 51.1968990,
+  "lon": -1.8051953,
+  "tags": {
+    "historic": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 3250668689,
+  "lat": 51.1993679,
+  "lon": -1.8626578,
+  "tags": {
+    "description": "Salisbury 10 Devizes 12",
+    "historic": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3807131862,
+  "lat": 51.1792999,
+  "lon": -1.8091118,
+  "tags": {
+    "name": "New King Barrows",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 3807131919,
+  "lat": 51.1842767,
+  "lon": -1.8064833,
+  "tags": {
+    "name": "Old King Barrows",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 3807460971,
+  "lat": 51.1804633,
+  "lon": -1.8288957,
+  "tags": {
+    "alt_name": "Totem Pole",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Mesolitihic Wooden Post Hole",
+    "url": "http://www.pastscape.org.uk/hob.aspx?hob_id=219856"
+  }
+},
+{
+  "type": "node",
+  "id": 3807460972,
+  "lat": 51.1804458,
+  "lon": -1.8287292,
+  "tags": {
+    "alt_name": "Totem Pole",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Mesolitihic Wooden Post Hole",
+    "url": "http://www.pastscape.org.uk/hob.aspx?hob_id=219856"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519666,
+  "lat": 51.1764353,
+  "lon": -1.7996571,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "name": "Tumulus"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519667,
+  "lat": 51.1795461,
+  "lon": -1.8010358,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519668,
+  "lat": 51.1794654,
+  "lon": -1.8036536,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519669,
+  "lat": 51.1790333,
+  "lon": -1.7906609,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519670,
+  "lat": 51.1881946,
+  "lon": -1.8134597,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519671,
+  "lat": 51.1883808,
+  "lon": -1.8111719,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519672,
+  "lat": 51.1882618,
+  "lon": -1.8104557,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519673,
+  "lat": 51.1923737,
+  "lon": -1.8074518,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519674,
+  "lat": 51.1917259,
+  "lon": -1.8071544,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519675,
+  "lat": 51.1948999,
+  "lon": -1.8136696,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519676,
+  "lat": 51.1945798,
+  "lon": -1.8133119,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519677,
+  "lat": 51.1946118,
+  "lon": -1.8108425,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519678,
+  "lat": 51.1910362,
+  "lon": -1.8324037,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519679,
+  "lat": 51.1908577,
+  "lon": -1.8277672,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519680,
+  "lat": 51.1895205,
+  "lon": -1.8299512,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519681,
+  "lat": 51.1888587,
+  "lon": -1.8277542,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519682,
+  "lat": 51.1891191,
+  "lon": -1.8275428,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519683,
+  "lat": 51.1893379,
+  "lon": -1.8272363,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519685,
+  "lat": 51.1832457,
+  "lon": -1.8442971,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519686,
+  "lat": 51.1784434,
+  "lon": -1.8551267,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519687,
+  "lat": 51.1787744,
+  "lon": -1.8521633,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519692,
+  "lat": 51.1792389,
+  "lon": -1.8567787,
+  "tags": {
+    "archaeological_site": "earthwork",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519693,
+  "lat": 51.1803626,
+  "lon": -1.8545427,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519694,
+  "lat": 51.1784220,
+  "lon": -1.8675736,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519696,
+  "lat": 51.1885463,
+  "lon": -1.8603796,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519697,
+  "lat": 51.1895023,
+  "lon": -1.8585965,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519698,
+  "lat": 51.1897833,
+  "lon": -1.8578653,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519699,
+  "lat": 51.1901645,
+  "lon": -1.8565136,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519700,
+  "lat": 51.1902248,
+  "lon": -1.8557397,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519701,
+  "lat": 51.1901507,
+  "lon": -1.8548779,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519702,
+  "lat": 51.1883916,
+  "lon": -1.8559998,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807519703,
+  "lat": 51.1902069,
+  "lon": -1.8538912,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807656488,
+  "lat": 51.1903575,
+  "lon": -1.8518017,
+  "tags": {
+    "name": "Lesser Cursus",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 3807656489,
+  "lat": 51.1865450,
+  "lon": -1.8216036,
+  "tags": {
+    "name": "The Cursus",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 3807668111,
+  "lat": 51.1923367,
+  "lon": -1.8072859,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3807668112,
+  "lat": 51.1922860,
+  "lon": -1.8071007,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808188138,
+  "lat": 51.1686358,
+  "lon": -1.8395928,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808188139,
+  "lat": 51.1681195,
+  "lon": -1.8390107,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808201632,
+  "lat": 51.1841087,
+  "lon": -1.8308807,
+  "tags": {
+    "name": "Cursus Ridge Barrows",
+    "place": "locality",
+    "wikidata": "Q2434486"
+  }
+},
+{
+  "type": "node",
+  "id": 3808209229,
+  "lat": 51.1699056,
+  "lon": -1.8302322,
+  "tags": {
+    "name": "Normanton Down Barrows",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329143,
+  "lat": 51.1736238,
+  "lon": -1.8424871,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329144,
+  "lat": 51.1708201,
+  "lon": -1.8455459,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329146,
+  "lat": 51.1686370,
+  "lon": -1.8382805,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329147,
+  "lat": 51.1685943,
+  "lon": -1.8369521,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329148,
+  "lat": 51.1663623,
+  "lon": -1.8304292,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329149,
+  "lat": 51.1632118,
+  "lon": -1.8269038,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329264,
+  "lat": 51.1631156,
+  "lon": -1.8373949,
+  "tags": {
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329265,
+  "lat": 51.1627312,
+  "lon": -1.8374460,
+  "tags": {
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329266,
+  "lat": 51.1629661,
+  "lon": -1.8362368,
+  "tags": {
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329270,
+  "lat": 51.1674730,
+  "lon": -1.8265462,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329279,
+  "lat": 51.1697056,
+  "lon": -1.8506937,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329280,
+  "lat": 51.1691801,
+  "lon": -1.8507613,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329281,
+  "lat": 51.1730194,
+  "lon": -1.8213878,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329282,
+  "lat": 51.1772822,
+  "lon": -1.8189546,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329283,
+  "lat": 51.1758754,
+  "lon": -1.8164404,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329284,
+  "lat": 51.1748898,
+  "lon": -1.8564041,
+  "tags": {
+    "name": "Winterbourne Stoke Barrows",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329303,
+  "lat": 51.1960195,
+  "lon": -1.8693250,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329304,
+  "lat": 51.1965616,
+  "lon": -1.8691223,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329343,
+  "lat": 51.1960980,
+  "lon": -1.8682854,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329344,
+  "lat": 51.1967434,
+  "lon": -1.8681728,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329345,
+  "lat": 51.1969048,
+  "lon": -1.8672072,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329346,
+  "lat": 51.1972611,
+  "lon": -1.8665527,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329347,
+  "lat": 51.1975098,
+  "lon": -1.8656730,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329348,
+  "lat": 51.1959095,
+  "lon": -1.8598420,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329349,
+  "lat": 51.1974657,
+  "lon": -1.8525343,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329350,
+  "lat": 51.1984699,
+  "lon": -1.8514145,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329351,
+  "lat": 51.1986763,
+  "lon": -1.8504361,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329352,
+  "lat": 51.1978528,
+  "lon": -1.8510291,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329353,
+  "lat": 51.1982610,
+  "lon": -1.8497098,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329354,
+  "lat": 51.1985368,
+  "lon": -1.8427748,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329355,
+  "lat": 51.1977825,
+  "lon": -1.8381020,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329356,
+  "lat": 51.1965552,
+  "lon": -1.8368928,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329357,
+  "lat": 51.1970141,
+  "lon": -1.8363989,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329358,
+  "lat": 51.1964591,
+  "lon": -1.8347298,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329359,
+  "lat": 51.1934918,
+  "lon": -1.8341898,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329360,
+  "lat": 51.1911014,
+  "lon": -1.8281133,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808329361,
+  "lat": 51.1930706,
+  "lon": -1.8257233,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808366241,
+  "lat": 51.1919373,
+  "lon": -1.8267296,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808366242,
+  "lat": 51.1940348,
+  "lon": -1.8312286,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 3808366243,
+  "lat": 51.1988801,
+  "lon": -1.8357247,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4085465825,
+  "lat": 51.1808551,
+  "lon": -1.8087651,
+  "tags": {
+    "board_type": "history",
+    "check_date": "2023-03-30",
+    "information": "board",
+    "name": "King Barrow Ridge",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4085465826,
+  "lat": 51.1826007,
+  "lon": -1.8196645,
+  "tags": {
+    "information": "board",
+    "name": "Stonehenge Avenue",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4085465864,
+  "lat": 51.1844991,
+  "lon": -1.8575021,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Stonehenge Cafe",
+    "outdoor_seating": "yes",
+    "smoking": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4224570856,
+  "lat": 51.1805645,
+  "lon": -1.8576480,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4224570857,
+  "lat": 51.1805241,
+  "lon": -1.8590373,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4224570858,
+  "lat": 51.1805947,
+  "lon": -1.8563310,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4224572298,
+  "lat": 51.1967262,
+  "lon": -1.8615422,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4224572442,
+  "lat": 51.2010893,
+  "lon": -1.8530772,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4224617926,
+  "lat": 51.1862250,
+  "lon": -1.7849894,
+  "tags": {
+    "access": "private",
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354420,
+  "lat": 51.1973723,
+  "lon": -1.8609580,
+  "tags": {
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354421,
+  "lat": 51.1972849,
+  "lon": -1.8593702,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354422,
+  "lat": 51.1959402,
+  "lon": -1.8606523,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354423,
+  "lat": 51.1950897,
+  "lon": -1.8604967,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354424,
+  "lat": 51.1958528,
+  "lon": -1.8611082,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354612,
+  "lat": 51.2005757,
+  "lon": -1.8689832,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354613,
+  "lat": 51.2004480,
+  "lon": -1.8685970,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354619,
+  "lat": 51.2012749,
+  "lon": -1.8540594,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354620,
+  "lat": 51.2007908,
+  "lon": -1.8547890,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354621,
+  "lat": 51.2036815,
+  "lon": -1.8563983,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354622,
+  "lat": 51.2036546,
+  "lon": -1.8558189,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354624,
+  "lat": 51.2137637,
+  "lon": -1.8572351,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354625,
+  "lat": 51.2135486,
+  "lon": -1.8576428,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354626,
+  "lat": 51.2119465,
+  "lon": -1.8582477,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354643,
+  "lat": 51.2130849,
+  "lon": -1.8595767,
+  "tags": {
+    "archaeological_site": "earthwork",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225354685,
+  "lat": 51.2125976,
+  "lon": -1.8509963,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4225761725,
+  "lat": 51.1957355,
+  "lon": -1.7853674,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Stonehenge Inn Roundabout",
+    "naptan:AtcoCode": "4600WIA13146",
+    "naptan:Bearing": "E",
+    "naptan:CommonName": "Stonehenge Inn Roundabout",
+    "naptan:Indicator": "E-bound",
+    "naptan:NaptanCode": "wildgpaw",
+    "naptan:Street": "The Packway",
+    "naptan:verified": "no",
+    "public_transport": "platform",
+    "ref": "wildgpaw",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433646,
+  "lat": 51.1518566,
+  "lon": -1.8324508,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433647,
+  "lat": 51.1526338,
+  "lon": -1.8328960,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433648,
+  "lat": 51.1524656,
+  "lon": -1.8323757,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433649,
+  "lat": 51.1524824,
+  "lon": -1.8318982,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433650,
+  "lat": 51.1531789,
+  "lon": -1.8323596,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433651,
+  "lat": 51.1531722,
+  "lon": -1.8330248,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433652,
+  "lat": 51.1530477,
+  "lon": -1.8333198,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433653,
+  "lat": 51.1531756,
+  "lon": -1.8333493,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237711748,
+  "lat": 51.1515460,
+  "lon": -1.8329293,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237711852,
+  "lat": 51.1520821,
+  "lon": -1.8239862,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237711958,
+  "lat": 51.1612783,
+  "lon": -1.7971329,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "long_barrow"
+  }
+},
+{
+  "type": "node",
+  "id": 4237711959,
+  "lat": 51.1609184,
+  "lon": -1.7968701,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4237712004,
+  "lat": 51.1540868,
+  "lon": -1.7892848,
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4286209579,
+  "lat": 51.1845183,
+  "lon": -1.8572480,
+  "tags": {
+    "name": "Stonehenge",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "gift",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4755267121,
+  "lat": 51.1784607,
+  "lon": -1.8259680,
+  "tags": {
+    "fixme": "location approximated",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Station Stone",
+    "name:de": "Markierung, Stationsstein",
+    "ref": "92"
+  }
+},
+{
+  "type": "node",
+  "id": 4755267122,
+  "lat": 51.1791860,
+  "lon": -1.8263671,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Station Stone",
+    "name:de": "Markierung, Stationsstein",
+    "ref": "94"
+  }
+},
+{
+  "type": "node",
+  "id": 4755267123,
+  "lat": 51.1793426,
+  "lon": -1.8253487,
+  "tags": {
+    "fixme": "location approximated",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Stone Hole 97",
+    "name:de": "Steinlochmarkierung",
+    "ref": "97"
+  }
+},
+{
+  "type": "node",
+  "id": 4755574380,
+  "lat": 51.1843307,
+  "lon": -1.8573338,
+  "tags": {
+    "name": "Stonehenge",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "ticket"
+  }
+},
+{
+  "type": "node",
+  "id": 4755593370,
+  "lat": 51.1804645,
+  "lon": -1.8285557,
+  "tags": {
+    "alt_name": "Totem Pole",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Mesolitihic Wooden Post Hole",
+    "url": "http://www.pastscape.org.uk/hob.aspx?hob_id=219856"
+  }
+},
+{
+  "type": "node",
+  "id": 4756171885,
+  "lat": 51.1800919,
+  "lon": -1.8284694,
+  "tags": {
+    "board_type": "history",
+    "check_date": "2025-08-08",
+    "fixme": "location approximated by Mapillary",
+    "information": "board",
+    "name": "Welcome to Stonehenge",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4832276236,
+  "lat": 51.1841873,
+  "lon": -1.8572014,
+  "tags": {
+    "fee": "yes",
+    "museum": "history",
+    "name": "Stonehenge Exhibitions",
+    "operator": "English Heritage Org",
+    "tourism": "museum",
+    "website": "https://www.english-heritage.org.uk/visit/places/stonehenge/things-to-do/exhibitions/"
+  }
+},
+{
+  "type": "node",
+  "id": 5672807121,
+  "lat": 51.1804203,
+  "lon": -1.8293789,
+  "tags": {
+    "name": "Stonehenge see for free",
+    "tourism": "attraction",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5935756188,
+  "lat": 51.1715657,
+  "lon": -1.7842336,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 5935756423,
+  "lat": 51.1724482,
+  "lon": -1.7790603,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "cross",
+    "name": "Celtic Cross"
+  }
+},
+{
+  "type": "node",
+  "id": 6164961247,
+  "lat": 51.1843758,
+  "lon": -1.8570380,
+  "tags": {
+    "information": "map",
+    "map_size": "local",
+    "map_type": "village",
+    "name": "Explore the Stonehenge landscape",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 6164961261,
+  "lat": 51.1840616,
+  "lon": -1.8568437,
+  "tags": {
+    "board_type": "information",
+    "check_date": "2026-07-30",
+    "information": "board",
+    "name": "Can you move the stone?",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 6164961262,
+  "lat": 51.1841780,
+  "lon": -1.8567425,
+  "tags": {
+    "board_type": "history",
+    "check_date": "2026-07-30",
+    "information": "board",
+    "name": "Homes for the builders of Stonehenge?",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 6164961266,
+  "lat": 51.1842821,
+  "lon": -1.8578711,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "English Heritage Monument"
+  }
+},
+{
+  "type": "node",
+  "id": 6960129398,
+  "lat": 51.1774000,
+  "lon": -1.7878000,
+  "tags": {
+    "archaeological_site": "settlement",
+    "historic": "archaeological_site",
+    "historic:civilization": "prehistoric",
+    "historic:era": "mesolithic",
+    "historic:period": "stone-age",
+    "name": "Blick Mead",
+    "wikidata": "Q28401345",
+    "wikipedia": "en:Blick Mead"
+  }
+},
+{
+  "type": "node",
+  "id": 7674951468,
+  "lat": 51.2028208,
+  "lon": -1.7773853,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "cross"
+  }
+},
+{
+  "type": "node",
+  "id": 7970050053,
+  "lat": 51.1777893,
+  "lon": -1.8191278,
+  "tags": {
+    "name": "Stonehenge Bottom",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 7970225729,
+  "lat": 51.1575365,
+  "lon": -1.8096528,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "memorial:type": "wall"
+  }
+},
+{
+  "type": "node",
+  "id": 9032768450,
+  "lat": 51.1726780,
+  "lon": -1.8576870,
+  "tags": {
+    "historic": "wayside_cross",
+    "name": "Medieval Socketed Stone Cross Base"
+  }
+},
+{
+  "type": "node",
+  "id": 9032906102,
+  "lat": 51.1844375,
+  "lon": -1.8298091,
+  "tags": {
+    "board_type": "history",
+    "check_date": "2026-05-21",
+    "information": "board",
+    "name": "Cursus Barrows",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 9032910628,
+  "lat": 51.1849653,
+  "lon": -1.8448530,
+  "tags": {
+    "board_type": "history",
+    "information": "board",
+    "name": "The Cursus",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 9038066167,
+  "lat": 51.1734929,
+  "lon": -1.8485686,
+  "tags": {
+    "he:inscription_date": "1988-10-10",
+    "heritage": "2",
+    "heritage:operator": "he",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1130999",
+    "historic": "milestone",
+    "name": "Milestone approximately 850m east of Longbarrow Roundabout",
+    "ref:he": "1130999",
+    "wikidata": "Q26423969"
+  }
+},
+{
+  "type": "node",
+  "id": 9038066168,
+  "lat": 51.1794395,
+  "lon": -1.8254382,
+  "tags": {
+    "historic": "milestone",
+    "wikidata": "Q26424051",
+    "wikimedia_commons": "File:Milestone by Stonehenge.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 9041240992,
+  "lat": 51.1573563,
+  "lon": -1.8090360,
+  "tags": {
+    "description": "Grey monument in churchyard, approximately 12m south-west of tower, Church of St Michael",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1318539",
+    "historic": "tomb",
+    "listed_status": "Grade II"
+  }
+},
+{
+  "type": "node",
+  "id": 9041240993,
+  "lat": 51.1573908,
+  "lon": -1.8089555,
+  "tags": {
+    "description": "Loder monument in churchyard, approximately 5-7m south-west of west tower, Church of St Michael",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1183312",
+    "historic": "tomb",
+    "listed_status": "Grade II"
+  }
+},
+{
+  "type": "node",
+  "id": 9041240994,
+  "lat": 51.1573992,
+  "lon": -1.8088683,
+  "tags": {
+    "description": "Two monuments in churchyard, approximately 3-5m west of west tower, Church of St Michael",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1131007",
+    "historic": "tomb",
+    "listed_status": "Grade II"
+  }
+},
+{
+  "type": "node",
+  "id": 9041240995,
+  "lat": 51.1574093,
+  "lon": -1.8089233,
+  "tags": {
+    "description": "Two monuments in churchyard, approximately 3-5m west of west tower, Church of St Michael",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1131007",
+    "historic": "tomb",
+    "listed_status": "Grade II"
+  }
+},
+{
+  "type": "node",
+  "id": 9041240996,
+  "lat": 51.1572806,
+  "lon": -1.8086826,
+  "tags": {
+    "description": "Base of cross in churchyard, approximately 1m south of chancel, Church of St Michael",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1284116",
+    "historic": "monument",
+    "listed_status": "Grade II"
+  }
+},
+{
+  "type": "node",
+  "id": 9041240997,
+  "lat": 51.1572684,
+  "lon": -1.8086430,
+  "tags": {
+    "description": "Unidentified chest tomb in churchyard, approximately lm south of chancel, Church of St Michael",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1318501",
+    "historic": "tomb",
+    "listed_status": "Grade II"
+  }
+},
+{
+  "type": "node",
+  "id": 9041240998,
+  "lat": 51.1572326,
+  "lon": -1.8086471,
+  "tags": {
+    "description": "Foster Lodge monument in churchyard, approximately 4m south of chancel, Church of St Michael",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1183323",
+    "historic": "tomb",
+    "listed_status": "Grade II"
+  }
+},
+{
+  "type": "node",
+  "id": 9227583317,
+  "lat": 51.1901840,
+  "lon": -1.7839366,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Woodhenge",
+    "naptan:AtcoCode": "4600WIA13177",
+    "naptan:Bearing": "S",
+    "naptan:CommonName": "Woodhenge",
+    "naptan:Indicator": "S-bound",
+    "naptan:NaptanCode": "wildgpmd",
+    "naptan:Street": "Countess Road",
+    "naptan:verified": "no",
+    "public_transport": "platform",
+    "ref": "wildgpmd"
+  }
+},
+{
+  "type": "node",
+  "id": 10049099575,
+  "lat": 51.1793946,
+  "lon": -1.8254581,
+  "tags": {
+    "board_type": "history",
+    "information": "board",
+    "name": "Why was Stonehenge built here?",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 11049372024,
+  "lat": 51.1954145,
+  "lon": -1.7827402,
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Stonehenge Inn",
+    "naptan:AtcoCode": "4600WIA13148",
+    "naptan:Bearing": "W",
+    "naptan:CommonName": "Stonehenge Inn",
+    "naptan:Indicator": "W-bound",
+    "naptan:NaptanCode": "wildgpwd",
+    "naptan:Street": "Larkhill Road",
+    "naptan:verified": "yes",
+    "public_transport": "platform",
+    "ref": "wildgpwd",
+    "shelter": "yes",
+    "source": "mapilary;naptan;bing;naptan_compare_tool"
+  }
+},
+{
+  "type": "node",
+  "id": 11049372025,
+  "lat": 51.1954995,
+  "lon": -1.7824886,
+  "tags": {
+    "bench": "yes",
+    "bin": "no",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Stonehenge Inn",
+    "name:zh": "巨石阵旅馆站",
+    "naptan:AtcoCode": "4600WIA13149",
+    "naptan:Bearing": "E",
+    "naptan:CommonName": "Stonehenge Inn",
+    "naptan:Indicator": "E-bound",
+    "naptan:NaptanCode": "wildgpwa",
+    "naptan:Street": "Larkhill Road",
+    "naptan:verified": "yes",
+    "public_transport": "platform",
+    "ref": "wildgpwa",
+    "shelter": "yes",
+    "source": "mapilary;naptan;bing;naptan_compare_tool"
+  }
+},
+{
+  "type": "node",
+  "id": 11050003240,
+  "lat": 51.1803832,
+  "lon": -1.8294082,
+  "tags": {
+    "name": "Stonehenge paid route",
+    "tourism": "attraction",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11946038056,
+  "lat": 51.1774994,
+  "lon": -1.8274208,
+  "tags": {
+    "alt_name": "Stone Henge",
+    "name": "Stonehenge",
+    "natural": "grassland",
+    "old_name": "Stonehenge Down",
+    "operator": "English Heritage",
+    "place": "locality",
+    "website": "https://www.english-heritage.org.uk/visit/places/stonehenge/",
+    "wikidata": "Q7619218",
+    "wikipedia": "en:Stonehenge Landscape"
+  }
+},
+{
+  "type": "node",
+  "id": 12118185084,
+  "lat": 51.1905375,
+  "lon": -1.7843221,
+  "tags": {
+    "bench": "no",
+    "bin": "no",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Woodhenge",
+    "naptan:AtcoCode": "4600WIA13176",
+    "naptan:Bearing": "N",
+    "naptan:CommonName": "Woodhenge",
+    "naptan:Indicator": "N-bound",
+    "naptan:NaptanCode": "wildgpjp",
+    "naptan:Street": "Countess Road",
+    "public_transport": "platform",
+    "ref": "wildgpjp",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12467242788,
+  "lat": 51.1956386,
+  "lon": -1.7857266,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Stonehenge Inn Roundabout",
+    "naptan:AtcoCode": "4600WIA13147",
+    "naptan:Bearing": "W",
+    "naptan:CommonName": "Stonehenge Inn Roundabout",
+    "naptan:Indicator": "W-bound",
+    "naptan:NaptanCode": "wildgpat",
+    "naptan:Street": "The Packway",
+    "naptan:verified": "no",
+    "public_transport": "platform",
+    "ref": "wildgpat",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12467242851,
+  "lat": 51.1955412,
+  "lon": -1.7967550,
+  "tags": {
+    "bench": "no",
+    "bin": "yes",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Stonehenge Retail Park",
+    "naptan:AtcoCode": "4600WIA13145",
+    "naptan:Bearing": "W",
+    "naptan:CommonName": "Stonehenge Retail Park",
+    "naptan:Indicator": "W-bound",
+    "naptan:NaptanCode": "wildgawj",
+    "naptan:Street": "The Packway",
+    "naptan:verified": "no",
+    "public_transport": "platform",
+    "ref": "wildgawj",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12467242852,
+  "lat": 51.1956512,
+  "lon": -1.7967252,
+  "tags": {
+    "bench": "no",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Stonehenge Retail Park",
+    "naptan:AtcoCode": "4600WIA13144",
+    "naptan:Bearing": "E",
+    "naptan:CommonName": "Stonehenge Retail Park",
+    "naptan:Indicator": "E-bound",
+    "naptan:NaptanCode": "wildgawt",
+    "naptan:Street": "The Packway",
+    "naptan:verified": "no",
+    "public_transport": "platform",
+    "ref": "wildgawt",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849255,
+  "lat": 51.1893638,
+  "lon": -1.7858331,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849256,
+  "lat": 51.1893843,
+  "lon": -1.7858443,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849257,
+  "lat": 51.1894068,
+  "lon": -1.7858434,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849258,
+  "lat": 51.1894244,
+  "lon": -1.7858280,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849259,
+  "lat": 51.1894373,
+  "lon": -1.7857925,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849260,
+  "lat": 51.1894463,
+  "lon": -1.7857547,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849261,
+  "lat": 51.1894420,
+  "lon": -1.7857169,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849262,
+  "lat": 51.1894212,
+  "lon": -1.7857033,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849263,
+  "lat": 51.1894001,
+  "lon": -1.7857042,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849264,
+  "lat": 51.1893779,
+  "lon": -1.7857271,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849265,
+  "lat": 51.1893580,
+  "lon": -1.7857589,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849266,
+  "lat": 51.1893533,
+  "lon": -1.7857934,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849267,
+  "lat": 51.1893266,
+  "lon": -1.7858079,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849268,
+  "lat": 51.1893331,
+  "lon": -1.7858565,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849269,
+  "lat": 51.1893539,
+  "lon": -1.7858728,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849270,
+  "lat": 51.1893758,
+  "lon": -1.7858859,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849271,
+  "lat": 51.1893980,
+  "lon": -1.7858845,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849272,
+  "lat": 51.1894261,
+  "lon": -1.7858668,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849273,
+  "lat": 51.1894420,
+  "lon": -1.7858467,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849274,
+  "lat": 51.1894575,
+  "lon": -1.7858168,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849275,
+  "lat": 51.1894645,
+  "lon": -1.7857804,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849276,
+  "lat": 51.1894712,
+  "lon": -1.7857369,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849277,
+  "lat": 51.1894654,
+  "lon": -1.7856982,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849278,
+  "lat": 51.1894499,
+  "lon": -1.7856673,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849279,
+  "lat": 51.1894276,
+  "lon": -1.7856538,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849280,
+  "lat": 51.1894019,
+  "lon": -1.7856594,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849281,
+  "lat": 51.1893764,
+  "lon": -1.7856767,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849282,
+  "lat": 51.1893585,
+  "lon": -1.7856930,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849283,
+  "lat": 51.1893424,
+  "lon": -1.7857309,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849284,
+  "lat": 51.1893275,
+  "lon": -1.7857626,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849285,
+  "lat": 51.1893067,
+  "lon": -1.7857603,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849286,
+  "lat": 51.1892807,
+  "lon": -1.7857341,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849287,
+  "lat": 51.1893176,
+  "lon": -1.7857103,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849288,
+  "lat": 51.1893038,
+  "lon": -1.7856641,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849289,
+  "lat": 51.1893404,
+  "lon": -1.7856141,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849290,
+  "lat": 51.1893372,
+  "lon": -1.7856702,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849291,
+  "lat": 51.1893656,
+  "lon": -1.7856459,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849292,
+  "lat": 51.1893793,
+  "lon": -1.7855856,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849293,
+  "lat": 51.1893948,
+  "lon": -1.7856272,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849294,
+  "lat": 51.1894308,
+  "lon": -1.7855772,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849295,
+  "lat": 51.1894250,
+  "lon": -1.7856174,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849296,
+  "lat": 51.1894528,
+  "lon": -1.7856351,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849297,
+  "lat": 51.1894706,
+  "lon": -1.7855978,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849298,
+  "lat": 51.1895110,
+  "lon": -1.7856491,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849299,
+  "lat": 51.1894809,
+  "lon": -1.7856692,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950849300,
+  "lat": 51.1894949,
+  "lon": -1.7857192,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882801,
+  "lat": 51.1895242,
+  "lon": -1.7857290,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882802,
+  "lat": 51.1895192,
+  "lon": -1.7857986,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882803,
+  "lat": 51.1894908,
+  "lon": -1.7857771,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882804,
+  "lat": 51.1894803,
+  "lon": -1.7858289,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882805,
+  "lat": 51.1894964,
+  "lon": -1.7858747,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882806,
+  "lat": 51.1894613,
+  "lon": -1.7859223,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882807,
+  "lat": 51.1894586,
+  "lon": -1.7858728,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882808,
+  "lat": 51.1894288,
+  "lon": -1.7858952,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882809,
+  "lat": 51.1894188,
+  "lon": -1.7859574,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882810,
+  "lat": 51.1893980,
+  "lon": -1.7859228,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882811,
+  "lat": 51.1893620,
+  "lon": -1.7859214,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882812,
+  "lat": 51.1893673,
+  "lon": -1.7859648,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882813,
+  "lat": 51.1893234,
+  "lon": -1.7859452,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882814,
+  "lat": 51.1893342,
+  "lon": -1.7858901,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882815,
+  "lat": 51.1893123,
+  "lon": -1.7858598,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882816,
+  "lat": 51.1892930,
+  "lon": -1.7858812,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882817,
+  "lat": 51.1892775,
+  "lon": -1.7858107,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882818,
+  "lat": 51.1893061,
+  "lon": -1.7858051,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882819,
+  "lat": 51.1892359,
+  "lon": -1.7857771,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882820,
+  "lat": 51.1892333,
+  "lon": -1.7858191,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882821,
+  "lat": 51.1892418,
+  "lon": -1.7858929,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882822,
+  "lat": 51.1892611,
+  "lon": -1.7859331,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882823,
+  "lat": 51.1892903,
+  "lon": -1.7859779,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882824,
+  "lat": 51.1893187,
+  "lon": -1.7860069,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882825,
+  "lat": 51.1893486,
+  "lon": -1.7860297,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882826,
+  "lat": 51.1893831,
+  "lon": -1.7860302,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882827,
+  "lat": 51.1894165,
+  "lon": -1.7860195,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882828,
+  "lat": 51.1894443,
+  "lon": -1.7860083,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882829,
+  "lat": 51.1894727,
+  "lon": -1.7859849,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882830,
+  "lat": 51.1894979,
+  "lon": -1.7859588,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882831,
+  "lat": 51.1895207,
+  "lon": -1.7859200,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882832,
+  "lat": 51.1895385,
+  "lon": -1.7858850,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882833,
+  "lat": 51.1895532,
+  "lon": -1.7858415,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882834,
+  "lat": 51.1895620,
+  "lon": -1.7857967,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882835,
+  "lat": 51.1895684,
+  "lon": -1.7857519,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882836,
+  "lat": 51.1895661,
+  "lon": -1.7857117,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882837,
+  "lat": 51.1895508,
+  "lon": -1.7856375,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882838,
+  "lat": 51.1895324,
+  "lon": -1.7855940,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882839,
+  "lat": 51.1895075,
+  "lon": -1.7855520,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882840,
+  "lat": 51.1894788,
+  "lon": -1.7855305,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882841,
+  "lat": 51.1894452,
+  "lon": -1.7855132,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882842,
+  "lat": 51.1894153,
+  "lon": -1.7855076,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882843,
+  "lat": 51.1893860,
+  "lon": -1.7855142,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882844,
+  "lat": 51.1893591,
+  "lon": -1.7855235,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882845,
+  "lat": 51.1893334,
+  "lon": -1.7855515,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882846,
+  "lat": 51.1893088,
+  "lon": -1.7855674,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882847,
+  "lat": 51.1892833,
+  "lon": -1.7856034,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882848,
+  "lat": 51.1892649,
+  "lon": -1.7856417,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882849,
+  "lat": 51.1892447,
+  "lon": -1.7856818,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882850,
+  "lat": 51.1892359,
+  "lon": -1.7857253,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882851,
+  "lat": 51.1892089,
+  "lon": -1.7857008,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882852,
+  "lat": 51.1892054,
+  "lon": -1.7857347,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882853,
+  "lat": 51.1892040,
+  "lon": -1.7857623,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882854,
+  "lat": 51.1892058,
+  "lon": -1.7857914,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882855,
+  "lat": 51.1892040,
+  "lon": -1.7858260,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882856,
+  "lat": 51.1892049,
+  "lon": -1.7858650,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882857,
+  "lat": 51.1892164,
+  "lon": -1.7859039,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882858,
+  "lat": 51.1892293,
+  "lon": -1.7859287,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882859,
+  "lat": 51.1892413,
+  "lon": -1.7859556,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882860,
+  "lat": 51.1892555,
+  "lon": -1.7859754,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882861,
+  "lat": 51.1892695,
+  "lon": -1.7860028,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882862,
+  "lat": 51.1892838,
+  "lon": -1.7860231,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882863,
+  "lat": 51.1893031,
+  "lon": -1.7860410,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882864,
+  "lat": 51.1893200,
+  "lon": -1.7860524,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882865,
+  "lat": 51.1893342,
+  "lon": -1.7860613,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882866,
+  "lat": 51.1893582,
+  "lon": -1.7860694,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882867,
+  "lat": 51.1893745,
+  "lon": -1.7860735,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882868,
+  "lat": 51.1893938,
+  "lon": -1.7860743,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882869,
+  "lat": 51.1894168,
+  "lon": -1.7860751,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882870,
+  "lat": 51.1894316,
+  "lon": -1.7860670,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882871,
+  "lat": 51.1894474,
+  "lon": -1.7860564,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882872,
+  "lat": 51.1894621,
+  "lon": -1.7860450,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882873,
+  "lat": 51.1894800,
+  "lon": -1.7860280,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882874,
+  "lat": 51.1894988,
+  "lon": -1.7860166,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882875,
+  "lat": 51.1895131,
+  "lon": -1.7859914,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882876,
+  "lat": 51.1895936,
+  "lon": -1.7856913,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882877,
+  "lat": 51.1895936,
+  "lon": -1.7857304,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882878,
+  "lat": 51.1895906,
+  "lon": -1.7857645,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882879,
+  "lat": 51.1895890,
+  "lon": -1.7857905,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882880,
+  "lat": 51.1895829,
+  "lon": -1.7858223,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882881,
+  "lat": 51.1895753,
+  "lon": -1.7858426,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882882,
+  "lat": 51.1895707,
+  "lon": -1.7858710,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882883,
+  "lat": 51.1895641,
+  "lon": -1.7858906,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882884,
+  "lat": 51.1895564,
+  "lon": -1.7859198,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882885,
+  "lat": 51.1895457,
+  "lon": -1.7859312,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882886,
+  "lat": 51.1895238,
+  "lon": -1.7859654,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882887,
+  "lat": 51.1895804,
+  "lon": -1.7856369,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882888,
+  "lat": 51.1895742,
+  "lon": -1.7856011,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882889,
+  "lat": 51.1895584,
+  "lon": -1.7855718,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882890,
+  "lat": 51.1895462,
+  "lon": -1.7855417,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882891,
+  "lat": 51.1895279,
+  "lon": -1.7855214,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882892,
+  "lat": 51.1895080,
+  "lon": -1.7854978,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882893,
+  "lat": 51.1894902,
+  "lon": -1.7854856,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882894,
+  "lat": 51.1894657,
+  "lon": -1.7854775,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882895,
+  "lat": 51.1894468,
+  "lon": -1.7854645,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882896,
+  "lat": 51.1894219,
+  "lon": -1.7854604,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882897,
+  "lat": 51.1894061,
+  "lon": -1.7854555,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882898,
+  "lat": 51.1892145,
+  "lon": -1.7856735,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882899,
+  "lat": 51.1892201,
+  "lon": -1.7856442,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882900,
+  "lat": 51.1892328,
+  "lon": -1.7856133,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882901,
+  "lat": 51.1892430,
+  "lon": -1.7855946,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882902,
+  "lat": 51.1892603,
+  "lon": -1.7855759,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882903,
+  "lat": 51.1892705,
+  "lon": -1.7855556,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882904,
+  "lat": 51.1892822,
+  "lon": -1.7855385,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882905,
+  "lat": 51.1892935,
+  "lon": -1.7855206,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882906,
+  "lat": 51.1893138,
+  "lon": -1.7855108,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882907,
+  "lat": 51.1893291,
+  "lon": -1.7855003,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882908,
+  "lat": 51.1893470,
+  "lon": -1.7854856,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882909,
+  "lat": 51.1893633,
+  "lon": -1.7854783,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13950882910,
+  "lat": 51.1893867,
+  "lon": -1.7854653,
+  "tags": {
+    "description": "Concrete pillar marking the position of an ancient timber post.",
+    "height": "0.4",
+    "historic": "marker",
+    "marker": "post",
+    "material": "concrete",
+    "utility": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 14274404608,
+  "lat": 51.1954666,
+  "lon": -1.7827298,
+  "tags": {
+    "bus": "yes",
+    "direction": "backward",
+    "name": "Stonehenge Inn",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 14274404609,
+  "lat": 51.1901636,
+  "lon": -1.7841013,
+  "tags": {
+    "bus": "yes",
+    "direction": "forward",
+    "name": "Woodhenge",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 14298959531,
+  "lat": 51.1818447,
+  "lon": -1.8069555,
+  "tags": {
+    "name": "Seven Barrows",
+    "place": "locality"
+  }
+},
+{
+  "type": "way",
+  "id": 8175343,
+  "center": {
+    "lat": 51.1972117,
+    "lon": -1.7805193
+  },
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "30 mph",
+    "maxspeed:type": "GB:nsl_restricted",
+    "name": "Stonehenge Road",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 28130076,
+  "center": {
+    "lat": 51.1744952,
+    "lon": -1.7629344
+  },
+  "tags": {
+    "name": "Amesbury and Military Camp Light Railway",
+    "railway": "razed",
+    "razed:railway": "rail",
+    "ref": "ABY",
+    "source": "NLS-OS-1st_Series"
+  }
+},
+{
+  "type": "way",
+  "id": 36970076,
+  "center": {
+    "lat": 51.1893844,
+    "lon": -1.7857749
+  },
+  "tags": {
+    "access": "yes",
+    "fee": "no",
+    "historic": "archaeological_site",
+    "historic:civilization": "neolithic",
+    "name": "Woodhenge",
+    "tourism": "attraction",
+    "wikidata": "Q534028",
+    "wikipedia": "en:Woodhenge"
+  }
+},
+{
+  "type": "way",
+  "id": 36970535,
+  "center": {
+    "lat": 51.2126623,
+    "lon": -1.8548681
+  },
+  "tags": {
+    "archaeological_site": "earthwork",
+    "era": "neolythic",
+    "historic": "archaeological_site",
+    "name": "Robin Hood's Ball",
+    "wikidata": "Q7352474",
+    "wikipedia": "en:Robin Hood's Ball"
+  }
+},
+{
+  "type": "way",
+  "id": 37118074,
+  "center": {
+    "lat": 51.1788293,
+    "lon": -1.8260749
+  },
+  "tags": {
+    "access": "customers",
+    "addr:city": "Shrewton, Wiltshire",
+    "addr:postcode": "SP4 7DE",
+    "archaeological_site": "megalith",
+    "fee": "yes",
+    "heritage": "1",
+    "heritage:operator": "whc",
+    "heritage:website": "http://whc.unesco.org/en/list/373",
+    "historic": "archaeological_site",
+    "historic:civilization": "prehistoric",
+    "historic:era": "neolithic",
+    "historic:period": "stone-age",
+    "landcover": "grass",
+    "landmark": "1",
+    "megalith_type": "stone_circle",
+    "name": "Stonehenge",
+    "name:af": "Stonehenge",
+    "name:ang": "Stānhencg",
+    "name:ar": "ستونهنج",
+    "name:as": "ষ্ট'নহেঞ্জ",
+    "name:ast": "Stonehenge",
+    "name:az": "Stounhenc",
+    "name:azb": "استون هنج",
+    "name:ba": "Стоунхендж",
+    "name:ban": "Stonehenge",
+    "name:bar": "Stonehenge",
+    "name:bcl": "Stonehenge",
+    "name:be": "Стоўнхендж",
+    "name:be-tarask": "Стоўнгэндж",
+    "name:bg": "Стоунхендж",
+    "name:bh": "स्टोनहेंज",
+    "name:bn": "স্টোনহেঞ্জ",
+    "name:br": "Stonehenge",
+    "name:bs": "Stonehenge",
+    "name:ca": "Stonehenge",
+    "name:ceb": "Stonehenge",
+    "name:chr": "ᏅᏯ ᏙᏗᎦᏙᎬ",
+    "name:ckb": "ستۆنھێنج",
+    "name:cs": "Stonehenge",
+    "name:cv": "Стоунхендж",
+    "name:cy": "Côr y Cewri",
+    "name:da": "Stonehenge",
+    "name:de": "Stonehenge",
+    "name:dv": "ސްޓޯންހެންޖް",
+    "name:el": "Στόουνχεντζ",
+    "name:en": "Stonehenge",
+    "name:es": "Stonehenge",
+    "name:et": "Stonehenge",
+    "name:eu": "Stonehenge",
+    "name:fa": "استون‌هنج",
+    "name:fi": "Stonehenge",
+    "name:fo": "Stonehenge",
+    "name:fr": "Stonehenge",
+    "name:fy": "Stonehenge",
+    "name:ga": "Stonehenge",
+    "name:gcr": "Stonehenge",
+    "name:gl": "Stonehenge",
+    "name:hak": "Ki-sa̍k-chhṳn",
+    "name:he": "סטונהנג'",
+    "name:hi": "स्टोनहॅन्ज",
+    "name:hr": "Stonehenge",
+    "name:hu": "Stonehenge",
+    "name:hy": "Սթոունհենջ",
+    "name:id": "Stonehenge",
+    "name:is": "Stonehenge",
+    "name:it": "Stonehenge",
+    "name:ja": "ストーンヘンジ",
+    "name:jv": "Stonehenge",
+    "name:ka": "სტოუნჰენჯი",
+    "name:kk": "Стоунхендж",
+    "name:kn": "ಸ್ಟೋನ್ ಹೆಂಜ್",
+    "name:ko": "스톤헨지",
+    "name:ku": "Stonehenge",
+    "name:lfn": "Stonehenge",
+    "name:lt": "Stounhendžas",
+    "name:lv": "Stounhendža",
+    "name:mg": "Stonehenge",
+    "name:mk": "Стоунхенџ",
+    "name:ml": "സ്റ്റോൺഹെൻജ്",
+    "name:mn": "Стоунхенж",
+    "name:mr": "स्टोनहेंज",
+    "name:ms": "Stonehenge",
+    "name:mt": "Stonehenge",
+    "name:my": "စတုန်းဟင်းချ်",
+    "name:nan": "Stonehenge",
+    "name:ne": "स्टोनहेज",
+    "name:nl": "Stonehenge",
+    "name:nn": "Stonehenge",
+    "name:no": "Stonehenge",
+    "name:nrm": "Estanhenge",
+    "name:oc": "Stonehenge",
+    "name:pa": "ਸਟੋਨਹੈਂਜ",
+    "name:pl": "Stonehenge",
+    "name:pnb": "سٹونہنج",
+    "name:pt": "Stonehenge",
+    "name:ro": "Stonehenge",
+    "name:ru": "Стоунхендж",
+    "name:scn": "Stonehenge",
+    "name:sh": "Stonehenge",
+    "name:sk": "Stonehenge",
+    "name:sl": "Stonehenge",
+    "name:sq": "Stonehenge",
+    "name:sr": "Стоунхенџ",
+    "name:sv": "Stonehenge",
+    "name:ta": "ஸ்டோன் ஹெஞ்ச்",
+    "name:th": "สโตนเฮนจ์",
+    "name:tr": "Stonehenge",
+    "name:tt": "Стоунһендж",
+    "name:uk": "Стоунхендж",
+    "name:ur": "سٹون_ہینج",
+    "name:uz": "Stonehenge",
+    "name:vep": "Stounhendž",
+    "name:vi": "Stonehenge",
+    "name:war": "Stonehenge",
+    "name:wuu": "巨石阵",
+    "name:yue": "巨石陣",
+    "name:zh": "巨石阵",
+    "phone": "+44 870 333 1181",
+    "ref:whc": "373",
+    "religion": "iron_age_druidic",
+    "start_date": "3100 BC",
+    "toilets:wheelchair": "yes",
+    "tourism": "attraction",
+    "website": "https://www.english-heritage.org.uk/visit/places/stonehenge/",
+    "whc:criteria": "(i)(ii)(iii)",
+    "whc:inscription_date": "1986",
+    "wheelchair": "yes",
+    "wikidata": "Q39671",
+    "wikimedia_commons": "Category:Stonehenge",
+    "wikipedia": "en:Stonehenge"
+  }
+},
+{
+  "type": "way",
+  "id": 38057564,
+  "center": {
+    "lat": 51.2072443,
+    "lon": -1.7959697
+  },
+  "tags": {
+    "name": "Stonehenge Firs",
+    "natural": "wood"
+  }
+},
+{
+  "type": "way",
+  "id": 38332998,
+  "center": {
+    "lat": 51.1722805,
+    "lon": -1.8590319
+  },
+  "tags": {
+    "cycleway:left": "no",
+    "foot": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow Lane",
+    "old_ref": "B3086",
+    "oneway": "yes",
+    "ref": "A360",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38334618,
+  "center": {
+    "lat": 51.2027305,
+    "lon": -1.8673827
+  },
+  "tags": {
+    "leaf_cycle": "deciduous",
+    "name": "Rollestone Clump",
+    "natural": "wood"
+  }
+},
+{
+  "type": "way",
+  "id": 38528246,
+  "center": {
+    "lat": 51.1865527,
+    "lon": -1.8250478
+  },
+  "tags": {
+    "archaeological_site": "earthwork",
+    "historic": "archaeological_site",
+    "man_made": "embankment",
+    "name": "The Cursus",
+    "source": "Yahoo",
+    "source:name": "NPE",
+    "wikidata": "Q7619217",
+    "wikimedia_commons": "Category:Stonehenge Cursus",
+    "wikipedia": "en:Stonehenge Cursus"
+  }
+},
+{
+  "type": "way",
+  "id": 42702954,
+  "center": {
+    "lat": 51.1722561,
+    "lon": -1.8592661
+  },
+  "tags": {
+    "cycleway:left": "no",
+    "foot": "yes",
+    "highway": "primary",
+    "lane_markings": "no",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow Lane",
+    "old_ref": "B3086",
+    "oneway": "yes",
+    "ref": "A360",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 99207713,
+  "center": {
+    "lat": 51.1787933,
+    "lon": -1.8261831
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207718,
+  "center": {
+    "lat": 51.1788265,
+    "lon": -1.8263074
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207720,
+  "center": {
+    "lat": 51.1789660,
+    "lon": -1.8263469
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207722,
+  "center": {
+    "lat": 51.1788336,
+    "lon": -1.8262459
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207723,
+  "center": {
+    "lat": 51.1788829,
+    "lon": -1.8262984
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207724,
+  "center": {
+    "lat": 51.1789479,
+    "lon": -1.8260437
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207725,
+  "center": {
+    "lat": 51.1787882,
+    "lon": -1.8263926
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207726,
+  "center": {
+    "lat": 51.1789989,
+    "lon": -1.8262988
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207727,
+  "center": {
+    "lat": 51.1789354,
+    "lon": -1.8263927
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207728,
+  "center": {
+    "lat": 51.1788370,
+    "lon": -1.8260949
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207729,
+  "center": {
+    "lat": 51.1789935,
+    "lon": -1.8261321
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207730,
+  "center": {
+    "lat": 51.1788456,
+    "lon": -1.8259850
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207731,
+  "center": {
+    "lat": 51.1787651,
+    "lon": -1.8263014
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207732,
+  "center": {
+    "lat": 51.1787921,
+    "lon": -1.8260162
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207733,
+  "center": {
+    "lat": 51.1787148,
+    "lon": -1.8260716
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207734,
+  "center": {
+    "lat": 51.1787355,
+    "lon": -1.8261412
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207735,
+  "center": {
+    "lat": 51.1788070,
+    "lon": -1.8262809
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207736,
+  "center": {
+    "lat": 51.1789981,
+    "lon": -1.8262218
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207738,
+  "center": {
+    "lat": 51.1787343,
+    "lon": -1.8260889
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207741,
+  "center": {
+    "lat": 51.1789148,
+    "lon": -1.8262327
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207745,
+  "center": {
+    "lat": 51.1789427,
+    "lon": -1.8262171
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207747,
+  "center": {
+    "lat": 51.1787124,
+    "lon": -1.8262335
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207750,
+  "center": {
+    "lat": 51.1789973,
+    "lon": -1.8261775
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207752,
+  "center": {
+    "lat": 51.1788869,
+    "lon": -1.8259859
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207754,
+  "center": {
+    "lat": 51.1787868,
+    "lon": -1.8263268
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207756,
+  "center": {
+    "lat": 51.1787390,
+    "lon": -1.8260342
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207759,
+  "center": {
+    "lat": 51.1788711,
+    "lon": -1.8264723
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 99207761,
+  "center": {
+    "lat": 51.1788550,
+    "lon": -1.8262574
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 131359467,
+  "center": {
+    "lat": 51.1773677,
+    "lon": -1.8037278
+  },
+  "tags": {
+    "access": "private",
+    "historic": "footway",
+    "name": "The Avenue",
+    "note": "prehistoric way",
+    "operator": "National Trust"
+  }
+},
+{
+  "type": "way",
+  "id": 133262440,
+  "center": {
+    "lat": 51.1793062,
+    "lon": -1.8253310
+  },
+  "tags": {
+    "heritage": "yes",
+    "heritage:operator": "eh",
+    "historic": "stone",
+    "name": "Heel Stone",
+    "name:de": "Fersenstein",
+    "name:en": "Heel Stone",
+    "name:fr": "Pierre Talon",
+    "name:ru": "Пяточный камень",
+    "natural": "stone",
+    "ref": "96",
+    "source": "Bing",
+    "start_date": "3100 BC",
+    "wikidata": "Q5697984",
+    "wikimedia_commons": "Category:Heel Stone",
+    "wikipedia": "en:Heel Stone"
+  }
+},
+{
+  "type": "way",
+  "id": 133262443,
+  "center": {
+    "lat": 51.1791083,
+    "lon": -1.8256998
+  },
+  "tags": {
+    "heritage": "yes",
+    "heritage:operator": "eh",
+    "historic": "stone",
+    "is_in": "Wiltshire",
+    "level": "1",
+    "name": "Slaughter Stone",
+    "name:de": "Opferstein",
+    "name:en": "Slaughter Stone",
+    "name:fr": "Pierre de Sacrifice",
+    "natural": "stone",
+    "ref": "95",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 147039479,
+  "center": {
+    "lat": 51.1718427,
+    "lon": -1.8595862
+  },
+  "tags": {
+    "highway": "trunk",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow",
+    "national_highways:area": "2",
+    "oneway": "yes",
+    "operator": "National Highways",
+    "operator:wikidata": "Q5760006",
+    "shoulder": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 147953204,
+  "center": {
+    "lat": 51.1716529,
+    "lon": -1.7907847
+  },
+  "tags": {
+    "highway": "tertiary",
+    "highway_authority_ref": "C350",
+    "maxspeed": "40 mph",
+    "name": "Stonehenge Road",
+    "sidewalk": "right"
+  }
+},
+{
+  "type": "way",
+  "id": 152183298,
+  "center": {
+    "lat": 51.1779796,
+    "lon": -1.8597024
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow Lane",
+    "old_ref": "B3086",
+    "ref": "A360",
+    "sidewalk": "no",
+    "source": "Bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 152183299,
+  "center": {
+    "lat": 51.1846996,
+    "lon": -1.8605530
+  },
+  "tags": {
+    "highway": "primary",
+    "lit": "no",
+    "maxspeed": "40 mph",
+    "name": "Longbarrow Lane",
+    "old_ref": "B3086",
+    "oneway": "yes",
+    "ref": "A360",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 152660264,
+  "center": {
+    "lat": 51.1807596,
+    "lon": -1.8110091
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "The Avenue",
+    "wikidata": "Q4443202"
+  }
+},
+{
+  "type": "way",
+  "id": 152660270,
+  "center": {
+    "lat": 51.1726878,
+    "lon": -1.8584060
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass",
+    "name": "Winterbourne Stoke Crossroads Long Barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 152660275,
+  "center": {
+    "lat": 51.1736164,
+    "lon": -1.8368720
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660281,
+  "center": {
+    "lat": 51.1696362,
+    "lon": -1.8257479
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660285,
+  "center": {
+    "lat": 51.1760726,
+    "lon": -1.8584211
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660292,
+  "center": {
+    "lat": 51.1683927,
+    "lon": -1.8343171
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660307,
+  "center": {
+    "lat": 51.1698729,
+    "lon": -1.8270511
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660314,
+  "center": {
+    "lat": 51.1693639,
+    "lon": -1.8246301
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660319,
+  "center": {
+    "lat": 51.1757334,
+    "lon": -1.8584165
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660323,
+  "center": {
+    "lat": 51.1704596,
+    "lon": -1.8331110
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660327,
+  "center": {
+    "lat": 51.1751914,
+    "lon": -1.8560330
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660333,
+  "center": {
+    "lat": 51.1764329,
+    "lon": -1.8536377
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660336,
+  "center": {
+    "lat": 51.1702701,
+    "lon": -1.8294644
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660341,
+  "center": {
+    "lat": 51.1708866,
+    "lon": -1.8309507
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660345,
+  "center": {
+    "lat": 51.1810794,
+    "lon": -1.8617012
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660355,
+  "center": {
+    "lat": 51.1755024,
+    "lon": -1.8558798
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 152660379,
+  "center": {
+    "lat": 51.1682455,
+    "lon": -1.8339030
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660382,
+  "center": {
+    "lat": 51.1760230,
+    "lon": -1.8588995
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660390,
+  "center": {
+    "lat": 51.1695375,
+    "lon": -1.8252031
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660396,
+  "center": {
+    "lat": 51.1736657,
+    "lon": -1.8585808
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660399,
+  "center": {
+    "lat": 51.1755901,
+    "lon": -1.8588545
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660407,
+  "center": {
+    "lat": 51.1756938,
+    "lon": -1.8545114
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660416,
+  "center": {
+    "lat": 51.1692255,
+    "lon": -1.8253990
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660418,
+  "center": {
+    "lat": 51.1697344,
+    "lon": -1.8263175
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660438,
+  "center": {
+    "lat": 51.1626096,
+    "lon": -1.8286214
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660444,
+  "center": {
+    "lat": 51.1702389,
+    "lon": -1.8291220
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660451,
+  "center": {
+    "lat": 51.1750800,
+    "lon": -1.8553534
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660459,
+  "center": {
+    "lat": 51.1687809,
+    "lon": -1.8380685
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660461,
+  "center": {
+    "lat": 51.1760831,
+    "lon": -1.8540903
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660468,
+  "center": {
+    "lat": 51.1709124,
+    "lon": -1.8361422
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660476,
+  "center": {
+    "lat": 51.1701131,
+    "lon": -1.8284719
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660483,
+  "center": {
+    "lat": 51.1670845,
+    "lon": -1.8268464
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660486,
+  "center": {
+    "lat": 51.1705086,
+    "lon": -1.8347432
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660495,
+  "center": {
+    "lat": 51.1710128,
+    "lon": -1.8323517
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660501,
+  "center": {
+    "lat": 51.1632432,
+    "lon": -1.8283392
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660510,
+  "center": {
+    "lat": 51.1702450,
+    "lon": -1.8327175
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660522,
+  "center": {
+    "lat": 51.1688814,
+    "lon": -1.8329030
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660525,
+  "center": {
+    "lat": 51.1751745,
+    "lon": -1.8566369
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660530,
+  "center": {
+    "lat": 51.1705009,
+    "lon": -1.8307072
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660532,
+  "center": {
+    "lat": 51.1703507,
+    "lon": -1.8357823
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660538,
+  "center": {
+    "lat": 51.1694579,
+    "lon": -1.8235794
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660542,
+  "center": {
+    "lat": 51.1742614,
+    "lon": -1.8566234
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660546,
+  "center": {
+    "lat": 51.1658967,
+    "lon": -1.8273818
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660551,
+  "center": {
+    "lat": 51.1745081,
+    "lon": -1.8559602
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass",
+    "name": "Ring Barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 152660554,
+  "center": {
+    "lat": 51.1747916,
+    "lon": -1.8569902
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660557,
+  "center": {
+    "lat": 51.1782360,
+    "lon": -1.8295451
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660565,
+  "center": {
+    "lat": 51.1769788,
+    "lon": -1.8296001
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660566,
+  "center": {
+    "lat": 51.1778944,
+    "lon": -1.8299581
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660572,
+  "center": {
+    "lat": 51.1755412,
+    "lon": -1.8361217
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660575,
+  "center": {
+    "lat": 51.1758768,
+    "lon": -1.8362565
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660577,
+  "center": {
+    "lat": 51.1712141,
+    "lon": -1.8309724
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660584,
+  "center": {
+    "lat": 51.1749099,
+    "lon": -1.8363031
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660585,
+  "center": {
+    "lat": 51.1707474,
+    "lon": -1.8299198
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 152660590,
+  "center": {
+    "lat": 51.1695567,
+    "lon": -1.8220702
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 152664904,
+  "center": {
+    "lat": 51.1747920,
+    "lon": -1.7917142
+  },
+  "tags": {
+    "archaeological_site": "fortification",
+    "historic": "archaeological_site",
+    "name": "Vespasian's Camp",
+    "natural": "cliff",
+    "wikidata": "Q7923272"
+  }
+},
+{
+  "type": "way",
+  "id": 192898252,
+  "center": {
+    "lat": 51.1694650,
+    "lon": -1.7732697
+  },
+  "tags": {
+    "highway": "service",
+    "name": "Stockbarrow",
+    "source": "bing"
+  }
+},
+{
+  "type": "way",
+  "id": 192898274,
+  "center": {
+    "lat": 51.1878542,
+    "lon": -1.7502192
+  },
+  "tags": {
+    "abandoned:railway": "rail",
+    "gauge": "1435",
+    "name": "Amesbury and Military Camp Light Railway",
+    "railway": "abandoned",
+    "source": "NLS-OS-1st_Series"
+  }
+},
+{
+  "type": "way",
+  "id": 192902449,
+  "center": {
+    "lat": 51.1738190,
+    "lon": -1.7977225
+  },
+  "tags": {
+    "highway": "tertiary",
+    "highway_authority_ref": "C42",
+    "name": "Stonehenge Road",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 227236258,
+  "center": {
+    "lat": 51.1788518,
+    "lon": -1.8262384
+  },
+  "tags": {
+    "historic": "stone",
+    "level": "-1",
+    "name": "Altar Stone",
+    "name:fr": "Pierre d'Autel",
+    "natural": "stone",
+    "ref": "80",
+    "source": "Bing",
+    "start_date": "3100 BC",
+    "wikidata": "Q4736171",
+    "wikipedia": "en:Altar Stone (Stonehenge)"
+  }
+},
+{
+  "type": "way",
+  "id": 227605772,
+  "center": {
+    "lat": 51.1788952,
+    "lon": -1.8262064
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 227605773,
+  "center": {
+    "lat": 51.1788847,
+    "lon": -1.8261938
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 227605774,
+  "center": {
+    "lat": 51.1788768,
+    "lon": -1.8261492
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 227605775,
+  "center": {
+    "lat": 51.1788976,
+    "lon": -1.8261677
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 227605776,
+  "center": {
+    "lat": 51.1789079,
+    "lon": -1.8261885
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "source": "Bing",
+    "start_date": "3100 BC"
+  }
+},
+{
+  "type": "way",
+  "id": 237169101,
+  "center": {
+    "lat": 51.1714543,
+    "lon": -1.8076376
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass",
+    "name": "Coneybury Barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 239122944,
+  "center": {
+    "lat": 51.1847298,
+    "lon": -1.8603983
+  },
+  "tags": {
+    "highway": "primary",
+    "lit": "no",
+    "maxspeed": "40 mph",
+    "name": "Longbarrow Lane",
+    "old_ref": "B3086",
+    "oneway": "yes",
+    "ref": "A360",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 256225995,
+  "center": {
+    "lat": 51.1843249,
+    "lon": -1.8573325
+  },
+  "tags": {
+    "addr:city": "Amesbury",
+    "addr:housename": "Visitor Centre",
+    "addr:locality": "Stonehenge",
+    "addr:postcode": "SP4 7DE",
+    "building": "yes",
+    "information": "office",
+    "name": "Stonehenge Visitor Centre",
+    "name:zh": "游客中心",
+    "opening_hours": "Jun-Sep Mo-Su 09:30-19:00; Oct-May Mo-Su 09:30-17:00",
+    "operator": "English Heritage",
+    "operator:wikidata": "Q936287",
+    "start_date": "2013-12-18",
+    "tourism": "information",
+    "wikimedia_commons": "Category:Stonehenge Visitors Centre"
+  }
+},
+{
+  "type": "way",
+  "id": 258405788,
+  "center": {
+    "lat": 51.2034436,
+    "lon": -1.8660243
+  },
+  "tags": {
+    "barrier": "fence",
+    "fence_type": "wire",
+    "height": "2.4",
+    "landuse": "military",
+    "name": "Rollestone Camp"
+  }
+},
+{
+  "type": "way",
+  "id": 258506976,
+  "center": {
+    "lat": 51.2120069,
+    "lon": -1.8454299
+  },
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "long_barrow",
+    "name": "Long Barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 258506978,
+  "center": {
+    "lat": 51.2139831,
+    "lon": -1.8464580
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Tumulus"
+  }
+},
+{
+  "type": "way",
+  "id": 258506981,
+  "center": {
+    "lat": 51.2105433,
+    "lon": -1.8561300
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Tumulus"
+  }
+},
+{
+  "type": "way",
+  "id": 261107199,
+  "center": {
+    "lat": 51.1734994,
+    "lon": -1.7741794
+  },
+  "tags": {
+    "addr:city": "Amesbury",
+    "addr:postcode": "SP4 7PW",
+    "addr:street": "Holders Road",
+    "amenity": "school",
+    "capacity": "940",
+    "check_date": "2026-05-26",
+    "education": "school",
+    "fhrs:id": "263373",
+    "isced:level": "2;3",
+    "max_age": "16",
+    "min_age": "11",
+    "name": "The Stonehenge School",
+    "operator": "Wiltshire Council",
+    "operator:type": "government",
+    "operator:wikidata": "Q1990879",
+    "phone": "+44 1980 623407",
+    "ref:GB:ukprn": "10016082",
+    "ref:GB:uprn": "100121335257",
+    "ref:edubase": "126458",
+    "school": "secondary",
+    "school:type": "community",
+    "source:addr:postcode": "get-information-schools.service.gov.uk",
+    "website": "https://www.stonehenge.wilts.sch.uk/",
+    "wikidata": "Q7766632"
+  }
+},
+{
+  "type": "way",
+  "id": 281909784,
+  "center": {
+    "lat": 51.1830614,
+    "lon": -1.8588352
+  },
+  "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "fee": "yes",
+    "name": "Stonehenge Car Park",
+    "operator": "English Heritage",
+    "operator:type": "private",
+    "operator:wikidata": "Q936287",
+    "owner": "English Heritage",
+    "parking": "surface",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287145736,
+  "center": {
+    "lat": 51.1857661,
+    "lon": -1.8594930
+  },
+  "tags": {
+    "access": "yes",
+    "access:conditional": "yes@PSV; yes@ bus",
+    "addr:postcode": "SP4 7DE",
+    "amenity": "parking",
+    "bus": "designated",
+    "motorcar": "private",
+    "name": "Stonehenge Visitor Centre - Bus Park",
+    "operator": "English Heritage",
+    "operator:wikidata": "Q936287",
+    "owner": "Stonehenge Visitors' Centre",
+    "parking": "surface",
+    "psv": "designated"
+  }
+},
+{
+  "type": "way",
+  "id": 289925248,
+  "center": {
+    "lat": 51.1840773,
+    "lon": -1.8569103
+  },
+  "tags": {
+    "name": "Sarson Stone",
+    "natural": "stone",
+    "tourism": "attraction",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 306857739,
+  "center": {
+    "lat": 51.2025400,
+    "lon": -1.8163601
+  },
+  "tags": {
+    "landuse": "military",
+    "military": "barracks",
+    "name": "Larkhill Camp"
+  }
+},
+{
+  "type": "way",
+  "id": 377336359,
+  "center": {
+    "lat": 51.1793637,
+    "lon": -1.8155004
+  },
+  "tags": {
+    "description": "Abandoned Turnpike Road",
+    "historic": "highway"
+  }
+},
+{
+  "type": "way",
+  "id": 377362106,
+  "center": {
+    "lat": 51.1784737,
+    "lon": -1.8259795
+  },
+  "tags": {
+    "man_made": "embankment",
+    "name": "South Barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 377362116,
+  "center": {
+    "lat": 51.1791905,
+    "lon": -1.8263136
+  },
+  "tags": {
+    "man_made": "embankment",
+    "name": "North Barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 377365047,
+  "center": {
+    "lat": 51.1786784,
+    "lon": -1.8256252
+  },
+  "tags": {
+    "historic": "stone",
+    "name": "Station Stone",
+    "name:de": "Stationsstein",
+    "natural": "stone",
+    "ref": "91",
+    "wikidata": "Q7604304"
+  }
+},
+{
+  "type": "way",
+  "id": 377366995,
+  "center": {
+    "lat": 51.1792888,
+    "lon": -1.8253350
+  },
+  "tags": {
+    "barrier": "ditch",
+    "name": "Heelstone Ditch",
+    "wikidata": "Q5697981",
+    "wikipedia": "en:Heelstone Ditch"
+  }
+},
+{
+  "type": "way",
+  "id": 377367000,
+  "center": {
+    "lat": 51.1790323,
+    "lon": -1.8267499
+  },
+  "tags": {
+    "historic": "stone",
+    "name": "Station Stone",
+    "name:de": "Stationsstein",
+    "natural": "stone",
+    "ref": "93",
+    "wikidata": "Q7604304"
+  }
+},
+{
+  "type": "way",
+  "id": 377378043,
+  "center": {
+    "lat": 51.1906465,
+    "lon": -1.8501926
+  },
+  "tags": {
+    "archaeological_site": "earthwork",
+    "historic": "archaeological_site",
+    "name": "Lesser Cursus",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 377378054,
+  "center": {
+    "lat": 51.1871246,
+    "lon": -1.8529065
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 377378055,
+  "center": {
+    "lat": 51.1869977,
+    "lon": -1.8524367
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 377378056,
+  "center": {
+    "lat": 51.1873658,
+    "lon": -1.8539489
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 377450377,
+  "center": {
+    "lat": 51.1700216,
+    "lon": -1.8278006
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 377451745,
+  "center": {
+    "lat": 51.1776222,
+    "lon": -1.8317263
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 377451746,
+  "center": {
+    "lat": 51.1829070,
+    "lon": -1.8113600
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 377451747,
+  "center": {
+    "lat": 51.1844848,
+    "lon": -1.8066807
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 377451748,
+  "center": {
+    "lat": 51.1842535,
+    "lon": -1.8071431
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 377452049,
+  "center": {
+    "lat": 51.1804757,
+    "lon": -1.8150028
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 377459876,
+  "center": {
+    "lat": 51.1734970,
+    "lon": -1.8092835
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Coneybury Henge",
+    "wikidata": "Q28970505"
+  }
+},
+{
+  "type": "way",
+  "id": 422721464,
+  "center": {
+    "lat": 51.1789615,
+    "lon": -1.8261429
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721465,
+  "center": {
+    "lat": 51.1789574,
+    "lon": -1.8261203
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721466,
+  "center": {
+    "lat": 51.1789415,
+    "lon": -1.8261064
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721467,
+  "center": {
+    "lat": 51.1789372,
+    "lon": -1.8260854
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721468,
+  "center": {
+    "lat": 51.1789184,
+    "lon": -1.8260603
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721469,
+  "center": {
+    "lat": 51.1788743,
+    "lon": -1.8260414
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "ref": "32"
+  }
+},
+{
+  "type": "way",
+  "id": 422721470,
+  "center": {
+    "lat": 51.1788863,
+    "lon": -1.8260360
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone",
+    "ref": "150",
+    "wikidata": "Q110065002"
+  }
+},
+{
+  "type": "way",
+  "id": 422721471,
+  "center": {
+    "lat": 51.1787651,
+    "lon": -1.8261231
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721472,
+  "center": {
+    "lat": 51.1787174,
+    "lon": -1.8261806
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721473,
+  "center": {
+    "lat": 51.1788388,
+    "lon": -1.8263859
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721474,
+  "center": {
+    "lat": 51.1789664,
+    "lon": -1.8262540
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721475,
+  "center": {
+    "lat": 51.1787640,
+    "lon": -1.8262410
+  },
+  "tags": {
+    "historic": "stone",
+    "natural": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 422721476,
+  "center": {
+    "lat": 51.1787247,
+    "lon": -1.8267696
+  },
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Aubrey Hole",
+    "ref": "32",
+    "wikidata": "Q4819208"
+  }
+},
+{
+  "type": "way",
+  "id": 422721477,
+  "center": {
+    "lat": 51.1786447,
+    "lon": -1.8267156
+  },
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Aubrey Hole",
+    "ref": "30",
+    "wikidata": "Q4819208"
+  }
+},
+{
+  "type": "way",
+  "id": 422721478,
+  "center": {
+    "lat": 51.1786044,
+    "lon": -1.8266783
+  },
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Aubrey Hole",
+    "ref": "29",
+    "wikidata": "Q4819208"
+  }
+},
+{
+  "type": "way",
+  "id": 422721479,
+  "center": {
+    "lat": 51.1785740,
+    "lon": -1.8266373
+  },
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Aubrey Hole",
+    "ref": "28",
+    "wikidata": "Q4819208"
+  }
+},
+{
+  "type": "way",
+  "id": 422721480,
+  "center": {
+    "lat": 51.1785509,
+    "lon": -1.8265958
+  },
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Aubrey Hole",
+    "ref": "27",
+    "wikidata": "Q4819208"
+  }
+},
+{
+  "type": "way",
+  "id": 422721481,
+  "center": {
+    "lat": 51.1785182,
+    "lon": -1.8265306
+  },
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Aubrey Hole",
+    "ref": "26",
+    "wikidata": "Q4819208"
+  }
+},
+{
+  "type": "way",
+  "id": 422721482,
+  "center": {
+    "lat": 51.1786639,
+    "lon": -1.8236336
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass",
+    "man_made": "embankment"
+  }
+},
+{
+  "type": "way",
+  "id": 424286563,
+  "center": {
+    "lat": 51.1632641,
+    "lon": -1.8440739
+  },
+  "tags": {
+    "archaeological_site": "earthwork",
+    "historic": "archaeological_site",
+    "man_made": "embankment"
+  }
+},
+{
+  "type": "way",
+  "id": 424286568,
+  "center": {
+    "lat": 51.1661190,
+    "lon": -1.8537205
+  },
+  "tags": {
+    "archaeological_site": "earthwork",
+    "barrier": "ditch",
+    "historic": "archaeological_site",
+    "name": "Ditch"
+  }
+},
+{
+  "type": "way",
+  "id": 464579712,
+  "center": {
+    "lat": 51.2041468,
+    "lon": -1.8675232
+  },
+  "tags": {
+    "landuse": "industrial",
+    "name": "Serco Rollestone"
+  }
+},
+{
+  "type": "way",
+  "id": 482721127,
+  "center": {
+    "lat": 51.1786845,
+    "lon": -1.8267527
+  },
+  "tags": {
+    "historic": "memorial",
+    "layer": "-1",
+    "memorial": "plaque",
+    "name": "Aubrey Hole",
+    "ref": "31",
+    "wikidata": "Q4819208"
+  }
+},
+{
+  "type": "way",
+  "id": 600328260,
+  "center": {
+    "lat": 51.1756405,
+    "lon": -1.8025733
+  },
+  "tags": {
+    "highway": "tertiary",
+    "highway_authority_ref": "C42",
+    "name": "Stonehenge Road",
+    "sidewalk": "right"
+  }
+},
+{
+  "type": "way",
+  "id": 870760954,
+  "center": {
+    "lat": 51.1984188,
+    "lon": -1.7967332
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Stone Road",
+    "ref:GB:usrn": "44201620"
+  }
+},
+{
+  "type": "way",
+  "id": 870760955,
+  "center": {
+    "lat": 51.1983419,
+    "lon": -1.7960514
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Campbell Road",
+    "ref:GB:usrn": "44201621"
+  }
+},
+{
+  "type": "way",
+  "id": 886522181,
+  "center": {
+    "lat": 51.1703631,
+    "lon": -1.7869559
+  },
+  "tags": {
+    "highway": "tertiary",
+    "highway_authority_ref": "C350",
+    "maxspeed": "40 mph",
+    "name": "Stonehenge Road",
+    "sidewalk": "right"
+  }
+},
+{
+  "type": "way",
+  "id": 952067541,
+  "center": {
+    "lat": 51.2024692,
+    "lon": -1.8062884
+  },
+  "tags": {
+    "building": "service",
+    "name": "Weather Balloon Launch Site"
+  }
+},
+{
+  "type": "way",
+  "id": 976066830,
+  "center": {
+    "lat": 51.1758142,
+    "lon": -1.8588978
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976066831,
+  "center": {
+    "lat": 51.1744491,
+    "lon": -1.8573108
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976066832,
+  "center": {
+    "lat": 51.1745760,
+    "lon": -1.8576588
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976066833,
+  "center": {
+    "lat": 51.1783893,
+    "lon": -1.8289522
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976066834,
+  "center": {
+    "lat": 51.1780703,
+    "lon": -1.8286632
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976066835,
+  "center": {
+    "lat": 51.1780207,
+    "lon": -1.8294108
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976083979,
+  "center": {
+    "lat": 51.1841690,
+    "lon": -1.8300724
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083980,
+  "center": {
+    "lat": 51.1841187,
+    "lon": -1.8292730
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083981,
+  "center": {
+    "lat": 51.1841206,
+    "lon": -1.8317378
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083982,
+  "center": {
+    "lat": 51.1840872,
+    "lon": -1.8325094
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083983,
+  "center": {
+    "lat": 51.1841132,
+    "lon": -1.8330184
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083984,
+  "center": {
+    "lat": 51.1842085,
+    "lon": -1.8339515
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083985,
+  "center": {
+    "lat": 51.1841398,
+    "lon": -1.8365630
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083986,
+  "center": {
+    "lat": 51.1836859,
+    "lon": -1.8378811
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083987,
+  "center": {
+    "lat": 51.1831878,
+    "lon": -1.8373277
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083988,
+  "center": {
+    "lat": 51.1853750,
+    "lon": -1.8433059
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083989,
+  "center": {
+    "lat": 51.1842621,
+    "lon": -1.8457249
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083990,
+  "center": {
+    "lat": 51.1839221,
+    "lon": -1.8427830
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "name": "Monarch of the Plain"
+  }
+},
+{
+  "type": "way",
+  "id": 976083991,
+  "center": {
+    "lat": 51.1846359,
+    "lon": -1.8414621
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083992,
+  "center": {
+    "lat": 51.1837180,
+    "lon": -1.8406162
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976083993,
+  "center": {
+    "lat": 51.1838212,
+    "lon": -1.8396854
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976089648,
+  "center": {
+    "lat": 51.1712541,
+    "lon": -1.8378104
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976089649,
+  "center": {
+    "lat": 51.1720543,
+    "lon": -1.8384405
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976089650,
+  "center": {
+    "lat": 51.1726133,
+    "lon": -1.8381676
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976089651,
+  "center": {
+    "lat": 51.1710115,
+    "lon": -1.8318361
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976089652,
+  "center": {
+    "lat": 51.1707105,
+    "lon": -1.8314278
+  },
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "landuse": "grass",
+    "megalith_type": "long_barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 976096289,
+  "center": {
+    "lat": 51.1847932,
+    "lon": -1.8061706
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976096290,
+  "center": {
+    "lat": 51.1855171,
+    "lon": -1.8052409
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976096291,
+  "center": {
+    "lat": 51.1864025,
+    "lon": -1.8034849
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976096292,
+  "center": {
+    "lat": 51.1853610,
+    "lon": -1.8045821
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976096293,
+  "center": {
+    "lat": 51.1859414,
+    "lon": -1.8042710
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976096294,
+  "center": {
+    "lat": 51.1828166,
+    "lon": -1.8086275
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976096295,
+  "center": {
+    "lat": 51.1837288,
+    "lon": -1.8084687
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 976096296,
+  "center": {
+    "lat": 51.1876101,
+    "lon": -1.8047410
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "historic:civilization": "prehistoric",
+    "historic:period": "neolithic",
+    "name": "Neolithic Long Barrow",
+    "tumulus": "long_barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 976100452,
+  "center": {
+    "lat": 51.1806000,
+    "lon": -1.8085925
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976100453,
+  "center": {
+    "lat": 51.1800902,
+    "lon": -1.8087671
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976100454,
+  "center": {
+    "lat": 51.1796131,
+    "lon": -1.8089373
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976100455,
+  "center": {
+    "lat": 51.1790305,
+    "lon": -1.8090580
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976100456,
+  "center": {
+    "lat": 51.1785147,
+    "lon": -1.8090248
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976100457,
+  "center": {
+    "lat": 51.1780165,
+    "lon": -1.8089145
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976100458,
+  "center": {
+    "lat": 51.1773795,
+    "lon": -1.8090399
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678619,
+  "center": {
+    "lat": 51.1632086,
+    "lon": -1.8407631
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "North Kite Enclosure"
+  }
+},
+{
+  "type": "way",
+  "id": 976678620,
+  "center": {
+    "lat": 51.1605248,
+    "lon": -1.8435258
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678621,
+  "center": {
+    "lat": 51.1610607,
+    "lon": -1.8439355
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678622,
+  "center": {
+    "lat": 51.1599724,
+    "lon": -1.8444980
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678623,
+  "center": {
+    "lat": 51.1597585,
+    "lon": -1.8431415
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678624,
+  "center": {
+    "lat": 51.1609361,
+    "lon": -1.8466882
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678625,
+  "center": {
+    "lat": 51.1613371,
+    "lon": -1.8476777
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678626,
+  "center": {
+    "lat": 51.1611044,
+    "lon": -1.8470808
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678627,
+  "center": {
+    "lat": 51.1611744,
+    "lon": -1.8472197
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678628,
+  "center": {
+    "lat": 51.1606125,
+    "lon": -1.8469287
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "tumulus": "long_barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 976678629,
+  "center": {
+    "lat": 51.1607332,
+    "lon": -1.8459754
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678630,
+  "center": {
+    "lat": 51.1617476,
+    "lon": -1.8460040
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site",
+    "name": "Prophet Barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 976678631,
+  "center": {
+    "lat": 51.1616652,
+    "lon": -1.8454792
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678632,
+  "center": {
+    "lat": 51.1614002,
+    "lon": -1.8443865
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678633,
+  "center": {
+    "lat": 51.1613526,
+    "lon": -1.8448061
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678634,
+  "center": {
+    "lat": 51.1623874,
+    "lon": -1.8429619
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678635,
+  "center": {
+    "lat": 51.1624228,
+    "lon": -1.8434937
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976678636,
+  "center": {
+    "lat": 51.1616928,
+    "lon": -1.8433371
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682389,
+  "center": {
+    "lat": 51.1575966,
+    "lon": -1.8308777
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682390,
+  "center": {
+    "lat": 51.1574368,
+    "lon": -1.8300858
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682391,
+  "center": {
+    "lat": 51.1577427,
+    "lon": -1.8292499
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682392,
+  "center": {
+    "lat": 51.1571362,
+    "lon": -1.8291514
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682393,
+  "center": {
+    "lat": 51.1574452,
+    "lon": -1.8316088
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682394,
+  "center": {
+    "lat": 51.1575949,
+    "lon": -1.8317162
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682395,
+  "center": {
+    "lat": 51.1574803,
+    "lon": -1.8338730
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682396,
+  "center": {
+    "lat": 51.1572143,
+    "lon": -1.8335353
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682397,
+  "center": {
+    "lat": 51.1571474,
+    "lon": -1.8332241
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682398,
+  "center": {
+    "lat": 51.1571016,
+    "lon": -1.8328886
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682399,
+  "center": {
+    "lat": 51.1570283,
+    "lon": -1.8322094
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682400,
+  "center": {
+    "lat": 51.1568777,
+    "lon": -1.8312296
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682401,
+  "center": {
+    "lat": 51.1567945,
+    "lon": -1.8307773
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682402,
+  "center": {
+    "lat": 51.1568259,
+    "lon": -1.8297770
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 976682403,
+  "center": {
+    "lat": 51.1564211,
+    "lon": -1.8299942
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "area": "yes",
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 977013603,
+  "center": {
+    "lat": 51.1580685,
+    "lon": -1.8092620
+  },
+  "tags": {
+    "building": "yes",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1131004",
+    "historic": "building",
+    "listed_status": "Grade II",
+    "name": "Beechway"
+  }
+},
+{
+  "type": "way",
+  "id": 977013611,
+  "center": {
+    "lat": 51.1582946,
+    "lon": -1.8089270
+  },
+  "tags": {
+    "building": "yes",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1318502",
+    "historic": "building",
+    "listed_status": "Grade II",
+    "name": "Lilac Cottage"
+  }
+},
+{
+  "type": "way",
+  "id": 977013613,
+  "center": {
+    "lat": 51.1583364,
+    "lon": -1.8088540
+  },
+  "tags": {
+    "addr:postcode": "SP4 7BL",
+    "building": "yes",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1318502",
+    "historic": "building",
+    "listed_status": "Grade II",
+    "name": "Wilsford Cottage",
+    "ref:GB:uprn": "10010454489",
+    "source:addr:postcode": "ONSUD;OS Open UPRN"
+  }
+},
+{
+  "type": "way",
+  "id": 977013616,
+  "center": {
+    "lat": 51.1572024,
+    "lon": -1.8088458
+  },
+  "tags": {
+    "building": "yes",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1131009",
+    "historic": "building",
+    "listed_status": "Grade II",
+    "name": "Dovecote at Wilsford House"
+  }
+},
+{
+  "type": "way",
+  "id": 977057634,
+  "center": {
+    "lat": 51.1568638,
+    "lon": -1.8085029
+  },
+  "tags": {
+    "building": "yes",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1183342",
+    "historic": "building",
+    "listed_status": "Grade II",
+    "name": "Granary at Wilsford House"
+  }
+},
+{
+  "type": "way",
+  "id": 977057639,
+  "center": {
+    "lat": 51.1566918,
+    "lon": -1.8096735
+  },
+  "tags": {
+    "building": "yes",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1131008",
+    "historic": "building",
+    "listed_status": "Grade II*",
+    "name": "Wilsford Manor",
+    "website": "https://www.wilsfordmanor.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 977057642,
+  "center": {
+    "lat": 51.1576789,
+    "lon": -1.8091111
+  },
+  "tags": {
+    "building": "yes",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1131006",
+    "historic": "building",
+    "listed_status": "Grade II",
+    "name": "The Red House"
+  }
+},
+{
+  "type": "way",
+  "id": 1169423194,
+  "center": {
+    "lat": 51.1775072,
+    "lon": -1.8439540
+  },
+  "tags": {
+    "gauge": "1435",
+    "name": "Larkhill Military Railway - Stonehenge Aerodrome Branch",
+    "railway": "razed",
+    "source": "The Bulford Branch Line and the Larkhill Military Railway - Peter A. Harding - 2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1189698196,
+  "center": {
+    "lat": 51.1755524,
+    "lon": -1.8196902
+  },
+  "tags": {
+    "highway": "proposed",
+    "name": "Stonehenge Tunnel",
+    "note": "Approximate alignment",
+    "oneway": "yes",
+    "proposed": "trunk",
+    "ref": "A303",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1189698197,
+  "center": {
+    "lat": 51.1757217,
+    "lon": -1.8192843
+  },
+  "tags": {
+    "highway": "proposed",
+    "name": "Stonehenge Tunnel",
+    "note": "Approximate alignment",
+    "oneway": "yes",
+    "proposed": "trunk",
+    "ref": "A303",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1189698205,
+  "center": {
+    "lat": 51.1711583,
+    "lon": -1.8667027
+  },
+  "tags": {
+    "highway": "proposed",
+    "junction": "roundabout",
+    "name": "Longbarrow Junction",
+    "note": "Approximate alignment",
+    "oneway": "yes",
+    "proposed": "primary",
+    "ref": "A360",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/"
+  }
+},
+{
+  "type": "way",
+  "id": 1189698206,
+  "center": {
+    "lat": 51.1690745,
+    "lon": -1.8666378
+  },
+  "tags": {
+    "highway": "proposed",
+    "junction": "roundabout",
+    "name": "Longbarrow Junction",
+    "note": "Approximate alignment",
+    "oneway": "yes",
+    "proposed": "primary",
+    "ref": "A360",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/"
+  }
+},
+{
+  "type": "way",
+  "id": 1189698209,
+  "center": {
+    "lat": 51.1700919,
+    "lon": -1.8666777
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "proposed",
+    "layer": "1",
+    "name": "Longbarrow Junction",
+    "note": "Approximate alignment",
+    "proposed": "primary",
+    "ref": "A360",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/"
+  }
+},
+{
+  "type": "way",
+  "id": 1189698213,
+  "center": {
+    "lat": 51.1696752,
+    "lon": -1.8643235
+  },
+  "tags": {
+    "highway": "proposed",
+    "name": "Longbarrow Junction",
+    "note": "Approximate alignment",
+    "oneway": "yes",
+    "proposed": "trunk_link",
+    "ref": "A303",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/"
+  }
+},
+{
+  "type": "way",
+  "id": 1189698214,
+  "center": {
+    "lat": 51.1706372,
+    "lon": -1.8643785
+  },
+  "tags": {
+    "highway": "proposed",
+    "name": "Longbarrow Junction",
+    "note": "Approximate alignment",
+    "oneway": "yes",
+    "proposed": "trunk_link",
+    "ref": "A303",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/"
+  }
+},
+{
+  "type": "way",
+  "id": 1189698215,
+  "center": {
+    "lat": 51.1696594,
+    "lon": -1.8692723
+  },
+  "tags": {
+    "highway": "proposed",
+    "name": "Longbarrow Junction",
+    "note": "Approximate alignment",
+    "oneway": "yes",
+    "proposed": "trunk_link",
+    "ref": "A303",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/"
+  }
+},
+{
+  "type": "way",
+  "id": 1189698216,
+  "center": {
+    "lat": 51.1706137,
+    "lon": -1.8692089
+  },
+  "tags": {
+    "highway": "proposed",
+    "name": "Longbarrow Junction",
+    "note": "Approximate alignment",
+    "oneway": "yes",
+    "proposed": "trunk_link",
+    "ref": "A303",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/"
+  }
+},
+{
+  "type": "way",
+  "id": 1190054181,
+  "center": {
+    "lat": 51.1809308,
+    "lon": -1.8224329
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "The Avenue",
+    "wikidata": "Q4443202",
+    "wikimedia_commons": "Category:Stonehenge Avenue",
+    "wikipedia": "en:Stonehenge Avenue"
+  }
+},
+{
+  "type": "way",
+  "id": 1190057263,
+  "center": {
+    "lat": 51.1715341,
+    "lon": -1.7978167
+  },
+  "tags": {
+    "description": "Approximate location based on publicly available photos. Unfortunately there is no confirmed evidences that site is available for public.",
+    "historic": "archaeological_site",
+    "name": "Bluestonehenge",
+    "wikidata": "Q832510",
+    "wikipedia": "en:Bluestonehenge"
+  }
+},
+{
+  "type": "way",
+  "id": 1193533332,
+  "center": {
+    "lat": 51.1840168,
+    "lon": -1.8604103
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "40 mph",
+    "name": "Longbarrow Lane",
+    "old_ref": "B3086",
+    "ref": "A360",
+    "sidewalk": "no",
+    "source": "Bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1209653087,
+  "center": {
+    "lat": 51.1695362,
+    "lon": -1.8666502
+  },
+  "tags": {
+    "highway": "proposed",
+    "name": "Longbarrow Junction",
+    "note": "Approximate alignment",
+    "proposed": "primary",
+    "ref": "A360",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/"
+  }
+},
+{
+  "type": "way",
+  "id": 1209653088,
+  "center": {
+    "lat": 51.1706721,
+    "lon": -1.8667063
+  },
+  "tags": {
+    "highway": "proposed",
+    "name": "Longbarrow Junction",
+    "note": "Approximate alignment",
+    "proposed": "primary",
+    "ref": "A360",
+    "source": "https://nationalhighways.co.uk/our-roads/a303-stonehenge/about-the-scheme/"
+  }
+},
+{
+  "type": "way",
+  "id": 1309077394,
+  "center": {
+    "lat": 51.1948681,
+    "lon": -1.7730231
+  },
+  "tags": {
+    "amenity": "veterinary",
+    "building": "yes",
+    "name": "Stonehenge Veterinary Practice"
+  }
+},
+{
+  "type": "way",
+  "id": 1565816481,
+  "center": {
+    "lat": 51.1720963,
+    "lon": -1.8588972
+  },
+  "tags": {
+    "highway": "trunk",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow",
+    "national_highways:area": "2",
+    "oneway": "yes",
+    "operator": "National Highways",
+    "operator:wikidata": "Q5760006",
+    "shoulder": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1565816482,
+  "center": {
+    "lat": 51.1719346,
+    "lon": -1.8587470
+  },
+  "tags": {
+    "highway": "trunk",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow",
+    "national_highways:area": "2",
+    "oneway": "yes",
+    "operator": "National Highways",
+    "operator:wikidata": "Q5760006",
+    "shoulder": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1565816483,
+  "center": {
+    "lat": 51.1717417,
+    "lon": -1.8587145
+  },
+  "tags": {
+    "highway": "trunk",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow",
+    "national_highways:area": "2",
+    "oneway": "yes",
+    "operator": "National Highways",
+    "operator:wikidata": "Q5760006",
+    "shoulder": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1565816484,
+  "center": {
+    "lat": 51.1720165,
+    "lon": -1.8595081
+  },
+  "tags": {
+    "highway": "trunk",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow",
+    "national_highways:area": "2",
+    "oneway": "yes",
+    "operator": "National Highways",
+    "operator:wikidata": "Q5760006",
+    "shoulder": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1565816485,
+  "center": {
+    "lat": 51.1721098,
+    "lon": -1.8592056
+  },
+  "tags": {
+    "highway": "trunk",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow",
+    "national_highways:area": "2",
+    "oneway": "yes",
+    "operator": "National Highways",
+    "operator:wikidata": "Q5760006",
+    "shoulder": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1565816486,
+  "center": {
+    "lat": 51.1716188,
+    "lon": -1.8589961
+  },
+  "tags": {
+    "highway": "trunk",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow",
+    "national_highways:area": "2",
+    "oneway": "yes",
+    "operator": "National Highways",
+    "operator:wikidata": "Q5760006",
+    "shoulder": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1565816487,
+  "center": {
+    "lat": 51.1716122,
+    "lon": -1.8593697
+  },
+  "tags": {
+    "highway": "trunk",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow",
+    "national_highways:area": "2",
+    "oneway": "yes",
+    "operator": "National Highways",
+    "operator:wikidata": "Q5760006",
+    "shoulder": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1565816488,
+  "center": {
+    "lat": 51.1716952,
+    "lon": -1.8595336
+  },
+  "tags": {
+    "highway": "trunk",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "maxspeed:type": "GB:nsl_single",
+    "name": "Longbarrow",
+    "national_highways:area": "2",
+    "oneway": "yes",
+    "operator": "National Highways",
+    "operator:wikidata": "Q5760006",
+    "shoulder": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "relation",
+  "id": 8908449,
+  "center": {
+    "lat": 51.1826748,
+    "lon": -1.8431863
+  },
+  "tags": {
+    "from": "Visitor Centre",
+    "name": "Shuttlebus to Stones",
+    "route": "bus",
+    "to": "Stones",
+    "type": "route"
+  }
+},
+{
+  "type": "relation",
+  "id": 8908450,
+  "center": {
+    "lat": 51.1802803,
+    "lon": -1.8289379
+  },
+  "tags": {
+    "name": "Stones",
+    "network": "Stonehenge Shuttle Bus",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 9345787,
+  "center": {
+    "lat": 51.2962319,
+    "lon": -1.8392664
+  },
+  "tags": {
+    "boundary": "protected_area",
+    "designation": "world_heritage_convention",
+    "heritage": "1",
+    "name": "Stonehenge, Avebury and Associated Sites WHS",
+    "protect_class": "98",
+    "protection_title": "world_heritage_convention",
+    "ref": "373",
+    "source": "https://whc.unesco.org/en/list/373",
+    "type": "boundary",
+    "website": "https://whc.unesco.org/en/list/373"
+  }
+},
+{
+  "type": "relation",
+  "id": 12431539,
+  "center": {
+    "lat": 51.1816132,
+    "lon": -1.8198350
+  },
+  "tags": {
+    "area": "yes",
+    "name": "Stonehenge Landscape",
+    "operator": "National Trust",
+    "tourism": "attraction",
+    "type": "multipolygon",
+    "website": "https://www.nationaltrust.org.uk/stonehenge-landscape",
+    "wikidata": "Q7619218",
+    "wikipedia": "en:Stonehenge Landscape"
+  }
+},
+{
+  "type": "relation",
+  "id": 13123906,
+  "center": {
+    "lat": 51.1750493,
+    "lon": -1.8562687
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Winterbourne Stoke Crossroads Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13123907,
+  "center": {
+    "lat": 51.1778208,
+    "lon": -1.8276109
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Stonehenge Down Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13124191,
+  "center": {
+    "lat": 51.1842838,
+    "lon": -1.8373800
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Cursus Barrows",
+    "type": "multipolygon",
+    "wikidata": "Q2434486",
+    "wikimedia_commons": "Category:Cursus_Barrows",
+    "wikipedia": "en:Cursus Barrows"
+  }
+},
+{
+  "type": "relation",
+  "id": 13124278,
+  "center": {
+    "lat": 51.1714430,
+    "lon": -1.8311241
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Normanton Down Barrows",
+    "type": "multipolygon",
+    "wikidata": "Q1999806"
+  }
+},
+{
+  "type": "relation",
+  "id": 13124371,
+  "center": {
+    "lat": 51.1845591,
+    "lon": -1.8061355
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Old King Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13124395,
+  "center": {
+    "lat": 51.1790153,
+    "lon": -1.8088580
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "New King Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13130092,
+  "center": {
+    "lat": 51.1611109,
+    "lon": -1.8452847
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Lake Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13130146,
+  "center": {
+    "lat": 51.1571312,
+    "lon": -1.8315051
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Wilsford Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 21614480,
+  "center": {
+    "lat": 51.1954570,
+    "lon": -1.7826144
+  },
+  "tags": {
+    "name": "Stonehenge Inn",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 21614481,
+  "center": {
+    "lat": 51.1903506,
+    "lon": -1.7841294
+  },
+  "tags": {
+    "name": "Woodhenge",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 21630258,
+  "center": {
+    "lat": 51.1955962,
+    "lon": -1.7967401
+  },
+  "tags": {
+    "name": "Stonehenge Retail Park",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 21630259,
+  "center": {
+    "lat": 51.1956871,
+    "lon": -1.7855470
+  },
+  "tags": {
+    "name": "Stonehenge Inn Roundabout",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+}
+
+  ]
+}

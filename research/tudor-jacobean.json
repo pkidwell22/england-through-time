@@ -1,0 +1,1682 @@
+{
+  "items": [
+    {
+      "id": "old-london-bridge-tudor-jacobean",
+      "name": "Old London Bridge (state c. 1485-1625)",
+      "lat": 51.5078,
+      "lon": -0.0870,
+      "phases": [
+        {
+          "label": "Late medieval bridge with drawbridge tower, chapel and c. 130 houses",
+          "from": 1485,
+          "to": 1576,
+          "dateNote": "Fabric of 1176-1209; drawbridge last raised 1485 and 1500 (for Henry VII's barge) per Gerhold-based account; two-thirds of the houses were rebuilt 1477-1548 (Wikipedia citing Gerhold, lead only).",
+          "form": "Stone bridge of 19 piers / 19 stone arches plus one timber drawbridge opening (Stow counts 20 arches), each pier on a boat-shaped timber-piled, rubble-filled starling. Continuous timber-framed houses on both sides with a narrow roadway between, cross-buildings bridging the street on roughly every alternate house; stone chapel on the 9th pier from the north, drawbridge tower on the 13th, Great Stone Gate on the 18th.",
+          "dimensions": {"lengthM": 282, "widthM": 6.7, "heightM": null, "note": "Length c. 926 ft (river width then; Norden's 1597 print says 'nearly 800 feet'). Structure 20-24 ft wide including house frontage on the deck; roadway 12 ft 5 in under Nonsuch House rising to 18 ft 5 in near Southwark (Leybourn survey 1683), i.e. c. 3.8-5.6 m. Arches averaged 24 ft (7.3 m) span. Houses projected up to 34 ft (10.4 m) from the bridge on timber platforms carried on corbels and hammer-beams, occupying only 2-5 ft of the deck each side. Starlings narrowed the waterway to 508 ft at high tide and 237 ft at low tide, with up to 5-6 ft head of water. Stow's '60 foot high, 30 broad' is a traditional figure, not a survey; deck height above water is undocumented."}
+        },
+        {
+          "label": "Elizabethan-Jacobean bridge: Nonsuch House, waterworks, corn mills",
+          "from": 1577,
+          "to": 1625,
+          "dateNote": "Drawbridge tower taken down 1577 and Nonsuch finished September 1579 (Stow); waterworks 1582 (Stow); corn mills 1590/91 (secondary). No major fire or collapse found in sources consulted for 1485-1625; the next is the fire of February 1633 (out of range).",
+          "form": "As before, but the drawbridge tower replaced by the painted, onion-domed Nonsuch House; chapel converted to a house and shop ('Chapel House'); a water tower and wheel at the north-west end; two corn-mill wheels over starlings at the south end; traitors' heads now on the Great Stone Gate at the Southwark end. Houses mostly four or five storeys counting garrets, a few six (Wikipedia citing Gerhold).",
+          "dimensions": {"lengthM": 282, "widthM": 6.7, "heightM": null, "note": "Same structure. House count c. 91 by 1605 after mergers (Wikipedia citing Gerhold; down from a peak of c. 138-140 in 1358). Norden (1597) says 'over 100 households'. About 500 residents. Individual house heights are not documented in the sources fetched; 4-5 storeys suggests very roughly 12-16 m above the deck (conjecture)."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Exact house count for any given year, individual house heights, and deck height above water are not in the sources I could fetch (Gerhold's 2019 book has house-by-house lease dimensions for 1604-83 but was not accessible). Whether the bridge had 19 or 20 arches depends on whether the drawbridge opening is counted. A minor fire at the north end in 1504 is mentioned in older literature but I could not verify it.",
+      "correctionsToDraft": "Draft is broadly right. No major fire 1485-1625 was found; 1633 is the next. Use 19 stone arches + drawbridge opening rather than '20 arches' for modelling. Old bridge stood c. 150 ft (c. 45 m) east/downstream of the present London Bridge.",
+      "sources": [
+        {"title": "Life across the water: exploring London Bridge and its houses (feature on D. Gerhold, London Bridge and its Houses c.1209-1761)", "publisher": "Current Archaeology 391 / The Past", "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/"},
+        {"title": "Stow, A Survey of London (1603), 'Bridges of this Citie'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp21-27"},
+        {"title": "Stow, A Survey of London (1603), 'Bridgewarde within'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp211-216"},
+        {"title": "London Bridge", "publisher": "The Map of Early Modern London (MoEML)", "url": "https://mapoflondon.uvic.ca/LOND1.htm"},
+        {"title": "Old London Bridge (lead only; cites Gerhold 2019/2021)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_London_Bridge"}
+      ]
+    },
+    {
+      "id": "nonsuch-house",
+      "name": "Nonsuch House, London Bridge",
+      "lat": 51.5074,
+      "lon": -0.0872,
+      "phases": [
+        {
+          "label": "Drawbridge tower (predecessor) on site",
+          "from": 1426,
+          "to": 1577,
+          "dateNote": "Begun 1426 (Stow); 'begun to be taken downe' 1577 (Stow). A reader-cited date of April 1578 from Gordon Home (1931) for the start of demolition could not be verified.",
+          "form": "Stone arched gate and tower at the north end of the drawbridge, on the 13th pier from the north; carried the drawbridge winding gear and, until 1577, the traitors' heads on poles.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Undocumented in sources fetched."}
+        },
+        {
+          "label": "Nonsuch House",
+          "from": 1577,
+          "to": 1757,
+          "dateNote": "Foundation stone laid by Lord Mayor Sir John Langley (mayor 1576-77); 'in the Moneth of September, the yere 1579 the same tower was finished' (Stow 1603). Removed with the other bridge houses 1757-61.",
+          "form": "Timber-framed building straddling the roadway with a central archway, four-and-a-half storeys, a square tower at each corner capped by an onion dome, gabled river fronts projecting beyond the bridge on both sides, many transomed windows, carved classical detailing painted in oil colours (a brownish 'jasper' is documented; white lead and green probable). Contained two houses (west and east).",
+          "dimensions": {"lengthM": 22.9, "widthM": 7.6, "heightM": null, "note": "75 ft west-east (across the bridge and overhanging the river each side) by 25 ft north-south, per the Gerhold-based Current Archaeology account. An older figure of c. 27 ft width with a 20 ft roadway bay comes from Thomson (1827) via Wikipedia. Height is not documented; 4.5 storeys plus domed turrets suggests roughly 18-22 m above the deck (conjecture)."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Height; exact form of gables (later literature says Dutch stepped gables); colour scheme beyond 'jasper'. The south-front sundials are said to date only from 1681 and should not be modelled for this period. No measured drawing survives; the well-known images are 18th-20th century (e.g. H. W. Brewer's reconstruction).",
+      "correctionsToDraft": "Dates 1577-79 confirmed by Stow. The 'prefabricated in the Netherlands and shipped in pieces, pegged without nails' story is a later tradition (repeated by Wikipedia/IanVisits from 19th-century writers); the Gerhold-based account instead attributes the design to Lewis Stockett, Surveyor of the Queen's Works, and does not mention Dutch prefabrication. Treat the Dutch-prefab claim as unverified. Dimensions: 75 x 25 ft (22.9 x 7.6 m).",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Of Towers and Castels' (tower on London Bridge taken down 1577, finished September 1579)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"},
+        {"title": "Life across the water: exploring London Bridge and its houses", "publisher": "Current Archaeology 391 / The Past", "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/"},
+        {"title": "Drawbridge Tower", "publisher": "The Map of Early Modern London (MoEML)", "url": "https://mapoflondon.uvic.ca/DRAW2.htm"},
+        {"title": "Nonsuch House (lead only; source of the Dutch-prefab tradition and Thomson's 1827 dimensions)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Nonsuch_House"},
+        {"title": "London Bridge's lost Nonsuch House (secondary; sundials 1681, hedged prefab claim)", "publisher": "IanVisits", "url": "https://www.ianvisits.co.uk/blog/2021/02/24/london-bridges-lost-nonsuch-house/"}
+      ]
+    },
+    {
+      "id": "london-bridge-great-stone-gate",
+      "name": "Great Stone Gate (Bridge Gate), London Bridge, with traitors' heads",
+      "lat": 51.5068,
+      "lon": -0.0877,
+      "phases": [
+        {
+          "label": "Stone gate as rebuilt after 1436 collapse and 1471 burning",
+          "from": 1471,
+          "to": 1576,
+          "dateNote": "Fell 1436 with two arches; burned 1471 by Fauconberg's Kentish mariners (Stow); rebuilding 'in the 1470s' is from Wikipedia citing Gerhold.",
+          "form": "Stone gatehouse on the 18th pier from the north (second from the Southwark bank) with portcullis, royal arms and statues of monarchs.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Undocumented in sources fetched."}
+        },
+        {
+          "label": "Gate carrying the traitors' heads",
+          "from": 1577,
+          "to": 1625,
+          "dateNote": "Heads moved here in 1577 when the drawbridge tower came down (Stow). Hentzner counted over 30 heads in 1598 (via Wikipedia). Gate survived until the 18th century.",
+          "form": "As above, with heads on poles above the gate roof.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Undocumented."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Dimensions, number of storeys and turret form; only pictorial evidence (Wyngaerde, Norden, Visscher, Hollar).",
+      "correctionsToDraft": "Heads were on the drawbridge tower until 1577 and only then on the Great Stone Gate; a timelapse should move them in 1577.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Of Towers and Castels'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"},
+        {"title": "Stow, A Survey of London (1603), 'Gates in the wall of this Citie'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp27-44"},
+        {"title": "Life across the water: exploring London Bridge and its houses", "publisher": "Current Archaeology 391 / The Past", "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/"}
+      ]
+    },
+    {
+      "id": "london-bridge-chapel-house",
+      "name": "Chapel of St Thomas on the Bridge, converted to the Chapel House",
+      "lat": 51.5079,
+      "lon": -0.0869,
+      "phases": [
+        {
+          "label": "Chapel in use",
+          "from": 1396,
+          "to": 1548,
+          "dateNote": "Rebuilt 1384/87-1396/97; rededicated from Becket to St Thomas the Apostle c. 1540; priest ordered to hand over goods and shut the chapel in 1548 (VCH).",
+          "form": "Two-storey Perpendicular stone chapel (upper chapel at street level, undercroft within the enlarged 9th pier), projecting on the east (downstream) side.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched."}
+        },
+        {
+          "label": "Chapel House (dwelling, shop and warehouse)",
+          "from": 1549,
+          "to": 1625,
+          "dateNote": "Converted to a house in 1549 per the Gerhold-based account; Wikipedia (citing VCH) says a caretaker held it until it was leased to a grocer in 1553. VCH itself gives only '1548 ... subsequently defaced and turned into a dwelling-house'. Upper storey removed 1747.",
+          "form": "Same stone shell, defaced of religious imagery; upper chapel a house and shop, lower chapel a warehouse.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Exact conversion year (1549 vs 1553); extent of external alteration (pictorial sources suggest Gothic windows survived).",
+      "correctionsToDraft": "'After 1548' is right: closed 1548, converted 1549 (Gerhold-based) or first leased 1553 (Wikipedia/VCH lead).",
+      "sources": [
+        {"title": "Colleges: St Thomas on London Bridge, VCH London vol. 1, pp. 572-574", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp572-574"},
+        {"title": "Life across the water: exploring London Bridge and its houses", "publisher": "Current Archaeology 391 / The Past", "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/"}
+      ]
+    },
+    {
+      "id": "london-bridge-waterworks",
+      "name": "London Bridge Waterworks (Peter Morris's 'forcier')",
+      "lat": 51.5089,
+      "lon": -0.0866,
+      "phases": [
+        {
+          "label": "Morris's waterwheel and water tower",
+          "from": 1582,
+          "to": 1625,
+          "dateNote": "Stow gives 1582 for Thames water 'conueyed into mens houses by pipes of leade, from a most artificial forcier standing neare vnto London bridge' made by 'Peter Moris Dutchman'. Wikipedia gives 1578-82 for lease-to-completion. Operated until 1822.",
+          "form": "Undershot waterwheel under the northernmost arch driving pumps that raised water to a tower at the north-west end of the bridge for distribution to houses and conduits (a standard was set up at Leadenhall in 1582).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Tower height and wheel size not given in sources fetched."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Appearance and height of the Elizabethan tower (later rebuilt); whether one or two arches were occupied before 1625 (Wikipedia says two northernmost arches; Gerhold-based account says first arch).",
+      "correctionsToDraft": "Use 1582 as the operational date (Stow). Stow says lead pipes; the Current Archaeology account says wooden pipes.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Of the ancient and present rivers'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-19"},
+        {"title": "Life across the water: exploring London Bridge and its houses", "publisher": "Current Archaeology 391 / The Past", "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/"}
+      ]
+    },
+    {
+      "id": "london-bridge-corn-mills",
+      "name": "Corn mills at the south end of London Bridge",
+      "lat": 51.5067,
+      "lon": -0.0878,
+      "phases": [
+        {
+          "label": "Two waterwheels grinding corn",
+          "from": 1591,
+          "to": 1625,
+          "dateNote": "1590 in the Gerhold-based Current Archaeology account; 1591 in Wikipedia (citing Jackson 2002). Not mentioned in the Stow 1603 chapters I read. Later converted to pump water for Southwark; ran until 1822.",
+          "form": "Two waterwheels spanning the starlings at the Southwark end, with mill housing above, where poorer citizens could have corn ground cheaply.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Undocumented in sources fetched."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Exact year (1590 vs 1591), which arches, and the form of the mill buildings.",
+      "correctionsToDraft": "Draft 1591 is acceptable; 1590 is also cited. Label as c. 1590-91.",
+      "sources": [
+        {"title": "Life across the water: exploring London Bridge and its houses", "publisher": "Current Archaeology 391 / The Past", "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/"},
+        {"title": "Old London Bridge (lead only)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_London_Bridge"}
+      ]
+    },
+    {
+      "id": "old-st-pauls-1485-1625",
+      "name": "Old St Paul's Cathedral (spire lost 1561)",
+      "lat": 51.5138,
+      "lon": -0.0984,
+      "phases": [
+        {
+          "label": "With timber and lead spire",
+          "from": 1485,
+          "to": 1561,
+          "dateNote": "Spire stood until 4 June 1561.",
+          "form": "Long cruciform Romanesque/Gothic cathedral in stone with a central tower carrying a lead-covered timber spire.",
+          "dimensions": {"lengthM": 179, "widthM": null, "heightM": 124, "note": "Tower stonework measured by Robert Hooke at 204 ft (62 m); the spire rose 'as high again' (Wren estimated c. 200 ft), giving c. 400+ ft (c. 124 m) overall. Stow's figures (steeple 520 ft = 260 + 260; church 720 ft long, 130 ft broad, 150 ft high) are overstated; the traditional 489 ft spire height is likewise unverified. Length c. 585-596 ft (c. 179 m) is from secondary sources via search, not an institutional record I fetched."}
+        },
+        {
+          "label": "Spireless, re-roofed, decaying",
+          "from": 1561,
+          "to": 1625,
+          "dateNote": "Lightning struck between 3 and 4 pm on 4 June 1561; within four hours 'the same steeple with all the roofes of the church were consumed' (Stow). Temporary boards and lead within a month; aisles re-roofed by the end of 1561; main roofs finished and leaded by April 1566. 'Concerning the steeple, diuers models were deuised and made, but little else was done'.",
+          "form": "Same body with new timber-and-lead roofs and a truncated square central tower with no spire; fabric in visible disrepair by the early 1600s. No classical portico (Inigo Jones's work is 1633-42).",
+          "dimensions": {"lengthM": 179, "widthM": null, "heightM": 62, "note": "Tower stump c. 204 ft (62 m) per Hooke's measurement."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Exact spire height (c. 400-520 ft claimed); nave roof height; precise overall length and transept width (see Schofield, St Paul's Cathedral before Wren, 2011, not consulted directly).",
+      "correctionsToDraft": "Date and 'never rebuilt' confirmed. Add: roofs fully repaired 1561-66. A royal commission of 1620 and the 1633-42 Jones campaign are after/outside the state to model; in 1625 show a spireless tower and Gothic west front.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Faringdon ward infra, or within'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp310-344"},
+        {"title": "St Paul's before Wren", "publisher": "Current Archaeology", "url": "https://archaeology.co.uk/articles/news/st-pauls-before-wren.htm"},
+        {"title": "A history of St Paul's Cathedral", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/a-history-of-st-pauls-cathedral/"},
+        {"title": "Virtual Paul's Cross Project: Churchyard resources (model based on Schofield survey, Wren measurements, Hollar)", "publisher": "NC State University", "url": "https://vpcross.chass.ncsu.edu/churchyard/resources"}
+      ]
+    },
+    {
+      "id": "pauls-cross",
+      "name": "Paul's Cross (open-air pulpit)",
+      "lat": 51.5141,
+      "lon": -0.0978,
+      "phases": [
+        {
+          "label": "Kempe's pulpit cross",
+          "from": 1485,
+          "to": 1625,
+          "dateNote": "Rebuilt by Bishop Thomas Kempe (bishop 1448-89) 'in forme as it now standeth' (Stow 1603). Demolition is usually given as 1643, but archival evidence suggests it was taken down c. 1635-41 (search result, not fetched in detail).",
+          "form": "'A Pulpit Crosse of timber, mounted vpon steppes of stone, and couered with leade' (Stow): an open polygonal timber pulpit with a lead roof topped by a cross, in the north-east angle of the churchyard between choir and north transept.",
+          "dimensions": {"lengthM": 5.2, "widthM": 5.2, "heightM": null, "note": "Penrose's 1878 excavation: structure 17 ft across on a foundation platform 34 ft (10.4 m) across. Height not recorded; any figure is an estimate."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Height; exact number of sides (traditionally octagonal); demolition date.",
+      "correctionsToDraft": "No draft date given. Model as standing throughout 1485-1625.",
+      "sources": [
+        {"title": "Virtual Paul's Cross Project: Churchyard resources", "publisher": "NC State University", "url": "https://vpcross.chass.ncsu.edu/churchyard/resources"},
+        {"title": "Stow, A Survey of London (1603), 'Faringdon ward infra, or within'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp310-344"}
+      ]
+    },
+    {
+      "id": "blackfriars-precinct",
+      "name": "Blackfriars (Dominican friary) and Blackfriars playhouse",
+      "lat": 51.5127,
+      "lon": -0.1027,
+      "phases": [
+        {
+          "label": "Friary",
+          "from": 1485,
+          "to": 1538,
+          "dateNote": "Surrendered 12 November 1538 (VCH; Stow).",
+          "form": "Large stone friary church with cloisters and ranges inside the south-west corner of the walled city.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched."}
+        },
+        {
+          "label": "Church demolished; precinct converted to houses",
+          "from": 1538,
+          "to": 1596,
+          "dateNote": "Stow: the church and the parish church of St Anne within the precinct 'pulled down with the Friers Church, by sir Thomas Carden' (Cawarden; grant usually dated 1550, not verified here). A replacement St Anne's room fell 1597 and was rebuilt and enlarged the same year.",
+          "form": "Church gone; claustral ranges subdivided into aristocratic lodgings and tenements.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Blackfriars playhouse in the upper frater",
+          "from": 1596,
+          "to": 1625,
+          "dateNote": "James Burbage bought and fitted out the hall in 1596; residents blocked adult players, so boy companies used it c. 1600-08; the King's Men played there from c. 1608-09. Closed 1642, demolished 1655 (secondary).",
+          "form": "Indoor playhouse inside a stone medieval upper hall; nothing distinctive externally. Capacity under 1,000.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "The commonly quoted hall size of 66 x 46 ft (20 x 14 m) could not be verified in a source I fetched."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Which claustral buildings survived externally to 1625; hall dimensions; exact date of church demolition (c. 1540s-1550s).",
+      "correctionsToDraft": "1596 (purchase/conversion) and 1608-09 (King's Men) are both right; they are different events.",
+      "sources": [
+        {"title": "Friaries: The black friars, VCH London vol. 1, pp. 498-502", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp498-502"},
+        {"title": "Stow, A Survey of London (1603), 'Faringdon ward infra, or within'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp310-344"},
+        {"title": "Shakespeare's Theater (Folger Shakespeare editions essay)", "publisher": "Folger Shakespeare Library", "url": "https://www.folger.edu/explore/shakespeares-works/shakespeares-theater-from-the-folger-shakespeare-editions/"}
+      ]
+    },
+    {
+      "id": "greyfriars-christ-church",
+      "name": "Greyfriars, later Christ Church Newgate Street and Christ's Hospital",
+      "lat": 51.5158,
+      "lon": -0.0992,
+      "phases": [
+        {
+          "label": "Franciscan friary",
+          "from": 1485,
+          "to": 1538,
+          "dateNote": "Surrendered 12 November 1538 (Stow).",
+          "form": "Very large stone friary church with cloisters to the north.",
+          "dimensions": {"lengthM": 91.4, "widthM": 27.1, "heightM": 19.6, "note": "Stow: 300 ft long, 89 ft broad, 64 ft 2 in high to the roof."}
+        },
+        {
+          "label": "Closed / used as store",
+          "from": 1538,
+          "to": 1546,
+          "dateNote": "Re-opened 3 January 1546/7 (Stow says 'in the yeare 1546 on the third of Januarie').",
+          "form": "Church standing but closed.",
+          "dimensions": {"lengthM": 91.4, "widthM": 27.1, "heightM": 19.6, "note": "As above."}
+        },
+        {
+          "label": "Christ Church parish church; friary buildings become Christ's Hospital",
+          "from": 1547,
+          "to": 1625,
+          "dateNote": "Parish created by Henry VIII's gift, uniting St Nicholas Shambles, St Ewin and part of St Sepulchre; repair of the friary house for 'poore fatherlesse children' began 1552, nearly 400 children by November.",
+          "form": "Friary church retained essentially intact as a parish church; cloister ranges reused as the school/orphanage.",
+          "dimensions": {"lengthM": 91.4, "widthM": 27.1, "heightM": 19.6, "note": "As above."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "How much of the nave was in parish use; monuments were sold off.",
+      "correctionsToDraft": "The church was not demolished at the Dissolution; it stood (as Christ Church) until 1666.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Faringdon ward infra, or within'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp310-344"}
+      ]
+    },
+    {
+      "id": "austin-friars",
+      "name": "Austin Friars (Dutch Church and Paulet/Winchester House)",
+      "lat": 51.5156,
+      "lon": -0.0858,
+      "phases": [
+        {
+          "label": "Augustinian friary",
+          "from": 1485,
+          "to": 1538,
+          "dateNote": "Surrendered 12 November 1538 (Stow).",
+          "form": "Large friary church with a notable spire/steeple, cloister and gardens; Thomas Cromwell's large house built alongside on Throgmorton Street in the 1530s (later Drapers' Hall).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched."}
+        },
+        {
+          "label": "Nave as Dutch Church; east end as Paulet's store; Paulet's mansion on the cloister",
+          "from": 1550,
+          "to": 1625,
+          "dateNote": "Nave granted to the 'Dutch Nation' 1550. Stow (1603) says Paulet 'pulled not downe' the church; steeple, choir and side aisles were kept for 'stowage of corne, coale, and other things'; the son sold the monuments, made stabling and replaced roof lead with tile. Demolition of the steeple and choir is usually dated c. 1600 but is not confirmed by the text I read.",
+          "form": "Church standing; nave in use as the Dutch Church, east arm degraded to storage with tiled roofs; a great courtyard house (Paulet House, later Winchester House) on the cloister and gardens to the north.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Whether the steeple and choir still stood in 1625 (probably demolished c. 1600-13 despite a City petition; unverified).",
+      "correctionsToDraft": "Conversion rather than demolition: the nave survived as the Dutch Church (to 1940).",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Broadstreete warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp175-186"}
+      ]
+    },
+    {
+      "id": "holy-trinity-priory-aldgate",
+      "name": "Holy Trinity Priory, Aldgate (later Duke's Place)",
+      "lat": 51.5137,
+      "lon": -0.0780,
+      "phases": [
+        {
+          "label": "Augustinian priory",
+          "from": 1485,
+          "to": 1531,
+          "dateNote": "Stow: surrendered 'in the moneth of Iuly, in the yeare 1531'; modern accounts often give February 1532 for the formal surrender. The first London house to fall, before the general Dissolution.",
+          "form": "Major priory with a great church and steeple (nine bells) just inside Aldgate.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in Stow."}
+        },
+        {
+          "label": "Church and steeple demolished; Audley's mansion",
+          "from": 1532,
+          "to": 1544,
+          "dateNote": "Granted to Sir Thomas Audley; no one would take the church down for the materials, so Audley paid to demolish it from the top down ('few remained whole'). Audley lived there until his death in 1544.",
+          "form": "Church largely razed; claustral ranges adapted as a courtyard mansion.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Duke's Place",
+          "from": 1544,
+          "to": 1625,
+          "dateNote": "Passed by marriage to Thomas Howard, Duke of Norfolk, hence 'the Dukes place'. A new parish church, St James Duke's Place, was built in the precinct in 1622 (not verified in a fetched source).",
+          "form": "Aristocratic house and tenements in the former precinct, with standing fragments of the priory church.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "How much of the church walls stood after Audley's demolition (a 1592 survey plan by John Symonds exists; not consulted).",
+      "correctionsToDraft": "Draft 1532: Stow says July 1531. Use 1531-32.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Ealdgate warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp138-150"}
+      ]
+    },
+    {
+      "id": "charterhouse",
+      "name": "London Charterhouse (Carthusian priory, then North/Howard House, then Sutton's Hospital)",
+      "lat": 51.5215,
+      "lon": -0.1000,
+      "phases": [
+        {
+          "label": "Carthusian priory",
+          "from": 1485,
+          "to": 1537,
+          "dateNote": "Stow: 'suppression in the 29. of Henrie the 8' (1537-38); prior and monks executed 1535-40.",
+          "form": "Great cloister ringed by individual monks' cells, small church, outer court.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched."}
+        },
+        {
+          "label": "North House / Howard House",
+          "from": 1545,
+          "to": 1611,
+          "dateNote": "Sir Edward North bought the site 1545 and reconfigured it as a Tudor mansion; Thomas Howard, 4th Duke of Norfolk, owned it from 1565 (Howard House) and made 'large and sumptuous buildinges'.",
+          "form": "Courtyard mansion of stone and brick built from and over the monastic buildings; great cloister reduced to gardens/walks.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Sutton's Hospital in Charterhouse",
+          "from": 1611,
+          "to": 1625,
+          "dateNote": "Thomas Sutton bought Howard House 1611; Governors first met 1613; foundation confirmed by Act 1627.",
+          "form": "Same mansion adapted as almshouse and school, with a chapel on the site of the monastic chapter house.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "medium",
+      "uncertainty": "Which year the priory church was demolished (attributed to North, c. 1545; not stated in the sources fetched). Lies outside the walls, north-west of Smithfield.",
+      "correctionsToDraft": "None of substance; dissolution 1537-38, mansion from 1545.",
+      "sources": [
+        {"title": "History", "publisher": "The Charterhouse", "url": "https://thecharterhouse.org/explore-the-charterhouse/history/"},
+        {"title": "Stow, A Survey of London (1603), 'The Suburbs without the walls'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp69-91"}
+      ]
+    },
+    {
+      "id": "st-bartholomew-the-great",
+      "name": "St Bartholomew's Priory, Smithfield (St Bartholomew the Great)",
+      "lat": 51.5189,
+      "lon": -0.0996,
+      "phases": [
+        {
+          "label": "Augustinian priory",
+          "from": 1485,
+          "to": 1539,
+          "dateNote": "Dissolved 1539.",
+          "form": "Romanesque/Gothic priory church with long nave, crossing, choir and Lady Chapel; cloister to the south.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched."}
+        },
+        {
+          "label": "Nave demolished; choir as parish church",
+          "from": 1539,
+          "to": 1625,
+          "dateNote": "Stow: church 'pulled downe to the Quire', the choir annexed to the parish church; confirmed as a parish church under Edward VI. Half-timbered gatehouse built 1595 over the surviving 13th-century west doorway; brick tower 1628 (just out of range). St Bartholomew's Hospital was re-granted to the City (declared at Paul's Cross 13 January 1546/7).",
+          "form": "Truncated church: Romanesque choir and crossing only, nave site an open churchyard; Lady Chapel and cloister ranges converted to houses (Rich's property).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Exact year the nave came down (c. 1539-43).",
+      "correctionsToDraft": "None.",
+      "sources": [
+        {"title": "History", "publisher": "St Bartholomew the Great", "url": "https://www.greatstbarts.com/history/"},
+        {"title": "Stow, A Survey of London (1603), 'The warde of Faringdon extra, or without'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp20-52"}
+      ]
+    },
+    {
+      "id": "st-mary-overie-st-saviour",
+      "name": "St Mary Overie Priory, from 1539/40 St Saviour's parish church (now Southwark Cathedral)",
+      "lat": 51.5061,
+      "lon": -0.0896,
+      "phases": [
+        {
+          "label": "Augustinian priory church",
+          "from": 1485,
+          "to": 1539,
+          "dateNote": "Surrendered 27 October 1539 (Stow).",
+          "form": "Gothic stone priory church with central tower, nave, choir and retrochoir; claustral buildings to the north towards the river.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched."}
+        },
+        {
+          "label": "St Saviour's parish church (leased from the Crown)",
+          "from": 1540,
+          "to": 1611,
+          "dateNote": "Stow: 'About Christmas next following' the surrender the church was obtained by the inhabitants and the parishes of St Mary Magdalen and St Margaret united as St Saviour (i.e. winter 1539/40). The cathedral's own history says the Crown rented it to the congregation.",
+          "form": "Church retained whole; priory buildings to the north became houses (Montague Close).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Bought by the parishioners",
+          "from": 1611,
+          "to": 1625,
+          "dateNote": "The 'Bargainers' bought the church from James I for 800 pounds in 1611 (cathedral history); some accounts give 1614.",
+          "form": "Unchanged externally.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Secular use of the retrochoir (bakehouse etc.) in this period is reported in secondary sources I did not verify.",
+      "correctionsToDraft": "Surrender was 27 October 1539; the parish of St Saviour was formed around Christmas 1539, so '1540' is acceptable as the first full year.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Bridge warde without'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp52-69"},
+        {"title": "Our history", "publisher": "Southwark Cathedral", "url": "https://cathedral.southwark.anglican.org/about/our-history"}
+      ]
+    },
+    {
+      "id": "whitefriars",
+      "name": "Whitefriars (Carmelite friary)",
+      "lat": 51.5133,
+      "lon": -0.1080,
+      "phases": [
+        {
+          "label": "Carmelite friary",
+          "from": 1485,
+          "to": 1538,
+          "dateNote": "Surrendered 10 November 1538 (Stow).",
+          "form": "Friary church with spire and cloister between Fleet Street and the Thames.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given."}
+        },
+        {
+          "label": "Church replaced by houses",
+          "from": 1545,
+          "to": 1625,
+          "dateNote": "Stow (1603): 'In place of this Friers Church be now many fayre houses builded, lodgings for Noble men and others'. Start year of demolition is approximate.",
+          "form": "Dense housing in the former precinct (later the 'Alsatia' sanctuary); a hall was used as the Whitefriars playhouse c. 1608-14 (not verified here).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Demolition date of the church (1540s); layout of replacement houses.",
+      "correctionsToDraft": "None.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'The warde of Faringdon extra, or without'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp20-52"}
+      ]
+    },
+    {
+      "id": "bridewell-palace",
+      "name": "Bridewell Palace (from 1553-56 Bridewell Hospital / house of correction)",
+      "lat": 51.5127,
+      "lon": -0.1050,
+      "phases": [
+        {
+          "label": "Royal palace of Henry VIII",
+          "from": 1515,
+          "to": 1553,
+          "dateNote": "Site passed from Wolsey to Henry VIII 1515; palace completed 1523 (MoEML); used to lodge Charles V's suite in 1522 (Stow).",
+          "form": "Brick courtyard palace on the west bank of the Fleet at its mouth, with a gallery carried over the Fleet to Blackfriars (layout from general literature; excavations at Bridewell Place 1978 found brick-arched foundations). 'A stately and beautifull house of new' (Stow).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Plan dimensions not in sources fetched; the southern range plan 'remained largely unknown' until recent Pre-Construct work (search result)."}
+        },
+        {
+          "label": "City workhouse, prison and hospital",
+          "from": 1553,
+          "to": 1625,
+          "dateNote": "Given to the City by Edward VI 10 April 1553, charter 26 June 1553; possession taken February 1555/6 and confirmed by Mary (Stow). Destroyed 1666.",
+          "form": "Same buildings, increasingly institutional.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Number and size of courtyards and storey heights (I could not fetch Gadd and Dyson's excavation report); river frontage form.",
+      "correctionsToDraft": "1515-23 confirmed (MoEML).",
+      "sources": [
+        {"title": "Bridewell", "publisher": "The Map of Early Modern London (MoEML)", "url": "https://mapoflondon.uvic.ca/BRID2.htm"},
+        {"title": "Stow, A Survey of London (1603), 'The warde of Faringdon extra, or without'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp20-52"},
+        {"title": "Stow, A Survey of London (1603), 'Of Towers and Castels'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"}
+      ]
+    },
+    {
+      "id": "baynards-castle",
+      "name": "Baynard's Castle (second, on the waterfront)",
+      "lat": 51.5113,
+      "lon": -0.0995,
+      "phases": [
+        {
+          "label": "Henry VII's rebuilding",
+          "from": 1501,
+          "to": 1625,
+          "dateNote": "Stow: 'about the yeare 1501 ... repayred or rather new builded this house, not imbattoled, or so strongly fortified Castle like, but farre more beautifull and commodious'. Later Tudor additions (west extension, c. 1550s under the Earls of Pembroke) are from general literature, not verified here. Burned 1666.",
+          "form": "Stone riverside palace rising directly from the Thames, with a long river front of polygonal towers/turrets and gabled ranges round a courtyard (as shown by Wyngaerde, the Agas map and Hollar).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched; excavations in 1972-75 and 1981 recorded the plan (not consulted)."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Dimensions and number of river-front towers at each date.",
+      "correctionsToDraft": "c. 1501 confirmed by Stow.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Of Towers and Castels'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"},
+        {"title": "Stow, A Survey of London (1603), 'Castle Baynard warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-20"}
+      ]
+    },
+    {
+      "id": "whitehall-palace-holbein-gate",
+      "name": "Whitehall Palace (York Place) and the Holbein Gate",
+      "lat": 51.5043,
+      "lon": -0.1263,
+      "phases": [
+        {
+          "label": "York Place (archbishops of York; Wolsey)",
+          "from": 1485,
+          "to": 1529,
+          "dateNote": "Seized by Henry VIII on Wolsey's fall, 1529 (Stow), renamed Whitehall.",
+          "form": "Archiepiscopal town house enlarged by Wolsey, between the Thames and the Westminster-Charing Cross road.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Henry VIII's Whitehall with Holbein Gate, King Street Gate, tiltyard, cockpit, tennis courts",
+          "from": 1530,
+          "to": 1625,
+          "dateNote": "Land on the park side acquired 1531; the Holbein Gate was 'either finished, or nearing completion' in 1532 (Survey of London). Stow credits Henry VIII with 'a sumptuous Gallery and a beautifull Gate house, thwart the high streete', the tiltyard and cockpit. Holbein Gate demolished August 1759; King Street Gate 1723.",
+          "form": "Sprawling brick and stone palace on both sides of the public street, joined by galleries over two gatehouses. Holbein Gate: rectangular, three stages, octagonal turret at each corner, walls chequered in stone and flint, oriel over a central carriage arch, terracotta roundel busts, royal arms.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Holbein Gate central arch 12 ft to 12 ft 9 in (3.7-3.9 m) wide; overall gate dimensions and height not given in the source."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Overall palace footprint at each date; gate height; attribution to Holbein is doubtful.",
+      "correctionsToDraft": "1529/30 seizure and c. 1531-32 gate both supported. The gate was probably not designed by Holbein.",
+      "sources": [
+        {"title": "Survey of London vol. 14, St Margaret, Westminster, Part III: The Holbein Gate and the Tiltyard Gallery", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/survey-london/vol14/pt3/pp10-22"},
+        {"title": "Stow, A Survey of London (1603), 'The Citie of Westminster'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp97-124"}
+      ]
+    },
+    {
+      "id": "banqueting-house-whitehall",
+      "name": "Banqueting Houses, Whitehall",
+      "lat": 51.5045,
+      "lon": -0.1259,
+      "phases": [
+        {
+          "label": "Elizabethan timber-and-canvas banqueting house",
+          "from": 1581,
+          "to": 1606,
+          "dateNote": "Built 1581 for the French marriage commissioners (an earlier temporary house in 1572); 'old rotten' and replaced 1606.",
+          "form": "Temporary-style hall of 30 principal timber masts 40 ft long with painted canvas walls and 292 glass lights.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": 12.2, "note": "332 ft (c. 101 m) in circuit; masts 40 ft (12.2 m). Plan proportions not given."}
+        },
+        {
+          "label": "James I's first Banqueting House",
+          "from": 1606,
+          "to": 1619,
+          "dateNote": "Built 1606-07, opened 10 January 1607/8; destroyed by fire 12 January 1618/19 (i.e. 1619 new style).",
+          "form": "Permanent masque hall (brick and stone per general literature; the Survey of London text read does not specify materials) with internal columns.",
+          "dimensions": {"lengthM": 36.6, "widthM": 16.2, "heightM": null, "note": "120 ft by 53 ft on plan."}
+        },
+        {
+          "label": "Inigo Jones's Banqueting House",
+          "from": 1619,
+          "to": null,
+          "dateNote": "Plans and estimate ready 19 April 1619; in use by 1622-23 (commonly 'completed 1622'). Rubens ceiling installed 1630s (out of range). Still standing (refaced in Portland stone in the 19th century).",
+          "form": "Two-storey classical (Palladian) block of seven bays over a vaulted basement: rusticated lower storey, Ionic and Corinthian orders above, balustraded parapet. Originally in three stones: honey-brown Oxfordshire stone for the basement, tawny Northamptonshire stone for the upper walls, white Portland for balustrade and dressings.",
+          "dimensions": {"lengthM": 33.5, "widthM": 16.8, "heightM": 21.6, "note": "110 ft by 55 ft; hall 55 ft high above a 16 ft vaulted undercroft (double cube). Height figure is undercroft plus hall, excluding parapet."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Appearance of the 1606-07 house; exact completion month of Jones's building.",
+      "correctionsToDraft": "The earlier house is 1606-07 (opened January 1608), not 1606-09. Fire was 12 January 1619. Estimate 9,850 pounds; cost to 1633 14,940 pounds.",
+      "sources": [
+        {"title": "Survey of London vol. 13, St Margaret, Westminster, Part II: The Banqueting House", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/survey-london/vol13/pt2/pp116-139"}
+      ]
+    },
+    {
+      "id": "somerset-house-tudor",
+      "name": "Somerset House (from 1603 Denmark House)",
+      "lat": 51.5110,
+      "lon": -0.1172,
+      "phases": [
+        {
+          "label": "Site clearance and construction for Protector Somerset",
+          "from": 1547,
+          "to": 1552,
+          "dateNote": "Begun 1547 (Somerset House Trust); Stow dates the levelling of Strand Inn, the bishops of Chester's and Worcester's inns and St Mary le Strand church to 1549. 'Nearly finished' when Somerset was executed in 1552 and the house passed to the Crown.",
+          "form": "Stone courtyard palace between the Strand and the Thames with a symmetrical classical Strand front (among the first in England), courtyard, and gardens running down to river stairs.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched."}
+        },
+        {
+          "label": "Crown house; Princess Elizabeth's residence",
+          "from": 1552,
+          "to": 1603,
+          "dateNote": "Elizabeth lived there 1553-58.",
+          "form": "As built.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Denmark House (Anne of Denmark's remodelling)",
+          "from": 1603,
+          "to": 1625,
+          "dateNote": "Renamed 1603; from 1609 until 1619 Anne had Inigo Jones and others redesign and rebuild parts. Old house demolished from 1775.",
+          "form": "Enlarged with new ranges and remodelled gardens; still the Tudor Strand front.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Plan dimensions; extent of 1609-19 additions. The story that stone came from St John Clerkenwell and the Pardon cloister of St Paul's was not confirmed in the Stow chapter read.",
+      "correctionsToDraft": "1547-52 confirmed (clearance 1549).",
+      "sources": [
+        {"title": "History", "publisher": "Somerset House Trust", "url": "https://www.somersethouse.org.uk/about-us/history"},
+        {"title": "Stow, A Survey of London (1603), 'Liberties of the Dutchie of Lancaster'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp91-97"}
+      ]
+    },
+    {
+      "id": "savoy-hospital",
+      "name": "Savoy Hospital",
+      "lat": 51.5103,
+      "lon": -0.1205,
+      "phases": [
+        {
+          "label": "Henry VII's Hospital of St John Baptist",
+          "from": 1509,
+          "to": 1553,
+          "dateNote": "Stow: Henry VII had the ruined Savoy 'raysed and beautifully builded' as a hospital 'about the year 1509'. The usual modern range (planned from c. 1505, built c. 1510-17 under Henry VII's will) was not verified in a fetched source. Suppressed 10 June 1553.",
+          "form": "Stone hospital on the riverside between the Strand and the Thames: a very large cruciform dormitory hall with chapels (the surviving Savoy Chapel is one) and river frontage.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched."}
+        },
+        {
+          "label": "Refounded hospital, decaying",
+          "from": 1556,
+          "to": 1625,
+          "dateNote": "Refounded by Mary on 3 November in the 4th year of her reign (1556).",
+          "form": "Same buildings, increasingly let as lodgings.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "low",
+      "uncertainty": "Construction end date and dimensions of the dormitory; I could not fetch a modern institutional account.",
+      "correctionsToDraft": "Draft 1505-17 not confirmed; Stow gives only c. 1509. Flag as c. 1509-17.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Liberties of the Dutchie of Lancaster'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp91-97"}
+      ]
+    },
+    {
+      "id": "strand-palaces",
+      "name": "Strand riverside great houses (Essex, Arundel, Bedford/Russell, Cecil/Salisbury, Durham, York Houses)",
+      "lat": 51.5108,
+      "lon": -0.1150,
+      "phases": [
+        {
+          "label": "Bishops' inns converted to noblemen's palaces",
+          "from": 1536,
+          "to": 1625,
+          "dateNote": "Stow (1603): Bishop of Bath's inn 'lately new builded' by Lord Thomas Seymour, then Arundel House; Exeter House then Paget, Leicester and Essex House; Bishop of Carlisle's inn now Russell or Bedford House; Sir Robert Cecil 'hath lately raysed a large and stately house of brick and timber' near Ivy Bridge (Salisbury House, c. 1599-1602). Start year is nominal (Dissolution).",
+          "form": "A near-continuous row of walled courtyard mansions on the south side of the Strand, each with gatehouse to the street, gardens and private river stairs; mixed medieval stone halls and Tudor brick ranges. The Strand's north side and a 'middle row' of small tenements west of Temple Bar were built up by 1603.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "No dimensions in Stow."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Individual plans; Durham House and York House are not described in the Stow chapter read. Covent Garden behind the north side remained the Earl of Bedford's walled pasture and garden until the 1630s; Long Acre was laid out early in James I's reign (secondary).",
+      "correctionsToDraft": "None; add Salisbury (Cecil) House c. 1600 in brick and timber.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Liberties of the Dutchie of Lancaster'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp91-97"},
+        {"title": "In brief: Early Stuart London (secondary)", "publisher": "The History of London", "url": "https://thehistoryoflondon.co.uk/in-brief-early-stuart-period/2"}
+      ]
+    },
+    {
+      "id": "henry-vii-lady-chapel",
+      "name": "Henry VII's Lady Chapel, Westminster Abbey",
+      "lat": 51.4994,
+      "lon": -0.1265,
+      "phases": [
+        {
+          "label": "Construction",
+          "from": 1503,
+          "to": 1516,
+          "dateNote": "Foundation stone 24 January 1503 (1502/3 old style); consecrated 19 February 1516 (Westminster Abbey). Old Lady Chapel and the White Rose tavern cleared c. 1502 (Stow). Torrigiano's tomb contracted 1512.",
+          "form": "Late Perpendicular stone chapel at the east end of the abbey: aisled nave with five radiating apsidal chapels, octagonal turrets with domed caps between large windows, flying buttresses, fan and pendant vault.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Dimensions not given on the pages fetched. Stow gives the cost as 14,000 pounds."}
+        },
+        {
+          "label": "Complete",
+          "from": 1516,
+          "to": null,
+          "dateNote": "Standing. Abbey surrendered 1539/40, cathedral 1540/41-1550, collegiate church from 1559/60. The abbey's west towers were unfinished stumps throughout this period (completed 1745).",
+          "form": "As above.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Only the dimensions (measurable from the standing building; not retrieved).",
+      "correctionsToDraft": "Draft 'c. 1519' should be 1516 (consecration 19 February 1516).",
+      "sources": [
+        {"title": "Henry VII and Elizabeth of York", "publisher": "Westminster Abbey", "url": "https://www.westminster-abbey.org/abbey-commemorations/royals/henry-vii-and-elizabeth-of-york"},
+        {"title": "Stow, A Survey of London (1603), 'The Citie of Westminster'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp97-124"}
+      ]
+    },
+    {
+      "id": "northampton-house",
+      "name": "Northampton House (Suffolk House from 1614; later Northumberland House), Charing Cross",
+      "lat": 51.5072,
+      "lon": -0.1270,
+      "phases": [
+        {
+          "label": "Northampton House",
+          "from": 1605,
+          "to": 1614,
+          "dateNote": "Built c. 1605-09 for Henry Howard, Earl of Northampton.",
+          "form": "Jacobean courtyard house of brick with stone dressings: three-storey Strand front with a tall frontispiece and a square tower at each corner (four corner towers in all), great hall in the south (garden) range, gardens to the river.",
+          "dimensions": {"lengthM": 49.4, "widthM": null, "heightM": null, "note": "Strand front c. 162 ft; courtyard c. 80-90 ft (24-27 m) square. Height not given."}
+        },
+        {
+          "label": "Suffolk House",
+          "from": 1614,
+          "to": 1625,
+          "dateNote": "Inherited 1614 by Thomas Howard, Earl of Suffolk; Northumberland House only after 1642. Demolished 1874.",
+          "form": "Unchanged.",
+          "dimensions": {"lengthM": 49.4, "widthM": null, "heightM": null, "note": "As above."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Architect: attribution to Bernard Janssen and Gerard Christmas rests on Horace Walpole. Whether the river side was fully closed before 1625.",
+      "correctionsToDraft": "c. 1605-09 confirmed; it should be labelled Northampton House (to 1614) then Suffolk House within the period.",
+      "sources": [
+        {"title": "Survey of London vol. 18, St Martin-in-the-Fields II: The Strand: Northumberland House", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/survey-london/vol18/pt2/pp10-20"}
+      ]
+    },
+    {
+      "id": "royal-exchange-gresham",
+      "name": "Royal Exchange (Gresham's first building)",
+      "lat": 51.5136,
+      "lon": -0.0871,
+      "phases": [
+        {
+          "label": "Site clearance and construction",
+          "from": 1566,
+          "to": 1567,
+          "dateNote": "Stow: about 80 households on Cornhill and three alleys bought by the City for over 3,532 pounds and cleared; Gresham laid the first brick 7 June 1566; 'by the moneth of Nouember, in the yeare 1567, the same was couered with slate, and shortly after fully finished'.",
+          "form": "Building site.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "The Burse / Royal Exchange",
+          "from": 1568,
+          "to": 1666,
+          "dateNote": "Visited and named by Elizabeth I on 23 January 1570/1 (1571 new style). Burned 1666.",
+          "form": "Flemish-style brick building of four storeys round an open arcaded courtyard (arcade on marble columns per secondary accounts), with small shops ('the Pawn') on the upper floor, slate roofs with dormers, a tall bell tower by the Cornhill entrance, and Gresham's grasshopper emblems. Modelled on the Antwerp bourse; shown by Hogenberg's prints (c. 1569) and Hollar (1644).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "No dimensions in the sources fetched."}
+        }
+      ],
+      "evidence": "attested-pictorial",
+      "confidence": "high",
+      "uncertainty": "Plan dimensions and tower height; statues of monarchs in niches may be later additions.",
+      "correctionsToDraft": "Construction was 1566-67/68, not 1566-71; 1571 (23 January) is only the royal visit and naming.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Cornehill warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp187-200"},
+        {"title": "The financial powerhouse of the City of London (history of the Royal Exchange)", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/history-royal-exchange/"}
+      ]
+    },
+    {
+      "id": "leadenhall",
+      "name": "Leadenhall (market, granary and civic store)",
+      "lat": 51.5128,
+      "lon": -0.0836,
+      "phases": [
+        {
+          "label": "Eyre's quadrangle in civic use",
+          "from": 1485,
+          "to": 1625,
+          "dateNote": "Built by Simon Eyre in the 1440s (Stow's text gives 1419 but the surrounding licence dates point to c. 1443-45); damaged by 'a great fire' in 1484 and repaired. Stow records 16th-century uses: common beam for wool, market for foreign sellers (1503), city grain store (1512, 1528), pageant store; a 1534-35 plan to make it the merchants' burse was dropped.",
+          "form": "Large quadrangle of squared stone with ground-floor arcades for the market, garners above, corner turrets, and a chapel on the east side.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "No dimensions in Stow."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Dimensions (recorded by the 1980s excavations and Samuel's study; not consulted).",
+      "correctionsToDraft": "None; no draft date supplied.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Limestreete warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp150-163"}
+      ]
+    },
+    {
+      "id": "guildhall",
+      "name": "Guildhall",
+      "lat": 51.5158,
+      "lon": -0.0920,
+      "phases": [
+        {
+          "label": "Fifteenth-century Guildhall, unchanged in essentials",
+          "from": 1485,
+          "to": 1625,
+          "dateNote": "Great hall begun 1411 (finished c. 1430-40 per secondary sources returned by search; not fetched from an institutional page). No major Tudor or Jacobean rebuilding was found.",
+          "form": "Large stone Perpendicular great hall with a two-storey entrance porch facing a yard off Cateaton Street, with a chapel and library alongside.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not verified in a fetched source."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "low",
+      "uncertainty": "I did not fetch an institutional source for the Guildhall; treat this entry as a placeholder that the building should persist unchanged through 1485-1625.",
+      "correctionsToDraft": "None.",
+      "sources": []
+    },
+    {
+      "id": "custom-house",
+      "name": "Custom House (Wool Quay)",
+      "lat": 51.5088,
+      "lon": -0.0805,
+      "phases": [
+        {
+          "label": "Medieval custom house at Wool Wharf",
+          "from": 1485,
+          "to": 1559,
+          "dateNote": "John Churchman's house for the tronage of wool, built 1382-83 (6 Richard II; Stow). Old Wool Quay bought by the Crown 1556 and New Wool Quay 1558; the latter renamed Custom House Quay July 1558 (Gresham College lecture).",
+          "form": "Quayside customs building on Thames Street just west of the Tower, with cranes on the quay.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Elizabethan Custom House",
+          "from": 1559,
+          "to": 1625,
+          "dateNote": "CONTESTED. Popular accounts say a new Custom House was built in 1559 under Lord Treasurer Winchester (three storeys, red brick, open ground-floor arcade). The Gresham College lecture says Winchester's plan for a new house 'by May 1559' was never realised after Mary's death. A custom house is shown on the Agas map and named by Stow in 1603. Burned 1666.",
+          "form": "A multi-storey quayside building with corner stair turrets appears on Elizabethan and Jacobean views; materials uncertain.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Undocumented in sources fetched."}
+        }
+      ],
+      "evidence": "attested-pictorial",
+      "confidence": "low",
+      "uncertainty": "Whether there was a distinct 1559 rebuild, and its appearance.",
+      "correctionsToDraft": "The draft's '1559?' should keep its question mark: I could not confirm a 1559 rebuilding from an institutional source, and one scholarly lecture implies it did not happen as planned.",
+      "sources": [
+        {"title": "The Legal Quays: Sir William Paulet, First Marquis of Winchester (lecture)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/node/11942"},
+        {"title": "Stow, A Survey of London (1603), 'Towerstreet warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp129-138"}
+      ]
+    },
+    {
+      "id": "legal-quays",
+      "name": "Legal Quays (north bank between London Bridge and the Tower)",
+      "lat": 51.5088,
+      "lon": -0.0835,
+      "phases": [
+        {
+          "label": "Unregulated wharves",
+          "from": 1485,
+          "to": 1558,
+          "dateNote": "",
+          "form": "Privately owned timber and stone wharves ('keys') named after their owners, with warehouses and small cranes.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Legal Quays system",
+          "from": 1559,
+          "to": 1625,
+          "dateNote": "Act of Frauds, 1 Eliz. I c. 11 (1559); commission issued 14 June 1559, report 24 August 1559. Dutiable goods could be landed only at the designated quays in daylight.",
+          "form": "Same wharves, now a continuous regulated frontage crowded with lighters: Billingsgate for fish and foodstuffs, Bear and Young's Quays for Portuguese trade, Bridge House for corn, the Vintry and neighbours for wine and oil.",
+          "dimensions": {"lengthM": 610, "widthM": null, "heightM": null, "note": "Total designated frontage c. 2,000 ft, from Queenhithe to Tower Dock but mostly between London Bridge and Tower Dock. The often-quoted 'twenty quays' was not confirmed in an authoritative source."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Exact count and names of quays in 1559; physical form of individual quays.",
+      "correctionsToDraft": "Statute is 1 Eliz. c. 11 of 1559 (Parliament of 1558/59); designation by commission June-August 1559.",
+      "sources": [
+        {"title": "The Legal Quays: Sir William Paulet, First Marquis of Winchester (lecture)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/node/11942"},
+        {"title": "Stow, A Survey of London (1603), 'Billinsgate warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp205-211"}
+      ]
+    },
+    {
+      "id": "steelyard",
+      "name": "The Steelyard (Hanseatic Guildhall)",
+      "lat": 51.5103,
+      "lon": -0.0905,
+      "phases": [
+        {
+          "label": "Hanse kontor in operation",
+          "from": 1485,
+          "to": 1598,
+          "dateNote": "Privileges suspended 1551-52 (Stow: liberties 'seised into the kings hands' 1551) and partly restored under Mary; formally closed and the merchants ordered out in 1598.",
+          "form": "Walled riverside enclave south of Thames Street west of Dowgate: a stone guildhall with 'three arched gates towards the street' (the large middle one seldom opened, the others walled up), warehouses, dwellings, and a wharf with crane.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in sources fetched."}
+        },
+        {
+          "label": "Closed; Crown-held",
+          "from": 1598,
+          "to": 1606,
+          "dateNote": "Expulsion later relaxed; property returned by James I in 1606.",
+          "form": "Buildings unchanged, partly used by the Crown (naval stores, per general literature).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Returned to the Hanse towns; much reduced activity",
+          "from": 1606,
+          "to": 1625,
+          "dateNote": "Only five merchants in 1623, none by 1632. Buildings mostly destroyed 1666; site sold 1853 for Cannon Street station.",
+          "form": "Unchanged fabric.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Building layout and heights (1988 excavations under Cannon Street station not consulted).",
+      "correctionsToDraft": "1598 closure confirmed; add 1606 restoration.",
+      "sources": [
+        {"title": "The Steelyard", "publisher": "The Map of Early Modern London (MoEML)", "url": "https://mapoflondon.uvic.ca/STEE2.htm"},
+        {"title": "Stow, A Survey of London (1603), 'Downegate warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp229-238"}
+      ]
+    },
+    {
+      "id": "queenhithe",
+      "name": "Queenhithe",
+      "lat": 51.5106,
+      "lon": -0.0950,
+      "phases": [
+        {
+          "label": "Declining inlet dock with corn garner",
+          "from": 1485,
+          "to": 1625,
+          "dateNote": "Stow (1603): 'a large receptacle for shippes, lighters, barges', rent 'sore diminished'; 'one large house for stowage of corne craned out of Lighters and Barges, is there lately builded' (bequest of Sir John Lyon, mayor 1554; enlarged by the City 1565). Above the bridge, so only lighters and barges reached it once the drawbridge ceased to be raised (c. 1500).",
+          "form": "Rectangular inlet dock open to the Thames surrounded by warehouses, with a corn and meal market and a large multi-storey garner beside it (from c. 1554-65).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Dock dimensions not given in Stow (the inlet survives)."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Form of the garner.",
+      "correctionsToDraft": "None.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Queene hith warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp1-11"}
+      ]
+    },
+    {
+      "id": "broken-wharf-water-engine",
+      "name": "Bevis Bulmer's water engine, Broken Wharf",
+      "lat": 51.5108,
+      "lon": -0.0968,
+      "phases": [
+        {
+          "label": "Engine house",
+          "from": 1594,
+          "to": 1625,
+          "dateNote": "Built 1594-95 (Stow).",
+          "form": "'One large house of great height, called an engine', a tall timber-framed pump tower raising Thames water (horse-driven chain pump per general literature) for Cheapside and the western City.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Height undocumented; conspicuous on the riverfront in Visscher and Hollar."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Height and how long it operated.",
+      "correctionsToDraft": "Not in draft; added because it is a visible riverfront landmark from 1594.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Queene hith warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp1-11"},
+        {"title": "Stow, A Survey of London (1603), 'Of the ancient and present rivers'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-19"}
+      ]
+    },
+    {
+      "id": "billingsgate",
+      "name": "Billingsgate",
+      "lat": 51.5089,
+      "lon": -0.0845,
+      "phases": [
+        {
+          "label": "Principal watergate and dock below the bridge",
+          "from": 1485,
+          "to": 1625,
+          "dateNote": "Stow (1603): 'a large Watergate, Port or Harbrough for shippes and boats', 'now more frequented then of olde time, when the Queenes Hith was vsed'. Made an open market for fish etc. in 1559 under the Legal Quays arrangements (Gresham lecture: designated for fish and other foods).",
+          "form": "Inlet dock open to the Thames flanked by quays (Somers Key, Smart's Key, Botolph Wharf to the west) where fish, shellfish, salt, oranges, onions and grain were landed; no market building is attested for this period.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Dock dimensions and surrounding building forms.",
+      "correctionsToDraft": "None.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Billinsgate warde'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp205-211"}
+      ]
+    },
+    {
+      "id": "rose-playhouse",
+      "name": "The Rose playhouse, Bankside",
+      "lat": 51.5074,
+      "lon": -0.0953,
+      "phases": [
+        {
+          "label": "Phase 1",
+          "from": 1587,
+          "to": 1592,
+          "dateNote": "Henslowe leased the Little Rose plot 1585; playhouse built 1587 with John Cholmley (complete by April 1588 per Survey of London).",
+          "form": "Small irregular 14-sided timber-framed polygon with lath-and-plaster walls and thatched roof on brick and chalk foundations; open yard, three galleries, tapered stage on the north side.",
+          "dimensions": {"lengthM": 22, "widthM": 22, "heightM": null, "note": "External diameter c. 71-72 ft (c. 22 m) from the 1989 excavation. Stage c. 37.5 ft wide at most by 15.5 ft deep (Folger). Height not recoverable from archaeology; c. 9-10 m to the eaves by analogy with the Fortune contract's 12+11+9 ft storeys (conjecture)."}
+        },
+        {
+          "label": "Phase 2 (enlarged)",
+          "from": 1592,
+          "to": 1606,
+          "dateNote": "Henslowe's alterations of 1591-92 moved the stage back 6 ft 6 in (2 m) and stretched the northern half, making an elongated plan; last playing 1603; lease not renewed; dismantled by 1606.",
+          "form": "As before but lengthened northwards with a roofed stage.",
+          "dimensions": {"lengthM": 24, "widthM": 22, "heightM": null, "note": "North-south length increased by c. 2 m; overall figure approximate."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "high",
+      "uncertainty": "Superstructure height and roof pitch; eastern third unexcavated in 1989.",
+      "correctionsToDraft": "14-sided and c. 22 m confirmed. Add the 1591-92 enlargement and removal by 1606.",
+      "sources": [
+        {"title": "1587-1644: Shakespeare's Bankside playhouses", "publisher": "MOLA", "url": "https://www.mola.org.uk/1587-1644"},
+        {"title": "Rose Theatre (citing Bowsher and Miller, The Rose and the Globe, MOLA 2009)", "publisher": "REED: Early Modern London Theatres", "url": "https://library2.utm.utoronto.ca/otra/reed/content/rose-theatre"},
+        {"title": "Shakespeare's Theater", "publisher": "Folger Shakespeare Library", "url": "https://www.folger.edu/explore/shakespeares-works/shakespeares-theater-from-the-folger-shakespeare-editions/"},
+        {"title": "Survey of London vol. 22, Bankside: The Bear Gardens and Playhouses", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/survey-london/vol22/pp66-77"}
+      ]
+    },
+    {
+      "id": "swan-playhouse",
+      "name": "The Swan playhouse, Paris Garden",
+      "lat": 51.5073,
+      "lon": -0.1046,
+      "phases": [
+        {
+          "label": "Playhouse",
+          "from": 1595,
+          "to": 1632,
+          "dateNote": "Francis Langley bought the manor 1589; foundations probably laid by November 1594; complete probably spring 1595, certainly by 1596. De Witt sketched the interior c. 1596. Regular playing ceased c. 1598; revived c. 1611-15; 'olde playe house' on a 1627 plan; decayed by 1632.",
+          "form": "Large polygonal (near-round) timber playhouse with three galleries, tiring house with a hut and flag, and a rectangular stage with two great columns under a stage roof. De Witt says flint-work with timber columns painted as marble and a capacity of 3,000 (not confirmed on the MoEML page). Stood c. 400 ft (120 m) south of the river.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Never excavated. Hosley's reconstruction proposes a 24-sided polygon; diameter c. 30 m is conjecture by analogy with the Globe."}
+        }
+      ],
+      "evidence": "attested-pictorial",
+      "confidence": "medium",
+      "uncertainty": "Exact site, diameter, number of sides and walling material.",
+      "correctionsToDraft": "1595 is right for completion (begun 1594).",
+      "sources": [
+        {"title": "The Swan", "publisher": "The Map of Early Modern London (MoEML)", "url": "https://mapoflondon.uvic.ca/SWAN1.htm"},
+        {"title": "Survey of London vol. 22, Bankside: The Bear Gardens and Playhouses", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/survey-london/vol22/pp66-77"}
+      ]
+    },
+    {
+      "id": "globe-playhouse",
+      "name": "The Globe playhouse (first and second)",
+      "lat": 51.5067,
+      "lon": -0.0948,
+      "phases": [
+        {
+          "label": "First Globe (thatched)",
+          "from": 1599,
+          "to": 1613,
+          "dateNote": "Lease January 1598/9; built 1599 by Peter Street from the timbers of the Theatre (dismantled Christmas 1598); 'newly built' by mid-1599. Burned 29 June 1613 when stage cannon wadding set the thatch alight during Henry VIII; gone 'within an hour'.",
+          "form": "Large polygonal open-yard playhouse: brick base, oak frame with lath and hair-plaster infill, three galleries, thatched gallery roof, tiring house and stage cover with a hut; two external stair turrets.",
+          "dimensions": {"lengthM": 30, "widthM": 30, "heightM": null, "note": "Diameter c. 100 ft (c. 30 m) is an extrapolation from a small excavated arc (1989; roughly 5-10 percent of the plan). Number of sides uncertain: 20 (Orrell's reading, used for the modern reconstruction) or 16-18 (reading reported via REED/Bowsher and Miller). Height to eaves unknown; c. 10 m by analogy with the Fortune contract (conjecture)."}
+        },
+        {
+          "label": "Second Globe (tiled)",
+          "from": 1614,
+          "to": 1644,
+          "dateNote": "Rebuilt on the same brick foundations 1613-14 (open by June 1614); playing stopped September 1642; pulled down 1644 (traditional date; certainly gone by 1655).",
+          "form": "Same plan and size, more elaborately finished, with a tiled roof and (per Hollar's 1630s-40s drawing) a large twin-gabled superstructure over stage and yard.",
+          "dimensions": {"lengthM": 30, "widthM": 30, "heightM": null, "note": "As above."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Diameter, number of sides, height and stage layout are all reconstructions; most of the site lies under listed Anchor Terrace and cannot be excavated.",
+      "correctionsToDraft": "Dates confirmed (29 June 1613; rebuilt by 1614). '20-sided, c. 30 m' should be flagged as an extrapolation, not an excavated fact; 16-18 sides is also argued.",
+      "sources": [
+        {"title": "The Globe", "publisher": "Shakespeare's Globe", "url": "https://www.shakespearesglobe.com/discover/shakespeares-world/the-globe/"},
+        {"title": "Globe Theatre (citing Bowsher and Miller 2009; Blatherwick and Gurr 1992)", "publisher": "REED: Early Modern London Theatres", "url": "https://library2.utm.utoronto.ca/otra/reed/content/globe-theatre"},
+        {"title": "Shakespeare's Theater", "publisher": "Folger Shakespeare Library", "url": "https://www.folger.edu/explore/shakespeares-works/shakespeares-theater-from-the-folger-shakespeare-editions/"},
+        {"title": "Blatherwick and Gurr, 'Shakespeare's factory: archaeological evaluations on the site of the Globe Theatre', Antiquity 66 (1992), abstract page", "publisher": "Cambridge University Press", "url": "https://www.cambridge.org/core/journals/antiquity/article/abs/shakespeares-factory-archaeological-evaluations-on-the-site-of-the-globe-theatre-at-115-anchor-terrace-southwark-bridge-road-southwark/AF3ABBF52A9B8597D803A5530103285F"},
+        {"title": "Survey of London vol. 22, Bankside: The Bear Gardens and Playhouses", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/survey-london/vol22/pp66-77"}
+      ]
+    },
+    {
+      "id": "bear-garden-hope",
+      "name": "Bear Garden and the Hope playhouse, Bankside",
+      "lat": 51.5078,
+      "lon": -0.0960,
+      "phases": [
+        {
+          "label": "Bear-baiting rings",
+          "from": 1546,
+          "to": 1613,
+          "dateNote": "Bankside baiting first referenced 1546. Stow (1603) describes 'the olde and new places, wherein be kept Beares, Buls and other beastes to be bayted ... in plottes of ground, scaffolded about for the Beholders'. The rings moved several times; Henslowe and Alleyn held the Mastership of the Game from 1604. Start year is the first documentary reference, not a construction date.",
+          "form": "One or two open circular timber amphitheatres with scaffold galleries, with kennels and ponds, between the river and Maid Lane.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Undocumented in sources fetched (bear-garden remains were excavated in the 2000s and scheduled; the Historic England entries were not accessible)."}
+        },
+        {
+          "label": "The Hope (dual-purpose playhouse and baiting house)",
+          "from": 1614,
+          "to": 1656,
+          "dateNote": "Contract 29 August 1613 with carpenter Gilbert Katherens to pull down the old Bear Garden and build a playhouse to the Swan's dimensions, 360 pounds; brickwork articles 8 September 1613; open 1614. Pulled down 25 March 1656 (MS note cited by the Survey of London).",
+          "form": "Polygonal timber playhouse on brick foundations, modelled on the Swan, with a removable stage on trestles and a stage roof carried without posts so the yard could be cleared for baiting; tiled roof (contract terms per general literature).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Lower-storey principal posts 12 ft high and 10 in square. Diameter 'as the Swan', itself unknown."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Exact positions of successive rings; diameter and sides of the Hope.",
+      "correctionsToDraft": "1613-14 confirmed. Note Hollar's 1647 Long View swaps the labels of the Hope ('Beere bayting') and the Globe.",
+      "sources": [
+        {"title": "Survey of London vol. 22, Bankside: The Bear Gardens and Playhouses", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/survey-london/vol22/pp66-77"},
+        {"title": "Henslowe-Alleyn Digitisation Project: Muniments Series 1, Groups 049 and 051 (Hope contract and brickwork articles)", "publisher": "Henslowe-Alleyn Digitisation Project / Dulwich College", "url": "https://henslowe-alleyn.org.uk/catalogue/muniments-series-1/group-051/"},
+        {"title": "Stow, A Survey of London (1603), 'Bridge warde without'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp52-69"}
+      ]
+    },
+    {
+      "id": "fortune-playhouse",
+      "name": "The Fortune playhouse, Golden Lane (outside the core area)",
+      "lat": 51.5226,
+      "lon": -0.0937,
+      "phases": [
+        {
+          "label": "First Fortune",
+          "from": 1600,
+          "to": 1621,
+          "dateNote": "Contract 8 January 1599/1600 between Peter Street and Henslowe and Alleyn, 440 pounds, due 25 July 1600. Burned December 1621.",
+          "form": "Square timber-framed playhouse on brick-and-pile foundations at least 1 ft above ground, three galleries with the upper two jettied 10 in, plastered outside (general literature) and tiled, stage 43 ft wide reaching to the middle of the yard.",
+          "dimensions": {"lengthM": 24.4, "widthM": 24.4, "heightM": 10, "note": "80 ft square outside, 55 ft (16.8 m) square yard; gallery storeys 12, 11 and 9 ft (total 32 ft, c. 9.75 m to the wall plate, plus foundation plinth); galleries 12.5 ft deep. Roof height above the plate not specified."}
+        },
+        {
+          "label": "Second Fortune",
+          "from": 1622,
+          "to": 1625,
+          "dateNote": "Rebuilt soon after the fire on the same site (c. 1622-23); said to have been brick and round in later accounts (not verified).",
+          "form": "Replacement playhouse on the same site.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Form of the second Fortune. North of the City wall near Cripplegate, so probably outside the modelled area; included because its contract is the best source for playhouse heights.",
+      "correctionsToDraft": "1600 confirmed. The Theatre (1576-98) and Curtain (1577-c.1620s) in Shoreditch are outside the area; the Theatre's timbers became the Globe in 1599.",
+      "sources": [
+        {"title": "The Contract for the Fortune Playhouse (1600), Muniment 22", "publisher": "Henslowe-Alleyn Digitisation Project / Dulwich College", "url": "https://henslowe-alleyn.org.uk/essays/the-contract-for-the-fortune-playhouse-1600/"}
+      ]
+    },
+    {
+      "id": "tower-of-london-tudor",
+      "name": "Tower of London (changes 1485-1625)",
+      "lat": 51.5081,
+      "lon": -0.0759,
+      "phases": [
+        {
+          "label": "Late medieval fortress and palace",
+          "from": 1485,
+          "to": 1532,
+          "dateNote": "1512 fire damaged the chapel of St Peter ad Vincula (Stow says 'the Chappell in the high white tower was burned'); St Peter rebuilt 1519-20 (final payment September 1520).",
+          "form": "Concentric stone fortress with the Norman White Tower, royal lodgings to its south, wet moat and wharf.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not compiled here; standing monument."}
+        },
+        {
+          "label": "Henry VIII's works",
+          "from": 1532,
+          "to": 1603,
+          "dateNote": "Stow: 'Henrie the 8. in 1532. repayred the white tower, and other parts'; lodgings refurbished for Anne Boleyn's coronation 1533; the White Tower's turrets received their onion-dome caps in Henry's reign (date not given in the source; usually c. 1532-33); new Jewel House 1540; timber-framed Lieutenant's Lodgings (later 'Queen's House') c. 1540 (secondary search result). 1548: a gunpowder explosion blew up a round bulwark.",
+          "form": "As before with lead ogee caps on the four White Tower turrets, new timber-framed lodgings in the south-west corner, brick bulwarks at the western entrance, and guns on the wharf. Increasingly armoury, store, mint, menagerie and prison rather than residence.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Jacobean Tower",
+          "from": 1603,
+          "to": 1625,
+          "dateNote": "No major structural change verified for 1603-25 in sources fetched; royal lodgings decayed and Ordnance storehouses multiplied (general literature, unverified).",
+          "form": "As above.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "medium",
+      "uncertainty": "Historic Royal Palaces pages were not accessible (HTTP 403), so the dates of the turret caps, Queen's House and Ordnance buildings rest on secondary sources. The 1597 Haiward and Gascoyne survey is the key plan for this period (not consulted).",
+      "correctionsToDraft": "No draft dates supplied. Key visual change: onion-capped White Tower turrets from the early 1530s.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Of Towers and Castels'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"},
+        {"title": "The Chapel of St Peter ad Vincula", "publisher": "The Chapels Royal, HM Tower of London", "url": "https://www.thechapelsroyalhmtoweroflondon.org.uk/welcome/the-chapel-of-st-peter-ad-vincula"},
+        {"title": "Tower of London, Middlesex (Henry VIII's houses project)", "publisher": "Brigham Young University", "url": "https://henryviiihouses.byu.edu/?p=1064"}
+      ]
+    },
+    {
+      "id": "city-wall-and-ditch",
+      "name": "City wall and ditch (state c. 1600)",
+      "lat": 51.5175,
+      "lon": -0.0900,
+      "phases": [
+        {
+          "label": "Wall standing, ditch silting and encroached upon",
+          "from": 1485,
+          "to": 1625,
+          "dateNote": "Wall partly rebuilt in brick 1477 (Mayor Jocelyn). Ditch (dug 1211-13, said to be 200 ft broad) cleansed 1519, 1540, 1549, 1569 and partly 1595, but by 1603 'stopped vp for Gardens planted, and houses builded thereon, euen to the verie wall'.",
+          "form": "Roman and medieval stone wall with brick repairs and battlements, largely hidden by houses built against both faces; no wall along the river ('long since subverted'). Ditch reduced to a narrow channel or filled with gardens and tenements, e.g. Houndsditch.",
+          "dimensions": {"lengthM": 3233, "widthM": null, "heightM": null, "note": "Stow's landward circuit from the Tower to the Thames at Blackfriars: 643 perches, which he reckons as 10,608 ft ('two English miles and more'). Wall height not given by Stow."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Surviving height and degree of encroachment at each point.",
+      "correctionsToDraft": "None.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'The wall about the Citie of London'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp5-10"},
+        {"title": "Stow, A Survey of London (1603), 'The ditch sometimes compassing the wall'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp19-20"}
+      ]
+    },
+    {
+      "id": "ludgate",
+      "name": "Ludgate",
+      "lat": 51.5139,
+      "lon": -0.1020,
+      "phases": [
+        {
+          "label": "Medieval gate and prison",
+          "from": 1485,
+          "to": 1586,
+          "dateNote": "Images of Lud and other kings had their heads struck off under Edward VI and replaced under Mary.",
+          "form": "Stone gate with the debtors' prison quadrant on its south-east side (enlarged 1463).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Elizabethan rebuild",
+          "from": 1586,
+          "to": 1625,
+          "dateNote": "Taken down and 'newly and beautifully builded' in 1586 at the citizens' charge, '1500 poundes or more' (Stow). Demolished 1760.",
+          "form": "New stone gate with statues of King Lud and others on the east (City) side and of Queen Elizabeth on the west side.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Undocumented in Stow."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Dimensions and storeys.",
+      "correctionsToDraft": "1586 confirmed.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Gates in the wall of this Citie'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp27-44"}
+      ]
+    },
+    {
+      "id": "aldgate",
+      "name": "Aldgate",
+      "lat": 51.5135,
+      "lon": -0.0768,
+      "phases": [
+        {
+          "label": "Medieval gate",
+          "from": 1485,
+          "to": 1606,
+          "dateNote": "Stow (1603): of two pairs of gates and two portcullises, one of each remained. Taken down 1606.",
+          "form": "Double stone gate with flanking towers.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Jacobean rebuild",
+          "from": 1609,
+          "to": 1625,
+          "dateNote": "Rebuilt 1607-09 (Harben; MoEML gives 1609). Removed 1761.",
+          "form": "New stone gate with a statue of James I on the outer face (other statuary per later descriptions, not verified).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Undocumented in sources fetched."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Appearance and dimensions; the gate site was absent 1606-07 to 1609.",
+      "correctionsToDraft": "1607-09 confirmed (old gate down 1606).",
+      "sources": [
+        {"title": "Aldgate", "publisher": "The Map of Early Modern London (MoEML)", "url": "https://mapoflondon.uvic.ca/ALDG1.htm"},
+        {"title": "Aldgate (reproducing Harben, A Dictionary of London, 1918)", "publisher": "The Grub Street Project", "url": "https://grubstreetproject.net/places/42"},
+        {"title": "Stow, A Survey of London (1603), 'Gates in the wall of this Citie'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp27-44"}
+      ]
+    },
+    {
+      "id": "aldersgate",
+      "name": "Aldersgate",
+      "lat": 51.5166,
+      "lon": -0.0969,
+      "phases": [
+        {
+          "label": "Medieval gate with timber additions",
+          "from": 1485,
+          "to": 1617,
+          "dateNote": "Stow (1603) notes timber additions on the inner south and east sides; the printer John Day lived over it.",
+          "form": "Stone gate much enlarged with timber-framed lodgings.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Jacobean rebuild",
+          "from": 1617,
+          "to": 1625,
+          "dateNote": "Taken down and rebuilt 1617 (Harben); design attributed to Gerard Christmas (search result). Removed 1761.",
+          "form": "New stone gate; later descriptions record an equestrian relief of James I on the north front (not verified in a fetched source).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Undocumented."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Appearance and dimensions.",
+      "correctionsToDraft": "1617 confirmed. Other gates: Bishopsgate (1479 gate still standing), Moorgate (1415/1472, heightened), Cripplegate (rebuilt 1491), Newgate (15th century, a gaol) all unchanged through 1625 as far as Stow records; the Tower postern, collapsed 1440, was only a 'weake and wooden building'.",
+      "sources": [
+        {"title": "Aldersgate (reproducing Harben, A Dictionary of London, 1918)", "publisher": "The Grub Street Project", "url": "https://grubstreetproject.net/places/34"},
+        {"title": "Stow, A Survey of London (1603), 'Gates in the wall of this Citie'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp27-44"}
+      ]
+    },
+    {
+      "id": "moorfields",
+      "name": "Moorfields",
+      "lat": 51.5187,
+      "lon": -0.0870,
+      "phases": [
+        {
+          "label": "Marshy common, progressively drained",
+          "from": 1485,
+          "to": 1605,
+          "dateNote": "Drainage attempts 1511-12 (Mayor Achley: dikes and bridges) and 1527 (sluices to the Walbrook); used for archery, laundry-drying (shown on the Copperplate map) and recreation.",
+          "form": "Open, wet ground north of the wall crossed by ditches and causeways.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Laid out as public walks",
+          "from": 1605,
+          "to": 1625,
+          "dateNote": "Drained, levelled and planted 1605-07 at the City's charge (described in Richard Johnson, The Pleasant Walkes of Moore-Fields, 1607). A secondary source gives 1606.",
+          "form": "Level rectangular quarters divided by gravel walks in a cross pattern, lined with young trees and railed: London's first laid-out public park.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Area not given in the source."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Exact layout and extent in 1607 (later shown by Faithorne and Newcourt, 1658).",
+      "correctionsToDraft": "1605-07 confirmed.",
+      "sources": [
+        {"title": "Moorfields", "publisher": "The Map of Early Modern London (MoEML)", "url": "https://mapoflondon.uvic.ca/MOOR1.htm"},
+        {"title": "Stow, A Survey of London (1603), 'Gates in the wall of this Citie'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp27-44"}
+      ]
+    },
+    {
+      "id": "walbrook-culverted",
+      "name": "Walbrook (covered stream)",
+      "lat": 51.5100,
+      "lon": -0.0915,
+      "phases": [
+        {
+          "label": "Entirely vaulted over and built upon",
+          "from": 1485,
+          "to": 1625,
+          "dateNote": "Order of 2 Edward IV (1462-63) that owners 'should vault and paue it ouer'; Stow (1598/1603): 'vaulted ouer with bricke, and paued leuell with the Streetes and Lanes ... since that also houses have beene builded thereon, so that the course of Walbroke is now hidden vnder ground'. The start year here is the timelapse period boundary, not the culverting date.",
+          "form": "No surface watercourse within the walls; a brick-vaulted sewer under streets and houses discharging at Dowgate.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "How complete the covering was c. 1500 versus c. 1600; open stretches may have lingered north of the wall towards Moorfields.",
+      "correctionsToDraft": "Confirmed; culverting was largely a later-15th-century process, complete by Stow's day.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Of the ancient and present rivers'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-19"},
+        {"title": "Stow, A Survey of London (1603), 'Bridges of this Citie'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp21-27"}
+      ]
+    },
+    {
+      "id": "fleet-river",
+      "name": "River Fleet / Fleet Dike",
+      "lat": 51.5130,
+      "lon": -0.1045,
+      "phases": [
+        {
+          "label": "Open, choked tidal ditch",
+          "from": 1485,
+          "to": 1625,
+          "dateNote": "Scoured to the Thames in 1502 so that boats again reached Fleet Bridge and Holborn Bridge; a fifteenth was levied in 1589 to cleanse it but 'the effect fayled, so that the Brooke ... is now become woorse cloyed and choken then euer it was before' (Stow). Not covered or canalised until after 1666.",
+          "form": "Open, foul channel between Bridewell and Blackfriars, crossed by the stone Fleet Bridge ('faire coaped, on either side with iron pikes', 1431) and Holborn Bridge, lined with wharves, latrines and encroaching houses; a stretch beside the Fleet prison was vaulted over.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Width not given by Stow."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Channel width at each point and how far up barges still went c. 1600.",
+      "correctionsToDraft": "None; show as an open but degraded channel throughout.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'Of the ancient and present rivers'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-19"},
+        {"title": "Stow, A Survey of London (1603), 'Bridges of this Citie'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp21-27"}
+      ]
+    },
+    {
+      "id": "new-river",
+      "name": "New River and New River Head (north of the modelled area)",
+      "lat": 51.5290,
+      "lon": -0.1070,
+      "phases": [
+        {
+          "label": "Construction",
+          "from": 1609,
+          "to": 1613,
+          "dateNote": "Built 1609-13 under Hugh Myddelton (authorising Acts 1606-07; some sources give 1604 or 1608 starts).",
+          "form": "Open contour canal c. 38-42 miles long from springs at Chadwell and Amwell, Hertfordshire.",
+          "dimensions": {"lengthM": 62000, "widthM": null, "heightM": null, "note": "38-42 miles; width c. 10 ft per general literature (unverified)."}
+        },
+        {
+          "label": "In operation",
+          "from": 1613,
+          "to": null,
+          "dateNote": "Ceremonial opening at New River Head, Clerkenwell, on Michaelmas Day, 29 September 1613 (Survey of London vol. 47 via search); company chartered 1619.",
+          "form": "Circular reservoir pond and cistern house on the hill at Clerkenwell (Commandery Mantles), feeding the City by gravity through pipes (bored elm trunks per general literature).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Form of the 1613 pond and waterhouse.",
+      "correctionsToDraft": "1613 confirmed (29 September).",
+      "sources": [
+        {"title": "A short history of the New River", "publisher": "The London Archives (formerly London Metropolitan Archives)", "url": "https://www.thelondonarchives.org/blog/a-short-history-of-the-new-river"}
+      ]
+    },
+    {
+      "id": "population-growth",
+      "name": "Population of London c. 1500-1625",
+      "lat": 51.5130,
+      "lon": -0.0900,
+      "phases": [
+        {"label": "c. 1500: about 50,000", "from": 1485, "to": 1549, "dateNote": "Widest definition of London; some argue it was no larger than in 1380 (c. 50-55,000).", "form": "City within the walls densely built; modest ribbon suburbs at the bars, Southwark and Westminster.", "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Population estimate 50,000."}},
+        {"label": "c. 1550: about 70,000-80,000", "from": 1550, "to": 1579, "dateNote": "70,000 (Finlay), 75,000 (encyclopedia summary), 60-80,000 (Harding's range, via search).", "form": "Dissolution precincts being filled with housing.", "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Population estimate c. 75,000."}},
+        {"label": "c. 1580: about 100,000", "from": 1580, "to": 1599, "dateNote": "Finlay.", "form": "Rapid suburban growth east, north and south.", "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Population estimate 100,000."}},
+        {"label": "c. 1600: about 200,000", "from": 1600, "to": 1624, "dateNote": "Consensus figure for the whole metropolis.", "form": "Continuous building from Westminster to Wapping and Shoreditch to St George's Southwark.", "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Population estimate 200,000."}},
+        {"label": "c. 1625: roughly 260,000-320,000 (interpolated)", "from": 1625, "to": 1625, "dateNote": "No sourced figure found for 1625; interpolated between c. 200,000 (1600) and c. 400,000 (1650). The plague of 1625 killed tens of thousands (unverified here).", "form": "", "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Interpolation, not a cited estimate."}}
+      ],
+      "evidence": "reconstructed",
+      "confidence": "medium",
+      "uncertainty": "All figures are modern reconstructions from parish registers and bills of mortality and depend on the area counted (City only, or City plus suburbs, Southwark and Westminster). 1625 is my interpolation.",
+      "correctionsToDraft": "No draft figures supplied.",
+      "sources": [
+        {"title": "London, growth of", "publisher": "Encyclopedia.com (Gale, Europe 1450-1789)", "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/london-growth"},
+        {"title": "R. Finlay, Population and Metropolis: The Demography of London 1580-1650, ch. 'The general growth of population in London' (summary)", "publisher": "Cambridge University Press", "url": "https://www.cambridge.org/core/books/population-and-metropolis/general-growth-of-population-in-london/34DBFB9DA37E2BAA2820EBFD3371287A"}
+      ]
+    },
+    {
+      "id": "suburban-expansion",
+      "name": "Suburban expansion c. 1540-1625 (Southwark, riverside east, Strand, Holborn, Shoreditch)",
+      "lat": 51.5100,
+      "lon": -0.0700,
+      "phases": [
+        {
+          "label": "Limited ribbon suburbs",
+          "from": 1485,
+          "to": 1559,
+          "dateNote": "Baseline shown by Wyngaerde (c. 1544) and the Copperplate map (1550s).",
+          "form": "Building mostly confined to main roads out of the gates, Southwark High Street and Bankside, with open fields behind.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Elizabethan and Jacobean sprawl",
+          "from": 1560,
+          "to": 1625,
+          "dateNote": "Stow, 1598/1603, describing change within his lifetime ('within these 40 yeares').",
+          "form": "East: 'a continuall streete, or filthy straight passage, with Alleyes of small tenements or cottages' from St Katharine's through Wapping almost to Ratcliff; Whitechapel 'pestered with Cottages, and Allies'. North: 'a continuall building of small and base tenements, for the most part lately erected' from Bishopsgate towards Shoreditch; Holywell priory site built over. West: 'many fayre houses' along Holborn and Chancery/Fetter Lanes; the Strand lined with great houses and tenement rows. South: Bankside 'a continuall building of tenements, about halfe a mile in length to the bridge', Long Southwark built on both sides to St George's church; five prisons; the stews suppressed 1546. Low, cheap timber housing of one to three storeys in the poor suburbs.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Bankside tenement row c. half a mile (c. 800 m) west of the bridge; south bank built frontage 'more than a large mile'."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Decade-by-decade extent must be interpolated between the map sources (1550s Copperplate/Agas, 1593 Norden, 1616 Visscher, 1658 Faithorne and Newcourt). Covent Garden remained enclosed pasture and garden until 1630-31.",
+      "correctionsToDraft": "None.",
+      "sources": [
+        {"title": "Stow, A Survey of London (1603), 'The Suburbs without the walls'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp69-91"},
+        {"title": "Stow, A Survey of London (1603), 'Bridge warde without'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp52-69"},
+        {"title": "Stow, A Survey of London (1603), 'The warde of Faringdon extra, or without'", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp20-52"}
+      ]
+    },
+    {
+      "id": "typical-houses-and-brick-proclamations",
+      "name": "Ordinary house construction c. 1500-1625 and the Jacobean brick proclamations",
+      "lat": 51.5130,
+      "lon": -0.0900,
+      "phases": [
+        {
+          "label": "Timber-framed city",
+          "from": 1485,
+          "to": 1604,
+          "dateNote": "Schofield (via search): throughout 1100-1600 the majority of secular buildings were timber-framed, 'with brick later on'; narrow two-room-plan street houses known from c. 1390 had reached 3.5 storeys by 1600; Treswell's surveys of 1610-12 show largely timber-framed houses, many already old.",
+          "form": "Narrow-fronted (c. 3-6 m) oak-framed houses with lath-and-plaster infill, each upper floor jettied out over the street, gables to the street, clay-tiled roofs (thatch long prohibited in the City), brick chimney stacks and cellars; 2-3 storeys in back alleys and suburbs, 3-4 plus garret on main streets, 4-5 in the richest streets and on London Bridge. Brick and stone confined to great houses, company halls, churches, and garden walls.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Typical main-street house 3.5 storeys, roughly 10-13 m to the ridge (my estimate from storey counts, not a cited figure). London Bridge plots c. 10 ft wide; Cheapside 7 ft, Poultry 13 ft 6 in, Cornhill and Broad Street 15-20 ft (Gerhold-based account)."}
+        },
+        {
+          "label": "Brick required by proclamation, little changed in practice",
+          "from": 1605,
+          "to": 1625,
+          "dateNote": "Proclamations of 1605 (new houses within a mile of the suburbs to have walls, windows and forefront of brick or brick and stone), with re-issues and variations in 1607, 1611, 1615 and 1618/19 (limited building in brick or stone under licence) and 1624-25. James I's boast (1615) of finding London 'of sticks' and leaving it 'of brick' was 'far from the truth'.",
+          "form": "A scattering of new flat-fronted brick houses without jetties on main streets and in new western developments; the great majority of the stock still jettied timber, and timber building continued off the main streets and in the eastern suburbs. Enforcement was erratic: fines, occasional imprisonment (e.g. 1616) or demolition.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Proportion of brick fronts by 1625 is unquantified; it was small. I could not open the proclamation texts themselves (catalogue pages blocked), so the wording is from secondary summaries. Roof-material and thatch statements are general knowledge not tied to a fetched source.",
+      "correctionsToDraft": "The proclamations begin in 1605 and recur (1607, 1611, 1615, 1618/19, 1624-25); for a 1625 model keep the city overwhelmingly timber with tile roofs and only isolated brick fronts.",
+      "sources": [
+        {"title": "W. C. Baer, 'The house-building sector of London's economy, 1550-1650', Urban History (2012), abstract", "publisher": "Cambridge University Press", "url": "https://www.cambridge.org/core/journals/urban-history/article/abs/housebuilding-sector-of-londons-economy-15501650/636A7A421687F51A5252390C038870A6"},
+        {"title": "In brief: Early Stuart London (secondary)", "publisher": "The History of London", "url": "https://thehistoryoflondon.co.uk/in-brief-early-stuart-period/2"},
+        {"title": "Life across the water: exploring London Bridge and its houses (plot widths)", "publisher": "Current Archaeology 391 / The Past", "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/"}
+      ]
+    }
+  ],
+  "visualReferences": [
+    {
+      "title": "Panorama of London as seen from Southwark (pen and ink over chalk, in sections)",
+      "maker": "Anthonis van den Wyngaerde",
+      "date": "c. 1543-44",
+      "institution": "Ashmolean Museum, Oxford (Sutherland Collection; accession WA1950.206.x reported by image agencies, not verified on the Ashmolean's own site)",
+      "url": "https://londontopsoc.org/product/the-panorama-of-london-circa-1544/",
+      "reliability": "The earliest detailed view and the best single source for the pre-Reformation riverfront and London Bridge before Nonsuch House: shows the drawbridge tower, chapel, Stone Gate, St Paul's with its spire, Baynard's Castle and the friaries. Drawn from life with colour notes, but assembled from several viewpoints, with heights exaggerated and some sheets unfinished. The URL is the London Topographical Society's facsimile edition (Colvin and Foister 1996); I could not retrieve an Ashmolean catalogue record."
+    },
+    {
+      "title": "The 'Copperplate' map of London (three surviving engraved plates of an original 15)",
+      "maker": "Unknown; plates probably engraved in the Netherlands (one plate attributed to Frans Franken)",
+      "date": "c. 1553-59",
+      "institution": "London Museum (Moorfields plate 62.75; eastern City plate 85.471); Dessau, Anhaltische Gemaeldegalerie (St Paul's plate)",
+      "url": "https://www.londonmuseum.org.uk/collections/v/object-104949/the-copperplate-map-the-assumption-of-the-virgin/",
+      "reliability": "The earliest and most detailed map-view and the parent of the 'Agas' and Braun and Hogenberg maps; careful bird's-eye rendering of individual buildings. The surviving plates do not include London Bridge or the riverfront east of St Paul's, so for the bridge it is only usable via its derivatives."
+    },
+    {
+      "title": "Civitas Londinum (the 'Agas' woodcut map), eight sheets",
+      "maker": "Anonymous; the attribution to Ralph Agas is 'certainly erroneous'",
+      "date": "Cut c. 1561-70; all three surviving impressions printed after 1603, c. 1633",
+      "institution": "The London Archives (formerly London Metropolitan Archives); also The National Archives, Kew, and the Pepys Library, Magdalene College, Cambridge",
+      "url": "https://www.thelondonarchives.org/your-research/civitas-londinum-our-oldest-printed-map",
+      "reliability": "Coarser woodcut derivative of the Copperplate map at about 28 inches to the mile; complete coverage including the bridge, Bankside bull- and bear-baiting rings and the Strand. Shows St Paul's without its spire (so after 1561); the surviving state has Jacobean alterations (James I's arms) and damaged block edges, so the sheets do not join well. Buildings are conventionalised; trust street pattern and landmarks rather than house detail. A zoomable edition is at https://mapoflondon.uvic.ca/agas.htm."
+    },
+    {
+      "title": "Londinum Feracissimi Angliae Regni Metropolis, in Civitates Orbis Terrarum vol. 1",
+      "maker": "Georg Braun (editor) and Frans Hogenberg (engraver)",
+      "date": "1572 (London Museum copy is the 2nd edition, 1574)",
+      "institution": "London Museum (29.147/1)",
+      "url": "https://www.londonmuseum.org.uk/collections/v/object-118559/londinum-feracissimi-angliae-regni-metropolis/",
+      "reliability": "A reduced copy of the Copperplate map of c. 1558: it shows the city before 1561 (St Paul's still has its spire) despite the 1572 date; the Royal Exchange was only added in the second edition. Small scale, so London Bridge is schematic. Useful for overall extent c. 1555-60, not for individual buildings."
+    },
+    {
+      "title": "The view of London Bridge from east to west",
+      "maker": "John Norden",
+      "date": "Engraved 1597 (dedicated to Lord Mayor Sir Richard Saltonstall); surviving mainly in a 1624 reissue and the London Topographical Society's 1919 facsimile",
+      "institution": "Facsimile record: Texas A&M University Libraries (Cushing Library, Stephen Powys Marks London Collection). Original impressions are reported at the Folger Shakespeare Library and British Museum (records not retrievable; BM 1859,1210.1004 is an 1804 copy).",
+      "url": "https://spotlight.library.tamu.edu/spotlight/london-maps-batch-2/catalog/f26b4f70ead67e8f5052815f36da57b2",
+      "reliability": "The most detailed Elizabethan view of the bridge alone, taken from the east (downstream) side: shows Nonsuch House, the Chapel House, the Stone Gate with heads, the waterworks and the starlings. Norden himself calls it a 'rude Conterfeite'; arch count and proportions are approximate and the river danger is dramatised. Its caption text gives 'nearly 800 feet' long, 60 ft high, 30 ft broad and over 100 households. Discussed at https://www.penn.museum/sites/journal/1056."
+    },
+    {
+      "title": "Civitas Londini (panorama from Southwark with inset maps)",
+      "maker": "John Norden",
+      "date": "1600",
+      "institution": "De la Gardie Collection, Royal Library / Nationalmuseum, Stockholm (only complete impression); British Museum 1880,1113.1120 is reported but unverified",
+      "url": "https://en.wikipedia.org/wiki/Visscher_panorama",
+      "reliability": "Not fetched from an institutional record (the URL is the Wikipedia lead that describes it). An eyewitness panorama by a professional surveyor and the probable source for Visscher; shows the Bankside playhouses as polygonal. Prefer it to Visscher where the two disagree."
+    },
+    {
+      "title": "Londinum Florentissima Britanniae Urbs (the Visscher panorama), four sheets",
+      "maker": "Claes Jansz. Visscher, published by Jodocus Hondius, Amsterdam",
+      "date": "1616 (depicting London c. 1600)",
+      "institution": "British Library and Folger Shakespeare Library hold original impressions (records not retrievable); British Museum holds later impressions and copies; London Museum holds an 1846 facsimile",
+      "url": "https://en.wikipedia.org/wiki/Visscher_panorama",
+      "reliability": "Iconic but second-hand: Visscher probably never visited London and the view was compiled from Norden's Civitas Londini and other sources, possibly through Hondius or Pieter van den Keere. Known faults: the Thames is straightened, viewpoints are mixed, the Globe is shown as a tall octagon (archaeology indicates a much broader polygon of 16-20 sides), and the playhouses are mislocated. The bridge is drawn in convincing detail (Nonsuch House, heads on the Stone Gate) but house heights and numbers are stylised. No institutional record could be fetched (British Museum and Folger returned HTTP 403); the URL is a lead only."
+    },
+    {
+      "title": "London [the Long View] from Bankside, seven sheets (sheet two: RCIN 805316)",
+      "maker": "Wenceslaus Hollar",
+      "date": "1647 (etched in Antwerp from drawings made in London c. 1636-44)",
+      "institution": "Royal Collection Trust (RCIN 805308-805321); also British Museum",
+      "url": "https://col.rct.uk/collection/805316/london-the-long-view",
+      "reliability": "After the period, but the most accurate pre-Fire panorama, drawn from the tower of St Saviour's (Southwark Cathedral). Shows the bridge after the 1633 fire (gap at the north end) with Nonsuch House, and the second Globe and the Hope with their labels swapped ('Beere bayting' is actually the Globe). Use it for building forms that had not changed since 1625, and subtract Inigo Jones's St Paul's portico and Covent Garden."
+    },
+    {
+      "title": "Depictions of Nonsuch House",
+      "maker": "Various: Norden (1597), Visscher (1616), Hollar (1647); later prints and H. W. Brewer's reconstruction (published 1921)",
+      "date": "1597 onwards",
+      "institution": "See entries above; later prints in the British Museum and London Picture Archive (not individually verified)",
+      "url": "https://www.ianvisits.co.uk/blog/2021/02/24/london-bridges-lost-nonsuch-house/",
+      "reliability": "No measured contemporary drawing of Nonsuch House is known. The period evidence is its small-scale appearance in Norden, Visscher and Hollar; the detailed images usually reproduced are 18th-century prints made after alterations or 19th-20th-century reconstructions and should be treated as conjecture. Gerhold (London Bridge and its Houses, 2019) uses the Bridge House leases and accounts for its dimensions and paint; Peter Urmston's and Stephen Conlin's modern reconstructions follow him."
+    },
+    {
+      "title": "A Survey of London (text): 'Bridges of this Citie', 'Of Towers and Castels', 'Bridgewarde within'",
+      "maker": "John Stow (ed. C. L. Kingsford, 1908, from the 1603 text; first edition 1598)",
+      "date": "1598 / 1603",
+      "institution": "British History Online (Institute of Historical Research); parallel editions of 1598, 1603 and 1633 at The Map of Early Modern London",
+      "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71",
+      "reliability": "Eyewitness and record-based. Key bridge passages: '20. Arches made of squared stone, of height 60. foote, and in bredth 30. foote ... vpon both sides be houses builded, so that it seemeth rather a continuall streete then a Bridge' (pp. 21-27); the drawbridge tower 'begun to be taken downe' in 1577, the traitors' heads 'set on the tower ouer the gate at the bridge foote', and the new building 'finished' in September 1579, 'a beautifull & chargeable peece of worke' (pp. 44-71); 'all the Bridge is replenished on both the sides with large, fayre and beautifull buildinges' (pp. 211-216). Stow's dimensions are traditional round numbers, not measurements."
+    }
+  ],
+  "generalNotes": [
+    "Coordinates are approximate WGS84 positions of the historical sites estimated from modern landmarks (4 decimals, roughly +/- 30-50 m); they were not taken from a surveyed dataset. Old London Bridge ran about 45 m east (downstream) of the present bridge, from beside St Magnus the Martyr to just east of the present Southwark abutment; positions of features on it are interpolated from pier numbers counted from the north (chapel 9th pier, drawbridge tower/Nonsuch House 13th, Stone Gate 18th of 19).",
+    "Years are new-style historical years. Stow and the building accounts use old-style years beginning 25 March, so e.g. the Royal Exchange royal visit (23 January '1570') is 1571, the Banqueting House fire (12 January '1618') is 1619, and Henry VII's chapel foundation (24 January '1502') is 1503.",
+    "Heights are almost never documented for this period; every heightM that is not null is either a recorded figure (Banqueting House, Greyfriars church, St Paul's tower per Hooke, Fortune contract storeys, 1581 banqueting-house masts) or flagged in the note as an estimate. Leave the rest to be styled by building type.",
+    "Sources that could not be fetched (HTTP 403/404): Historic England list entries (Rose 1012707, Globe, Hope and bear gardens 1433271), Historic Royal Palaces pages (Tower, Banqueting House), British Museum and Folger catalogue records, the Royal Collection main site (the col.rct.uk mirror worked), London Picture Archive, and the Oxford Text Archive proclamation texts. Claims that would have rested on them are marked unverified.",
+    "Wikipedia was used only as a lead for Gerhold-derived figures on London Bridge (house counts, storeys, chapel lease date) and for the Visscher/Norden panoramas; these are marked 'lead only' and should be checked against D. Gerhold, London Bridge and its Houses c.1209-1761 (London Topographical Society 2019; Oxbow 2021) before being treated as firm.",
+    "Dissolution summary for the timelapse: Holy Trinity Aldgate surrendered 1531-32 and its church was razed in the 1530s; Charterhouse suppressed 1537-38 and became a mansion from 1545; Blackfriars, Greyfriars, Austin Friars and Whitefriars all surrendered 10-12 November 1538; St Bartholomew's and St Mary Overie in 1539. Churches demolished: Holy Trinity, Blackfriars, Whitefriars, St Bartholomew's nave, Charterhouse church. Churches kept: Greyfriars (Christ Church, 1547), Austin Friars nave (Dutch Church, 1550), St Bartholomew's choir, St Mary Overie (St Saviour).",
+    "Things that must NOT appear by 1625: Inigo Jones's St Paul's portico (1633-42), Covent Garden piazza (1630s), the gap in the London Bridge houses (fire of 1633), the Rubens ceiling, Lincoln's Inn Fields development, the Queen's Chapel at Somerset House (1630s).",
+    "One search result page contained embedded text instructing the reader to ignore prior instructions; it was disregarded and nothing from it was used."
+  ]
+}

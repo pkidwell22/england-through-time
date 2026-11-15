@@ -1,0 +1,497 @@
+{
+ "wal-cadw-bryn-celli-ddu": {
+  "title": "Bryn Celli Ddu Chambered Tomb (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/bryn-celli-ddu-burial-chamber"
+ },
+ "wal-cadw-barclodiad": {
+  "title": "Barclodiad y Gawres Chambered Tomb (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/barclodiad-y-gawres-burial-chamber"
+ },
+ "wal-cadw-pentre-ifan": {
+  "title": "Pentre Ifan Chambered Tomb (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/pentre-ifan-burial-chamber"
+ },
+ "wal-coflein-pentre-ifan": {
+  "title": "Pentre Ifan chambered tomb (NPRN 101450), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/101450/"
+ },
+ "wal-coflein-trer-ceiri": {
+  "title": "Tre'r Ceiri hillfort (NPRN 95292), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95292/"
+ },
+ "wal-liverpool-great-orme": {
+  "title": "Britain’s earliest mining boom revealed (news release on Williams and Le Carlier de Veslud, Antiquity 2019)",
+  "publisher": "University of Liverpool",
+  "url": "https://news.liverpool.ac.uk/2019/10/15/britains-earliest-mining-boom-revealed/"
+ },
+ "wal-great-orme-mines": {
+  "title": "Great Orme Mines (site operator home page)",
+  "publisher": "Great Orme Mines Ltd",
+  "url": "https://www.greatormemines.info/"
+ },
+ "wal-pleiades-parys-mountain": {
+  "title": "Parys Mountain (Pleiades place 82297, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/82297/json"
+ },
+ "wal-coflein-castell-henllys": {
+  "title": "Castell Henllys defended settlement (NPRN 94989), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/94989/"
+ },
+ "wal-pleiades-isca": {
+  "title": "Isca Silurum (Caerleon) (Pleiades place 79532, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/79532/json"
+ },
+ "wal-cadw-caerleon": {
+  "title": "Caerleon Roman Fortress and Baths (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-fortress-and-baths"
+ },
+ "wal-cadw-segontium": {
+  "title": "Segontium Roman Fort (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/segontium-roman-fort"
+ },
+ "wal-pleiades-segontium": {
+  "title": "Segontium (Pleiades place 79678, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/79678/json"
+ },
+ "wal-pleiades-moridunum": {
+  "title": "*Moridunum (Carmarthen) (Pleiades place 79602, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/79602/json"
+ },
+ "wal-coflein-carmarthen-castle": {
+  "title": "Carmarthen Castle (NPRN 95084), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95084/"
+ },
+ "wal-cadw-caerwent": {
+  "title": "Caerwent Roman Town (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/caerwent-roman-town"
+ },
+ "wal-pleiades-venta-silurum": {
+  "title": "Venta (Silurum) (Pleiades place 79733, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/79733/json"
+ },
+ "wal-coflein-dolaucothi": {
+  "title": "Dolaucothi Gold Mines (NPRN 95142), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95142/"
+ },
+ "wal-coflein-nidum": {
+  "title": "Neath Roman fort (Nidum) (NPRN 301350), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/301350/"
+ },
+ "wal-pleiades-nidum": {
+  "title": "Nido / Nidum (Pleiades place 79616, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/79616/json"
+ },
+ "wal-pleiades-gobannium": {
+  "title": "Gobannio (Abergavenny) (Pleiades place 79484, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/79484/json"
+ },
+ "wal-pleiades-burrium": {
+  "title": "Burrium (Usk) (Pleiades place 79360, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/79360/json"
+ },
+ "wal-coflein-canovium": {
+  "title": "Caerhun Roman fort (Canovium) (NPRN 95640), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95640/"
+ },
+ "wal-pleiades-canovium": {
+  "title": "Kanovium / Conovium (Pleiades place 79542, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/79542/json"
+ },
+ "wal-coflein-tomen-y-mur": {
+  "title": "Tomen y Mur Roman fort (NPRN 95476), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95476/"
+ },
+ "wal-cadw-brecon-gaer": {
+  "title": "Y Gaer (Brecon Gaer) Roman Fort (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/brecon-gaer-roman-fort"
+ },
+ "wal-cadw-st-davids": {
+  "title": "St Davids Bishop's Palace (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/st-davids-bishops-palace"
+ },
+ "wal-dwb-illtud": {
+  "title": "Illtud (c. 475 - c. 525), Celtic saint and one of the founders of monachism in Britain",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s-ILLT-UD0-0475"
+ },
+ "wal-dwb-deiniol": {
+  "title": "Deiniol (died 584), saint, founder of Bangor and first bishop in Gwynedd",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s-DEIN-IOL-0584"
+ },
+ "wal-coflein-deganwy": {
+  "title": "Deganwy Castle (NPRN 95282), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95282/"
+ },
+ "wal-coflein-dinefwr": {
+  "title": "Dinefwr Castle (NPRN 425), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/425/"
+ },
+ "wal-coflein-mathrafal": {
+  "title": "Mathrafal defended enclosure (NPRN 306778), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/306778/"
+ },
+ "wal-coflein-aberffraw": {
+  "title": "Aberffraw (NPRN 32986), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/32986/"
+ },
+ "wal-coflein-dinas-emrys": {
+  "title": "Dinas Emrys (NPRN 95284), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95284/"
+ },
+ "wal-nmw-llangors": {
+  "title": "The Palace in the Lake (Llan-gors crannog)",
+  "publisher": "Amgueddfa Cymru – Museum Wales",
+  "url": "https://museum.wales/articles/1350/Palas-ym-Mrycheiniog/"
+ },
+ "wal-cadw-valle-crucis": {
+  "title": "Valle Crucis Abbey (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/valle-crucis-abbey"
+ },
+ "wal-cadw-chepstow": {
+  "title": "Chepstow Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/chepstow-castle"
+ },
+ "wal-coflein-pembroke": {
+  "title": "Pembroke Castle (NPRN 94945), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/94945/"
+ },
+ "wal-coflein-cardiff": {
+  "title": "Cardiff Castle (NPRN 33), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/33/"
+ },
+ "wal-pleiades-cardiff-fort": {
+  "title": "Tamion? (Cardiff Roman forts) (Pleiades place 79706, JSON record)",
+  "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+  "url": "https://pleiades.stoa.org/places/79706/json"
+ },
+ "wal-cadw-caerphilly": {
+  "title": "Caerphilly Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/caerphilly-castle"
+ },
+ "wal-cadw-dolwyddelan": {
+  "title": "Dolwyddelan Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/dolwyddelan-castle"
+ },
+ "wal-cadw-castell-y-bere": {
+  "title": "Castell y Bere (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/castell-y-bere"
+ },
+ "wal-cadw-dolbadarn": {
+  "title": "Dolbadarn Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/dolbadarn-castle"
+ },
+ "wal-cadw-criccieth": {
+  "title": "Criccieth Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/criccieth-castle"
+ },
+ "wal-cadw-flint": {
+  "title": "Flint Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/flint-castle"
+ },
+ "wal-cadw-rhuddlan": {
+  "title": "Rhuddlan Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/rhuddlan-castle"
+ },
+ "wal-bodleian-welsh-law": {
+  "title": "Welsh Law: Legal history research guide (Statute of Rhuddlan 1284)",
+  "publisher": "Bodleian Libraries, University of Oxford",
+  "url": "https://libguides.bodleian.ox.ac.uk/law-histcom/wales"
+ },
+ "wal-cadw-conwy": {
+  "title": "Conwy Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/conwy-castle"
+ },
+ "wal-coflein-caernarfon": {
+  "title": "Caernarfon Castle (NPRN 95318), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95318/"
+ },
+ "wal-cadw-caernarfon": {
+  "title": "Caernarfon Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/caernarfon-castle"
+ },
+ "wal-coflein-harlech": {
+  "title": "Harlech Castle (NPRN 93729), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/93729/"
+ },
+ "wal-cadw-harlech": {
+  "title": "Harlech Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/harlech-castle"
+ },
+ "wal-coflein-beaumaris": {
+  "title": "Beaumaris Castle (NPRN 95769), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95769/"
+ },
+ "wal-cadw-beaumaris": {
+  "title": "Beaumaris Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/beaumaris-castle"
+ },
+ "wal-cadw-kidwelly": {
+  "title": "Kidwelly Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/kidwelly-castle"
+ },
+ "wal-cadw-montgomery": {
+  "title": "Montgomery Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/montgomery-castle"
+ },
+ "wal-cadw-dolforwyn": {
+  "title": "Dolforwyn Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/dolforwyn-castle"
+ },
+ "wal-cadw-raglan": {
+  "title": "Raglan Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/raglan-castle"
+ },
+ "wal-cadw-denbigh": {
+  "title": "Denbigh Castle (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/denbigh-castle"
+ },
+ "wal-coflein-sycharth": {
+  "title": "Sycharth (NPRN 306999), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/306999/"
+ },
+ "wal-dwb-owain-glyndwr": {
+  "title": "Owain Glyndwr (c. 1354 - 1416), 'Prince of Wales'",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s-OWAI-GLY-1354"
+ },
+ "wal-cadw-tintern": {
+  "title": "Tintern Abbey (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/tintern-abbey"
+ },
+ "wal-coflein-strata-florida": {
+  "title": "Strata Florida Abbey (NPRN 95764), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/95764/"
+ },
+ "wal-cadw-strata-florida": {
+  "title": "Strata Florida Abbey (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/strata-florida-abbey"
+ },
+ "wal-cadw-neath-abbey": {
+  "title": "Neath Abbey and Gatehouse (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/neath-abbey-and-gatehouse"
+ },
+ "wal-coflein-margam": {
+  "title": "Margam Abbey (NPRN 132), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/132/"
+ },
+ "wal-cadw-basingwerk": {
+  "title": "Basingwerk Abbey (visitor page)",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/visit/places-to-visit/basingwerk-abbey"
+ },
+ "wal-coflein-swansea-castle": {
+  "title": "Swansea Castle (NPRN 275871), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/275871/"
+ },
+ "wal-coflein-haverfordwest": {
+  "title": "Haverfordwest Castle (NPRN 94235), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/94235/"
+ },
+ "wal-coflein-mynydd-carn": {
+  "title": "Battle of Mynydd Carn (NPRN 300319), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/300319/"
+ },
+ "wal-dwb-gruffudd-ap-cynan": {
+  "title": "Gruffudd ap Cynan (c. 1055 - 1137), king of Gwynedd",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s-GRUF-APC-1055"
+ },
+ "wal-coflein-crug-mawr": {
+  "title": "Crug Mawr, site of battle, near Cardigan (NPRN 402323), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/402323/"
+ },
+ "wal-coflein-irfon-bridge": {
+  "title": "Irfon Bridge / Battle of Orewin Bridge, Builth Wells (NPRN 403411), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/403411/"
+ },
+ "wal-dwb-llywelyn-ap-gruffydd": {
+  "title": "Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282)",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s-LLYW-APG-1200"
+ },
+ "wal-coflein-bryn-glas": {
+  "title": "Pilleth / Battle of Bryn Glas (NPRN 306352), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/306352/"
+ },
+ "wal-dwb-rhodri-mawr": {
+  "title": "Rhodri Mawr ('the Great') (died 877), king of Gwynedd, Powys, and Deheubarth",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s-RHOD-MAW-0877"
+ },
+ "wal-dwb-hywel-dda": {
+  "title": "Hywel Dda (Hywel the Good) (died 950), king and legislator",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s-HYWE-DDA-0950"
+ },
+ "wal-dwb-gruffudd-ap-llywelyn": {
+  "title": "Gruffudd ap Llywelyn (died 1064), king of Gwynedd 1039-1064 and overlord of all the Welsh 1055-1064",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s12-GRUF-APL-1063"
+ },
+ "wal-dwb-llywelyn-ap-iorwerth": {
+  "title": "Llywelyn ap Iorwerth ('Llywelyn the Great') (1173 - 1240), prince of Gwynedd",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s-LLYW-API-1173"
+ },
+ "wal-dwb-rhys-ap-gruffydd": {
+  "title": "Rhys ap Gruffydd (1132 - 1197), lord of Deheubarth ('The Lord Rhys')",
+  "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+  "url": "https://biography.wales/article/s-RHYS-APG-1132"
+ },
+ "wal-legislation-laws-in-wales-1535": {
+  "title": "Laws in Wales Act 1535 (27 Hen. 8 c. 26), revised text",
+  "publisher": "legislation.gov.uk (The National Archives)",
+  "url": "https://www.legislation.gov.uk/aep/Hen8/27/26"
+ },
+ "wal-legislation-laws-in-wales-1542": {
+  "title": "Laws in Wales Act 1542 (34 & 35 Hen. 8 c. 26), contents",
+  "publisher": "legislation.gov.uk (The National Archives)",
+  "url": "https://www.legislation.gov.uk/aep/Hen8/34-35/26/contents"
+ },
+ "wal-itinere-gb": {
+  "title": "How Roman is your road? Data and code (file data_itinere_gb.geojson: the Britain subset of Itiner-e static version 2024, CC BY 4.0), doi:10.5281/zenodo.23673516",
+  "publisher": "T. Hotham, Zenodo (2026); roads from de Soto, Pažout, Brughmans and others, Itiner-e",
+  "url": "https://zenodo.org/api/records/23673516"
+ },
+ "wal-itinere": {
+  "title": "A High-Resolution Dataset of Roads of the Roman Empire: Itiner-e static version 2024 (CC BY 4.0), doi:10.5281/zenodo.17122148",
+  "publisher": "P. de Soto, A. Pažout, T. Brughmans and others, Zenodo (2025)",
+  "url": "https://zenodo.org/api/records/17122148"
+ },
+ "wal-ons-counties": {
+  "title": "data_counties.geojson: ceremonial and preserved county boundaries built from ONS 2025 local authority boundaries (Open Government Licence v3; contains OS data © Crown copyright), in doi:10.5281/zenodo.23673516",
+  "publisher": "T. Hotham, Zenodo (2026); boundaries from the Office for National Statistics",
+  "url": "https://zenodo.org/api/records/23673516/files/data_counties.geojson/content"
+ },
+ "wal-eh-hadrians-wall": {
+  "title": "History of Hadrian’s Wall",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/"
+ },
+ "wal-eh-offas-dyke": {
+  "title": "History of Offa’s Dyke",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/offas-dyke/history/"
+ },
+ "wal-oda-dating": {
+  "title": "Recording the Dykes (Offa’s Dyke Centre display panel on excavation and scientific dating)",
+  "publisher": "Offa’s Dyke Association",
+  "url": "https://offasdyke.org.uk/offas-dyke-association/offas-dyke-centre/display-panel-14"
+ },
+ "wal-coflein-wats-dyke": {
+  "title": "Wat’s Dyke (NPRN 306867), site record",
+  "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+  "url": "https://coflein.gov.uk/en/site/306867/"
+ },
+ "wal-nationaltrail-ridgeway": {
+  "title": "The Ridgeway National Trail",
+  "publisher": "National Trails (Natural England)",
+  "url": "https://www.nationaltrail.co.uk/en_GB/trails/the-ridgeway/"
+ },
+ "wal-cadw-battlefields": {
+  "title": "Historic battlefields in Wales",
+  "publisher": "Cadw (Welsh Government historic environment service)",
+  "url": "https://cadw.gov.wales/advice-support/historic-assets/other-historic-assets/historic-battlefields-wales"
+ },
+ "wal-asser-life-alfred": {
+  "title": "Asser's Life of King Alfred, trans. from Stevenson's text",
+  "publisher": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/files/63384/63384-h/63384-h.htm"
+ },
+ "wal-odnb-rhodri-mawr": {
+  "title": "Rhodri Mawr (b. before 844, d. 878), king of Gwynedd (abstract), Oxford Dictionary of National Biography",
+  "publisher": "Oxford University Press",
+  "url": "https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/581824952"
+ },
+ "wal-museum-llyn-cerrig-bach": {
+  "title": "Ancient Druids of Wales",
+  "publisher": "Amgueddfa Cymru – Museum Wales",
+  "url": "https://museum.wales/articles/2007-05-03/ancient-druids-of-wales/"
+ },
+ "wal-rib-2404-32": {
+  "title": "RIB 2404.32: lead pig of AD 74 naming the Deceangli",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/2404.32"
+ },
+ "wal-llandaff-cathedral-history": {
+  "title": "History of the Cathedral",
+  "publisher": "Llandaff Cathedral",
+  "url": "https://www.llandaffcathedral.org.uk/discover-the-cathedral/history-of-the-cathedral/"
+ },
+ "wal-monasticwales-aberconwy-1186": {
+  "title": "Aberconwy: foundation at Rhedynog Felen, 1186, and move to the Conwy by 1192 (event 99)",
+  "publisher": "Monastic Wales",
+  "url": "https://monasticwales.org/event/99"
+ },
+ "wal-monasticwales-basingwerk": {
+  "title": "Basingwerk Abbey (site 24)",
+  "publisher": "Monastic Wales",
+  "url": "https://monasticwales.org/site/24"
+ }
+}

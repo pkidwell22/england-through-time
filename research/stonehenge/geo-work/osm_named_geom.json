@@ -1,0 +1,949 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-14T04:57:25Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 527357301,
+  "lat": 51.1922271,
+  "lon": -1.7894158,
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Durrington Walls",
+    "source": "NPE",
+    "wikidata": "Q471738",
+    "wikipedia": "en:Durrington Walls"
+  }
+},
+{
+  "type": "node",
+  "id": 2798262550,
+  "lat": 51.1891399,
+  "lon": -1.7916343,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "bigstone",
+    "name": "Cuckoo Stone",
+    "wikidata": "Q23073287",
+    "wikipedia": "en:Cuckoo Stone"
+  }
+},
+{
+  "type": "node",
+  "id": 6960129398,
+  "lat": 51.1774000,
+  "lon": -1.7878000,
+  "tags": {
+    "archaeological_site": "settlement",
+    "historic": "archaeological_site",
+    "historic:civilization": "prehistoric",
+    "historic:era": "mesolithic",
+    "historic:period": "stone-age",
+    "name": "Blick Mead",
+    "wikidata": "Q28401345",
+    "wikipedia": "en:Blick Mead"
+  }
+},
+{
+  "type": "way",
+  "id": 36970076,
+  "bounds": {
+    "minlat": 51.1891409,
+    "minlon": -1.7861631,
+    "maxlat": 51.1896279,
+    "maxlon": -1.7853867
+  },
+  "geometry": [
+    { "lat": 51.1896279, "lon": -1.7857996 },
+    { "lat": 51.1896187, "lon": -1.7856654 },
+    { "lat": 51.1895810, "lon": -1.7855438 },
+    { "lat": 51.1895198, "lon": -1.7854505 },
+    { "lat": 51.1894482, "lon": -1.7853987 },
+    { "lat": 51.1893638, "lon": -1.7853867 },
+    { "lat": 51.1892683, "lon": -1.7854325 },
+    { "lat": 51.1892020, "lon": -1.7855166 },
+    { "lat": 51.1891578, "lon": -1.7856318 },
+    { "lat": 51.1891409, "lon": -1.7857767 },
+    { "lat": 51.1891561, "lon": -1.7859096 },
+    { "lat": 51.1891989, "lon": -1.7860261 },
+    { "lat": 51.1892641, "lon": -1.7861123 },
+    { "lat": 51.1893044, "lon": -1.7861415 },
+    { "lat": 51.1893880, "lon": -1.7861631 },
+    { "lat": 51.1894617, "lon": -1.7861432 },
+    { "lat": 51.1895361, "lon": -1.7860790 },
+    { "lat": 51.1895823, "lon": -1.7860018 },
+    { "lat": 51.1896192, "lon": -1.7858802 },
+    { "lat": 51.1896279, "lon": -1.7857996 }
+  ],
+  "tags": {
+    "access": "yes",
+    "fee": "no",
+    "historic": "archaeological_site",
+    "historic:civilization": "neolithic",
+    "name": "Woodhenge",
+    "tourism": "attraction",
+    "wikidata": "Q534028",
+    "wikipedia": "en:Woodhenge"
+  }
+},
+{
+  "type": "way",
+  "id": 36970535,
+  "bounds": {
+    "minlat": 51.2117081,
+    "minlon": -1.8565421,
+    "maxlat": 51.2136164,
+    "maxlon": -1.8531941
+  },
+  "geometry": [
+    { "lat": 51.2118425, "lon": -1.8540959 },
+    { "lat": 51.2120307, "lon": -1.8537097 },
+    { "lat": 51.2123441, "lon": -1.8534144 },
+    { "lat": 51.2127609, "lon": -1.8531941 },
+    { "lat": 51.2130297, "lon": -1.8533093 },
+    { "lat": 51.2131598, "lon": -1.8534522 },
+    { "lat": 51.2134183, "lon": -1.8537111 },
+    { "lat": 51.2135707, "lon": -1.8540806 },
+    { "lat": 51.2136164, "lon": -1.8550722 },
+    { "lat": 51.2135663, "lon": -1.8555602 },
+    { "lat": 51.2135249, "lon": -1.8558291 },
+    { "lat": 51.2134182, "lon": -1.8560470 },
+    { "lat": 51.2131329, "lon": -1.8562417 },
+    { "lat": 51.2127296, "lon": -1.8565421 },
+    { "lat": 51.2124877, "lon": -1.8564133 },
+    { "lat": 51.2122457, "lon": -1.8564133 },
+    { "lat": 51.2120038, "lon": -1.8561558 },
+    { "lat": 51.2118425, "lon": -1.8555979 },
+    { "lat": 51.2117350, "lon": -1.8549971 },
+    { "lat": 51.2117081, "lon": -1.8546967 },
+    { "lat": 51.2118425, "lon": -1.8540959 }
+  ],
+  "tags": {
+    "archaeological_site": "earthwork",
+    "era": "neolythic",
+    "historic": "archaeological_site",
+    "name": "Robin Hood's Ball",
+    "wikidata": "Q7352474",
+    "wikipedia": "en:Robin Hood's Ball"
+  }
+},
+{
+  "type": "way",
+  "id": 37118074,
+  "bounds": {
+    "minlat": 51.1782746,
+    "minlon": -1.8270699,
+    "maxlat": 51.1793840,
+    "maxlon": -1.8250800
+  },
+  "geometry": [
+    { "lat": 51.1785410, "lon": -1.8269413 },
+    { "lat": 51.1784790, "lon": -1.8268717 },
+    { "lat": 51.1784235, "lon": -1.8267892 },
+    { "lat": 51.1783755, "lon": -1.8266954 },
+    { "lat": 51.1783360, "lon": -1.8265920 },
+    { "lat": 51.1783057, "lon": -1.8264810 },
+    { "lat": 51.1782851, "lon": -1.8263645 },
+    { "lat": 51.1782747, "lon": -1.8262446 },
+    { "lat": 51.1782746, "lon": -1.8261236 },
+    { "lat": 51.1782848, "lon": -1.8260037 },
+    { "lat": 51.1783052, "lon": -1.8258871 },
+    { "lat": 51.1783353, "lon": -1.8257760 },
+    { "lat": 51.1783747, "lon": -1.8256725 },
+    { "lat": 51.1784225, "lon": -1.8255785 },
+    { "lat": 51.1784779, "lon": -1.8254958 },
+    { "lat": 51.1785398, "lon": -1.8254258 },
+    { "lat": 51.1786072, "lon": -1.8253700 },
+    { "lat": 51.1786786, "lon": -1.8253293 },
+    { "lat": 51.1787529, "lon": -1.8253046 },
+    { "lat": 51.1788286, "lon": -1.8252961 },
+    { "lat": 51.1789043, "lon": -1.8253043 },
+    { "lat": 51.1789786, "lon": -1.8253287 },
+    { "lat": 51.1790502, "lon": -1.8253691 },
+    { "lat": 51.1790907, "lon": -1.8253952 },
+    { "lat": 51.1792595, "lon": -1.8250800 },
+    { "lat": 51.1793554, "lon": -1.8254749 },
+    { "lat": 51.1792674, "lon": -1.8256405 },
+    { "lat": 51.1792831, "lon": -1.8256707 },
+    { "lat": 51.1793226, "lon": -1.8257740 },
+    { "lat": 51.1793529, "lon": -1.8258850 },
+    { "lat": 51.1793735, "lon": -1.8260015 },
+    { "lat": 51.1793839, "lon": -1.8261214 },
+    { "lat": 51.1793840, "lon": -1.8262424 },
+    { "lat": 51.1793738, "lon": -1.8263623 },
+    { "lat": 51.1793534, "lon": -1.8264789 },
+    { "lat": 51.1793233, "lon": -1.8265900 },
+    { "lat": 51.1792839, "lon": -1.8266935 },
+    { "lat": 51.1792361, "lon": -1.8267875 },
+    { "lat": 51.1791807, "lon": -1.8268702 },
+    { "lat": 51.1791188, "lon": -1.8269402 },
+    { "lat": 51.1790514, "lon": -1.8269960 },
+    { "lat": 51.1789800, "lon": -1.8270367 },
+    { "lat": 51.1789057, "lon": -1.8270615 },
+    { "lat": 51.1788300, "lon": -1.8270699 },
+    { "lat": 51.1787543, "lon": -1.8270618 },
+    { "lat": 51.1786800, "lon": -1.8270373 },
+    { "lat": 51.1786085, "lon": -1.8269969 },
+    { "lat": 51.1785410, "lon": -1.8269413 }
+  ],
+  "tags": {
+    "access": "customers",
+    "addr:city": "Shrewton, Wiltshire",
+    "addr:postcode": "SP4 7DE",
+    "archaeological_site": "megalith",
+    "fee": "yes",
+    "heritage": "1",
+    "heritage:operator": "whc",
+    "heritage:website": "http://whc.unesco.org/en/list/373",
+    "historic": "archaeological_site",
+    "historic:civilization": "prehistoric",
+    "historic:era": "neolithic",
+    "historic:period": "stone-age",
+    "landcover": "grass",
+    "landmark": "1",
+    "megalith_type": "stone_circle",
+    "name": "Stonehenge",
+    "name:af": "Stonehenge",
+    "name:ang": "Stānhencg",
+    "name:ar": "ستونهنج",
+    "name:as": "ষ্ট'নহেঞ্জ",
+    "name:ast": "Stonehenge",
+    "name:az": "Stounhenc",
+    "name:azb": "استون هنج",
+    "name:ba": "Стоунхендж",
+    "name:ban": "Stonehenge",
+    "name:bar": "Stonehenge",
+    "name:bcl": "Stonehenge",
+    "name:be": "Стоўнхендж",
+    "name:be-tarask": "Стоўнгэндж",
+    "name:bg": "Стоунхендж",
+    "name:bh": "स्टोनहेंज",
+    "name:bn": "স্টোনহেঞ্জ",
+    "name:br": "Stonehenge",
+    "name:bs": "Stonehenge",
+    "name:ca": "Stonehenge",
+    "name:ceb": "Stonehenge",
+    "name:chr": "ᏅᏯ ᏙᏗᎦᏙᎬ",
+    "name:ckb": "ستۆنھێنج",
+    "name:cs": "Stonehenge",
+    "name:cv": "Стоунхендж",
+    "name:cy": "Côr y Cewri",
+    "name:da": "Stonehenge",
+    "name:de": "Stonehenge",
+    "name:dv": "ސްޓޯންހެންޖް",
+    "name:el": "Στόουνχεντζ",
+    "name:en": "Stonehenge",
+    "name:es": "Stonehenge",
+    "name:et": "Stonehenge",
+    "name:eu": "Stonehenge",
+    "name:fa": "استون‌هنج",
+    "name:fi": "Stonehenge",
+    "name:fo": "Stonehenge",
+    "name:fr": "Stonehenge",
+    "name:fy": "Stonehenge",
+    "name:ga": "Stonehenge",
+    "name:gcr": "Stonehenge",
+    "name:gl": "Stonehenge",
+    "name:hak": "Ki-sa̍k-chhṳn",
+    "name:he": "סטונהנג'",
+    "name:hi": "स्टोनहॅन्ज",
+    "name:hr": "Stonehenge",
+    "name:hu": "Stonehenge",
+    "name:hy": "Սթոունհենջ",
+    "name:id": "Stonehenge",
+    "name:is": "Stonehenge",
+    "name:it": "Stonehenge",
+    "name:ja": "ストーンヘンジ",
+    "name:jv": "Stonehenge",
+    "name:ka": "სტოუნჰენჯი",
+    "name:kk": "Стоунхендж",
+    "name:kn": "ಸ್ಟೋನ್ ಹೆಂಜ್",
+    "name:ko": "스톤헨지",
+    "name:ku": "Stonehenge",
+    "name:lfn": "Stonehenge",
+    "name:lt": "Stounhendžas",
+    "name:lv": "Stounhendža",
+    "name:mg": "Stonehenge",
+    "name:mk": "Стоунхенџ",
+    "name:ml": "സ്റ്റോൺഹെൻജ്",
+    "name:mn": "Стоунхенж",
+    "name:mr": "स्टोनहेंज",
+    "name:ms": "Stonehenge",
+    "name:mt": "Stonehenge",
+    "name:my": "စတုန်းဟင်းချ်",
+    "name:nan": "Stonehenge",
+    "name:ne": "स्टोनहेज",
+    "name:nl": "Stonehenge",
+    "name:nn": "Stonehenge",
+    "name:no": "Stonehenge",
+    "name:nrm": "Estanhenge",
+    "name:oc": "Stonehenge",
+    "name:pa": "ਸਟੋਨਹੈਂਜ",
+    "name:pl": "Stonehenge",
+    "name:pnb": "سٹونہنج",
+    "name:pt": "Stonehenge",
+    "name:ro": "Stonehenge",
+    "name:ru": "Стоунхендж",
+    "name:scn": "Stonehenge",
+    "name:sh": "Stonehenge",
+    "name:sk": "Stonehenge",
+    "name:sl": "Stonehenge",
+    "name:sq": "Stonehenge",
+    "name:sr": "Стоунхенџ",
+    "name:sv": "Stonehenge",
+    "name:ta": "ஸ்டோன் ஹெஞ்ச்",
+    "name:th": "สโตนเฮนจ์",
+    "name:tr": "Stonehenge",
+    "name:tt": "Стоунһендж",
+    "name:uk": "Стоунхендж",
+    "name:ur": "سٹون_ہینج",
+    "name:uz": "Stonehenge",
+    "name:vep": "Stounhendž",
+    "name:vi": "Stonehenge",
+    "name:war": "Stonehenge",
+    "name:wuu": "巨石阵",
+    "name:yue": "巨石陣",
+    "name:zh": "巨石阵",
+    "phone": "+44 870 333 1181",
+    "ref:whc": "373",
+    "religion": "iron_age_druidic",
+    "start_date": "3100 BC",
+    "toilets:wheelchair": "yes",
+    "tourism": "attraction",
+    "website": "https://www.english-heritage.org.uk/visit/places/stonehenge/",
+    "whc:criteria": "(i)(ii)(iii)",
+    "whc:inscription_date": "1986",
+    "wheelchair": "yes",
+    "wikidata": "Q39671",
+    "wikimedia_commons": "Category:Stonehenge",
+    "wikipedia": "en:Stonehenge"
+  }
+},
+{
+  "type": "way",
+  "id": 38528246,
+  "bounds": {
+    "minlat": 51.1850386,
+    "minlon": -1.8447068,
+    "maxlat": 51.1880668,
+    "maxlon": -1.8053888
+  },
+  "geometry": [
+    { "lat": 51.1865231, "lon": -1.8322859 },
+    { "lat": 51.1860679, "lon": -1.8410647 },
+    { "lat": 51.1857248, "lon": -1.8447068 },
+    { "lat": 51.1850386, "lon": -1.8446015 },
+    { "lat": 51.1850566, "lon": -1.8369457 },
+    { "lat": 51.1864657, "lon": -1.8182415 },
+    { "lat": 51.1868287, "lon": -1.8128725 },
+    { "lat": 51.1873890, "lon": -1.8054232 },
+    { "lat": 51.1880668, "lon": -1.8053888 },
+    { "lat": 51.1875827, "lon": -1.8159889 },
+    { "lat": 51.1873998, "lon": -1.8181948 },
+    { "lat": 51.1872975, "lon": -1.8198599 },
+    { "lat": 51.1871644, "lon": -1.8217675 },
+    { "lat": 51.1870098, "lon": -1.8239574 },
+    { "lat": 51.1865231, "lon": -1.8322859 }
+  ],
+  "tags": {
+    "archaeological_site": "earthwork",
+    "historic": "archaeological_site",
+    "man_made": "embankment",
+    "name": "The Cursus",
+    "source": "Yahoo",
+    "source:name": "NPE",
+    "wikidata": "Q7619217",
+    "wikimedia_commons": "Category:Stonehenge Cursus",
+    "wikipedia": "en:Stonehenge Cursus"
+  }
+},
+{
+  "type": "way",
+  "id": 131359467,
+  "bounds": {
+    "minlat": 51.1731281,
+    "minlon": -1.8085838,
+    "maxlat": 51.1816073,
+    "maxlon": -1.7988718
+  },
+  "geometry": [
+    { "lat": 51.1816073, "lon": -1.8085838 },
+    { "lat": 51.1815943, "lon": -1.8085153 },
+    { "lat": 51.1812049, "lon": -1.8067936 },
+    { "lat": 51.1808607, "lon": -1.8054825 },
+    { "lat": 51.1804138, "lon": -1.8044378 },
+    { "lat": 51.1799571, "lon": -1.8035947 },
+    { "lat": 51.1795707, "lon": -1.8029624 },
+    { "lat": 51.1792705, "lon": -1.8026655 },
+    { "lat": 51.1789998, "lon": -1.8024606 },
+    { "lat": 51.1783763, "lon": -1.8020841 },
+    { "lat": 51.1777791, "lon": -1.8017328 },
+    { "lat": 51.1754254, "lon": -1.8002223 },
+    { "lat": 51.1746174, "lon": -1.7997656 },
+    { "lat": 51.1739992, "lon": -1.7994340 },
+    { "lat": 51.1731281, "lon": -1.7988718 }
+  ],
+  "tags": {
+    "access": "private",
+    "historic": "footway",
+    "name": "The Avenue",
+    "note": "prehistoric way",
+    "operator": "National Trust"
+  }
+},
+{
+  "type": "way",
+  "id": 152660264,
+  "bounds": {
+    "minlat": 51.1790560,
+    "minlon": -1.8197010,
+    "maxlat": 51.1824633,
+    "maxlon": -1.8023171
+  },
+  "geometry": [
+    { "lat": 51.1822327, "lon": -1.8196521 },
+    { "lat": 51.1817695, "lon": -1.8118763 },
+    { "lat": 51.1814932, "lon": -1.8091138 },
+    { "lat": 51.1811029, "lon": -1.8071283 },
+    { "lat": 51.1807918, "lon": -1.8056371 },
+    { "lat": 51.1802983, "lon": -1.8044190 },
+    { "lat": 51.1794500, "lon": -1.8030648 },
+    { "lat": 51.1791269, "lon": -1.8028978 },
+    { "lat": 51.1790560, "lon": -1.8023171 },
+    { "lat": 51.1797452, "lon": -1.8027712 },
+    { "lat": 51.1804655, "lon": -1.8041851 },
+    { "lat": 51.1810248, "lon": -1.8054368 },
+    { "lat": 51.1815286, "lon": -1.8078142 },
+    { "lat": 51.1817276, "lon": -1.8090692 },
+    { "lat": 51.1819984, "lon": -1.8118153 },
+    { "lat": 51.1824633, "lon": -1.8197010 },
+    { "lat": 51.1822327, "lon": -1.8196521 }
+  ],
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "The Avenue",
+    "wikidata": "Q4443202"
+  }
+},
+{
+  "type": "way",
+  "id": 152664904,
+  "bounds": {
+    "minlat": 51.1721361,
+    "minlon": -1.7938281,
+    "maxlat": 51.1774479,
+    "maxlon": -1.7896002
+  },
+  "geometry": [
+    { "lat": 51.1730543, "lon": -1.7938281 },
+    { "lat": 51.1742734, "lon": -1.7937370 },
+    { "lat": 51.1759229, "lon": -1.7937370 },
+    { "lat": 51.1771055, "lon": -1.7937040 },
+    { "lat": 51.1774479, "lon": -1.7933068 },
+    { "lat": 51.1774479, "lon": -1.7926946 },
+    { "lat": 51.1772093, "lon": -1.7923636 },
+    { "lat": 51.1759955, "lon": -1.7916190 },
+    { "lat": 51.1745327, "lon": -1.7908081 },
+    { "lat": 51.1729869, "lon": -1.7901628 },
+    { "lat": 51.1721361, "lon": -1.7896002 },
+    { "lat": 51.1721880, "lon": -1.7899311 },
+    { "lat": 51.1724578, "lon": -1.7908909 },
+    { "lat": 51.1728624, "lon": -1.7929593 },
+    { "lat": 51.1730543, "lon": -1.7938281 }
+  ],
+  "tags": {
+    "archaeological_site": "fortification",
+    "historic": "archaeological_site",
+    "name": "Vespasian's Camp",
+    "natural": "cliff",
+    "wikidata": "Q7923272"
+  }
+},
+{
+  "type": "way",
+  "id": 258506976,
+  "bounds": {
+    "minlat": 51.2117053,
+    "minlon": -1.8459134,
+    "maxlat": 51.2123085,
+    "maxlon": -1.8449465
+  },
+  "geometry": [
+    { "lat": 51.2120081, "lon": -1.8459134 },
+    { "lat": 51.2118204, "lon": -1.8455698 },
+    { "lat": 51.2117053, "lon": -1.8451503 },
+    { "lat": 51.2119856, "lon": -1.8449465 },
+    { "lat": 51.2122159, "lon": -1.8452901 },
+    { "lat": 51.2123085, "lon": -1.8458215 },
+    { "lat": 51.2120081, "lon": -1.8459134 }
+  ],
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "long_barrow",
+    "name": "Long Barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 258506978,
+  "bounds": {
+    "minlat": 51.2138920,
+    "minlon": -1.8466035,
+    "maxlat": 51.2140743,
+    "maxlon": -1.8463125
+  },
+  "geometry": [
+    { "lat": 51.2140743, "lon": -1.8464368 },
+    { "lat": 51.2140382, "lon": -1.8463402 },
+    { "lat": 51.2139699, "lon": -1.8463125 },
+    { "lat": 51.2139093, "lon": -1.8463701 },
+    { "lat": 51.2138920, "lon": -1.8464792 },
+    { "lat": 51.2139281, "lon": -1.8465759 },
+    { "lat": 51.2139964, "lon": -1.8466035 },
+    { "lat": 51.2140570, "lon": -1.8465459 },
+    { "lat": 51.2140743, "lon": -1.8464368 }
+  ],
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Tumulus"
+  }
+},
+{
+  "type": "way",
+  "id": 258506981,
+  "bounds": {
+    "minlat": 51.2104265,
+    "minlon": -1.8563164,
+    "maxlat": 51.2106601,
+    "maxlon": -1.8559435
+  },
+  "geometry": [
+    { "lat": 51.2106601, "lon": -1.8561159 },
+    { "lat": 51.2106196, "lon": -1.8559882 },
+    { "lat": 51.2105344, "lon": -1.8559435 },
+    { "lat": 51.2104544, "lon": -1.8560081 },
+    { "lat": 51.2104265, "lon": -1.8561441 },
+    { "lat": 51.2104669, "lon": -1.8562718 },
+    { "lat": 51.2105521, "lon": -1.8563164 },
+    { "lat": 51.2106321, "lon": -1.8562518 },
+    { "lat": 51.2106601, "lon": -1.8561159 }
+  ],
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Tumulus"
+  }
+},
+{
+  "type": "way",
+  "id": 377378043,
+  "bounds": {
+    "minlat": 51.1900087,
+    "minlon": -1.8531560,
+    "maxlat": 51.1912842,
+    "maxlon": -1.8472292
+  },
+  "geometry": [
+    { "lat": 51.1909640, "lon": -1.8472292 },
+    { "lat": 51.1912842, "lon": -1.8474336 },
+    { "lat": 51.1903182, "lon": -1.8529772 },
+    { "lat": 51.1902862, "lon": -1.8530964 },
+    { "lat": 51.1902382, "lon": -1.8531560 },
+    { "lat": 51.1901688, "lon": -1.8531560 },
+    { "lat": 51.1900834, "lon": -1.8531219 },
+    { "lat": 51.1900407, "lon": -1.8530198 },
+    { "lat": 51.1900140, "lon": -1.8527984 },
+    { "lat": 51.1900087, "lon": -1.8526791 },
+    { "lat": 51.1909640, "lon": -1.8472292 }
+  ],
+  "tags": {
+    "archaeological_site": "earthwork",
+    "historic": "archaeological_site",
+    "name": "Lesser Cursus",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 377459876,
+  "bounds": {
+    "minlat": 51.1732459,
+    "minlon": -1.8096850,
+    "maxlat": 51.1737480,
+    "maxlon": -1.8088819
+  },
+  "geometry": [
+    { "lat": 51.1732717, "lon": -1.8090995 },
+    { "lat": 51.1733239, "lon": -1.8089894 },
+    { "lat": 51.1733963, "lon": -1.8089139 },
+    { "lat": 51.1734805, "lon": -1.8088819 },
+    { "lat": 51.1735665, "lon": -1.8088971 },
+    { "lat": 51.1736442, "lon": -1.8089577 },
+    { "lat": 51.1737046, "lon": -1.8090567 },
+    { "lat": 51.1737404, "lon": -1.8091823 },
+    { "lat": 51.1737480, "lon": -1.8093093 },
+    { "lat": 51.1737304, "lon": -1.8094337 },
+    { "lat": 51.1736892, "lon": -1.8095431 },
+    { "lat": 51.1736286, "lon": -1.8096265 },
+    { "lat": 51.1735547, "lon": -1.8096754 },
+    { "lat": 51.1734749, "lon": -1.8096850 },
+    { "lat": 51.1733973, "lon": -1.8096542 },
+    { "lat": 51.1733295, "lon": -1.8095863 },
+    { "lat": 51.1732786, "lon": -1.8094879 },
+    { "lat": 51.1732494, "lon": -1.8093691 },
+    { "lat": 51.1732459, "lon": -1.8092312 },
+    { "lat": 51.1732717, "lon": -1.8090995 }
+  ],
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Coneybury Henge",
+    "wikidata": "Q28970505"
+  }
+},
+{
+  "type": "way",
+  "id": 424286563,
+  "bounds": {
+    "minlat": 51.1626182,
+    "minlon": -1.8451897,
+    "maxlat": 51.1639100,
+    "maxlon": -1.8429581
+  },
+  "geometry": [
+    { "lat": 51.1639100, "lon": -1.8451897 },
+    { "lat": 51.1626182, "lon": -1.8429581 }
+  ],
+  "tags": {
+    "archaeological_site": "earthwork",
+    "historic": "archaeological_site",
+    "man_made": "embankment"
+  }
+},
+{
+  "type": "way",
+  "id": 424286568,
+  "bounds": {
+    "minlat": 51.1611077,
+    "minlon": -1.8587268,
+    "maxlat": 51.1711303,
+    "maxlon": -1.8487143
+  },
+  "geometry": [
+    { "lat": 51.1611077, "lon": -1.8487143 },
+    { "lat": 51.1611800, "lon": -1.8488378 },
+    { "lat": 51.1612070, "lon": -1.8488692 },
+    { "lat": 51.1612349, "lon": -1.8488891 },
+    { "lat": 51.1612646, "lon": -1.8489019 },
+    { "lat": 51.1613824, "lon": -1.8489229 },
+    { "lat": 51.1615110, "lon": -1.8489740 },
+    { "lat": 51.1618538, "lon": -1.8491316 },
+    { "lat": 51.1621643, "lon": -1.8493036 },
+    { "lat": 51.1625863, "lon": -1.8495625 },
+    { "lat": 51.1627294, "lon": -1.8496622 },
+    { "lat": 51.1629617, "lon": -1.8498645 },
+    { "lat": 51.1630941, "lon": -1.8500385 },
+    { "lat": 51.1632732, "lon": -1.8501767 },
+    { "lat": 51.1636954, "lon": -1.8505514 },
+    { "lat": 51.1639753, "lon": -1.8507665 },
+    { "lat": 51.1642633, "lon": -1.8509343 },
+    { "lat": 51.1646484, "lon": -1.8512191 },
+    { "lat": 51.1647196, "lon": -1.8512718 },
+    { "lat": 51.1648582, "lon": -1.8513543 },
+    { "lat": 51.1649617, "lon": -1.8514369 },
+    { "lat": 51.1650157, "lon": -1.8514868 },
+    { "lat": 51.1658747, "lon": -1.8524108 },
+    { "lat": 51.1661214, "lon": -1.8526574 },
+    { "lat": 51.1666282, "lon": -1.8531164 },
+    { "lat": 51.1669063, "lon": -1.8533143 },
+    { "lat": 51.1676456, "lon": -1.8533624 },
+    { "lat": 51.1680661, "lon": -1.8533785 },
+    { "lat": 51.1682204, "lon": -1.8534592 },
+    { "lat": 51.1682813, "lon": -1.8534911 },
+    { "lat": 51.1690904, "lon": -1.8546475 },
+    { "lat": 51.1692210, "lon": -1.8548316 },
+    { "lat": 51.1696121, "lon": -1.8555012 },
+    { "lat": 51.1699717, "lon": -1.8562281 },
+    { "lat": 51.1701232, "lon": -1.8565766 },
+    { "lat": 51.1704451, "lon": -1.8572479 },
+    { "lat": 51.1706370, "lon": -1.8576306 },
+    { "lat": 51.1708111, "lon": -1.8580234 },
+    { "lat": 51.1708552, "lon": -1.8581106 },
+    { "lat": 51.1709003, "lon": -1.8581962 },
+    { "lat": 51.1711303, "lon": -1.8587268 }
+  ],
+  "tags": {
+    "archaeological_site": "earthwork",
+    "barrier": "ditch",
+    "historic": "archaeological_site",
+    "name": "Ditch"
+  }
+},
+{
+  "type": "way",
+  "id": 976089652,
+  "bounds": {
+    "minlat": 51.1706264,
+    "minlon": -1.8315043,
+    "maxlat": 51.1707945,
+    "maxlon": -1.8313514
+  },
+  "geometry": [
+    { "lat": 51.1706617, "lon": -1.8315043 },
+    { "lat": 51.1707458, "lon": -1.8314775 },
+    { "lat": 51.1707945, "lon": -1.8314319 },
+    { "lat": 51.1707929, "lon": -1.8313917 },
+    { "lat": 51.1707744, "lon": -1.8313568 },
+    { "lat": 51.1707323, "lon": -1.8313514 },
+    { "lat": 51.1706482, "lon": -1.8313729 },
+    { "lat": 51.1706281, "lon": -1.8314024 },
+    { "lat": 51.1706264, "lon": -1.8314453 },
+    { "lat": 51.1706297, "lon": -1.8314668 },
+    { "lat": 51.1706617, "lon": -1.8315043 }
+  ],
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "landuse": "grass",
+    "megalith_type": "long_barrow"
+  }
+},
+{
+  "type": "way",
+  "id": 976678619,
+  "bounds": {
+    "minlat": 51.1601053,
+    "minlon": -1.8438253,
+    "maxlat": 51.1663119,
+    "maxlon": -1.8377009
+  },
+  "geometry": [
+    { "lat": 51.1615284, "lon": -1.8438253 },
+    { "lat": 51.1621787, "lon": -1.8431452 },
+    { "lat": 51.1624569, "lon": -1.8428544 },
+    { "lat": 51.1624804, "lon": -1.8428335 },
+    { "lat": 51.1626788, "lon": -1.8426577 },
+    { "lat": 51.1654978, "lon": -1.8403510 },
+    { "lat": 51.1657804, "lon": -1.8401686 },
+    { "lat": 51.1661033, "lon": -1.8399433 },
+    { "lat": 51.1662513, "lon": -1.8397501 },
+    { "lat": 51.1663119, "lon": -1.8395248 },
+    { "lat": 51.1662984, "lon": -1.8392244 },
+    { "lat": 51.1661908, "lon": -1.8386987 },
+    { "lat": 51.1660091, "lon": -1.8380764 },
+    { "lat": 51.1658611, "lon": -1.8377868 },
+    { "lat": 51.1657266, "lon": -1.8377009 },
+    { "lat": 51.1655113, "lon": -1.8377009 },
+    { "lat": 51.1652623, "lon": -1.8377546 },
+    { "lat": 51.1649394, "lon": -1.8378404 },
+    { "lat": 51.1643070, "lon": -1.8379584 },
+    { "lat": 51.1627124, "lon": -1.8379370 },
+    { "lat": 51.1616394, "lon": -1.8379728 },
+    { "lat": 51.1608185, "lon": -1.8379942 },
+    { "lat": 51.1601053, "lon": -1.8379084 },
+    { "lat": 51.1615284, "lon": -1.8438253 }
+  ],
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "North Kite Enclosure"
+  }
+},
+{
+  "type": "way",
+  "id": 1190054181,
+  "bounds": {
+    "minlat": 51.1793984,
+    "minlon": -1.8252137,
+    "maxlat": 51.1824633,
+    "maxlon": -1.8196521
+  },
+  "geometry": [
+    { "lat": 51.1824633, "lon": -1.8197010 },
+    { "lat": 51.1822327, "lon": -1.8196521 },
+    { "lat": 51.1821509, "lon": -1.8197482 },
+    { "lat": 51.1813687, "lon": -1.8211755 },
+    { "lat": 51.1804952, "lon": -1.8228579 },
+    { "lat": 51.1793984, "lon": -1.8249495 },
+    { "lat": 51.1794629, "lon": -1.8252137 },
+    { "lat": 51.1816267, "lon": -1.8211701 },
+    { "lat": 51.1824633, "lon": -1.8197010 }
+  ],
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "The Avenue",
+    "wikidata": "Q4443202",
+    "wikimedia_commons": "Category:Stonehenge Avenue",
+    "wikipedia": "en:Stonehenge Avenue"
+  }
+},
+{
+  "type": "way",
+  "id": 1190057263,
+  "bounds": {
+    "minlat": 51.1713766,
+    "minlon": -1.7980670,
+    "maxlat": 51.1716917,
+    "maxlon": -1.7975664
+  },
+  "geometry": [
+    { "lat": 51.1714431, "lon": -1.7976127 },
+    { "lat": 51.1714886, "lon": -1.7975772 },
+    { "lat": 51.1715388, "lon": -1.7975664 },
+    { "lat": 51.1715886, "lon": -1.7975817 },
+    { "lat": 51.1716327, "lon": -1.7976213 },
+    { "lat": 51.1716667, "lon": -1.7976812 },
+    { "lat": 51.1716871, "lon": -1.7977552 },
+    { "lat": 51.1716917, "lon": -1.7978357 },
+    { "lat": 51.1716790, "lon": -1.7979183 },
+    { "lat": 51.1716498, "lon": -1.7979894 },
+    { "lat": 51.1716074, "lon": -1.7980410 },
+    { "lat": 51.1715566, "lon": -1.7980670 },
+    { "lat": 51.1715033, "lon": -1.7980646 },
+    { "lat": 51.1714535, "lon": -1.7980340 },
+    { "lat": 51.1714130, "lon": -1.7979787 },
+    { "lat": 51.1713864, "lon": -1.7979051 },
+    { "lat": 51.1713766, "lon": -1.7978215 },
+    { "lat": 51.1713840, "lon": -1.7977415 },
+    { "lat": 51.1714070, "lon": -1.7976695 },
+    { "lat": 51.1714431, "lon": -1.7976127 }
+  ],
+  "tags": {
+    "description": "Approximate location based on publicly available photos. Unfortunately there is no confirmed evidences that site is available for public.",
+    "historic": "archaeological_site",
+    "name": "Bluestonehenge",
+    "wikidata": "Q832510",
+    "wikipedia": "en:Bluestonehenge"
+  }
+},
+{
+  "type": "relation",
+  "id": 13123906,
+  "bounds": {
+    "minlat": 51.1735664,
+    "minlon": -1.8590612,
+    "maxlat": 51.1765322,
+    "maxlon": -1.8534761
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Winterbourne Stoke Crossroads Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13123907,
+  "bounds": {
+    "minlat": 51.1768143,
+    "minlon": -1.8318477,
+    "maxlat": 51.1788273,
+    "maxlon": -1.8233742
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Stonehenge Down Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13124191,
+  "bounds": {
+    "minlat": 51.1830439,
+    "minlon": -1.8458349,
+    "maxlat": 51.1855236,
+    "maxlon": -1.8289251
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Cursus Barrows",
+    "type": "multipolygon",
+    "wikidata": "Q2434486",
+    "wikimedia_commons": "Category:Cursus_Barrows",
+    "wikipedia": "en:Cursus Barrows"
+  }
+},
+{
+  "type": "relation",
+  "id": 13124278,
+  "bounds": {
+    "minlat": 51.1691243,
+    "minlon": -1.8389692,
+    "maxlat": 51.1737618,
+    "maxlon": -1.8232790
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Normanton Down Barrows",
+    "type": "multipolygon",
+    "wikidata": "Q1999806"
+  }
+},
+{
+  "type": "relation",
+  "id": 13124371,
+  "bounds": {
+    "minlat": 51.1826099,
+    "minlon": -1.8089553,
+    "maxlat": 51.1865084,
+    "maxlon": -1.8033157
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Old King Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13124395,
+  "bounds": {
+    "minlat": 51.1772969,
+    "minlon": -1.8093370,
+    "maxlat": 51.1807337,
+    "maxlon": -1.8083790
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "New King Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13130092,
+  "bounds": {
+    "minlat": 51.1596362,
+    "minlon": -1.8478571,
+    "maxlat": 51.1625855,
+    "maxlon": -1.8427123
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Lake Barrows",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13130146,
+  "bounds": {
+    "minlat": 51.1562424,
+    "minlon": -1.8342023,
+    "maxlat": 51.1580200,
+    "maxlon": -1.8288080
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Wilsford Barrows",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,4680 @@
+{
+ "origin": {
+  "lat": 51.17886,
+  "lon": -1.82621,
+  "note": "Centre of the sarsen circle. Method: circle fitted to 15 OpenStreetMap-mapped sarsen upright positions (radius 15.6 m, scatter 0.54 m) gives 51.178859, -1.826208; independently, NGR SU 12244219 (English Heritage 2010 survey report header, 10 m resolution; +5 m/+5 m cell centre converted OSGB36->WGS84 by a 7-parameter Helmert, ~3-5 m) gives 51.17886, -1.82621; Gazetteer of Great Britain lists SU 1224 4219 = 51.178887, -1.8262196; Wikipedia 51.17889, -1.82611. Heel Stone check: OSM centroid 78.8 m from this origin at azimuth 51.0 (Wikipedia: 77.4 m). Uncertainty: about +/-2 m relative to the mapped stones, +/-5-10 m absolute (OSM/Bing imagery registration, Helmert, 10 m NGR resolution). The brief's provisional 51.17888, -1.82619 is 3 m away: consistent.",
+  "sources": [
+   "sto-osm-overpass",
+   "sto-ea-survey-2010",
+   "sto-gazetteer-stonehenge",
+   "sto-wikipedia-stonehenge",
+   "sto-wikipedia-heel-stone"
+  ]
+ },
+ "datum": {
+  "offsetOD": 60,
+  "note": "Local height = metres above Ordnance Datum minus 60. EU-DEM 25 m gives 101.4 m OD at the centre (EH survey control points around the monument read 99.8-104.8 m OD), so the ground at the stones is ~41.4 m local (fit: 41.6). The lowest DEM ground (the Avon, ~62 m OD) is ~2 m local, right at the engine's MIN_LAND clamp of 2 m: if river banks flatten, use offsetOD 55 (stones ~46.5)."
+ },
+ "bounds": {
+  "xMin": -2700,
+  "xMax": 3700,
+  "zMin": -2800,
+  "zMax": 2200
+ },
+ "boundsBrief": {
+  "xMin": -2700,
+  "xMax": 3500,
+  "zMin": -2800,
+  "zMax": 2200
+ },
+ "boundsNote": "Recommend x -2700..3700, z -2800..2200 (6.4 x 5.0 km): the extra 200 m east keeps the Avon's eastern meander (x to 3620, z -500..0) and Durrington village (x 3591, z -2284) in the scene; with the brief's xMax 3500 the Avon valley is cut by the edge there and the fit is ~12 m off. Outside even the recommended bounds: Robin Hood's Ball (x -2004, z -3766, ~1 km beyond the north edge), the long barrow at x 543, z -3143 (OSM node, far north), most of the Wilsford barrow group (z > 2200), Bulford (x ~4750), the summit of the Larkhill rise (z ~ -2950). Inside: Lesser Cursus, Winterbourne Stoke crossroads group (x -1900..-2280), Lake barrows (z to 2125), Woodhenge, Durrington Walls, Vespasian's Camp, Amesbury, Bluestonehenge, Coneybury, Cuckoo Stone, Cursus, King Barrow Ridge, Normanton Down.",
+ "features": {
+  "sarsen-circle-centre": {
+   "lat": 51.17886,
+   "lon": -1.82621,
+   "x": 0.0,
+   "z": 0.0,
+   "note": "origin; centre of circle fitted to 15 OSM-mapped sarsen uprights (radius 15.6 m, scatter 0.5 m); agrees with NGR SU 12244219 (EH 2010)",
+   "source": "sto-osm-overpass; sto-ea-survey-2010",
+   "ground": 41.6,
+   "insideBriefBounds": true
+  },
+  "heel-stone": {
+   "lat": 51.179306,
+   "lon": -1.825331,
+   "x": 61.3,
+   "z": -49.6,
+   "note": "OSM stone way centroid (ref 96); Wikipedia 51.179305,-1.825302 and 77.4 m from centre",
+   "distance": 78.9,
+   "bearing": 51.0,
+   "source": "sto-osm-overpass; sto-wikipedia-heel-stone",
+   "ground": 40.4,
+   "insideBriefBounds": true
+  },
+  "slaughter-stone": {
+   "lat": 51.179108,
+   "lon": -1.8257,
+   "x": 35.6,
+   "z": -27.6,
+   "note": "Stone 95 (OSM)",
+   "source": "sto-osm-overpass",
+   "ground": 41.2,
+   "insideBriefBounds": true
+  },
+  "station-stone-91": {
+   "lat": 51.178678,
+   "lon": -1.825625,
+   "x": 40.8,
+   "z": 20.2,
+   "source": "sto-osm-overpass",
+   "ground": 41.2,
+   "insideBriefBounds": true
+  },
+  "station-stone-93": {
+   "lat": 51.179032,
+   "lon": -1.82675,
+   "x": -37.7,
+   "z": -19.2,
+   "source": "sto-osm-overpass",
+   "ground": 41.3,
+   "insideBriefBounds": true
+  },
+  "avenue": {
+   "lat": 51.179431,
+   "lon": -1.825082,
+   "x": 78.7,
+   "z": -63.5,
+   "path": [
+    [
+     51.179431,
+     -1.825082
+    ],
+    [
+     51.18035,
+     -1.823346
+    ],
+    [
+     51.181268,
+     -1.821608
+    ],
+    [
+     51.182208,
+     -1.819901
+    ],
+    [
+     51.182233,
+     -1.817731
+    ],
+    [
+     51.182099,
+     -1.81547
+    ],
+    [
+     51.181965,
+     -1.813208
+    ],
+    [
+     51.181795,
+     -1.810954
+    ],
+    [
+     51.181538,
+     -1.808721
+    ],
+    [
+     51.181122,
+     -1.806549
+    ],
+    [
+     51.180473,
+     -1.804545
+    ],
+    [
+     51.179507,
+     -1.802898
+    ],
+    [
+     51.178269,
+     -1.802021
+    ],
+    [
+     51.176942,
+     -1.801195
+    ],
+    [
+     51.17562,
+     -1.800347
+    ],
+    [
+     51.174278,
+     -1.799584
+    ],
+    [
+     51.172956,
+     -1.798741
+    ],
+    [
+     51.171669,
+     -1.797766
+    ]
+   ],
+   "pathXZ": [
+    [
+     78.7,
+     -63.5
+    ],
+    [
+     199.8,
+     -165.8
+    ],
+    [
+     321.1,
+     -267.8
+    ],
+    [
+     440.2,
+     -372.4
+    ],
+    [
+     591.7,
+     -375.2
+    ],
+    [
+     749.5,
+     -360.3
+    ],
+    [
+     907.3,
+     -345.4
+    ],
+    [
+     1064.7,
+     -326.5
+    ],
+    [
+     1220.5,
+     -297.9
+    ],
+    [
+     1372.1,
+     -251.6
+    ],
+    [
+     1511.9,
+     -179.5
+    ],
+    [
+     1626.8,
+     -72.0
+    ],
+    [
+     1688.0,
+     65.7
+    ],
+    [
+     1745.7,
+     213.4
+    ],
+    [
+     1804.9,
+     360.5
+    ],
+    [
+     1858.1,
+     509.7
+    ],
+    [
+     1916.9,
+     656.8
+    ],
+    [
+     1985.0,
+     800.0
+    ]
+   ],
+   "length": 2694.8,
+   "width": 23,
+   "note": "centre line of the ditch-bounded Avenue polygons mapped in OSM (stones to the elbow near x 455 z -390, then east over King Barrow Ridge to x 1650 z -60) joined to the OSM footway \"The Avenue\" SE to the Avon; last leg (to Bluestonehenge) is a straight extrapolation of ~190 m. Ditches ~20 m apart (EH 2010 survey).",
+   "source": "sto-osm-overpass; sto-ea-survey-2010; sto-wikipedia-avenue",
+   "ground": 39.7,
+   "insideBriefBounds": true,
+   "bearingAtStones": 49.9,
+   "bearingStonesToElbow": 49.6
+  },
+  "avenue-elbow": {
+   "lat": 51.182348,
+   "lon": -1.819677,
+   "x": 455.9,
+   "z": -388.0,
+   "note": "where the NE-trending straight stretch ends and the Avenue turns east (EH 2010: ditches turn sharply east after >550 m, in Stonehenge Bottom)",
+   "bearingStonesToElbow": 49.6,
+   "source": "sto-osm-overpass; sto-ea-survey-2010",
+   "ground": 26.8,
+   "insideBriefBounds": true
+  },
+  "cursus-greater": {
+   "lat": 51.186555,
+   "lon": -1.82503,
+   "x": 82.3,
+   "z": -856.0,
+   "path": [
+    [
+     51.185382,
+     -1.844654
+    ],
+    [
+     51.185556,
+     -1.841084
+    ],
+    [
+     51.185654,
+     -1.837516
+    ],
+    [
+     51.18586,
+     -1.833948
+    ],
+    [
+     51.186093,
+     -1.83038
+    ],
+    [
+     51.186332,
+     -1.826812
+    ],
+    [
+     51.186575,
+     -1.823244
+    ],
+    [
+     51.186833,
+     -1.819676
+    ],
+    [
+     51.187091,
+     -1.816108
+    ],
+    [
+     51.187297,
+     -1.81254
+    ],
+    [
+     51.187513,
+     -1.808971
+    ],
+    [
+     51.187728,
+     -1.805406
+    ]
+   ],
+   "pathXZ": [
+    [
+     -1287.1,
+     -725.5
+    ],
+    [
+     -1038.0,
+     -745.0
+    ],
+    [
+     -789.0,
+     -755.8
+    ],
+    [
+     -540.0,
+     -778.7
+    ],
+    [
+     -291.0,
+     -804.7
+    ],
+    [
+     -42.0,
+     -831.2
+    ],
+    [
+     207.0,
+     -858.2
+    ],
+    [
+     456.0,
+     -887.0
+    ],
+    [
+     705.0,
+     -915.7
+    ],
+    [
+     954.0,
+     -938.6
+    ],
+    [
+     1203.0,
+     -962.6
+    ],
+    [
+     1451.8,
+     -986.6
+    ]
+   ],
+   "polygon": [
+    [
+     51.186523,
+     -1.832286
+    ],
+    [
+     51.186068,
+     -1.841065
+    ],
+    [
+     51.185725,
+     -1.844707
+    ],
+    [
+     51.185039,
+     -1.844602
+    ],
+    [
+     51.185057,
+     -1.836946
+    ],
+    [
+     51.186466,
+     -1.818242
+    ],
+    [
+     51.186829,
+     -1.812873
+    ],
+    [
+     51.187389,
+     -1.805423
+    ],
+    [
+     51.188067,
+     -1.805389
+    ],
+    [
+     51.187583,
+     -1.815989
+    ],
+    [
+     51.1874,
+     -1.818195
+    ],
+    [
+     51.187297,
+     -1.81986
+    ],
+    [
+     51.187164,
+     -1.821767
+    ],
+    [
+     51.18701,
+     -1.823957
+    ]
+   ],
+   "length": 2751.4,
+   "width": 107.6,
+   "widthRange": [
+    75.3,
+    133.1
+   ],
+   "bearing": 84.6,
+   "type": "cursus",
+   "endWest": {
+    "lat": 51.185382,
+    "lon": -1.844654,
+    "x": -1287.1,
+    "z": -725.5,
+    "source": "osm"
+   },
+   "endEast": {
+    "lat": 51.187728,
+    "lon": -1.805406,
+    "x": 1451.8,
+    "z": -986.6,
+    "source": "osm"
+   },
+   "note": "outline from OSM (NPE-traced earthwork); Wikipedia: ~2.76 km long, ~100 m wide, up to ~150 m at the west end. Width here = distance between mapped long sides.",
+   "source": "sto-osm-overpass; sto-wikipedia-cursus",
+   "ground": 38.7,
+   "insideBriefBounds": true
+  },
+  "cursus-lesser": {
+   "lat": 51.190341,
+   "lon": -1.851867,
+   "x": -1790.5,
+   "z": -1277.2,
+   "polygon": [
+    [
+     51.190964,
+     -1.847229
+    ],
+    [
+     51.191284,
+     -1.847434
+    ],
+    [
+     51.190318,
+     -1.852977
+    ],
+    [
+     51.190286,
+     -1.853096
+    ],
+    [
+     51.190238,
+     -1.853156
+    ],
+    [
+     51.190169,
+     -1.853156
+    ],
+    [
+     51.190083,
+     -1.853122
+    ],
+    [
+     51.190041,
+     -1.85302
+    ],
+    [
+     51.190014,
+     -1.852798
+    ],
+    [
+     51.190009,
+     -1.852679
+    ]
+   ],
+   "path": [
+    [
+     51.190123,
+     -1.853139
+    ],
+    [
+     51.191123,
+     -1.847298
+    ]
+   ],
+   "length": 422.5,
+   "width": 40.5,
+   "bearing": 74.7,
+   "type": "cursus",
+   "note": "OSM outline (Bing); Wikipedia: ~400 m x 60 m, WSW-ENE; cropmark only",
+   "source": "sto-osm-overpass; sto-wikipedia-cursus",
+   "ground": 52.1,
+   "insideBriefBounds": true
+  },
+  "durrington-walls": {
+   "lat": 51.192703,
+   "lon": -1.78666,
+   "x": 2760.0,
+   "z": -1540.0,
+   "polygon": [
+    [
+     51.194905,
+     -1.78666
+    ],
+    [
+     51.194737,
+     -1.785383
+    ],
+    [
+     51.19426,
+     -1.784299
+    ],
+    [
+     51.193545,
+     -1.783576
+    ],
+    [
+     51.192703,
+     -1.783321
+    ],
+    [
+     51.19186,
+     -1.783576
+    ],
+    [
+     51.191145,
+     -1.784299
+    ],
+    [
+     51.190668,
+     -1.785383
+    ],
+    [
+     51.1905,
+     -1.78666
+    ],
+    [
+     51.190668,
+     -1.787938
+    ],
+    [
+     51.191145,
+     -1.789021
+    ],
+    [
+     51.19186,
+     -1.789745
+    ],
+    [
+     51.192703,
+     -1.789999
+    ],
+    [
+     51.193545,
+     -1.789745
+    ],
+    [
+     51.19426,
+     -1.789021
+    ],
+    [
+     51.194737,
+     -1.787938
+    ]
+   ],
+   "diameter": 478.0,
+   "axes": [
+    466,
+    490
+   ],
+   "type": "henge",
+   "note": "centre from SU 1500 4376 (Gazetteer of Great Britain: 51.192885,-1.786628), Wikipedia 51.1925,-1.7875; OSM node is ~190 m off. Ring = ellipse 466 m E-W x 490 m N-S (Gazetteer: 510 x 535 yd) drawn as 16 points: APPROXIMATE, not a survey outline; centre uncertainty +/-60 m, outline +/-40 m.",
+   "source": "sto-gazetteer-durrington; sto-wikipedia-durrington; sto-osm-overpass",
+   "ground": 46.5,
+   "insideBriefBounds": true
+  },
+  "durrington-southern-circle": {
+   "lat": 51.190815,
+   "lon": -1.784941,
+   "x": 2880.0,
+   "z": -1330.0,
+   "type": "timber-circle",
+   "confidence": "low",
+   "note": "position estimated (south-east part of the enclosure, near the SE entrance); +/-60 m. Wikipedia text says the circle is 70 m north of Woodhenge, which does not fit the enclosure ellipse above; unresolved. Do not rely on better than ~100 m.",
+   "source": "sto-wikipedia-durrington",
+   "ground": 36.0,
+   "insideBriefBounds": true
+  },
+  "woodhenge": {
+   "lat": 51.189392,
+   "lon": -1.785793,
+   "x": 2820.6,
+   "z": -1171.6,
+   "polygon": [
+    [
+     51.189628,
+     -1.7858
+    ],
+    [
+     51.189619,
+     -1.785665
+    ],
+    [
+     51.189581,
+     -1.785544
+    ],
+    [
+     51.18952,
+     -1.785451
+    ],
+    [
+     51.189448,
+     -1.785399
+    ],
+    [
+     51.189364,
+     -1.785387
+    ],
+    [
+     51.189268,
+     -1.785432
+    ],
+    [
+     51.189202,
+     -1.785517
+    ],
+    [
+     51.189158,
+     -1.785632
+    ],
+    [
+     51.189141,
+     -1.785777
+    ],
+    [
+     51.189156,
+     -1.78591
+    ],
+    [
+     51.189199,
+     -1.786026
+    ],
+    [
+     51.189264,
+     -1.786112
+    ],
+    [
+     51.189304,
+     -1.786142
+    ],
+    [
+     51.189388,
+     -1.786163
+    ],
+    [
+     51.189462,
+     -1.786143
+    ],
+    [
+     51.189536,
+     -1.786079
+    ],
+    [
+     51.189582,
+     -1.786002
+    ],
+    [
+     51.189619,
+     -1.78588
+    ]
+   ],
+   "diameter": 110,
+   "type": "henge",
+   "note": "OSM polygon (54 m wide) marks the post-ring area; Wikipedia: whole monument 110 m across incl. ditch (up to 12 m wide) and outer bank; six oval post rings; entrance NE; Wikipedia 51.1894,-1.78576",
+   "source": "sto-osm-overpass; sto-wikipedia-woodhenge",
+   "ground": 36.8,
+   "insideBriefBounds": true
+  },
+  "coneybury-henge": {
+   "lat": 51.173498,
+   "lon": -1.809294,
+   "x": 1180.5,
+   "z": 596.6,
+   "polygon": [
+    [
+     51.173272,
+     -1.8091
+    ],
+    [
+     51.173324,
+     -1.808989
+    ],
+    [
+     51.173396,
+     -1.808914
+    ],
+    [
+     51.17348,
+     -1.808882
+    ],
+    [
+     51.173566,
+     -1.808897
+    ],
+    [
+     51.173644,
+     -1.808958
+    ],
+    [
+     51.173705,
+     -1.809057
+    ],
+    [
+     51.17374,
+     -1.809182
+    ],
+    [
+     51.173748,
+     -1.809309
+    ],
+    [
+     51.17373,
+     -1.809434
+    ],
+    [
+     51.173689,
+     -1.809543
+    ],
+    [
+     51.173629,
+     -1.809627
+    ],
+    [
+     51.173555,
+     -1.809675
+    ],
+    [
+     51.173475,
+     -1.809685
+    ],
+    [
+     51.173397,
+     -1.809654
+    ],
+    [
+     51.17333,
+     -1.809586
+    ],
+    [
+     51.173279,
+     -1.809488
+    ],
+    [
+     51.173249,
+     -1.809369
+    ],
+    [
+     51.173246,
+     -1.809231
+    ]
+   ],
+   "diameter": 56.2,
+   "type": "henge",
+   "note": "OSM outline; Neolithic henge excavated 1980s; (Coneybury Anomaly pit site is nearby, not mapped)",
+   "source": "sto-osm-overpass",
+   "ground": 47.8,
+   "insideBriefBounds": true
+  },
+  "bluestonehenge": {
+   "lat": 51.171534,
+   "lon": -1.797814,
+   "x": 1981.6,
+   "z": 815.0,
+   "polygon": [
+    [
+     51.171443,
+     -1.797613
+    ],
+    [
+     51.171489,
+     -1.797577
+    ],
+    [
+     51.171539,
+     -1.797566
+    ],
+    [
+     51.171589,
+     -1.797582
+    ],
+    [
+     51.171633,
+     -1.797621
+    ],
+    [
+     51.171667,
+     -1.797681
+    ],
+    [
+     51.171687,
+     -1.797755
+    ],
+    [
+     51.171692,
+     -1.797836
+    ],
+    [
+     51.171679,
+     -1.797918
+    ],
+    [
+     51.17165,
+     -1.797989
+    ],
+    [
+     51.171607,
+     -1.798041
+    ],
+    [
+     51.171557,
+     -1.798067
+    ],
+    [
+     51.171503,
+     -1.798065
+    ],
+    [
+     51.171453,
+     -1.798034
+    ],
+    [
+     51.171413,
+     -1.797979
+    ],
+    [
+     51.171386,
+     -1.797905
+    ],
+    [
+     51.171377,
+     -1.797821
+    ],
+    [
+     51.171384,
+     -1.797742
+    ],
+    [
+     51.171407,
+     -1.79767
+    ]
+   ],
+   "diameter": 35.1,
+   "type": "henge",
+   "note": "West Amesbury henge on the Avon bank; OSM marks it \"approximate location from photos\"; Wikipedia 51.1714,-1.7980; ditch ~25 m wide, stone circle ~10 m across (possibly 27 stones)",
+   "source": "sto-osm-overpass; sto-wikipedia-bluestonehenge",
+   "ground": 7.6,
+   "insideBriefBounds": true
+  },
+  "cuckoo-stone": {
+   "lat": 51.18914,
+   "lon": -1.791634,
+   "x": 2412.9,
+   "z": -1143.6,
+   "note": "Wikipedia 51.18923,-1.79168 (SU14654335)",
+   "source": "sto-osm-overpass; sto-wikipedia-cuckoo-stone",
+   "ground": 54.0,
+   "insideBriefBounds": true
+  },
+  "robin-hoods-ball": {
+   "lat": 51.212708,
+   "lon": -1.854927,
+   "x": -2004.0,
+   "z": -3765.6,
+   "polygon": [
+    [
+     51.211843,
+     -1.854096
+    ],
+    [
+     51.212031,
+     -1.85371
+    ],
+    [
+     51.212344,
+     -1.853414
+    ],
+    [
+     51.212761,
+     -1.853194
+    ],
+    [
+     51.21303,
+     -1.853309
+    ],
+    [
+     51.21316,
+     -1.853452
+    ],
+    [
+     51.213418,
+     -1.853711
+    ],
+    [
+     51.213571,
+     -1.854081
+    ],
+    [
+     51.213616,
+     -1.855072
+    ],
+    [
+     51.213566,
+     -1.85556
+    ],
+    [
+     51.213525,
+     -1.855829
+    ],
+    [
+     51.213418,
+     -1.856047
+    ],
+    [
+     51.213133,
+     -1.856242
+    ],
+    [
+     51.21273,
+     -1.856542
+    ],
+    [
+     51.212488,
+     -1.856413
+    ],
+    [
+     51.212246,
+     -1.856413
+    ],
+    [
+     51.212004,
+     -1.856156
+    ],
+    [
+     51.211843,
+     -1.855598
+    ],
+    [
+     51.211735,
+     -1.854997
+    ],
+    [
+     51.211708,
+     -1.854697
+    ]
+   ],
+   "type": "causewayed-enclosure",
+   "insideBounds": false,
+   "note": "about 4 km NNW of the stones; Wikipedia 51.2128,-1.8550",
+   "source": "sto-osm-overpass; sto-wikipedia-robin-hoods-ball",
+   "ground": 34.8,
+   "insideBriefBounds": false
+  },
+  "vespasians-camp": {
+   "lat": 51.174687,
+   "lon": -1.792096,
+   "x": 2380.7,
+   "z": 464.2,
+   "polygon": [
+    [
+     51.173054,
+     -1.793828
+    ],
+    [
+     51.17361,
+     -1.793787
+    ],
+    [
+     51.174166,
+     -1.793745
+    ],
+    [
+     51.174722,
+     -1.793737
+    ],
+    [
+     51.175279,
+     -1.793737
+    ],
+    [
+     51.175835,
+     -1.793737
+    ],
+    [
+     51.176392,
+     -1.793724
+    ],
+    [
+     51.176948,
+     -1.793708
+    ],
+    [
+     51.177428,
+     -1.79333
+    ],
+    [
+     51.177336,
+     -1.79254
+    ],
+    [
+     51.176847,
+     -1.792141
+    ],
+    [
+     51.176328,
+     -1.791823
+    ],
+    [
+     51.175806,
+     -1.791514
+    ],
+    [
+     51.17528,
+     -1.791223
+    ],
+    [
+     51.174755,
+     -1.790931
+    ],
+    [
+     51.174222,
+     -1.790678
+    ],
+    [
+     51.173684,
+     -1.790454
+    ],
+    [
+     51.173145,
+     -1.790229
+    ],
+    [
+     51.172624,
+     -1.789923
+    ],
+    [
+     51.172143,
+     -1.789644
+    ],
+    [
+     51.17234,
+     -1.79047
+    ],
+    [
+     51.172537,
+     -1.791298
+    ],
+    [
+     51.172703,
+     -1.792145
+    ],
+    [
+     51.172869,
+     -1.792991
+    ]
+   ],
+   "type": "hillfort",
+   "length": 730,
+   "note": "OSM outline (rampart line, 14 vertices) re-sampled to 24 points at equal arc length (corners slightly rounded). Wikipedia: 14 ha, 730 m N-S, 374 m wide at the south, 100 m at the north; bank up to 40 m wide, ditch up to 10 m, counterscarp 18 m; Avon runs along the south side (sic: OSM puts the loop west and south)",
+   "source": "sto-osm-overpass; sto-wikipedia-vespasians-camp",
+   "ground": 30.8,
+   "insideBriefBounds": true
+  },
+  "amesbury-church": {
+   "lat": 51.171886,
+   "lon": -1.784282,
+   "x": 2926.0,
+   "z": 775.8,
+   "note": "St Mary and St Melor (building polygon centroid); Grade I; may be the surviving priory church (Wikipedia Amesbury Abbey)",
+   "source": "sto-osm-overpass",
+   "ground": 6.3,
+   "insideBriefBounds": true
+  },
+  "amesbury-abbey-house": {
+   "lat": 51.174502,
+   "lon": -1.785392,
+   "x": 2848.5,
+   "z": 484.8,
+   "note": "OSM building \"Amesbury Abbey\": the 19th-century country house (Wikipedia: priory was destroyed at the Dissolution); not the medieval priory church",
+   "source": "sto-osm-overpass",
+   "ground": 16.8,
+   "insideBriefBounds": true
+  },
+  "amesbury-abbey-precinct": {
+   "lat": 51.171886,
+   "lon": -1.784927,
+   "x": 2881.0,
+   "z": 775.8,
+   "polygon": [
+    [
+     51.172471,
+     -1.786503
+    ],
+    [
+     51.172471,
+     -1.783351
+    ],
+    [
+     51.171302,
+     -1.783351
+    ],
+    [
+     51.171302,
+     -1.786503
+    ]
+   ],
+   "type": "conjectural",
+   "confidence": "low",
+   "note": "NO source gives the precinct boundary. 220 x 130 m rectangle centred ~45 m west of the church (Fontevraud priory lay by the church). Placeholder only: lead should label as conjectural.",
+   "source": "conjecture",
+   "ground": 5.5,
+   "insideBriefBounds": true
+  },
+  "amesbury-town-centre": {
+   "lat": 51.1723,
+   "lon": -1.78175,
+   "x": 3102.7,
+   "z": 729.8,
+   "note": "OSM place=town node",
+   "source": "sto-osm-overpass",
+   "ground": 13.7,
+   "insideBriefBounds": true
+  },
+  "stonehenge-bottom-label": {
+   "lat": 51.177789,
+   "lon": -1.819128,
+   "x": 494.2,
+   "z": 119.1,
+   "note": "OSM place=locality node \"Stonehenge Bottom\" (label position only; the valley is fitted from the DEM)",
+   "source": "sto-osm-overpass",
+   "ground": 27.6,
+   "insideBriefBounds": true
+  },
+  "stonehenge-bottom-axis": {
+   "lat": 51.18066,
+   "lon": -1.81819,
+   "x": 559.7,
+   "z": -200.3,
+   "path": [
+    [
+     51.19055,
+     -1.81546
+    ],
+    [
+     51.18695,
+     -1.8169
+    ],
+    [
+     51.18335,
+     -1.81761
+    ],
+    [
+     51.18066,
+     -1.81819
+    ],
+    [
+     51.17616,
+     -1.81962
+    ],
+    [
+     51.17077,
+     -1.82005
+    ],
+    [
+     51.16628,
+     -1.82019
+    ],
+    [
+     51.16358,
+     -1.82119
+    ],
+    [
+     51.16178,
+     -1.82334
+    ],
+    [
+     51.15998,
+     -1.82621
+    ],
+    [
+     51.15819,
+     -1.82908
+    ]
+   ],
+   "type": "dry-valley",
+   "source": "sto-eudem-elevation",
+   "note": "axis of the fitted Stonehenge Bottom valley (hand-drawn from the DEM minima, N-S at x ~ 430-750 m, deepening south); the Avenue crosses it near x 500-600, z -390; valley floor ~86-90 m OD there vs 108-111 m OD on King Barrow Ridge"
+  },
+  "winterbourne-stoke-1": {
+   "id": "b008",
+   "name": "Winterbourne Stoke 1 (Crossroads long barrow)",
+   "group": "Winterbourne Stoke Crossroads Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.172694,
+   "lon": -1.858389,
+   "x": -2245.6,
+   "z": 685.9,
+   "form": "long",
+   "inBounds": true,
+   "osm": "way/152660270",
+   "length": 77,
+   "width": 26,
+   "bearing": 31,
+   "source": "sto-osm-overpass",
+   "note": "OSM name: Winterbourne Stoke Crossroads Long Barrow; length/bearing from the mapped outline",
+   "type": "long-barrow",
+   "ground": 45.2
+  },
+  "normanton-down-long-barrow": {
+   "id": "b074",
+   "name": "Normanton Down long barrow",
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.170707,
+   "lon": -1.831423,
+   "x": -363.8,
+   "z": 907.0,
+   "form": "long",
+   "inBounds": true,
+   "osm": "way/976089652",
+   "length": 19,
+   "width": 9,
+   "bearing": 11,
+   "source": "sto-osm-overpass",
+   "note": "OSM outline is small (19 x 9 m): probably the surviving mound only; identification as the Normanton Down long barrow inferred from position/type (Wikipedia: one Neolithic long barrow in the group)",
+   "type": "long-barrow",
+   "ground": 39.8
+  },
+  "amesbury-42": {
+   "id": "b120",
+   "name": "Amesbury 42 long barrow",
+   "group": "Old King Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.18763,
+   "lon": -1.80475,
+   "x": 1497.6,
+   "z": -975.6,
+   "form": "long",
+   "inBounds": true,
+   "osm": "way/976096296",
+   "length": 81,
+   "width": 20,
+   "bearing": 2,
+   "source": "sto-osm-overpass",
+   "note": "just beyond the east end of the Greater Cursus; N-S; levelled, under a bridleway (Wikipedia Stonehenge Cursus). OSM polygon: length/bearing from the mapped outline",
+   "type": "long-barrow",
+   "ground": 49.3
+  },
+  "bush-barrow": {
+   "id": "b061",
+   "name": "Bush Barrow",
+   "group": "Normanton Down Barrows",
+   "lat": 51.170511,
+   "lon": -1.834745,
+   "x": -595.6,
+   "z": 928.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660486",
+   "diameter": 49,
+   "source": "sto-osm-overpass; sto-wikipedia-bush-barrow",
+   "height": 3.3,
+   "note": "identified by position: Wikipedia 51.17051,-1.83482 (SU11644126) lies within 5 m of this OSM polygon; Wikipedia: 49 m overall, 3.3 m high",
+   "ground": 44.5,
+   "type": "barrow"
+  }
+ },
+ "barrows": [
+  {
+   "id": "b001",
+   "name": null,
+   "group": "Other",
+   "lat": 51.181078,
+   "lon": -1.861703,
+   "x": -2476.9,
+   "z": -246.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660345",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 42.2
+  },
+  {
+   "id": "b002",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.176021,
+   "lon": -1.858901,
+   "x": -2281.4,
+   "z": 315.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660382",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.1
+  },
+  {
+   "id": "b003",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.175814,
+   "lon": -1.858898,
+   "x": -2281.2,
+   "z": 338.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976066830",
+   "diameter": 12,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.1
+  },
+  {
+   "id": "b004",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.175588,
+   "lon": -1.858856,
+   "x": -2278.2,
+   "z": 364.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660399",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.1
+  },
+  {
+   "id": "b005",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.173664,
+   "lon": -1.858582,
+   "x": -2259.1,
+   "z": 578.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660396",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.1
+  },
+  {
+   "id": "b006",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.176071,
+   "lon": -1.858423,
+   "x": -2248.0,
+   "z": 310.3,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660285",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.5
+  },
+  {
+   "id": "b007",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.175732,
+   "lon": -1.858418,
+   "x": -2247.7,
+   "z": 348.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660319",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.5
+  },
+  {
+   "id": "b008",
+   "name": "Winterbourne Stoke 1 (Crossroads long barrow)",
+   "group": "Winterbourne Stoke Crossroads Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.172694,
+   "lon": -1.858389,
+   "x": -2245.6,
+   "z": 685.9,
+   "form": "long",
+   "inBounds": true,
+   "osm": "way/152660270",
+   "length": 77,
+   "width": 26,
+   "bearing": 31,
+   "source": "sto-osm-overpass",
+   "note": "OSM name: Winterbourne Stoke Crossroads Long Barrow; length/bearing from the mapped outline",
+   "ground": 45.2
+  },
+  {
+   "id": "b009",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.174576,
+   "lon": -1.857658,
+   "x": -2194.6,
+   "z": 476.6,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976066832",
+   "diameter": 17,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.8
+  },
+  {
+   "id": "b010",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.174449,
+   "lon": -1.857311,
+   "x": -2170.4,
+   "z": 490.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976066831",
+   "diameter": 20,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.9
+  },
+  {
+   "id": "b011",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.174794,
+   "lon": -1.856992,
+   "x": -2148.1,
+   "z": 452.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660554",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.3
+  },
+  {
+   "id": "b012",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.175177,
+   "lon": -1.856639,
+   "x": -2123.5,
+   "z": 409.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660525",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.8
+  },
+  {
+   "id": "b013",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.174264,
+   "lon": -1.856625,
+   "x": -2122.5,
+   "z": 511.3,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660542",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.2
+  },
+  {
+   "id": "b014",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.175191,
+   "lon": -1.856033,
+   "x": -2081.2,
+   "z": 408.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660327",
+   "diameter": 32,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 47.2
+  },
+  {
+   "id": "b015",
+   "name": "Ring Barrow",
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.17451,
+   "lon": -1.855962,
+   "x": -2076.3,
+   "z": 483.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660551",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.7
+  },
+  {
+   "id": "b016",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.175501,
+   "lon": -1.855881,
+   "x": -2070.6,
+   "z": 373.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660355",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 47.5
+  },
+  {
+   "id": "b017",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.175078,
+   "lon": -1.855355,
+   "x": -2033.9,
+   "z": 420.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660451",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 47.4
+  },
+  {
+   "id": "b018",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.175692,
+   "lon": -1.854513,
+   "x": -1975.1,
+   "z": 352.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660407",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 48.5
+  },
+  {
+   "id": "b019",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.176081,
+   "lon": -1.854092,
+   "x": -1945.8,
+   "z": 309.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660461",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 49.1
+  },
+  {
+   "id": "b020",
+   "name": null,
+   "group": "Other",
+   "lat": 51.187366,
+   "lon": -1.853949,
+   "x": -1935.8,
+   "z": -946.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/377378056",
+   "diameter": 12,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 48.2
+  },
+  {
+   "id": "b021",
+   "name": null,
+   "group": "Winterbourne Stoke Crossroads Barrows",
+   "lat": 51.176431,
+   "lon": -1.853639,
+   "x": -1914.2,
+   "z": 270.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660333",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 49.8
+  },
+  {
+   "id": "b022",
+   "name": null,
+   "group": "Other",
+   "lat": 51.187125,
+   "lon": -1.852908,
+   "x": -1863.1,
+   "z": -919.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/377378054",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 48.2
+  },
+  {
+   "id": "b023",
+   "name": "long barrow (unnamed in OSM)",
+   "group": "Winterbourne Stoke Crossroads Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.169784,
+   "lon": -1.852475,
+   "x": -1832.9,
+   "z": 1009.7,
+   "form": "long",
+   "inBounds": true,
+   "osm": "node/445363162",
+   "length": 0,
+   "width": 0,
+   "bearing": 0,
+   "source": "sto-osm-overpass",
+   "note": "long barrow (OSM node; Winterbourne Stoke Down)",
+   "ground": 43.0
+  },
+  {
+   "id": "b024",
+   "name": null,
+   "group": "Other",
+   "lat": 51.186998,
+   "lon": -1.852437,
+   "x": -1830.3,
+   "z": -905.3,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/377378055",
+   "diameter": 15,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 48.1
+  },
+  {
+   "id": "b025",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.161336,
+   "lon": -1.847677,
+   "x": -1498.1,
+   "z": 1949.5,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678625",
+   "diameter": 25,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 43.7
+  },
+  {
+   "id": "b026",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.161174,
+   "lon": -1.847219,
+   "x": -1466.2,
+   "z": 1967.6,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678627",
+   "diameter": 14,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 43.6
+  },
+  {
+   "id": "b027",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.161104,
+   "lon": -1.847081,
+   "x": -1456.5,
+   "z": 1975.3,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678626",
+   "diameter": 11,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 43.6
+  },
+  {
+   "id": "b028",
+   "name": "long barrow (unnamed in OSM)",
+   "group": "Lake Barrows",
+   "lat": 51.160614,
+   "lon": -1.846921,
+   "x": -1445.3,
+   "z": 2029.8,
+   "form": "long",
+   "inBounds": true,
+   "osm": "way/976678628",
+   "length": 56,
+   "width": 30,
+   "bearing": 115,
+   "source": "sto-osm-overpass",
+   "note": "tagged tumulus=long_barrow in OSM (Lake Barrows area); outline 56 x 30 m",
+   "ground": 43.9
+  },
+  {
+   "id": "b029",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.160936,
+   "lon": -1.846686,
+   "x": -1428.9,
+   "z": 1994.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678624",
+   "diameter": 38,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 43.6
+  },
+  {
+   "id": "b030",
+   "name": "Prophet Barrow",
+   "group": "Lake Barrows",
+   "lat": 51.161747,
+   "lon": -1.846004,
+   "x": -1381.3,
+   "z": 1903.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678630",
+   "diameter": 21,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 42.5
+  },
+  {
+   "id": "b031",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.160733,
+   "lon": -1.845975,
+   "x": -1379.3,
+   "z": 2016.6,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678629",
+   "diameter": 14,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 43.5
+  },
+  {
+   "id": "b032",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.184262,
+   "lon": -1.845724,
+   "x": -1361.8,
+   "z": -601.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083989",
+   "diameter": 15,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.9
+  },
+  {
+   "id": "b033",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.161665,
+   "lon": -1.84548,
+   "x": -1344.8,
+   "z": 1912.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678631",
+   "diameter": 27,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 42.2
+  },
+  {
+   "id": "b034",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.161353,
+   "lon": -1.844805,
+   "x": -1297.7,
+   "z": 1947.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678633",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 42.1
+  },
+  {
+   "id": "b035",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.159973,
+   "lon": -1.844499,
+   "x": -1276.3,
+   "z": 2101.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678622",
+   "diameter": 32,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 43.6
+  },
+  {
+   "id": "b036",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.161401,
+   "lon": -1.844387,
+   "x": -1268.5,
+   "z": 1942.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678632",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.7
+  },
+  {
+   "id": "b037",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.16106,
+   "lon": -1.843936,
+   "x": -1237.0,
+   "z": 1980.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678621",
+   "diameter": 20,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.9
+  },
+  {
+   "id": "b038",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.160525,
+   "lon": -1.843527,
+   "x": -1208.5,
+   "z": 2039.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678620",
+   "diameter": 29,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 42.5
+  },
+  {
+   "id": "b039",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.162422,
+   "lon": -1.843495,
+   "x": -1206.2,
+   "z": 1828.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678635",
+   "diameter": 36,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 38.6
+  },
+  {
+   "id": "b040",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.161691,
+   "lon": -1.843339,
+   "x": -1195.3,
+   "z": 1910.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678636",
+   "diameter": 16,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 40.2
+  },
+  {
+   "id": "b041",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.185374,
+   "lon": -1.843306,
+   "x": -1193.0,
+   "z": -724.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083988",
+   "diameter": 33,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.7
+  },
+  {
+   "id": "b042",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.159758,
+   "lon": -1.843141,
+   "x": -1181.6,
+   "z": 2125.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678623",
+   "diameter": 27,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 43.2
+  },
+  {
+   "id": "b043",
+   "name": null,
+   "group": "Lake Barrows",
+   "lat": 51.162403,
+   "lon": -1.84299,
+   "x": -1171.0,
+   "z": 1830.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976678634",
+   "diameter": 32,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 37.9
+  },
+  {
+   "id": "b044",
+   "name": "Monarch of the Plain",
+   "group": "Cursus Barrows",
+   "lat": 51.183923,
+   "lon": -1.842782,
+   "x": -1156.5,
+   "z": -563.3,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083990",
+   "diameter": 53,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.9
+  },
+  {
+   "id": "b045",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.184636,
+   "lon": -1.841462,
+   "x": -1064.4,
+   "z": -642.5,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083991",
+   "diameter": 36,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 44.8
+  },
+  {
+   "id": "b046",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.183718,
+   "lon": -1.840616,
+   "x": -1005.3,
+   "z": -540.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083992",
+   "diameter": 27,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 44.7
+  },
+  {
+   "id": "b047",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.183821,
+   "lon": -1.839686,
+   "x": -940.4,
+   "z": -551.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083993",
+   "diameter": 16,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 44.2
+  },
+  {
+   "id": "b048",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.172053,
+   "lon": -1.838442,
+   "x": -853.6,
+   "z": 757.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976089649",
+   "diameter": 73,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.3
+  },
+  {
+   "id": "b049",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.172614,
+   "lon": -1.838168,
+   "x": -834.5,
+   "z": 694.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976089650",
+   "diameter": 18,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.1
+  },
+  {
+   "id": "b050",
+   "name": null,
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.168779,
+   "lon": -1.83807,
+   "x": -827.7,
+   "z": 1121.5,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660459",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 39.7
+  },
+  {
+   "id": "b051",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.183687,
+   "lon": -1.837881,
+   "x": -814.5,
+   "z": -536.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083986",
+   "diameter": 42,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 43.2
+  },
+  {
+   "id": "b052",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.171253,
+   "lon": -1.837809,
+   "x": -809.4,
+   "z": 846.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976089648",
+   "diameter": 36,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.8
+  },
+  {
+   "id": "b053",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.183188,
+   "lon": -1.837329,
+   "x": -775.9,
+   "z": -481.5,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083987",
+   "diameter": 32,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 43.1
+  },
+  {
+   "id": "b054",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.173617,
+   "lon": -1.836871,
+   "x": -744.0,
+   "z": 583.3,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660275",
+   "diameter": 32,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 44.6
+  },
+  {
+   "id": "b055",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.18414,
+   "lon": -1.836564,
+   "x": -722.5,
+   "z": -587.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083985",
+   "diameter": 16,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 42.5
+  },
+  {
+   "id": "b056",
+   "name": null,
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.174909,
+   "lon": -1.836302,
+   "x": -704.3,
+   "z": 439.5,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660584",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 44.5
+  },
+  {
+   "id": "b057",
+   "name": null,
+   "group": "Stonehenge Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.175879,
+   "lon": -1.836265,
+   "x": -701.7,
+   "z": 331.6,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660575",
+   "diameter": 18,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 44.9
+  },
+  {
+   "id": "b058",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170915,
+   "lon": -1.836144,
+   "x": -693.3,
+   "z": 883.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660468",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.6
+  },
+  {
+   "id": "b059",
+   "name": null,
+   "group": "Stonehenge Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.175544,
+   "lon": -1.83613,
+   "x": -692.3,
+   "z": 368.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660572",
+   "diameter": 18,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 44.6
+  },
+  {
+   "id": "b060",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170353,
+   "lon": -1.835784,
+   "x": -668.1,
+   "z": 946.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660532",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.9
+  },
+  {
+   "id": "b061",
+   "name": "Bush Barrow",
+   "group": "Normanton Down Barrows",
+   "lat": 51.170511,
+   "lon": -1.834745,
+   "x": -595.6,
+   "z": 928.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660486",
+   "diameter": 49,
+   "source": "sto-osm-overpass; sto-wikipedia-bush-barrow",
+   "height": 3.3,
+   "note": "identified by position: Wikipedia 51.17051,-1.83482 (SU11644126) lies within 5 m of this OSM polygon; Wikipedia: 49 m overall, 3.3 m high",
+   "ground": 44.5
+  },
+  {
+   "id": "b062",
+   "name": null,
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.168391,
+   "lon": -1.834319,
+   "x": -565.9,
+   "z": 1164.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660292",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 39.0
+  },
+  {
+   "id": "b063",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.184208,
+   "lon": -1.833952,
+   "x": -540.2,
+   "z": -595.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083984",
+   "diameter": 24,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.6
+  },
+  {
+   "id": "b064",
+   "name": null,
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.168244,
+   "lon": -1.833905,
+   "x": -537.0,
+   "z": 1181.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660379",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 38.2
+  },
+  {
+   "id": "b065",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170458,
+   "lon": -1.833113,
+   "x": -481.7,
+   "z": 934.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660323",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.9
+  },
+  {
+   "id": "b066",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.184113,
+   "lon": -1.833018,
+   "x": -475.1,
+   "z": -584.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083983",
+   "diameter": 27,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.4
+  },
+  {
+   "id": "b067",
+   "name": null,
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.168881,
+   "lon": -1.832905,
+   "x": -467.2,
+   "z": 1110.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660522",
+   "diameter": 42,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 39.4
+  },
+  {
+   "id": "b068",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170247,
+   "lon": -1.832719,
+   "x": -454.3,
+   "z": 958.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660510",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.2
+  },
+  {
+   "id": "b069",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.184087,
+   "lon": -1.83251,
+   "x": -439.6,
+   "z": -581.5,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083982",
+   "diameter": 29,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.2
+  },
+  {
+   "id": "b070",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.171013,
+   "lon": -1.832354,
+   "x": -428.8,
+   "z": 873.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660495",
+   "diameter": 42,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.1
+  },
+  {
+   "id": "b071",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.171012,
+   "lon": -1.831836,
+   "x": -392.6,
+   "z": 873.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976089651",
+   "diameter": 16,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 40.4
+  },
+  {
+   "id": "b072",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.184121,
+   "lon": -1.831737,
+   "x": -385.7,
+   "z": -585.3,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083981",
+   "diameter": 36,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.1
+  },
+  {
+   "id": "b073",
+   "name": null,
+   "group": "Stonehenge Down Barrows",
+   "lat": 51.177622,
+   "lon": -1.831726,
+   "x": -384.9,
+   "z": 137.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/377451745",
+   "diameter": 17,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 41.0
+  },
+  {
+   "id": "b074",
+   "name": "Normanton Down long barrow",
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.170707,
+   "lon": -1.831423,
+   "x": -363.8,
+   "z": 907.0,
+   "form": "long",
+   "inBounds": true,
+   "osm": "way/976089652",
+   "length": 19,
+   "width": 9,
+   "bearing": 11,
+   "source": "sto-osm-overpass",
+   "note": "OSM outline is small (19 x 9 m): probably the surviving mound only; identification as the Normanton Down long barrow inferred from position/type (Wikipedia: one Neolithic long barrow in the group)",
+   "ground": 39.8
+  },
+  {
+   "id": "b075",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.171215,
+   "lon": -1.830972,
+   "x": -332.3,
+   "z": 850.5,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660577",
+   "diameter": 9,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 39.5
+  },
+  {
+   "id": "b076",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170885,
+   "lon": -1.830952,
+   "x": -330.9,
+   "z": 887.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660341",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 39.4
+  },
+  {
+   "id": "b077",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.1705,
+   "lon": -1.830708,
+   "x": -313.9,
+   "z": 930.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660530",
+   "diameter": 48,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 38.9
+  },
+  {
+   "id": "b078",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.184169,
+   "lon": -1.830074,
+   "x": -269.6,
+   "z": -590.6,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083979",
+   "diameter": 35,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 40.7
+  },
+  {
+   "id": "b079",
+   "name": null,
+   "group": "Stonehenge Down Barrows",
+   "lat": 51.177894,
+   "lon": -1.829957,
+   "x": -261.5,
+   "z": 107.5,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660566",
+   "diameter": 36,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 40.0
+  },
+  {
+   "id": "b080",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170748,
+   "lon": -1.829919,
+   "x": -258.8,
+   "z": 902.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660585",
+   "diameter": 9,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 38.2
+  },
+  {
+   "id": "b081",
+   "name": null,
+   "group": "Stonehenge Down Barrows",
+   "lat": 51.176978,
+   "lon": -1.829599,
+   "x": -236.5,
+   "z": 209.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660565",
+   "diameter": 36,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 39.5
+  },
+  {
+   "id": "b082",
+   "name": null,
+   "group": "Stonehenge Down Barrows",
+   "lat": 51.178237,
+   "lon": -1.829544,
+   "x": -232.7,
+   "z": 69.3,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660557",
+   "diameter": 36,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 40.0
+  },
+  {
+   "id": "b083",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170271,
+   "lon": -1.829464,
+   "x": -227.1,
+   "z": 955.6,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660336",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 37.4
+  },
+  {
+   "id": "b084",
+   "name": null,
+   "group": "Stonehenge Down Barrows",
+   "lat": 51.178021,
+   "lon": -1.82941,
+   "x": -223.3,
+   "z": 93.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976066835",
+   "diameter": 7,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 39.9
+  },
+  {
+   "id": "b085",
+   "name": null,
+   "group": "Cursus Barrows",
+   "lat": 51.184119,
+   "lon": -1.829273,
+   "x": -213.7,
+   "z": -585.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976083980",
+   "diameter": 48,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 40.4
+  },
+  {
+   "id": "b086",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170239,
+   "lon": -1.829122,
+   "x": -203.2,
+   "z": 959.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660444",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 37.0
+  },
+  {
+   "id": "b087",
+   "name": null,
+   "group": "Stonehenge Down Barrows",
+   "lat": 51.178389,
+   "lon": -1.828953,
+   "x": -191.4,
+   "z": 52.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976066833",
+   "diameter": 13,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 40.0
+  },
+  {
+   "id": "b088",
+   "name": null,
+   "group": "Stonehenge Down Barrows",
+   "lat": 51.17807,
+   "lon": -1.828664,
+   "x": -171.3,
+   "z": 87.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976066834",
+   "diameter": 30,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 39.8
+  },
+  {
+   "id": "b089",
+   "name": null,
+   "group": "Wilsford Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.162608,
+   "lon": -1.828623,
+   "x": -168.4,
+   "z": 1808.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660438",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 17.5
+  },
+  {
+   "id": "b090",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170113,
+   "lon": -1.828474,
+   "x": -158.0,
+   "z": 973.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660476",
+   "diameter": 42,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 36.1
+  },
+  {
+   "id": "b091",
+   "name": null,
+   "group": "Other",
+   "lat": 51.163245,
+   "lon": -1.828341,
+   "x": -148.7,
+   "z": 1737.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660501",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 20.4
+  },
+  {
+   "id": "b092",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.170022,
+   "lon": -1.8278,
+   "x": -111.0,
+   "z": 983.3,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/377450377",
+   "diameter": 23,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 35.1
+  },
+  {
+   "id": "b093",
+   "name": null,
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.165899,
+   "lon": -1.827384,
+   "x": -81.9,
+   "z": 1441.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660546",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 30.2
+  },
+  {
+   "id": "b094",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.169873,
+   "lon": -1.827051,
+   "x": -58.7,
+   "z": 999.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660307",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 33.7
+  },
+  {
+   "id": "b095",
+   "name": null,
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.167087,
+   "lon": -1.826848,
+   "x": -44.5,
+   "z": 1309.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660483",
+   "diameter": 41,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 31.5
+  },
+  {
+   "id": "b096",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.169735,
+   "lon": -1.826317,
+   "x": -7.5,
+   "z": 1015.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660418",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 32.2
+  },
+  {
+   "id": "b097",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.169637,
+   "lon": -1.825748,
+   "x": 32.3,
+   "z": 1026.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660281",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 31.0
+  },
+  {
+   "id": "b098",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.169226,
+   "lon": -1.825399,
+   "x": 56.6,
+   "z": 1071.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660416",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 30.0
+  },
+  {
+   "id": "b099",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.169538,
+   "lon": -1.825203,
+   "x": 70.3,
+   "z": 1037.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660390",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 29.7
+  },
+  {
+   "id": "b100",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.169364,
+   "lon": -1.82463,
+   "x": 110.3,
+   "z": 1056.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660314",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 28.3
+  },
+  {
+   "id": "b101",
+   "name": null,
+   "group": "Stonehenge Down Barrows",
+   "lat": 51.178664,
+   "lon": -1.823635,
+   "x": 179.7,
+   "z": 21.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/422721482",
+   "diameter": 36,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 35.7
+  },
+  {
+   "id": "b102",
+   "name": null,
+   "group": "Normanton Down Barrows",
+   "lat": 51.169458,
+   "lon": -1.823581,
+   "x": 183.4,
+   "z": 1046.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660538",
+   "diameter": 42,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 26.0
+  },
+  {
+   "id": "b103",
+   "name": null,
+   "group": "Normanton Down Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.169557,
+   "lon": -1.822069,
+   "x": 289.0,
+   "z": 1034.9,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/152660590",
+   "diameter": 9,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 23.3
+  },
+  {
+   "id": "b104",
+   "name": null,
+   "group": "New King Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.180476,
+   "lon": -1.815002,
+   "x": 782.2,
+   "z": -179.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/377452049",
+   "diameter": 29,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 32.7
+  },
+  {
+   "id": "b105",
+   "name": null,
+   "group": "Old King Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.182907,
+   "lon": -1.811359,
+   "x": 1036.4,
+   "z": -450.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/377451746",
+   "diameter": 19,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 40.5
+  },
+  {
+   "id": "b106",
+   "name": null,
+   "group": "New King Barrows",
+   "lat": 51.179031,
+   "lon": -1.809059,
+   "x": 1196.9,
+   "z": -19.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976100455",
+   "diameter": 39,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 49.4
+  },
+  {
+   "id": "b107",
+   "name": null,
+   "group": "New King Barrows",
+   "lat": 51.17738,
+   "lon": -1.80904,
+   "x": 1198.2,
+   "z": 164.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976100458",
+   "diameter": 18,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 49.3
+  },
+  {
+   "id": "b108",
+   "name": null,
+   "group": "New King Barrows",
+   "lat": 51.178515,
+   "lon": -1.809026,
+   "x": 1199.2,
+   "z": 38.4,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976100456",
+   "diameter": 39,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 49.4
+  },
+  {
+   "id": "b109",
+   "name": null,
+   "group": "New King Barrows",
+   "lat": 51.179613,
+   "lon": -1.808937,
+   "x": 1205.4,
+   "z": -83.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976100454",
+   "diameter": 37,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 49.3
+  },
+  {
+   "id": "b110",
+   "name": null,
+   "group": "New King Barrows",
+   "lat": 51.178017,
+   "lon": -1.808914,
+   "x": 1207.0,
+   "z": 93.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976100457",
+   "diameter": 31,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 49.4
+  },
+  {
+   "id": "b111",
+   "name": null,
+   "group": "New King Barrows",
+   "lat": 51.18009,
+   "lon": -1.808767,
+   "x": 1217.3,
+   "z": -136.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976100453",
+   "diameter": 37,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 49.2
+  },
+  {
+   "id": "b112",
+   "name": null,
+   "group": "Old King Barrows",
+   "lat": 51.182816,
+   "lon": -1.808626,
+   "x": 1227.1,
+   "z": -440.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976096294",
+   "diameter": 46,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.2
+  },
+  {
+   "id": "b113",
+   "name": null,
+   "group": "New King Barrows",
+   "lat": 51.1806,
+   "lon": -1.808591,
+   "x": 1229.5,
+   "z": -193.5,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976100452",
+   "diameter": 30,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 49.0
+  },
+  {
+   "id": "b114",
+   "name": null,
+   "group": "Old King Barrows",
+   "lat": 51.183728,
+   "lon": -1.808471,
+   "x": 1237.9,
+   "z": -541.6,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976096295",
+   "diameter": 45,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 45.2
+  },
+  {
+   "id": "b115",
+   "name": "Coneybury Barrow",
+   "group": "Other",
+   "lat": 51.171461,
+   "lon": -1.807649,
+   "x": 1295.3,
+   "z": 823.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/237169101",
+   "diameter": 25,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 39.6
+  },
+  {
+   "id": "b116",
+   "name": null,
+   "group": "Old King Barrows",
+   "lat": 51.184254,
+   "lon": -1.807144,
+   "x": 1330.6,
+   "z": -600.0,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/377451748",
+   "diameter": 30,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.2
+  },
+  {
+   "id": "b117",
+   "name": null,
+   "group": "Old King Barrows",
+   "lat": 51.184485,
+   "lon": -1.806681,
+   "x": 1362.9,
+   "z": -625.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/377451747",
+   "diameter": 11,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.3
+  },
+  {
+   "id": "b118",
+   "name": null,
+   "group": "Old King Barrows",
+   "lat": 51.184794,
+   "lon": -1.806171,
+   "x": 1398.4,
+   "z": -660.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976096289",
+   "diameter": 22,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 46.5
+  },
+  {
+   "id": "b119",
+   "name": null,
+   "group": "Old King Barrows",
+   "lat": 51.185517,
+   "lon": -1.805241,
+   "x": 1463.3,
+   "z": -740.6,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976096290",
+   "diameter": 25,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 47.4
+  },
+  {
+   "id": "b120",
+   "name": "Amesbury 42 long barrow",
+   "group": "Old King Barrows (nearby, unlisted in OSM relation)",
+   "lat": 51.18763,
+   "lon": -1.80475,
+   "x": 1497.6,
+   "z": -975.6,
+   "form": "long",
+   "inBounds": true,
+   "osm": "way/976096296",
+   "length": 81,
+   "width": 20,
+   "bearing": 2,
+   "source": "sto-osm-overpass",
+   "note": "just beyond the east end of the Greater Cursus; N-S; levelled, under a bridleway (Wikipedia Stonehenge Cursus). OSM polygon: length/bearing from the mapped outline",
+   "ground": 49.3
+  },
+  {
+   "id": "b121",
+   "name": null,
+   "group": "Old King Barrows",
+   "lat": 51.185361,
+   "lon": -1.804582,
+   "x": 1509.3,
+   "z": -723.2,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976096292",
+   "diameter": 21,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 47.6
+  },
+  {
+   "id": "b122",
+   "name": null,
+   "group": "Old King Barrows",
+   "lat": 51.185941,
+   "lon": -1.80427,
+   "x": 1531.1,
+   "z": -787.8,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976096293",
+   "diameter": 19,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 47.9
+  },
+  {
+   "id": "b123",
+   "name": null,
+   "group": "Old King Barrows",
+   "lat": 51.186403,
+   "lon": -1.803484,
+   "x": 1586.0,
+   "z": -839.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "way/976096291",
+   "diameter": 24,
+   "source": "sto-osm-overpass",
+   "note": "diameter = equivalent circle of the OSM polygon (a mapped/symbolic outline, not a survey); form not given in OSM",
+   "ground": 48.5
+  },
+  {
+   "id": "b124",
+   "name": "long barrow (unnamed in OSM)",
+   "group": "Other",
+   "lat": 51.161278,
+   "lon": -1.797133,
+   "x": 2029.2,
+   "z": 1956.0,
+   "form": "long",
+   "inBounds": true,
+   "osm": "node/4237711958",
+   "length": 0,
+   "width": 0,
+   "bearing": 0,
+   "source": "sto-osm-overpass",
+   "note": "long barrow (OSM node; south-east, Normanton hamlet side)",
+   "ground": 12.2
+  },
+  {
+   "id": "b125",
+   "name": null,
+   "group": "Other",
+   "lat": 51.185099,
+   "lon": -1.794954,
+   "x": 2181.2,
+   "z": -694.1,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "node/527357434",
+   "source": "sto-osm-overpass",
+   "ground": 39.8
+  },
+  {
+   "id": "b126",
+   "name": null,
+   "group": "Other",
+   "lat": 51.184259,
+   "lon": -1.794671,
+   "x": 2201.0,
+   "z": -600.7,
+   "form": "unknown",
+   "inBounds": true,
+   "osm": "node/527357437",
+   "source": "sto-osm-overpass",
+   "ground": 38.6
+  },
+  {
+   "id": "b127",
+   "name": "long barrow (unnamed in OSM)",
+   "group": "Other",
+   "lat": 51.188607,
+   "lon": -1.786699,
+   "x": 2757.3,
+   "z": -1084.3,
+   "form": "long",
+   "inBounds": true,
+   "osm": "node/445416451",
+   "length": 0,
+   "width": 0,
+   "bearing": 0,
+   "source": "sto-osm-overpass",
+   "note": "long barrow (OSM node; Amesbury, east of Woodhenge)",
+   "ground": 38.4
+  }
+ ],
+ "avon": {
+  "path": [
+   [
+    51.192612,
+    -1.766593
+   ],
+   [
+    51.190725,
+    -1.767723
+   ],
+   [
+    51.190269,
+    -1.768138
+   ],
+   [
+    51.188665,
+    -1.768965
+   ],
+   [
+    51.1883,
+    -1.769861
+   ],
+   [
+    51.188112,
+    -1.770796
+   ],
+   [
+    51.188163,
+    -1.771256
+   ],
+   [
+    51.188338,
+    -1.7716
+   ],
+   [
+    51.189069,
+    -1.772734
+   ],
+   [
+    51.189522,
+    -1.773141
+   ],
+   [
+    51.190015,
+    -1.774082
+   ],
+   [
+    51.190865,
+    -1.775211
+   ],
+   [
+    51.191187,
+    -1.775843
+   ],
+   [
+    51.191866,
+    -1.777836
+   ],
+   [
+    51.192199,
+    -1.779594
+   ],
+   [
+    51.192157,
+    -1.78072
+   ],
+   [
+    51.191051,
+    -1.782289
+   ],
+   [
+    51.190852,
+    -1.782427
+   ],
+   [
+    51.19013,
+    -1.782295
+   ],
+   [
+    51.189224,
+    -1.78259
+   ],
+   [
+    51.188811,
+    -1.78257
+   ],
+   [
+    51.188246,
+    -1.78245
+   ],
+   [
+    51.186923,
+    -1.781592
+   ],
+   [
+    51.185969,
+    -1.780311
+   ],
+   [
+    51.184951,
+    -1.779759
+   ],
+   [
+    51.183429,
+    -1.778189
+   ],
+   [
+    51.182957,
+    -1.777429
+   ],
+   [
+    51.182518,
+    -1.776341
+   ],
+   [
+    51.182345,
+    -1.774849
+   ],
+   [
+    51.181873,
+    -1.774691
+   ],
+   [
+    51.180852,
+    -1.774849
+   ],
+   [
+    51.17981,
+    -1.774412
+   ],
+   [
+    51.178239,
+    -1.774313
+   ],
+   [
+    51.177841,
+    -1.774605
+   ],
+   [
+    51.177492,
+    -1.775386
+   ],
+   [
+    51.177071,
+    -1.777362
+   ],
+   [
+    51.176876,
+    -1.779885
+   ],
+   [
+    51.176414,
+    -1.781515
+   ],
+   [
+    51.176523,
+    -1.783769
+   ],
+   [
+    51.176406,
+    -1.784919
+   ],
+   [
+    51.176553,
+    -1.785054
+   ],
+   [
+    51.176693,
+    -1.785604
+   ],
+   [
+    51.176187,
+    -1.786801
+   ],
+   [
+    51.176077,
+    -1.787405
+   ],
+   [
+    51.175776,
+    -1.787951
+   ],
+   [
+    51.175682,
+    -1.788615
+   ],
+   [
+    51.175236,
+    -1.788875
+   ],
+   [
+    51.174626,
+    -1.790018
+   ],
+   [
+    51.174005,
+    -1.789921
+   ],
+   [
+    51.173553,
+    -1.789489
+   ],
+   [
+    51.173394,
+    -1.788259
+   ],
+   [
+    51.172786,
+    -1.787586
+   ],
+   [
+    51.172117,
+    -1.785849
+   ],
+   [
+    51.171624,
+    -1.785303
+   ],
+   [
+    51.170897,
+    -1.785389
+   ],
+   [
+    51.170644,
+    -1.785235
+   ],
+   [
+    51.170305,
+    -1.784725
+   ],
+   [
+    51.169133,
+    -1.781466
+   ],
+   [
+    51.168222,
+    -1.780563
+   ],
+   [
+    51.167469,
+    -1.779321
+   ],
+   [
+    51.166923,
+    -1.777001
+   ],
+   [
+    51.166445,
+    -1.776078
+   ],
+   [
+    51.165186,
+    -1.777165
+   ],
+   [
+    51.164651,
+    -1.778017
+   ],
+   [
+    51.164451,
+    -1.779133
+   ],
+   [
+    51.164527,
+    -1.781745
+   ],
+   [
+    51.164983,
+    -1.783087
+   ],
+   [
+    51.165551,
+    -1.784299
+   ],
+   [
+    51.16607,
+    -1.784895
+   ],
+   [
+    51.166476,
+    -1.785646
+   ],
+   [
+    51.166699,
+    -1.786617
+   ],
+   [
+    51.167287,
+    -1.787475
+   ],
+   [
+    51.168258,
+    -1.788286
+   ],
+   [
+    51.169184,
+    -1.789739
+   ],
+   [
+    51.169642,
+    -1.789905
+   ],
+   [
+    51.170038,
+    -1.791371
+   ],
+   [
+    51.170769,
+    -1.792271
+   ],
+   [
+    51.170986,
+    -1.793714
+   ],
+   [
+    51.170846,
+    -1.79473
+   ],
+   [
+    51.171209,
+    -1.795817
+   ],
+   [
+    51.171349,
+    -1.796643
+   ],
+   [
+    51.170653,
+    -1.799092
+   ],
+   [
+    51.169972,
+    -1.800416
+   ],
+   [
+    51.16875,
+    -1.801662
+   ],
+   [
+    51.167624,
+    -1.803346
+   ],
+   [
+    51.167418,
+    -1.803894
+   ],
+   [
+    51.166465,
+    -1.805081
+   ],
+   [
+    51.164812,
+    -1.805123
+   ],
+   [
+    51.163888,
+    -1.804581
+   ],
+   [
+    51.163762,
+    -1.804343
+   ],
+   [
+    51.163708,
+    -1.803392
+   ],
+   [
+    51.16356,
+    -1.80279
+   ],
+   [
+    51.16279,
+    -1.801326
+   ],
+   [
+    51.161982,
+    -1.801001
+   ],
+   [
+    51.161138,
+    -1.800269
+   ],
+   [
+    51.160015,
+    -1.800162
+   ],
+   [
+    51.158928,
+    -1.798887
+   ],
+   [
+    51.158374,
+    -1.799337
+   ],
+   [
+    51.157717,
+    -1.799381
+   ],
+   [
+    51.15744,
+    -1.79964
+   ],
+   [
+    51.156372,
+    -1.803538
+   ]
+  ],
+  "pathXZ": [
+   [
+    4160.4,
+    -1529.9
+   ],
+   [
+    4081.5,
+    -1319.9
+   ],
+   [
+    4052.6,
+    -1269.2
+   ],
+   [
+    3994.9,
+    -1090.8
+   ],
+   [
+    3932.4,
+    -1050.2
+   ],
+   [
+    3867.1,
+    -1029.3
+   ],
+   [
+    3835.0,
+    -1034.9
+   ],
+   [
+    3811.0,
+    -1054.4
+   ],
+   [
+    3731.9,
+    -1135.8
+   ],
+   [
+    3703.5,
+    -1186.1
+   ],
+   [
+    3637.8,
+    -1241.0
+   ],
+   [
+    3559.0,
+    -1335.6
+   ],
+   [
+    3514.9,
+    -1371.3
+   ],
+   [
+    3375.8,
+    -1446.9
+   ],
+   [
+    3253.1,
+    -1484.0
+   ],
+   [
+    3174.5,
+    -1479.3
+   ],
+   [
+    3065.1,
+    -1356.2
+   ],
+   [
+    3055.4,
+    -1334.1
+   ],
+   [
+    3064.6,
+    -1253.8
+   ],
+   [
+    3044.1,
+    -1153.0
+   ],
+   [
+    3045.4,
+    -1107.0
+   ],
+   [
+    3053.8,
+    -1044.2
+   ],
+   [
+    3113.7,
+    -897.0
+   ],
+   [
+    3203.1,
+    -790.9
+   ],
+   [
+    3241.6,
+    -677.6
+   ],
+   [
+    3351.2,
+    -508.3
+   ],
+   [
+    3404.2,
+    -455.8
+   ],
+   [
+    3480.1,
+    -406.9
+   ],
+   [
+    3584.3,
+    -387.7
+   ],
+   [
+    3595.3,
+    -335.2
+   ],
+   [
+    3584.3,
+    -221.7
+   ],
+   [
+    3614.8,
+    -105.7
+   ],
+   [
+    3621.6,
+    69.1
+   ],
+   [
+    3601.3,
+    113.4
+   ],
+   [
+    3546.8,
+    152.2
+   ],
+   [
+    3408.9,
+    199.0
+   ],
+   [
+    3232.8,
+    220.7
+   ],
+   [
+    3119.1,
+    272.2
+   ],
+   [
+    2961.8,
+    259.9
+   ],
+   [
+    2881.5,
+    273.0
+   ],
+   [
+    2872.1,
+    256.7
+   ],
+   [
+    2833.7,
+    241.1
+   ],
+   [
+    2750.2,
+    297.3
+   ],
+   [
+    2708.0,
+    309.7
+   ],
+   [
+    2669.9,
+    343.1
+   ],
+   [
+    2623.6,
+    353.6
+   ],
+   [
+    2605.5,
+    403.2
+   ],
+   [
+    2525.7,
+    471.0
+   ],
+   [
+    2532.4,
+    540.1
+   ],
+   [
+    2562.6,
+    590.4
+   ],
+   [
+    2648.5,
+    608.1
+   ],
+   [
+    2695.4,
+    675.7
+   ],
+   [
+    2816.6,
+    750.2
+   ],
+   [
+    2854.7,
+    805.0
+   ],
+   [
+    2848.7,
+    885.9
+   ],
+   [
+    2859.5,
+    914.0
+   ],
+   [
+    2895.1,
+    951.8
+   ],
+   [
+    3122.5,
+    1082.1
+   ],
+   [
+    3185.5,
+    1183.5
+   ],
+   [
+    3272.2,
+    1267.3
+   ],
+   [
+    3434.1,
+    1328.0
+   ],
+   [
+    3498.5,
+    1381.2
+   ],
+   [
+    3422.6,
+    1521.2
+   ],
+   [
+    3363.2,
+    1580.8
+   ],
+   [
+    3285.3,
+    1603.0
+   ],
+   [
+    3103.0,
+    1594.6
+   ],
+   [
+    3009.4,
+    1543.8
+   ],
+   [
+    2924.8,
+    1480.6
+   ],
+   [
+    2883.2,
+    1422.9
+   ],
+   [
+    2830.8,
+    1377.7
+   ],
+   [
+    2763.0,
+    1353.0
+   ],
+   [
+    2703.1,
+    1287.5
+   ],
+   [
+    2646.6,
+    1179.5
+   ],
+   [
+    2545.2,
+    1076.4
+   ],
+   [
+    2533.6,
+    1025.5
+   ],
+   [
+    2431.3,
+    981.4
+   ],
+   [
+    2368.5,
+    900.2
+   ],
+   [
+    2267.8,
+    876.0
+   ],
+   [
+    2196.9,
+    891.5
+   ],
+   [
+    2121.0,
+    851.2
+   ],
+   [
+    2063.3,
+    835.6
+   ],
+   [
+    1892.4,
+    913.0
+   ],
+   [
+    1800.1,
+    988.8
+   ],
+   [
+    1713.1,
+    1124.8
+   ],
+   [
+    1595.6,
+    1250.0
+   ],
+   [
+    1557.3,
+    1272.9
+   ],
+   [
+    1474.5,
+    1378.9
+   ],
+   [
+    1471.6,
+    1562.8
+   ],
+   [
+    1509.4,
+    1665.7
+   ],
+   [
+    1526.0,
+    1679.6
+   ],
+   [
+    1592.4,
+    1685.7
+   ],
+   [
+    1634.3,
+    1702.1
+   ],
+   [
+    1736.6,
+    1787.8
+   ],
+   [
+    1759.2,
+    1877.6
+   ],
+   [
+    1810.3,
+    1971.6
+   ],
+   [
+    1817.7,
+    2096.5
+   ],
+   [
+    1906.8,
+    2217.4
+   ],
+   [
+    1875.3,
+    2279.1
+   ],
+   [
+    1872.3,
+    2352.2
+   ],
+   [
+    1854.2,
+    2382.9
+   ],
+   [
+    1582.2,
+    2501.8
+   ]
+  ],
+  "width": 10,
+  "widthNote": "ESTIMATE ONLY (not tagged in OSM): the Hampshire Avon here is roughly 8-12 m wide in its main channel, with side channels and water-meadow drains; verify before using for the ribbon width",
+  "note": "centreline = OSM waterway=river ways named \"River Avon\" joined in flow order from Bulford (x 4160, z -1530) past Durrington, Amesbury (east and south of Vespasian's Camp), West Amesbury (Bluestonehenge) and on south beyond z 2500; simplified (Douglas-Peucker 7 m). The OSM chain includes strong meanders; side channels (31270121 and the Amesbury drains) omitted. It leaves the 3500 m east bound twice (x up to 3620 near z -400..-70 and x 3490 near z 1400).",
+  "length": 10209,
+  "source": "sto-osm-overpass"
+ },
+ "terrain": {
+  "base": 41.71,
+  "slope": {
+   "bearing": 167.7,
+   "gradient": 0.00174
+  },
+  "hills": [
+   {
+    "name": "King Barrow Ridge (central: New King Barrows; the Avenue climbs it)",
+    "lat": 51.18021,
+    "lon": -1.80712,
+    "height": 13.9,
+    "sigma": 346,
+    "x": 1332,
+    "z": -150
+   },
+   {
+    "name": "King Barrow Ridge (south: Coneybury Hill)",
+    "lat": 51.1732,
+    "lon": -1.81079,
+    "height": 26.2,
+    "sigma": 454,
+    "x": 1076,
+    "z": 630
+   },
+   {
+    "name": "Normanton Down ridge (Bush Barrow and the Normanton Down barrows)",
+    "lat": 51.17028,
+    "lon": -1.83839,
+    "height": 11.3,
+    "sigma": 215,
+    "x": -850,
+    "z": 954
+   },
+   {
+    "name": "North-west upland (beyond the west end of the Greater Cursus / Lesser Cursus)",
+    "lat": 51.19414,
+    "lon": -1.85129,
+    "height": 15.8,
+    "sigma": 696,
+    "x": -1750,
+    "z": -1700
+   },
+   {
+    "name": "Larkhill rise (high ground north of Larkhill)",
+    "lat": 51.20535,
+    "lon": -1.816,
+    "height": 38.6,
+    "sigma": 800,
+    "x": 712,
+    "z": -2947
+   },
+   {
+    "name": "High ground north-west of Durrington Walls",
+    "lat": 51.19238,
+    "lon": -1.79331,
+    "height": 43.7,
+    "sigma": 648,
+    "x": 2296,
+    "z": -1504
+   },
+   {
+    "name": "West upland (Winterbourne Stoke Down)",
+    "lat": 51.17649,
+    "lon": -1.84735,
+    "height": 21.2,
+    "sigma": 436,
+    "x": -1476,
+    "z": 263
+   },
+   {
+    "name": "South-west upland (Wilsford Down side)",
+    "lat": 51.16776,
+    "lon": -1.86606,
+    "height": 17.9,
+    "sigma": 311,
+    "x": -2781,
+    "z": 1235
+   },
+   {
+    "name": "South ridge (Normanton / Lake Down side)",
+    "lat": 51.1633,
+    "lon": -1.81414,
+    "height": 34.8,
+    "sigma": 318,
+    "x": 842,
+    "z": 1731
+   },
+   {
+    "name": "Upland south-east of Amesbury",
+    "lat": 51.16237,
+    "lon": -1.78109,
+    "height": 28.5,
+    "sigma": 277,
+    "x": 3149,
+    "z": 1834
+   },
+   {
+    "name": "Vespasian's Camp spur (hill-fort promontory above the Avon)",
+    "lat": 51.17482,
+    "lon": -1.79104,
+    "height": 24.7,
+    "sigma": 247,
+    "x": 2454,
+    "z": 449
+   },
+   {
+    "name": "Stonehenge Down knoll (flattens the ground under the stones)",
+    "lat": 51.1787,
+    "lon": -1.82535,
+    "height": 5.5,
+    "sigma": 124,
+    "x": 60,
+    "z": 18
+   }
+  ],
+  "valleys": [
+   {
+    "name": "River Avon valley (broad flood-plain and valley flanks)",
+    "path": [
+     [
+      51.19096,
+      -1.76757
+     ],
+     [
+      51.18867,
+      -1.76897
+     ],
+     [
+      51.18811,
+      -1.771
+     ],
+     [
+      51.19129,
+      -1.77611
+     ],
+     [
+      51.19184,
+      -1.78124
+     ],
+     [
+      51.18825,
+      -1.78245
+     ],
+     [
+      51.18343,
+      -1.77819
+     ],
+     [
+      51.18235,
+      -1.77485
+     ],
+     [
+      51.17824,
+      -1.77431
+     ],
+     [
+      51.17641,
+      -1.78152
+     ],
+     [
+      51.17669,
+      -1.7856
+     ],
+     [
+      51.17463,
+      -1.79002
+     ],
+     [
+      51.17355,
+      -1.78949
+     ],
+     [
+      51.17212,
+      -1.78585
+     ],
+     [
+      51.1703,
+      -1.78472
+     ],
+     [
+      51.16644,
+      -1.77608
+     ],
+     [
+      51.16519,
+      -1.77716
+     ],
+     [
+      51.16445,
+      -1.77913
+     ],
+     [
+      51.16498,
+      -1.78309
+     ],
+     [
+      51.17077,
+      -1.79227
+     ],
+     [
+      51.17135,
+      -1.79664
+     ],
+     [
+      51.17065,
+      -1.79909
+     ],
+     [
+      51.16647,
+      -1.80508
+     ],
+     [
+      51.16389,
+      -1.80458
+     ],
+     [
+      51.16279,
+      -1.80133
+     ],
+     [
+      51.15893,
+      -1.79889
+     ],
+     [
+      51.15744,
+      -1.79964
+     ],
+     [
+      51.15637,
+      -1.80354
+     ]
+    ],
+    "depth": 29.6,
+    "sigma": 934
+   },
+   {
+    "name": "River Avon channel and steep valley sides (Vespasian's Camp, Amesbury)",
+    "path": [
+     [
+      51.19096,
+      -1.76757
+     ],
+     [
+      51.18867,
+      -1.76897
+     ],
+     [
+      51.18811,
+      -1.771
+     ],
+     [
+      51.19129,
+      -1.77611
+     ],
+     [
+      51.19184,
+      -1.78124
+     ],
+     [
+      51.18825,
+      -1.78245
+     ],
+     [
+      51.18343,
+      -1.77819
+     ],
+     [
+      51.18235,
+      -1.77485
+     ],
+     [
+      51.17824,
+      -1.77431
+     ],
+     [
+      51.17641,
+      -1.78152
+     ],
+     [
+      51.17669,
+      -1.7856
+     ],
+     [
+      51.17463,
+      -1.79002
+     ],
+     [
+      51.17355,
+      -1.78949
+     ],
+     [
+      51.17212,
+      -1.78585
+     ],
+     [
+      51.1703,
+      -1.78472
+     ],
+     [
+      51.16644,
+      -1.77608
+     ],
+     [
+      51.16519,
+      -1.77716
+     ],
+     [
+      51.16445,
+      -1.77913
+     ],
+     [
+      51.16498,
+      -1.78309
+     ],
+     [
+      51.17077,
+      -1.79227
+     ],
+     [
+      51.17135,
+      -1.79664
+     ],
+     [
+      51.17065,
+      -1.79909
+     ],
+     [
+      51.16647,
+      -1.80508
+     ],
+     [
+      51.16389,
+      -1.80458
+     ],
+     [
+      51.16279,
+      -1.80133
+     ],
+     [
+      51.15893,
+      -1.79889
+     ],
+     [
+      51.15744,
+      -1.79964
+     ],
+     [
+      51.15637,
+      -1.80354
+     ]
+    ],
+    "depth": 12.1,
+    "sigma": 154
+   },
+   {
+    "name": "Stonehenge Bottom (dry valley east of the stones; the Avenue crosses it)",
+    "path": [
+     [
+      51.19055,
+      -1.81546
+     ],
+     [
+      51.18695,
+      -1.8169
+     ],
+     [
+      51.18335,
+      -1.81761
+     ],
+     [
+      51.18066,
+      -1.81819
+     ],
+     [
+      51.17616,
+      -1.81962
+     ],
+     [
+      51.17077,
+      -1.82005
+     ],
+     [
+      51.16628,
+      -1.82019
+     ],
+     [
+      51.16358,
+      -1.82119
+     ],
+     [
+      51.16178,
+      -1.82334
+     ],
+     [
+      51.15998,
+      -1.82621
+     ],
+     [
+      51.15819,
+      -1.82908
+     ]
+    ],
+    "depth": 14.0,
+    "sigma": 287
+   },
+   {
+    "name": "North-west dry valley (towards Winterbourne Stoke)",
+    "path": [
+     [
+      51.20403,
+      -1.85415
+     ],
+     [
+      51.19864,
+      -1.85272
+     ],
+     [
+      51.19594,
+      -1.85344
+     ],
+     [
+      51.19414,
+      -1.8563
+     ],
+     [
+      51.19234,
+      -1.8606
+     ],
+     [
+      51.19055,
+      -1.86633
+     ]
+    ],
+    "depth": 11.5,
+    "sigma": 150
+   },
+   {
+    "name": "Wilsford dry valley (south-west of Normanton Down)",
+    "path": [
+     [
+      51.17437,
+      -1.8477
+     ],
+     [
+      51.17257,
+      -1.84627
+     ],
+     [
+      51.17077,
+      -1.84341
+     ],
+     [
+      51.16807,
+      -1.84197
+     ],
+     [
+      51.16538,
+      -1.83911
+     ],
+     [
+      51.16358,
+      -1.83481
+     ],
+     [
+      51.16223,
+      -1.83194
+     ],
+     [
+      51.16043,
+      -1.82908
+     ],
+     [
+      51.15864,
+      -1.82764
+     ]
+    ],
+    "depth": 17.8,
+    "sigma": 290
+   },
+   {
+    "name": "Dry valley between King Barrow Ridge and Durrington",
+    "path": [
+     [
+      51.19144,
+      -1.80185
+     ],
+     [
+      51.18875,
+      -1.79898
+     ],
+     [
+      51.18605,
+      -1.79325
+     ],
+     [
+      51.18425,
+      -1.78752
+     ]
+    ],
+    "depth": 6.2,
+    "sigma": 155
+   }
+  ],
+  "note": "Least-squares fit (Levenberg-Marquardt, numpy) of the terrain.ts formula (base + slope + sum of gaussian hills - sum of gaussian valleys by distance to a polyline; the engine adds +/-0.6 m micro-relief and clamps at 2 m) to 1,302 EU-DEM 25 m samples: a 200 m grid over x -2800..3600, z -2900..2300 plus a 50 m grid over x,z -500..500. Local datum = metres above OD minus 60 (OD = Ordnance Datum Newlyn). Valley polylines were set by hand from the DEM (dry valleys) and the OSM River Avon centreline (simplified to 60 m); hill positions were left free but boxed around the named feature. The ground within 60 m of the stones was constrained (extra weighted pseudo-samples at 41.3) so the megalith ground varies by <1 m over 50 m radius; without it the DEM itself varies ~2 m there. Fit is a schematic reconstruction: RMS 4.5 m over the bounds (43 of 1,186 samples are >10 m off, mostly at the margins and along the steep Avon scarps at Vespasian's Camp), RMS 3.1 m (max 6.9) within 500 m of the stones. The DEM is a modern surface model (includes woods, roads, the A303 and A344 cuttings, buildings); prehistoric relief was essentially the same at this scale. Slope is negligible (0.002); relief comes from the hills/valleys.",
+  "sources": [
+   "sto-eudem-elevation",
+   "sto-open-meteo-elevation",
+   "sto-osm-overpass"
+  ]
+ },
+ "fit": {
+  "rmsAll": 4.47,
+  "maxAll": 22.8,
+  "rmsNearStones": 3.06,
+  "maxNearStones": 6.9,
+  "samples": 1186,
+  "samplesNearStones": 317,
+  "rmsAllInclMargin": 5.27,
+  "maxAllInclMargin": 28.5,
+  "samplesInclMargin": 1302,
+  "fractionOver10m": 0.036,
+  "rangeWithin50mOfStones": 0.92,
+  "crossCheck": "EU-DEM vs Open-Meteo (Copernicus 90 m) differ by RMS 2.6 m (max 16.9) over the 1,302 points, mean +1.0 m; the fitted model vs Open-Meteo has RMS 5.3 m in bounds, so the fit error is of the same order as the disagreement between the two DEMs plus smoothing."
+ },
+ "groundAtStones": 41.6
+}

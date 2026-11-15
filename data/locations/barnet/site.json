@@ -1,0 +1,584 @@
+{
+ "id": "barnet",
+ "name": "Barnet, 1471",
+ "subtitle": "The ridge north of Chipping Barnet where Edward IV defeated the Earl of Warwick, 1400 – 1500",
+ "scopeNote": "A landscape reconstruction of about 3 × 4 km from Chipping Barnet north through Hadley Green to Kitts End, built to show the ground of the Battle of Barnet (14 April 1471). The battle certainly happened somewhere along this stretch of road, but its exact position is disputed: the registered battlefield centres on Hadley Green, while the 2015–18 survey could not find the battlefield and judged that the ground around Kitts End fits the written sources better. Both areas are shown as shaded zones, not as a located site. The blocks of figures are abstract stand-ins on one modern interpretation: they do not show real numbers, real positions or individual people.",
+ "origin": {
+  "lat": 51.661,
+  "lon": -0.199,
+  "note": "The middle of Hadley Green, on the old road north from Chipping Barnet (modern A1000), about 850 m north of Barnet church. Chosen because it lies between the two candidate battlefield areas and is the one open space that survives. Local coordinates are metres east (x) and south (z) of this point."
+ },
+ "bounds": {
+  "xMin": -1500,
+  "xMax": 1500,
+  "zMin": -2400,
+  "zMax": 1600
+ },
+ "timeline": {
+  "start": 1400,
+  "end": 1500,
+  "scale": [
+   {
+    "year": 1400,
+    "u": 0
+   },
+   {
+    "year": 1471,
+    "u": 0.6
+   },
+   {
+    "year": 1500,
+    "u": 1
+   }
+  ],
+  "initialYear": 1471
+ },
+ "terrain": {
+  "base": 32.6,
+  "hills": [
+   {
+    "name": "Hadley Green plateau",
+    "lat": 51.6619,
+    "lon": -0.20117,
+    "height": 38.0,
+    "sigma": 450
+   },
+   {
+    "name": "Chipping Barnet hilltop",
+    "lat": 51.65426,
+    "lon": -0.20407,
+    "height": 34.0,
+    "sigma": 380
+   },
+   {
+    "name": "Wood Street ridge",
+    "lat": 51.65291,
+    "lon": -0.21783,
+    "height": 33.1,
+    "sigma": 420
+   },
+   {
+    "name": "Kicks End Common plateau",
+    "lat": 51.67224,
+    "lon": -0.19538,
+    "height": 30.7,
+    "sigma": 380
+   },
+   {
+    "name": "Ganwick ridge",
+    "lat": 51.68078,
+    "lon": -0.19031,
+    "height": 35.2,
+    "sigma": 450
+   },
+   {
+    "name": "Hadley Common ridge (east of the church)",
+    "lat": 51.66325,
+    "lon": -0.18814,
+    "height": 33.1,
+    "sigma": 330
+   },
+   {
+    "name": "Kitts End north-west spur",
+    "lat": 51.67988,
+    "lon": -0.20914,
+    "height": 14.0,
+    "sigma": 350
+   },
+   {
+    "name": "Hadley Wood ridge",
+    "lat": 51.67493,
+    "lon": -0.18959,
+    "height": 4.0,
+    "sigma": 280
+   },
+   {
+    "name": "Spur south of Hadley Common",
+    "lat": 51.65785,
+    "lon": -0.18741,
+    "height": 35.7,
+    "sigma": 250
+   },
+   {
+    "name": "North-east rise",
+    "lat": 51.68257,
+    "lon": -0.17873,
+    "height": 15.9,
+    "sigma": 400
+   },
+   {
+    "name": "Hadley Common east rise",
+    "lat": 51.66639,
+    "lon": -0.17728,
+    "height": 4.4,
+    "sigma": 250
+   },
+   {
+    "name": "Ridge crest at the road fork (Hadley Highstone)",
+    "lat": 51.6666,
+    "lon": -0.1992,
+    "height": 8.0,
+    "sigma": 230
+   }
+  ],
+  "valleys": [
+   {
+    "name": "Monken Mead brook",
+    "path": [
+     [
+      51.6655,
+      -0.1935
+     ],
+     [
+      51.667,
+      -0.1905
+     ],
+     [
+      51.6676,
+      -0.1896
+     ],
+     [
+      51.6686,
+      -0.1831
+     ],
+     [
+      51.6689,
+      -0.1778
+     ],
+     [
+      51.6695,
+      -0.1724
+     ]
+    ],
+    "depth": 11.8,
+    "sigma": 200
+   },
+   {
+    "name": "Green Brook (Pymmes Brook head)",
+    "path": [
+     [
+      51.6605,
+      -0.1894
+     ],
+     [
+      51.6599,
+      -0.1817
+     ],
+     [
+      51.6613,
+      -0.1746
+     ]
+    ],
+    "depth": 8.9,
+    "sigma": 220
+   },
+   {
+    "name": "Valley south-east of Hadley (towards Pymmes Brook)",
+    "path": [
+     [
+      51.6575,
+      -0.1935
+     ],
+     [
+      51.6555,
+      -0.186
+     ],
+     [
+      51.653,
+      -0.1775
+     ]
+    ],
+    "depth": 24.2,
+    "sigma": 300
+   },
+   {
+    "name": "Margery Mead head",
+    "path": [
+     [
+      51.6696,
+      -0.2076
+     ],
+     [
+      51.6709,
+      -0.2103
+     ],
+     [
+      51.6732,
+      -0.2139
+     ],
+     [
+      51.6732,
+      -0.2209
+     ]
+    ],
+    "depth": 0.6,
+    "sigma": 300
+   },
+   {
+    "name": "Fall to the Dollis Brook valley (south)",
+    "path": [
+     [
+      51.644,
+      -0.225
+     ],
+     [
+      51.644,
+      -0.17
+     ]
+    ],
+    "depth": 6.4,
+    "sigma": 450
+   },
+   {
+    "name": "Fall to the Mimmshall Brook streams (west)",
+    "path": [
+     [
+      51.65,
+      -0.2235
+     ],
+     [
+      51.684,
+      -0.2235
+     ]
+    ],
+    "depth": 3.2,
+    "sigma": 500
+   }
+  ],
+  "eyots": [],
+  "note": "A flat-topped ridge of pebble gravel over London Clay, about 120–135 m above sea level, runs north from Chipping Barnet through Hadley Green towards Potters Bar; the ground falls west to the Mimmshall Brook streams (about 90–100 m) and east into the Monken Mead and Pymmes Brook valleys (down to about 70 m). Heights here are on a local datum: add 64 m to get an approximate height above sea level, so the lowest ground in the scene is about 5 m and the plateau about 65–72 m. The hills and valleys are smooth analytic shapes fitted to a coarse (250 m) grid of modern elevations, with an average error of about 5 m; they are not a survey, and the modern elevation model includes trees, buildings, the golf course and the 1823 cutting on Barnet Hill. The broad pattern of relief is thought to be much as it was in 1471, but no fine detail (ditches, banks, ponds, marshy patches) is modelled.",
+  "sources": [
+   "bar-eudem-elevation",
+   "bar-vch-middx-monken-hadley-intro",
+   "bar-vch-middx-south-mimms-intro",
+   "bar-vch-herts-barnet",
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-osm-overpass"
+  ]
+ },
+ "polygons": {
+  "barnet-town": [
+   [
+    51.651,
+    -0.1976
+   ],
+   [
+    51.6524,
+    -0.1998
+   ],
+   [
+    51.6524,
+    -0.203
+   ],
+   [
+    51.6536,
+    -0.203
+   ],
+   [
+    51.654,
+    -0.2026
+   ],
+   [
+    51.6562,
+    -0.2029
+   ],
+   [
+    51.6574,
+    -0.2022
+   ],
+   [
+    51.6572,
+    -0.2004
+   ],
+   [
+    51.656,
+    -0.2008
+   ],
+   [
+    51.6542,
+    -0.2004
+   ],
+   [
+    51.6534,
+    -0.1992
+   ],
+   [
+    51.6519,
+    -0.1966
+   ]
+  ],
+  "registered-area-approx": [
+   [
+    51.6588,
+    -0.2035
+   ],
+   [
+    51.6625,
+    -0.208
+   ],
+   [
+    51.6668,
+    -0.206
+   ],
+   [
+    51.6672,
+    -0.2
+   ],
+   [
+    51.6668,
+    -0.1935
+   ],
+   [
+    51.665,
+    -0.1895
+   ],
+   [
+    51.6608,
+    -0.1905
+   ],
+   [
+    51.6588,
+    -0.1975
+   ]
+  ],
+  "kicks-end-area": [
+   [
+    51.6672,
+    -0.1996
+   ],
+   [
+    51.67,
+    -0.203
+   ],
+   [
+    51.674,
+    -0.2052
+   ],
+   [
+    51.6752,
+    -0.1975
+   ],
+   [
+    51.6738,
+    -0.1912
+   ],
+   [
+    51.67,
+    -0.1888
+   ],
+   [
+    51.6674,
+    -0.1925
+   ]
+  ],
+  "kicks-end-common": [
+   [
+    51.6668,
+    -0.1988
+   ],
+   [
+    51.669,
+    -0.199
+   ],
+   [
+    51.6713,
+    -0.2004
+   ],
+   [
+    51.6728,
+    -0.2028
+   ],
+   [
+    51.6736,
+    -0.1975
+   ],
+   [
+    51.674,
+    -0.1922
+   ],
+   [
+    51.67,
+    -0.1953
+   ],
+   [
+    51.6672,
+    -0.1976
+   ]
+  ],
+  "hadley-green": [
+   [
+    51.6589,
+    -0.2012
+   ],
+   [
+    51.6602,
+    -0.2016
+   ],
+   [
+    51.663,
+    -0.201
+   ],
+   [
+    51.6631,
+    -0.1985
+   ],
+   [
+    51.6616,
+    -0.1962
+   ],
+   [
+    51.6606,
+    -0.1974
+   ],
+   [
+    51.659,
+    -0.1996
+   ]
+  ],
+  "chase-west-edge": [
+   [
+    51.664,
+    -0.194
+   ],
+   [
+    51.6668,
+    -0.1968
+   ],
+   [
+    51.67,
+    -0.1942
+   ],
+   [
+    51.6745,
+    -0.1908
+   ],
+   [
+    51.679,
+    -0.1868
+   ],
+   [
+    51.679,
+    -0.179
+   ],
+   [
+    51.67,
+    -0.179
+   ],
+   [
+    51.6625,
+    -0.18
+   ],
+   [
+    51.6622,
+    -0.19
+   ]
+  ]
+ },
+ "woodland": {
+  "cover": [
+   {
+    "year": 1400,
+    "value": 0.07
+   },
+   {
+    "year": 1500,
+    "value": 0.07
+   }
+  ],
+  "hedgerowTrees": true,
+  "note": "Low and steady by assumption. The written record points to little woodland on this side of South Mimms and to open pasture with scattered trees along the western edge of Enfield Chase, but the earliest map evidence is from 1594–1701, not the 15th century. The figure is illustrative, tree positions are generated, and no individual wood is mapped (an 'old wood' on the Old Fold estate is documented but unlocated).",
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018"
+  ]
+ },
+ "atmosphere": {
+  "mist": {
+   "from": 1471,
+   "to": 1471,
+   "density": 0.004,
+   "height": 45,
+   "base": 70,
+   "color": "#ece6da"
+  },
+  "sunElevation": 6,
+  "sunAzimuth": 75,
+  "exposure": 0.9
+ },
+ "views": [
+  {
+   "id": "south",
+   "name": "Both lines and the road fork from the south",
+   "position": [
+    -60,
+    1250.0,
+    1500
+   ],
+   "target": [
+    -60,
+    66.0,
+    -450
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "hadley-green",
+   "name": "Hadley Green looking north",
+   "position": [
+    -40,
+    150.7,
+    430
+   ],
+   "target": [
+    0,
+    62.6,
+    -420
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "warwick-side",
+   "name": "From Warwick's presumed side, looking south",
+   "position": [
+    -200,
+    134.4,
+    -760
+   ],
+   "target": [
+    -20,
+    66.7,
+    -20
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "road-fork",
+   "name": "The road fork",
+   "position": [
+    150,
+    127.6,
+    -330
+   ],
+   "target": [
+    -5,
+    62.4,
+    -640
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "low-green",
+   "name": "Low across the green",
+   "position": [
+    -70,
+    69.0,
+    90
+   ],
+   "target": [
+    -110,
+    66.5,
+    -290
+   ],
+   "scope": "overview"
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+  "captured_at": "2026-11-14T05:20:03.468950+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "247bd3037967bb2230a7d9c38b32dd53d781e907c7ee4917c27235727b8cdde4",
+      "bytes": 2322
+    },
+    {
+      "path": "docs/RECORD.md",
+      "sha256": "4e0444114bbaebfedc877d3bc6becd9b937e11b1cd5b43b5ca0bb803b9215776",
+      "bytes": 11230
+    },
+    {
+      "path": "src/national/types.ts",
+      "sha256": "11f2b247304f67a33d625487a0642ee3f19cc7e34fa7eebf161549342e160a8b",
+      "bytes": 3866
+    },
+    {
+      "path": "data/sources.json",
+      "sha256": "de20b02d13262341442892bfde26d520b99d128095e3c95e115350dcb866253e",
+      "bytes": 39319
+    },
+    {
+      "path": "data/national/eras.json",
+      "sha256": "5abd2c07f13d93124eddf6def51832cbeb10c5c283c819bf3e71dc253f568954",
+      "bytes": 3705
+    },
+    {
+      "path": "data/national/events.json",
+      "sha256": "9d51ed986f2073faad1d68fa7ac581889507ece517a58b67d1500b63180bd735",
+      "bytes": 11181
+    },
+    {
+      "path": "data/national/lines.json",
+      "sha256": "b7d4d59509368c0c57043f1cc53d3c34f4e704c06fa3e0fadc6502552bce84f2",
+      "bytes": 72747
+    },
+    {
+      "path": "data/national/places-wales.json",
+      "sha256": "e4c827ee90b23898bb06884546a50f9cdc2c39c9d25a44a78fe53f0e4f8a43dc",
+      "bytes": 66965
+    },
+    {
+      "path": "data/national/places.json",
+      "sha256": "9f0ba3e1725e05325073eaa8e55768ee559cbb1cf985264c331517bc63b65738",
+      "bytes": 164168
+    },
+    {
+      "path": "data/national/polities-wales.json",
+      "sha256": "df014d58d4dcb53f6eda8b937dbea70f2505949184937cac888f7096501de405",
+      "bytes": 23754
+    },
+    {
+      "path": "data/national/polities.json",
+      "sha256": "2ad385108c4831046ff3f7fc6e0ab79f504bc4d1cd54c0ce2f925387cadcf15f",
+      "bytes": 34815
+    },
+    {
+      "path": "data/national/site.json",
+      "sha256": "d3f5f9b7ae539130d5270a20cb97db472c31d4db6cf161ecd66d36c2f9fda958",
+      "bytes": 2287
+    },
+    {
+      "path": "data/national/sources-england.json",
+      "sha256": "e11be4bc5cc00b08e6619b15f6ef441ede8b0e4b2988fdb4b87fa0d41e1ab382",
+      "bytes": 31347
+    },
+    {
+      "path": "data/national/sources-terrain.json",
+      "sha256": "5d0fb0ce1d6b79130095f38ab1dc202ccde119675be010af3cc13f062d081a1d",
+      "bytes": 3565
+    },
+    {
+      "path": "data/national/sources-wales.json",
+      "sha256": "7c14ca47d8502bf0ed58f10849078965e52d8e275c1abeed574e2bca6bf03595",
+      "bytes": 22616
+    },
+    {
+      "path": "data/national/terrain.json",
+      "sha256": "d18d5d64681761eb51583e9de89bee4f95b495afa956ab952ede391a4786345d",
+      "bytes": 8600
+    },
+    {
+      "path": "data/locations/london/episodes.json",
+      "sha256": "eea6ec41cd7348e1c70affad1c7defa68b9e08b3766df0b91c686be42f85b42d",
+      "bytes": 21999
+    },
+    {
+      "path": "data/locations/london/eras.json",
+      "sha256": "9e962d3f0766237b2d31eff3892975ef2831077e9c83351c02dc7b732e190378",
+      "bytes": 1808
+    },
+    {
+      "path": "data/locations/london/events.json",
+      "sha256": "f20d065fb1658ccd3f933a4e44046ec2aaba02e544de85dfc252b87596c172b2",
+      "bytes": 6655
+    },
+    {
+      "path": "data/locations/london/landmarks.json",
+      "sha256": "00a6d5afd4a80af32e8cb1e968ae36d41383b66e10998fd2b9fe1d240cbc7efe",
+      "bytes": 90630
+    },
+    {
+      "path": "data/locations/london/site.json",
+      "sha256": "873a3cb92ea499fc882f8263d0ead88edcb8fc88281bb5b60e3d0a9b6409bf8f",
+      "bytes": 9750
+    },
+    {
+      "path": "data/locations/london/zones.json",
+      "sha256": "aa66fecbf6f7c73881e7cb5fe18a0717c465a77b111e72e41f22cf219c8692bf",
+      "bytes": 22859
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "id": "gwynedd",
+  "name": "Gwynedd",
+  "kind": "kingdom",
+  "from": 450,
+  "to": 1283,
+  "labelAt": [
+   53.0,
+   -3.9
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/polities.json exists.",
+  "sources": [],
+  "polygon": [
+   [
+    52.6,
+    -4.1
+   ],
+   [
+    53.3,
+    -4.6
+   ],
+   [
+    53.35,
+    -3.4
+   ],
+   [
+    52.8,
+    -3.5
+   ]
+  ]
+ },
+ {
+  "id": "silures",
+  "name": "Silures",
+  "kind": "people",
+  "from": -100,
+  "to": 78,
+  "labelAt": [
+   51.75,
+   -3.2
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/polities.json exists.",
+  "sources": []
+ }
+]

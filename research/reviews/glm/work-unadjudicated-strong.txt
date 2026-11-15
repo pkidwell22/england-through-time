@@ -1,0 +1,498 @@
+
+### stonehenge/aubrey-holes
+landmark:stonehenge/aubrey-holes:located_at | located_at None..None | Aubrey Holes | Fifty-six chalk pits in a ring about 87 m across (circumference 271.6 m), just inside the bank, each about 1.06 m wide and 0.76 m deep on average. Cremations were inserted in their upper fills. | 51.178868,-1.826196 | locations/stonehenge/landmarks.json $[11]
+landmark:stonehenge/aubrey-holes:phase:0 | phase -3000..-2500 | Aubrey Holes: open pits with chalk rims | Dug c. 3000 BCE (Darvill et al. 2012 Stage 1, 3000-2620 BCE; the holes may be earlier). | None,None | locations/stonehenge/landmarks.json $[11].phases[0]
+landmark:stonehenge/aubrey-holes:begun:0 | begun -3000..None | Aubrey Holes: open pits with chalk rims | Dug c. 3000 BCE (Darvill et al. 2012 Stage 1, 3000-2620 BCE; the holes may be earlier). | None,None | locations/stonehenge/landmarks.json $[11].phases[0].from
+landmark:stonehenge/aubrey-holes:completed:0 | completed -2990..None | Aubrey Holes: open pits with chalk rims | Dug c. 3000 BCE (Darvill et al. 2012 Stage 1, 3000-2620 BCE; the holes may be earlier). | None,None | locations/stonehenge/landmarks.json $[11].phases[0].built
+landmark:stonehenge/aubrey-holes:ended:0 | ended -2500..None | Aubrey Holes: open pits with chalk rims (handover) | Dug c. 3000 BCE (Darvill et al. 2012 Stage 1, 3000-2620 BCE; the holes may be earlier). | None,None | locations/stonehenge/landmarks.json $[11].phases[0].to
+
+### stonehenge/stonehenge-ditch-bank
+landmark:stonehenge/stonehenge-ditch-bank:located_at | located_at None..None | Stonehenge ditch and bank | A circular bank with an external ditch, about 110 m across overall, with a wide entrance to the north-east on the solstice axis and a smaller one to the south. Ditch dug with antler picks; re-cut in Stage 3. Drawn with the ditch centreline at radius 53 m. | 51.178868,-1.826196 | locations/stonehenge/landmarks.json $[12]
+landmark:stonehenge/stonehenge-ditch-bank:phase:0 | phase -3000..-2900 | Ditch and bank dug: fresh chalk | Darvill et al. 2012 Stage 1 (3000-2620): ditch construction completed 2990-2755 BCE (95%), probably 2955-2830 (68%); modelled 2900 BCE. Dug 3000-2950 in the animation. | None,None | locations/stonehenge/landmarks.json $[12].phases[0]
+landmark:stonehenge/stonehenge-ditch-bank:phase:1 | phase -2900..-2700 | Weathering | Weathering (chalk showing through patchy turf) is a modelled convention; no source dates the greening. | None,None | locations/stonehenge/landmarks.json $[12].phases[1]
+landmark:stonehenge/stonehenge-ditch-bank:phase:2 | phase -2700..-2350 | Grassed earthwork | Grassed over by 2700 BCE (modelled). | None,None | locations/stonehenge/landmarks.json $[12].phases[2]
+landmark:stonehenge/stonehenge-ditch-bank:phase:3 | phase -2350..-2250 | Ditch re-cut (Stage 3): fresh chalk, outer counterscarp bank | Darvill et al. 2012 Stage 3 (2480-2280): ditch re-cut, terminus post quem 2450-2230 BCE; 2350 BCE is a modelled mid-point. Counterscarp bank inferred to be the spoil. | None,None | locations/stonehenge/landmarks.json $[12].phases[3]
+landmark:stonehenge/stonehenge-ditch-bank:phase:4 | phase -2250..-2100 | Weathering after the re-cut | Modelled. | None,None | locations/stonehenge/landmarks.json $[12].phases[4]
+landmark:stonehenge/stonehenge-ditch-bank:phase:5 | phase -2100..1 | Grassed earthwork | Grassed by 2100 BCE (modelled). | None,None | locations/stonehenge/landmarks.json $[12].phases[5]
+landmark:stonehenge/stonehenge-ditch-bank:begun:0 | begun -3000..None | Ditch and bank dug: fresh chalk | Darvill et al. 2012 Stage 1 (3000-2620): ditch construction completed 2990-2755 BCE (95%), probably 2955-2830 (68%); modelled 2900 BCE. Dug 3000-2950 in the animation. | None,None | locations/stonehenge/landmarks.json $[12].phases[0].from
+landmark:stonehenge/stonehenge-ditch-bank:completed:0 | completed -2950..None | Ditch and bank dug: fresh chalk | Darvill et al. 2012 Stage 1 (3000-2620): ditch construction completed 2990-2755 BCE (95%), probably 2955-2830 (68%); modelled 2900 BCE. Dug 3000-2950 in the animation. | None,None | locations/stonehenge/landmarks.json $[12].phases[0].built
+landmark:stonehenge/stonehenge-ditch-bank:ended:0 | ended -2900..None | Ditch and bank dug: fresh chalk (handover) | Darvill et al. 2012 Stage 1 (3000-2620): ditch construction completed 2990-2755 BCE (95%), probably 2955-2830 (68%); modelled 2900 BCE. Dug 3000-2950 in the animation. | None,None | locations/stonehenge/landmarks.json $[12].phases[0].to
+landmark:stonehenge/stonehenge-ditch-bank:ended:1 | ended -2700..None | Weathering (handover) | Weathering (chalk showing through patchy turf) is a modelled convention; no source dates the greening. | None,None | locations/stonehenge/landmarks.json $[12].phases[1].to
+landmark:stonehenge/stonehenge-ditch-bank:ended:2 | ended -2350..None | Grassed earthwork (handover) | Grassed over by 2700 BCE (modelled). | None,None | locations/stonehenge/landmarks.json $[12].phases[2].to
+landmark:stonehenge/stonehenge-ditch-bank:ended:3 | ended -2250..None | Ditch re-cut (Stage 3): fresh chalk, outer counterscarp bank (handover) | Darvill et al. 2012 Stage 3 (2480-2280): ditch re-cut, terminus post quem 2450-2230 BCE; 2350 BCE is a modelled mid-point. Counterscarp bank inferred to be the spoil. | None,None | locations/stonehenge/landmarks.json $[12].phases[3].to
+landmark:stonehenge/stonehenge-ditch-bank:ended:4 | ended -2100..None | Weathering after the re-cut (handover) | Modelled. | None,None | locations/stonehenge/landmarks.json $[12].phases[4].to
+landmark:stonehenge/stonehenge-ditch-bank:ended:5 | ended 1..None | Grassed earthwork (handover) | Grassed by 2100 BCE (modelled). | None,None | locations/stonehenge/landmarks.json $[12].phases[5].to
+
+### england-wales/caerleon
+place:england-wales/caerleon:located_at | located_at None..None | Caerleon | One of three permanent legionary fortresses in Roman Britain, base of the Second Augustan Legion from about AD 75, with baths, barracks and an amphitheatre still visible. A Norman castle and small borough followed in the late 11th century. | 51.6099,-2.9565 | national/places-wales.json $[8]
+place:england-wales/caerleon:phase:0 | phase 75..300 | Legionary fortress of Legio II Augusta | None | None,None | national/places-wales.json $[8].phases[0]
+place:england-wales/caerleon:phase:1 | phase 300..400 | Reduced occupation of the fortress | None | None,None | national/places-wales.json $[8].phases[1]
+place:england-wales/caerleon:phase:2 | phase 400..1086 | Ruined fortress; settlement poorly known | None | None,None | national/places-wales.json $[8].phases[2]
+place:england-wales/caerleon:phase:3 | phase 1086..None | Norman castle and small borough | None | None,None | national/places-wales.json $[8].phases[3]
+place:england-wales/caerleon:size:0 | size 75..300 | size 4 | Legionary fortress of Legio II Augusta | None,None | national/places-wales.json $[8].phases[0].size
+place:england-wales/caerleon:size:1 | size 300..400 | size 2 | Reduced occupation of the fortress | None,None | national/places-wales.json $[8].phases[1].size
+place:england-wales/caerleon:size:2 | size 400..1086 | size 1 | Ruined fortress; settlement poorly known | None,None | national/places-wales.json $[8].phases[2].size
+place:england-wales/caerleon:size:3 | size 1086..None | size 1 | Norman castle and small borough | None,None | national/places-wales.json $[8].phases[3].size
+place:england-wales/caerleon:named:0 | named 75..410 | Isca | None | None,None | national/places-wales.json $[8].altNames[0]
+place:england-wales/caerleon:named:1 | named 800..None | Caerllion | None | None,None | national/places-wales.json $[8].altNames[1]
+
+### england-wales/segontium
+place:england-wales/segontium:located_at | located_at None..None | Segontium | The main Roman fort of north-west Wales, founded under Agricola about AD 77 for a 1,000-strong auxiliary regiment and linked by road to Chester and Caerleon. Coins show it was held until about 394, longer than any other fort in Wales. | 53.1373,-4.2658 | national/places-wales.json $[9]
+place:england-wales/segontium:phase:0 | phase 77..394 | Auxiliary fort | None | None,None | national/places-wales.json $[9].phases[0]
+place:england-wales/segontium:size:0 | size 77..394 | size 2 | Auxiliary fort | None,None | national/places-wales.json $[9].phases[0].size
+place:england-wales/segontium:size:1 | size 394..None | size 0 | Abandoned fort | None,None | national/places-wales.json $[9].phases[1].size
+
+### england-wales/caerwent
+place:england-wales/caerwent:located_at | located_at None..None | Caerwent | The Roman market town and administrative centre of the Silures, founded about AD 75-80. Its town walls, among the best preserved in northern Europe, still surround the village. | 51.6111,-2.7687 | national/places-wales.json $[11]
+place:england-wales/caerwent:phase:0 | phase 75..400 | Venta Silurum, town of the Silures | None | None,None | national/places-wales.json $[11].phases[0]
+place:england-wales/caerwent:phase:1 | phase 400..None | Village inside the Roman walls | None | None,None | national/places-wales.json $[11].phases[1]
+place:england-wales/caerwent:size:0 | size 75..400 | size 3 | Venta Silurum, town of the Silures | None,None | national/places-wales.json $[11].phases[0].size
+place:england-wales/caerwent:size:1 | size 400..None | size 1 | Village inside the Roman walls | None,None | national/places-wales.json $[11].phases[1].size
+place:england-wales/caerwent:named:0 | named 75..410 | Venta Silurum | None | None,None | national/places-wales.json $[11].altNames[0]
+
+### england-wales/llangorse-crannog
+place:england-wales/llangorse-crannog:located_at | located_at None..None | Llangorse crannog | The only crannog (artificial island) known in Wales, built in Llangorse Lake for the king of Brycheiniog from timbers felled between AD 889 and 893. The Anglo-Saxon Chronicle records that a Mercian army sent by Æthelflæd destroyed ‘Brecenanmere’ in 916 and took the king’s wife captive. | 51.931,-3.2628 | national/places-wales.json $[28]
+place:england-wales/llangorse-crannog:phase:0 | phase 890..916 | Royal crannog of Brycheiniog | None | None,None | national/places-wales.json $[28].phases[0]
+place:england-wales/llangorse-crannog:phase:1 | phase 916..None | Burnt island | None | None,None | national/places-wales.json $[28].phases[1]
+place:england-wales/llangorse-crannog:size:0 | size 890..916 | size 2 | Royal crannog of Brycheiniog | None,None | national/places-wales.json $[28].phases[0].size
+place:england-wales/llangorse-crannog:size:1 | size 916..None | size 0 | Burnt island | None,None | national/places-wales.json $[28].phases[1].size
+
+### england-wales/chepstow
+place:england-wales/chepstow:located_at | located_at None..None | Chepstow | A castle on a cliff above the Wye, begun in 1067 by William fitz Osbern, earl of Hereford, and one of the first Norman strongholds in Wales. Its great tower is among the oldest stone castle buildings in Britain; a walled port town grew beside it. | 51.6439,-2.6757 | national/places-wales.json $[31]
+place:england-wales/chepstow:phase:0 | phase 1067..None | Castle and borough at the Wye crossing | None | None,None | national/places-wales.json $[31].phases[0]
+place:england-wales/chepstow:size:0 | size 1067..None | size 2 | Castle and borough at the Wye crossing | None,None | national/places-wales.json $[31].phases[0].size
+place:england-wales/chepstow:named:0 | named 1067..1400 | Striguil | None | None,None | national/places-wales.json $[31].altNames[0]
+place:england-wales/chepstow:named:1 | named 1100..None | Cas-gwent | None | None,None | national/places-wales.json $[31].altNames[1]
+
+### england-wales/pembroke
+place:england-wales/pembroke:located_at | located_at None..None | Pembroke | A castle on a tidal promontory, established by the Normans about 1093-4 and never taken by the Welsh. The round great tower was built at the start of the 13th century; Henry Tudor, later Henry VII, was born here in 1457. | 51.6769,-4.9206 | national/places-wales.json $[32]
+place:england-wales/pembroke:phase:0 | phase 1093..1200 | Earth-and-timber castle | None | None,None | national/places-wales.json $[32].phases[0]
+place:england-wales/pembroke:phase:1 | phase 1200..None | Stone castle and walled town | None | None,None | national/places-wales.json $[32].phases[1]
+place:england-wales/pembroke:size:0 | size 1093..1200 | size 1 | Earth-and-timber castle | None,None | national/places-wales.json $[32].phases[0].size
+place:england-wales/pembroke:size:1 | size 1200..None | size 2 | Stone castle and walled town | None,None | national/places-wales.json $[32].phases[1].size
+place:england-wales/pembroke:named:0 | named 1093..None | Penfro | None | None,None | national/places-wales.json $[32].altNames[0]
+
+### england-wales/caerphilly
+place:england-wales/caerphilly:located_at | located_at None..None | Caerphilly Castle | The largest castle in Wales, begun in 1268 by Gilbert de Clare, lord of Glamorgan, against Llywelyn ap Gruffudd. Its concentric walls and wide artificial lakes were new to Britain. | 51.5761,-3.2203 | national/places-wales.json $[34]
+place:england-wales/caerphilly:phase:0 | phase 1268..1500 | Concentric castle with water defences | None | None,None | national/places-wales.json $[34].phases[0]
+place:england-wales/caerphilly:phase:1 | phase 1500..None | Castle in decay | None | None,None | national/places-wales.json $[34].phases[1]
+place:england-wales/caerphilly:size:0 | size 1268..1500 | size 2 | Concentric castle with water defences | None,None | national/places-wales.json $[34].phases[0].size
+place:england-wales/caerphilly:size:1 | size 1500..None | size 1 | Castle in decay | None,None | national/places-wales.json $[34].phases[1].size
+
+### england-wales/castell-y-bere
+place:england-wales/castell-y-bere:located_at | located_at None..None | Castell y Bere | A castle on a rock in the Dysynni valley, begun in 1221 by Llywelyn ap Iorwerth to guard the southern border of Gwynedd. It was taken by Edward I’s forces in 1283 and given up after the Welsh rising of 1294. | 52.6583,-3.9711 | national/places-wales.json $[36]
+place:england-wales/castell-y-bere:phase:0 | phase 1221..1294 | Castle of the princes of Gwynedd, then English | None | None,None | national/places-wales.json $[36].phases[0]
+place:england-wales/castell-y-bere:phase:1 | phase 1294..None | Abandoned | None | None,None | national/places-wales.json $[36].phases[1]
+place:england-wales/castell-y-bere:size:0 | size 1221..1294 | size 1 | Castle of the princes of Gwynedd, then English | None,None | national/places-wales.json $[36].phases[0].size
+place:england-wales/castell-y-bere:size:1 | size 1294..None | size 0 | Abandoned | None,None | national/places-wales.json $[36].phases[1].size
+
+### england-wales/flint
+place:england-wales/flint:located_at | located_at None..None | Flint | The first of Edward I’s castles in Wales, begun in 1277 and largely finished by 1284, with a planned borough beside it. Richard II met Henry Bolingbroke here in 1399. | 53.2517,-3.1299 | national/places-wales.json $[39]
+place:england-wales/flint:phase:0 | phase 1277..None | Edward I’s castle and borough | None | None,None | national/places-wales.json $[39].phases[0]
+place:england-wales/flint:size:0 | size 1277..None | size 2 | Edward I’s castle and borough | None,None | national/places-wales.json $[39].phases[0].size
+place:england-wales/flint:named:0 | named 1277..None | Y Fflint | None | None,None | national/places-wales.json $[39].altNames[0]
+
+### england-wales/conwy
+place:england-wales/conwy:located_at | located_at None..None | Conwy | Edward I and Master James of St George built the castle and a 1.3 km circuit of town walls here between 1283 and 1287. The site had been the Cistercian abbey of Aberconwy, burial place of Llywelyn ap Iorwerth, which the king moved up the valley to Maenan. | 53.2801,-3.8256 | national/places-wales.json $[41]
+place:england-wales/conwy:phase:0 | phase 1186..1283 | Aberconwy Abbey | None | None,None | national/places-wales.json $[41].phases[0]
+place:england-wales/conwy:phase:1 | phase 1283..None | Edward I’s castle and walled town | None | None,None | national/places-wales.json $[41].phases[1]
+place:england-wales/conwy:size:0 | size 1186..1283 | size 1 | Aberconwy Abbey | None,None | national/places-wales.json $[41].phases[0].size
+place:england-wales/conwy:size:1 | size 1283..None | size 2 | Edward I’s castle and walled town | None,None | national/places-wales.json $[41].phases[1].size
+place:england-wales/conwy:named:0 | named 1186..1283 | Aberconwy | None | None,None | national/places-wales.json $[41].altNames[0]
+
+### england-wales/caernarfon
+place:england-wales/caernarfon:located_at | located_at None..None | Caernarfon | Edward I began the castle and walled borough in 1283, with a quay, all at once; work lasted 47 years and was still unfinished about 1330. It was the centre of royal government in North Wales. The castle was in decay by the 16th century. | 53.1393,-4.2769 | national/places-wales.json $[42]
+place:england-wales/caernarfon:phase:0 | phase 1090..1115 | Norman motte | None | None,None | national/places-wales.json $[42].phases[0]
+place:england-wales/caernarfon:phase:1 | phase 1115..1283 | Court of the princes of Gwynedd | None | None,None | national/places-wales.json $[42].phases[1]
+place:england-wales/caernarfon:phase:2 | phase 1283..1536 | Edward I’s castle and walled borough; seat of government for North Wales | None | None,None | national/places-wales.json $[42].phases[2]
+place:england-wales/caernarfon:phase:3 | phase 1536..None | County town; castle in decay | None | None,None | national/places-wales.json $[42].phases[3]
+place:england-wales/caernarfon:size:0 | size 1090..1115 | size 1 | Norman motte | None,None | national/places-wales.json $[42].phases[0].size
+place:england-wales/caernarfon:size:1 | size 1115..1283 | size 1 | Court of the princes of Gwynedd | None,None | national/places-wales.json $[42].phases[1].size
+place:england-wales/caernarfon:size:2 | size 1283..1536 | size 3 | Edward I’s castle and walled borough; seat of government for North Wales | None,None | national/places-wales.json $[42].phases[2].size
+place:england-wales/caernarfon:size:3 | size 1536..None | size 2 | County town; castle in decay | None,None | national/places-wales.json $[42].phases[3].size
+place:england-wales/caernarfon:named:0 | named 1283..None | Caernarvon | None | None,None | national/places-wales.json $[42].altNames[0]
+
+### england-wales/harlech
+place:england-wales/harlech:located_at | located_at None..None | Harlech Castle | A concentric castle on a crag above Cardigan Bay, begun in May 1283 and largely complete by 1289. Owain Glyndŵr took it in 1404 and kept his court and family here until it was retaken in 1409; it fell again to the Yorkists in 1468 after a long siege. | 52.86,-4.1092 | national/places-wales.json $[43]
+place:england-wales/harlech:phase:0 | phase 1283..1404 | Edward I’s castle | None | None,None | national/places-wales.json $[43].phases[0]
+place:england-wales/harlech:phase:1 | phase 1404..1409 | Court of Owain Glyndŵr | None | None,None | national/places-wales.json $[43].phases[1]
+place:england-wales/harlech:phase:2 | phase 1409..None | Royal castle | None | None,None | national/places-wales.json $[43].phases[2]
+place:england-wales/harlech:size:0 | size 1283..1404 | size 2 | Edward I’s castle | None,None | national/places-wales.json $[43].phases[0].size
+place:england-wales/harlech:size:1 | size 1404..1409 | size 2 | Court of Owain Glyndŵr | None,None | national/places-wales.json $[43].phases[1].size
+place:england-wales/harlech:size:2 | size 1409..None | size 1 | Royal castle | None,None | national/places-wales.json $[43].phases[2].size
+
+### england-wales/beaumaris
+place:england-wales/beaumaris:located_at | located_at None..None | Beaumaris | The last of Edward I’s Welsh castles, begun in 1295 after the rising of Madog ap Llywelyn. Money ran short and work petered out by the 1320s, leaving the towers below their planned height. The borough became the main port of Anglesey. | 53.2649,-4.0896 | national/places-wales.json $[44]
+place:england-wales/beaumaris:phase:0 | phase 1295..None | Edward I’s unfinished castle; borough and port | None | None,None | national/places-wales.json $[44].phases[0]
+place:england-wales/beaumaris:size:0 | size 1295..None | size 2 | Edward I’s unfinished castle; borough and port | None,None | national/places-wales.json $[44].phases[0].size
+
+### england-wales/dolforwyn
+place:england-wales/dolforwyn:located_at | located_at None..None | Dolforwyn Castle | A castle built by Llywelyn ap Gruffudd in 1273 on a ridge above the Severn, in defiance of the king and facing royal Montgomery. Roger Mortimer took it in 1277 after a two-week siege. | 52.5465,-3.252 | national/places-wales.json $[47]
+place:england-wales/dolforwyn:phase:0 | phase 1273..1277 | Castle of Llywelyn ap Gruffudd | None | None,None | national/places-wales.json $[47].phases[0]
+place:england-wales/dolforwyn:phase:1 | phase 1277..1390 | Mortimer castle | None | None,None | national/places-wales.json $[47].phases[1]
+place:england-wales/dolforwyn:phase:2 | phase 1390..None | Abandoned | None | None,None | national/places-wales.json $[47].phases[2]
+place:england-wales/dolforwyn:size:0 | size 1273..1277 | size 1 | Castle of Llywelyn ap Gruffudd | None,None | national/places-wales.json $[47].phases[0].size
+place:england-wales/dolforwyn:size:1 | size 1277..1390 | size 1 | Mortimer castle | None,None | national/places-wales.json $[47].phases[1].size
+place:england-wales/dolforwyn:size:2 | size 1390..None | size 0 | Abandoned | None,None | national/places-wales.json $[47].phases[2].size
+
+### england-wales/raglan
+place:england-wales/raglan:located_at | located_at None..None | Raglan Castle | A late medieval fortress-palace in Gwent. Sir William ap Thomas built the moated Great Tower about 1435 and his son William Herbert, earl of Pembroke, enlarged it. | 51.7703,-2.8501 | national/places-wales.json $[48]
+place:england-wales/raglan:phase:0 | phase 1435..None | Fortress-palace of the Herberts and Somersets | None | None,None | national/places-wales.json $[48].phases[0]
+place:england-wales/raglan:size:0 | size 1435..None | size 2 | Fortress-palace of the Herberts and Somersets | None,None | national/places-wales.json $[48].phases[0].size
+
+### england-wales/tintern
+place:england-wales/tintern:located_at | located_at None..None | Tintern Abbey | The first Cistercian abbey in Wales, founded in 1131 on the Wye. The great church was begun in 1269. The abbey surrendered in 1536 in the first round of the dissolution. | 51.6971,-2.6772 | national/places-wales.json $[52]
+place:england-wales/tintern:phase:0 | phase 1131..1536 | Cistercian abbey | None | None,None | national/places-wales.json $[52].phases[0]
+place:england-wales/tintern:phase:1 | phase 1536..None | Roofless ruin | None | None,None | national/places-wales.json $[52].phases[1]
+place:england-wales/tintern:size:0 | size 1131..1536 | size 2 | Cistercian abbey | None,None | national/places-wales.json $[52].phases[0].size
+place:england-wales/tintern:size:1 | size 1536..None | size 1 | Roofless ruin | None,None | national/places-wales.json $[52].phases[1].size
+place:england-wales/tintern:named:0 | named 1131..None | Tyndyrn | None | None,None | national/places-wales.json $[52].altNames[0]
+
+### england-wales/strata-florida
+place:england-wales/strata-florida:located_at | located_at None..None | Strata Florida Abbey | A Cistercian abbey in the Ceredigion uplands, founded in 1164 by a Norman lord and soon taken under the patronage of the Lord Rhys. The monks entered their new church in 1201. Welsh princes were buried here and it supported the Welsh cause; it closed by 1539. | 52.2754,-3.8383 | national/places-wales.json $[53]
+place:england-wales/strata-florida:phase:0 | phase 1164..1539 | Cistercian abbey | None | None,None | national/places-wales.json $[53].phases[0]
+place:england-wales/strata-florida:phase:1 | phase 1539..None | Ruin | None | None,None | national/places-wales.json $[53].phases[1]
+place:england-wales/strata-florida:size:0 | size 1164..1539 | size 2 | Cistercian abbey | None,None | national/places-wales.json $[53].phases[0].size
+place:england-wales/strata-florida:size:1 | size 1539..None | size 0 | Ruin | None,None | national/places-wales.json $[53].phases[1].size
+place:england-wales/strata-florida:named:0 | named 1164..None | Ystrad Fflur | None | None,None | national/places-wales.json $[53].altNames[0]
+
+### england-wales/valle-crucis
+place:england-wales/valle-crucis:located_at | located_at None..None | Valle Crucis Abbey | A Cistercian abbey near Llangollen, founded in 1201 by Madog ap Gruffudd, prince of northern Powys, and named after the nearby Pillar of Eliseg. It was dissolved in 1537. | 52.9887,-3.1865 | national/places-wales.json $[54]
+place:england-wales/valle-crucis:phase:0 | phase 1201..1537 | Cistercian abbey | None | None,None | national/places-wales.json $[54].phases[0]
+place:england-wales/valle-crucis:phase:1 | phase 1537..None | Ruin | None | None,None | national/places-wales.json $[54].phases[1]
+place:england-wales/valle-crucis:size:0 | size 1201..1537 | size 1 | Cistercian abbey | None,None | national/places-wales.json $[54].phases[0].size
+place:england-wales/valle-crucis:size:1 | size 1537..None | size 0 | Ruin | None,None | national/places-wales.json $[54].phases[1].size
+place:england-wales/valle-crucis:named:0 | named 1201..None | Glyn y Groes | None | None,None | national/places-wales.json $[54].altNames[0]
+
+### england-wales/margam
+place:england-wales/margam:located_at | located_at None..None | Margam Abbey | A Cistercian abbey founded about 1147 and dissolved in 1536, thought to stand on an earlier monastic site: early Christian carved stones were found around it. The western part of the nave survives as the parish church. | 51.5624,-3.7299 | national/places-wales.json $[56]
+place:england-wales/margam:phase:0 | phase 1147..1536 | Cistercian abbey | None | None,None | national/places-wales.json $[56].phases[0]
+place:england-wales/margam:phase:1 | phase 1536..None | Nave kept as parish church | None | None,None | national/places-wales.json $[56].phases[1]
+place:england-wales/margam:size:0 | size 1147..1536 | size 2 | Cistercian abbey | None,None | national/places-wales.json $[56].phases[0].size
+place:england-wales/margam:size:1 | size 1536..None | size 1 | Nave kept as parish church | None,None | national/places-wales.json $[56].phases[1].size
+
+### england-wales/stonehenge
+place:england-wales/stonehenge:located_at | located_at None..None | Stonehenge | The ditch and bank were dug about 3000 BCE and the great stones set up about 2500 BCE. The bluestones were rearranged two or three centuries later and the last known digging, the Y and Z holes, dates to 1800-1500 BCE. | 51.179,-1.826 | national/places.json $[0]
+place:england-wales/stonehenge:phase:0 | phase -3000..-2501 | Circular ditch, bank and cremation cemetery | None | None,None | national/places.json $[0].phases[0]
+place:england-wales/stonehenge:phase:1 | phase -2500..-1501 | Sarsen circle, trilithons and bluestones | None | None,None | national/places.json $[0].phases[1]
+place:england-wales/stonehenge:phase:2 | phase -1500..42 | Standing monument, no longer rebuilt | None | None,None | national/places.json $[0].phases[2]
+place:england-wales/stonehenge:size:0 | size -3000..-2501 | size 4 | Circular ditch, bank and cremation cemetery | None,None | national/places.json $[0].phases[0].size
+place:england-wales/stonehenge:size:1 | size -2500..-1501 | size 5 | Sarsen circle, trilithons and bluestones | None,None | national/places.json $[0].phases[1].size
+place:england-wales/stonehenge:size:2 | size -1500..42 | size 2 | Standing monument, no longer rebuilt | None,None | national/places.json $[0].phases[2].size
+place:england-wales/stonehenge:size:3 | size 43..None | size 1 | Ruin on open downland | None,None | national/places.json $[0].phases[3].size
+
+### england-wales/avebury
+place:england-wales/avebury:located_at | located_at None..None | Avebury | The largest stone circle in Britain, inside a huge henge ditch, built and altered from about 2850 to about 2200 BCE. Its monuments were abandoned around 1800 BCE. | 51.429,-1.854 | national/places.json $[2]
+place:england-wales/avebury:phase:0 | phase -2850..-2201 | Henge and stone circles under construction | None | None,None | national/places.json $[2].phases[0]
+place:england-wales/avebury:phase:1 | phase -2200..-1801 | Henge and avenues in use | None | None,None | national/places.json $[2].phases[1]
+place:england-wales/avebury:phase:2 | phase -1800..None | Abandoned monument; a village grows inside it in the Middle Ages | None | None,None | national/places.json $[2].phases[2]
+place:england-wales/avebury:size:0 | size -2850..-2201 | size 5 | Henge and stone circles under construction | None,None | national/places.json $[2].phases[0].size
+place:england-wales/avebury:size:1 | size -2200..-1801 | size 4 | Henge and avenues in use | None,None | national/places.json $[2].phases[1].size
+place:england-wales/avebury:size:2 | size -1800..None | size 1 | Abandoned monument; a village grows inside it in the Middle Ages | None,None | national/places.json $[2].phases[2].size
+
+### england-wales/silbury-hill
+place:england-wales/silbury-hill:located_at | located_at None..None | Silbury Hill | The largest artificial prehistoric mound in Europe, probably raised over a short period between about 2470 and 2350 BCE. Its purpose is unknown. | 51.416,-1.857 | national/places.json $[3]
+place:england-wales/silbury-hill:phase:1 | phase -2349..None | Completed mound; a Roman roadside settlement later lay at its foot | None | None,None | national/places.json $[3].phases[1]
+place:england-wales/silbury-hill:size:0 | size -2470..-2350 | size 4 | Mound under construction | None,None | national/places.json $[3].phases[0].size
+place:england-wales/silbury-hill:size:1 | size -2349..None | size 1 | Completed mound; a Roman roadside settlement later lay at its foot | None,None | national/places.json $[3].phases[1].size
+
+### england-wales/west-kennet-long-barrow
+place:england-wales/west-kennet-long-barrow:located_at | located_at None..None | West Kennet Long Barrow | One of the largest Neolithic chambered tombs in Britain, built around 3650 BCE, used for at least a thousand years and blocked with great sarsens around 2000 BCE. | 51.409,-1.851 | national/places.json $[4]
+place:england-wales/west-kennet-long-barrow:phase:0 | phase -3650..-2001 | Chambered tomb in use | None | None,None | national/places.json $[4].phases[0]
+place:england-wales/west-kennet-long-barrow:phase:1 | phase -2000..None | Sealed tomb | None | None,None | national/places.json $[4].phases[1]
+place:england-wales/west-kennet-long-barrow:size:0 | size -3650..-2001 | size 3 | Chambered tomb in use | None,None | national/places.json $[4].phases[0].size
+place:england-wales/west-kennet-long-barrow:size:1 | size -2000..None | size 1 | Sealed tomb | None,None | national/places.json $[4].phases[1].size
+
+### england-wales/windmill-hill
+place:england-wales/windmill-hill:located_at | located_at None..None | Windmill Hill | The largest known Neolithic causewayed enclosure, three rings of interrupted ditch on a low hill near Avebury. | 51.441,-1.876 | national/places.json $[5]
+place:england-wales/windmill-hill:phase:0 | phase -3675..-2501 | Causewayed enclosure, a seasonal gathering place | None | None,None | national/places.json $[5].phases[0]
+place:england-wales/windmill-hill:phase:1 | phase -2500..None | Earthwork, out of use | None | None,None | national/places.json $[5].phases[1]
+place:england-wales/windmill-hill:size:0 | size -3675..-2501 | size 3 | Causewayed enclosure, a seasonal gathering place | None,None | national/places.json $[5].phases[0].size
+place:england-wales/windmill-hill:size:1 | size -2500..None | size 0 | Earthwork, out of use | None,None | national/places.json $[5].phases[1].size
+
+### england-wales/grimes-graves
+place:england-wales/grimes-graves:located_at | located_at None..None | Grime's Graves | A field of more than 400 late Neolithic flint mine shafts in the Norfolk Breckland, worked from about 2600 to about 2100 BCE. | 52.476,0.675 | national/places.json $[12]
+place:england-wales/grimes-graves:phase:0 | phase -2600..-2101 | Deep flint mines being dug | None | None,None | national/places.json $[12].phases[0]
+place:england-wales/grimes-graves:phase:1 | phase -2100..-391 | Mines disused; brief Bronze Age pit digging, then middens and a settlement from about 1400 BCE | None | None,None | national/places.json $[12].phases[1]
+place:england-wales/grimes-graves:phase:2 | phase -390..-151 | Iron Age burial ground | None | None,None | national/places.json $[12].phases[2]
+place:england-wales/grimes-graves:phase:3 | phase -150..None | Hollows in heathland; a hundred meeting place from about 939 | None | None,None | national/places.json $[12].phases[3]
+place:england-wales/grimes-graves:size:0 | size -2600..-2101 | size 4 | Deep flint mines being dug | None,None | national/places.json $[12].phases[0].size
+place:england-wales/grimes-graves:size:1 | size -2100..-391 | size 1 | Mines disused; brief Bronze Age pit digging, then middens and a settlement from about 1400 BCE | None,None | national/places.json $[12].phases[1].size
+place:england-wales/grimes-graves:size:2 | size -390..-151 | size 1 | Iron Age burial ground | None,None | national/places.json $[12].phases[2].size
+place:england-wales/grimes-graves:size:3 | size -150..None | size 0 | Hollows in heathland; a hundred meeting place from about 939 | None,None | national/places.json $[12].phases[3].size
+
+### england-wales/silchester
+place:england-wales/silchester:located_at | located_at None..None | Silchester | An Iron Age centre founded about 20-10 BCE which became a Roman town and, unusually, was never reoccupied. | 51.357,-1.082 | national/places.json $[32]
+place:england-wales/silchester:phase:0 | phase -20..42 | Calleva, oppidum of the Atrebates | None | None,None | national/places.json $[32].phases[0]
+place:england-wales/silchester:phase:1 | phase 43..410 | Calleva Atrebatum, civitas capital, walled about 200 | None | None,None | national/places.json $[32].phases[1]
+place:england-wales/silchester:phase:2 | phase 411..600 | Town dwindling | None | None,None | national/places.json $[32].phases[2]
+place:england-wales/silchester:phase:3 | phase 601..None | Abandoned; walls stand around open fields | None | None,None | national/places.json $[32].phases[3]
+place:england-wales/silchester:size:0 | size -20..42 | size 4 | Calleva, oppidum of the Atrebates | None,None | national/places.json $[32].phases[0].size
+place:england-wales/silchester:size:1 | size 43..410 | size 3 | Calleva Atrebatum, civitas capital, walled about 200 | None,None | national/places.json $[32].phases[1].size
+place:england-wales/silchester:size:2 | size 411..600 | size 2 | Town dwindling | None,None | national/places.json $[32].phases[2].size
+place:england-wales/silchester:size:3 | size 601..None | size 0 | Abandoned; walls stand around open fields | None,None | national/places.json $[32].phases[3].size
+place:england-wales/silchester:named:0 | named -20..600 | Calleva | None | None,None | national/places.json $[32].altNames[0]
+
+### england-wales/richborough
+place:england-wales/richborough:located_at | located_at None..None | Richborough | Widely believed to be the landing place of 43 CE and long the formal gateway to Britain. The town was cleared after 250 for a fort, rebuilt in stone in 275-290. | 51.293,1.332 | national/places.json $[33]
+place:england-wales/richborough:phase:0 | phase 43..84 | Invasion bridgehead and supply base | None | None,None | national/places.json $[33].phases[0]
+place:england-wales/richborough:phase:1 | phase 85..250 | Rutupiae, port town with a 25 m monumental arch | None | None,None | national/places.json $[33].phases[1]
+place:england-wales/richborough:phase:3 | phase 411..None | Deserted | None | None,None | national/places.json $[33].phases[3]
+place:england-wales/richborough:size:0 | size 43..84 | size 3 | Invasion bridgehead and supply base | None,None | national/places.json $[33].phases[0].size
+place:england-wales/richborough:size:1 | size 85..250 | size 3 | Rutupiae, port town with a 25 m monumental arch | None,None | national/places.json $[33].phases[1].size
+place:england-wales/richborough:size:2 | size 251..410 | size 2 | Saxon Shore fort | None,None | national/places.json $[33].phases[2].size
+place:england-wales/richborough:size:3 | size 411..None | size 0 | Deserted | None,None | national/places.json $[33].phases[3].size
+place:england-wales/richborough:named:0 | named 43..410 | Rutupiae | None | None,None | national/places.json $[33].altNames[0]
+
+### england-wales/corbridge
+place:england-wales/corbridge:located_at | located_at None..None | Corbridge | The most northerly town of the Roman empire, where Dere Street crossed the Tyne. | 54.978,-2.03 | national/places.json $[49]
+place:england-wales/corbridge:phase:0 | phase 85..160 | Succession of forts at the Tyne crossing | None | None,None | national/places.json $[49].phases[0]
+place:england-wales/corbridge:phase:1 | phase 161..410 | Coria, garrison town and supply base behind the Wall | None | None,None | national/places.json $[49].phases[1]
+place:england-wales/corbridge:size:0 | size 85..160 | size 2 | Succession of forts at the Tyne crossing | None,None | national/places.json $[49].phases[0].size
+place:england-wales/corbridge:size:1 | size 161..410 | size 3 | Coria, garrison town and supply base behind the Wall | None,None | national/places.json $[49].phases[1].size
+place:england-wales/corbridge:size:2 | size 411..None | size 0 | Deserted | None,None | national/places.json $[49].phases[2].size
+place:england-wales/corbridge:named:0 | named 85..410 | Coria | None | None,None | national/places.json $[49].altNames[0]
+
+### england-wales/housesteads
+place:england-wales/housesteads:located_at | located_at None..None | Housesteads | Built within a decade of 122 for an 800-strong infantry regiment, and held to the end of the 4th century. | 55.013,-2.331 | national/places.json $[51]
+place:england-wales/housesteads:phase:0 | phase 124..410 | Vercovicium, infantry fort on Hadrian's Wall | None | None,None | national/places.json $[51].phases[0]
+place:england-wales/housesteads:size:0 | size 124..410 | size 2 | Vercovicium, infantry fort on Hadrian's Wall | None,None | national/places.json $[51].phases[0].size
+place:england-wales/housesteads:size:1 | size 411..None | size 0 | Abandoned | None,None | national/places.json $[51].phases[1].size
+place:england-wales/housesteads:named:0 | named 124..410 | Vercovicium | None | None,None | national/places.json $[51].altNames[0]
+
+### england-wales/chesters
+place:england-wales/chesters:located_at | located_at None..None | Chesters | Built about 124 for a 500-strong cavalry regiment and occupied until the Roman army left Britain. | 55.026,-2.139 | national/places.json $[52]
+place:england-wales/chesters:phase:0 | phase 124..410 | Cilurnum, cavalry fort where the Wall crosses the North Tyne | None | None,None | national/places.json $[52].phases[0]
+place:england-wales/chesters:size:0 | size 124..410 | size 2 | Cilurnum, cavalry fort where the Wall crosses the North Tyne | None,None | national/places.json $[52].phases[0].size
+place:england-wales/chesters:size:1 | size 411..None | size 0 | Abandoned | None,None | national/places.json $[52].phases[1].size
+place:england-wales/chesters:named:0 | named 124..410 | Cilurnum | None | None,None | national/places.json $[52].altNames[0]
+
+### england-wales/dover
+place:england-wales/dover:located_at | located_at None..None | Dover | The shortest crossing to Gaul. The Roman lighthouse of about 130 still stands inside the castle, whose great tower Henry II built in 1179-89; the castle held out against a French siege in 1216-17. | 51.129,1.323 | national/places.json $[55]
+place:england-wales/dover:phase:0 | phase 117..270 | Dubris, base of the Classis Britannica, with twin lighthouses | None | None,None | national/places.json $[55].phases[0]
+place:england-wales/dover:phase:1 | phase 271..410 | Saxon Shore fort | None | None,None | national/places.json $[55].phases[1]
+place:england-wales/dover:phase:2 | phase 411..899 | Small harbour settlement | None | None,None | national/places.json $[55].phases[2]
+place:england-wales/dover:phase:3 | phase 900..1065 | Burh, port and minster of St Mary in Castro | None | None,None | national/places.json $[55].phases[3]
+place:england-wales/dover:phase:4 | phase 1066..None | Royal castle and head port of the Cinque Ports | None | None,None | national/places.json $[55].phases[4]
+place:england-wales/dover:size:0 | size 117..270 | size 3 | Dubris, base of the Classis Britannica, with twin lighthouses | None,None | national/places.json $[55].phases[0].size
+place:england-wales/dover:size:1 | size 271..410 | size 2 | Saxon Shore fort | None,None | national/places.json $[55].phases[1].size
+place:england-wales/dover:size:2 | size 411..899 | size 1 | Small harbour settlement | None,None | national/places.json $[55].phases[2].size
+place:england-wales/dover:size:3 | size 900..1065 | size 2 | Burh, port and minster of St Mary in Castro | None,None | national/places.json $[55].phases[3].size
+place:england-wales/dover:size:4 | size 1066..None | size 3 | Royal castle and head port of the Cinque Ports | None,None | national/places.json $[55].phases[4].size
+place:england-wales/dover:named:0 | named 117..410 | Dubris | None | None,None | national/places.json $[55].altNames[0]
+
+### england-wales/pevensey
+place:england-wales/pevensey:located_at | located_at None..None | Pevensey | Built about 290 (tree-ring date). William of Normandy landed here on 28 September 1066 and a medieval castle grew within the Roman circuit. | 50.819,0.334 | national/places.json $[57]
+place:england-wales/pevensey:phase:0 | phase 290..410 | Anderida, Saxon Shore fort | None | None,None | national/places.json $[57].phases[0]
+place:england-wales/pevensey:phase:1 | phase 411..471 | British-held fort | None | None,None | national/places.json $[57].phases[1]
+place:england-wales/pevensey:phase:3 | phase 1066..1499 | William's landing place; Norman castle inside the Roman walls | None | None,None | national/places.json $[57].phases[3]
+place:england-wales/pevensey:phase:4 | phase 1500..None | Decaying castle on a silted haven | None | None,None | national/places.json $[57].phases[4]
+place:england-wales/pevensey:size:0 | size 290..410 | size 2 | Anderida, Saxon Shore fort | None,None | national/places.json $[57].phases[0].size
+place:england-wales/pevensey:size:1 | size 411..471 | size 1 | British-held fort | None,None | national/places.json $[57].phases[1].size
+place:england-wales/pevensey:size:2 | size 472..1065 | size 0 | Deserted walls | None,None | national/places.json $[57].phases[2].size
+place:england-wales/pevensey:size:3 | size 1066..1499 | size 2 | William's landing place; Norman castle inside the Roman walls | None,None | national/places.json $[57].phases[3].size
+place:england-wales/pevensey:size:4 | size 1500..None | size 1 | Decaying castle on a silted haven | None,None | national/places.json $[57].phases[4].size
+place:england-wales/pevensey:named:0 | named 290..471 | Anderida | None | None,None | national/places.json $[57].altNames[0]
+
+### england-wales/reculver
+place:england-wales/reculver:located_at | located_at None..None | Reculver | An early Saxon Shore fort guarding the channel that then made Thanet an island; a Kentish minster was founded in it in 669. | 51.379,1.2 | national/places.json $[59]
+place:england-wales/reculver:phase:0 | phase 200..410 | Regulbium, fort at the north mouth of the Wantsum | None | None,None | national/places.json $[59].phases[0]
+place:england-wales/reculver:phase:1 | phase 411..668 | Deserted | None | None,None | national/places.json $[59].phases[1]
+place:england-wales/reculver:phase:2 | phase 669..949 | Minster inside the fort | None | None,None | national/places.json $[59].phases[2]
+place:england-wales/reculver:phase:3 | phase 950..None | Parish church; the sea is eating the fort | None | None,None | national/places.json $[59].phases[3]
+place:england-wales/reculver:size:0 | size 200..410 | size 2 | Regulbium, fort at the north mouth of the Wantsum | None,None | national/places.json $[59].phases[0].size
+place:england-wales/reculver:size:1 | size 411..668 | size 0 | Deserted | None,None | national/places.json $[59].phases[1].size
+place:england-wales/reculver:size:2 | size 669..949 | size 2 | Minster inside the fort | None,None | national/places.json $[59].phases[2].size
+place:england-wales/reculver:size:3 | size 950..None | size 1 | Parish church; the sea is eating the fort | None,None | national/places.json $[59].phases[3].size
+place:england-wales/reculver:named:0 | named 200..410 | Regulbium | None | None,None | national/places.json $[59].altNames[0]
+
+### england-wales/sutton-hoo
+place:england-wales/sutton-hoo:located_at | located_at None..None | Sutton Hoo | A mound cemetery above the Deben. The great ship burial of about 625 is most often thought to be that of King Raedwald. | 52.089,1.338 | national/places.json $[67]
+place:england-wales/sutton-hoo:phase:0 | phase 590..650 | Royal burial ground of the East Angles | None | None,None | national/places.json $[67].phases[0]
+place:england-wales/sutton-hoo:phase:1 | phase 651..None | Barrow cemetery, later an execution site | None | None,None | national/places.json $[67].phases[1]
+place:england-wales/sutton-hoo:size:0 | size 590..650 | size 3 | Royal burial ground of the East Angles | None,None | national/places.json $[67].phases[0].size
+place:england-wales/sutton-hoo:size:1 | size 651..None | size 1 | Barrow cemetery, later an execution site | None,None | national/places.json $[67].phases[1].size
+
+### england-wales/jarrow
+place:england-wales/jarrow:located_at | located_at None..None | Jarrow and Wearmouth | Benedict Biscop's 'one monastery in two places', the home of Bede (died 735) and for a time the most learned house in northern Europe. | 54.98,-1.472 | national/places.json $[75]
+place:england-wales/jarrow:phase:1 | phase 801..1073 | Monastic life in decline | None | None,None | national/places.json $[75].phases[1]
+place:england-wales/jarrow:phase:2 | phase 1074..1083 | Refounded by Aldwin | None | None,None | national/places.json $[75].phases[2]
+place:england-wales/jarrow:phase:3 | phase 1084..1537 | Cell of Durham | None | None,None | national/places.json $[75].phases[3]
+place:england-wales/jarrow:phase:4 | phase 1538..None | Parish church | None | None,None | national/places.json $[75].phases[4]
+place:england-wales/jarrow:size:0 | size 674..800 | size 4 | Wearmouth founded; Jarrow follows in 681 | None,None | national/places.json $[75].phases[0].size
+place:england-wales/jarrow:size:1 | size 801..1073 | size 1 | Monastic life in decline | None,None | national/places.json $[75].phases[1].size
+place:england-wales/jarrow:size:2 | size 1074..1083 | size 2 | Refounded by Aldwin | None,None | national/places.json $[75].phases[2].size
+place:england-wales/jarrow:size:3 | size 1084..1537 | size 1 | Cell of Durham | None,None | national/places.json $[75].phases[3].size
+place:england-wales/jarrow:size:4 | size 1538..None | size 0 | Parish church | None,None | national/places.json $[75].phases[4].size
+
+### england-wales/whitby
+place:england-wales/whitby:located_at | located_at None..None | Whitby | Founded about 657 and the scene of the synod of 664 that settled the dating of Easter. Abandoned in the 9th century, refounded about 1078 and suppressed in 1539. | 54.488,-0.608 | national/places.json $[76]
+place:england-wales/whitby:phase:0 | phase 657..867 | Streaneshalch, double monastery founded by Hild | None | None,None | national/places.json $[76].phases[0]
+place:england-wales/whitby:phase:2 | phase 1078..1539 | Benedictine abbey | None | None,None | national/places.json $[76].phases[2]
+place:england-wales/whitby:phase:3 | phase 1540..None | Fishing port below the ruined abbey | None | None,None | national/places.json $[76].phases[3]
+place:england-wales/whitby:size:0 | size 657..867 | size 3 | Streaneshalch, double monastery founded by Hild | None,None | national/places.json $[76].phases[0].size
+place:england-wales/whitby:size:1 | size 868..1077 | size 0 | Abandoned | None,None | national/places.json $[76].phases[1].size
+place:england-wales/whitby:size:2 | size 1078..1539 | size 3 | Benedictine abbey | None,None | national/places.json $[76].phases[2].size
+place:england-wales/whitby:size:3 | size 1540..None | size 1 | Fishing port below the ruined abbey | None,None | national/places.json $[76].phases[3].size
+place:england-wales/whitby:named:0 | named 657..867 | Streaneshalch | None | None,None | national/places.json $[76].altNames[0]
+
+### england-wales/durham
+place:england-wales/durham:located_at | located_at None..None | Durham | Cuthbert's relics came to rest here in 995 after the community's long wandering from Lindisfarne by way of Chester-le-Street. | 54.773,-1.576 | national/places.json $[79]
+place:england-wales/durham:phase:0 | phase 995..1092 | Shrine of St Cuthbert on the river peninsula | None | None,None | national/places.json $[79].phases[0]
+place:england-wales/durham:phase:1 | phase 1093..1539 | Norman cathedral, castle and seat of the prince-bishops | None | None,None | national/places.json $[79].phases[1]
+place:england-wales/durham:phase:2 | phase 1540..None | Cathedral city of a county palatine | None | None,None | national/places.json $[79].phases[2]
+place:england-wales/durham:size:0 | size 995..1092 | size 3 | Shrine of St Cuthbert on the river peninsula | None,None | national/places.json $[79].phases[0].size
+place:england-wales/durham:size:1 | size 1093..1539 | size 4 | Norman cathedral, castle and seat of the prince-bishops | None,None | national/places.json $[79].phases[1].size
+place:england-wales/durham:size:2 | size 1540..None | size 3 | Cathedral city of a county palatine | None,None | national/places.json $[79].phases[2].size
+
+### england-wales/ely
+place:england-wales/ely:located_at | located_at None..None | Ely | A fen-island monastery that became one of the great cathedrals; 23rd in the 1377 poll tax. | 52.399,0.262 | national/places.json $[103]
+place:england-wales/ely:phase:0 | phase 673..869 | Double monastery of Aethelthryth on an island in the Fens | None | None,None | national/places.json $[103].phases[0]
+place:england-wales/ely:phase:1 | phase 870..969 | Destroyed by the Danes | None | None,None | national/places.json $[103].phases[1]
+place:england-wales/ely:phase:2 | phase 970..1108 | Refounded abbey; Hereward's last stand 1071 | None | None,None | national/places.json $[103].phases[2]
+place:england-wales/ely:phase:3 | phase 1109..1539 | Cathedral priory | None | None,None | national/places.json $[103].phases[3]
+place:england-wales/ely:phase:4 | phase 1540..None | Small cathedral city | None | None,None | national/places.json $[103].phases[4]
+place:england-wales/ely:size:0 | size 673..869 | size 2 | Double monastery of Aethelthryth on an island in the Fens | None,None | national/places.json $[103].phases[0].size
+place:england-wales/ely:size:1 | size 870..969 | size 0 | Destroyed by the Danes | None,None | national/places.json $[103].phases[1].size
+place:england-wales/ely:size:2 | size 970..1108 | size 3 | Refounded abbey; Hereward's last stand 1071 | None,None | national/places.json $[103].phases[2].size
+place:england-wales/ely:size:3 | size 1109..1539 | size 3 | Cathedral priory | None,None | national/places.json $[103].phases[3].size
+place:england-wales/ely:size:4 | size 1540..None | size 2 | Small cathedral city | None,None | national/places.json $[103].phases[4].size
+
+### england-wales/old-sarum
+place:england-wales/old-sarum:located_at | located_at None..None | Old Sarum | A hillfort of about 400 BCE reused for a mint in 1003, a Norman castle and a cathedral (see moved here 1075). The clergy left for the new city of Salisbury in the 1220s. | 51.093,-1.805 | national/places.json $[110]
+place:england-wales/old-sarum:phase:0 | phase -400..42 | Iron Age hillfort | None | None,None | national/places.json $[110].phases[0]
+place:england-wales/old-sarum:phase:1 | phase 43..410 | Sorviodunum, a road junction settlement | None | None,None | national/places.json $[110].phases[1]
+place:england-wales/old-sarum:phase:2 | phase 411..1002 | Little used | None | None,None | national/places.json $[110].phases[2]
+place:england-wales/old-sarum:phase:3 | phase 1003..1069 | Burh with a mint | None | None,None | national/places.json $[110].phases[3]
+place:england-wales/old-sarum:phase:4 | phase 1070..1226 | Royal castle and cathedral city | None | None,None | national/places.json $[110].phases[4]
+place:england-wales/old-sarum:phase:5 | phase 1227..1500 | Castle on a dwindling site | None | None,None | national/places.json $[110].phases[5]
+place:england-wales/old-sarum:phase:6 | phase 1501..None | Deserted; still returns two members of parliament | None | None,None | national/places.json $[110].phases[6]
+place:england-wales/old-sarum:size:0 | size -400..42 | size 2 | Iron Age hillfort | None,None | national/places.json $[110].phases[0].size
+place:england-wales/old-sarum:size:1 | size 43..410 | size 1 | Sorviodunum, a road junction settlement | None,None | national/places.json $[110].phases[1].size
+place:england-wales/old-sarum:size:2 | size 411..1002 | size 0 | Little used | None,None | national/places.json $[110].phases[2].size
+place:england-wales/old-sarum:size:3 | size 1003..1069 | size 2 | Burh with a mint | None,None | national/places.json $[110].phases[3].size
+place:england-wales/old-sarum:size:4 | size 1070..1226 | size 3 | Royal castle and cathedral city | None,None | national/places.json $[110].phases[4].size
+place:england-wales/old-sarum:size:5 | size 1227..1500 | size 1 | Castle on a dwindling site | None,None | national/places.json $[110].phases[5].size
+place:england-wales/old-sarum:size:6 | size 1501..None | size 0 | Deserted; still returns two members of parliament | None,None | national/places.json $[110].phases[6].size
+place:england-wales/old-sarum:named:0 | named 43..410 | Sorviodunum | None | None,None | national/places.json $[110].altNames[0]
+place:england-wales/old-sarum:named:1 | named 1003..1226 | Searoburh | None | None,None | national/places.json $[110].altNames[1]
+
+### england-wales/salisbury
+place:england-wales/salisbury:located_at | located_at None..None | Salisbury | Founded in 1220 to replace Old Sarum. It was eighth in the 1377 poll tax and seventh by wealth in the 1520s. | 51.065,-1.797 | national/places.json $[111]
+place:england-wales/salisbury:phase:0 | phase 1220..1300 | New cathedral city laid out in the meadows | None | None,None | national/places.json $[111].phases[0]
+place:england-wales/salisbury:phase:1 | phase 1301..1550 | Cloth city, eighth in 1377 | None | None,None | national/places.json $[111].phases[1]
+place:england-wales/salisbury:phase:2 | phase 1551..None | Cathedral city with a shrinking cloth trade | None | None,None | national/places.json $[111].phases[2]
+place:england-wales/salisbury:size:0 | size 1220..1300 | size 3 | New cathedral city laid out in the meadows | None,None | national/places.json $[111].phases[0].size
+place:england-wales/salisbury:size:1 | size 1301..1550 | size 4 | Cloth city, eighth in 1377 | None,None | national/places.json $[111].phases[1].size
+place:england-wales/salisbury:size:2 | size 1551..None | size 3 | Cathedral city with a shrinking cloth trade | None,None | national/places.json $[111].phases[2].size
+place:england-wales/salisbury:named:0 | named 1220..None | New Sarum | None | None,None | national/places.json $[111].altNames[0]
+
+### england-wales/battle-abbey
+place:england-wales/battle-abbey:located_at | located_at None..None | Battle Abbey | Founded by William about 1071 on the site of his victory, consecrated in 1094 and surrendered in May 1538. | 50.914,0.487 | national/places.json $[131]
+place:england-wales/battle-abbey:phase:0 | phase 1071..1538 | Benedictine abbey on the battlefield of 1066 | None | None,None | national/places.json $[131].phases[0]
+place:england-wales/battle-abbey:phase:1 | phase 1539..None | Country house in the abbey buildings | None | None,None | national/places.json $[131].phases[1]
+place:england-wales/battle-abbey:size:0 | size 1071..1538 | size 2 | Benedictine abbey on the battlefield of 1066 | None,None | national/places.json $[131].phases[0].size
+place:england-wales/battle-abbey:size:1 | size 1539..None | size 1 | Country house in the abbey buildings | None,None | national/places.json $[131].phases[1].size
+
+### england-wales/rievaulx
+place:england-wales/rievaulx:located_at | located_at None..None | Rievaulx Abbey | Founded in March 1132. Under Aelred it held 140 monks and about 500 lay brothers. It was shut down on 3 December 1538. | 54.257,-1.117 | national/places.json $[133]
+place:england-wales/rievaulx:phase:0 | phase 1132..1199 | First Cistercian abbey in the north, about 650 strong in the 1160s | None | None,None | national/places.json $[133].phases[0]
+place:england-wales/rievaulx:phase:1 | phase 1200..1538 | Cistercian abbey with a smaller community | None | None,None | national/places.json $[133].phases[1]
+place:england-wales/rievaulx:phase:2 | phase 1539..None | Ruin | None | None,None | national/places.json $[133].phases[2]
+place:england-wales/rievaulx:size:0 | size 1132..1199 | size 3 | First Cistercian abbey in the north, about 650 strong in the 1160s | None,None | national/places.json $[133].phases[0].size
+place:england-wales/rievaulx:size:1 | size 1200..1538 | size 2 | Cistercian abbey with a smaller community | None,None | national/places.json $[133].phases[1].size
+place:england-wales/rievaulx:size:2 | size 1539..None | size 0 | Ruin | None,None | national/places.json $[133].phases[2].size
+
+### england-wales/furness
+place:england-wales/furness:located_at | located_at None..None | Furness Abbey | In 1537 the first of the larger houses to be dissolved by voluntary surrender. | 54.136,-3.198 | national/places.json $[134]
+place:england-wales/furness:phase:0 | phase 1127..1537 | Savigniac, then Cistercian abbey ruling the Furness peninsula | None | None,None | national/places.json $[134].phases[0]
+place:england-wales/furness:phase:1 | phase 1538..None | Ruin | None | None,None | national/places.json $[134].phases[1]
+place:england-wales/furness:size:0 | size 1127..1537 | size 2 | Savigniac, then Cistercian abbey ruling the Furness peninsula | None,None | national/places.json $[134].phases[0].size
+place:england-wales/furness:size:1 | size 1538..None | size 0 | Ruin | None,None | national/places.json $[134].phases[1].size
+
+### england-wales/kenilworth
+place:england-wales/kenilworth:located_at | located_at None..None | Kenilworth Castle | Begun about 1120. It withstood a six-month siege in 1266, was rebuilt as a palace by John of Gaunt from 1371, and entertained Elizabeth I in 1575. | 52.348,-1.592 | national/places.json $[136]
+place:england-wales/kenilworth:phase:0 | phase 1120..1209 | Castle of Geoffrey de Clinton with a great keep | None | None,None | national/places.json $[136].phases[0]
+place:england-wales/kenilworth:phase:1 | phase 1210..1562 | Royal, then Lancastrian fortress ringed by a great mere | None | None,None | national/places.json $[136].phases[1]
+place:england-wales/kenilworth:phase:2 | phase 1563..None | Palace of Robert Dudley, Earl of Leicester | None | None,None | national/places.json $[136].phases[2]
+place:england-wales/kenilworth:size:0 | size 1120..1209 | size 2 | Castle of Geoffrey de Clinton with a great keep | None,None | national/places.json $[136].phases[0].size
+place:england-wales/kenilworth:size:1 | size 1210..1562 | size 3 | Royal, then Lancastrian fortress ringed by a great mere | None,None | national/places.json $[136].phases[1].size
+place:england-wales/kenilworth:size:2 | size 1563..None | size 3 | Palace of Robert Dudley, Earl of Leicester | None,None | national/places.json $[136].phases[2].size
+
+### england-wales/battle-hastings
+place:england-wales/battle-hastings:located_at | located_at None..None | Battle of Hastings | On 14 October 1066 William of Normandy defeated and killed King Harold. Battle Abbey was founded on the site about 1071. | 50.912,0.487 | national/places.json $[159]
+place:england-wales/battle-hastings:size:0 | size 1066..1066 | size 3 | Battle of Hastings | None,None | national/places.json $[159].phases[0].size
+
+### england-wales/battle-nevilles-cross
+place:england-wales/battle-nevilles-cross:located_at | located_at None..None | Battle of Neville's Cross | A northern English army defeated and captured David II of Scotland outside Durham on 17 October 1346. | 54.777,-1.6 | national/places.json $[163]
+place:england-wales/battle-nevilles-cross:size:0 | size 1346..1346 | size 2 | Battle of Neville's Cross | None,None | national/places.json $[163].phases[0].size
+
+### england-wales/battle-shrewsbury
+place:england-wales/battle-shrewsbury:located_at | located_at None..None | Battle of Shrewsbury | Henry IV defeated the Percy rebellion and Henry 'Hotspur' Percy was killed, on 21 July 1403. | 52.7502,-2.7294 | national/places.json $[165]
+place:england-wales/battle-shrewsbury:size:0 | size 1403..1403 | size 2 | Battle of Shrewsbury | None,None | national/places.json $[165].phases[0].size
+
+### england-wales/battle-st-albans-1455
+place:england-wales/battle-st-albans-1455:located_at | located_at None..None | First Battle of St Albans | A street fight on 22 May 1455 in which Richard of York captured Henry VI; usually counted as the opening of the Wars of the Roses. | 51.752,-0.339 | national/places.json $[166]
+place:england-wales/battle-st-albans-1455:size:0 | size 1455..1455 | size 2 | First Battle of St Albans | None,None | national/places.json $[166].phases[0].size
+
+### england-wales/battle-towton
+place:england-wales/battle-towton:located_at | located_at None..None | Battle of Towton | Fought in snow on Palm Sunday, 29 March 1461. Edward IV's victory secured him the throne; it is often called the largest and bloodiest battle on English soil. | 53.84,-1.268 | national/places.json $[167]
+place:england-wales/battle-towton:size:0 | size 1461..1461 | size 3 | Battle of Towton | None,None | national/places.json $[167].phases[0].size
+
+### england-wales/battle-tewkesbury
+place:england-wales/battle-tewkesbury:located_at | located_at None..None | Battle of Tewkesbury | On 4 May 1471 Edward IV destroyed the last Lancastrian army; Edward, Prince of Wales, was killed. | 51.9819,-2.1635 | national/places.json $[169]
+place:england-wales/battle-tewkesbury:size:0 | size 1471..1471 | size 3 | Battle of Tewkesbury | None,None | national/places.json $[169].phases[0].size
+
+### england-wales/battle-flodden
+place:england-wales/battle-flodden:located_at | located_at None..None | Battle of Flodden | On 9 September 1513 the Earl of Surrey defeated a Scottish invasion; James IV and much of the Scottish nobility were killed. | 55.627,-2.1671 | national/places.json $[172]
+place:england-wales/battle-flodden:size:0 | size 1513..1513 | size 3 | Battle of Flodden | None,None | national/places.json $[172].phases[0].size
+
+### england-wales/maiden-castle
+place:england-wales/maiden-castle:phase:0 | phase -3500..-3001 | Neolithic causewayed enclosure | None | None,None | national/places.json $[18].phases[0]
+place:england-wales/maiden-castle:phase:1 | phase -3000..-601 | Out of use | None | None,None | national/places.json $[18].phases[1]
+place:england-wales/maiden-castle:phase:2 | phase -600..-401 | First hillfort, single rampart | None | None,None | national/places.json $[18].phases[2]
+place:england-wales/maiden-castle:phase:3 | phase -400..-101 | Enlarged multivallate hillfort, over 100 round houses | None | None,None | national/places.json $[18].phases[3]
+place:england-wales/maiden-castle:phase:4 | phase -100..43 | Occupation shrinks to the eastern end | None | None,None | national/places.json $[18].phases[4]
+place:england-wales/maiden-castle:phase:5 | phase 44..369 | Virtually deserted | None | None,None | national/places.json $[18].phases[5]
+place:england-wales/maiden-castle:phase:6 | phase 370..429 | Romano-British temple inside the old ramparts | None | None,None | national/places.json $[18].phases[6]
+place:england-wales/maiden-castle:phase:7 | phase 430..None | Deserted earthworks | None | None,None | national/places.json $[18].phases[7]
+place:england-wales/maiden-castle:size:0 | size -3500..-3001 | size 2 | Neolithic causewayed enclosure | None,None | national/places.json $[18].phases[0].size
+place:england-wales/maiden-castle:size:1 | size -3000..-601 | size 0 | Out of use | None,None | national/places.json $[18].phases[1].size
+place:england-wales/maiden-castle:size:2 | size -600..-401 | size 3 | First hillfort, single rampart | None,None | national/places.json $[18].phases[2].size
+place:england-wales/maiden-castle:size:3 | size -400..-101 | size 5 | Enlarged multivallate hillfort, over 100 round houses | None,None | national/places.json $[18].phases[3].size
+place:england-wales/maiden-castle:size:4 | size -100..43 | size 2 | Occupation shrinks to the eastern end | None,None | national/places.json $[18].phases[4].size
+place:england-wales/maiden-castle:size:5 | size 44..369 | size 0 | Virtually deserted | None,None | national/places.json $[18].phases[5].size
+place:england-wales/maiden-castle:size:6 | size 370..429 | size 1 | Romano-British temple inside the old ramparts | None,None | national/places.json $[18].phases[6].size
+place:england-wales/maiden-castle:size:7 | size 430..None | size 0 | Deserted earthworks | None,None | national/places.json $[18].phases[7].size
+
+### england-wales/wroxeter
+place:england-wales/wroxeter:phase:0 | phase 47..89 | Fort, then legionary fortress | None | None,None | national/places.json $[31].phases[0]
+place:england-wales/wroxeter:phase:1 | phase 90..300 | Viroconium Cornoviorum, civitas capital | None | None,None | national/places.json $[31].phases[1]
+place:england-wales/wroxeter:phase:2 | phase 301..450 | Forum partly abandoned, baths decaying | None | None,None | national/places.json $[31].phases[2]
+place:england-wales/wroxeter:phase:3 | phase 451..None | City centre abandoned | None | None,None | national/places.json $[31].phases[3]
+place:england-wales/wroxeter:size:0 | size 47..89 | size 3 | Fort, then legionary fortress | None,None | national/places.json $[31].phases[0].size
+place:england-wales/wroxeter:size:1 | size 90..300 | size 4 | Viroconium Cornoviorum, civitas capital | None,None | national/places.json $[31].phases[1].size
+place:england-wales/wroxeter:size:2 | size 301..450 | size 3 | Forum partly abandoned, baths decaying | None,None | national/places.json $[31].phases[2].size
+place:england-wales/wroxeter:size:3 | size 451..None | size 0 | City centre abandoned | None,None | national/places.json $[31].phases[3].size
+place:england-wales/wroxeter:named:0 | named 47..450 | Viroconium | None | None,None | national/places.json $[31].altNames[0]
+
+### england-wales/lindisfarne
+place:england-wales/lindisfarne:phase:0 | phase 635..792 | Monastery and bishopric founded by Aidan | None | None,None | national/places.json $[74].phases[0]
+place:england-wales/lindisfarne:phase:1 | phase 793..875 | Monastery after the Viking raid | None | None,None | national/places.json $[74].phases[1]
+place:england-wales/lindisfarne:phase:2 | phase 876..1121 | Deserted by the community of St Cuthbert | None | None,None | national/places.json $[74].phases[2]
+place:england-wales/lindisfarne:phase:3 | phase 1122..1537 | Priory, a cell of Durham | None | None,None | national/places.json $[74].phases[3]
+place:england-wales/lindisfarne:size:0 | size 635..792 | size 4 | Monastery and bishopric founded by Aidan | None,None | national/places.json $[74].phases[0].size
+place:england-wales/lindisfarne:size:1 | size 793..875 | size 3 | Monastery after the Viking raid | None,None | national/places.json $[74].phases[1].size
+place:england-wales/lindisfarne:size:2 | size 876..1121 | size 0 | Deserted by the community of St Cuthbert | None,None | national/places.json $[74].phases[2].size
+place:england-wales/lindisfarne:size:3 | size 1122..1537 | size 2 | Priory, a cell of Durham | None,None | national/places.json $[74].phases[3].size
+place:england-wales/lindisfarne:size:4 | size 1538..None | size 1 | Ruin; a Tudor fort is built nearby | None,None | national/places.json $[74].phases[4].size
+
+### england-wales/battle-lewes
+place:england-wales/battle-lewes:size:0 | size 1264..1264 | size 2 | Battle of Lewes | None,None | national/places.json $[161].phases[0].size
+
+### england-wales/hadrians-wall
+line:england-wales/hadrians-wall:existed | existed 122..410 | frontier-wall: Hadrian’s Wall | The north-west frontier of the Roman empire for nearly 300 years: a wall 80 Roman miles long from the Tyne to the Solway, built by the army on Hadrian’s orders after his visit in AD 122, with forts, milecastles and turrets. It was given up about AD 142 when the frontier moved north to the Antonine Wall, and reoccupied some twenty years later. | None,None | national/lines.json $[31]
+
+### england-wales/wales-shired
+polity:england-wales/wales-shired:existed | existed 1536..None | principality: Wales (shired and united with England) | The Laws in Wales Acts of 1535-6 and 1542-3 united Wales with England, abolished the powers of the marcher lords, created the counties of Monmouth, Brecknock, Radnor, Montgomery and Denbigh beside the older ones, gave Wales members of Parliament and made English the language of the courts. The acts also fixed the boundary with England. The polygon is the modern outline of Wales, generalised; it includes Monmouthshire, which the 1542-3 act placed under the Westminster courts and whose status was long ambiguous. The fetched legislation.gov.uk pages confirm the two acts and their dates; the summary of their provisions is from general knowledge. | None,None | national/polities-wales.json $[23]
+polity:england-wales/wales-shired:located_at | located_at None..None | Wales (shired and united with England) | label position | 52.3,-3.7 | national/polities-wales.json $[23]

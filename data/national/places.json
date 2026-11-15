@@ -1,0 +1,6611 @@
+[
+ {
+  "id": "stonehenge",
+  "name": "Stonehenge",
+  "lat": 51.179,
+  "lon": -1.826,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -3000,
+    "to": -2501,
+    "label": "Circular ditch, bank and cremation cemetery",
+    "size": 4
+   },
+   {
+    "from": -2500,
+    "to": -1501,
+    "label": "Sarsen circle, trilithons and bluestones",
+    "size": 5
+   },
+   {
+    "from": -1500,
+    "to": 42,
+    "label": "Standing monument, no longer rebuilt",
+    "size": 2
+   },
+   {
+    "from": 43,
+    "to": null,
+    "label": "Standing remains on open downland, visited in the Roman period",
+    "size": 1,
+    "note": "AD 43 is an era boundary only: English Heritage says Stonehenge was frequently visited in the Roman period and records no destruction at the conquest. When individual stones fell or were taken is generally unknown."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The ditch and bank were dug about 3000 BCE and the great stones set up about 2500 BCE. The bluestones were rearranged two or three centuries later and the last known digging, the Y and Z holes, dates to 1800-1500 BCE.",
+  "uncertainty": "Phase boundaries are rounded radiocarbon estimates. How long it stayed in active use after 1500 BCE is not known.",
+  "sources": [
+   "nat-eh-stonehenge"
+  ],
+  "site": "stonehenge"
+ },
+ {
+  "id": "durrington-walls",
+  "name": "Durrington Walls",
+  "lat": 51.192,
+  "lon": -1.787,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -2550,
+    "to": -2451,
+    "label": "Short-lived settlement of the Stonehenge builders",
+    "size": 5,
+    "kind": "other",
+    "note": "English Heritage: occupied for a relatively short time between 2580 and 2470 BCE. The 2550-2451 span is a display window for that bracket, not a century of continuous occupation."
+   },
+   {
+    "from": -2450,
+    "to": -2001,
+    "label": "Great henge earthwork",
+    "size": 3
+   },
+   {
+    "from": -2000,
+    "to": null,
+    "label": "Earthwork, out of use",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A very large late Neolithic settlement beside the Avon, later enclosed by Britain's largest henge. It is linked to the building of the sarsen phase at Stonehenge, 3 km away.",
+  "uncertainty": "Dates are rounded from memory of the Stonehenge Riverside Project results (settlement about 2500 BCE, in use for only a few decades). Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": [
+   "nat-eh-stonehenge-reconstructed"
+  ]
+ },
+ {
+  "id": "avebury",
+  "name": "Avebury",
+  "lat": 51.429,
+  "lon": -1.854,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -2850,
+    "to": -2201,
+    "label": "Henge and stone circles under construction",
+    "size": 5
+   },
+   {
+    "from": -2200,
+    "to": -1801,
+    "label": "Henge and avenues in use",
+    "size": 4
+   },
+   {
+    "from": -1800,
+    "to": null,
+    "label": "Abandoned monument; a village grows inside it in the Middle Ages",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The largest stone circle in Britain, inside a huge henge ditch, built and altered from about 2850 to about 2200 BCE. Its monuments were abandoned around 1800 BCE.",
+  "uncertainty": "Internal sequence of the circles and avenues is not closely dated.",
+  "sources": [
+   "nat-eh-avebury"
+  ]
+ },
+ {
+  "id": "silbury-hill",
+  "name": "Silbury Hill",
+  "lat": 51.416,
+  "lon": -1.857,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -2470,
+    "to": -2350,
+    "label": "Mound built within this dating window",
+    "size": 4,
+    "note": "English Heritage: probably built over a short period between about 2470 and 2350 BCE, though enlarged over several generations rather than in one campaign. The phase spans the dating bracket; it is not a measured 120-year building schedule."
+   },
+   {
+    "from": -2349,
+    "to": null,
+    "label": "Completed mound; a Roman roadside settlement later lay at its foot",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The largest artificial prehistoric mound in Europe, probably raised over a short period between about 2470 and 2350 BCE. Its purpose is unknown.",
+  "uncertainty": "No burial has been found; the function is a matter of conjecture.",
+  "sources": [
+   "nat-eh-silbury"
+  ]
+ },
+ {
+  "id": "west-kennet-long-barrow",
+  "name": "West Kennet Long Barrow",
+  "lat": 51.409,
+  "lon": -1.851,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -3650,
+    "to": -2001,
+    "label": "Chambered tomb in use",
+    "size": 3
+   },
+   {
+    "from": -2000,
+    "to": null,
+    "label": "Sealed tomb",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "One of the largest Neolithic chambered tombs in Britain, built around 3650 BCE, used for at least a thousand years and blocked with great sarsens around 2000 BCE.",
+  "uncertainty": "Construction date is a modelled radiocarbon estimate; the date of final blocking is approximate. Dates are English Heritage's round figures.",
+  "sources": [
+   "nat-eh-west-kennet"
+  ]
+ },
+ {
+  "id": "windmill-hill",
+  "name": "Windmill Hill",
+  "lat": 51.441,
+  "lon": -1.876,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -3675,
+    "to": -2501,
+    "label": "Causewayed enclosure, a seasonal gathering place",
+    "size": 3
+   },
+   {
+    "from": -2500,
+    "to": null,
+    "label": "Earthwork, out of use",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "The largest known Neolithic causewayed enclosure, three rings of interrupted ditch on a low hill near Avebury.",
+  "uncertainty": "Start date is a modelled estimate; the length of use is uncertain. Dates are English Heritage's figures: built around 3675 BCE, in use until around 2500 BCE, largely abandoned by the end of the third millennium.",
+  "sources": [
+   "nat-eh-windmill-hill"
+  ]
+ },
+ {
+  "id": "hambledon-hill",
+  "name": "Hambledon Hill",
+  "lat": 50.912,
+  "lon": -2.222,
+  "country": "england",
+  "kind": "hillfort",
+  "phases": [
+   {
+    "from": -3650,
+    "to": -3301,
+    "label": "Neolithic causewayed enclosure complex",
+    "size": 3,
+    "kind": "monument"
+   },
+   {
+    "from": -3300,
+    "to": -701,
+    "label": "Out of use",
+    "size": 0
+   },
+   {
+    "from": -700,
+    "to": -101,
+    "label": "Iron Age hillfort",
+    "size": 3
+   },
+   {
+    "from": -100,
+    "to": null,
+    "label": "Hillfort largely abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A chalk spur in Dorset used twice: as a large early Neolithic enclosure complex and, three thousand years later, as a multivallate hillfort.",
+  "uncertainty": "Both date ranges are approximate; the end of Iron Age occupation is not well fixed. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "cissbury",
+  "name": "Cissbury",
+  "lat": 50.86,
+  "lon": -0.383,
+  "country": "england",
+  "kind": "mine",
+  "phases": [
+   {
+    "from": -4000,
+    "to": -3001,
+    "label": "Neolithic flint mines",
+    "size": 3
+   },
+   {
+    "from": -3000,
+    "to": -401,
+    "label": "Mines disused",
+    "size": 0
+   },
+   {
+    "from": -400,
+    "to": -51,
+    "label": "Large Iron Age hillfort",
+    "size": 3,
+    "kind": "hillfort"
+   },
+   {
+    "from": -50,
+    "to": null,
+    "label": "Hillfort abandoned; interior later ploughed",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Among the earliest flint mines in Britain, with over 200 shafts on the South Downs, later enclosed by one of the largest hillforts in Sussex.",
+  "uncertainty": "The mines began around or soon after 4000 BCE; all four dates are rounded. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "langdale-axe-factory",
+  "name": "Langdale axe quarries",
+  "lat": 54.4559,
+  "lon": -3.1229,
+  "country": "england",
+  "kind": "mine",
+  "phases": [
+   {
+    "from": -3800,
+    "to": -3001,
+    "label": "Stone axe quarries on Pike of Stickle",
+    "size": 3
+   },
+   {
+    "from": -3000,
+    "to": null,
+    "label": "Quarries disused",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "High fell-side quarries whose green volcanic stone was made into polished axes found all over Britain.",
+  "uncertainty": "Date range is approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "castlerigg",
+  "name": "Castlerigg",
+  "lat": 54.603,
+  "lon": -3.098,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -2500,
+    "to": -2001,
+    "label": "Stone circle",
+    "size": 2
+   },
+   {
+    "from": -2000,
+    "to": null,
+    "label": "Standing monument",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "low",
+  "summary": "A ring of 38 stones among the Lake District fells, probably raised in the late Neolithic.",
+  "uncertainty": "Never securely dated by excavation. English Heritage puts it at about 4,500 years ago; Aubrey Burl's case for about 3200 BCE, which would make it one of the earliest circles in Britain, is described there as not strongly supported.",
+  "sources": [
+   "nat-eh-castlerigg"
+  ]
+ },
+ {
+  "id": "thornborough-henges",
+  "name": "Thornborough Henges",
+  "lat": 54.21,
+  "lon": -1.563,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -3000,
+    "to": -2001,
+    "label": "Three aligned henges",
+    "size": 4
+   },
+   {
+    "from": -2000,
+    "to": null,
+    "label": "Earthworks; early Bronze Age burial place",
+    "size": 1,
+    "note": "English Heritage: burial continued around the henges in the early Bronze Age (about 2400-1500 BCE), with round barrows; 2000 BCE is a display boundary, not the end of use."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Three large henges in a line across the Ure-Swale plain, the largest ritual complex between the Thames and Orkney.",
+  "uncertainty": "Not closely dated. English Heritage says the three henges were built about 4,500 to 5,000 years ago, over an older cursus, and stayed a focus for burials into the early Bronze Age (a nearby timber row is put at 1800-1600 BCE). The end date here is a judgement.",
+  "sources": [
+   "nat-eh-thornborough"
+  ]
+ },
+ {
+  "id": "arbor-low",
+  "name": "Arbor Low",
+  "lat": 53.169,
+  "lon": -1.762,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -2500,
+    "to": -1501,
+    "label": "Henge with a circle of limestone slabs",
+    "size": 2
+   },
+   {
+    "from": -1500,
+    "to": null,
+    "label": "Standing monument",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "low",
+  "summary": "A henge and recumbent stone circle on the White Peak limestone plateau.",
+  "uncertainty": "Not closely dated. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "grimes-graves",
+  "name": "Grime's Graves",
+  "lat": 52.476,
+  "lon": 0.675,
+  "country": "england",
+  "kind": "mine",
+  "phases": [
+   {
+    "from": -2650,
+    "to": -2401,
+    "label": "Deep galleried flint mines worked",
+    "size": 4,
+    "note": "Healy et al. 2018: the deep galleried shafts were worked probably from the third quarter of the 27th century BCE until the decades around 2400 BCE."
+   },
+   {
+    "from": -2400,
+    "to": -2101,
+    "label": "Shallower pits in the west of the site",
+    "size": 2,
+    "note": "Healy et al. 2018: shallow pits continued for perhaps three centuries after the galleried shafts went out of use; the end year is approximate."
+   },
+   {
+    "from": -2100,
+    "to": -391,
+    "label": "Mines disused; mining briefly resumed about 1550-1450 BCE, then middens and a settlement from about 1400 BCE",
+    "size": 1
+   },
+   {
+    "from": -390,
+    "to": -151,
+    "label": "Iron Age burial ground",
+    "size": 1
+   },
+   {
+    "from": -150,
+    "to": null,
+    "label": "Hollows in heathland; a hundred meeting place from about 939",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "A field of more than 400 late Neolithic flint mine shafts in the Norfolk Breckland. The deep galleried shafts were worked from about 2650 to about 2400 BCE and shallower pits for perhaps three centuries more; mining resumed briefly in the mid 2nd millennium BCE.",
+  "sources": [
+   "nat-eh-grimes-graves",
+   "nat-healy-2018-grimes-graves"
+  ]
+ },
+ {
+  "id": "seahenge",
+  "name": "Holme timber circle (Seahenge)",
+  "lat": 52.968,
+  "lon": 0.521,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -2049,
+    "to": -2000,
+    "label": "Timber circle around an upturned oak",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A ring of 55 split oak posts around an inverted tree stump, built on a saltmarsh. Tree rings show the timbers were felled in 2049 BCE.",
+  "uncertainty": "The felling date is precise; how long the circle was used is unknown, so the end date is nominal. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "flag-fen",
+  "name": "Flag Fen",
+  "lat": 52.574,
+  "lon": -0.19,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -1365,
+    "to": -967,
+    "label": "Timber causeway and platform being built",
+    "size": 3
+   },
+   {
+    "from": -966,
+    "to": -150,
+    "label": "Causeway used for offerings of metalwork",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A kilometre-long post alignment and timber platform across the fen edge near Peterborough, built in stages between about 1365 and 967 BCE and used for ritual deposits long afterwards.",
+  "uncertainty": "End of use is approximate (deposits continued for more than 1,200 years in all). Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-flag-fen"
+  ]
+ },
+ {
+  "id": "must-farm",
+  "name": "Must Farm",
+  "lat": 52.555,
+  "lon": -0.178,
+  "country": "england",
+  "kind": "other",
+  "phases": [
+   {
+    "from": -850,
+    "to": -850,
+    "label": "Pile-dwelling settlement, burned within about a year",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A small late Bronze Age settlement of round houses on stilts over a fen channel, destroyed by fire very soon after it was built and preserved in the silt.",
+  "uncertainty": "Built about 850 BCE; the year is approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "grimspound",
+  "name": "Grimspound",
+  "lat": 50.613,
+  "lon": -3.837,
+  "country": "england",
+  "kind": "other",
+  "phases": [
+   {
+    "from": -1500,
+    "to": -801,
+    "label": "Walled Bronze Age settlement of 24 round houses",
+    "size": 1
+   },
+   {
+    "from": -800,
+    "to": null,
+    "label": "Surviving settlement remains; end of occupation uncertain",
+    "size": 0,
+    "note": "800 BCE is the end of English Heritage's conventional range, not a dated abandonment. How long it was used is unknown; English Heritage links the decline of upland settlement from about 1000 BCE to soil erosion after clearance, not to a dated climatic event."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "low",
+  "summary": "The best-known of the Bronze Age enclosed settlements on Dartmoor, part of a moor then divided by long field boundaries (reaves).",
+  "uncertainty": "Never dated by modern excavation; the range is the conventional one. English Heritage gives 'probably late Bronze Age (about 1500-800 BC)' and notes the settlement pattern was changing by about 1000 BCE; there is still no radiocarbon date.",
+  "sources": [
+   "nat-eh-grimspound"
+  ]
+ },
+ {
+  "id": "uffington",
+  "name": "Uffington White Horse and Castle",
+  "lat": 51.578,
+  "lon": -1.567,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -1000,
+    "to": -701,
+    "label": "Chalk-cut horse",
+    "size": 2
+   },
+   {
+    "from": -700,
+    "to": 42,
+    "label": "Horse and hillfort",
+    "size": 2,
+    "kind": "hillfort"
+   },
+   {
+    "from": 43,
+    "to": null,
+    "label": "Hill figure, kept scoured",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A 110 m stylised horse cut into the chalk of the Berkshire Downs, with an early Iron Age hillfort on the ridge above.",
+  "uncertainty": "English Heritage reports the horse as dated to the later Bronze Age or Iron Age, between 1740 and 210 BCE; the start date used here sits inside that bracket and is not a measurement. The hillfort's 700 BCE start is from memory.",
+  "sources": [
+   "nat-eh-uffington"
+  ]
+ },
+ {
+  "id": "maiden-castle",
+  "name": "Maiden Castle",
+  "lat": 50.695,
+  "lon": -2.47,
+  "country": "england",
+  "kind": "hillfort",
+  "phases": [
+   {
+    "from": -3500,
+    "to": -3001,
+    "label": "Neolithic causewayed enclosure",
+    "size": 2,
+    "kind": "monument"
+   },
+   {
+    "from": -3000,
+    "to": -601,
+    "label": "Out of use",
+    "size": 0
+   },
+   {
+    "from": -600,
+    "to": -401,
+    "label": "First hillfort, single rampart",
+    "size": 3
+   },
+   {
+    "from": -400,
+    "to": -101,
+    "label": "Enlarged multivallate hillfort, over 100 round houses",
+    "size": 5
+   },
+   {
+    "from": -100,
+    "to": 43,
+    "label": "Occupation shrinks to the eastern end",
+    "size": 2
+   },
+   {
+    "from": 44,
+    "to": 369,
+    "label": "Virtually deserted",
+    "size": 0
+   },
+   {
+    "from": 370,
+    "to": 429,
+    "label": "Romano-British temple inside the old ramparts",
+    "size": 1
+   },
+   {
+    "from": 430,
+    "to": null,
+    "label": "Deserted earthworks",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "One of the largest hillforts in Britain (Ham Hill in Somerset is larger, at 84 ha). In the middle Iron Age (about 400-120 BCE) it was the main settlement of southern Dorset; by the Roman invasion it was almost empty.",
+  "uncertainty": "The story of a Roman assault in 44 CE is now questioned. The end of the temple is not dated; 430 is nominal.",
+  "sources": [
+   "nat-eh-maiden-castle",
+   "nat-ox-hillforts-ham-hill"
+  ]
+ },
+ {
+  "id": "danebury",
+  "name": "Danebury",
+  "lat": 51.137,
+  "lon": -1.538,
+  "country": "england",
+  "kind": "hillfort",
+  "phases": [
+   {
+    "from": -550,
+    "to": -401,
+    "label": "Early hillfort",
+    "size": 3
+   },
+   {
+    "from": -400,
+    "to": -101,
+    "label": "Developed hillfort, densely occupied",
+    "size": 4
+   },
+   {
+    "from": -100,
+    "to": 42,
+    "label": "Reduced to a single farm",
+    "size": 1
+   },
+   {
+    "from": 43,
+    "to": null,
+    "label": "Earthworks",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The most thoroughly excavated hillfort in Britain, with streets of round houses and thousands of grain storage pits; perhaps 200-350 people lived inside.",
+  "uncertainty": "Population is an excavator's estimate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-danebury"
+  ]
+ },
+ {
+  "id": "cadbury-castle",
+  "name": "Cadbury Castle",
+  "lat": 51.024,
+  "lon": -2.531,
+  "country": "england",
+  "kind": "hillfort",
+  "phases": [
+   {
+    "from": -600,
+    "to": 69,
+    "label": "Iron Age hillfort",
+    "size": 3
+   },
+   {
+    "from": 70,
+    "to": 469,
+    "label": "Cleared by the Roman army; little occupation",
+    "size": 0
+   },
+   {
+    "from": 470,
+    "to": 579,
+    "label": "Refortified hilltop with a great hall",
+    "size": 3
+   },
+   {
+    "from": 580,
+    "to": 1009,
+    "label": "Abandoned",
+    "size": 0
+   },
+   {
+    "from": 1010,
+    "to": 1019,
+    "label": "Emergency burh and mint of Aethelred II",
+    "size": 2,
+    "kind": "fort"
+   },
+   {
+    "from": 1020,
+    "to": null,
+    "label": "Abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A Somerset hillfort reoccupied on a large scale in the late 5th and 6th centuries, one of the strongest pieces of evidence for post-Roman British lordship in the south-west.",
+  "uncertainty": "All dates are rounded from excavation reports recalled from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "glastonbury-lake-village",
+  "name": "Glastonbury Lake Village",
+  "lat": 51.1639,
+  "lon": -2.7265,
+  "country": "england",
+  "kind": "other",
+  "phases": [
+   {
+    "from": -250,
+    "to": -51,
+    "label": "Iron Age village on an artificial island",
+    "size": 2
+   },
+   {
+    "from": -50,
+    "to": null,
+    "label": "Abandoned to rising water",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A waterlogged Iron Age village in the Somerset Levels, exceptionally well preserved.",
+  "uncertainty": "Date range approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "hengistbury-head",
+  "name": "Hengistbury Head",
+  "lat": 50.716,
+  "lon": -1.754,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": -700,
+    "to": -101,
+    "label": "Promontory settlement behind the Double Dykes",
+    "size": 2
+   },
+   {
+    "from": -100,
+    "to": -51,
+    "label": "Cross-Channel trading port",
+    "size": 4
+   },
+   {
+    "from": -50,
+    "to": 42,
+    "label": "Trade falls away after Caesar's Gallic wars",
+    "size": 2
+   },
+   {
+    "from": 43,
+    "to": null,
+    "label": "Minor occupation",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The main known port of late Iron Age Britain before Caesar: Italian wine, glass and figs came in, and metals went out to Armorica.",
+  "uncertainty": "The peak is inferred from wine amphorae, most of which predate 50 BCE. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-hengistbury"
+  ]
+ },
+ {
+  "id": "stanwick",
+  "name": "Stanwick",
+  "lat": 54.502,
+  "lon": -1.722,
+  "country": "england",
+  "kind": "hillfort",
+  "phases": [
+   {
+    "from": 40,
+    "to": 71,
+    "label": "Vast earthwork enclosure of the Brigantes",
+    "size": 4
+   },
+   {
+    "from": 72,
+    "to": null,
+    "label": "Abandoned after the Roman conquest of the north",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Some 300 hectares of earthworks in North Yorkshire, probably the seat of the Brigantian rulers who were clients of Rome until about 69 CE.",
+  "uncertainty": "The link to Queen Cartimandua is an inference; dates are approximate. English Heritage dates the ramparts to the 1st century CE, with occupation from the middle of the century and decline after 70; the start year 40 is approximate.",
+  "sources": [
+   "nat-eh-stanwick"
+  ]
+ },
+ {
+  "id": "london",
+  "name": "London",
+  "altNames": [
+   {
+    "name": "Londinium",
+    "from": 47,
+    "to": 410
+   },
+   {
+    "name": "Lundenwic",
+    "from": 600,
+    "to": 885
+   },
+   {
+    "name": "Lundenburh",
+    "from": 886,
+    "to": 1065
+   }
+  ],
+  "lat": 51.509,
+  "lon": -0.087,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 47,
+    "to": 60,
+    "label": "Londinium founded beside a Thames bridge",
+    "size": 4,
+    "kind": "town"
+   },
+   {
+    "from": 61,
+    "to": 350,
+    "label": "Londinium, rebuilt after Boudica; chief town of the province",
+    "size": 5
+   },
+   {
+    "from": 351,
+    "to": 410,
+    "label": "Late Roman walled city, shrinking",
+    "size": 4
+   },
+   {
+    "from": 411,
+    "to": 599,
+    "label": "Walled city largely empty",
+    "size": 1
+   },
+   {
+    "from": 600,
+    "to": 885,
+    "label": "Lundenwic, a trading town on the Strand; bishopric from 604",
+    "size": 4,
+    "kind": "port"
+   },
+   {
+    "from": 886,
+    "to": 1065,
+    "label": "Lundenburh: settlement returns inside the walls",
+    "size": 5
+   },
+   {
+    "from": 1066,
+    "to": 1484,
+    "label": "Norman and medieval London, far the largest town in England",
+    "size": 5
+   },
+   {
+    "from": 1485,
+    "to": 1602,
+    "label": "Tudor London",
+    "size": 5
+   },
+   {
+    "from": 1603,
+    "to": null,
+    "label": "Jacobean London, roughly 200,000 people or more",
+    "size": 5
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Founded about 47-50 CE, burned in 60/61, the largest town of Roman Britain, then almost deserted for two centuries. From the late 9th century it grew back inside its Roman walls and by 1377 had about three times as many taxpayers as any other English town.",
+  "uncertainty": "Sizes are relative ranks, not populations. Descend into the London site for dated, sourced detail. Roman dates checked against the London Museum timeline (founded 47-50, burned 60-61, wall 200-220, end 400-410) and English Heritage (founded about 50, wall about 200). Post-Roman dates and all sizes still rest on Wikipedia and judgement.",
+  "sources": [
+   "nat-wp-historical-population",
+   "nat-londonmuseum-roman-timeline",
+   "nat-eh-london-wall"
+  ],
+  "site": "london"
+ },
+ {
+  "id": "colchester",
+  "name": "Colchester",
+  "altNames": [
+   {
+    "name": "Camulodunon",
+    "from": -20,
+    "to": 43
+   },
+   {
+    "name": "Camulodunum",
+    "from": 44,
+    "to": 410
+   }
+  ],
+  "lat": 51.889,
+  "lon": 0.898,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": -20,
+    "to": 43,
+    "label": "Camulodunon, seat of Cunobelin",
+    "size": 5,
+    "kind": "hillfort"
+   },
+   {
+    "from": 44,
+    "to": 48,
+    "label": "Legionary fortress",
+    "size": 4,
+    "kind": "fort"
+   },
+   {
+    "from": 49,
+    "to": 60,
+    "label": "Colonia Claudia Victricensis, first capital of the province",
+    "size": 5,
+    "kind": "city"
+   },
+   {
+    "from": 61,
+    "to": 275,
+    "label": "Rebuilt and walled colonia",
+    "size": 4,
+    "kind": "city"
+   },
+   {
+    "from": 276,
+    "to": 410,
+    "label": "Shrinking late Roman town",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": 916,
+    "label": "Roman walls with little urban life",
+    "size": 1
+   },
+   {
+    "from": 917,
+    "to": 1065,
+    "label": "Burh restored under Edward the Elder",
+    "size": 2
+   },
+   {
+    "from": 1066,
+    "to": null,
+    "label": "Castle on the temple podium; cloth town",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The chief centre of late Iron Age Britain, then a legionary fortress and the first Roman colonia, burned by Boudica in 60/61. It was tenth among English towns in the 1377 poll tax.",
+  "uncertainty": "Coin use ends in the early 5th century; what followed is obscure. Fortress (c. 44), colony (c. 49-50), the Boudican fire (60-1), walls built after the fire, 917 and the castle of the 1070s are from VCH Essex vol. 9. The 20 BCE start, the 275 step and the phase sizes are judgement.",
+  "sources": [
+   "nat-wp-camulodunum",
+   "nat-wp-historical-population",
+   "nat-vch-colchester-roman",
+   "nat-vch-colchester-medieval"
+  ]
+ },
+ {
+  "id": "st-albans",
+  "name": "St Albans",
+  "altNames": [
+   {
+    "name": "Verlamion",
+    "from": -20,
+    "to": 42
+   },
+   {
+    "name": "Verulamium",
+    "from": 43,
+    "to": 450
+   }
+  ],
+  "lat": 51.75,
+  "lon": -0.354,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": -20,
+    "to": 42,
+    "label": "Verlamion, a centre of the Catuvellauni",
+    "size": 4,
+    "kind": "hillfort"
+   },
+   {
+    "from": 43,
+    "to": 60,
+    "label": "Verulamium, municipium from about 50",
+    "size": 4
+   },
+   {
+    "from": 61,
+    "to": 300,
+    "label": "Rebuilt Verulamium, walled in the 3rd century",
+    "size": 4
+   },
+   {
+    "from": 301,
+    "to": 450,
+    "label": "Late Roman Verulamium",
+    "size": 3
+   },
+   {
+    "from": 451,
+    "to": 792,
+    "label": "Roman town deserted; shrine of St Alban on the hill",
+    "size": 1
+   },
+   {
+    "from": 793,
+    "to": 1539,
+    "label": "Abbey of St Alban and market town",
+    "size": 3,
+    "kind": "monastery"
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Market town; abbey dissolved 1539",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The third great town of Roman Britain by tradition, burned by Boudica in 61. The medieval abbey and town grew on the hill outside the Roman walls, around the supposed grave of Britain's first martyr.",
+  "uncertainty": "Roman occupation ended between about 400 and 450. The abbey's foundation by Offa about 793 is a later tradition. English Heritage confirms the Boudican destruction about 60 and a town wall built 265-270. Other dates, including Offa's foundation of the abbey (a later tradition), are supported only by Wikipedia.",
+  "sources": [
+   "nat-wp-verulamium",
+   "nat-eh-st-albans-wall"
+  ]
+ },
+ {
+  "id": "york",
+  "name": "York",
+  "altNames": [
+   {
+    "name": "Eboracum",
+    "from": 71,
+    "to": 410
+   },
+   {
+    "name": "Eoforwic",
+    "from": 627,
+    "to": 865
+   },
+   {
+    "name": "Jorvik",
+    "from": 866,
+    "to": 954
+   }
+  ],
+  "lat": 53.96,
+  "lon": -1.082,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 71,
+    "to": 210,
+    "label": "Eboracum, legionary fortress of the Ninth, then the Sixth Legion",
+    "size": 4,
+    "kind": "fort"
+   },
+   {
+    "from": 211,
+    "to": 410,
+    "label": "Fortress and colonia, capital of Britannia Inferior",
+    "size": 5
+   },
+   {
+    "from": 411,
+    "to": 626,
+    "label": "Fortress and town much reduced",
+    "size": 1
+   },
+   {
+    "from": 627,
+    "to": 865,
+    "label": "Eoforwic: Northumbrian bishopric (archbishopric 735) and trading settlement",
+    "size": 4
+   },
+   {
+    "from": 866,
+    "to": 954,
+    "label": "Jorvik, seat of Scandinavian kings",
+    "size": 5
+   },
+   {
+    "from": 955,
+    "to": 1400,
+    "label": "Northern capital under English earls, then Norman castles and minster",
+    "size": 5
+   },
+   {
+    "from": 1401,
+    "to": null,
+    "label": "Late medieval and Tudor York, seat of the Council of the North",
+    "size": 4
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Founded as a legionary fortress in 71. Two emperors died here and Constantine was proclaimed here in 306. It was the Viking capital of the north from 866/7 to 954 and the second town of England in 1377.",
+  "uncertainty": "The 5th and 6th centuries are almost blank. York had slipped to about fifteenth by wealth in the 1520s. 71, 627, 735, 866 and 954 are confirmed by VCH City of York, which attributes the colonia to Severus. Later rankings follow tax tables reported on Wikipedia.",
+  "sources": [
+   "nat-wp-eboracum",
+   "nat-wp-scandinavian-york",
+   "nat-wp-historical-population",
+   "nat-vch-york-pre-conquest"
+  ]
+ },
+ {
+  "id": "lincoln",
+  "name": "Lincoln",
+  "altNames": [
+   {
+    "name": "Lindum",
+    "from": 60,
+    "to": 410
+   }
+  ],
+  "lat": 53.234,
+  "lon": -0.538,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 60,
+    "to": 85,
+    "label": "Legionary fortress of the Ninth Legion",
+    "size": 3,
+    "kind": "fort"
+   },
+   {
+    "from": 86,
+    "to": 410,
+    "label": "Lindum Colonia",
+    "size": 4
+   },
+   {
+    "from": 411,
+    "to": 876,
+    "label": "Reduced; a church stands in the old forum",
+    "size": 1
+   },
+   {
+    "from": 877,
+    "to": 1071,
+    "label": "Danish borough, one of the Five Boroughs",
+    "size": 4,
+    "kind": "town"
+   },
+   {
+    "from": 1072,
+    "to": 1300,
+    "label": "Norman castle and cathedral; a leading wool town",
+    "size": 5
+   },
+   {
+    "from": 1301,
+    "to": 1400,
+    "label": "Declining cloth town",
+    "size": 4
+   },
+   {
+    "from": 1401,
+    "to": null,
+    "label": "Much decayed city",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A fortress of about 60 CE turned into a colonia for veterans, probably in 86. It revived under Danish rule and stood among the four or five largest English towns from Domesday to the 13th century.",
+  "uncertainty": "The colonia date is the favoured estimate, not a recorded one. Whether Lincoln was a 4th-century provincial capital is debated. The move of the see to Lincoln in 1072 is confirmed by English Heritage. Roman and Danish dates are supported only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-lindum",
+   "nat-wp-danelaw",
+   "nat-wp-historical-population",
+   "nat-eh-lincoln-bishops-palace"
+  ]
+ },
+ {
+  "id": "gloucester",
+  "name": "Gloucester",
+  "altNames": [
+   {
+    "name": "Glevum",
+    "from": 48,
+    "to": 410
+   }
+  ],
+  "lat": 51.865,
+  "lon": -2.246,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 48,
+    "to": 96,
+    "label": "Forts at the Severn crossing (Kingsholm)",
+    "size": 3,
+    "kind": "fort"
+   },
+   {
+    "from": 97,
+    "to": 410,
+    "label": "Colonia Nervia Glevensium",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": 678,
+    "label": "Reduced Roman town",
+    "size": 1
+   },
+   {
+    "from": 679,
+    "to": 899,
+    "label": "Minster of St Peter; later a Mercian burh",
+    "size": 2,
+    "kind": "town"
+   },
+   {
+    "from": 900,
+    "to": 1540,
+    "label": "Refounded burh of Aethelflaed; royal crown-wearing place",
+    "size": 3
+   },
+   {
+    "from": 1541,
+    "to": null,
+    "label": "Cathedral city and river port",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A colonia founded under Nerva at the lowest crossing of the Severn. It was eighth by Russell's Domesday estimate and seventeenth in 1377.",
+  "uncertainty": "The Anglo-Saxon Chronicle's capture of Gloucester in 577 is a late and doubtful record. The 679 and c. 900 dates are from memory. The minster of about 679-81, Aethelflaed's refoundation (fortified by 902-14, St Oswald's by 909) and the see of 1541 are from VCH Gloucester. Roman dates are supported only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-glevum",
+   "nat-wp-historical-population",
+   "nat-vch-gloucester-intro",
+   "nat-vch-gloucester-saxon",
+   "nat-vch-gloucester-abbey"
+  ]
+ },
+ {
+  "id": "chester",
+  "name": "Chester",
+  "altNames": [
+   {
+    "name": "Deva",
+    "from": 74,
+    "to": 410
+   },
+   {
+    "name": "Legaceaster",
+    "from": 907,
+    "to": 1100
+   }
+  ],
+  "lat": 53.19,
+  "lon": -2.891,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 74,
+    "to": 410,
+    "label": "Deva, legionary fortress: Second Legion Adiutrix from about 74, Twentieth Legion from about 90",
+    "size": 4,
+    "kind": "fort"
+   },
+   {
+    "from": 411,
+    "to": 906,
+    "label": "Fortress ruins",
+    "size": 1
+   },
+   {
+    "from": 907,
+    "to": 1070,
+    "label": "Burh restored by Aethelflaed; port for Ireland",
+    "size": 3,
+    "kind": "town"
+   },
+   {
+    "from": 1071,
+    "to": 1540,
+    "label": "County palatine capital and base for the conquest of north Wales",
+    "size": 3
+   },
+   {
+    "from": 1541,
+    "to": null,
+    "label": "Cathedral city; the Dee is silting",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Begun in the mid 70s as the largest legionary fortress in Britain and held until the late 4th or early 5th century. Refortified in 907, it became the seat of a Norman marcher earldom.",
+  "uncertainty": "The date of the legion's departure is not known. 74, about 90 and 907 are from VCH Cheshire; 1071 for the earldom is from memory.",
+  "sources": [
+   "nat-wp-deva",
+   "nat-vch-chester-roman",
+   "nat-vch-chester-early-medieval",
+   "nat-eh-chester-amphitheatre"
+  ]
+ },
+ {
+  "id": "wroxeter",
+  "name": "Wroxeter",
+  "altNames": [
+   {
+    "name": "Viroconium",
+    "from": 47,
+    "to": 450
+   }
+  ],
+  "lat": 52.674,
+  "lon": -2.644,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 47,
+    "to": 89,
+    "label": "Fort, then legionary fortress",
+    "size": 3,
+    "kind": "fort"
+   },
+   {
+    "from": 90,
+    "to": 300,
+    "label": "Viroconium Cornoviorum, civitas capital",
+    "size": 4
+   },
+   {
+    "from": 301,
+    "to": 450,
+    "label": "Forum partly abandoned, baths decaying",
+    "size": 3
+   },
+   {
+    "from": 451,
+    "to": null,
+    "label": "City centre abandoned; small settlement by the ford",
+    "size": 0,
+    "note": "English Heritage: the city centre had been abandoned by the mid 5th century, but a community continued near the ford. 451 is a display boundary for the centre, not the end of Wroxeter."
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "Founded as a military base about 47 and refounded as a city in the 90s. At 78 hectares it was one of the largest cities of Roman Britain. Most of the Roman city was never built over, but a small community stayed on by the river ford, where the village and St Andrew's church now stand.",
+  "uncertainty": "The centre was abandoned by the mid 5th century; claims of grand timber rebuilding into the 6th or 7th century are now doubted.",
+  "sources": [
+   "nat-eh-wroxeter"
+  ]
+ },
+ {
+  "id": "silchester",
+  "name": "Silchester",
+  "altNames": [
+   {
+    "name": "Calleva",
+    "from": -20,
+    "to": 600
+   }
+  ],
+  "lat": 51.357,
+  "lon": -1.082,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": -20,
+    "to": 42,
+    "label": "Calleva, oppidum of the Atrebates",
+    "size": 4,
+    "kind": "hillfort"
+   },
+   {
+    "from": 43,
+    "to": 410,
+    "label": "Calleva Atrebatum, civitas capital, walled about 200",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": 600,
+    "label": "Town dwindling",
+    "size": 2
+   },
+   {
+    "from": 601,
+    "to": null,
+    "label": "Abandoned; walls stand around open fields",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "An Iron Age centre founded about 20-10 BCE which became a Roman town and, unusually, was never reoccupied.",
+  "uncertainty": "English Heritage puts the abandonment 'sometime between AD 550 and 650'; 600 is the midpoint.",
+  "sources": [
+   "nat-eh-silchester"
+  ]
+ },
+ {
+  "id": "richborough",
+  "name": "Richborough",
+  "altNames": [
+   {
+    "name": "Rutupiae",
+    "from": 43,
+    "to": 410
+   }
+  ],
+  "lat": 51.293,
+  "lon": 1.332,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 43,
+    "to": 84,
+    "label": "Invasion bridgehead and supply base",
+    "size": 3,
+    "kind": "fort"
+   },
+   {
+    "from": 85,
+    "to": 250,
+    "label": "Rutupiae, port town with a 25 m monumental arch",
+    "size": 3
+   },
+   {
+    "from": 251,
+    "to": 410,
+    "label": "Small fort about 250, then stone Saxon Shore fort (275-290)",
+    "size": 2,
+    "kind": "fort",
+    "note": "English Heritage: the town centre was cleared for a small fort around 250, and the surviving stone fort was built some time in 275-290; it did not stand from 251."
+   },
+   {
+    "from": 411,
+    "to": null,
+    "label": "Deserted",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "Widely believed to be the landing place of 43 CE and long the formal gateway to Britain. The town was cleared after 250 for a fort, rebuilt in stone in 275-290.",
+  "uncertainty": "The arch is dated only to between 85 and 150. Coins show activity into the early 5th century.",
+  "sources": [
+   "nat-eh-richborough"
+  ]
+ },
+ {
+  "id": "canterbury",
+  "name": "Canterbury",
+  "altNames": [
+   {
+    "name": "Durovernum",
+    "from": 70,
+    "to": 410
+   },
+   {
+    "name": "Cantwaraburh",
+    "from": 597,
+    "to": 1100
+   }
+  ],
+  "lat": 51.28,
+  "lon": 1.08,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 70,
+    "to": 410,
+    "label": "Durovernum Cantiacorum, civitas capital",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": 596,
+    "label": "Thinly occupied",
+    "size": 1
+   },
+   {
+    "from": 597,
+    "to": 1065,
+    "label": "Seat of the Kentish kings and of Augustine's mission; archbishopric",
+    "size": 4
+   },
+   {
+    "from": 1066,
+    "to": 1538,
+    "label": "Cathedral city and, after 1170, the chief pilgrim shrine in England",
+    "size": 4
+   },
+   {
+    "from": 1539,
+    "to": null,
+    "label": "Cathedral city; Becket's shrine destroyed, St Augustine's partly made a royal palace",
+    "size": 3,
+    "note": "St Augustine's Abbey was dissolved in 1538; from 1539 the abbot's lodgings were converted into a royal palace and the church was ordered demolished in 1541 (English Heritage)."
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Roman capital of Kent, then from 597 the centre of the English church. It was fourteenth in the 1377 poll tax and tenth by wealth in the 1520s.",
+  "uncertainty": "How much life continued inside the walls between about 420 and 597 is disputed. St Augustine's Abbey was dissolved in 1538 (from memory). 597-8 (English Heritage, St Augustine's), Becket's murder in 1170 and the end of the priory in 1540 (VCH Kent) are confirmed. Roman dates are supported only by Wikipedia.",
+  "sources": [
+   "nat-wp-kent",
+   "nat-wp-historical-population",
+   "nat-eh-st-augustines",
+   "nat-vch-canterbury-christ-church"
+  ]
+ },
+ {
+  "id": "winchester",
+  "name": "Winchester",
+  "altNames": [
+   {
+    "name": "Venta Belgarum",
+    "from": 70,
+    "to": 450
+   },
+   {
+    "name": "Wintanceaster",
+    "from": 648,
+    "to": 1100
+   }
+  ],
+  "lat": 51.063,
+  "lon": -1.317,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": -150,
+    "to": 69,
+    "label": "Oram's Arbour enclosure",
+    "size": 2,
+    "kind": "hillfort"
+   },
+   {
+    "from": 70,
+    "to": 300,
+    "label": "Venta Belgarum, civitas capital",
+    "size": 3
+   },
+   {
+    "from": 301,
+    "to": 450,
+    "label": "Late Roman town in decline",
+    "size": 2
+   },
+   {
+    "from": 451,
+    "to": 647,
+    "label": "Largely deserted",
+    "size": 1
+   },
+   {
+    "from": 648,
+    "to": 879,
+    "label": "Old Minster; West Saxon see from the 660s",
+    "size": 3
+   },
+   {
+    "from": 880,
+    "to": 1150,
+    "label": "Replanned burh and royal city of Wessex and England",
+    "size": 5
+   },
+   {
+    "from": 1151,
+    "to": 1300,
+    "label": "Royal and episcopal city, losing ground to London",
+    "size": 4
+   },
+   {
+    "from": 1301,
+    "to": null,
+    "label": "Declining cloth town",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Roman Venta, refounded by Alfred with a new street grid and one of the two largest assessments in the Burghal Hidage (2,400 hides, the same as Wallingford). It was second only to London at Domesday but thirtieth in the 1377 poll tax.",
+  "uncertainty": "Domesday omits Winchester, so its 11th-century size is an estimate (about 6,000). The 880 date for the replanning is approximate. VCH Hampshire gives the Old Minster's foundation as 643 (Anglo-Saxon Chronicle) or 639 (Winchester Annals); 648 here follows another Chronicle reading. Other dates are supported only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-winchester",
+   "nat-wp-burghal-hidage",
+   "nat-wp-historical-population",
+   "nat-vch-winchester-st-swithun",
+   "nat-ads-burghal-hidage"
+  ]
+ },
+ {
+  "id": "cirencester",
+  "name": "Cirencester",
+  "altNames": [
+   {
+    "name": "Corinium",
+    "from": 75,
+    "to": 577
+   }
+  ],
+  "lat": 51.719,
+  "lon": -1.968,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 75,
+    "to": 410,
+    "label": "Corinium Dobunnorum, second largest town of Roman Britain by area",
+    "size": 4,
+    "kind": "city"
+   },
+   {
+    "from": 411,
+    "to": 1116,
+    "label": "Town shrinks to almost nothing",
+    "size": 1
+   },
+   {
+    "from": 1117,
+    "to": 1539,
+    "label": "Abbey and wool town",
+    "size": 2
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Wool town; abbey dissolved 1539",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Civitas capital of the Dobunni and, on the usual reconstruction, capital of the 4th-century province of Britannia Prima.",
+  "uncertainty": "Its role as a provincial capital is an inference from one inscription. English Heritage dates the amphitheatre to the early 2nd century and notes the Chronicle's capture of 577. Other dates are supported only by Wikipedia.",
+  "sources": [
+   "nat-wp-roman-britain",
+   "nat-eh-cirencester-amphitheatre"
+  ]
+ },
+ {
+  "id": "bath",
+  "name": "Bath",
+  "altNames": [
+   {
+    "name": "Aquae Sulis",
+    "from": 60,
+    "to": 500
+   }
+  ],
+  "lat": 51.381,
+  "lon": -2.359,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 60,
+    "to": 400,
+    "label": "Aquae Sulis: temple of Sulis Minerva and baths",
+    "size": 3
+   },
+   {
+    "from": 401,
+    "to": 674,
+    "label": "Baths silting and collapsing",
+    "size": 1
+   },
+   {
+    "from": 675,
+    "to": 1087,
+    "label": "Minster and burh",
+    "size": 2
+   },
+   {
+    "from": 1088,
+    "to": 1539,
+    "label": "Cathedral priory and small cloth town",
+    "size": 2
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Small spa town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A sanctuary and bathing complex around the hot spring, not an ordinary town. The Roman Baths' own timeline has the buildings collapsing by about 500 and a Saxon church founded in 675.",
+  "uncertainty": "The temple is usually dated to the 60s-70s; the museum timeline only says the Romans came to Bath about 50. VCH Somerset dates the nunnery charter to 676, a year later than the museum timeline, and puts the bishop's move to Bath in 1088.",
+  "sources": [
+   "nat-romanbaths-timeline",
+   "nat-wp-burghal-hidage",
+   "nat-vch-bath-priory"
+  ]
+ },
+ {
+  "id": "exeter",
+  "name": "Exeter",
+  "altNames": [
+   {
+    "name": "Isca Dumnoniorum",
+    "from": 55,
+    "to": 410
+   }
+  ],
+  "lat": 50.722,
+  "lon": -3.53,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 55,
+    "to": 74,
+    "label": "Legionary fortress",
+    "size": 3,
+    "kind": "fort"
+   },
+   {
+    "from": 75,
+    "to": 410,
+    "label": "Isca Dumnoniorum, civitas capital",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": 879,
+    "label": "Little urban life",
+    "size": 1
+   },
+   {
+    "from": 880,
+    "to": 1049,
+    "label": "Alfredian burh and mint",
+    "size": 2
+   },
+   {
+    "from": 1050,
+    "to": 1499,
+    "label": "Cathedral city and regional capital",
+    "size": 3
+   },
+   {
+    "from": 1500,
+    "to": null,
+    "label": "Cloth port, about sixth richest town in England",
+    "size": 4
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The western end of the Fosse Way, held successively as fortress, Roman town, burh and cathedral city. It ranked 24th in 1377 and 6th in the 1520s.",
+  "uncertainty": "Fortress and town dates are rounded from memory. Rankings are from tax records, which measure taxpayers or wealth. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-burghal-hidage",
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "leicester",
+  "name": "Leicester",
+  "altNames": [
+   {
+    "name": "Ratae",
+    "from": 50,
+    "to": 410
+   }
+  ],
+  "lat": 52.635,
+  "lon": -1.139,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 50,
+    "to": 410,
+    "label": "Ratae Corieltauvorum, civitas capital",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": 876,
+    "label": "Reduced; Mercian bishopric from about 680",
+    "size": 1
+   },
+   {
+    "from": 877,
+    "to": 917,
+    "label": "Danish borough, one of the Five Boroughs",
+    "size": 3
+   },
+   {
+    "from": 918,
+    "to": null,
+    "label": "English shire town",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Civitas capital of the Corieltauvi and later one of the Five Boroughs of the Danelaw. It ranked eighteenth in 1377.",
+  "uncertainty": "Roman dates are approximate. English Heritage: occupied soon after 43, street grid and civitas capital by the 2nd century, baths about 160, peak in the late 3rd century; the year 50 is approximate. Danish and later dates are supported only by Wikipedia.",
+  "sources": [
+   "nat-wp-danelaw",
+   "nat-wp-historical-population",
+   "nat-eh-jewry-wall"
+  ]
+ },
+ {
+  "id": "chichester",
+  "name": "Chichester",
+  "altNames": [
+   {
+    "name": "Noviomagus",
+    "from": 44,
+    "to": 410
+   }
+  ],
+  "lat": 50.836,
+  "lon": -0.78,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 44,
+    "to": 410,
+    "label": "Noviomagus Reginorum, civitas capital",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": 877,
+    "label": "Little urban life",
+    "size": 1
+   },
+   {
+    "from": 878,
+    "to": 1074,
+    "label": "Alfredian burh",
+    "size": 2
+   },
+   {
+    "from": 1075,
+    "to": null,
+    "label": "Cathedral city",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Roman capital of the client kingdom of Togidubnus and its successor civitas, refortified as a burh and made a bishop's seat in 1075.",
+  "uncertainty": "VCH Sussex has Chichester a burh of some importance by 894-5 and confirms the move of the see from Selsey. Roman dates are supported only by Wikipedia.",
+  "sources": [
+   "nat-wp-burghal-hidage",
+   "nat-vch-chichester"
+  ]
+ },
+ {
+  "id": "fishbourne",
+  "name": "Fishbourne Roman Palace",
+  "lat": 50.837,
+  "lon": -0.81,
+  "country": "england",
+  "kind": "palace",
+  "phases": [
+   {
+    "from": 75,
+    "to": 269,
+    "label": "Palace of four wings around a formal garden",
+    "size": 3
+   },
+   {
+    "from": 270,
+    "to": null,
+    "label": "Burned and abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The largest Roman residence known north of the Alps, commonly linked to the client king Togidubnus.",
+  "uncertainty": "The owner is not attested. Dates rounded. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "dorchester",
+  "name": "Dorchester",
+  "altNames": [
+   {
+    "name": "Durnovaria",
+    "from": 70,
+    "to": 410
+   }
+  ],
+  "lat": 50.715,
+  "lon": -2.437,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 70,
+    "to": 410,
+    "label": "Durnovaria, civitas capital of the Durotriges",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": 899,
+    "label": "Little urban life",
+    "size": 1
+   },
+   {
+    "from": 900,
+    "to": null,
+    "label": "Shire town of Dorset",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Founded about 70 CE, after nearby Maiden Castle had emptied.",
+  "uncertainty": "Post-Roman history is poorly known; the 900 date is nominal.",
+  "sources": [
+   "nat-eh-maiden-castle"
+  ]
+ },
+ {
+  "id": "caistor-st-edmund",
+  "name": "Caistor St Edmund",
+  "altNames": [
+   {
+    "name": "Venta Icenorum",
+    "from": 70,
+    "to": 450
+   }
+  ],
+  "lat": 52.583,
+  "lon": 1.292,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 70,
+    "to": 450,
+    "label": "Venta Icenorum, civitas capital of the Iceni",
+    "size": 3
+   },
+   {
+    "from": 451,
+    "to": null,
+    "label": "Abandoned; Norwich later grows 5 km to the north",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A small Roman town laid out in Iceni territory after the Boudican revolt and never built over.",
+  "uncertainty": "End date uncertain; some activity continued into the Anglo-Saxon period. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "aldborough",
+  "name": "Aldborough",
+  "altNames": [
+   {
+    "name": "Isurium",
+    "from": 70,
+    "to": 410
+   }
+  ],
+  "lat": 54.092,
+  "lon": -1.382,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 70,
+    "to": 119,
+    "label": "Roman trading settlement on the road north",
+    "size": 2
+   },
+   {
+    "from": 120,
+    "to": 410,
+    "label": "Isurium Brigantum, planned town and civitas capital of the Brigantes",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": null,
+    "label": "Village within the Roman walls",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The northernmost civitas capital of Roman Britain: a trading settlement from about 70, laid out as a planned town about 120 and walled in stone in the late 2nd century.",
+  "uncertainty": "Foundation date approximate. Foundation and planning dates are English Heritage's; the end of town life is not dated.",
+  "sources": [
+   "nat-eh-aldborough"
+  ]
+ },
+ {
+  "id": "carlisle",
+  "name": "Carlisle",
+  "altNames": [
+   {
+    "name": "Luguvalium",
+    "from": 72,
+    "to": 410
+   }
+  ],
+  "lat": 54.895,
+  "lon": -2.937,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 72,
+    "to": 410,
+    "label": "Luguvalium: fort, then town and civitas capital of the Carvetii",
+    "size": 3
+   },
+   {
+    "from": 411,
+    "to": 875,
+    "label": "Walled town in British Rheged, then Northumbria",
+    "size": 1
+   },
+   {
+    "from": 876,
+    "to": 1091,
+    "label": "Largely deserted",
+    "size": 0
+   },
+   {
+    "from": 1092,
+    "to": null,
+    "label": "Castle and town planted by William II; bishopric from 1133",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The Roman town at the west end of the frontier. It was taken into the English kingdom only in 1092.",
+  "uncertainty": "The first fort is tree-ring dated to 72/3 (from memory). The centuries between 876 and 1092 are obscure. English Heritage gives the first fort as AD 72 and William II's castle as 1092. The 876 desertion and the 1133 bishopric are from memory.",
+  "sources": [
+   "nat-eh-carlisle-castle"
+  ]
+ },
+ {
+  "id": "brough-on-humber",
+  "name": "Brough-on-Humber",
+  "altNames": [
+   {
+    "name": "Petuaria",
+    "from": 70,
+    "to": 370
+   }
+  ],
+  "lat": 53.728,
+  "lon": -0.576,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 70,
+    "to": 369,
+    "label": "Petuaria: fort, then small town at the Humber ferry",
+    "size": 2
+   },
+   {
+    "from": 370,
+    "to": null,
+    "label": "Abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "low",
+  "summary": "Usually taken to be the civitas centre of the Parisi, on the strength of one theatre inscription.",
+  "uncertainty": "Status and dates are uncertain. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "water-newton",
+  "name": "Water Newton",
+  "altNames": [
+   {
+    "name": "Durobrivae",
+    "from": 100,
+    "to": 430
+   }
+  ],
+  "lat": 52.5599,
+  "lon": -0.3512,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 100,
+    "to": 429,
+    "label": "Durobrivae, pottery-making town on Ermine Street",
+    "size": 3
+   },
+   {
+    "from": 430,
+    "to": null,
+    "label": "Abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A walled small town at the centre of the Nene Valley pottery industry; the earliest Christian silver plate from the Roman empire was found here.",
+  "uncertainty": "Dates approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "catterick",
+  "name": "Catterick",
+  "altNames": [
+   {
+    "name": "Cataractonium",
+    "from": 80,
+    "to": 410
+   }
+  ],
+  "lat": 54.3842,
+  "lon": -1.6497,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 80,
+    "to": 410,
+    "label": "Cataractonium, fort and roadside town on Dere Street",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": 799,
+    "label": "Northumbrian royal vill nearby",
+    "size": 1
+   },
+   {
+    "from": 800,
+    "to": null,
+    "label": "Village",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A Roman fort and town at the Swale crossing; Bede names it as a place where Paulinus baptised.",
+  "uncertainty": "Dates approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "corbridge",
+  "name": "Corbridge",
+  "altNames": [
+   {
+    "name": "Coria",
+    "from": 85,
+    "to": 410
+   }
+  ],
+  "lat": 54.978,
+  "lon": -2.03,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 85,
+    "to": 160,
+    "label": "Succession of forts at the Tyne crossing",
+    "size": 2
+   },
+   {
+    "from": 161,
+    "to": 410,
+    "label": "Coria, garrison town and supply base behind the Wall",
+    "size": 3,
+    "kind": "town"
+   },
+   {
+    "from": 411,
+    "to": null,
+    "label": "Deserted as Roman administration collapsed (early 5th century)",
+    "size": 0,
+    "note": "English Heritage: the town seems to have been rapidly abandoned when Roman administration collapsed; 411 is a display boundary, not a dated desertion."
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The most northerly town of the Roman empire, where Dere Street crossed the Tyne.",
+  "uncertainty": "Dates rounded. Fort and town dates are English Heritage's (first fort on this site about 86, legionary base and town from the 160s).",
+  "sources": [
+   "nat-eh-corbridge"
+  ]
+ },
+ {
+  "id": "vindolanda",
+  "name": "Vindolanda",
+  "lat": 54.991,
+  "lon": -2.361,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 85,
+    "to": 410,
+    "label": "Sequence of timber, then stone forts on the Stanegate",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": 849,
+    "label": "Post-Roman occupation inside the fort",
+    "size": 1
+   },
+   {
+    "from": 850,
+    "to": null,
+    "label": "Abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A fort built before Hadrian's Wall and rebuilt nine times. Its ink writing tablets, of about 100 CE, are the oldest surviving handwritten documents in Britain.",
+  "uncertainty": "The Vindolanda Trust says only that the first fort predates the Wall and that the site was finally abandoned in the 9th century; 85 is the usual estimate.",
+  "sources": [
+   "nat-vindolanda"
+  ]
+ },
+ {
+  "id": "housesteads",
+  "name": "Housesteads",
+  "altNames": [
+   {
+    "name": "Vercovicium",
+    "from": 124,
+    "to": 410
+   }
+  ],
+  "lat": 55.013,
+  "lon": -2.331,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 124,
+    "to": 410,
+    "label": "Vercovicium, infantry fort on Hadrian's Wall",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": null,
+    "label": "Abandoned (date uncertain)",
+    "size": 0,
+    "note": "English Heritage: garrisoned to the end of the 4th century, and it cannot be sure how long the garrison stayed into the early 5th; 411 is a display boundary."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Built within a decade of 122 for an 800-strong infantry regiment, and held to the end of the 4th century.",
+  "uncertainty": "The garrison may have stayed into the early 5th century; the end date is nominal.",
+  "sources": [
+   "nat-eh-housesteads"
+  ]
+ },
+ {
+  "id": "chesters",
+  "name": "Chesters",
+  "altNames": [
+   {
+    "name": "Cilurnum",
+    "from": 124,
+    "to": 410
+   }
+  ],
+  "lat": 55.026,
+  "lon": -2.139,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 124,
+    "to": 410,
+    "label": "Cilurnum, cavalry fort where the Wall crosses the North Tyne",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": null,
+    "label": "Abandoned (after the early 5th century; date uncertain)",
+    "size": 0,
+    "note": "English Heritage finds no recognisable evidence of occupation after the early 5th century; 411 is a display boundary, not a dated departure."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Built about 124 for a 500-strong cavalry regiment and occupied until the Roman army left Britain.",
+  "sources": [
+   "nat-eh-chesters"
+  ]
+ },
+ {
+  "id": "birdoswald",
+  "name": "Birdoswald",
+  "altNames": [
+   {
+    "name": "Banna",
+    "from": 125,
+    "to": 410
+   }
+  ],
+  "lat": 54.99,
+  "lon": -2.602,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 125,
+    "to": 410,
+    "label": "Banna, Wall fort above the Irthing gorge",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": 519,
+    "label": "Timber halls built over the granaries",
+    "size": 1,
+    "note": "English Heritage: occupation continued without a break from the late Roman period, with successive timber halls, probably until the early 6th century. 411 and 519 are display boundaries, not dated construction or abandonment."
+   },
+   {
+    "from": 520,
+    "to": null,
+    "label": "Abandoned (date uncertain)",
+    "size": 0,
+    "note": "520 is a display boundary; English Heritage puts the end of continuous occupation only in the early 6th century."
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A Wall fort where large timber halls show a community staying on under local leaders after Roman pay stopped.",
+  "uncertainty": "The post-Roman halls are dated only loosely. English Heritage: the site was cleared for the Wall in 122 and the fort finished before 138. The post-Roman hall dates are from memory.",
+  "sources": [
+   "nat-eh-birdoswald"
+  ]
+ },
+ {
+  "id": "south-shields",
+  "name": "South Shields",
+  "altNames": [
+   {
+    "name": "Arbeia",
+    "from": 160,
+    "to": 410
+   }
+  ],
+  "lat": 55.004,
+  "lon": -1.431,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 160,
+    "to": 207,
+    "label": "Arbeia, fort at the mouth of the Tyne",
+    "size": 2
+   },
+   {
+    "from": 208,
+    "to": 299,
+    "label": "Supply base with over twenty granaries",
+    "size": 3
+   },
+   {
+    "from": 300,
+    "to": 410,
+    "label": "Late Roman fort",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": null,
+    "label": "Abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The sea port of Hadrian's Wall, turned into a granary depot for the Severan campaigns in Scotland.",
+  "uncertainty": "Dates rounded. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "dover",
+  "name": "Dover",
+  "altNames": [
+   {
+    "name": "Dubris",
+    "from": 117,
+    "to": 410
+   }
+  ],
+  "lat": 51.129,
+  "lon": 1.323,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 113,
+    "to": 215,
+    "label": "Dubris, base of the Classis Britannica, with twin lighthouses",
+    "size": 3,
+    "note": "English Heritage: building of the fleet fort began about seventy years after 43, stopped, resumed about 130 and was completed; the fort was demolished about 215. 113 and 215 are approximate."
+   },
+   {
+    "from": 216,
+    "to": 269,
+    "label": "Fleet fort demolished; harbour and lighthouses",
+    "size": 1,
+    "note": "Between the demolition of the fleet fort (about 215) and the new fort (about 270)."
+   },
+   {
+    "from": 270,
+    "to": 410,
+    "label": "Saxon Shore fort",
+    "size": 2,
+    "kind": "fort",
+    "note": "English Heritage: a new fort was built about 270."
+   },
+   {
+    "from": 411,
+    "to": 899,
+    "label": "Small harbour settlement",
+    "size": 1
+   },
+   {
+    "from": 900,
+    "to": 1065,
+    "label": "Burh, port and minster of St Mary in Castro",
+    "size": 2
+   },
+   {
+    "from": 1066,
+    "to": null,
+    "label": "Royal castle and head port of the Cinque Ports",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The shortest crossing to Gaul. The Roman lighthouse of about 130 still stands inside the castle, whose great tower Henry II built in 1179-89; the castle held out against a French siege in 1216-17.",
+  "uncertainty": "Fleet-fort and shore-fort dates are English Heritage's approximate ones (begun about 113, completed after about 130, demolished about 215; new fort about 270). Domesday suggests about 2,000 people.",
+  "sources": [
+   "nat-eh-dover",
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "portchester",
+  "name": "Portchester",
+  "lat": 50.837,
+  "lon": -1.114,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 285,
+    "to": 410,
+    "label": "Portus Adurni(?), Saxon Shore fort",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": 903,
+    "label": "Occupied enclosure",
+    "size": 1
+   },
+   {
+    "from": 904,
+    "to": 1099,
+    "label": "Burh",
+    "size": 1
+   },
+   {
+    "from": 1100,
+    "to": null,
+    "label": "Royal castle and embarkation point for France",
+    "size": 2,
+    "kind": "castle"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "The best preserved Roman fort north of the Alps, reused as a burh and a medieval castle.",
+  "uncertainty": "The Latin name is an identification, not a certainty. English Heritage: built probably between 285 and 290 (coins date it after about 268), occupied through the 5th century, given to the king in 904, castle built in one corner after the Conquest. The year 1100 for the castle is approximate.",
+  "sources": [
+   "nat-wp-burghal-hidage",
+   "nat-eh-portchester"
+  ]
+ },
+ {
+  "id": "pevensey",
+  "name": "Pevensey",
+  "altNames": [
+   {
+    "name": "Anderida",
+    "from": 290,
+    "to": 471
+   }
+  ],
+  "lat": 50.819,
+  "lon": 0.334,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 290,
+    "to": 410,
+    "label": "Anderida, Saxon Shore fort",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": 471,
+    "label": "British-held fort",
+    "size": 1
+   },
+   {
+    "from": 472,
+    "to": 571,
+    "label": "Deserted walls after the siege",
+    "size": 0,
+    "note": "English Heritage: abandoned for around a century after the siege. The siege year itself is uncertain (471 or 491), and 571 is a display boundary."
+   },
+   {
+    "from": 572,
+    "to": 1065,
+    "label": "Reoccupied; possibly a high-status Saxon site",
+    "size": 1,
+    "note": "English Heritage: reoccupied after about a century; finds of glass suggest a high-status or royal site before 1066. The start year is a display boundary."
+   },
+   {
+    "from": 1066,
+    "to": 1499,
+    "label": "William's landing place; Norman castle inside the Roman walls",
+    "size": 2,
+    "kind": "castle"
+   },
+   {
+    "from": 1500,
+    "to": null,
+    "label": "Decaying castle on a silted haven",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Built about 290 (tree-ring date). William of Normandy landed here on 28 September 1066 and a medieval castle grew within the Roman circuit.",
+  "uncertainty": "English Heritage gives 471 for the Saxon storming recorded in the Anglo-Saxon Chronicle; the Chronicle's own year is 491 and neither is reliable.",
+  "sources": [
+   "nat-eh-pevensey"
+  ]
+ },
+ {
+  "id": "burgh-castle",
+  "name": "Burgh Castle",
+  "altNames": [
+   {
+    "name": "Gariannonum",
+    "from": 280,
+    "to": 410
+   }
+  ],
+  "lat": 52.583,
+  "lon": 1.652,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 280,
+    "to": 410,
+    "label": "Saxon Shore fort on the Great Estuary, possibly Gariannonum",
+    "size": 2,
+    "note": "English Heritage says Burgh Castle and Caister probably worked together and one or both were the Roman Gariannonum."
+   },
+   {
+    "from": 411,
+    "to": null,
+    "label": "Deserted; possible 7th-century monastery",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A shore fort overlooking the wide estuary that then covered the lower Yare and Waveney.",
+  "uncertainty": "Date approximate. English Heritage: built in the late 3rd century; Bede's monastery of St Fursa (about 630) may have been here.",
+  "sources": [
+   "nat-eh-burgh-castle"
+  ]
+ },
+ {
+  "id": "reculver",
+  "name": "Reculver",
+  "altNames": [
+   {
+    "name": "Regulbium",
+    "from": 200,
+    "to": 410
+   }
+  ],
+  "lat": 51.379,
+  "lon": 1.2,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 200,
+    "to": 410,
+    "label": "Regulbium, fort at the north mouth of the Wantsum",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": 668,
+    "label": "Deserted",
+    "size": 0
+   },
+   {
+    "from": 669,
+    "to": 949,
+    "label": "Minster inside the fort",
+    "size": 2,
+    "kind": "monastery"
+   },
+   {
+    "from": 950,
+    "to": null,
+    "label": "Parish church; the sea is eating the fort",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "An early Saxon Shore fort guarding the channel that then made Thanet an island; a Kentish minster was founded in it in 669.",
+  "uncertainty": "Dates from memory. Dates are English Heritage's: fort of the early 3rd century, monastery founded 669, no longer monastic by the 10th century.",
+  "sources": [
+   "nat-eh-reculver"
+  ]
+ },
+ {
+  "id": "rochester",
+  "name": "Rochester",
+  "altNames": [
+   {
+    "name": "Durobrivae",
+    "from": 100,
+    "to": 410
+   },
+   {
+    "name": "Hrofesceaster",
+    "from": 604,
+    "to": 1100
+   }
+  ],
+  "lat": 51.389,
+  "lon": 0.503,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 100,
+    "to": 410,
+    "label": "Durobrivae, walled town at the Medway bridge",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": 603,
+    "label": "Little urban life",
+    "size": 1
+   },
+   {
+    "from": 604,
+    "to": 1079,
+    "label": "Second English bishopric",
+    "size": 2
+   },
+   {
+    "from": 1080,
+    "to": null,
+    "label": "Gundulf's cathedral priory (monks from 1080); stone keep added later",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Where Watling Street crossed the Medway. England's second-oldest see was founded here in 604.",
+  "uncertainty": "604 and 1080 are from VCH Kent. Roman dates are from memory, as is the keep (about 1127).",
+  "sources": [
+   "nat-vch-rochester-priory"
+  ]
+ },
+ {
+  "id": "manchester",
+  "name": "Manchester",
+  "altNames": [
+   {
+    "name": "Mamucium",
+    "from": 79,
+    "to": 410
+   }
+  ],
+  "lat": 53.475,
+  "lon": -2.25,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 79,
+    "to": 410,
+    "label": "Mamucium, fort on the Chester-York road",
+    "size": 2,
+    "kind": "fort"
+   },
+   {
+    "from": 411,
+    "to": 918,
+    "label": "Deserted",
+    "size": 0
+   },
+   {
+    "from": 919,
+    "to": 1300,
+    "label": "Burh repaired by Edward the Elder; a village",
+    "size": 1
+   },
+   {
+    "from": 1301,
+    "to": 1539,
+    "label": "Market town with a collegiate church (1421)",
+    "size": 1
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Growing cloth town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A Roman fort, then for centuries a minor place. It is included to show how small the later industrial cities still were in 1625.",
+  "uncertainty": "All dates approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "lancaster",
+  "name": "Lancaster",
+  "lat": 54.05,
+  "lon": -2.803,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 80,
+    "to": 410,
+    "label": "Fort above the Lune, rebuilt as a coastal fortress about 340",
+    "size": 2,
+    "kind": "fort"
+   },
+   {
+    "from": 411,
+    "to": 1089,
+    "label": "Deserted",
+    "size": 0
+   },
+   {
+    "from": 1090,
+    "to": null,
+    "label": "Castle, priory and county town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A Roman fort site that became the castle and shire town of a county palatine.",
+  "uncertainty": "Dates approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "charterhouse",
+  "name": "Charterhouse-on-Mendip",
+  "lat": 51.3,
+  "lon": -2.716,
+  "country": "england",
+  "kind": "mine",
+  "phases": [
+   {
+    "from": 49,
+    "to": 399,
+    "label": "Imperial lead and silver mines",
+    "size": 2
+   },
+   {
+    "from": 400,
+    "to": 1199,
+    "label": "Mining lapses",
+    "size": 0
+   },
+   {
+    "from": 1200,
+    "to": null,
+    "label": "Mendip lead mining under local custom",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Lead was being mined on Mendip under army control within six years of the invasion: stamped ingots are dated to 49 CE.",
+  "uncertainty": "End of Roman working and the restart of medieval mining are approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "wirksworth",
+  "name": "Wirksworth",
+  "lat": 53.082,
+  "lon": -1.574,
+  "country": "england",
+  "kind": "mine",
+  "phases": [
+   {
+    "from": 100,
+    "to": 410,
+    "label": "Lead field of Lutudarum",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": 699,
+    "label": "Lead working at a reduced scale",
+    "size": 1
+   },
+   {
+    "from": 700,
+    "to": null,
+    "label": "Lead mines of Repton abbey, then of the Crown",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "Centre of the Peak District lead field, worked in the Roman period and recorded again from the 8th century and in Domesday.",
+  "uncertainty": "That Wirksworth is Roman Lutudarum is probable but unproven; all dates are nominal. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "tintagel",
+  "name": "Tintagel",
+  "lat": 50.668,
+  "lon": -4.759,
+  "country": "england",
+  "kind": "other",
+  "phases": [
+   {
+    "from": 450,
+    "to": 650,
+    "label": "High-status British stronghold importing Mediterranean wine and oil",
+    "size": 3
+   },
+   {
+    "from": 651,
+    "to": 1232,
+    "label": "Deserted headland",
+    "size": 0
+   },
+   {
+    "from": 1233,
+    "to": 1330,
+    "label": "Castle of Richard, Earl of Cornwall",
+    "size": 2,
+    "kind": "castle"
+   },
+   {
+    "from": 1331,
+    "to": null,
+    "label": "Decaying castle",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A defended headland with more imported 5th-7th century Mediterranean pottery than any other site in Britain, probably a seat of the rulers of Dumnonia.",
+  "uncertainty": "Its exact status is inferred from the finds. Dates rounded. English Heritage: occupied from the 5th to the mid 7th century, then little activity for over 500 years; Richard of Cornwall acquired the site in 1233. The 1331 decline is from memory.",
+  "sources": [
+   "nat-eh-tintagel"
+  ]
+ },
+ {
+  "id": "west-stow",
+  "name": "West Stow",
+  "lat": 52.311,
+  "lon": 0.637,
+  "country": "england",
+  "kind": "other",
+  "phases": [
+   {
+    "from": 420,
+    "to": 650,
+    "label": "Early Anglo-Saxon village of timber halls and sunken huts",
+    "size": 1
+   },
+   {
+    "from": 651,
+    "to": null,
+    "label": "Abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A fully excavated early English village, standing here for the thousands of small farming settlements of the 5th to 7th centuries.",
+  "uncertainty": "Dates rounded. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "sutton-hoo",
+  "name": "Sutton Hoo",
+  "lat": 52.089,
+  "lon": 1.338,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": 590,
+    "to": 650,
+    "label": "Royal burial ground of the East Angles",
+    "size": 3
+   },
+   {
+    "from": 651,
+    "to": null,
+    "label": "Barrow cemetery, later an execution site",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "A mound cemetery above the Deben. The great ship burial of about 625 is most often thought to be that of King Raedwald.",
+  "uncertainty": "The identity of the dead man is unknown; the date rests on the coins. Start and end of the cemetery are approximate.",
+  "sources": [
+   "nat-nt-sutton-hoo",
+   "nat-wp-east-anglia"
+  ]
+ },
+ {
+  "id": "rendlesham",
+  "name": "Rendlesham",
+  "lat": 52.127,
+  "lon": 1.415,
+  "country": "england",
+  "kind": "palace",
+  "phases": [
+   {
+    "from": 570,
+    "to": 720,
+    "label": "Royal vill of the East Anglian kings",
+    "size": 3
+   },
+   {
+    "from": 721,
+    "to": null,
+    "label": "Ordinary rural settlement",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Named by Bede as a royal residence; excavation since 2008 has found a large, rich settlement 6 km from Sutton Hoo.",
+  "uncertainty": "Dates rounded. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "ipswich",
+  "name": "Ipswich",
+  "altNames": [
+   {
+    "name": "Gipeswic",
+    "from": 620,
+    "to": 1100
+   }
+  ],
+  "lat": 52.057,
+  "lon": 1.155,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 620,
+    "to": 869,
+    "label": "Gipeswic, trading town of the East Angles",
+    "size": 4
+   },
+   {
+    "from": 870,
+    "to": 917,
+    "label": "Town under Danish rule",
+    "size": 3
+   },
+   {
+    "from": 918,
+    "to": 1499,
+    "label": "English borough and port",
+    "size": 3
+   },
+   {
+    "from": 1500,
+    "to": null,
+    "label": "Cloth port, among the ten richest English towns",
+    "size": 4
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "One of the four great trading towns (wics) of 7th-9th century England and continuously a town ever since. It was 27th in 1377, 8th in the 1520s and 7th in the 1662 hearth tax.",
+  "uncertainty": "Foundation in the early 7th century is from excavation, recalled from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "southampton",
+  "name": "Southampton",
+  "altNames": [
+   {
+    "name": "Clausentum",
+    "from": 70,
+    "to": 410
+   },
+   {
+    "name": "Hamwic",
+    "from": 700,
+    "to": 950
+   }
+  ],
+  "lat": 50.905,
+  "lon": -1.397,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 70,
+    "to": 410,
+    "label": "Clausentum, small Roman port at Bitterne",
+    "size": 2
+   },
+   {
+    "from": 411,
+    "to": 699,
+    "label": "Deserted",
+    "size": 0
+   },
+   {
+    "from": 700,
+    "to": 850,
+    "label": "Hamwic, planned trading town of Wessex",
+    "size": 4
+   },
+   {
+    "from": 851,
+    "to": 950,
+    "label": "Hamwic declining under Viking raids",
+    "size": 2
+   },
+   {
+    "from": 951,
+    "to": null,
+    "label": "Medieval Southampton on a new site; port for Winchester and Normandy",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Hamwic, on the west bank of the Itchen, held perhaps 2,000-3,000 people at its height about 700-850. The walled medieval port grew a little to the south-west.",
+  "uncertainty": "Hamwic's population is an estimate; the dates of the shift between sites are approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-hamwic",
+   "nat-wp-burghal-hidage"
+  ]
+ },
+ {
+  "id": "sandwich",
+  "name": "Sandwich",
+  "lat": 51.275,
+  "lon": 1.34,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 850,
+    "to": 1065,
+    "label": "Port at the mouth of the Wantsum",
+    "size": 2
+   },
+   {
+    "from": 1066,
+    "to": 1500,
+    "label": "Cinque Port and naval assembly point",
+    "size": 3
+   },
+   {
+    "from": 1501,
+    "to": null,
+    "label": "Haven silted; home to Flemish weavers from 1561",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The successor to Richborough as the main port of east Kent, until its haven silted in the 15th and 16th centuries.",
+  "uncertainty": "Dates approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "yeavering",
+  "name": "Yeavering",
+  "altNames": [
+   {
+    "name": "Ad Gefrin",
+    "from": 580,
+    "to": 650
+   }
+  ],
+  "lat": 55.567,
+  "lon": -2.102,
+  "country": "england",
+  "kind": "palace",
+  "phases": [
+   {
+    "from": 580,
+    "to": 650,
+    "label": "Ad Gefrin, royal vill of Bernicia with great halls and a timber grandstand",
+    "size": 3
+   },
+   {
+    "from": 651,
+    "to": null,
+    "label": "Abandoned for Maelmin (Milfield)",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A Northumbrian royal centre below the hillfort of Yeavering Bell. In 627 Paulinus spent 36 days here baptising in the River Glen.",
+  "uncertainty": "Bede says only that it was abandoned under later kings; both dates are approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-yeavering"
+  ]
+ },
+ {
+  "id": "bamburgh",
+  "name": "Bamburgh",
+  "altNames": [
+   {
+    "name": "Bebbanburh",
+    "from": 547,
+    "to": 1100
+   }
+  ],
+  "lat": 55.609,
+  "lon": -1.71,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 547,
+    "to": 866,
+    "label": "Rock fortress of the Bernician kings",
+    "size": 3,
+    "kind": "fort"
+   },
+   {
+    "from": 867,
+    "to": 1094,
+    "label": "Seat of the English lords of northern Northumbria",
+    "size": 2,
+    "kind": "fort"
+   },
+   {
+    "from": 1095,
+    "to": null,
+    "label": "Royal border castle",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The citadel of Bernicia, traditionally taken by Ida in 547, and the base of the English earls who survived north of the Tyne after the Vikings took York.",
+  "uncertainty": "547 is the Anglo-Saxon Chronicle's date and not reliable. 1095 is from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-northumbria"
+  ]
+ },
+ {
+  "id": "lindisfarne",
+  "name": "Lindisfarne",
+  "lat": 55.669,
+  "lon": -1.801,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 635,
+    "to": 792,
+    "label": "Monastery and bishopric founded by Aidan",
+    "size": 4
+   },
+   {
+    "from": 793,
+    "to": 875,
+    "label": "Monastery after the Viking raid",
+    "size": 3
+   },
+   {
+    "from": 876,
+    "to": 1121,
+    "label": "Deserted by the community of St Cuthbert",
+    "size": 0
+   },
+   {
+    "from": 1122,
+    "to": 1537,
+    "label": "Priory, a cell of Durham",
+    "size": 2
+   },
+   {
+    "from": 1538,
+    "to": null,
+    "label": "Former priory buildings kept for Crown defence; harbour forts built 1542-45",
+    "size": 1,
+    "note": "Suppressed in 1537, but English Heritage says the buildings were not dismantled at the Reformation because the Crown needed them for its northern defences; the earth-and-timber harbour works date from 1542-45."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Founded in 635 from Iona. Cuthbert died on his hermitage island of Farne in 687 and was buried here, and the Lindisfarne Gospels were made about 710-725. Raided on 8 June 793, left for good in 875, and refounded as a cell of Durham by 1122 until its closure in 1537.",
+  "sources": [
+   "nat-eh-lindisfarne",
+   "nat-bede-he-sellar"
+  ]
+ },
+ {
+  "id": "jarrow",
+  "name": "Jarrow and Wearmouth",
+  "lat": 54.98,
+  "lon": -1.472,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 681,
+    "to": 800,
+    "label": "Monastery of St Paul (founded 681), twin of Wearmouth (674)",
+    "size": 4,
+    "note": "Land at Jarrow was given in 681 (English Heritage); Wearmouth, founded in 674, lies about 10 km away and is not at this marker."
+   },
+   {
+    "from": 801,
+    "to": 1073,
+    "label": "Monastic life in decline",
+    "size": 1
+   },
+   {
+    "from": 1074,
+    "to": 1083,
+    "label": "Refounded by Aldwin",
+    "size": 2
+   },
+   {
+    "from": 1084,
+    "to": 1537,
+    "label": "Cell of Durham",
+    "size": 1
+   },
+   {
+    "from": 1538,
+    "to": null,
+    "label": "Parish church (east part of the priory church kept)",
+    "size": 1,
+    "note": "The cell was suppressed in 1537; the eastern part of the church stayed in use as the parish church (English Heritage)."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Benedict Biscop's 'one monastery in two places', the home of Bede (died 735) and for a time the most learned house in northern Europe.",
+  "uncertainty": "The marker is at Jarrow; Wearmouth is 10 km to the south-east. English Heritage does not date a Viking attack.",
+  "sources": [
+   "nat-eh-jarrow"
+  ]
+ },
+ {
+  "id": "whitby",
+  "name": "Whitby",
+  "altNames": [
+   {
+    "name": "Streaneshalch",
+    "from": 657,
+    "to": 867
+   }
+  ],
+  "lat": 54.488,
+  "lon": -0.608,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 657,
+    "to": 867,
+    "label": "Streaneshalch, double monastery founded by Hild",
+    "size": 3
+   },
+   {
+    "from": 868,
+    "to": 1077,
+    "label": "Abandoned in the 9th century (exact date unknown)",
+    "size": 0,
+    "note": "English Heritage: abandoned at some point in the 9th century; when or how is not known. 868 is a display boundary."
+   },
+   {
+    "from": 1078,
+    "to": 1539,
+    "label": "Benedictine abbey",
+    "size": 3
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Fishing port below the dissolved abbey",
+    "size": 1,
+    "kind": "port",
+    "note": "Suppressed in 1539. English Heritage: the shell of the abbey church stayed substantially complete until the 18th century (the nave fell in 1763), and the Cholmleys made a house from the abbot's lodgings."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Founded about 657 and the scene of the synod of 664 that settled the dating of Easter. Abandoned in the 9th century, refounded about 1078 and suppressed in 1539.",
+  "uncertainty": "The date of abandonment is not known; 867 is nominal.",
+  "sources": [
+   "nat-eh-whitby"
+  ]
+ },
+ {
+  "id": "hexham",
+  "name": "Hexham",
+  "lat": 54.972,
+  "lon": -2.102,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 674,
+    "to": 875,
+    "label": "Wilfrid's abbey; bishopric 678-821",
+    "size": 2
+   },
+   {
+    "from": 876,
+    "to": 1112,
+    "label": "Church with hereditary priests",
+    "size": 1
+   },
+   {
+    "from": 1113,
+    "to": 1537,
+    "label": "Augustinian priory and market town",
+    "size": 2
+   },
+   {
+    "from": 1538,
+    "to": null,
+    "label": "Market town",
+    "size": 1,
+    "kind": "town"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Wilfrid's church, built with stone from Roman Corbridge; its 7th-century crypt survives.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "ripon",
+  "name": "Ripon",
+  "lat": 54.135,
+  "lon": -1.521,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 660,
+    "to": 947,
+    "label": "Wilfrid's monastery",
+    "size": 2
+   },
+   {
+    "from": 948,
+    "to": 1299,
+    "label": "Minster rebuilt after King Eadred burned it",
+    "size": 2
+   },
+   {
+    "from": 1300,
+    "to": null,
+    "label": "Minster and cloth town",
+    "size": 2,
+    "kind": "town"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A Northumbrian monastery whose 7th-century crypt survives under the later minster.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "durham",
+  "name": "Durham",
+  "lat": 54.773,
+  "lon": -1.576,
+  "country": "england",
+  "kind": "cathedral",
+  "phases": [
+   {
+    "from": 995,
+    "to": 1092,
+    "label": "Shrine of St Cuthbert on the river peninsula",
+    "size": 3
+   },
+   {
+    "from": 1093,
+    "to": 1539,
+    "label": "Norman cathedral, castle and seat of the prince-bishops",
+    "size": 4
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Cathedral city of a county palatine",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Cuthbert's relics came to rest here in 995 after the community's long wandering from Lindisfarne by way of Chester-le-Street.",
+  "uncertainty": "995 and the foundation stone of 11 August 1093 are confirmed by VCH Durham, which dates the priory's dissolution to 1540; the phase here ends at 1539.",
+  "sources": [
+   "nat-eh-lindisfarne",
+   "nat-vch-durham-priory"
+  ]
+ },
+ {
+  "id": "beverley",
+  "name": "Beverley",
+  "lat": 53.84,
+  "lon": -0.425,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 721,
+    "to": 1000,
+    "label": "Minster at the grave of John of Beverley",
+    "size": 1,
+    "kind": "monastery"
+   },
+   {
+    "from": 1001,
+    "to": 1200,
+    "label": "Sanctuary town",
+    "size": 2
+   },
+   {
+    "from": 1201,
+    "to": 1450,
+    "label": "Cloth town, twelfth in the 1377 poll tax",
+    "size": 3
+   },
+   {
+    "from": 1451,
+    "to": null,
+    "label": "Declining town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A minster town which grew into one of the larger towns of medieval England before its cloth trade moved to the West Riding.",
+  "uncertainty": "Phase dates are approximate. VCH East Riding: John of York buried here in 721; the college and sanctuary are traditionally Athelstan's (930s). Ranks follow tables reported on Wikipedia.",
+  "sources": [
+   "nat-wp-historical-population",
+   "nat-vch-beverley"
+  ]
+ },
+ {
+  "id": "tamworth",
+  "name": "Tamworth",
+  "lat": 52.634,
+  "lon": -1.695,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 690,
+    "to": 873,
+    "label": "Chief royal residence of the Mercian kings",
+    "size": 3,
+    "kind": "palace"
+   },
+   {
+    "from": 874,
+    "to": 912,
+    "label": "Sacked by the Danes",
+    "size": 1
+   },
+   {
+    "from": 913,
+    "to": 1069,
+    "label": "Burh of Aethelflaed",
+    "size": 2
+   },
+   {
+    "from": 1070,
+    "to": null,
+    "label": "Castle and market town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Mercia had no fixed capital, but its kings issued more charters at Tamworth than anywhere else. A 9th-century watermill has been excavated here.",
+  "uncertainty": "The start date is nominal; 874 and 913 are Anglo-Saxon Chronicle dates from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-mercia"
+  ]
+ },
+ {
+  "id": "repton",
+  "name": "Repton",
+  "lat": 52.841,
+  "lon": -1.551,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 660,
+    "to": 872,
+    "label": "Double monastery and burial place of Mercian kings",
+    "size": 3
+   },
+   {
+    "from": 873,
+    "to": 874,
+    "label": "Winter camp of the Viking Great Army",
+    "size": 3,
+    "kind": "fort"
+   },
+   {
+    "from": 875,
+    "to": 1171,
+    "label": "Minster church",
+    "size": 1
+   },
+   {
+    "from": 1172,
+    "to": 1538,
+    "label": "Augustinian priory",
+    "size": 1
+   },
+   {
+    "from": 1539,
+    "to": null,
+    "label": "Village; school founded 1557",
+    "size": 1,
+    "kind": "other"
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A Mercian royal mausoleum. The Great Army wintered here in 873-4, and a D-shaped earthwork and a mass grave of at least 264 people have been excavated.",
+  "uncertainty": "Monastery foundation date is approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-mercia"
+  ]
+ },
+ {
+  "id": "torksey",
+  "name": "Torksey",
+  "lat": 53.303,
+  "lon": -0.744,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 872,
+    "to": 873,
+    "label": "Winter camp of the Viking Great Army",
+    "size": 3
+   },
+   {
+    "from": 874,
+    "to": 1299,
+    "label": "Pottery-making town on the Trent",
+    "size": 2,
+    "kind": "town"
+   },
+   {
+    "from": 1300,
+    "to": null,
+    "label": "Decayed village",
+    "size": 1,
+    "kind": "other"
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The Great Army's camp of 872-3 covered some 55 hectares, larger than most towns of the day.",
+  "uncertainty": "This point marks Torksey, not the Viking camp: the camp of 872-873 lay on higher ground north of the village, mostly in Brampton parish (Lincolnshire HER MLI125067, centre estimated at SK 836 802, about 725 × 1,509 m). The size comes from metal-detected finds; dates other than 872-3 are approximate.",
+  "sources": [
+   "nat-lincs-her-torksey"
+  ]
+ },
+ {
+  "id": "lichfield",
+  "name": "Lichfield",
+  "lat": 52.686,
+  "lon": -1.831,
+  "country": "england",
+  "kind": "cathedral",
+  "phases": [
+   {
+    "from": 669,
+    "to": 786,
+    "label": "See of the Mercians, founded by Chad",
+    "size": 2
+   },
+   {
+    "from": 787,
+    "to": 803,
+    "label": "Archbishopric under Offa",
+    "size": 3
+   },
+   {
+    "from": 804,
+    "to": null,
+    "label": "Cathedral city",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The church centre of Mercia and, for sixteen years under Offa, the seat of a third English archbishop.",
+  "uncertainty": "Dates from memory. 669 is confirmed by VCH Staffordshire; the archbishopric of 787-803 rests on Wikipedia.",
+  "sources": [
+   "nat-wp-mercia",
+   "nat-vch-lichfield"
+  ]
+ },
+ {
+  "id": "worcester",
+  "name": "Worcester",
+  "lat": 52.189,
+  "lon": -2.221,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 680,
+    "to": 889,
+    "label": "See of the Hwicce",
+    "size": 2,
+    "kind": "cathedral"
+   },
+   {
+    "from": 890,
+    "to": 1083,
+    "label": "Burh built for the bishop by Aethelred and Aethelflaed",
+    "size": 2
+   },
+   {
+    "from": 1084,
+    "to": 1499,
+    "label": "Cathedral city and Severn bridge town",
+    "size": 3
+   },
+   {
+    "from": 1500,
+    "to": null,
+    "label": "Cloth city",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Chosen as the bishop's seat for the kingdom of the Hwicce in 679-680. It was 26th in 1377 and 12th in the 1662 hearth tax.",
+  "uncertainty": "VCH Worcestershire puts the burh at an unknown date between 872 and 899. Other dates are supported only by Wikipedia.",
+  "sources": [
+   "nat-wp-hwicce",
+   "nat-wp-burghal-hidage",
+   "nat-wp-historical-population",
+   "nat-vch-worcester"
+  ]
+ },
+ {
+  "id": "hereford",
+  "name": "Hereford",
+  "lat": 52.056,
+  "lon": -2.716,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 676,
+    "to": 899,
+    "label": "See of the Magonsaete at a Wye ford",
+    "size": 2,
+    "kind": "cathedral"
+   },
+   {
+    "from": 900,
+    "to": 1066,
+    "label": "Mercian frontier burh",
+    "size": 3
+   },
+   {
+    "from": 1067,
+    "to": 1400,
+    "label": "Marcher earl's castle and cathedral city",
+    "size": 3
+   },
+   {
+    "from": 1401,
+    "to": null,
+    "label": "Cathedral city",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The English frontier town against south Wales, burned by a Welsh and Irish force in 1055. Tenth by Russell's Domesday estimate, 21st in 1377.",
+  "uncertainty": "Early dates from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "shrewsbury",
+  "name": "Shrewsbury",
+  "lat": 52.708,
+  "lon": -2.754,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 901,
+    "to": 1069,
+    "label": "Mercian burh in a loop of the Severn",
+    "size": 2
+   },
+   {
+    "from": 1070,
+    "to": null,
+    "label": "Marcher earl's castle and abbey; wool and Welsh cloth town",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The chief town of the middle March, 19th in the 1377 poll tax and 14th in 1662.",
+  "uncertainty": "First recorded in 901 (from memory). Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "glastonbury",
+  "name": "Glastonbury",
+  "lat": 51.146,
+  "lon": -2.716,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 700,
+    "to": 939,
+    "label": "West Saxon monastery",
+    "size": 2
+   },
+   {
+    "from": 940,
+    "to": 1539,
+    "label": "Great Benedictine abbey reformed by Dunstan",
+    "size": 4
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Small town beside the ruined abbey",
+    "size": 1,
+    "kind": "town"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "The richest abbey in England at Domesday and again at the Dissolution. Its last abbot was hanged on the Tor in 1539.",
+  "uncertainty": "A British monastery before about 700 is possible but unproven. Early dates from memory. VCH Somerset accepts King Ine (688-726) as builder of the minster and Dunstan's reform; exact years are approximate. Dissolution date from Wikipedia.",
+  "sources": [
+   "nat-wp-dissolution",
+   "nat-vch-glastonbury-abbey"
+  ]
+ },
+ {
+  "id": "malmesbury",
+  "name": "Malmesbury",
+  "lat": 51.585,
+  "lon": -2.098,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 675,
+    "to": 879,
+    "label": "Abbey of Aldhelm",
+    "size": 3
+   },
+   {
+    "from": 880,
+    "to": 1539,
+    "label": "Abbey and Alfredian burh",
+    "size": 3
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Cloth town; abbey nave kept as the parish church",
+    "size": 1,
+    "kind": "town"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A hilltop abbey and burh; King Aethelstan was buried here in 939.",
+  "uncertainty": "Foundation date approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-aethelstan",
+   "nat-wp-burghal-hidage"
+  ]
+ },
+ {
+  "id": "sherborne",
+  "name": "Sherborne",
+  "lat": 50.947,
+  "lon": -2.517,
+  "country": "england",
+  "kind": "cathedral",
+  "phases": [
+   {
+    "from": 705,
+    "to": 1074,
+    "label": "See of western Wessex",
+    "size": 2
+   },
+   {
+    "from": 1075,
+    "to": 1539,
+    "label": "Abbey; the see moves to Old Sarum",
+    "size": 2,
+    "kind": "monastery"
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Market town",
+    "size": 1,
+    "kind": "town"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Bishop's seat for Wessex west of Selwood from 705 until the Council of London of 1075 moved it to Old Sarum.",
+  "sources": [
+   "nat-eh-old-sarum",
+   "nat-vch-sherborne-abbey"
+  ],
+  "uncertainty": "705, the Benedictine refoundation of 998, the removal of the see in 1075 and the surrender of 18 March 1539 are from VCH Dorset."
+ },
+ {
+  "id": "wells",
+  "name": "Wells",
+  "lat": 51.21,
+  "lon": -2.645,
+  "country": "england",
+  "kind": "cathedral",
+  "phases": [
+   {
+    "from": 705,
+    "to": 908,
+    "label": "Minster beside the springs",
+    "size": 1,
+    "kind": "monastery"
+   },
+   {
+    "from": 909,
+    "to": 1087,
+    "label": "See of Somerset",
+    "size": 2
+   },
+   {
+    "from": 1088,
+    "to": 1179,
+    "label": "Church of canons; the bishop's seat moves to Bath in 1088-90",
+    "size": 1,
+    "kind": "other"
+   },
+   {
+    "from": 1180,
+    "to": null,
+    "label": "Gothic cathedral and small city",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A cathedral city that never grew large: the church, not trade, was its reason for being.",
+  "uncertainty": "909 and the move to Bath in 1088-90 are from VCH Somerset. The 705 minster is tradition; 1180 for the Gothic rebuilding and the joint title of Bath and Wells (1245) are from memory.",
+  "sources": [
+   "nat-vch-wells-cathedral"
+  ]
+ },
+ {
+  "id": "athelney",
+  "name": "Athelney",
+  "lat": 51.059,
+  "lon": -2.935,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 878,
+    "to": 887,
+    "label": "Alfred's refuge in the Somerset marshes",
+    "size": 1
+   },
+   {
+    "from": 888,
+    "to": 1539,
+    "label": "Small abbey founded by Alfred",
+    "size": 1,
+    "kind": "monastery"
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Farmland",
+    "size": 0,
+    "kind": "other"
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The island fort from which Alfred rallied Wessex in the spring of 878 before Edington.",
+  "uncertainty": "Abbey date approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-edington"
+  ]
+ },
+ {
+  "id": "wallingford",
+  "name": "Wallingford",
+  "lat": 51.6,
+  "lon": -1.125,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 880,
+    "to": 1066,
+    "label": "Burh at the Thames ford, equal largest in the Burghal Hidage",
+    "size": 4
+   },
+   {
+    "from": 1067,
+    "to": 1300,
+    "label": "Royal castle and borough",
+    "size": 3
+   },
+   {
+    "from": 1301,
+    "to": null,
+    "label": "Decayed town",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Rated at 2,400 hides, the same as Winchester. William crossed the Thames here in 1066. Its Saxon ramparts survive.",
+  "uncertainty": "The Burghal Hidage is dated to after 914 or, on another view, the 870s-880s; 880 is nominal. VCH Berkshire confirms the Burghal Hidage listing and a castle in being by 1071. The 880 start and the sizes are judgement; ranks follow tables reported on Wikipedia.",
+  "sources": [
+   "nat-wp-burghal-hidage",
+   "nat-wp-historical-population",
+   "nat-vch-wallingford"
+  ]
+ },
+ {
+  "id": "wareham",
+  "name": "Wareham",
+  "lat": 50.686,
+  "lon": -2.11,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 876,
+    "to": 1100,
+    "label": "Burh between two rivers; seized by the Danes in 876",
+    "size": 3
+   },
+   {
+    "from": 1101,
+    "to": null,
+    "label": "Small port; Poole takes its trade",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A West Saxon burh of 1,600 hides whose earth ramparts still enclose the town on three sides.",
+  "uncertainty": "Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-burghal-hidage"
+  ]
+ },
+ {
+  "id": "shaftesbury",
+  "name": "Shaftesbury",
+  "lat": 51.005,
+  "lon": -2.198,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 880,
+    "to": 1000,
+    "label": "Hilltop burh; Alfred founds a nunnery about 888",
+    "size": 2
+   },
+   {
+    "from": 1001,
+    "to": 1539,
+    "label": "Richest nunnery in England and its town",
+    "size": 2,
+    "kind": "monastery"
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Market town",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A burh of 700 hides and the home of the wealthiest house of nuns in medieval England, dissolved in 1539.",
+  "uncertainty": "Dates from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-burghal-hidage"
+  ]
+ },
+ {
+  "id": "lewes",
+  "name": "Lewes",
+  "lat": 50.873,
+  "lon": 0.01,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 880,
+    "to": 1068,
+    "label": "Burh on the Ouse",
+    "size": 2
+   },
+   {
+    "from": 1069,
+    "to": null,
+    "label": "Castle of the Warennes and Cluniac priory",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A burh of 1,300 hides and the chief town of Norman Sussex; about 2,000 people at Domesday.",
+  "uncertainty": "Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-burghal-hidage",
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "hastings",
+  "name": "Hastings",
+  "lat": 50.856,
+  "lon": 0.573,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 900,
+    "to": 1065,
+    "label": "Burh and mint",
+    "size": 2
+   },
+   {
+    "from": 1066,
+    "to": 1287,
+    "label": "Cinque Port and castle",
+    "size": 3
+   },
+   {
+    "from": 1288,
+    "to": null,
+    "label": "Port wrecked by storms and French raids",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A burh of 500 hides which gave its name to the battle fought 10 km inland.",
+  "uncertainty": "The storm-damage date is approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-burghal-hidage",
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "oxford",
+  "name": "Oxford",
+  "lat": 51.752,
+  "lon": -1.258,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 727,
+    "to": 910,
+    "label": "Minster of St Frideswide at a Thames crossing",
+    "size": 1,
+    "kind": "monastery"
+   },
+   {
+    "from": 911,
+    "to": 1000,
+    "label": "Burh on the Mercia-Wessex border",
+    "size": 3
+   },
+   {
+    "from": 1001,
+    "to": 1166,
+    "label": "One of the larger English towns",
+    "size": 4
+   },
+   {
+    "from": 1167,
+    "to": null,
+    "label": "University town",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A late Saxon border burh of 1,400 hides which Darby put at about 5,000 people in 1066. Schools gathered here in the 12th century; it was sixteenth in 1377.",
+  "uncertainty": "727 is a legendary date. The university's growth from 1167 is the traditional account, from memory. VCH Oxfordshire: first recorded in 911; St Frideswide's house is a tradition placed about the start of the 8th century (727 is her traditional death); by 1066 exceeded only by London, York, Norwich, Lincoln and Winchester. 1167 for the schools is the conventional date, not checked.",
+  "sources": [
+   "nat-wp-burghal-hidage",
+   "nat-wp-historical-population",
+   "nat-vch-oxford-medieval"
+  ]
+ },
+ {
+  "id": "cambridge",
+  "name": "Cambridge",
+  "lat": 52.205,
+  "lon": 0.119,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 70,
+    "to": 410,
+    "label": "Duroliponte, small Roman town on Castle Hill",
+    "size": 1
+   },
+   {
+    "from": 411,
+    "to": 874,
+    "label": "Desolate; Bede calls it a ruined little city",
+    "size": 0
+   },
+   {
+    "from": 875,
+    "to": 1208,
+    "label": "Danish army base, then English shire town",
+    "size": 2
+   },
+   {
+    "from": 1209,
+    "to": null,
+    "label": "University town",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A river-crossing town where scholars fleeing Oxford settled in 1209; they had a chancellor by 1226. It was 22nd in 1377.",
+  "uncertainty": "Roman and Danish dates approximate. 875, the castle of 1068 and the clerks first mentioned in 1209 are in VCH Cambridgeshire.",
+  "sources": [
+   "nat-cam-early-records",
+   "nat-wp-historical-population",
+   "nat-vch-cambridge-medieval"
+  ]
+ },
+ {
+  "id": "norwich",
+  "name": "Norwich",
+  "lat": 52.628,
+  "lon": 1.297,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 900,
+    "to": 1000,
+    "label": "Anglo-Scandinavian trading settlement on the Wensum",
+    "size": 3,
+    "kind": "town"
+   },
+   {
+    "from": 1001,
+    "to": 1093,
+    "label": "Large borough with a mint",
+    "size": 4
+   },
+   {
+    "from": 1094,
+    "to": 1349,
+    "label": "Castle, cathedral and the largest provincial city in England",
+    "size": 5
+   },
+   {
+    "from": 1350,
+    "to": 1499,
+    "label": "Worsted-weaving city, hard hit by plague",
+    "size": 4
+   },
+   {
+    "from": 1500,
+    "to": null,
+    "label": "Second city of England",
+    "size": 5
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Not a Roman town: it grew from the 10th century and Darby gives it about 6,500 people in 1066. Sixth in 1377, it was second only to London in the 1520s and in 1662.",
+  "uncertainty": "The move of the bishopric from Thetford in 1094 is from memory. Sizes are relative ranks. VCH Norfolk: see moved from Thetford by Herbert de Losinga, cathedral foundation stone laid 1096. Ranks follow tables reported on Wikipedia; the pre-1066 phases are judgement.",
+  "sources": [
+   "nat-wp-historical-population",
+   "nat-vch-norwich-priory"
+  ]
+ },
+ {
+  "id": "thetford",
+  "name": "Thetford",
+  "lat": 52.412,
+  "lon": 0.745,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 869,
+    "to": 1071,
+    "label": "Winter base of the Great Army, then a large Anglo-Scandinavian town",
+    "size": 4
+   },
+   {
+    "from": 1072,
+    "to": 1094,
+    "label": "Seat of the East Anglian bishop",
+    "size": 4
+   },
+   {
+    "from": 1095,
+    "to": 1540,
+    "label": "Declining town with a Cluniac priory (founded 1103-4)",
+    "size": 2
+   },
+   {
+    "from": 1541,
+    "to": null,
+    "label": "Small market town",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Sixth largest town in Domesday England and briefly a cathedral city, then eclipsed by Norwich.",
+  "uncertainty": "The priory dates (founded 1103-4, surrendered February 1540) are from English Heritage and VCH Norfolk; VCH also records the bishop's move from Thetford to Norwich under Herbert de Losinga. The 1072 start of the see and the town's ranking still rest on Wikipedia.",
+  "sources": [
+   "nat-wp-east-anglia",
+   "nat-wp-historical-population",
+   "nat-eh-thetford-priory",
+   "nat-vch-thetford-priory",
+   "nat-vch-norwich-priory"
+  ]
+ },
+ {
+  "id": "bury-st-edmunds",
+  "name": "Bury St Edmunds",
+  "lat": 52.244,
+  "lon": 0.717,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 903,
+    "to": 1019,
+    "label": "Shrine of King Edmund",
+    "size": 2
+   },
+   {
+    "from": 1020,
+    "to": 1539,
+    "label": "Benedictine abbey and planned town",
+    "size": 4
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Cloth and market town",
+    "size": 2,
+    "kind": "town"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "One of the richest abbeys in England, built over the body of the East Anglian king killed by the Danes in 869. Fifteenth in 1377.",
+  "uncertainty": "Dates from memory. 903 (or a little later), 1020 and the surrender of 4 November 1539 are from VCH Suffolk. Ranks follow tables reported on Wikipedia.",
+  "sources": [
+   "nat-wp-east-anglia",
+   "nat-wp-historical-population",
+   "nat-vch-bury-abbey"
+  ]
+ },
+ {
+  "id": "ely",
+  "name": "Ely",
+  "lat": 52.399,
+  "lon": 0.262,
+  "country": "england",
+  "kind": "cathedral",
+  "phases": [
+   {
+    "from": 673,
+    "to": 869,
+    "label": "Double monastery of Aethelthryth on an island in the Fens",
+    "size": 2,
+    "kind": "monastery"
+   },
+   {
+    "from": 870,
+    "to": 969,
+    "label": "Destroyed by the Danes",
+    "size": 0,
+    "kind": "monastery"
+   },
+   {
+    "from": 970,
+    "to": 1108,
+    "label": "Refounded abbey; Hereward's last stand 1071",
+    "size": 3,
+    "kind": "monastery"
+   },
+   {
+    "from": 1109,
+    "to": 1539,
+    "label": "Cathedral priory",
+    "size": 3
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Small cathedral city",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "A fen-island monastery that became one of the great cathedrals; 23rd in the 1377 poll tax.",
+  "uncertainty": "673, 870, 970, 1109 and the surrender of 18 November 1539 are confirmed by VCH Cambridgeshire. The 1377 rank follows a table reported on Wikipedia.",
+  "sources": [
+   "nat-wp-historical-population",
+   "nat-vch-ely-priory"
+  ]
+ },
+ {
+  "id": "peterborough",
+  "name": "Peterborough",
+  "altNames": [
+   {
+    "name": "Medeshamstede",
+    "from": 655,
+    "to": 966
+   }
+  ],
+  "lat": 52.573,
+  "lon": -0.24,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 655,
+    "to": 869,
+    "label": "Medeshamstede, Mercian monastery",
+    "size": 2
+   },
+   {
+    "from": 870,
+    "to": 965,
+    "label": "Destroyed by the Danes",
+    "size": 0
+   },
+   {
+    "from": 966,
+    "to": 1539,
+    "label": "Refounded Benedictine abbey",
+    "size": 3
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Abbey church kept as a cathedral (see founded 1541)",
+    "size": 2,
+    "kind": "cathedral"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A fen-edge abbey whose monks kept the Anglo-Saxon Chronicle going until 1154.",
+  "uncertainty": "655-6, 870, the refoundation of about 966 (finished 972) and the surrender of 1539 are from VCH Northamptonshire. 1541 for the new see is from memory.",
+  "sources": [
+   "nat-vch-peterborough-abbey"
+  ]
+ },
+ {
+  "id": "derby",
+  "name": "Derby",
+  "lat": 52.922,
+  "lon": -1.477,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 877,
+    "to": 917,
+    "label": "Danish borough, one of the Five Boroughs",
+    "size": 3
+   },
+   {
+    "from": 918,
+    "to": null,
+    "label": "English shire town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A Danish army base taken by Aethelflaed in 917.",
+  "uncertainty": "The capture date is from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-danelaw"
+  ]
+ },
+ {
+  "id": "nottingham",
+  "name": "Nottingham",
+  "lat": 52.953,
+  "lon": -1.15,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 868,
+    "to": 917,
+    "label": "Great Army's winter base, then a Danish borough",
+    "size": 3
+   },
+   {
+    "from": 918,
+    "to": 1067,
+    "label": "English borough with a Trent bridge",
+    "size": 2
+   },
+   {
+    "from": 1068,
+    "to": null,
+    "label": "Royal castle and twin English and French boroughs",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "One of the Five Boroughs; 29th in the 1377 poll tax.",
+  "uncertainty": "868 and 1068 from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-danelaw",
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "stamford",
+  "name": "Stamford",
+  "lat": 52.652,
+  "lon": -0.48,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 877,
+    "to": 917,
+    "label": "Danish borough, one of the Five Boroughs",
+    "size": 3
+   },
+   {
+    "from": 918,
+    "to": 1300,
+    "label": "Pottery and cloth town with a great fair",
+    "size": 3
+   },
+   {
+    "from": 1301,
+    "to": null,
+    "label": "Declining town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A Danelaw borough which Darby put at about 3,000 people in 1086.",
+  "uncertainty": "Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-danelaw",
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "northampton",
+  "name": "Northampton",
+  "lat": 52.237,
+  "lon": -0.897,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 913,
+    "to": 1099,
+    "label": "Danish army base, then English shire town",
+    "size": 2
+   },
+   {
+    "from": 1100,
+    "to": 1300,
+    "label": "Royal castle and one of the chief towns of the Midlands",
+    "size": 3
+   },
+   {
+    "from": 1301,
+    "to": null,
+    "label": "Declining town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A favoured meeting place of 12th-century kings and councils; 28th in 1377.",
+  "uncertainty": "Phase dates approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "warwick",
+  "name": "Warwick",
+  "lat": 52.28,
+  "lon": -1.585,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 914,
+    "to": 1067,
+    "label": "Burh of Aethelflaed",
+    "size": 2,
+    "kind": "town"
+   },
+   {
+    "from": 1068,
+    "to": null,
+    "label": "Castle of the earls of Warwick and county town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Listed at 2,400 hides in the later Burghal Hidage manuscripts.",
+  "uncertainty": "914 and 1068 from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-burghal-hidage"
+  ]
+ },
+ {
+  "id": "old-sarum",
+  "name": "Old Sarum",
+  "altNames": [
+   {
+    "name": "Sorviodunum",
+    "from": 43,
+    "to": 410
+   },
+   {
+    "name": "Searoburh",
+    "from": 1003,
+    "to": 1226
+   }
+  ],
+  "lat": 51.093,
+  "lon": -1.805,
+  "country": "england",
+  "kind": "hillfort",
+  "phases": [
+   {
+    "from": -400,
+    "to": 42,
+    "label": "Iron Age hillfort",
+    "size": 2
+   },
+   {
+    "from": 43,
+    "to": 410,
+    "label": "Sorviodunum, a road junction settlement",
+    "size": 1,
+    "kind": "other"
+   },
+   {
+    "from": 411,
+    "to": 1002,
+    "label": "Little used",
+    "size": 0
+   },
+   {
+    "from": 1003,
+    "to": 1069,
+    "label": "Burh with a mint",
+    "size": 2,
+    "kind": "town"
+   },
+   {
+    "from": 1070,
+    "to": 1226,
+    "label": "Royal castle and cathedral city",
+    "size": 3,
+    "kind": "cathedral"
+   },
+   {
+    "from": 1227,
+    "to": 1500,
+    "label": "Castle on a dwindling site",
+    "size": 1,
+    "kind": "castle"
+   },
+   {
+    "from": 1501,
+    "to": null,
+    "label": "Deserted; still returns two members of parliament",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "A hillfort of about 400 BCE reused for a mint in 1003, a Norman castle and a cathedral (see moved here 1075). The clergy left for the new city of Salisbury in the 1220s.",
+  "uncertainty": "The date of final desertion is approximate.",
+  "sources": [
+   "nat-eh-old-sarum"
+  ]
+ },
+ {
+  "id": "salisbury",
+  "name": "Salisbury",
+  "altNames": [
+   {
+    "name": "New Sarum",
+    "from": 1220,
+    "to": null
+   }
+  ],
+  "lat": 51.065,
+  "lon": -1.797,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 1220,
+    "to": 1300,
+    "label": "New cathedral city laid out in the meadows",
+    "size": 3
+   },
+   {
+    "from": 1301,
+    "to": 1550,
+    "label": "Cloth city, eighth in 1377",
+    "size": 4
+   },
+   {
+    "from": 1551,
+    "to": null,
+    "label": "Cathedral city with a shrinking cloth trade",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Founded in 1220 to replace Old Sarum. It was eighth in the 1377 poll tax and seventh by wealth in the 1520s.",
+  "uncertainty": "Phase boundaries are approximate. VCH Wiltshire: churchyard consecrated 1219, cathedral consecrated 1258.",
+  "sources": [
+   "nat-eh-old-sarum",
+   "nat-wp-historical-population",
+   "nat-vch-salisbury-cathedral"
+  ]
+ },
+ {
+  "id": "bristol",
+  "name": "Bristol",
+  "altNames": [
+   {
+    "name": "Brycgstow",
+    "from": 1000,
+    "to": 1150
+   }
+  ],
+  "lat": 51.454,
+  "lon": -2.593,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1000,
+    "to": 1100,
+    "label": "Burh and port at the bridge over the Avon",
+    "size": 3
+   },
+   {
+    "from": 1101,
+    "to": 1250,
+    "label": "Castle and port trading with Ireland and Gascony",
+    "size": 4
+   },
+   {
+    "from": 1251,
+    "to": 1541,
+    "label": "Third town of England; a county from 1373",
+    "size": 5
+   },
+   {
+    "from": 1542,
+    "to": null,
+    "label": "Cathedral city and Atlantic port",
+    "size": 5
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "First heard of about 1000. Third in the 1377 poll tax and in the 1520s, and the starting point of English Atlantic voyages from the 1480s.",
+  "uncertainty": "Start date approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "coventry",
+  "name": "Coventry",
+  "lat": 52.408,
+  "lon": -1.51,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 1043,
+    "to": 1200,
+    "label": "Priory founded by Leofric and Godgifu",
+    "size": 2,
+    "kind": "monastery"
+   },
+   {
+    "from": 1201,
+    "to": 1330,
+    "label": "Wool and cloth town",
+    "size": 3
+   },
+   {
+    "from": 1331,
+    "to": 1520,
+    "label": "Walled cloth city, fourth or fifth in 1377",
+    "size": 5
+   },
+   {
+    "from": 1521,
+    "to": 1600,
+    "label": "Shrinking cloth city, still about fifth by tax in the 1520s",
+    "size": 4
+   },
+   {
+    "from": 1601,
+    "to": null,
+    "label": "Much decayed city",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The great boom town of the 14th-century Midlands; it then lost perhaps half its people between about 1440 and 1520 and was 19th in 1662.",
+  "uncertainty": "VCH Warwickshire: priory founded about 1043, 4,817 poll-tax payers in 1377 (behind only London, Bristol and York on one reckoning), 6,601 people counted in 1520 and 565 houses empty in 1523. The 1601 step down is a judgement; ranks in the 1520s and 1662 follow tables reported on Wikipedia.",
+  "sources": [
+   "nat-wp-historical-population",
+   "nat-vch-coventry",
+   "nat-vch-coventry-priory"
+  ]
+ },
+ {
+  "id": "plymouth",
+  "name": "Plymouth",
+  "lat": 50.371,
+  "lon": -4.142,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1254,
+    "to": 1340,
+    "label": "Sutton, a market and fishing harbour",
+    "size": 2
+   },
+   {
+    "from": 1341,
+    "to": 1450,
+    "label": "Naval assembly port in the French wars",
+    "size": 4
+   },
+   {
+    "from": 1451,
+    "to": null,
+    "label": "Western naval and privateering port",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "The base of Drake and Hawkins and the port the fleet sailed from against the Armada in 1588.",
+  "uncertainty": "Russell's 1377 poll tax figures put Plymouth fourth in England, which is hard to reconcile with other evidence and may reflect soldiers and seamen; the size 4 phase follows that figure with reserve. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "kings-lynn",
+  "name": "King's Lynn",
+  "altNames": [
+   {
+    "name": "Bishop's Lynn",
+    "from": 1101,
+    "to": 1537
+   }
+  ],
+  "lat": 52.754,
+  "lon": 0.396,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1101,
+    "to": 1250,
+    "label": "Bishop's Lynn, new town on the Wash",
+    "size": 2
+   },
+   {
+    "from": 1251,
+    "to": 1550,
+    "label": "Hanseatic trading port, ninth in 1377",
+    "size": 4
+   },
+   {
+    "from": 1551,
+    "to": null,
+    "label": "Corn and coal port",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The outlet for the whole Great Ouse basin. Ninth in 1377 and ninth by wealth in the 1520s.",
+  "uncertainty": "Founded about 1100 by Bishop Losinga (from memory). Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "boston",
+  "name": "Boston",
+  "lat": 52.978,
+  "lon": -0.026,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1100,
+    "to": 1200,
+    "label": "New port on the Witham",
+    "size": 2
+   },
+   {
+    "from": 1201,
+    "to": 1400,
+    "label": "Leading wool port and international fair",
+    "size": 4
+   },
+   {
+    "from": 1401,
+    "to": null,
+    "label": "Port in decline as the haven silts",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "At its 13th-century peak Boston exported more wool than any other English port. Eleventh in 1377.",
+  "uncertainty": "The 13th-century ranking is from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "great-yarmouth",
+  "name": "Great Yarmouth",
+  "lat": 52.607,
+  "lon": 1.729,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1050,
+    "to": 1200,
+    "label": "Fishing settlement on a sandbank across the old estuary",
+    "size": 2
+   },
+   {
+    "from": 1201,
+    "to": 1348,
+    "label": "Walled herring port with an international autumn fair",
+    "size": 4
+   },
+   {
+    "from": 1349,
+    "to": null,
+    "label": "Port damaged by plague and a silting harbour",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A town built on a sandspit that formed across the Roman-period estuary. Twentieth in 1377, eighth in 1662.",
+  "uncertainty": "Phase dates approximate. English Heritage confirms a trading quay from at least the 12th century and a 13th-century boom; the phase years are judgement. Ranks follow tables reported on Wikipedia.",
+  "sources": [
+   "nat-wp-historical-population",
+   "nat-eh-yarmouth-rows"
+  ]
+ },
+ {
+  "id": "dunwich",
+  "name": "Dunwich",
+  "lat": 52.277,
+  "lon": 1.631,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 630,
+    "to": 869,
+    "label": "Possible site of Dommoc, the first East Anglian bishopric",
+    "size": 2,
+    "kind": "cathedral"
+   },
+   {
+    "from": 870,
+    "to": 1065,
+    "label": "Coastal settlement",
+    "size": 2
+   },
+   {
+    "from": 1066,
+    "to": 1285,
+    "label": "Major North Sea port of about 3,000 people",
+    "size": 4
+   },
+   {
+    "from": 1286,
+    "to": 1361,
+    "label": "Port wrecked by storm surges",
+    "size": 2
+   },
+   {
+    "from": 1362,
+    "to": null,
+    "label": "Remnant village; churches fall into the sea one by one",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "One of the largest ports of the east coast in the 12th and 13th centuries. Storms in 1286, 1287, 1328, 1347 and 1362 destroyed most of it and shifted its river mouth.",
+  "uncertainty": "The identification with Dommoc is disputed (Walton Castle is the alternative). The medieval town lies under the sea, so the marker is at the surviving village. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-dunwich",
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "ravenser-odd",
+  "name": "Ravenser Odd",
+  "lat": 53.586,
+  "lon": 0.114,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1240,
+    "to": 1345,
+    "label": "Port on a sandbank at the mouth of the Humber; borough 1299",
+    "size": 2
+   },
+   {
+    "from": 1346,
+    "to": 1361,
+    "label": "Two thirds of the townsfolk have left",
+    "size": 1
+   },
+   {
+    "from": 1362,
+    "to": null,
+    "label": "Destroyed by the sea",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A 13th-century boom port off Spurn Head which sent members to the parliament of 1295 and was drowned in the winter storms of 1356-62.",
+  "uncertainty": "The site has not been found; the position is approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-ravenser-odd"
+  ]
+ },
+ {
+  "id": "winchelsea",
+  "name": "Winchelsea",
+  "lat": 50.925,
+  "lon": 0.709,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1288,
+    "to": 1400,
+    "label": "New Winchelsea, planned hilltop port for the Gascon wine trade",
+    "size": 3
+   },
+   {
+    "from": 1401,
+    "to": null,
+    "label": "Harbour silted, town shrunk to a village",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Edward I's replacement for Old Winchelsea, which the sea destroyed in 1287. Much of its street grid was never filled.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "hull",
+  "name": "Kingston upon Hull",
+  "altNames": [
+   {
+    "name": "Wyke",
+    "from": 1193,
+    "to": 1292
+   }
+  ],
+  "lat": 53.744,
+  "lon": -0.333,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1193,
+    "to": 1292,
+    "label": "Wyke, wool-shipping quay of Meaux Abbey",
+    "size": 1
+   },
+   {
+    "from": 1293,
+    "to": null,
+    "label": "Kingston upon Hull, royal port; walled in brick",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Bought by Edward I in 1293 as a northern supply port. It was 25th in 1377 and 18th in 1662.",
+  "uncertainty": "Early dates from memory. VCH East Riding confirms Edward I's acquisition of Wyke from Meaux Abbey in 1293; the 1193 first mention is not checked.",
+  "sources": [
+   "nat-wp-historical-population",
+   "nat-vch-hull-medieval"
+  ]
+ },
+ {
+  "id": "newcastle",
+  "name": "Newcastle upon Tyne",
+  "altNames": [
+   {
+    "name": "Pons Aelius",
+    "from": 122,
+    "to": 410
+   }
+  ],
+  "lat": 54.969,
+  "lon": -1.61,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 122,
+    "to": 410,
+    "label": "Pons Aelius, bridge and fort at the east end of the Wall",
+    "size": 2,
+    "kind": "fort"
+   },
+   {
+    "from": 411,
+    "to": 1079,
+    "label": "Deserted",
+    "size": 0
+   },
+   {
+    "from": 1080,
+    "to": 1250,
+    "label": "New castle and bridge town",
+    "size": 2,
+    "kind": "castle"
+   },
+   {
+    "from": 1251,
+    "to": 1400,
+    "label": "Walled port shipping wool and coal",
+    "size": 3
+   },
+   {
+    "from": 1401,
+    "to": null,
+    "label": "Coal port, about fourth richest English town",
+    "size": 4
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Named from Robert Curthose's castle of 1080. It was 13th in 1377 and 4th in the 1520s, by then sending coal by sea to London.",
+  "uncertainty": "The Roman fort is later than the bridge; 122 stands for both. Hadrian's Wall was begun in 122 (English Heritage). Other dates are supported only by Wikipedia.",
+  "sources": [
+   "nat-wp-historical-population",
+   "nat-eh-hadrians-wall"
+  ]
+ },
+ {
+  "id": "berwick",
+  "name": "Berwick-upon-Tweed",
+  "lat": 55.77,
+  "lon": -2.005,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1120,
+    "to": 1295,
+    "label": "Scottish royal burgh and Scotland's richest port",
+    "size": 3
+   },
+   {
+    "from": 1296,
+    "to": 1481,
+    "label": "Sacked by Edward I; changes hands repeatedly",
+    "size": 2
+   },
+   {
+    "from": 1482,
+    "to": null,
+    "label": "English garrison town with artillery ramparts (1558-69)",
+    "size": 2,
+    "kind": "fort"
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A Scottish town for most of the Middle Ages, finally taken by England in 1482. It is listed under England only for that last phase.",
+  "uncertainty": "1296, 1318, 1482 and the ramparts (begun 1558, stopped 1569) are English Heritage's dates. The 1120 start as a royal burgh is from memory.",
+  "sources": [
+   "nat-eh-berwick"
+  ]
+ },
+ {
+  "id": "scarborough",
+  "name": "Scarborough",
+  "lat": 54.287,
+  "lon": -0.389,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 370,
+    "to": 410,
+    "label": "Late Roman signal station on the headland",
+    "size": 1,
+    "kind": "fort"
+   },
+   {
+    "from": 411,
+    "to": 1129,
+    "label": "Headland with little recorded occupation; a chapel by about 1000",
+    "size": 0,
+    "kind": "other",
+    "note": "English Heritage: a chapel was built within the signal station's ruins by about 1000, before the castle of the 1130s; 'deserted' would be too strong."
+   },
+   {
+    "from": 1130,
+    "to": null,
+    "label": "Royal castle and fishing port",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "One of a chain of late 4th-century coastal watchtowers, later a major royal castle.",
+  "uncertainty": "Dates approximate. English Heritage: signal station of the late 4th century; castle begun probably in the 1130s by William le Gros and rebuilt by Henry II from 1159. A chapel stood on the headland by about 1000, so 'deserted' is too strong for the 11th century.",
+  "sources": [
+   "nat-eh-scarborough"
+  ]
+ },
+ {
+  "id": "portsmouth",
+  "name": "Portsmouth",
+  "lat": 50.79,
+  "lon": -1.107,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1180,
+    "to": 1494,
+    "label": "Small new town on Portsea Island",
+    "size": 1
+   },
+   {
+    "from": 1495,
+    "to": null,
+    "label": "Royal dockyard with the first dry dock",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A minor port until Henry VII built a dry dock here in 1495; the Mary Rose sank offshore in 1545.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "dartmouth",
+  "name": "Dartmouth",
+  "lat": 50.351,
+  "lon": -3.579,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1147,
+    "to": null,
+    "label": "Deep-water haven; crusade fleets assemble here",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A Devon port for the Bordeaux wine trade, privateering and later the Newfoundland fishery.",
+  "uncertainty": "Start date is the first recorded fleet assembly, from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "bodmin",
+  "name": "Bodmin",
+  "lat": 50.471,
+  "lon": -4.719,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 950,
+    "to": 1085,
+    "label": "Monastery of St Petroc",
+    "size": 1,
+    "kind": "monastery"
+   },
+   {
+    "from": 1086,
+    "to": null,
+    "label": "Largest town in Cornwall, with a priory and a share in the tin trade",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The chief church of Cornwall after its bishops moved east, and a rallying point of the risings of 1497 and 1549.",
+  "uncertainty": "Dates approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "reading",
+  "name": "Reading",
+  "lat": 51.456,
+  "lon": -0.965,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 871,
+    "to": 871,
+    "label": "Danish army camp between Thames and Kennet",
+    "size": 2,
+    "kind": "fort"
+   },
+   {
+    "from": 872,
+    "to": 1120,
+    "label": "Small borough",
+    "size": 1
+   },
+   {
+    "from": 1121,
+    "to": 1539,
+    "label": "Royal abbey, burial place of Henry I",
+    "size": 3,
+    "kind": "monastery"
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Cloth town, about eleventh richest in England",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A small town transformed by Henry I's abbey of 1121, dissolved in 1539 when its abbot was hanged.",
+  "uncertainty": "Dates from memory. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "lavenham",
+  "name": "Lavenham",
+  "lat": 52.108,
+  "lon": 0.796,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 1400,
+    "to": 1530,
+    "label": "Cloth-making town, fourteenth richest in England in the 1520s",
+    "size": 2
+   },
+   {
+    "from": 1531,
+    "to": null,
+    "label": "Declining cloth town",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A Suffolk village that briefly paid more tax than York, on the strength of its blue broadcloth.",
+  "uncertainty": "Phase dates approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-historical-population"
+  ]
+ },
+ {
+  "id": "walsingham",
+  "name": "Walsingham",
+  "lat": 52.894,
+  "lon": 0.874,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 1153,
+    "to": 1538,
+    "label": "Augustinian priory at the shrine of Our Lady",
+    "size": 2
+   },
+   {
+    "from": 1539,
+    "to": null,
+    "label": "Village; shrine destroyed 1538",
+    "size": 1,
+    "kind": "other"
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The second pilgrim shrine of medieval England after Canterbury.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "battle-abbey",
+  "name": "Battle Abbey",
+  "lat": 50.914,
+  "lon": 0.487,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 1071,
+    "to": 1538,
+    "label": "Benedictine abbey on the battlefield of 1066",
+    "size": 2
+   },
+   {
+    "from": 1539,
+    "to": null,
+    "label": "Sir Anthony Browne's house in the abbey buildings; church pulled down",
+    "size": 1,
+    "kind": "other"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Founded by William about 1071 on the site of his victory, consecrated in 1094 and surrendered in May 1538.",
+  "sources": [
+   "nat-eh-battle-abbey"
+  ]
+ },
+ {
+  "id": "fountains",
+  "name": "Fountains Abbey",
+  "lat": 54.11,
+  "lon": -1.582,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 1132,
+    "to": 1539,
+    "label": "Abbey founded 1132, Cistercian from 1135; a great wool producer",
+    "size": 3,
+    "note": "Founded in 1132 by thirteen Benedictine monks from St Mary's, York, who were accepted into the Cistercian order three years later (National Trust)."
+   },
+   {
+    "from": 1540,
+    "to": null,
+    "label": "Dissolved 1539; sold in 1540 and stripped, the buildings left to decay",
+    "size": 0,
+    "note": "Sold in 1540 to Sir Richard Gresham (National Trust). The church and claustral buildings were not wrecked at once: they were stripped and left to decay, and stone was later taken for Fountains Hall (early 17th century)."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "The richest Cistercian house in England, dissolved in 1539.",
+  "uncertainty": "Foundation, Cistercian affiliation, dissolution (1539) and sale (1540) are from the National Trust; the size is an editorial scale.",
+  "sources": [
+   "nat-nt-fountains"
+  ]
+ },
+ {
+  "id": "rievaulx",
+  "name": "Rievaulx Abbey",
+  "lat": 54.257,
+  "lon": -1.117,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 1132,
+    "to": 1199,
+    "label": "First Cistercian abbey in the north, about 650 strong in the 1160s",
+    "size": 3
+   },
+   {
+    "from": 1200,
+    "to": 1538,
+    "label": "Cistercian abbey with a smaller community",
+    "size": 2
+   },
+   {
+    "from": 1539,
+    "to": null,
+    "label": "Dissolved 1538; dismantled, lead and bells reserved for the king",
+    "size": 0,
+    "note": "English Heritage: the buyer, Thomas Manners, Earl of Rutland, dismantled the buildings, reserving the roof lead and bells for the Crown."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Founded in March 1132. Under Aelred it held 140 monks and about 500 lay brothers. It was shut down on 3 December 1538.",
+  "uncertainty": "The date of the fall in numbers is nominal.",
+  "sources": [
+   "nat-eh-rievaulx"
+  ]
+ },
+ {
+  "id": "furness",
+  "name": "Furness Abbey",
+  "lat": 54.136,
+  "lon": -3.198,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 1127,
+    "to": 1537,
+    "label": "Savigniac, then Cistercian abbey ruling the Furness peninsula",
+    "size": 2
+   },
+   {
+    "from": 1538,
+    "to": null,
+    "label": "Surrendered 1537; church and buildings pulled down",
+    "size": 0,
+    "note": "English Heritage: after the surrender the Crown's commissioners oversaw the destruction of the church and other buildings; the abbot's lodging may have survived as a manor house."
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "In 1537 the first of the larger houses to be dissolved by voluntary surrender.",
+  "uncertainty": "Foundation date from memory. 1127 (after a first settlement at Tulketh in 1124), the Cistercian takeover of 1147 and the surrender of 9 April 1537 are English Heritage's dates.",
+  "sources": [
+   "nat-wp-dissolution",
+   "nat-eh-furness"
+  ]
+ },
+ {
+  "id": "windsor",
+  "name": "Windsor Castle",
+  "lat": 51.484,
+  "lon": -0.604,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 1070,
+    "to": 1169,
+    "label": "Motte-and-bailey castle above the Thames",
+    "size": 2
+   },
+   {
+    "from": 1170,
+    "to": null,
+    "label": "Stone royal castle and palace",
+    "size": 3,
+    "kind": "palace"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "One of the ring of castles William built around London, and a main royal residence from the 12th century.",
+  "uncertainty": "Dates approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "kenilworth",
+  "name": "Kenilworth Castle",
+  "lat": 52.348,
+  "lon": -1.592,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 1120,
+    "to": 1209,
+    "label": "Castle of Geoffrey de Clinton with a great keep",
+    "size": 2
+   },
+   {
+    "from": 1210,
+    "to": 1562,
+    "label": "Royal, then Lancastrian fortress ringed by a great mere",
+    "size": 3
+   },
+   {
+    "from": 1563,
+    "to": null,
+    "label": "Palace of Robert Dudley, Earl of Leicester",
+    "size": 3,
+    "kind": "palace"
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Begun about 1120. It withstood a six-month siege in 1266, was rebuilt as a palace by John of Gaunt from 1371, and entertained Elizabeth I in 1575.",
+  "uncertainty": "The 1210 and 1563 phase dates are from memory.",
+  "sources": [
+   "nat-eh-kenilworth"
+  ]
+ },
+ {
+  "id": "corfe",
+  "name": "Corfe Castle",
+  "lat": 50.64,
+  "lon": -2.059,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 978,
+    "to": 1085,
+    "label": "Royal estate where King Edward 'the Martyr' was killed",
+    "size": 1,
+    "kind": "other"
+   },
+   {
+    "from": 1086,
+    "to": null,
+    "label": "Royal castle in a gap of the Purbeck Hills",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "One of the earliest stone castles in England and a favourite stronghold of King John.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "ludlow",
+  "name": "Ludlow",
+  "lat": 52.367,
+  "lon": -2.723,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 1086,
+    "to": 1471,
+    "label": "Marcher castle and planned town",
+    "size": 2
+   },
+   {
+    "from": 1472,
+    "to": null,
+    "label": "Seat of the Council of Wales and the Marches",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "A Lacy and Mortimer castle which became the administrative capital of Wales and the border counties from 1472.",
+  "uncertainty": "Castle begun about 1086-94 (from memory). Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-welsh-marches"
+  ]
+ },
+ {
+  "id": "pontefract",
+  "name": "Pontefract Castle",
+  "lat": 53.695,
+  "lon": -1.304,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 1070,
+    "to": 1310,
+    "label": "Castle of the Lacys, later of the house of Lancaster",
+    "size": 2
+   },
+   {
+    "from": 1311,
+    "to": null,
+    "label": "Chief Lancastrian and royal fortress of the north; Richard II dies here in 1400",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "The strongest castle in Yorkshire.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "richmond",
+  "name": "Richmond Castle",
+  "lat": 54.402,
+  "lon": -1.739,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 1071,
+    "to": null,
+    "label": "Stone castle of Alan of Brittany and its planned town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Built after the Harrying of the North to hold the lands of the former English earl; among the oldest stone castles in England.",
+  "uncertainty": "Date from memory. English Heritage: land granted to Alan about 1071 and the castle begun soon afterwards.",
+  "sources": [
+   "nat-eh-richmond"
+  ]
+ },
+ {
+  "id": "alnwick",
+  "name": "Alnwick Castle",
+  "lat": 55.416,
+  "lon": -1.706,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 1096,
+    "to": 1308,
+    "label": "Border castle",
+    "size": 2
+   },
+   {
+    "from": 1309,
+    "to": null,
+    "label": "Chief castle of the Percys",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "The stronghold of the Percy earls of Northumberland, the dominant family of the far north.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "framlingham",
+  "name": "Framlingham Castle",
+  "lat": 52.224,
+  "lon": 1.347,
+  "country": "england",
+  "kind": "castle",
+  "phases": [
+   {
+    "from": 1100,
+    "to": null,
+    "label": "Castle of the Bigod earls of Norfolk; curtain wall of about 1190",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "Where Mary Tudor gathered her supporters and was proclaimed queen in 1553.",
+  "uncertainty": "Dates from memory. English Heritage calls it a late 12th-century castle built by Roger Bigod; an earlier castle from about 1100 is not confirmed by the page fetched.",
+  "sources": [
+   "nat-eh-framlingham"
+  ]
+ },
+ {
+  "id": "clarendon",
+  "name": "Clarendon Palace",
+  "lat": 51.07,
+  "lon": -1.741,
+  "country": "england",
+  "kind": "palace",
+  "phases": [
+   {
+    "from": 1130,
+    "to": 1485,
+    "label": "Royal hunting palace",
+    "size": 2
+   },
+   {
+    "from": 1486,
+    "to": null,
+    "label": "Abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A favourite residence of Henry II and Henry III; the Constitutions of Clarendon were issued here in 1164.",
+  "uncertainty": "Dates approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "hampton-court",
+  "name": "Hampton Court",
+  "lat": 51.403,
+  "lon": -0.338,
+  "country": "england",
+  "kind": "palace",
+  "phases": [
+   {
+    "from": 1515,
+    "to": null,
+    "label": "Wolsey's palace, taken over by Henry VIII in 1529",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "The best surviving Tudor royal palace; the Hampton Court Conference of 1604 commissioned the King James Bible.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "nonsuch",
+  "name": "Nonsuch Palace",
+  "lat": 51.354,
+  "lon": -0.238,
+  "country": "england",
+  "kind": "palace",
+  "phases": [
+   {
+    "from": 1538,
+    "to": null,
+    "label": "Henry VIII's show palace, built over the village of Cuddington",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Begun in 1538 to rival the French king's châteaux; pulled down in the 1680s.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "liverpool",
+  "name": "Liverpool",
+  "lat": 53.407,
+  "lon": -2.992,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1207,
+    "to": null,
+    "label": "Borough founded by King John for shipping to Ireland",
+    "size": 1
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Still a town of a few hundred people in 1625. Included to show how small the later great port was.",
+  "uncertainty": "Charter date from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "leeds",
+  "name": "Leeds",
+  "lat": 53.797,
+  "lon": -1.543,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 1207,
+    "to": 1499,
+    "label": "Small manorial borough",
+    "size": 1
+   },
+   {
+    "from": 1500,
+    "to": null,
+    "label": "Growing West Riding cloth town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A village with a borough attached until woollen cloth-making made it a town in the 16th century; incorporated in 1626.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "birmingham",
+  "name": "Birmingham",
+  "lat": 52.478,
+  "lon": -1.894,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 1166,
+    "to": 1499,
+    "label": "Market town on the manor of the de Birminghams",
+    "size": 1
+   },
+   {
+    "from": 1500,
+    "to": null,
+    "label": "Metal-working town",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Granted a market in 1166; by the 1530s Leland heard its smiths from the road.",
+  "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "kendal",
+  "name": "Kendal",
+  "lat": 54.327,
+  "lon": -2.746,
+  "country": "england",
+  "kind": "town",
+  "phases": [
+   {
+    "from": 1189,
+    "to": 1349,
+    "label": "Market town with a castle",
+    "size": 1
+   },
+   {
+    "from": 1350,
+    "to": null,
+    "label": "Woollen town known for 'Kendal green'",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "The main cloth town of the north-west.",
+  "uncertainty": "Dates nominal. Not checked against a fetched source: dates and size come from general reference knowledge.",
+  "sources": []
+ },
+ {
+  "id": "battle-dyrham",
+  "name": "Battle of Dyrham",
+  "lat": 51.489,
+  "lon": -2.372,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 577,
+    "to": 577,
+    "label": "Battle of Dyrham",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "The Anglo-Saxon Chronicle says the West Saxons killed three British kings here and took Gloucester, Cirencester and Bath.",
+  "uncertainty": "Written down three centuries later; many historians doubt the details. Location follows the place-name. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-hwicce"
+  ]
+ },
+ {
+  "id": "battle-ellendun",
+  "name": "Battle of Ellendun",
+  "lat": 51.523,
+  "lon": -1.792,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 825,
+    "to": 825,
+    "label": "Battle of Ellendun",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Egbert of Wessex defeated Beornwulf of Mercia; Kent, Sussex, Surrey and Essex passed to Wessex and Mercian dominance ended.",
+  "uncertainty": "Usually placed at Wroughton near Swindon; the exact field is unknown. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-wessex",
+   "nat-wp-kent"
+  ]
+ },
+ {
+  "id": "battle-edington",
+  "name": "Battle of Edington",
+  "lat": 51.264,
+  "lon": -2.143,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 878,
+    "to": 878,
+    "label": "Battle of Edington",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "In May 878 Alfred defeated Guthrum's army, which then accepted baptism and withdrew to East Anglia.",
+  "uncertainty": "Probably Edington in Wiltshire; the site has been argued over for centuries. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+  "sources": [
+   "nat-wp-edington"
+  ]
+ },
+ {
+  "id": "battle-brunanburh",
+  "name": "Battle of Brunanburh",
+  "lat": 53.336,
+  "lon": -2.98,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 937,
+    "to": 937,
+    "label": "Battle of Brunanburh",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "Aethelstan defeated the allied kings of Dublin, Scotland and Strathclyde, securing the new kingdom of the English.",
+  "uncertainty": "The location is unknown: over forty sites have been proposed. The marker is at Bromborough on the Wirral, the most widely supported candidate. Date (late 937) confirmed by the Battlefields Trust, which describes the site as unlocated.",
+  "sources": [
+   "nat-wp-brunanburh",
+   "nat-wp-aethelstan",
+   "nat-bt-brunanburh"
+  ]
+ },
+ {
+  "id": "battle-maldon",
+  "name": "Battle of Maldon",
+  "lat": 51.7177,
+  "lon": 0.7021,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 991,
+    "to": 991,
+    "label": "Battle of Maldon",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Ealdorman Byrhtnoth of Essex was killed fighting a Viking fleet on 10 or 11 August 991; payments of tribute followed.",
+  "uncertainty": "The causeway to Northey Island fits the Old English poem best but is not proven. Date (10 (possibly 11) August 991) confirmed by the Battlefields Trust, which describes the site as probably on the mainland opposite Northey Island, though other sites have been suggested. Historic England registers it as 'Battle of Maldon 991' (list entry 1000019).",
+  "sources": [
+   "nat-wp-maldon",
+   "nat-he-nhle-battlefields",
+   "nat-bt-maldon"
+  ]
+ },
+ {
+  "id": "battle-brentford-1016",
+  "name": "Battle of Brentford",
+  "lat": 51.479,
+  "lon": -0.307,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1016,
+    "to": 1016,
+    "label": "Battle of Brentford",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Edmund Ironside crossed the Thames at Brentford two days after relieving London and drove Cnut's army off, at heavy cost to his own men.",
+  "uncertainty": "Known mainly from the Anglo-Saxon Chronicle (1016: the king 'went over at Brentford', fought and put the enemy to flight, many English drowning); the exact ground and the month are uncertain.",
+  "sources": [
+   "nat-wp-brentford-1016",
+   "nat-asc-avalon-11th"
+  ],
+  "site": "brentford"
+ },
+ {
+  "id": "battle-assandun",
+  "name": "Battle of Assandun",
+  "lat": 51.606,
+  "lon": 0.692,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1016,
+    "to": 1016,
+    "label": "Battle of Assandun",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "On 18 October 1016 Cnut defeated Edmund Ironside; Edmund died weeks later and Cnut took the whole kingdom.",
+  "uncertainty": "Either Ashingdon (shown) or Ashdon, both in Essex; the question is open. Date (18 October 1016) confirmed by the Battlefields Trust, which describes the site as unlocated.",
+  "sources": [
+   "nat-bt-assandun"
+  ]
+ },
+ {
+  "id": "battle-fulford",
+  "name": "Battle of Fulford",
+  "lat": 53.931,
+  "lon": -1.071,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1066,
+    "to": 1066,
+    "label": "Battle of Fulford",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "On 20 September 1066 Harald Hardrada and Tostig defeated the northern earls Edwin and Morcar outside York.",
+  "uncertainty": "The exact field is disputed. Date (20 September 1066) confirmed by the Battlefields Trust, which describes the site as approximately located around Germany Beck and Fulford Ings.",
+  "sources": [
+   "nat-wp-stamford-bridge",
+   "nat-bt-fulford"
+  ]
+ },
+ {
+  "id": "battle-stamford-bridge",
+  "name": "Battle of Stamford Bridge",
+  "lat": 53.9869,
+  "lon": -0.9034,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1066,
+    "to": 1066,
+    "label": "Battle of Stamford Bridge",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "On 25 September 1066 Harold Godwinson surprised and killed Harald Hardrada and Tostig.",
+  "uncertainty": "Date (25 September 1066) confirmed by the Battlefields Trust, which describes the site as different interpretations of where the battle was fought have been suggested. Historic England registers it as 'Battle of Stamford Bridge 1066' (list entry 1000035).",
+  "sources": [
+   "nat-wp-stamford-bridge",
+   "nat-he-nhle-battlefields",
+   "nat-bt-stamford-bridge"
+  ]
+ },
+ {
+  "id": "battle-hastings",
+  "name": "Battle of Hastings",
+  "lat": 50.912,
+  "lon": 0.487,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1066,
+    "to": 1066,
+    "label": "Battle of Hastings",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "On 14 October 1066 William of Normandy defeated and killed King Harold. Battle Abbey was founded on the site about 1071.",
+  "sources": [
+   "nat-eh-battle-abbey",
+   "nat-he-nhle-battlefields",
+   "nat-bt-hastings"
+  ],
+  "uncertainty": "Date (14 October 1066) confirmed by the Battlefields Trust, which describes the site as probably accurately located in the fields south of Battle Abbey. Historic England registers it as 'Battle of Hastings 1066' (list entry 1000013)."
+ },
+ {
+  "id": "battle-standard",
+  "name": "Battle of the Standard",
+  "lat": 54.3766,
+  "lon": -1.4441,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1138,
+    "to": 1138,
+    "label": "Battle of the Standard",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "On 22 August 1138 a northern English army raised by Archbishop Thurstan defeated David I of Scotland near Northallerton.",
+  "uncertainty": "Date (22 August 1138) confirmed by the Battlefields Trust, which describes the site as probably accurately located north of Northallerton. Historic England registers it as 'Battle of Northallerton 1138' (list entry 1000027).",
+  "sources": [
+   "nat-he-nhle-battlefields",
+   "nat-bt-standard"
+  ]
+ },
+ {
+  "id": "battle-lewes",
+  "name": "Battle of Lewes",
+  "lat": 50.8818,
+  "lon": -0.0148,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1264,
+    "to": 1264,
+    "label": "Battle of Lewes",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Simon de Montfort captured Henry III and the Lord Edward on 14 May 1264 and ruled in the king's name for a year.",
+  "uncertainty": "The date, 14 May 1264, is secure. The Battlefields Trust places the battle on the north side of the town but says it is uncertain exactly where between the top of Offham Hill and the medieval town it was fought; the marker is a reference point, not a surveyed battle centre. Historic England registers it as 'Battle of Lewes 1264' (list entry 1000018).",
+  "sources": [
+   "nat-he-nhle-battlefields",
+   "nat-bt-lewes"
+  ]
+ },
+ {
+  "id": "battle-evesham",
+  "name": "Battle of Evesham",
+  "lat": 52.106,
+  "lon": -1.946,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1265,
+    "to": 1265,
+    "label": "Battle of Evesham",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The Lord Edward trapped and killed Simon de Montfort on 4 August 1265.",
+  "uncertainty": "Date (4 August 1265) confirmed by the Battlefields Trust, which describes the site as approximately located on Greenhill north of Evesham. Historic England registers it as 'Battle of Evesham 1265' (list entry 1000010).",
+  "sources": [
+   "nat-he-nhle-battlefields",
+   "nat-bt-evesham"
+  ]
+ },
+ {
+  "id": "battle-nevilles-cross",
+  "name": "Battle of Neville's Cross",
+  "lat": 54.777,
+  "lon": -1.6,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1346,
+    "to": 1346,
+    "label": "Battle of Neville's Cross",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "A northern English army defeated and captured David II of Scotland outside Durham on 17 October 1346.",
+  "uncertainty": "Date (17 October 1346) confirmed by the Battlefields Trust, which describes the site as accurately located north of Neville's Cross. Historic England registers it as 'Battle of Neville's Cross 1346' (list entry 1000024).",
+  "sources": [
+   "nat-he-nhle-battlefields",
+   "nat-bt-nevilles-cross"
+  ]
+ },
+ {
+  "id": "battle-otterburn",
+  "name": "Battle of Otterburn",
+  "lat": 55.2397,
+  "lon": -2.1919,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1388,
+    "to": 1388,
+    "label": "Battle of Otterburn",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A Scottish raiding army defeated the Percys in a moonlit fight in Redesdale.",
+  "uncertainty": "The exact site is debated. Date (5 August 1388) confirmed by the Battlefields Trust, which describes the site as approximately located north-west of Otterburn village. Historic England registers it as 'Battle of Otterburn 1388' (list entry 1000029). Chroniclers disagree on the day (5 or 19 August).",
+  "sources": [
+   "nat-he-nhle-battlefields",
+   "nat-bt-otterburn"
+  ]
+ },
+ {
+  "id": "battle-shrewsbury",
+  "name": "Battle of Shrewsbury",
+  "lat": 52.7502,
+  "lon": -2.7294,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1403,
+    "to": 1403,
+    "label": "Battle of Shrewsbury",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "Henry IV defeated the Percy rebellion and Henry 'Hotspur' Percy was killed, on 21 July 1403.",
+  "uncertainty": "Date (21 July 1403) confirmed by the Battlefields Trust, which describes the site as securely located west of St Mary Magdalene's church at Battlefield. Historic England registers it as 'Battle of Shrewsbury 1403' (list entry 1000033).",
+  "sources": [
+   "nat-he-nhle-battlefields",
+   "nat-bt-shrewsbury"
+  ]
+ },
+ {
+  "id": "battle-st-albans-1455",
+  "name": "First Battle of St Albans",
+  "lat": 51.752,
+  "lon": -0.339,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1455,
+    "to": 1455,
+    "label": "First Battle of St Albans",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "A street fight on 22 May 1455 in which Richard of York captured Henry VI; usually counted as the opening of the Wars of the Roses.",
+  "uncertainty": "Date (22 May 1455) confirmed by the Battlefields Trust, which describes the site as securely located among the streets of the city centre.",
+  "sources": [
+   "nat-bt-st-albans-1455"
+  ]
+ },
+ {
+  "id": "battle-towton",
+  "name": "Battle of Towton",
+  "lat": 53.84,
+  "lon": -1.268,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1461,
+    "to": 1461,
+    "label": "Battle of Towton",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "Fought in snow on Palm Sunday, 29 March 1461. Edward IV's victory secured him the throne; it is often called the largest and bloodiest battle on English soil.",
+  "uncertainty": "Army sizes (50,000-65,000 combined) and casualty figures are chroniclers' estimates. Date (29 March 1461) confirmed by the Battlefields Trust, which describes the site as securely located between Saxton and Towton. Historic England registers it as 'Battle of Towton, 1461' (list entry 1000040).",
+  "sources": [
+   "nat-wp-towton",
+   "nat-he-nhle-battlefields",
+   "nat-bt-towton"
+  ]
+ },
+ {
+  "id": "battle-barnet",
+  "name": "Battle of Barnet",
+  "lat": 51.666,
+  "lon": -0.199,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1471,
+    "to": 1471,
+    "label": "Battle of Barnet",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "On Easter Sunday, 14 April 1471, Edward IV defeated and killed Warwick 'the Kingmaker' in fog north of Barnet.",
+  "uncertainty": "The battlefield lies somewhere between about 800 and 1,600 m north of Barnet; surveys have not yet fixed it. Date (14 April 1471) confirmed by the Battlefields Trust, which describes the site as north of Barnet, but not yet precisely located. Historic England registers it as 'Battle of Barnet 1471' (list entry 1000001). The marker (Hadley Highstone) is 0.37 km north of the centroid of the registered battlefield and was left where it is, between the two candidate areas.",
+  "sources": [
+   "nat-wp-barnet",
+   "nat-he-nhle-battlefields",
+   "nat-bt-barnet"
+  ],
+  "site": "barnet"
+ },
+ {
+  "id": "battle-tewkesbury",
+  "name": "Battle of Tewkesbury",
+  "lat": 51.9819,
+  "lon": -2.1635,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1471,
+    "to": 1471,
+    "label": "Battle of Tewkesbury",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "On 4 May 1471 Edward IV destroyed the last Lancastrian army; Edward, Prince of Wales, was killed.",
+  "uncertainty": "Date (4 May 1471) confirmed by the Battlefields Trust, which describes the site as securely located south of Tewkesbury. Historic England registers it as 'Battle of Tewkesbury 1471' (list entry 1000039).",
+  "sources": [
+   "nat-wp-tewkesbury",
+   "nat-he-nhle-battlefields",
+   "nat-bt-tewkesbury"
+  ]
+ },
+ {
+  "id": "battle-bosworth",
+  "name": "Battle of Bosworth",
+  "lat": 52.584,
+  "lon": -1.4186,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1485,
+    "to": 1485,
+    "label": "Battle of Bosworth",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "On 22 August 1485 Henry Tudor defeated Richard III, the last English king to die in battle.",
+  "uncertainty": "Survey finds published in 2009-10 moved the fighting about 3 km south-west of the traditional site on Ambion Hill. The marker now sits at the Battlefields Trust's grid reference in the Fenn Lanes area, inside the enlarged registered battlefield; it is a reference point, not a surveyed centre. Date (22 August 1485) confirmed by the Battlefields Trust. Historic England registers it as 'Battle of Bosworth (Field) 1485' (list entry 1000004).",
+  "sources": [
+   "nat-wp-bosworth",
+   "nat-he-nhle-battlefields",
+   "nat-bt-bosworth"
+  ]
+ },
+ {
+  "id": "battle-stoke-field",
+  "name": "Battle of Stoke Field",
+  "lat": 53.0336,
+  "lon": -0.8946,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1487,
+    "to": 1487,
+    "label": "Battle of Stoke Field",
+    "size": 2
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "Henry VII defeated the Yorkist army backing Lambert Simnel on 16 June 1487, the last battle of the Wars of the Roses.",
+  "uncertainty": "Date (16 June 1487) confirmed by the Battlefields Trust, which describes the site as approximately located west of East Stoke. Historic England registers it as 'Battle of Stoke (Field) 1487' (list entry 1000036).",
+  "sources": [
+   "nat-he-nhle-battlefields",
+   "nat-bt-stoke-field"
+  ]
+ },
+ {
+  "id": "battle-flodden",
+  "name": "Battle of Flodden",
+  "lat": 55.627,
+  "lon": -2.1671,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1513,
+    "to": 1513,
+    "label": "Battle of Flodden",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "On 9 September 1513 the Earl of Surrey defeated a Scottish invasion; James IV and much of the Scottish nobility were killed.",
+  "uncertainty": "Date (9 September 1513) confirmed by the Battlefields Trust, which describes the site as securely located in the fields south of Branxton. Historic England registers it as 'Battle of Flodden 1513' (list entry 1000011).",
+  "sources": [
+   "nat-he-nhle-battlefields",
+   "nat-bt-flodden"
+  ]
+ }
+]

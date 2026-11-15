@@ -1,0 +1,110 @@
+[
+ {
+  "id": "durrington-houses",
+  "label": "Durrington Walls houses (Neolithic village)",
+  "style": "neolithic-house",
+  "shape": {
+   "type": "ref",
+   "polygon": "durrington-settlement"
+  },
+  "spacing": 12,
+  "fill": 0.8,
+  "tier": "overview",
+  "grow": [
+   -2506,
+   -2500
+  ],
+  "decline": [
+   -2500,
+   -2494
+  ],
+  "declineBy": "abandonment",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "Eight houses about 5 m square, with clay or chalk floors, central hearths and box-bed and dresser outlines, were excavated inside the later henge on its east side, towards the Avon (2006); modelling puts the village at only about 10-12 years' occupation ending c. 2500-2460 BCE (the 2007 release gave 2600-2500 BCE). The TOTAL NUMBER of houses is not known: 'up to 1000 houses' (Wikipedia) is an upper speculation, 'hundreds of people' the excavators' phrase. About 60 houses (a count chosen to give 'a few dozen') are drawn on a lattice inside the site polygon 'durrington-settlement' (about 1.1 ha on the east side of the enclosure, an approximation); positions are not surveyed. The village was abandoned about when the henge was dug (the ring of posts and the henge bank follow). The model uses a 12-year display window (2506-2494 BCE), a visual convention for the reported 10-12 years, not a measured span (corrected after fact review glm-stonehenge-006).",
+  "sources": [
+   "sto-bristol-2007",
+   "sto-archco-durrington",
+   "sto-wp-durrington"
+  ]
+ },
+ {
+  "id": "amesbury-town-medieval",
+  "label": "Amesbury town (medieval)",
+  "style": "medieval",
+  "shape": {
+   "type": "ref",
+   "polygon": "amesbury-town"
+  },
+  "spacing": 24,
+  "fill": 0.25,
+  "tier": "overview",
+  "grow": [
+   980,
+   1150
+  ],
+  "decline": [
+   1480,
+   1560
+  ],
+  "declineBy": "rebuild",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "Amesbury was a crossing of the London to Exeter road with 111 households and eight mills at Domesday (1086); a Saxon settlement from the 7th century. Houses are generic, on a lattice, inside the site polygon 'amesbury-town' (an approximation round the OSM town point); the town's real extent and layout in any century are not known. The medieval houses are replaced in place by the tudor style from about 1480-1560 (a visual change of style, not a recorded rebuilding).",
+  "sources": [
+   "sto-wp-amesbury",
+   "sto-osm-overpass"
+  ]
+ },
+ {
+  "id": "amesbury-town-tudor",
+  "label": "Amesbury town (Tudor)",
+  "style": "tudor",
+  "shape": {
+   "type": "ref",
+   "polygon": "amesbury-town"
+  },
+  "spacing": 24,
+  "fill": 0.25,
+  "tier": "overview",
+  "grow": [
+   1480,
+   1560
+  ],
+  "decline": null,
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "The same lattice as the medieval town, in the taller Tudor style, standing until 1625. A generic stand-in: no source read describes Amesbury's buildings in the 16th and early 17th centuries.",
+  "sources": [
+   "sto-wp-amesbury"
+  ]
+ },
+ {
+  "id": "open-downland-tree-mask",
+  "label": "Open downland round the monument (keeps generated trees off)",
+  "style": "neolithic-house",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.17887,
+   "lon": -1.8255,
+   "rx": 700,
+   "rz": 520,
+   "bearing": 60
+  },
+  "spacing": 40,
+  "fill": 0,
+  "tier": "overview",
+  "grow": [
+   -3300,
+   -3300
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Not a settlement: fill 0, so nothing is drawn. The engine fells its generated woodland trees where a zone grows, so this zone keeps scattered illustrative trees off the stones and the first stretch of the Avenue from c. 3300 BCE. Molluscan and soil evidence from the Cursus and the monument indicates open chalk grassland round Stonehenge by the late 4th millennium BCE (see site.woodland.note); exactly how far the open ground extended at each date is not known.",
+  "sources": [
+   "sto-french2012",
+   "sto-eh-reconstructed"
+  ]
+ }
+]

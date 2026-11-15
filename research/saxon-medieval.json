@@ -1,0 +1,1579 @@
+{
+  "items": [
+    {
+      "id": "walled-city-post-roman-abandonment",
+      "name": "Walled Roman city after c. 410: abandonment, standing ruins and 'dark earth'",
+      "lat": 51.5138,
+      "lon": -0.0915,
+      "phases": [
+        {
+          "label": "Late Roman contraction and end of imperial rule",
+          "from": 388,
+          "to": 410,
+          "dateNote": "Riverside wall strengthened c. 388-402; Roman administration ends c. 410. Built-up area had already shrunk before 410.",
+          "form": "Stone landward wall and riverside wall intact; many masonry buildings still standing but large areas inside the walls already under dark soil (gardens, waste ground, rubbish).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Stow (1603) reckoned the medieval landward circuit at 513 perches plus c. 60 on the Fleet and 70 on the Thames (643 perches, c. 3.2 km); Roman wall height not documented in the sources fetched."}
+        },
+        {
+          "label": "Largely empty walled enclosure",
+          "from": 410,
+          "to": 604,
+          "dateNote": "Negative evidence: the London research framework says there is no evidence that the walled city stayed occupied for long after 410; London Museum says few people lived inside the walls by the mid-400s. Whether the gap is real or an artefact of later truncation is not settled.",
+          "form": "Roman city wall still standing as a circuit; ruinous, roofless masonry buildings; open ground with accumulating 'dark earth'. No early Saxon buildings have been found inside the walls; 5th-6th century settlement is dispersed along the Thames valley (e.g. Hammersmith, Tulse Hill, Harmondsworth) not in the City.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Dark earth thickness varies by site; not given in fetched sources."}
+        },
+        {
+          "label": "Ecclesiastical/royal enclave inside otherwise sparsely used walls",
+          "from": 604,
+          "to": 886,
+          "dateNote": "St Paul's founded 604; little other evidence for occupation inside the walls before the late 9th century. Two foreshore burials at Queenhithe radiocarbon-dated 670-880 imply some local presence.",
+          "form": "Walls and ruins as before, with a cathedral church (form unknown) in the western half; main population lives at Lundenwic to the west.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "How many Roman buildings stood, and to what height, at any given date is unknown. Dark earth is 'incompletely understood'; it can represent cultivation, waste ground or reworked occupation deposits and spans the 3rd century to the Viking period. Offa's supposed palace in the Cripplegate fort has no archaeological support. Any depiction of specific ruins is conjecture.",
+      "correctionsToDraft": "Draft is broadly right. Add: contraction and dark earth start before 410 (late Roman), not only in the 5th century; the riverside wall was still being strengthened c. 388-402 and was still standing north of Queenhithe in the late 9th century.",
+      "sources": [
+        {"title": "Saxon (AD 410-1066), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/saxon-ad-410-1066/"},
+        {"title": "London in the Not-so-Dark Ages (Lyn Blackmore lecture)", "publisher": "Gresham College", "url": "https://gresham.ac.uk/node/12856"},
+        {"title": "Lundenwic: The other medieval London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/lundenwic-other-medieval-london/"},
+        {"title": "The Saxon origins of Queenhithe (R. Wroe-Brown, LAMAS Trans 50)", "publisher": "London & Middlesex Archaeological Society / ADS", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_12-16_SaxonOriginsQueenhithe.pdf"},
+        {"title": "Stow, Survey of London: The wall about the Citie", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp5-10"}
+      ]
+    },
+    {
+      "id": "lundenwic",
+      "name": "Lundenwic (Middle Saxon trading town, Strand / Covent Garden / Aldwych)",
+      "lat": 51.5129,
+      "lon": -0.1222,
+      "phases": [
+        {
+          "label": "Burial ground and first settlement",
+          "from": 600,
+          "to": 675,
+          "dateNote": "London Museum: flourished from c. 600, on the Strand site from c. 650. Blackmore: wic probably founded 658-675; 7th-century burials around St Martin-in-the-Fields and Covent Garden; waterfront embankment at York Buildings c. 679.",
+          "form": "Scattered farm-like timber buildings, barrows/burials, wells and fenced plots north of the Strand; beach market on the Thames foreshore (the Strand was the riverbank).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "At the Royal Opera House site only five buildings stood by the mid 7th century."}
+        },
+        {
+          "label": "Growth and planning",
+          "from": 675,
+          "to": 730,
+          "dateNote": "Royal Opera House phasing (ceramic-dated).",
+          "form": "Gravel north-south road with timber buildings in fixed plots; alleys forming an irregular grid by the early 8th century; yards with wells and pits.",
+          "dimensions": {"lengthM": null, "widthM": 3, "heightM": null, "note": "Main N-S road at the Royal Opera House c. 3 m wide, resurfaced more than ten times."}
+        },
+        {
+          "label": "Peak",
+          "from": 730,
+          "to": 770,
+          "dateNote": "Excavators call the mid 8th century the heyday. Fires recorded 764, 798, 801.",
+          "form": "Densely built single-storey rectangular timber buildings lining the road and side streets, central doors in the long walls, central hearths, thatch or shingle roofs; smithies, weaving, bone and antler working; timber-and-wattle waterfront embankments.",
+          "dimensions": {"lengthM": 11, "widthM": 5.5, "heightM": null, "note": "Typical building c. 11 m long by 5-6 m wide (Royal Opera House report; the scanned text is slightly garbled at the length figure). Settlement core c. 55-60 ha, from Charing Cross Road/Northumberland Avenue to Aldwych, northern limit near Long Acre. About 60 buildings excavated at the Opera House, c. 100 overall. Building heights not documented."}
+        },
+        {
+          "label": "Decline, defensive ditch, abandonment",
+          "from": 770,
+          "to": 886,
+          "dateNote": "Decline at the Opera House begins c. 770, i.e. before the Viking raids. Raids 842 and 851; Viking army in London 871-872. Defensive ditch dug after 770, probably 840s; stycas hoard (latest coin 848-67) in its berm. Last use of 'wic' for London 857. End date not archaeologically resolved; abandoned by the 880s.",
+          "form": "Thinned-out buildings, rubbish pits reappearing, a large east-west ditch with sharpened stakes across the north of the Opera House site (and another at Maiden Lane) enclosing a reduced area; then dark earth.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Ditch dimensions not given in the summary report."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Boundaries are uncertain except on the river side; 55-60 ha is the spread of known sites, not a surveyed perimeter. A planned grid is only weakly supported. Population estimates (5,000-10,000) appeared only in search snippets and were not verified. No building survives above floor level, so roof form and height are inferred. The date of final abandonment is obscured by dark earth.",
+      "correctionsToDraft": "Start c. 600-650 is fine (670s is when it becomes dense). Decline began c. 770, well before the raids of 842 and 851, so do not show the Vikings as the sole cause. The extent is c. 55-60 ha. A 9th-century defensive ditch should be shown in the last phase.",
+      "sources": [
+        {"title": "Excavations at the Royal Opera House: Middle Saxon London (Bowsher & Malcolm, LAMAS Trans 50)", "publisher": "London & Middlesex Archaeological Society / ADS", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_4-11_ExcavationsRoyalOperaHouseMiddleSaxonLondon.pdf"},
+        {"title": "London in the Not-so-Dark Ages", "publisher": "Gresham College", "url": "https://gresham.ac.uk/node/12856"},
+        {"title": "Lundenwic: The other medieval London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/lundenwic-other-medieval-london/"},
+        {"title": "Vikings in London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/vikings/"},
+        {"title": "Saxon (AD 410-1066), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/saxon-ad-410-1066/"}
+      ]
+    },
+    {
+      "id": "st-pauls-saxon",
+      "name": "St Paul's: Anglo-Saxon cathedral church(es)",
+      "lat": 51.5138,
+      "lon": -0.0984,
+      "phases": [
+        {
+          "label": "First church (Mellitus / Aethelberht)",
+          "from": 604,
+          "to": 962,
+          "dateNote": "604 from Bede (firm as a documentary date). Essex reverted to paganism 616/617 and Christianity returned c. 653, so continuity 616-653 is doubtful. I could not verify a fire in 675: that year is Earconwald's consecration as bishop.",
+          "form": "Unknown. Benham guessed 'probably mostly wooden'; no fabric, plan or exact site has been identified.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        },
+        {
+          "label": "Church rebuilt after the fire of 962",
+          "from": 962,
+          "to": 1087,
+          "dateNote": "VCH: 'the monastery is burnt and refounded' in 962. Burnt again in the city fire of 1087 (Benham gives 7 July 1087).",
+          "form": "Unknown; a major late Saxon minster by status only.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "low",
+      "uncertainty": "Form, size and even the precise position are unknown. Schofield: no certain evidence of the Anglo-Saxon cathedral has been identified; a 1932 test pit on the north-west side found a possible Saxon or 11th-century foundation; beneath the later nave is only one possible site. The research framework notes there is no real evidence for its location before the late 7th century. Any model is pure conjecture and should be flagged as such.",
+      "correctionsToDraft": "Yes, the form is essentially unknown. Keep 604, 962 and 1087. Drop or flag the 675 fire: I found no source for it (675 is Earconwald's consecration).",
+      "sources": [
+        {"title": "Secular canons: Cathedral of St Paul (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp409-433"},
+        {"title": "The Archaeology of St Paul's Cathedral (John Schofield lecture)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/node/12865"},
+        {"title": "London in the Not-so-Dark Ages", "publisher": "Gresham College", "url": "https://gresham.ac.uk/node/12856"},
+        {"title": "W. Benham, Old St Paul's Cathedral (1902)", "publisher": "Project Gutenberg", "url": "https://www.gutenberg.org/files/16531/16531-h/16531-h.htm"}
+      ]
+    },
+    {
+      "id": "lundenburh-alfredian-resettlement",
+      "name": "Lundenburh: Alfred's re-establishment of London inside the Roman walls and the late Saxon street pattern",
+      "lat": 51.5122,
+      "lon": -0.0935,
+      "phases": [
+        {
+          "label": "Possible pre-Alfredian reoccupation",
+          "from": 850,
+          "to": 886,
+          "dateNote": "Research framework: resettlement may have begun as early as the mid 9th century. Vikings wintered in London 871-872; whether they held the walled city until 886 is unknown.",
+          "form": "Small settlement, possibly between the Thames and Cheapside, inside the standing Roman walls.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Alfredian burh",
+          "from": 886,
+          "to": 1000,
+          "dateNote": "886 from Asser and the Anglo-Saxon Chronicle (firm). The boundaries of the Alfredian burh are unknown. Charters show primary occupation around Queenhithe; archaeology suggests a second focus at Fish Street Hill c. 600 m to the east.",
+          "form": "Refortified Roman wall circuit; new streets and plots between the river and Cheapside; beach markets at the hithes; timber and wattle buildings on narrow plots divided by alleys.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Extent of the first planned area not established."}
+        },
+        {
+          "label": "Late Saxon town fills out",
+          "from": 1000,
+          "to": 1066,
+          "dateNote": "A major town by the late 10th century; organised settlement north of Cheapside may not develop until the early 11th century.",
+          "form": "Street pattern of the 10th-11th centuries becoming clear archaeologically; timber buildings; first small stone or timber parish churches (none archaeologically identified before 1000).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "The 'planned Alfredian grid' is an inference from charters and later street lines; the research framework says the planning of the town is unclear. Which streets existed at which date is not known in detail.",
+      "correctionsToDraft": "886 is right, but reoccupation may have started a generation earlier, and the grid grew in stages (south of Cheapside first, north of it in the early 11th century) rather than being laid out at once.",
+      "sources": [
+        {"title": "The Saxon origins of Queenhithe (LAMAS Trans 50)", "publisher": "London & Middlesex Archaeological Society / ADS", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_12-16_SaxonOriginsQueenhithe.pdf"},
+        {"title": "Saxon (AD 410-1066), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/saxon-ad-410-1066/"},
+        {"title": "Vikings in London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/vikings/"}
+      ]
+    },
+    {
+      "id": "queenhithe",
+      "name": "Queenhithe (Aethelred's Hythe)",
+      "lat": 51.5108,
+      "lon": -0.0949,
+      "phases": [
+        {
+          "label": "Alfredian beach market",
+          "from": 886,
+          "to": 970,
+          "dateNote": "Hithe and beach market 'certainly in place by AD 889' (charter to the Bishop of Worcester mentioning the trading shore and an older stone building, Hwaetmundes Stan). A second charter of 898/899 is known from the literature but I did not fetch it. Dendro: trestles after 880, barge bed 890.",
+          "form": "Open gravel foreshore with two lines of timber trestles carrying gangplanks, a gravel-packed barge bed, and a turf-and-wattle hut; boats beached to trade. Roman riverside wall still standing just to the north (under Upper Thames Street).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Structures insubstantial; no overall dimensions published in the summary."}
+        },
+        {
+          "label": "Low timber revetments and dock",
+          "from": 970,
+          "to": 1020,
+          "dateNote": "From the late 10th century.",
+          "form": "Post-and-plank revetments with earth and rubble dumped behind, forming a river frontage with a northward return that defines the dock; reused timbers from a late 10th-century aisled building and a Frisian hulk.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": 0.4, "note": "First revetment only 0.4 m high; second advanced the frontage 1.5 m and moved the dock edge 3 m west."}
+        },
+        {
+          "label": "Timber embankments",
+          "from": 1021,
+          "to": 1150,
+          "dateNote": "Dendro-dated: first embankment 1021 (plan label 1026-27), repair and extension 1045 after a waterfront fire. Dock edge then fixed for about 150 years.",
+          "form": "Broad embankments of dumped branches and timber held by rows of stakes, acting as flood defence and funnelling boats into the dock; three roughly equal building plots behind, separated by alleys.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Dock edge 2 m further west than the previous revetment."}
+        },
+        {
+          "label": "Queen's hithe: principal upriver port",
+          "from": 1150,
+          "to": 1463,
+          "dateNote": "Stow: given by William of Ypres under Stephen to Holy Trinity Aldgate, later the queen's; royal orders of 1224-27 forced corn and fish to land here; leased to the City 1246 for 50 pounds a year; by 1463-64 trade was being lost to Billingsgate because of the difficulty of raising the bridge drawbridge.",
+          "form": "Rectangular inlet dock among timber and later stone river walls, with an open market place (Romeland) on its landward side.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Medieval dock dimensions not given in the sources fetched."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "high",
+      "uncertainty": "The exact position of the 9th-century market within the foreshore is inferred from the Bull Wharf excavation next to the surviving inlet. The 898/899 charter date is from memory, not from a fetched source.",
+      "correctionsToDraft": "889 is the first charter evidence; dendrochronology (after 880, and 890) agrees with a foundation in the late 880s. The early hithe was a beach market with trestles, not a built quay; revetments begin only in the late 10th century and large embankments in 1021 and 1045.",
+      "sources": [
+        {"title": "The Saxon origins of Queenhithe (LAMAS Trans 50)", "publisher": "London & Middlesex Archaeological Society / ADS", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_12-16_SaxonOriginsQueenhithe.pdf"},
+        {"title": "Stow, Survey of London: Queene hith warde", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp1-11"}
+      ]
+    },
+    {
+      "id": "london-bridge-timber",
+      "name": "London Bridge: late Saxon and Norman timber bridges",
+      "lat": 51.5082,
+      "lon": -0.0866,
+      "phases": [
+        {
+          "label": "No bridge (ferry or ruin)",
+          "from": 410,
+          "to": 990,
+          "dateNote": "No evidence for a bridge between the end of Roman London and the late 10th century. A rebuild under Alfred to link the two burhs has been suggested but is unconfirmed.",
+          "form": "No crossing structure evidenced.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Late Saxon timber bridge",
+          "from": 1000,
+          "to": 1136,
+          "dateNote": "Watson: archaeological and documentary evidence confirm a timber bridge by c. 1000, perhaps built after the Viking attack of 994. Stow reads the 994 siege as implying a bridge; Cnut's ships bypassed it by a ditch in 1016. The 1014 pulling-down by Olaf is saga tradition only (Heimskringla, written c. 1230; absent from the Anglo-Saxon Chronicle). Southern bridgehead defended against William in 1066.",
+          "form": "Timber trestle or pile bridge with a timber abutment at the Southwark end (excavated, 11th-12th century); defended bridgehead at Southwark.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "No dimensions documented. River then c. 280 m wide at this point."}
+        },
+        {
+          "label": "Repaired/rebuilt timber bridges",
+          "from": 1136,
+          "to": 1209,
+          "dateNote": "Fire of 1135/1136 burnt the bridge (VCH gives 1135, Stow 1136). Rebuilt in timber by Peter of Colechurch 1163 (Stow). Remained in use beside the stone bridge works until 1209. Storm/flood damage c. 1090-1097 is reported only in secondary accounts (Old and New London says the bridge was destroyed in 1090); I could not verify the '1091 storm' against a primary source.",
+          "form": "Timber bridge, slightly downstream (east) of the stone bridge line according to Stow.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Number of rebuilds, superstructure form, width and exact alignment are unknown. Specific dendro dates for the earliest bridge timbers (which I recalled as c. 987-1032) could not be verified from an open source. The saga episode should be shown, if at all, as legend.",
+      "correctionsToDraft": "'First documented c. 990s-1000' is acceptable as 'by c. 1000'. 1014 is saga tradition, not history. The fire that burnt the bridge is 1135 or 1136 depending on the source. Add the last timber rebuild of 1163. The 1091 storm is unverified here; the Chronicle year usually cited for flood damage to the bridge is 1097.",
+      "sources": [
+        {"title": "Medieval London Bridge and its role in the defence of the realm (B. Watson, LAMAS Trans 50)", "publisher": "London & Middlesex Archaeological Society / ADS", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_17-22_MedievalLondonBridgeAndRoleInDefenceOfTheRealm.pdf"},
+        {"title": "Stow, Survey of London: Bridges of this Citie", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp21-27"},
+        {"title": "Vikings in London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/vikings/"},
+        {"title": "Old and New London vol. 2: London Bridge", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/old-new-london/vol2/pp9-17"},
+        {"title": "Saxon (AD 410-1066), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/saxon-ad-410-1066/"}
+      ]
+    },
+    {
+      "id": "southwark-burh",
+      "name": "Southwark burh and bridgehead (Suthringa geweorc)",
+      "lat": 51.506,
+      "lon": -0.0885,
+      "phases": [
+        {
+          "label": "Burh possibly established",
+          "from": 886,
+          "to": 1000,
+          "dateNote": "Listed in the Burghal Hidage (traditionally c. 915) as 'the work of the men of Surrey'; Dyson notes the wording may describe a planned rather than a completed fort. London Museum dates it 'after 886'; the research framework says late 9th or early 10th century.",
+          "form": "Defended enclosure at the south bridgehead; form and circuit unknown.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown; no defences have been found."}
+        },
+        {
+          "label": "Defended bridgehead settlement",
+          "from": 1000,
+          "to": 1066,
+          "dateNote": "Described as strongly defended in the Olaf sagas (1014); held against Cnut 1016 and against William 1066, who burnt the rest of Southwark.",
+          "form": "Timber buildings around the bridge foot behind some form of defence, with a timber bridge abutment.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "low",
+      "uncertainty": "No rampart or ditch has been excavated; the research framework even asks why medieval Southwark merited no defences. Location and extent of any burh are conjecture.",
+      "correctionsToDraft": "Treat as probable but archaeologically unproven; date it c. 886-915 rather than a single year.",
+      "sources": [
+        {"title": "Medieval London Bridge and its role in the defence of the realm (note 1)", "publisher": "London & Middlesex Archaeological Society / ADS", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_17-22_MedievalLondonBridgeAndRoleInDefenceOfTheRealm.pdf"},
+        {"title": "Saxon (AD 410-1066), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/saxon-ad-410-1066/"},
+        {"title": "Vikings in London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/vikings/"}
+      ]
+    },
+    {
+      "id": "westminster-abbey",
+      "name": "Westminster Abbey (St Peter's)",
+      "lat": 51.4994,
+      "lon": -0.1273,
+      "phases": [
+        {
+          "label": "Benedictine monastery on Thorney Island",
+          "from": 960,
+          "to": 1045,
+          "dateNote": "Abbey's own history: founded c. 960 under King Edgar and St Dunstan. A minster may have existed earlier (possibly 8th century); the Sebert foundation story in Stow is legend.",
+          "form": "Small monastery; form unknown.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        },
+        {
+          "label": "Edward the Confessor's Romanesque church",
+          "from": 1045,
+          "to": 1245,
+          "dateNote": "Begun in the 1040s (between 1042 and 1052); consecrated 28 December 1065. Building of the nave and monastic ranges continued after the Conquest. East end demolished from 1245; the Romanesque nave stood, attached to the Gothic work, into the late 14th century.",
+          "form": "Large cruciform Romanesque stone church with a central tower, known in outline from the Bayeux Tapestry and from excavated footings.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Length is often quoted as c. 98 m but I did not verify this in a fetched source; heights unknown."}
+        },
+        {
+          "label": "Henry III's Gothic rebuilding (east end, transepts, choir bays)",
+          "from": 1245,
+          "to": 1269,
+          "dateNote": "Lady Chapel begun 1220; main rebuilding from 6 July 1245; consecrated 13 October 1269 with only the eastern nave bays complete. Stow says the work reached the end of the choir in 1285.",
+          "form": "French-influenced Gothic presbytery with radiating chapels, transepts and crossing; very tall, narrow vaulted interior; octagonal chapter house; no central tower.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": 31, "note": "Nave vault c. 31 m (101-102 ft) internally (Wikipedia infobox, used as a lead only). Overall length not verified."}
+        },
+        {
+          "label": "Nave rebuilt westwards",
+          "from": 1376,
+          "to": 1517,
+          "dateNote": "Restarted 1376 under Abbot Litlyngton; structurally finished with the west window c. 1495; vaulting and fitting out ran into the early 16th century (my 1517 end date is conventional, not verified). West towers were left unfinished until the 1740s. Henry VII's chapel 1503-c. 1516 replaces the Lady Chapel.",
+          "form": "Gothic nave continued in the 13th-century style; west front without towers above roof level through the whole medieval and Tudor period.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": 31, "note": "Do not model the twin west towers before 1745."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Plan dimensions of the Confessor's church and the exact state of the half-Romanesque, half-Gothic church between 1269 and 1376 are only partly known. External heights were not found in an institutional source.",
+      "correctionsToDraft": "Consecration is 28 December 1065 (correct). Henry III's rebuild from 1245 is correct, but only the east end to the first nave bays was done by 1269; the Romanesque nave survived for another century and the west towers are 18th century.",
+      "sources": [
+        {"title": "History of Westminster Abbey", "publisher": "Westminster Abbey", "url": "https://www.westminster-abbey.org/history/history-of-westminster-abbey"},
+        {"title": "Stow, Survey of London: The Citie of Westminster", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp97-124"},
+        {"title": "Benedictine monks: St Peter's abbey, Westminster (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp433-457"},
+        {"title": "Westminster Abbey (lead only, for 1245/1269/1376/1495 and coordinates)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Westminster_Abbey"}
+      ]
+    },
+    {
+      "id": "westminster-hall-and-palace",
+      "name": "Westminster Hall and the medieval Palace of Westminster",
+      "lat": 51.4999,
+      "lon": -0.1254,
+      "phases": [
+        {
+          "label": "Edward the Confessor's palace",
+          "from": 1045,
+          "to": 1097,
+          "dateNote": "Built alongside the abbey in the 1040s-60s; the research framework states its form, location and founding date are unknown.",
+          "form": "Unknown timber and/or stone royal residence between the abbey and the river.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        },
+        {
+          "label": "William Rufus's great hall",
+          "from": 1097,
+          "to": 1393,
+          "dateNote": "Foundations 1097, in use by Whitsun 1099 (firm).",
+          "form": "Very large aisled Romanesque stone hall, long axis north-south, with a lower-pitched roof carried on two rows of posts (the posts are inferred, not found).",
+          "dimensions": {"lengthM": 73, "widthM": 20.5, "heightM": null, "note": "About 73 m by 20-20.7 m (240 by 67-68 ft), floor c. 1,547 sq m. These figures are UK Parliament's, seen only in search results because parliament.uk blocked direct fetching. Stow's 270 by 74 ft is too large. Norman roof height unknown."}
+        },
+        {
+          "label": "Richard II's remodelling and hammerbeam roof",
+          "from": 1393,
+          "to": 1401,
+          "dateNote": "Commissioned 1393 (Hugh Herland carpenter, Henry Yevele mason); Stow has the walls, windows and roof rebuilt 1397-99; finishing work stopped 1401.",
+          "form": "Walls heightened and refaced, new north front with twin towers and porch, single-span oak hammerbeam roof with no internal posts, steep lead-covered roof.",
+          "dimensions": {"lengthM": 73, "widthM": 20.5, "heightM": null, "note": "Roof span c. 20.7 m. Apex height is commonly given as c. 28 m but I could not verify it in a fetched source."}
+        },
+        {
+          "label": "Palace complex",
+          "from": 1100,
+          "to": 1512,
+          "dateNote": "Fire in the lesser hall and queen's chamber 1299; St Stephen's Chapel rebuilt from 1292 and completed under Edward III (Stow: 1347); clock tower in the palace yard; residential part burnt 1512 and not rebuilt.",
+          "form": "Irregular riverside group south and east of the great hall: lesser hall, Painted Chamber, tall two-storey St Stephen's Chapel, clock tower and jewel tower.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not documented in fetched sources."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "The Norman roof structure and the layout of the pre-1512 privy palace are reconstructions. Hall dimensions could not be confirmed by direct fetch of an institutional page.",
+      "correctionsToDraft": "1097-99 is correct. Roof: commissioned 1393, substantially built 1397-99, work ceased 1401 (so 1393-1401 is safer than 1393-99).",
+      "sources": [
+        {"title": "Stow, Survey of London: The Citie of Westminster", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp97-124"},
+        {"title": "Westminster Hall (lead only, for 1097/1099/1393, floor area and coordinates)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Westminster_Hall"},
+        {"title": "Saxon (AD 410-1066), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/saxon-ad-410-1066/"}
+      ]
+    },
+    {
+      "id": "tower-of-london",
+      "name": "Tower of London: White Tower, curtain walls and moat",
+      "lat": 51.5081,
+      "lon": -0.076,
+      "phases": [
+        {
+          "label": "Conquest-period castle",
+          "from": 1066,
+          "to": 1078,
+          "dateNote": "Built shortly after 1066 in the south-east angle of the Roman city wall. HRP's teaching material calls it a wooden motte and bailey; I would treat 'timber-and-earth enclosure' as safer.",
+          "form": "Ditch and palisade cutting off the corner formed by the Roman land wall and riverside wall.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        },
+        {
+          "label": "White Tower under construction",
+          "from": 1078,
+          "to": 1100,
+          "dateNote": "HRP: traditional date 1078 (Gundulf commissioned); work under way in the 1080s, dendro c. 1081 for the lower parts; HRP's own summary says 'started c. 1075, completed about 1100'.",
+          "form": "Rectangular keep of Kentish ragstone with Caen stone dressings, apsidal chapel projection at the south-east, four corner turrets; originally three floors.",
+          "dimensions": {"lengthM": 36, "widthM": 32.5, "heightM": 27, "note": "36 by 32-32.5 m at the base excluding apse and stair turret; 27 m to the battlements on the south side. Figures from the Wikipedia article and a Historic England list entry seen in search results; historicengland.org.uk blocked direct fetching."}
+        },
+        {
+          "label": "Norman and Angevin castle",
+          "from": 1100,
+          "to": 1238,
+          "dateNote": "Stow: Rufus and Henry I added buildings to the south; c. 1190 William Longchamp enclosed the castle with a stone wall and deep ditch. Wakefield and Lanthorn towers c. 1220.",
+          "form": "White Tower within a walled inner bailey reaching the river, first western ditch and curtain with the Bell Tower.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not documented in fetched sources."}
+        },
+        {
+          "label": "Henry III's inner curtain; White Tower whitewashed",
+          "from": 1238,
+          "to": 1272,
+          "dateNote": "Whitewashing from 1240. Inner curtain on the north and east built under Henry III (HRP: 1240s); Stow records the new west gate and bulwarks collapsing in 1240 and again in 1247.",
+          "form": "Towered inner curtain wall enclosing the present inner ward, extending the castle east beyond the Roman city wall; bright white keep.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Wall heights not documented in fetched sources."}
+        },
+        {
+          "label": "Edward I's concentric castle",
+          "from": 1275,
+          "to": 1285,
+          "dateNote": "1275-1285 at a cost of c. 21,000 pounds; St Thomas's Tower (water gate) 1275-79; wharf begun, extended to full length under Richard II.",
+          "form": "Low outer curtain wall, new wide wet moat on three sides, river frontage with water gate, western entrance through Lion Tower barbican, Middle Tower and Byward Tower.",
+          "dimensions": {"lengthM": null, "widthM": 50, "heightM": null, "note": "Moat c. 50 m (160 ft) wide and originally about 4.5 m deeper at the centre than today. Whole castle c. 4.9 ha (12 acres). From Wikipedia, as a lead."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Start date of the White Tower is uncertain within c. 1075-1081. Its original roofline was lower than the present parapet (roofs were sunk within the walls) and the turret caps are Tudor. Heights of the 13th-century curtain walls were not found.",
+      "correctionsToDraft": "'Begun c. 1075-78, complete c. 1100' matches HRP. Inner curtain: Henry III, 1238-1240s, but a first stone enclosure and ditch date from c. 1190 (Longchamp). Outer curtain and moat: Edward I 1275-85. Height 27 m to the battlements.",
+      "sources": [
+        {"title": "1066 and the Norman Tower of London: Chronology", "publisher": "Historic Royal Palaces", "url": "https://www.hrp.org.uk/media/1704/teach047_normantoweroflondonchronology.pdf"},
+        {"title": "The Tower of London: Historic Environment site form", "publisher": "Historic Royal Palaces", "url": "https://www.hrp.org.uk/media/1807/teach303_tolhistoricsiteformocr.pdf"},
+        {"title": "Stow, Survey of London: Of Towers and Castels", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"},
+        {"title": "Tower of London (lead only, for dimensions and 1275-85)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tower_of_London"}
+      ]
+    },
+    {
+      "id": "old-st-pauls",
+      "name": "Old St Paul's Cathedral (Romanesque and Gothic)",
+      "lat": 51.5138,
+      "lon": -0.0984,
+      "phases": [
+        {
+          "label": "Romanesque cathedral under construction",
+          "from": 1087,
+          "to": 1221,
+          "dateNote": "Begun by Bishop Maurice after the fire of 1087; damaged and delayed by the fire of 1135 (VCH) or 1136 (Stow). The four-bay presbytery over a crypt came first, then the long nave.",
+          "form": "Very large Romanesque church of Taynton and Caen stone on stone vaults, with a long aisled nave of round arches; no spire yet.",
+          "dimensions": {"lengthM": null, "widthM": 31.7, "heightM": 28.3, "note": "Nave breadth 104 ft; nave vault ridge 93 ft (Benham after Gilbertson). Clifton-Taylor (via Wikipedia) gives 100 ft. Length of the Romanesque church alone is not known."}
+        },
+        {
+          "label": "Central tower and first spire",
+          "from": 1221,
+          "to": 1255,
+          "dateNote": "Steeple erected 1221 (Benham) or finished 1222 (Stow). Rededication 1240 or 1241 under Bishop Roger Niger. Transepts and tower rebuilt in the first half of the 13th century.",
+          "form": "Crossing tower with a lead-covered timber spire; Romanesque nave and choir.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Height of the first spire not recorded."}
+        },
+        {
+          "label": "The New Work (Gothic east end)",
+          "from": 1255,
+          "to": 1314,
+          "dateNote": "Start date varies by source: 1251 (Stow, VCH), 1255 (Benham), 1256 for the crossing aisles (Stow), 1269 (Schofield). Completed and the renewed spire dedicated 1314. Chapter house and cloister 1332.",
+          "form": "Twelve-bay Gothic eastern arm ending in a great rose window, giving a church with a long Romanesque nave, Gothic choir, transepts and a tall central tower and spire.",
+          "dimensions": {"lengthM": 178.6, "widthM": 88.4, "heightM": 149, "note": "Length 586 ft excluding the later portico (Penrose's 1878 excavation, as reported by Benham and Clifton-Taylor); width across the transepts 290 ft. Spire height is disputed: 489 ft/149 m is the traditional figure (tower 285 ft plus spire 204 ft in Benham); Stow gives 520 ft (260 + 260); Wren thought 460 ft/140 m; the Historic England summary of Schofield's 2011 study says c. 400 ft/122 m (seen in search results only). Hooke measured the surviving tower at about 204 ft in 1664. Treat anything between 122 and 149 m as defensible and label it uncertain."}
+        },
+        {
+          "label": "Spire damaged and lost",
+          "from": 1444,
+          "to": 1561,
+          "dateNote": "Lightning 1 February 1444, repaired by 1462; lightning fire 4 June 1561 destroyed the spire and roofs. Spire never rebuilt.",
+          "form": "As before until 1561; afterwards a tower without a spire and new low-pitched roofs.",
+          "dimensions": {"lengthM": 178.6, "widthM": 88.4, "heightM": null, "note": "Tower alone after 1561: 204 ft (Hooke) or 285 ft (Benham); sources conflict."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Spire height (see note) and tower height are genuinely uncertain. Stow's 720 ft length and Matthew of Westminster's 690 ft are wrong. The elevation is known mainly from Hollar's 1650s engravings, which post-date the spire. The stpauls.co.uk timeline timed out when fetched; its statement that the quire was complete by 1148 comes from a search snippet.",
+      "correctionsToDraft": "Spire: first erected 1221/1222 (not rebuilt in 1315; the renewed spire was dedicated in 1314). New Work start is 1251-1256 depending on source, finished 1314. Overall length 586 ft (c. 179 m). Use c. 149 m as the traditional spire height but flag 122-158 m as the published range.",
+      "sources": [
+        {"title": "Secular canons: Cathedral of St Paul (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp409-433"},
+        {"title": "Stow, Survey of London: Faringdon ward infra", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp310-344"},
+        {"title": "W. Benham, Old St Paul's Cathedral (1902)", "publisher": "Project Gutenberg", "url": "https://www.gutenberg.org/files/16531/16531-h/16531-h.htm"},
+        {"title": "The Archaeology of St Paul's Cathedral (John Schofield lecture)", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/node/12865"},
+        {"title": "A history of St Paul's Cathedral", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/a-history-of-st-pauls-cathedral/"},
+        {"title": "Old St Paul's Cathedral (lead only, for the range of height figures and their citations)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_St_Paul%27s_Cathedral"}
+      ]
+    },
+    {
+      "id": "old-london-bridge-stone",
+      "name": "Old London Bridge (stone bridge of Peter of Colechurch)",
+      "lat": 51.508,
+      "lon": -0.0868,
+      "phases": [
+        {
+          "label": "Construction",
+          "from": 1176,
+          "to": 1209,
+          "dateNote": "Begun c. 1176 by Peter of Colechurch (d. 1205, buried in the bridge chapel); King John recommended Isembert of Saintes in 1202; finished 1209 (33 years, Stow). Dendro: timber in the Southwark abutment felled 1187/88; a dated stone of 1192.",
+          "form": "Stone bridge built pier by pier from the south, each pier on a boat-shaped 'starling' of elm piles and rubble; the timber bridge stayed in use just downstream.",
+          "dimensions": {"lengthM": 276.09, "widthM": 6.09, "heightM": null, "note": "Final dimensions, see next phase."}
+        },
+        {
+          "label": "Completed bridge with chapel, gates and first houses",
+          "from": 1209,
+          "to": 1281,
+          "dateNote": "Fire of 11 July 1212 (starting in Southwark) burnt the chapel and bridge buildings; Stow's 3,000 dead is not credible as a number. Stonegate and Drawbridge Gate both documented by 1258 and thought original. Gate-towers and houses were on the bridge by 1212 according to the older literature; Gerhold argues houses from the start.",
+          "form": "19 irregular stone piers on broad starlings carrying 19 pointed stone arches plus one opening closed by a timber drawbridge (20 openings in all, as Stow counts). Chapel of St Thomas Becket on an enlarged pier near the middle (the ninth from the City is exceptionally large), projecting downstream. Stonegate on the second pier from Southwark (18th from the north); Drawbridge Gate at the seventh opening from the south (13th pier from the north) with a portcullis on its south face.",
+          "dimensions": {"lengthM": 276.09, "widthM": 6.09, "heightM": null, "note": "Length 276.09 m (c. 906 ft) per MOLA's Bruce Watson; older works give 926 ft (282 m), which Gerhold's reviewers quote as the river width. Structural width probably 6.09 m (20 ft). Clear roadway between buildings: 3.66 m (12 ft) per Watson; 14-16 ft (4.3-4.9 m) per Gerhold, with the 1683 survey recording 12 ft 5 in to 18 ft 5 in. Arch spans average c. 24 ft (7.3 m), ranging roughly 14-32 ft. Starlings left only 508 ft (155 m) of waterway at high tide and 237 ft (72 m) at low tide, producing a fall of up to 5 ft (1.5 m). Stow's '60 ft high, 30 ft broad' is not reliable; deck height above water is not documented. First chapel dimensions unknown (Old and New London gives the later chapel as 60 ft long by 40 ft high, two storeys, an unsourced 19th-century figure). Pier widths vary and were not found in an open source."}
+        },
+        {
+          "label": "Collapse and Bridge House regime",
+          "from": 1281,
+          "to": 1384,
+          "dateNote": "Five arches carried away by ice in the winter of 1281-82 (Stow gives 1282, other sources 1281); Bridge House wardens established 1282. Rental of 1358 lists about 140 properties (138-140), the maximum ever.",
+          "form": "Continuous street of timber-framed shop-houses on both sides, interrupted by the chapel, the drawbridge and open gaps; houses only 2-5 ft on the bridge itself, the rest overhanging the river on timber platforms braced by 'hammer-beams' off the piers; some pairs joined across the roadway at upper level.",
+          "dimensions": {"lengthM": 276.09, "widthM": 6.09, "heightM": null, "note": "House plots about 10 ft (3 m) wide in 1358; buildings extended up to 34 ft (10.4 m) out from the bridge. Early houses probably two storeys plus garret (inferred); four to five storeys is a 16th-17th century condition."}
+        },
+        {
+          "label": "Late medieval bridge: chapel rebuilt, gates rebuilt",
+          "from": 1384,
+          "to": 1485,
+          "dateNote": "Chapel rebuilt in Perpendicular style 1387-96 (Yevele). Stow says a new tower at the north end of the drawbridge was begun in 1426. A large part of the Stonegate and two arches at the Southwark end collapsed in January 1437 (Stow: 1436, old-style year); Stonegate rebuilt 1437-1465/6; houses at the south end burnt in Cade's rising 1450; Stonegate and about 13 houses burnt by Fauconberg 1471. Drawbridge last raised regularly before 1475-76; a latrine house fell in 1481. Two-thirds of the houses were rebuilt 1477-1548.",
+          "form": "As before, with a two-storey stone chapel with tall traceried windows and pinnacles, a multi-storey masonry Drawbridge Gate with polygonal turrets displaying traitors' heads (from 1305), and a Stonegate with flanking hexagonal towers following the pier shape.",
+          "dimensions": {"lengthM": 276.09, "widthM": 6.09, "heightM": null, "note": "Gate and chapel heights not documented in the sources fetched."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "The bridge was demolished in 1831-32; plan and pier sizes come from 18th-19th century surveys and the 1984 Southwark abutment excavation, elevations from Wyngaerde (c. 1544) onwards. Exact pier and starling dimensions, deck height, the appearance of the first chapel and of houses before c. 1350 are not documented. Published lengths differ (276 m v. 282 m). The definitive figures are in Watson, Brigham and Dyson 2001 (MoLAS Monograph 8) and Gerhold 2019, neither of which is open access; I used a Watson article and a review article.",
+      "correctionsToDraft": "19 stone arches plus a drawbridge opening (20 openings). Length 276 m per MOLA rather than the traditional 282 m. Chapel rebuilt 1387-96, not 1384-97. Collapses: winter 1281-82 (five arches) and January 1437 (Stonegate and two arches). Houses were present well before Stow thought: about 140 in 1358. Fire is 11 July 1212.",
+      "sources": [
+        {"title": "Medieval London Bridge and its role in the defence of the realm (B. Watson, LAMAS Trans 50)", "publisher": "London & Middlesex Archaeological Society / ADS", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_17-22_MedievalLondonBridgeAndRoleInDefenceOfTheRealm.pdf"},
+        {"title": "Life across the water: exploring London Bridge and its houses (after D. Gerhold)", "publisher": "Current Archaeology / The Past", "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/"},
+        {"title": "Stow, Survey of London: Bridges of this Citie", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp21-27"},
+        {"title": "Stow, Survey of London: Of Towers and Castels (bridge towers)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"},
+        {"title": "Austin canons: Priory of Southwark (date of the 1212 fire)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp480-484"},
+        {"title": "Old and New London vol. 2: London Bridge", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/old-new-london/vol2/pp9-17"},
+        {"title": "London Bridge (lead only)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/London_Bridge"}
+      ]
+    },
+    {
+      "id": "st-magnus-the-martyr",
+      "name": "St Magnus the Martyr (medieval church at the north bridge foot)",
+      "lat": 51.5093,
+      "lon": -0.0861,
+      "phases": [
+        {
+          "label": "Medieval parish church",
+          "from": 1100,
+          "to": 1666,
+          "dateNote": "Earliest mention is usually given as a 1067 confirmation charter of William I to Westminster Abbey naming 'St Magnus near the bridge', but that charter is widely regarded as a later forgery and I saw it only in search results. If the dedication is to Magnus of Orkney (d. 1118, canonised 1135), the dedication at least cannot pre-date the 12th century. Burials recorded from 1307. Burnt 1666.",
+          "form": "Stone parish church standing directly beside the bridge approach on Thames Street; form unknown before the 16th-century panoramas.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "low",
+      "uncertainty": "Foundation date, original dedication and medieval form are all uncertain. A safe model start is the early 12th century.",
+      "correctionsToDraft": "No firm 'earliest mention' could be verified: 1067 rests on a suspect charter. Use 'by the early 12th century'.",
+      "sources": [
+        {"title": "St Magnus the Martyr", "publisher": "City of London Corporation", "url": "https://www.cityoflondon.gov.uk/things-to-do/architecture/city-churches-and-religious-buildings/st-magnus-the-martyr"},
+        {"title": "Stow, Survey of London: Bridgewarde within", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp211-216"}
+      ]
+    },
+    {
+      "id": "fishmongers-hall",
+      "name": "Fishmongers' Hall and Stockfishmonger Row",
+      "lat": 51.5094,
+      "lon": -0.0874,
+      "phases": [
+        {
+          "label": "Fishmongers' riverside properties",
+          "from": 1290,
+          "to": 1434,
+          "dateNote": "Fishmongers active as a body by 1290; Stow says they held six halls (two each in Thames Street, New Fish Street and Old Fish Street).",
+          "form": "Merchant houses and wharves on the south side of Thames Street just west of the bridge.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Hall on the present site",
+          "from": 1434,
+          "to": 1666,
+          "dateNote": "The company is usually said to have acquired the Thames Street house (formerly Lord Fanhope's) in 1434; I did not verify 1434. Stow records the 1536 union of Stock- and Salt-fishmongers meeting in that house.",
+          "form": "Large courtyard town house with a river frontage and wharf, as shown on 16th-century views.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not documented in fetched sources."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "low",
+      "uncertainty": "Dates before 1536 and the building's form are not verified from a fetched institutional source.",
+      "correctionsToDraft": "Draft gave no date; 1434 is the traditional acquisition date but unverified here.",
+      "sources": [
+        {"title": "Stow, Survey of London: Bridgewarde within", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp211-216"}
+      ]
+    },
+    {
+      "id": "billingsgate",
+      "name": "Billingsgate (harbour and quay)",
+      "lat": 51.5088,
+      "lon": -0.0838,
+      "phases": [
+        {
+          "label": "Late Saxon landing place",
+          "from": 1000,
+          "to": 1200,
+          "dateNote": "Earliest post-Roman structures between Billingsgate and the bridge (jetty and rubble bank at New Fresh Wharf) are late 10th or early 11th century (LAMAS summary seen in search results). Billingsgate tolls are in a law code of Aethelred II (c. 1000), from memory, not verified.",
+          "form": "Foreshore with a jetty and bank in front of the decaying Roman riverside wall.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Medieval dock",
+          "from": 1200,
+          "to": 1485,
+          "dateNote": "Customs tariff under Edward III; overtakes Queenhithe in the 15th century because it lies below the bridge.",
+          "form": "Rectangular inlet dock with timber then stone quays, flanked by private wharves (Botolph's Wharf, Somers Key, Lion Key, Smart's Key).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not documented in fetched sources."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Dock dimensions and exact dates of each quay line were not obtained (they are in Schofield et al. 2018 and Steedman et al. 1992).",
+      "correctionsToDraft": "",
+      "sources": [
+        {"title": "Stow, Survey of London: Billinsgate warde", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp205-211"},
+        {"title": "Medieval (c1066-c1500), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/?p=84"}
+      ]
+    },
+    {
+      "id": "steelyard",
+      "name": "Steelyard (Hanseatic Guildhall, Dowgate)",
+      "lat": 51.5103,
+      "lon": -0.0907,
+      "phases": [
+        {
+          "label": "Guildhall of the German merchants",
+          "from": 1259,
+          "to": 1475,
+          "dateNote": "Stow: Henry III's grant of liberties 1259; 1282 agreement making the Hanse responsible for Bishopsgate; adjoining house leased in 1382-83. German merchants were in London earlier (12th century) but I did not verify a date.",
+          "form": "Large stone hall on Thames Street with three round-arched gates to the street, the middle one largest, and wharves behind.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not documented."}
+        },
+        {
+          "label": "Enlarged Steelyard",
+          "from": 1475,
+          "to": 1598,
+          "dateNote": "Whole precinct confirmed to the Hanse by Parliament 1475 (Treaty of Utrecht settlement); liberties seized 1551; closed 1598.",
+          "form": "Walled riverside compound of hall, warehouses, houses and a crane between Thames Street and the river.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not documented in fetched sources."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Plan and building heights for the medieval period are not documented in the sources fetched.",
+      "correctionsToDraft": "",
+      "sources": [
+        {"title": "Stow, Survey of London: Downegate warde", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp229-238"}
+      ]
+    },
+    {
+      "id": "custom-house-wool-quay",
+      "name": "Custom House at Wool Quay",
+      "lat": 51.5085,
+      "lon": -0.0805,
+      "phases": [
+        {
+          "label": "Wool Quay with an early custom house",
+          "from": 1275,
+          "to": 1382,
+          "dateNote": "Wool Quay traceable to c. 1275; river wall fortified 1339; a 'house for the Great Custom at le Wollekey' existed by 31 October 1377.",
+          "form": "Timber-revetted quay with a weigh-house or counting house.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "John Churchman's Custom House",
+          "from": 1382,
+          "to": 1559,
+          "dateNote": "Quay granted to Churchman 12 April 1378; new weigh-house 1382; enlarged 1383 (counting house with chamber over, latrine); Petty Custom also collected here from 1386. Replaced 1559.",
+          "form": "Two-storey quayside building with weighing hall (tronage) below and counting house above.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Excavated in 1973 (foundations found) but dimensions not in the source fetched."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Building dimensions and elevation not obtained.",
+      "correctionsToDraft": "Churchman's building of 1382 was not the first: a custom house stood at Wool Quay by 1377.",
+      "sources": [
+        {"title": "Survey of London vol. 15: The Custom House", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/node/65494"}
+      ]
+    },
+    {
+      "id": "medieval-waterfront-reclamation",
+      "name": "North-bank waterfront reclamation south of Thames Street",
+      "lat": 51.5092,
+      "lon": -0.0855,
+      "phases": [
+        {
+          "label": "Foreshore in front of the Roman riverside wall",
+          "from": 886,
+          "to": 1000,
+          "dateNote": "Roman riverside wall line lies under Upper and Lower Thames Street and was still standing at Queenhithe in the late 9th century.",
+          "form": "Sloping beach used as a market, with light timber trestles and huts.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Late Saxon embankments",
+          "from": 1000,
+          "to": 1100,
+          "dateNote": "Low revetments from the late 10th century; timber embankments dendro-dated 1021 and 1045 at Queenhithe.",
+          "form": "Low post-and-plank revetments and brushwood embankments a few metres in front of the wall.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": 0.4, "note": "Single advances of 1.5 m documented at Queenhithe."}
+        },
+        {
+          "label": "Piecemeal medieval reclamation",
+          "from": 1100,
+          "to": 1500,
+          "dateNote": "Reclaimed 'in many stages since the opening of the 12th century' (Schofield et al.), plot by plot, each stage dated by dendrochronology; sequences run through the 12th-15th centuries, with most post-and-plank fronts at some sites in the 14th century; stone river walls increasingly from the 14th-15th century.",
+          "form": "Vertical timber revetments (later stone walls) built at low tide and backfilled with refuse, each property advancing separately so the frontage was ragged, with narrow lanes and stairs between long wharf plots.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Total advance of the north bank between c. 1000 and c. 1500 is commonly given as roughly 50-100 m near the bridgehead (Thames Street marks the old river wall line; today the river wall is c. 100 m south of it), but I could NOT verify a figure in a fetched source. Treat as approximate."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "The headline distance is unverified here; the dated revetment sequences are in Steedman et al. 1992 and Schofield et al. 2018 (not open access). Advance varied by property.",
+      "correctionsToDraft": "Show reclamation as incremental and uneven from c. 1000 to c. 1500, with Thames Street as the fixed landward line, rather than a single shift.",
+      "sources": [
+        {"title": "The Saxon origins of Queenhithe (LAMAS Trans 50)", "publisher": "London & Middlesex Archaeological Society / ADS", "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_12-16_SaxonOriginsQueenhithe.pdf"},
+        {"title": "Medieval (c1066-c1500), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/?p=84"},
+        {"title": "The Tower of London: Historic Environment site form (Roman riverside wall line)", "publisher": "Historic Royal Palaces", "url": "https://www.hrp.org.uk/media/1807/teach303_tolhistoricsiteformocr.pdf"}
+      ]
+    },
+    {
+      "id": "st-olave-southwark-and-bridge-foot",
+      "name": "St Olave Southwark and the Southwark bridge foot",
+      "lat": 51.5063,
+      "lon": -0.0863,
+      "phases": [
+        {
+          "label": "Church of St Olaf",
+          "from": 1050,
+          "to": 1485,
+          "dateNote": "Olaf died 1030; London churches dedicated to him are placed c. 1050 by London Museum. St Olave Southwark is usually said to be first recorded c. 1096 (unverified here). Stow describes it on the Thames bank with a large parish.",
+          "form": "Stone parish church on the riverbank immediately east of the bridge foot (Tooley Street).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        },
+        {
+          "label": "Bridge foot and Bridge House",
+          "from": 1176,
+          "to": 1485,
+          "dateNote": "12th-century stone abutment excavated 1984 (timber felled 1187/88). Bridge House yard east of St Olave's from 1282 onwards. Southwark burnt 1066 and 1212; 12th-13th century flooding and erosion.",
+          "form": "Stone abutment and causeway leading to the Stonegate; Bridge House storeyard with stone and timber stores (and later ovens and granaries) on the river east of the church; inns along the high street to the south.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not documented in fetched sources."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "low",
+      "uncertainty": "First-mention date and medieval form of St Olave's not verified. Layout of the bridge foot before the 16th century is reconstructed from the 1984 excavation and later views.",
+      "correctionsToDraft": "",
+      "sources": [
+        {"title": "Stow, Survey of London: Bridge warde without", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp52-69"},
+        {"title": "Vikings in London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/vikings/"},
+        {"title": "Life across the water: exploring London Bridge and its houses", "publisher": "Current Archaeology / The Past", "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/"}
+      ]
+    },
+    {
+      "id": "baynards-castle-first",
+      "name": "Baynard's Castle I (Norman castle by the Fleet mouth)",
+      "lat": 51.5125,
+      "lon": -0.103,
+      "phases": [
+        {
+          "label": "Norman castle",
+          "from": 1070,
+          "to": 1213,
+          "dateNote": "Built by Ralph Baynard soon after the Conquest (date not exact); passed to the Fitzwalters; slighted by King John c. 1213 (Stow), i.e. January 1213 in most modern accounts.",
+          "form": "Fortified enclosure in the south-west angle of the city wall above the Thames; form unknown beyond ditches found in excavation.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        },
+        {
+          "label": "Site after slighting",
+          "from": 1213,
+          "to": 1276,
+          "dateNote": "Fitzwalter licensed to rebuild in 1214 according to Stow, but the site was given up for the Blackfriars in 1276.",
+          "form": "Ruined or partly reoccupied castle site.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "low",
+      "uncertainty": "No plan or elevation is known. Whether anything was rebuilt between 1214 and 1276 is unclear.",
+      "correctionsToDraft": "'To 1213' is right for the slighting; the site was not absorbed by Blackfriars until 1276.",
+      "sources": [
+        {"title": "Stow, Survey of London: Of Towers and Castels", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"},
+        {"title": "Medieval (c1066-c1500), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/?p=84"}
+      ]
+    },
+    {
+      "id": "baynards-castle-second",
+      "name": "Baynard's Castle II (riverside mansion east of the first castle)",
+      "lat": 51.5114,
+      "lon": -0.1,
+      "phases": [
+        {
+          "label": "14th-century riverside house",
+          "from": 1330,
+          "to": 1428,
+          "dateNote": "A house on reclaimed land about 100 m south-east of the first castle took over the name during the 14th century (date not exact; Stow mentions a tower granted in 1328).",
+          "form": "Stone and timber town house on the waterfront.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Duke Humphrey's rebuild",
+          "from": 1428,
+          "to": 1501,
+          "dateNote": "Burnt 1428 and rebuilt by Humphrey, Duke of Gloucester; to the Crown 1446, then Richard of York; Edward IV proclaimed from here 1461.",
+          "form": "Large courtyard house with a river wall and towers.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not documented in fetched sources."}
+        },
+        {
+          "label": "Henry VII's palace",
+          "from": 1501,
+          "to": 1666,
+          "dateNote": "Rebuilt c. 1501 'not embattled' as a palace; burnt 1666.",
+          "form": "Four-range palace rising sheer from the Thames with a row of projecting polygonal turrets and gabled bays on the river front.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "River front excavated 1972-75; dimensions not in the sources fetched."}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "medium",
+      "uncertainty": "Dimensions and pre-1428 form not obtained.",
+      "correctionsToDraft": "Confirmed: fire and rebuild 1428, palace rebuild c. 1501.",
+      "sources": [
+        {"title": "Stow, Survey of London: Of Towers and Castels", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"},
+        {"title": "Stow, Survey of London: Castle Baynard warde", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-20"}
+      ]
+    },
+    {
+      "id": "montfichets-tower",
+      "name": "Montfichet's Tower",
+      "lat": 51.5133,
+      "lon": -0.102,
+      "phases": [
+        {
+          "label": "Norman castle",
+          "from": 1070,
+          "to": 1213,
+          "dateNote": "Built by a Norman baron soon after the Conquest; a William Montfichet recorded under Henry I; Stow suggests it was ruined in 1213.",
+          "form": "Small stone tower or keep within ditches on Ludgate Hill, between Ludgate and Baynard's Castle.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        },
+        {
+          "label": "Ruin, then demolished for Blackfriars",
+          "from": 1213,
+          "to": 1276,
+          "dateNote": "Demolished c. 1276 and its stone reused for the Blackfriars church.",
+          "form": "Ruin.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "low",
+      "uncertainty": "Exact site, plan and height unknown; coordinates are approximate.",
+      "correctionsToDraft": "",
+      "sources": [
+        {"title": "Stow, Survey of London: Of Towers and Castels", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71"},
+        {"title": "Friaries: The black friars (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp498-502"}
+      ]
+    },
+    {
+      "id": "temple-church",
+      "name": "New Temple and Temple Church",
+      "lat": 51.5132,
+      "lon": -0.1104,
+      "phases": [
+        {
+          "label": "Round Church",
+          "from": 1185,
+          "to": 1240,
+          "dateNote": "Templars moved from Holborn (Old Temple, c. 1128) to the Fleet Street site in 1184; round church dedicated 1185 by Heraclius, Patriarch of Jerusalem (firm).",
+          "form": "Circular nave with a ring of six Purbeck marble piers and an encircling aisle, a Norman west door, and a small original chancel.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in fetched sources (the Round is commonly cited as c. 17 m in diameter; unverified here)."}
+        },
+        {
+          "label": "Round plus hall-church chancel",
+          "from": 1240,
+          "to": 1485,
+          "dateNote": "New eastern part dedicated 1240 in Henry III's presence. Order suppressed 1308-12; Hospitallers in possession from 1324; let to lawyers from the mid 14th century.",
+          "form": "Round nave with a rectangular three-aisled Gothic chancel of equal-height aisles; precinct of halls, cloister and gardens down to the river.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in fetched sources."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Dimensions not verified; conical roof and battlements of the Round are 19th-century and post-war restorations.",
+      "correctionsToDraft": "1185 confirmed; add the chancel of 1240.",
+      "sources": [
+        {"title": "Houses of Military Orders: The Temple (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp485-491"},
+        {"title": "History", "publisher": "Temple Church", "url": "https://www.templechurch.com/history"}
+      ]
+    },
+    {
+      "id": "blackfriars",
+      "name": "Blackfriars (Dominican friary, Ludgate)",
+      "lat": 51.5125,
+      "lon": -0.1035,
+      "phases": [
+        {
+          "label": "Friary built; city wall moved west",
+          "from": 1276,
+          "to": 1320,
+          "dateNote": "Dominicans in Holborn from 1221; Thames-side site obtained 1276; church begun 1279, unfinished 1288, cloister under way 1292. City wall rebuilt from Ludgate to the Fleet and down to the Thames, authorised 1282 and still being finished in 1310.",
+          "form": "Large aisled friars' church with a slim steeple between nave and choir, cloisters to the south, inside a new westward loop of the city wall along the Fleet.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in fetched sources."}
+        },
+        {
+          "label": "Established friary",
+          "from": 1320,
+          "to": 1538,
+          "dateNote": "Precinct enlarged 1312-13; surrendered 12 November 1538.",
+          "form": "Walled precinct with church, two cloisters, a great hall used for parliaments, and gardens to the river.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Church dimensions and elevation not obtained.",
+      "correctionsToDraft": "Site granted 1276; church building began 1279 and ran into the 1290s, so '1276-78' is too short.",
+      "sources": [
+        {"title": "Friaries: The black friars (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp498-502"},
+        {"title": "Stow, Survey of London: The wall about the Citie", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp5-10"}
+      ]
+    },
+    {
+      "id": "greyfriars",
+      "name": "Greyfriars (Franciscan friary, Newgate)",
+      "lat": 51.5158,
+      "lon": -0.099,
+      "phases": [
+        {
+          "label": "First friary",
+          "from": 1225,
+          "to": 1306,
+          "dateNote": "Franciscans landed September 1224 and received the Newgate site in summer 1225; nave built by Henry le Waleys (mayor 1274).",
+          "form": "Modest first church and cloister just inside Newgate.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        },
+        {
+          "label": "Great church",
+          "from": 1306,
+          "to": 1538,
+          "dateNote": "Begun 1306 (Queen Margaret), consecrated 1325, finished 1327 (VCH; Stow's '1337' contradicts his own '21 years'); cloister works to 1345; library 1421-25 (Stow says 1429). Surrendered 12 November 1538.",
+          "form": "Very long aisled friars' church with a slender central steeple, the second-largest church in the City; cloisters to the north.",
+          "dimensions": {"lengthM": 91.4, "widthM": 27.1, "heightM": 19.5, "note": "300 ft long, 89 ft wide, 64 ft high to the roof (Stow; VCH repeats length and width)."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "high",
+      "uncertainty": "Steeple height unknown.",
+      "correctionsToDraft": "Arrival 1224, site 1225 (draft fine); the great church is 1306-1327.",
+      "sources": [
+        {"title": "Friaries: The grey friars (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp502-507"},
+        {"title": "Stow, Survey of London: Faringdon ward infra", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp310-344"}
+      ]
+    },
+    {
+      "id": "austin-friars",
+      "name": "Austin Friars (Broad Street)",
+      "lat": 51.5155,
+      "lon": -0.0855,
+      "phases": [
+        {
+          "label": "First friary",
+          "from": 1253,
+          "to": 1354,
+          "dateNote": "Founded 1253 by Humphrey de Bohun.",
+          "form": "Friary church and cloister off Broad Street.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Unknown."}
+        },
+        {
+          "label": "Rebuilt church",
+          "from": 1354,
+          "to": 1538,
+          "dateNote": "Church rebuilt 1354; steeple ruined by storm 1362 and replaced; surrendered November 1538.",
+          "form": "Large aisled church with a tall, slender spire, a notable City landmark.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in fetched sources."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Dimensions and spire height not obtained.",
+      "correctionsToDraft": "1253 confirmed.",
+      "sources": [
+        {"title": "Friaries: The Austin friars (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp510-513"}
+      ]
+    },
+    {
+      "id": "holy-trinity-priory-aldgate",
+      "name": "Holy Trinity Priory, Aldgate",
+      "lat": 51.5137,
+      "lon": -0.078,
+      "phases": [
+        {
+          "label": "Foundation and first church",
+          "from": 1108,
+          "to": 1132,
+          "dateNote": "Founded 1107 or 1108 by Queen Matilda.",
+          "form": "Augustinian priory church just inside Aldgate.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Rebuilt priory",
+          "from": 1132,
+          "to": 1532,
+          "dateNote": "Church almost wholly burnt 1132 and rebuilt; Lady Chapel 1197-1221; rebuilding from c. 1339. Surrendered February 1532, the first London house dissolved.",
+          "form": "Large cruciform Romanesque and Gothic church with cloister to the north, against the inside of the city wall.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in fetched sources."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Plan dimensions exist (Schofield and Lea 2005) but were not fetched.",
+      "correctionsToDraft": "1107/1108 confirmed; add the 1132 fire.",
+      "sources": [
+        {"title": "Austin canons: Priory of Holy Trinity or Christchurch, Aldgate (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp465-475"}
+      ]
+    },
+    {
+      "id": "st-bartholomews-priory-and-hospital",
+      "name": "St Bartholomew's Priory and Hospital, West Smithfield",
+      "lat": 51.5189,
+      "lon": -0.0997,
+      "phases": [
+        {
+          "label": "Rahere's foundation",
+          "from": 1123,
+          "to": 1300,
+          "dateNote": "1123 accepted by VCH (Stow's 1102 rejected); royal charter 1133. Priory and hospital founded together.",
+          "form": "Romanesque priory church with apsidal choir and ambulatory (the choir survives), long nave to the west; separate hospital buildings to the south.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in fetched sources."}
+        },
+        {
+          "label": "Later medieval priory",
+          "from": 1300,
+          "to": 1539,
+          "dateNote": "Additions after 1308; Lady Chapel new by 1322; cloister, bell tower and chapter house rebuilt by 1409; Prior Bolton's works from c. 1506. Surrendered October 1539; hospital refounded and given to the City 1544-47.",
+          "form": "Full-length monastic church with Gothic nave and Lady Chapel; cloister to the south.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Nave length and tower form before the Dissolution not obtained.",
+      "correctionsToDraft": "1123 confirmed.",
+      "sources": [
+        {"title": "Austin canons: Priory of St Bartholomew, Smithfield (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp475-480"},
+        {"title": "Hospitals: St Bartholomew (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp520-525"}
+      ]
+    },
+    {
+      "id": "charterhouse",
+      "name": "London Charterhouse and Black Death cemetery",
+      "lat": 51.5218,
+      "lon": -0.1003,
+      "phases": [
+        {
+          "label": "Plague cemetery and chapel",
+          "from": 1349,
+          "to": 1371,
+          "dateNote": "About 13 acres (Spital Croft) rented by Sir Walter Manny; cemetery dedicated and chapel begun 25 March 1349.",
+          "form": "Walled burial ground with a small chapel and a hermitage.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Cemetery c. 13 acres (5.3 ha)."}
+        },
+        {
+          "label": "Carthusian priory under construction",
+          "from": 1371,
+          "to": 1436,
+          "dateNote": "Foundation charter 28 March 1371; contract with Henry Yevele May 1371; cells built one by one as funded, 19 by 1412; chapel lengthened c. 30 ft in 1405; chapter house altar 1414; little cloister 1436.",
+          "form": "Great cloister ringed by individual two-storey cells each with a walled garden, with the church, chapter house and small cloister on the south side.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Great cloister dimensions not given in the source fetched."}
+        },
+        {
+          "label": "Complete priory",
+          "from": 1436,
+          "to": 1538,
+          "dateNote": "Surrendered 1537, disbanded 1538.",
+          "form": "As above, fully built.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-excavated",
+      "confidence": "high",
+      "uncertainty": "Cloister and cell dimensions not obtained.",
+      "correctionsToDraft": "1371 confirmed; the cemetery of 1349 precedes it and the cells took about 60 years to complete.",
+      "sources": [
+        {"title": "Religious Houses: House of Carthusian monks (VCH Middlesex vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/middx/vol1/pp159-169"}
+      ]
+    },
+    {
+      "id": "st-mary-overie",
+      "name": "St Mary Overie Priory (Southwark Cathedral)",
+      "lat": 51.5061,
+      "lon": -0.0896,
+      "phases": [
+        {
+          "label": "Pre-Conquest minster (tradition)",
+          "from": null,
+          "to": 1106,
+          "dateNote": "Stow's story of a nunnery and college is legend; a minster at Southwark is recorded in Domesday (from memory, not verified here).",
+          "form": "Unknown.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Norman priory church",
+          "from": 1106,
+          "to": 1212,
+          "dateNote": "Augustinian canons established 1106; nave attributed to Bishop Giffard 1106-07.",
+          "form": "Romanesque cruciform church (fragments survive).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Gothic rebuilding after the fire",
+          "from": 1212,
+          "to": 1390,
+          "dateNote": "Burnt 11 July 1212 (the '1207' in the Bermondsey annals and Stow is an error); canons back in their house 1215; church rebuilding still under way 1273.",
+          "form": "Early Gothic choir and retrochoir (surviving), transepts, crossing and nave.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given in fetched sources."}
+        },
+        {
+          "label": "Late medieval church",
+          "from": 1390,
+          "to": 1539,
+          "dateNote": "Fire damage in Richard II's reign, church reconciled 1390 and 1391; nave roof fell 1469 and was renewed in timber; surrendered 27 October 1539.",
+          "form": "As before with a rebuilt south transept, raised central tower (upper stages late 14th-15th century, date not verified) and a timber nave vault.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "medium",
+      "uncertainty": "Tower building dates and all dimensions unverified. The present nave is 1890s.",
+      "correctionsToDraft": "1106 and the post-1212 Gothic rebuild are confirmed; the fire is 11 July 1212, the same fire as on London Bridge.",
+      "sources": [
+        {"title": "Austin canons: Priory of Southwark (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp480-484"},
+        {"title": "Augustinian Heritage", "publisher": "Southwark Cathedral", "url": "https://cathedral.southwark.anglican.org/about-us/augustinian-heritage/"},
+        {"title": "Stow, Survey of London: Bridge warde without", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp52-69"}
+      ]
+    },
+    {
+      "id": "winchester-palace",
+      "name": "Winchester Palace (Bishop of Winchester's house, Southwark)",
+      "lat": 51.5069,
+      "lon": -0.0907,
+      "phases": [
+        {
+          "label": "12th-century palace",
+          "from": 1140,
+          "to": 1300,
+          "dateNote": "English Heritage: founded in the 12th century by Bishop Henry of Blois (bishop 1129-71; the site was acquired in the 1140s, a date I did not verify). Stow instead credits Bishop Giffard c. 1107.",
+          "form": "Stone hall and chamber block on the riverbank west of the priory, with a private wharf.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Great hall rebuilt",
+          "from": 1300,
+          "to": 1485,
+          "dateNote": "Great hall and rose window are 14th century (Historic England list entry, seen in search results only). Royal wedding feast 1424.",
+          "form": "First-floor great hall over a vaulted cellar, parallel to the river, west gable with three service doors and a rose window; two courtyards, bishop's stairs and wharf.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": 15, "note": "Surviving west gable stands c. 50 ft (15 m); rose window c. 13 ft (4 m) in diameter. Both figures from Historic England pages seen in search results, not fetched. Hall length not verified."}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "medium",
+      "uncertainty": "Foundation date differs between Stow (c. 1107) and English Heritage (Henry of Blois, mid 12th century). Hall plan dimensions unverified.",
+      "correctionsToDraft": "'12th c.' is right; attribute to Henry of Blois (c. 1140s) rather than a single year, and note the standing hall is a 14th-century rebuild.",
+      "sources": [
+        {"title": "History of Winchester Palace", "publisher": "English Heritage", "url": "https://www.english-heritage.org.uk/visit/places/winchester-palace/history/"},
+        {"title": "Stow, Survey of London: Bridge warde without", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp52-69"}
+      ]
+    },
+    {
+      "id": "savoy-palace",
+      "name": "Savoy Palace",
+      "lat": 51.5103,
+      "lon": -0.1205,
+      "phases": [
+        {
+          "label": "Peter of Savoy's house",
+          "from": 1246,
+          "to": 1350,
+          "dateNote": "Stow: built 1245 by Peter of Savoy on land granted in Henry III's 30th year (1245-46).",
+          "form": "Noble riverside house between the Strand and the Thames.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Lancastrian palace",
+          "from": 1350,
+          "to": 1381,
+          "dateNote": "Rebuilt by Henry, Duke of Lancaster, at a cost of 52,000 marks (mid 14th century; exact years not given by Stow); John of Gaunt's residence. Burnt and blown up by the rebels in June 1381.",
+          "form": "Walled palace with great hall, chapel, cloister and river gate; reputedly the finest house in England.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not documented."}
+        },
+        {
+          "label": "Ruin",
+          "from": 1381,
+          "to": 1509,
+          "dateNote": "Left ruinous until Henry VII's hospital (founded by his will, built c. 1509-17).",
+          "form": "Burnt-out walls and river wall.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "No plan or view of the pre-1381 palace survives; any model is conjectural.",
+      "correctionsToDraft": "Destroyed 1381 confirmed. Add origin 1245-46 and the long ruin phase to c. 1509.",
+      "sources": [
+        {"title": "Stow, Survey of London: Liberties of the Dutchie of Lancaster", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp91-97"}
+      ]
+    },
+    {
+      "id": "guildhall",
+      "name": "Guildhall",
+      "lat": 51.5158,
+      "lon": -0.092,
+      "phases": [
+        {
+          "label": "Earlier guildhalls",
+          "from": 1120,
+          "to": 1411,
+          "dateNote": "First guildhall dated to the 1120s (Harry lecture); second hall and walled precinct from c. 1298-1330s; chapel c. 1299, college added 1356. Stow's 'little cottage' understates it.",
+          "form": "Stone hall over an undercroft (the west crypt survives) with a chapel, inside a precinct with walls c. 7 ft high and gatehouses.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Great Hall of John Croxton",
+          "from": 1411,
+          "to": 1430,
+          "dateNote": "Begun 1411; paving paid for 1422-23; mayor's court 1424-26; porch last. Sources give 1429, 1430 or 1440 for completion of the hall itself.",
+          "form": "Long stone great hall of ragstone with tall Perpendicular windows, open timber roof, east and west crypts beneath and a two-storey vaulted south porch with statues.",
+          "dimensions": {"lengthM": 50, "widthM": 17.5, "heightM": null, "note": "'Nearly 50 m long and 17.5 m wide', the second-largest secular hall in England after Westminster Hall (Gresham lecture). Medieval roof height unknown (roof replaced 1670, 1860s and 1953)."}
+        },
+        {
+          "label": "Completed civic precinct",
+          "from": 1430,
+          "to": 1666,
+          "dateNote": "Chapel rebuilt from 1430 (about 20 years), library by Whittington's executors, whole precinct in place c. 1450; kitchens 1501.",
+          "form": "Hall, porch, chapel, library and Blackwell Hall around Guildhall Yard.",
+          "dimensions": {"lengthM": 50, "widthM": 17.5, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Original roof form and height are reconstructions.",
+      "correctionsToDraft": "'1411-c. 1440' is acceptable for the precinct; the hall itself was substantially complete c. 1430 and the precinct c. 1450. Show an earlier stone guildhall on the site from the 12th-13th century.",
+      "sources": [
+        {"title": "Stow, Survey of London: Cheape warde", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp258-276"},
+        {"title": "Envy of Kings: The Guildhall of London and the Power of the Medieval Corporation", "publisher": "Gresham College", "url": "https://www.gresham.ac.uk/node/13035"},
+        {"title": "The many lives of Guildhall", "publisher": "City of London Corporation", "url": "https://www.guildhall.cityoflondon.gov.uk/visual-guides/the-many-lives-of-guildhall"}
+      ]
+    },
+    {
+      "id": "leadenhall",
+      "name": "Leadenhall (market, granary and chapel)",
+      "lat": 51.5128,
+      "lon": -0.0835,
+      "phases": [
+        {
+          "label": "Lead-roofed manor house and market",
+          "from": 1309,
+          "to": 1440,
+          "dateNote": "Neville manor by 1309; conveyed to the City 1411.",
+          "form": "Town manor house with a lead roof and a poultry market in its court.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Simon Eyre's garner",
+          "from": 1440,
+          "to": 1484,
+          "dateNote": "Stow gives conflicting dates (1419, and the year after the 1443 licence); modern accounts place construction c. 1440-55 (not verified in a fetched source). Eyre died 1459.",
+          "form": "Quadrangle of squared stone with open arcades to the court at ground level and granary lofts above, a gate to the north and a chapel on the east side.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Not given by Stow; excavated dimensions exist (Samuel 1989) but were not fetched."}
+        },
+        {
+          "label": "After the fire",
+          "from": 1484,
+          "to": 1666,
+          "dateNote": "Great fire of 1484 destroyed much of the building and stores; repaired and kept in use.",
+          "form": "As before, repaired.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Exact construction years and dimensions unverified.",
+      "correctionsToDraft": "'1440s' is right for Eyre's building; add City ownership from 1411 and the 1484 fire.",
+      "sources": [
+        {"title": "Stow, Survey of London: Limestreete warde", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp150-163"}
+      ]
+    },
+    {
+      "id": "city-wall-and-gates-medieval",
+      "name": "City wall and gates: medieval repairs and rebuildings",
+      "lat": 51.5178,
+      "lon": -0.0886,
+      "phases": [
+        {
+          "label": "Roman wall reused, gates on Roman sites",
+          "from": 886,
+          "to": 1215,
+          "dateNote": "Aldgate and Cripplegate named before the Conquest. FitzStephen (c. 1173-83; he died 1191) describes a high wall with towers on the north and seven double gates, the river wall already fallen. Newgate rebuilt under Henry I or Stephen.",
+          "form": "Roman ragstone wall patched and heightened; stone gatehouses; river side open.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Stow: landward wall 513 perches plus c. 60 along the Fleet (c. 2.9 km)."}
+        },
+        {
+          "label": "13th-century repairs and Blackfriars extension",
+          "from": 1215,
+          "to": 1415,
+          "dateNote": "Aldgate rebuilt 1215 with Caen stone and stone from Jewish houses; Ludgate repaired 1215 and 1260; Cripplegate rebuilt 1244; general repair 1257; wall moved west to the Fleet 1282-1310; repairs 1328 and under Richard II (murage for wall and ditch).",
+          "form": "Crenellated wall with added semicircular bastions on the west, a wide outer ditch, and seven principal gates used as prisons and lodgings.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Wall height and ditch width not given in fetched sources."}
+        },
+        {
+          "label": "15th-century works",
+          "from": 1415,
+          "to": 1500,
+          "dateNote": "Moorgate postern made 1415 (Mayor Falconer), rebuilt 1472; Newgate rebuilt from Whittington's estate after 1422; Bridge Gate fell 1437; Bishopsgate rebuilt 1479; brick repair of the wall between Aldgate and Aldersgate 1477 (Mayor Josceline); Cripplegate rebuilt 1491.",
+          "form": "Stone wall with brick battlements and diaper-patterned brick upper work on the northern stretch; a new postern gate at Moorfields.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-standing",
+      "confidence": "high",
+      "uncertainty": "Gate elevations before the 16th century are not recorded; heights unknown.",
+      "correctionsToDraft": "Moorgate 1415 confirmed. Add the Blackfriars wall extension (1282-1310) and the brick repair of 1477.",
+      "sources": [
+        {"title": "Stow, Survey of London: The wall about the Citie", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp5-10"},
+        {"title": "Stow, Survey of London: Gates in the wall", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp27-44"},
+        {"title": "FitzStephen, Descriptio (Stow appendix)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp218-229"}
+      ]
+    },
+    {
+      "id": "parish-churches-count",
+      "name": "Parish churches of London (number)",
+      "lat": 51.5134,
+      "lon": -0.0905,
+      "phases": [
+        {
+          "label": "Formation of the parish network",
+          "from": 1000,
+          "to": 1180,
+          "dateNote": "No church archaeologically identified before 1000; small churches multiply through the 11th and 12th centuries (e.g. St Benet Sherehog, late 11th century).",
+          "form": "Small one- and two-cell stone (or timber) churches on street corners.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Full medieval complement",
+          "from": 1180,
+          "to": 1540,
+          "dateNote": "FitzStephen, writing c. 1173-83, counts 13 conventual and 126 parish churches in London and its suburbs. The count usually given for inside the walls is about 100 (not verified in a fetched source).",
+          "form": "Parish churches progressively enlarged with aisles and west towers in the 14th-15th centuries.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "126 parish plus 13 conventual churches c. 1180."}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Dates and forms of individual churches mostly unknown; only about 40% of City churches have had any archaeological investigation.",
+      "correctionsToDraft": "'~100+ by c. 1200' is consistent: 126 parish churches including suburbs by c. 1180.",
+      "sources": [
+        {"title": "FitzStephen, Descriptio (Stow appendix)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp218-229"},
+        {"title": "Medieval (c1066-c1500), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/?p=84"},
+        {"title": "Saxon (AD 410-1066), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/saxon-ad-410-1066/"}
+      ]
+    },
+    {
+      "id": "fires-and-building-regulations",
+      "name": "Great fires of 1087, 1135/36 and 1212, and the building assizes",
+      "lat": 51.5115,
+      "lon": -0.0895,
+      "phases": [
+        {
+          "label": "Fire of 1087",
+          "from": 1087,
+          "to": 1087,
+          "dateNote": "Burnt St Paul's and much of the city (Benham: 7 July).",
+          "form": "Timber and thatch city largely burnt.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Fire of 1135 or 1136",
+          "from": 1135,
+          "to": 1136,
+          "dateNote": "Started at London Bridge and damaged St Paul's; VCH and Benham say 1135, Stow 1136 (first or second year of Stephen).",
+          "form": "Fire spreading west from the bridge to St Paul's; timber bridge burnt.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Assize of Buildings",
+          "from": 1189,
+          "to": 1212,
+          "dateNote": "Traditionally 1189 under Mayor Henry FitzAilwin, but British History Online calls that date improbable; at least part is 13th century. It governs stone party walls, gutters, windows and privies. The 3 ft thick by 16 ft high party-wall figures are widely quoted but I saw them only in search results.",
+          "form": "Encouraged stone party walls between otherwise timber houses.",
+          "dimensions": {"lengthM": null, "widthM": 0.9, "heightM": 4.9, "note": "Party wall 3 ft thick and 16 ft high (unverified figures)."}
+        },
+        {
+          "label": "Fire of 1212 and the 1212 ordinance",
+          "from": 1212,
+          "to": 1212,
+          "dateNote": "11 July 1212: Southwark, St Mary Overie and London Bridge burnt. Regulations issued the same month under FitzAilwin are securely dated; they are usually summarised as banning thatch for new roofs and requiring existing thatch to be plastered (content not verified in the fetched text).",
+          "form": "After 1212 new roofs in tile, shingle or lead rather than reed or straw; cookshops plastered.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Extent of each fire is not mappable. Stow's 3,000 deaths in 1212 is unreliable. How quickly thatch actually disappeared is unknown; change was gradual.",
+      "correctionsToDraft": "1189 is a traditional and doubtful date; 1212 is the secure one. The 1212 fire is 11 July. The mid-12th-century fire is 1135 in VCH.",
+      "sources": [
+        {"title": "London Viewers and their Certificates: Introduction (on the Assize of Buildings)", "publisher": "British History Online (London Record Society 26)", "url": "https://www.british-history.ac.uk/london-record-soc/vol26/xi-lxv"},
+        {"title": "Austin canons: Priory of Southwark (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp480-484"},
+        {"title": "Secular canons: Cathedral of St Paul (VCH London vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/london/vol1/pp409-433"},
+        {"title": "Stow, Survey of London: Bridges of this Citie", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp21-27"}
+      ]
+    },
+    {
+      "id": "black-death-and-population",
+      "name": "Population of medieval London and the Black Death",
+      "lat": 51.5135,
+      "lon": -0.09,
+      "phases": [
+        {
+          "label": "c. 1100",
+          "from": 1100,
+          "to": 1100,
+          "dateNote": "About 25,000 (Keene 2000, as quoted in the London research framework). Other published guesses range 15,000-25,000.",
+          "form": "Built-up area mostly south of Cheapside and along the main streets, with open ground inside the walls.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Population c. 25,000."}
+        },
+        {
+          "label": "c. 1300 peak",
+          "from": 1300,
+          "to": 1348,
+          "dateNote": "60,000-80,000 in the research framework; Keene's widely cited range is 80,000-100,000 (seen in search results only).",
+          "form": "Walled city densely built, suburbs along every approach road and in Southwark; very narrow plots on the main streets (about 7 ft in Cheapside).",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Population c. 60,000-100,000."}
+        },
+        {
+          "label": "Black Death",
+          "from": 1348,
+          "to": 1350,
+          "dateNote": "Reached London November 1348, peaked to spring 1349; London Museum estimates 35,000 deaths by 1352, more than half the population. Emergency cemeteries at East Smithfield and West Smithfield (Charterhouse), both dedicated 1349. Plague returned 1361.",
+          "form": "Two new walled cemeteries outside the walls with rows of graves and mass trenches.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "West Smithfield cemetery c. 13 acres."}
+        },
+        {
+          "label": "c. 1400",
+          "from": 1377,
+          "to": 1500,
+          "dateNote": "About 40,000-50,000 from the 1377 poll tax (figure seen in search results only); not back to the 1300 level until the 16th century.",
+          "form": "Same footprint with more gardens and vacant plots, amalgamated tenements.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Population c. 40,000-50,000."}
+        }
+      ],
+      "evidence": "reconstructed",
+      "confidence": "low",
+      "uncertainty": "All figures are modern estimates with wide margins. Excavation at East Smithfield suggests fewer plague burials than chroniclers claimed.",
+      "correctionsToDraft": "Black Death in London is November 1348 to 1349-50. Use ranges: c. 25,000 (1100), 60,000-100,000 (1300), 40,000-50,000 (1400).",
+      "sources": [
+        {"title": "Medieval (c1066-c1500), Research Framework for London Archaeology", "publisher": "Research Frameworks / MOLA", "url": "https://researchframeworks.org/rfla/?p=84"},
+        {"title": "The Great Pestilence in London", "publisher": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/"},
+        {"title": "Religious Houses: House of Carthusian monks (VCH Middlesex vol. 1)", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/vch/middx/vol1/pp159-169"}
+      ]
+    },
+    {
+      "id": "walbrook-stream",
+      "name": "Walbrook (covering of the stream)",
+      "lat": 51.5098,
+      "lon": -0.0912,
+      "phases": [
+        {
+          "label": "Open stream with bridges",
+          "from": 886,
+          "to": 1440,
+          "dateNote": "Open through the medieval city with many small bridges kept by parishes and priors; St Stephen Walbrook parish ordered to scour it in 1300; latrines over it regulated 1383 (search result only).",
+          "form": "Narrow, increasingly foul stream running north to south from Moorfields through the wall to the Thames at Dowgate, lined by house backs and crossed by plank and stone bridges.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Channel width not documented."}
+        },
+        {
+          "label": "Progressive culverting",
+          "from": 1440,
+          "to": 1560,
+          "dateNote": "Commonly stated that a stretch at Lothbury was covered in 1440 at the cost of Mayor Robert Large (Wikipedia, as a lead; secondary accounts disagree on which stretch). Headwaters diverted in the 15th century by the Charterhouse and St Bartholomew's. Shown wholly covered within the walls on the 1550s maps. I could not verify a 1463 order.",
+          "form": "Brick vaults over the channel, paved level with the lanes, with houses built on top.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Hidden sewer",
+          "from": 1560,
+          "to": 1625,
+          "dateNote": "Stow (1598/1603): vaulted over with brick, paved, built upon and 'hidden under ground'. He gives no date.",
+          "form": "Not visible; only the ward and street name remain.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "low",
+      "uncertainty": "There is no single date; covering was piecemeal between c. 1440 and the mid 16th century, and the 1440 date rests on secondary sources. Which sections were open at any time is not known.",
+      "correctionsToDraft": "Model the Walbrook as open until c. 1440 and fully covered inside the walls by c. 1550-60, with a gradual transition.",
+      "sources": [
+        {"title": "Stow, Survey of London: Of the ancient and present rivers", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-19"},
+        {"title": "River Walbrook (lead only)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/River_Walbrook"}
+      ]
+    },
+    {
+      "id": "fleet-river",
+      "name": "River Fleet (lower course)",
+      "lat": 51.5112,
+      "lon": -0.1045,
+      "phases": [
+        {
+          "label": "Navigable tidal creek",
+          "from": 886,
+          "to": 1200,
+          "dateNote": "Stow reports the tradition that ten or twelve ships could once come up to Fleet Bridge and Holborn Bridge.",
+          "form": "Broad tidal inlet west of the city wall with marshy banks.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": "Width not documented."}
+        },
+        {
+          "label": "Silting, mills and wharves",
+          "from": 1200,
+          "to": 1502,
+          "dateNote": "Mill near Baynard's Castle granted in 1199-1200; Templars' mill; complaint in the 1307 Parliament about tanners' waste, raised wharves and mill diversions, mills ordered removed and the river cleansed; city wall carried along its east bank 1282-1310; Fleet Bridge rebuilt 1431. Never regained its old depth; known as Turnmill Brook higher up.",
+          "form": "Narrowed, embanked channel with a stone Fleet Bridge at Ludgate Hill and Holborn Bridge upstream, city wall and Blackfriars on the east bank, Bridewell and Whitefriars side to the west.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        },
+        {
+          "label": "Fleet Ditch",
+          "from": 1502,
+          "to": 1625,
+          "dateNote": "Scoured to the Thames 1502 so that boats again reached Fleet and Holborn bridges; a 1589 scheme failed; by 1603 worse choked than ever. Open throughout this period (covered only in the 18th century).",
+          "form": "Open, polluted ditch navigable by small boats at high tide.",
+          "dimensions": {"lengthM": null, "widthM": null, "heightM": null, "note": ""}
+        }
+      ],
+      "evidence": "attested-documentary",
+      "confidence": "medium",
+      "uncertainty": "Channel widths at each date are not documented in the sources fetched.",
+      "correctionsToDraft": "The Fleet stays open through 1625; show it narrowing from the 13th century.",
+      "sources": [
+        {"title": "Stow, Survey of London: Of the ancient and present rivers", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-19"},
+        {"title": "Stow, Survey of London: Castle Baynard warde", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-20"},
+        {"title": "Stow, Survey of London: Bridges of this Citie", "publisher": "British History Online", "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp21-27"}
+      ]
+    }
+  ],
+  "generalNotes": [
+    "Every URL listed under 'sources' was fetched successfully during this research and supports at least part of the entry. Wikipedia entries are marked 'lead only' and are never the sole source for a date.",
+    "Sites that refused automated fetching (HTTP 403): historicengland.org.uk (list entries and research records), parliament.uk, whc.unesco.org, britannica.com and the main hrp.org.uk pages. stpauls.co.uk timed out and several mola.org.uk and londonmuseum.org.uk URLs returned 404. Figures that I saw only in search-result summaries from those sites (Westminster Hall 73 x 20 m; White Tower 36 x 32.5 m and 27 m; Winchester Palace gable 50 ft; St Paul's spire c. 400 ft per Schofield; quire of St Paul's complete 1148) are flagged in the relevant notes as not directly verified.",
+    "Heights are the weakest data throughout. Only these are documented: White Tower 27 m; Greyfriars church 64 ft (Stow); Old St Paul's nave vault 93 ft and the disputed spire; Westminster Abbey vault c. 31 m. All other heightM values are null and any modelled height is conjecture.",
+    "Stow's Survey (1603) is a late and sometimes muddled witness: his regnal-year conversions can be a year out (1436 for January 1437; 1282 for the winter of 1281-82) and his measurements (St Paul's 720 ft long, London Bridge 60 ft high, Westminster Hall 270 ft) are unreliable. Where modern archaeology or VCH differs, the entry follows the modern source and says so.",
+    "Coordinates are WGS84 to about four decimals, taken from the known site of each monument; those for lost sites (Baynard's Castle I, Montfichet's Tower, Steelyard, Wool Quay, Lundenwic centre, Southwark burh) are approximate to roughly 50-100 m.",
+    "Where an entry's phase has from equal to to, it is a single-year event. Null bounds mean unknown or open. 'Evidence' describes the best class of evidence for the item as a whole; individual phases may be weaker, as their dateNote explains.",
+    "Not verified and deliberately left out or flagged: a fire at St Paul's in 675; the '1091 storm' destroying London Bridge; dendro dates for the first Saxon bridge; the 1434 date for Fishmongers' Hall; a 1067 first mention of St Magnus; any single figure for how far the north bank advanced; Lundenwic population estimates; a 1463 order to cover the Walbrook.",
+    "Key open-access items consulted directly as PDFs: LAMAS Transactions vol. 50 papers on the Royal Opera House, Queenhithe and London Bridge (Archaeology Data Service), and two Historic Royal Palaces teaching documents. The definitive monographs (Watson, Brigham and Dyson 2001 on London Bridge; Gerhold 2019 on the bridge houses; Schofield 2011 on St Paul's; Schofield et al. 2018 on the waterfront) are not open access and would be the place to firm up the dimensional gaps listed above."
+  ]
+}

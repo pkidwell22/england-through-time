@@ -1,0 +1,204 @@
+{
+ "note": "Scanned PBR materials and sky from Poly Haven (polyhaven.com), all CC0. `tile` is the real-world size in metres of one texture repeat. Material names are the ones builders use; swap `asset` to change a surface everywhere. Physical sizes (mm) of each Poly Haven scan are given by its API `dimensions`; tiles are set close to them (see docs/STREETS.md).",
+ "licence": "CC0 1.0 \u2014 https://polyhaven.com/license",
+ "sky": {
+  "asset": "kloofendal_48d_partly_cloudy_puresky"
+ },
+ "materials": {
+  "ragstone": {
+   "asset": "castle_wall_slates",
+   "tile": 3.2
+  },
+  "roman-rubble": {
+   "asset": "medieval_blocks_05",
+   "tile": 2.4,
+   "color": "#d9d2c4"
+  },
+  "caen": {
+   "asset": "white_sandstone_blocks_02",
+   "tile": 2.6
+  },
+  "ashlar": {
+   "asset": "white_sandstone_bricks_03",
+   "tile": 2.6
+  },
+  "whitewash": {
+   "asset": "whitewashed_brick",
+   "tile": 2.2,
+   "color": "#fbf8f0"
+  },
+  "brick": {
+   "asset": "medieval_red_brick",
+   "tile": 2.2
+  },
+  "timber": {
+   "asset": "weathered_planks",
+   "tile": 2.6
+  },
+  "timber-weathered": {
+   "asset": "beam_wall_01",
+   "tile": 1.4,
+   "color": "#b9b3a4"
+  },
+  "daub": {
+   "asset": "patterned_clay_plaster",
+   "tile": 2.0,
+   "color": "#eadcc2"
+  },
+  "plaster": {
+   "asset": "plastered_wall",
+   "tile": 2.0,
+   "color": "#f2eadb"
+  },
+  "thatch": {
+   "asset": "reed_roof_04",
+   "tile": 2.5,
+   "color": "#e6d6ae"
+  },
+  "thatch-old": {
+   "asset": "reed_roof_03",
+   "tile": 2.5,
+   "color": "#c9c0a6"
+  },
+  "tile": {
+   "asset": "clay_roof_tiles_02",
+   "tile": 2.6,
+   "color": "#a79a92"
+  },
+  "tile-old": {
+   "asset": "clay_roof_tiles",
+   "tile": 3.4,
+   "color": "#b9aea6"
+  },
+  "tile-bright": {
+   "asset": "clay_roof_tiles_02",
+   "tile": 2.6,
+   "color": "#c2b2a8"
+  },
+  "tegula": {
+   "asset": "ceramic_roof_01",
+   "tile": 3,
+   "color": "#d2c2b8"
+  },
+  "shingle": {
+   "asset": "roof_slates_02",
+   "tile": 3.0,
+   "color": "#b7a58c"
+  },
+  "slate": {
+   "asset": "roof_slates_02",
+   "tile": 3.0,
+   "color": "#8d949c"
+  },
+  "cobble": {
+   "asset": "cobblestone_floor_08",
+   "tile": 2.0,
+   "color": "#d8d2c6"
+  },
+  "gravel": {
+   "asset": "gravel_ground_01",
+   "tile": 5
+  },
+  "earth": {
+   "asset": "brown_mud_dry",
+   "tile": 2.0
+  },
+  "sarsen": {
+   "asset": "rock_08",
+   "tile": 2.6,
+   "color": "#d9d6cf"
+  },
+  "sarsen-fresh": {
+   "asset": "rock_01",
+   "tile": 2.6,
+   "color": "#efe9dc"
+  },
+  "bluestone": {
+   "asset": "rock_3",
+   "tile": 2.0,
+   "color": "#a3aab3"
+  },
+  "altar": {
+   "asset": "rock_surface",
+   "tile": 2.2,
+   "color": "#c6ccb4"
+  },
+  "chalk": {
+   "asset": "rock_ground",
+   "tile": 3.0,
+   "color": "#f6f3ea"
+  },
+  "turf": {
+   "asset": "grass_ground",
+   "tile": 4.0,
+   "color": "#b0cc78"
+  },
+  "turf-sparse": {
+   "asset": "sparse_grass",
+   "tile": 4.0,
+   "color": "#c2c27e"
+  },
+  "sarsen-lichen": {
+   "asset": "mossy_rock",
+   "tile": 2.8,
+   "color": "#d4d2c8"
+  },
+  "oak": {
+   "asset": "rough_wood",
+   "tile": 0.8,
+   "color": "#b8aa98"
+  },
+  "planks": {
+   "asset": "brown_planks_03",
+   "tile": 1.0,
+   "color": "#d6ccbc"
+  },
+  "rubble": {
+   "asset": "old_stone_wall",
+   "tile": 2.0,
+   "color": "#e4ddd0"
+  },
+  "brick-tudor": {
+   "asset": "castle_brick_02_red",
+   "tile": 1.5,
+   "color": "#e8d6cc"
+  },
+  "street-earth": {
+   "asset": "park_dirt",
+   "tile": 3.0,
+   "color": "#c8b9a2"
+  },
+  "street-gravel": {
+   "asset": "rocky_trail",
+   "tile": 2.0,
+   "color": "#d6ccbe"
+  },
+  "kennel": {
+   "asset": "brown_mud_02",
+   "tile": 1.3,
+   "color": "#8f8578"
+  },
+  "street-cobble": {
+   "asset": "cobblestone_floor_08",
+   "tile": 2.0,
+   "color": "#a29682"
+  }
+ },
+ "extra": [],
+ "composites": {
+  "frame": {
+   "base": "plastered_wall",
+   "beams": "rough_wood",
+   "tile": 3,
+   "note": "Timber-frame wall: scanned lime plaster with oak framing drawn over it at load time (frame-* with a painted window, for distant houses; fwall-* bay designs without windows, for modelled houses). See src/scene/street/frameTex.ts."
+  }
+ },
+ "terrain": {
+  "grass": "leafy_grass",
+  "dry": "grass_path_2",
+  "forest": "forest_leaves_02",
+  "mud": "brown_mud_02",
+  "dirt": "brown_mud_dry",
+  "tile": 9
+ }
+}

@@ -1,0 +1,1522 @@
+{
+  "summary": {
+    "when": "2026-11-14T23:35:56.220Z",
+    "base": "http://127.0.0.1:4310",
+    "passed": 155,
+    "failed": 0,
+    "total": 155
+  },
+  "results": [
+    {
+      "group": "1 load",
+      "name": "no page errors / console errors / failed requests on load (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "1 load",
+      "name": "no console error for a missing /favicon.ico",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "1 load",
+      "name": "engine ready",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "initial year is the last era's preset",
+      "pass": true,
+      "detail": "1616 CE"
+    },
+    {
+      "group": "1 load",
+      "name": "one WebGL canvas in the stage",
+      "pass": true,
+      "detail": "count=1"
+    },
+    {
+      "group": "1 load",
+      "name": "canvas is non-blank (screenshot pixel sample)",
+      "pass": true,
+      "detail": "{\"distinct\":237,\"lumRange\":184.33333333333334,\"w\":700,\"h\":420}"
+    },
+    {
+      "group": "1 load",
+      "name": "canvas is non-blank at 4000 BCE",
+      "pass": true,
+      "detail": "{\"distinct\":186,\"lumRange\":86.33333333333334,\"w\":700,\"h\":420}"
+    },
+    {
+      "group": "1 load",
+      "name": "WebGL context alive",
+      "pass": true,
+      "detail": "{\"lost\":false,\"renderer\":\"ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)\",\"w\":1500,\"h\":900}"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider min (Home key) → \"4000 BCE\"",
+      "pass": true,
+      "detail": "4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "t at min is -3999",
+      "pass": true,
+      "detail": "-3999"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider max (End key) → \"1625 CE\"",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "t at max is 1625",
+      "pass": true,
+      "detail": "1625"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider value 0 → \"4000 BCE\"",
+      "pass": true,
+      "detail": "4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider value 1 → \"1625 CE\"",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider value 0.46 → \"738 CE\"",
+      "pass": true,
+      "detail": "738 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider thumb and aria-valuetext follow the year",
+      "pass": true,
+      "detail": "{\"value\":0.46,\"text\":\"738 CE\"}"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "setT(99999) clamps to 1625",
+      "pass": true,
+      "detail": "1625 1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "setT(-99999) clamps to 4000 BCE",
+      "pass": true,
+      "detail": "-3999 4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "typing \"9999\" clamps to \"1625 CE\"",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "typing \"9999 BCE\" clamps to \"4000 BCE\"",
+      "pass": true,
+      "detail": "4000 BCE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "readout sequence across the boundary",
+      "pass": true,
+      "detail": "[[-2,\"3 BCE\"],[-1.5,\"3 BCE\"],[-1,\"2 BCE\"],[-0.5,\"2 BCE\"],[0,\"1 BCE\"],[0.5,\"1 BCE\"],[1,\"1 CE\"],[1.5,\"1 CE\"],[2,\"2 CE\"]]"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "no \"0\" year label",
+      "pass": true,
+      "detail": "3 BCE, 3 BCE, 2 BCE, 2 BCE, 1 BCE, 1 BCE, 1 CE, 1 CE, 2 CE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "…, 2 BCE, 1 BCE, 1 CE, 2 CE in order",
+      "pass": true,
+      "detail": "3 BCE → 2 BCE → 1 BCE → 1 CE → 2 CE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"1 BCE\" → readout \"1 BCE\", t=0",
+      "pass": true,
+      "detail": "1 BCE t=0"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"1 CE\" → readout \"1 CE\", t=1",
+      "pass": true,
+      "detail": "1 CE t=1"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"0\" is rejected (year unchanged)",
+      "pass": true,
+      "detail": "1 CE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"55 bc\" → \"55 BCE\"",
+      "pass": true,
+      "detail": "55 BCE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"AD 43\" → \"43 CE\"",
+      "pass": true,
+      "detail": "43 CE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"-1\" → \"1 BCE\"",
+      "pass": true,
+      "detail": "1 BCE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "slider sweep across the boundary never shows year 0",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "era name at 1 BCE is the prehistoric era",
+      "pass": true,
+      "detail": "Prehistoric Thames"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-prehistoric → 1500 BCE, \"Prehistoric Thames\"",
+      "pass": true,
+      "detail": "readout=1500 BCE era=Prehistoric Thames"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-prehistoric button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-roman → 150 CE, \"Roman Londinium\"",
+      "pass": true,
+      "detail": "readout=150 CE era=Roman Londinium"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-roman button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-saxon → 780 CE, \"Post-Roman & Anglo-Saxon\"",
+      "pass": true,
+      "detail": "readout=780 CE era=Post-Roman & Anglo-Saxon"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-saxon button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-medieval → 1400 CE, \"Norman & Medieval London\"",
+      "pass": true,
+      "detail": "readout=1400 CE era=Norman & Medieval London"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-medieval button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-tudor → 1575 CE, \"Tudor London\"",
+      "pass": true,
+      "detail": "readout=1575 CE era=Tudor London"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-tudor button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-jacobean → 1616 CE, \"Jacobean London\"",
+      "pass": true,
+      "detail": "readout=1616 CE era=Jacobean London"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-jacobean button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "all six era buttons exist",
+      "pass": true,
+      "detail": "[1,1,1,1,1,1]"
+    },
+    {
+      "group": "5 playback",
+      "name": "speed select sets 5 yr/s",
+      "pass": true,
+      "detail": "{\"speed\":5,\"rate\":1}"
+    },
+    {
+      "group": "5 playback",
+      "name": "play-pause starts playback forwards",
+      "pass": true,
+      "detail": "{\"playing\":true,\"dir\":1}"
+    },
+    {
+      "group": "5 playback",
+      "name": "play forward advances the year",
+      "pass": true,
+      "detail": "{\"years\":7.41700000000003,\"secs\":1.518300000190735,\"rate\":4.885068826363878}"
+    },
+    {
+      "group": "5 playback",
+      "name": "5 yr/s plays at about 5 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured 4.89 yr/s"
+    },
+    {
+      "group": "5 playback",
+      "name": "year readout updates during playback",
+      "pass": true,
+      "detail": "1009 CE → 1012 CE"
+    },
+    {
+      "group": "5 playback",
+      "name": "play-pause button shows pause state while playing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "5 playback",
+      "name": "pause holds the year",
+      "pass": true,
+      "detail": "t 1012.9994999999999 → 1012.9994999999999"
+    },
+    {
+      "group": "5 playback",
+      "name": "25 yr/s plays at about 25 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured 24.96 yr/s"
+    },
+    {
+      "group": "5 playback",
+      "name": "changing speed changes the rate (25 vs 5 → ~5×)",
+      "pass": true,
+      "detail": "ratio 5.11"
+    },
+    {
+      "group": "5 playback",
+      "name": "reverse decreases the year",
+      "pass": true,
+      "detail": "{\"years\":-26.247499999999945,\"secs\":1.003199999809265,\"rate\":-26.163775922039765}"
+    },
+    {
+      "group": "5 playback",
+      "name": "reverse at 25 yr/s runs at about -25 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured -26.16 yr/s"
+    },
+    {
+      "group": "5 playback",
+      "name": "Auto 1× advances",
+      "pass": true,
+      "detail": "{\"years\":21.86666666666906,\"secs\":1.0029000000953674,\"rate\":21.803436698165047}"
+    },
+    {
+      "group": "5 playback",
+      "name": "Auto 2× is about twice Auto 1× (±40%)",
+      "pass": true,
+      "detail": "ratio 1.71"
+    },
+    {
+      "group": "5 playback",
+      "name": "playback stops at 1625",
+      "pass": true,
+      "detail": "playing=false t=1625 readout=1625 CE"
+    },
+    {
+      "group": "5 playback",
+      "name": "play button shows play state after stopping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "5 playback",
+      "name": "pressing play at the end restarts from 4000 BCE",
+      "pass": true,
+      "detail": "playing=true t=-3986.5"
+    },
+    {
+      "group": "5 playback",
+      "name": "reverse playback stops at 4000 BCE",
+      "pass": true,
+      "detail": "playing=false t=-3999 readout=4000 BCE"
+    },
+    {
+      "group": "5 playback",
+      "name": "pressing reverse at the start restarts from 1625",
+      "pass": true,
+      "detail": "playing=true t=1612.5"
+    },
+    {
+      "group": "5 playback",
+      "name": "space bar toggles play/pause",
+      "pass": true,
+      "detail": "true → false"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[default] camera unchanged after slider change",
+      "pass": true,
+      "detail": "diff=0 year=309 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[default] camera unchanged after era preset",
+      "pass": true,
+      "detail": "diff=0 year=1400 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[default] camera unchanged after typed year",
+      "pass": true,
+      "detail": "diff=0 year=55 BCE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[default] camera unchanged after 2 s playback",
+      "pass": true,
+      "detail": "diff=0 t=1552.1"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[default] camera unchanged at 4000 BCE",
+      "pass": true,
+      "detail": "diff=0"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[bridge] camera unchanged after slider change",
+      "pass": true,
+      "detail": "diff=0 year=309 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[bridge] camera unchanged after era preset",
+      "pass": true,
+      "detail": "diff=0 year=1400 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[bridge] camera unchanged after typed year",
+      "pass": true,
+      "detail": "diff=0 year=55 BCE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[bridge] camera unchanged after 2 s playback",
+      "pass": true,
+      "detail": "diff=0 t=1552.9"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[bridge] camera unchanged at 4000 BCE",
+      "pass": true,
+      "detail": "diff=0"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "reset view returns to the first view in data",
+      "pass": true,
+      "detail": "diff=4.547473508864641e-13 cam={\"position\":[-500,1900.0000000000005,2900],\"target\":[-700,0,-150],\"mode\":\"orbit\"}"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "view-select goes to the chosen view",
+      "pass": true,
+      "detail": "{\"position\":[-250.00000000000003,520,1350],\"target\":[-250.00000000000003,0,-350],\"mode\":\"orbit\"}"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "walk mode engages",
+      "pass": true,
+      "detail": "{\"position\":[-250.00000000000003,13.99527894476739,-350],\"target\":[-250.00000000000003,13.99527894476739,-390],\"mode\":\"walk\"}"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "walk mode puts the camera at eye height above ground",
+      "pass": true,
+      "detail": "y=13.99527894476739"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "walk hint is shown",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "W moves the walker",
+      "pass": true,
+      "detail": "moved 4.79 m"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "back to orbit mode",
+      "pass": true,
+      "detail": "{\"position\":[-250.00000000000006,69.01998145934151,-294.794200833333],\"target\":[-250.00000000000006,12.414709059897751,-424.794200833333],\"mode\":\"orbit\"}"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "mode switches kept the year",
+      "pass": true,
+      "detail": "1616 CE → 1616 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "no errors during view/mode changes",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "mouse drag orbits the camera",
+      "pass": true,
+      "detail": "diff=1775.57"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "forum absent at 40",
+      "pass": true,
+      "detail": "Second forum-basilica:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "city-wall absent at 150",
+      "pass": true,
+      "detail": "Roman wall:absent/0.00; Late Roman wall with Aldersgate added:absent/0.00; Roman wall, unmaintained:absent/0.00; Wall reused by the Saxon and Norman city:absent/0.00; Late medieval wall with Moorgate:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "city-wall intact at 300",
+      "pass": true,
+      "detail": "Roman wall:intact/1.00; Late Roman wall with Aldersgate added:absent/0.00; Roman wall, unmaintained:absent/0.00; Wall reused by the Saxon and Norman city:absent/0.00; Late medieval wall with Moorgate:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "city-wall intact at 1600",
+      "pass": true,
+      "detail": "Roman wall:gone/0.00; Late Roman wall with Aldersgate added:gone/0.00; Roman wall, unmaintained:gone/0.00; Wall reused by the Saxon and Norman city:gone/0.00; Late medieval wall with Moorgate:intact/1.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "white-tower absent at 1066",
+      "pass": true,
+      "detail": "White Tower:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "white-tower intact at 1101",
+      "pass": true,
+      "detail": "White Tower:intact/1.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "old-london-bridge absent at 1150",
+      "pass": true,
+      "detail": "Stone bridge:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "old-london-bridge intact at 1210",
+      "pass": true,
+      "detail": "Stone bridge:intact/1.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "nonsuch-house absent at 1576",
+      "pass": true,
+      "detail": "Nonsuch House:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "nonsuch-house intact at 1580",
+      "pass": true,
+      "detail": "Nonsuch House:intact/1.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "globe absent at 1598",
+      "pass": true,
+      "detail": "First Globe:absent/0.00; Second Globe:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "globe intact at 1600",
+      "pass": true,
+      "detail": "First Globe:intact/1.00; Second Globe:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "globe intact at 1615",
+      "pass": true,
+      "detail": "First Globe:gone/0.00; Second Globe:intact/1.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "royal-exchange absent at 1565",
+      "pass": true,
+      "detail": "Gresham's Exchange:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "royal-exchange intact at 1572",
+      "pass": true,
+      "detail": "Gresham's Exchange:intact/1.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "roman-bridge absent at 43",
+      "pass": true,
+      "detail": "First crossing (bridge or ferry; form conjectural):absent/0.00; Timber bridge on pier bases:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "amphitheatre absent at 600",
+      "pass": true,
+      "detail": "Timber amphitheatre:gone/0.00; Rebuilt amphitheatre with masonry arena wall:gone/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "rose intact at 1590",
+      "pass": true,
+      "detail": "Playhouse:intact/1.00; Enlarged playhouse:absent/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "rose absent at 1606",
+      "pass": true,
+      "detail": "Playhouse:gone/0.00; Enlarged playhouse:gone/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "bridge-drawbridge-gate absent at 1580",
+      "pass": true,
+      "detail": "Drawbridge tower:gone/0.00; Rebuilt drawbridge gate:gone/0.00"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "first Globe burning/ruined (not intact) mid-1613",
+      "pass": true,
+      "detail": "[{\"phaseIndex\":0,\"label\":\"First Globe\",\"state\":\"burning\",\"height\":0.4642857142857143},{\"phaseIndex\":1,\"label\":\"Second Globe\",\"state\":\"absent\",\"height\":0}]"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "St Paul's spire phase standing 1500, over by 1562",
+      "pass": true,
+      "detail": "{\"y1500\":[{\"phaseIndex\":3,\"label\":\"Old St Paul's with spire\",\"state\":\"gone\",\"height\":0},{\"phaseIndex\":4,\"label\":\"Old St Paul's extended east (the New Work, 1251–1314), with renewed spire\",\"state\":\"intact\",\"height\":1}],\"y1562\":[{\"phaseIndex\":3,\"label\":\"Old St Paul's with spire\",\"state\":\"gone\",\"height\":0},{\"phaseIndex\":4,\"label\":\"Old St Paul's extended east (the New Work, 1251–1314), with renewed spire\",\"state\":\"gone\",\"height\":0}]}"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "landmarkStatus of unknown id is empty",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "scene-graph visibility matches lifecycle at -4000",
+      "pass": true,
+      "detail": "2/132 phase meshes visible; "
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "only natural features (streams) are visible at 4000 BCE",
+      "pass": true,
+      "detail": "walbrook,fleet"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "scene-graph visibility matches lifecycle at 40",
+      "pass": true,
+      "detail": "3/132 phase meshes visible; "
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "scene-graph visibility matches lifecycle at 150",
+      "pass": true,
+      "detail": "14/132 phase meshes visible; "
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "scene-graph visibility matches lifecycle at 1101",
+      "pass": true,
+      "detail": "22/132 phase meshes visible; "
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "scene-graph visibility matches lifecycle at 1400",
+      "pass": true,
+      "detail": "42/132 phase meshes visible; "
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "scene-graph visibility matches lifecycle at 1598",
+      "pass": true,
+      "detail": "52/132 phase meshes visible; "
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "scene-graph visibility matches lifecycle at 1600",
+      "pass": true,
+      "detail": "53/132 phase meshes visible; "
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "scene-graph visibility matches lifecycle at 1616",
+      "pass": true,
+      "detail": "54/132 phase meshes visible; "
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "clicking the canvas on a landmark populates the info panel",
+      "pass": true,
+      "detail": "Old London Bridge at (750,450)"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "info panel shows the landmark name",
+      "pass": true,
+      "detail": "Old London Bridge"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "info panel shows an evidence badge",
+      "pass": true,
+      "detail": "Evidence: excavated | Confidence: high | Benchmark district"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "info panel shows at least one source link (landmark has sources)",
+      "pass": true,
+      "detail": "8 links for 8 sources"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "number of source links equals number of sources",
+      "pass": true,
+      "detail": "8 vs 8"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "source links open in a new tab with rel=noreferrer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "phase list rendered with an active phase",
+      "pass": true,
+      "detail": "1/1"
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "closing the info panel returns to the era text",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "picking did not move camera or year",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "no building can be picked at 3000 BCE at the same spot",
+      "pass": true,
+      "detail": "Prehistoric Thames"
+    },
+    {
+      "group": "8 scope badge",
+      "name": "default view badge reads \"Schematic overview\"",
+      "pass": true,
+      "detail": "Schematic overview"
+    },
+    {
+      "group": "8 scope badge",
+      "name": "bridge view badge contains \"benchmark district\"",
+      "pass": true,
+      "detail": "Detailed benchmark district: London Bridge bridgehead"
+    },
+    {
+      "group": "8 scope badge",
+      "name": "badge for view \"overview\" matches its declared scope (overview)",
+      "pass": true,
+      "detail": "Schematic overview"
+    },
+    {
+      "group": "8 scope badge",
+      "name": "badge for view \"city\" matches its declared scope (overview)",
+      "pass": true,
+      "detail": "Schematic overview"
+    },
+    {
+      "group": "8 scope badge",
+      "name": "badge for view \"westminster\" matches its declared scope (overview)",
+      "pass": true,
+      "detail": "Schematic overview"
+    },
+    {
+      "group": "8 scope badge",
+      "name": "badge for view \"bridge\" matches its declared scope (district)",
+      "pass": true,
+      "detail": "Detailed benchmark district: London Bridge bridgehead"
+    },
+    {
+      "group": "8 scope badge",
+      "name": "badge for view \"bridge-low\" matches its declared scope (district)",
+      "pass": true,
+      "detail": "Detailed benchmark district: London Bridge bridgehead"
+    },
+    {
+      "group": "8 scope badge",
+      "name": "badge for view \"bridgehead\" matches its declared scope (district)",
+      "pass": true,
+      "detail": "Detailed benchmark district: London Bridge bridgehead"
+    },
+    {
+      "group": "8 scope badge",
+      "name": "badge returns to overview after reset",
+      "pass": true,
+      "detail": "Schematic overview"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality → low: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=low year=1400 CE camDiff=0 distinct=211 tris=730612 calls=282 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality → high: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=high year=1400 CE camDiff=0 distinct=223 tris=1601789 calls=515 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality → medium: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=medium year=1400 CE camDiff=0 distinct=219 tris=1499055 calls=545 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality → low: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=low year=1400 CE camDiff=0 distinct=210 tris=730612 calls=282 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality → medium: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "quality=medium year=1400 CE camDiff=0 distinct=217 tris=1499055 calls=545 dpr=1"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "no errors while switching quality",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "low quality draws fewer triangles than high",
+      "pass": true,
+      "detail": "low=730612 high=1601789"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "quality select reflects state",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "9 quality switch",
+      "name": "evidence toggle switches the tint and legend on and off",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "9 quality switch",
+      "name": "fps readout shows a number",
+      "pass": true,
+      "detail": "15 fps"
+    },
+    {
+      "group": "9 quality switch",
+      "name": "geometry count does not grow across repeated quality switches",
+      "pass": true,
+      "detail": "before={\"geometries\":390,\"textures\":299} after={\"geometries\":395,\"textures\":341}"
+    },
+    {
+      "group": "session",
+      "name": "no page/console errors during the whole functional run (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 robustness (isolated page)",
+      "name": "bad URL params (year=0, unknown view/quality) fall back without errors",
+      "pass": true,
+      "detail": "1616 CE []"
+    },
+    {
+      "group": "11 robustness (isolated page)",
+      "name": "URL params year=55 BCE & view=bridge are honoured",
+      "pass": true,
+      "detail": "55 BCE"
+    },
+    {
+      "group": "11 robustness (isolated page)",
+      "name": "setT(NaN) is ignored (year stays finite, UI stays mounted, no page error)",
+      "pass": true,
+      "detail": "t=1616 readoutPresent=1 errors=[]"
+    },
+    {
+      "group": "10 performance",
+      "name": "perf run dsf=1 quality=low completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "10 performance",
+      "name": "perf run dsf=1 quality=medium completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "10 performance",
+      "name": "perf run dsf=1 quality=high completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "10 performance",
+      "name": "perf run dsf=2 quality=low completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "10 performance",
+      "name": "perf run dsf=2 quality=medium completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "10 performance",
+      "name": "perf run dsf=2 quality=high completed without errors",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "info": [
+    {
+      "group": "1 load",
+      "name": "WebGL renderer",
+      "detail": {
+        "lost": false,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+        "w": 1500,
+        "h": 900
+      }
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "bridge-low camera drift 1616→4000 BCE→1616",
+      "detail": {
+        "toPrehistory": 0,
+        "backAgain": 0,
+        "y": [
+          21.870976970798605,
+          21.870976970798605,
+          21.870976970798605
+        ]
+      }
+    },
+    {
+      "group": "7 landmark lifecycles (live engine)",
+      "name": "pick attempts",
+      "detail": [
+        {
+          "x": 750,
+          "y": 450,
+          "title": "Old London Bridge",
+          "landmark": true
+        }
+      ]
+    },
+    {
+      "group": "9 quality switch",
+      "name": "renderer memory before/after 6 quality rebuilds",
+      "detail": {
+        "mem0": {
+          "geometries": 390,
+          "textures": 299
+        },
+        "mem1": {
+          "geometries": 395,
+          "textures": 341
+        }
+      }
+    }
+  ],
+  "perf": [
+    {
+      "dsf": 1,
+      "quality": "low",
+      "view": "overview",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.7,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 7.42,
+      "benchFps": 135,
+      "triangles": 876436,
+      "calls": 407,
+      "instances": 9258,
+      "trees": 9714,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 10423
+    },
+    {
+      "dsf": 1,
+      "quality": "low",
+      "view": "city",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.3,
+      "frameMs": 16.66,
+      "worstMs": 16.8,
+      "benchMs": 7.16,
+      "benchFps": 140,
+      "triangles": 825938,
+      "calls": 370,
+      "instances": 9258,
+      "trees": 9714,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 10423
+    },
+    {
+      "dsf": 1,
+      "quality": "low",
+      "view": "bridge",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.5,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 6.14,
+      "benchFps": 163,
+      "triangles": 718178,
+      "calls": 284,
+      "instances": 9258,
+      "trees": 9714,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 10423
+    },
+    {
+      "dsf": 1,
+      "quality": "low",
+      "view": "overview",
+      "year": "4000 BCE",
+      "fps": 60,
+      "rafFps": 60.7,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 4.28,
+      "benchFps": 234,
+      "triangles": 738855,
+      "calls": 21,
+      "instances": 9258,
+      "trees": 9714,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 10423
+    },
+    {
+      "dsf": 1,
+      "quality": "medium",
+      "view": "overview",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.4,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 13.25,
+      "benchFps": 75,
+      "triangles": 1864975,
+      "calls": 804,
+      "instances": 12593,
+      "trees": 30444,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7930
+    },
+    {
+      "dsf": 1,
+      "quality": "medium",
+      "view": "city",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.7,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 13.05,
+      "benchFps": 77,
+      "triangles": 1821152,
+      "calls": 741,
+      "instances": 12593,
+      "trees": 30444,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7930
+    },
+    {
+      "dsf": 1,
+      "quality": "medium",
+      "view": "bridge",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.4,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 13.8,
+      "benchFps": 72,
+      "triangles": 1613936,
+      "calls": 570,
+      "instances": 12593,
+      "trees": 30444,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7930
+    },
+    {
+      "dsf": 1,
+      "quality": "medium",
+      "view": "overview",
+      "year": "4000 BCE",
+      "fps": 60,
+      "rafFps": 60.6,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 8.65,
+      "benchFps": 116,
+      "triangles": 542548,
+      "calls": 29,
+      "instances": 12593,
+      "trees": 30444,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7930
+    },
+    {
+      "dsf": 1,
+      "quality": "high",
+      "view": "overview",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.4,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 15.27,
+      "benchFps": 65,
+      "triangles": 1760088,
+      "calls": 618,
+      "instances": 12593,
+      "trees": 61736,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 8204
+    },
+    {
+      "dsf": 1,
+      "quality": "high",
+      "view": "city",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.3,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 14.72,
+      "benchFps": 68,
+      "triangles": 2614550,
+      "calls": 1086,
+      "instances": 12593,
+      "trees": 61736,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 8204
+    },
+    {
+      "dsf": 1,
+      "quality": "high",
+      "view": "bridge",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.5,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 16.98,
+      "benchFps": 59,
+      "triangles": 2902905,
+      "calls": 827,
+      "instances": 12593,
+      "trees": 61736,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 8204
+    },
+    {
+      "dsf": 1,
+      "quality": "high",
+      "view": "overview",
+      "year": "4000 BCE",
+      "fps": 60,
+      "rafFps": 60.2,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 10.33,
+      "benchFps": 97,
+      "triangles": 785617,
+      "calls": 32,
+      "instances": 12593,
+      "trees": 61736,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 8204
+    },
+    {
+      "dsf": 2,
+      "quality": "low",
+      "view": "overview",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.2,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 7.1,
+      "benchFps": 141,
+      "triangles": 876436,
+      "calls": 407,
+      "instances": 9258,
+      "trees": 9714,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7353
+    },
+    {
+      "dsf": 2,
+      "quality": "low",
+      "view": "city",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.5,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 7,
+      "benchFps": 143,
+      "triangles": 825938,
+      "calls": 370,
+      "instances": 9258,
+      "trees": 9714,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7353
+    },
+    {
+      "dsf": 2,
+      "quality": "low",
+      "view": "bridge",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.2,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 6.27,
+      "benchFps": 159,
+      "triangles": 718178,
+      "calls": 284,
+      "instances": 9258,
+      "trees": 9714,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7353
+    },
+    {
+      "dsf": 2,
+      "quality": "low",
+      "view": "overview",
+      "year": "4000 BCE",
+      "fps": 60,
+      "rafFps": 60.9,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 4.69,
+      "benchFps": 213,
+      "triangles": 738855,
+      "calls": 21,
+      "instances": 9258,
+      "trees": 9714,
+      "pixelRatio": 1,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7353
+    },
+    {
+      "dsf": 2,
+      "quality": "medium",
+      "view": "overview",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.4,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 16.14,
+      "benchFps": 62,
+      "triangles": 1864975,
+      "calls": 804,
+      "instances": 12593,
+      "trees": 30444,
+      "pixelRatio": 1.5,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7975
+    },
+    {
+      "dsf": 2,
+      "quality": "medium",
+      "view": "city",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.9,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 15.54,
+      "benchFps": 64,
+      "triangles": 1821152,
+      "calls": 741,
+      "instances": 12593,
+      "trees": 30444,
+      "pixelRatio": 1.5,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7975
+    },
+    {
+      "dsf": 2,
+      "quality": "medium",
+      "view": "bridge",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.8,
+      "frameMs": 16.66,
+      "worstMs": 16.8,
+      "benchMs": 15.45,
+      "benchFps": 65,
+      "triangles": 2607422,
+      "calls": 840,
+      "instances": 12593,
+      "trees": 30444,
+      "pixelRatio": 1.5,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7975
+    },
+    {
+      "dsf": 2,
+      "quality": "medium",
+      "view": "overview",
+      "year": "4000 BCE",
+      "fps": 60,
+      "rafFps": 60.5,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 11.25,
+      "benchFps": 89,
+      "triangles": 542548,
+      "calls": 29,
+      "instances": 12593,
+      "trees": 30444,
+      "pixelRatio": 1.5,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 7975
+    },
+    {
+      "dsf": 2,
+      "quality": "high",
+      "view": "overview",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 61,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 17.52,
+      "benchFps": 57,
+      "triangles": 2460694,
+      "calls": 1003,
+      "instances": 12593,
+      "trees": 61736,
+      "pixelRatio": 2,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 8281
+    },
+    {
+      "dsf": 2,
+      "quality": "high",
+      "view": "city",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.4,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 17.23,
+      "benchFps": 58,
+      "triangles": 2614550,
+      "calls": 1086,
+      "instances": 12593,
+      "trees": 61736,
+      "pixelRatio": 2,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 8281
+    },
+    {
+      "dsf": 2,
+      "quality": "high",
+      "view": "bridge",
+      "year": "1616",
+      "fps": 60,
+      "rafFps": 60.9,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 19.56,
+      "benchFps": 51,
+      "triangles": 2424554,
+      "calls": 897,
+      "instances": 12593,
+      "trees": 61736,
+      "pixelRatio": 2,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 8281
+    },
+    {
+      "dsf": 2,
+      "quality": "high",
+      "view": "overview",
+      "year": "4000 BCE",
+      "fps": 60,
+      "rafFps": 61,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 13.2,
+      "benchFps": 76,
+      "triangles": 785617,
+      "calls": 32,
+      "instances": 12593,
+      "trees": 61736,
+      "pixelRatio": 2,
+      "size": [
+        1500,
+        900
+      ],
+      "loadMs": 8281
+    }
+  ]
+}

@@ -1,0 +1,1188 @@
+[
+ {
+  "id": "sto-test",
+  "name": "Test stones",
+  "lat": 51.17888,
+  "lon": -1.82619,
+  "tier": "district",
+  "bearing": 49.9,
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "test",
+  "uncertainty": "test",
+  "phases": [
+   {
+    "label": "Stones",
+    "from": -3000,
+    "built": -3000,
+    "to": null,
+    "model": {
+     "kind": "megaliths",
+     "stones": [
+      {
+       "id": "u0",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 3,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u1",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 15,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u2",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 27,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u3",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 39,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u4",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 51,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u5",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 63,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u6",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 75,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u7",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 87,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "leaning",
+       "lean": 8,
+       "leanToward": 100
+      },
+      {
+       "id": "u8",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 99,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u9",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 111,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u10",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 123,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u11",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 135,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u12",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 147,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u13",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 159,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u14",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 171,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u15",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 183,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u16",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 195,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u17",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 207,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u18",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 219,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "fallen",
+       "fallToward": 200
+      },
+      {
+       "id": "u19",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 231,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u20",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 243,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u21",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 255,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "broken",
+       "pieces": 2,
+       "fallToward": 250
+      },
+      {
+       "id": "u22",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 267,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u23",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 279,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u24",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 291,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u25",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 303,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "stump"
+      },
+      {
+       "id": "u26",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 315,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u27",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 327,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u28",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 339,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "u29",
+       "type": "sarsen",
+       "role": "upright",
+       "az": 351,
+       "r": 15.4,
+       "w": 2.1,
+       "t": 1.1,
+       "h": 4.1,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "l0",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 9,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u0",
+        "u1"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l1",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 21,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u1",
+        "u2"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l2",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 33,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u2",
+        "u3"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l3",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 45,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u3",
+        "u4"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l4",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 57,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u4",
+        "u5"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l5",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 69,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u5",
+        "u6"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l6",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 81,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u6",
+        "u7"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l7",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 93,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u7",
+        "u8"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l8",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 105,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u8",
+        "u9"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l9",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 117,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u9",
+        "u10"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l10",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 129,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u10",
+        "u11"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l11",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 141,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u11",
+        "u12"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l12",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 153,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u12",
+        "u13"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l13",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 165,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u13",
+        "u14"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l14",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 177,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u14",
+        "u15"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l15",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 189,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u15",
+        "u16"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l16",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 201,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u16",
+        "u17"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l19",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 237,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u19",
+        "u20"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l22",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 273,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u22",
+        "u23"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l23",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 285,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u23",
+        "u24"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l26",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 321,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u26",
+        "u27"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l27",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 333,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u27",
+        "u28"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l28",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 345,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u28",
+        "u29"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "l29",
+       "type": "sarsen",
+       "role": "lintel",
+       "az": 357,
+       "r": 15.4,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "on": [
+        "u29",
+        "u0"
+       ],
+       "curved": true,
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "lf",
+       "type": "sarsen",
+       "role": "lintel",
+       "x": -18,
+       "z": 6,
+       "w": 3.2,
+       "t": 1,
+       "h": 0.8,
+       "state": "fallen",
+       "fallToward": 70,
+       "dressed": true
+      },
+      {
+       "id": "t0a",
+       "type": "sarsen",
+       "role": "upright",
+       "x": 7.0439388446957,
+       "z": 2.691732815898898,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 5,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "t0b",
+       "type": "sarsen",
+       "role": "upright",
+       "x": 5.507172978419406,
+       "z": 5.151072294752534,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 5,
+       "dressed": true,
+       "tenons": true,
+       "state": "fallen",
+       "fallToward": 140
+      },
+      {
+       "id": "tl0",
+       "type": "sarsen",
+       "role": "lintel",
+       "x": 1.5,
+       "z": 3.8,
+       "w": 5.4,
+       "t": 1.4,
+       "h": 1,
+       "on": [
+        "t0a",
+        "t0b"
+       ],
+       "dressed": true,
+       "state": "fallen",
+       "fallToward": 20
+      },
+      {
+       "id": "t1a",
+       "type": "sarsen",
+       "role": "upright",
+       "x": 1.962665778583274,
+       "z": 7.280827084993717,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 5.5,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "t1b",
+       "type": "sarsen",
+       "role": "upright",
+       "x": -0.9302699671702161,
+       "z": 7.483120858851681,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 5.5,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "tl1",
+       "type": "sarsen",
+       "role": "lintel",
+       "x": 0.5161979057065289,
+       "z": 7.381973971922699,
+       "w": 5.4,
+       "t": 1.4,
+       "h": 1,
+       "on": [
+        "t1a",
+        "t1b"
+       ],
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "t2a",
+       "type": "sarsen",
+       "role": "upright",
+       "x": -4.736686845034955,
+       "z": 5.8673927542029105,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 6.3,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "t2b",
+       "type": "sarsen",
+       "role": "upright",
+       "x": -6.600770913125919,
+       "z": 3.645863869157875,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 6.3,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "tl2",
+       "type": "sarsen",
+       "role": "lintel",
+       "x": -5.668728879080437,
+       "z": 4.756628311680393,
+       "w": 5.4,
+       "t": 1.4,
+       "h": 1,
+       "on": [
+        "t2a",
+        "t2b"
+       ],
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "t3a",
+       "type": "sarsen",
+       "role": "upright",
+       "x": -7.530975123061893,
+       "z": -0.38329322433734436,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 5.5,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "t3b",
+       "type": "sarsen",
+       "role": "upright",
+       "x": -6.829401625822857,
+       "z": -3.1971508305377343,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 5.5,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "tl3",
+       "type": "sarsen",
+       "role": "lintel",
+       "x": -7.180188374442375,
+       "z": -1.7902220274375393,
+       "w": 5.4,
+       "t": 1.4,
+       "h": 1,
+       "on": [
+        "t3a",
+        "t3b"
+       ],
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "t4a",
+       "type": "sarsen",
+       "role": "upright",
+       "x": -4.116505380399593,
+       "z": -6.317980963341154,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 5,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "t4b",
+       "type": "sarsen",
+       "role": "upright",
+       "x": -1.4276722021559098,
+       "z": -7.404340084247299,
+       "w": 2.1,
+       "t": 1.4,
+       "h": 5,
+       "dressed": true,
+       "tenons": true,
+       "state": "standing"
+      },
+      {
+       "id": "tl4",
+       "type": "sarsen",
+       "role": "lintel",
+       "x": -2.7720887912777514,
+       "z": -6.861160523794227,
+       "w": 5.4,
+       "t": 1.4,
+       "h": 1,
+       "on": [
+        "t4a",
+        "t4b"
+       ],
+       "dressed": true,
+       "state": "standing"
+      },
+      {
+       "id": "alt",
+       "type": "altar",
+       "role": "slab",
+       "x": 0.4,
+       "z": -1.2,
+       "w": 4.9,
+       "t": 1,
+       "h": 0.5,
+       "state": "standing"
+      },
+      {
+       "id": "heel",
+       "type": "sarsen",
+       "role": "outlier",
+       "az": 51,
+       "r": 77,
+       "w": 2.4,
+       "t": 2.1,
+       "h": 4.7,
+       "state": "leaning",
+       "lean": 25,
+       "leanToward": 231
+      },
+      {
+       "id": "bs-stump",
+       "type": "bluestone",
+       "role": "upright",
+       "az": 100,
+       "r": 11.2,
+       "w": 0.8,
+       "t": 0.5,
+       "h": 0.6,
+       "state": "stump"
+      },
+      {
+       "id": "bs-fall",
+       "type": "bluestone",
+       "role": "upright",
+       "az": 140,
+       "r": 11.5,
+       "w": 0.9,
+       "t": 0.6,
+       "h": 2,
+       "state": "fallen",
+       "fallToward": 30
+      },
+      {
+       "id": "bs-lean",
+       "type": "bluestone",
+       "role": "upright",
+       "az": 170,
+       "r": 11.5,
+       "w": 0.9,
+       "t": 0.6,
+       "h": 2.1,
+       "state": "leaning",
+       "lean": 15,
+       "leanToward": 250
+      },
+      {
+       "id": "bs-bur",
+       "type": "bluestone",
+       "role": "upright",
+       "az": 190,
+       "r": 11.5,
+       "w": 0.9,
+       "t": 0.6,
+       "h": 1.8,
+       "state": "buried"
+      }
+     ],
+     "rings": [
+      {
+       "type": "bluestone",
+       "r": 11.6,
+       "count": 60,
+       "from": 0,
+       "to": 360,
+       "w": [
+        0.6,
+        1.1
+       ],
+       "t": [
+        0.4,
+        0.7
+       ],
+       "h": [
+        1.4,
+        2.3
+       ],
+       "jitter": 0.3,
+       "skip": [
+        2,
+        3,
+        10,
+        11,
+        12,
+        31,
+        40
+       ],
+       "state": "standing",
+       "seed": 7
+      }
+     ]
+    }
+   }
+  ],
+  "sources": []
+ },
+ {
+  "id": "sto-sight",
+  "name": "Sightline",
+  "lat": 51.17888,
+  "lon": -1.82619,
+  "tier": "district",
+  "bearing": 49.9,
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "test",
+  "uncertainty": "test",
+  "phases": [
+   {
+    "label": "Sightline",
+    "from": -3000,
+    "built": -3000,
+    "to": null,
+    "model": {
+     "kind": "sightline",
+     "az": 49.9,
+     "length": 300,
+     "el": 0.5,
+     "sun": true
+    }
+   }
+  ],
+  "sources": []
+ }
+]

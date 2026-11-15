@@ -1,0 +1,1083 @@
+{
+ "sarsen-circle-centre": {
+  "lat": 51.17886,
+  "lon": -1.82621,
+  "x": 0.0,
+  "z": 0.0,
+  "note": "origin; centre of circle fitted to 15 OSM-mapped sarsen uprights (radius 15.6 m, scatter 0.5 m); agrees with NGR SU 12244219 (EH 2010)",
+  "source": "sto-osm-overpass; sto-ea-survey-2010"
+ },
+ "heel-stone": {
+  "lat": 51.179306,
+  "lon": -1.825331,
+  "x": 61.3,
+  "z": -49.6,
+  "note": "OSM stone way centroid (ref 96); Wikipedia 51.179305,-1.825302 and 77.4 m from centre",
+  "distance": 78.9,
+  "bearing": 51.0,
+  "source": "sto-osm-overpass; sto-wikipedia-heel-stone"
+ },
+ "slaughter-stone": {
+  "lat": 51.179108,
+  "lon": -1.8257,
+  "x": 35.6,
+  "z": -27.6,
+  "note": "Stone 95 (OSM)",
+  "source": "sto-osm-overpass"
+ },
+ "station-stone-91": {
+  "lat": 51.178678,
+  "lon": -1.825625,
+  "x": 40.8,
+  "z": 20.2,
+  "source": "sto-osm-overpass"
+ },
+ "station-stone-93": {
+  "lat": 51.179032,
+  "lon": -1.82675,
+  "x": -37.7,
+  "z": -19.2,
+  "source": "sto-osm-overpass"
+ },
+ "avenue": {
+  "lat": 51.179431,
+  "lon": -1.825082,
+  "x": 78.7,
+  "z": -63.5,
+  "path": [
+   [
+    51.179431,
+    -1.825082
+   ],
+   [
+    51.18035,
+    -1.823346
+   ],
+   [
+    51.181268,
+    -1.821608
+   ],
+   [
+    51.182208,
+    -1.819901
+   ],
+   [
+    51.182233,
+    -1.817731
+   ],
+   [
+    51.182099,
+    -1.81547
+   ],
+   [
+    51.181965,
+    -1.813208
+   ],
+   [
+    51.181795,
+    -1.810954
+   ],
+   [
+    51.181538,
+    -1.808721
+   ],
+   [
+    51.181122,
+    -1.806549
+   ],
+   [
+    51.180473,
+    -1.804545
+   ],
+   [
+    51.179507,
+    -1.802898
+   ],
+   [
+    51.178269,
+    -1.802021
+   ],
+   [
+    51.176942,
+    -1.801195
+   ],
+   [
+    51.17562,
+    -1.800347
+   ],
+   [
+    51.174278,
+    -1.799584
+   ],
+   [
+    51.172956,
+    -1.798741
+   ],
+   [
+    51.171669,
+    -1.797766
+   ]
+  ],
+  "pathXZ": [
+   [
+    78.7,
+    -63.5
+   ],
+   [
+    199.8,
+    -165.8
+   ],
+   [
+    321.1,
+    -267.8
+   ],
+   [
+    440.2,
+    -372.4
+   ],
+   [
+    591.7,
+    -375.2
+   ],
+   [
+    749.5,
+    -360.3
+   ],
+   [
+    907.3,
+    -345.4
+   ],
+   [
+    1064.7,
+    -326.5
+   ],
+   [
+    1220.5,
+    -297.9
+   ],
+   [
+    1372.1,
+    -251.6
+   ],
+   [
+    1511.9,
+    -179.5
+   ],
+   [
+    1626.8,
+    -72.0
+   ],
+   [
+    1688.0,
+    65.7
+   ],
+   [
+    1745.7,
+    213.4
+   ],
+   [
+    1804.9,
+    360.5
+   ],
+   [
+    1858.1,
+    509.7
+   ],
+   [
+    1916.9,
+    656.8
+   ],
+   [
+    1985.0,
+    800.0
+   ]
+  ],
+  "length": 2694.8,
+  "width": 23,
+  "note": "centre line of the ditch-bounded Avenue polygons mapped in OSM (stones to the elbow near x 455 z -390, then east over King Barrow Ridge to x 1650 z -60) joined to the OSM footway \"The Avenue\" SE to the Avon; last leg (to Bluestonehenge) is a straight extrapolation of ~190 m. Ditches ~20 m apart (EH 2010 survey).",
+  "source": "sto-osm-overpass; sto-ea-survey-2010; sto-wikipedia-avenue"
+ },
+ "avenue-elbow": {
+  "lat": 51.182348,
+  "lon": -1.819677,
+  "x": 455.9,
+  "z": -388.0,
+  "note": "where the NE-trending straight stretch ends and the Avenue turns east (EH 2010: ditches turn sharply east after >550 m, in Stonehenge Bottom)",
+  "bearingStonesToElbow": 49.6,
+  "source": "sto-osm-overpass; sto-ea-survey-2010"
+ },
+ "cursus-greater": {
+  "lat": 51.186555,
+  "lon": -1.82503,
+  "x": 82.3,
+  "z": -856.0,
+  "path": [
+   [
+    51.185382,
+    -1.844654
+   ],
+   [
+    51.185556,
+    -1.841084
+   ],
+   [
+    51.185654,
+    -1.837516
+   ],
+   [
+    51.18586,
+    -1.833948
+   ],
+   [
+    51.186093,
+    -1.83038
+   ],
+   [
+    51.186332,
+    -1.826812
+   ],
+   [
+    51.186575,
+    -1.823244
+   ],
+   [
+    51.186833,
+    -1.819676
+   ],
+   [
+    51.187091,
+    -1.816108
+   ],
+   [
+    51.187297,
+    -1.81254
+   ],
+   [
+    51.187513,
+    -1.808971
+   ],
+   [
+    51.187728,
+    -1.805406
+   ]
+  ],
+  "pathXZ": [
+   [
+    -1287.1,
+    -725.5
+   ],
+   [
+    -1038.0,
+    -745.0
+   ],
+   [
+    -789.0,
+    -755.8
+   ],
+   [
+    -540.0,
+    -778.7
+   ],
+   [
+    -291.0,
+    -804.7
+   ],
+   [
+    -42.0,
+    -831.2
+   ],
+   [
+    207.0,
+    -858.2
+   ],
+   [
+    456.0,
+    -887.0
+   ],
+   [
+    705.0,
+    -915.7
+   ],
+   [
+    954.0,
+    -938.6
+   ],
+   [
+    1203.0,
+    -962.6
+   ],
+   [
+    1451.8,
+    -986.6
+   ]
+  ],
+  "polygon": [
+   [
+    51.186523,
+    -1.832286
+   ],
+   [
+    51.186068,
+    -1.841065
+   ],
+   [
+    51.185725,
+    -1.844707
+   ],
+   [
+    51.185039,
+    -1.844602
+   ],
+   [
+    51.185057,
+    -1.836946
+   ],
+   [
+    51.186466,
+    -1.818242
+   ],
+   [
+    51.186829,
+    -1.812873
+   ],
+   [
+    51.187389,
+    -1.805423
+   ],
+   [
+    51.188067,
+    -1.805389
+   ],
+   [
+    51.187583,
+    -1.815989
+   ],
+   [
+    51.1874,
+    -1.818195
+   ],
+   [
+    51.187297,
+    -1.81986
+   ],
+   [
+    51.187164,
+    -1.821767
+   ],
+   [
+    51.18701,
+    -1.823957
+   ]
+  ],
+  "length": 2751.4,
+  "width": 107.6,
+  "widthRange": [
+   75.3,
+   133.1
+  ],
+  "bearing": 84.6,
+  "type": "cursus",
+  "endWest": {
+   "lat": 51.185382,
+   "lon": -1.844654,
+   "x": -1287.1,
+   "z": -725.5,
+   "source": "osm"
+  },
+  "endEast": {
+   "lat": 51.187728,
+   "lon": -1.805406,
+   "x": 1451.8,
+   "z": -986.6,
+   "source": "osm"
+  },
+  "note": "outline from OSM (NPE-traced earthwork); Wikipedia: ~2.76 km long, ~100 m wide, up to ~150 m at the west end. Width here = distance between mapped long sides.",
+  "source": "sto-osm-overpass; sto-wikipedia-cursus"
+ },
+ "cursus-lesser": {
+  "lat": 51.190341,
+  "lon": -1.851867,
+  "x": -1790.5,
+  "z": -1277.2,
+  "polygon": [
+   [
+    51.190964,
+    -1.847229
+   ],
+   [
+    51.191284,
+    -1.847434
+   ],
+   [
+    51.190318,
+    -1.852977
+   ],
+   [
+    51.190286,
+    -1.853096
+   ],
+   [
+    51.190238,
+    -1.853156
+   ],
+   [
+    51.190169,
+    -1.853156
+   ],
+   [
+    51.190083,
+    -1.853122
+   ],
+   [
+    51.190041,
+    -1.85302
+   ],
+   [
+    51.190014,
+    -1.852798
+   ],
+   [
+    51.190009,
+    -1.852679
+   ]
+  ],
+  "path": [
+   [
+    51.190123,
+    -1.853139
+   ],
+   [
+    51.191123,
+    -1.847298
+   ]
+  ],
+  "length": 422.5,
+  "width": 40.5,
+  "bearing": 74.7,
+  "type": "cursus",
+  "note": "OSM outline (Bing); Wikipedia: ~400 m x 60 m, WSW-ENE; cropmark only",
+  "source": "sto-osm-overpass; sto-wikipedia-cursus"
+ },
+ "durrington-walls": {
+  "lat": 51.192703,
+  "lon": -1.78666,
+  "x": 2760.0,
+  "z": -1540.0,
+  "polygon": [
+   [
+    51.194905,
+    -1.78666
+   ],
+   [
+    51.194737,
+    -1.785383
+   ],
+   [
+    51.19426,
+    -1.784299
+   ],
+   [
+    51.193545,
+    -1.783576
+   ],
+   [
+    51.192703,
+    -1.783321
+   ],
+   [
+    51.19186,
+    -1.783576
+   ],
+   [
+    51.191145,
+    -1.784299
+   ],
+   [
+    51.190668,
+    -1.785383
+   ],
+   [
+    51.1905,
+    -1.78666
+   ],
+   [
+    51.190668,
+    -1.787938
+   ],
+   [
+    51.191145,
+    -1.789021
+   ],
+   [
+    51.19186,
+    -1.789745
+   ],
+   [
+    51.192703,
+    -1.789999
+   ],
+   [
+    51.193545,
+    -1.789745
+   ],
+   [
+    51.19426,
+    -1.789021
+   ],
+   [
+    51.194737,
+    -1.787938
+   ]
+  ],
+  "diameter": 478.0,
+  "axes": [
+   466,
+   490
+  ],
+  "type": "henge",
+  "note": "centre from SU 1500 4376 (Gazetteer of Great Britain: 51.192885,-1.786628), Wikipedia 51.1925,-1.7875; OSM node is ~190 m off. Ring = ellipse 466 m E-W x 490 m N-S (Gazetteer: 510 x 535 yd) drawn as 16 points: APPROXIMATE, not a survey outline; centre uncertainty +/-60 m, outline +/-40 m.",
+  "source": "sto-gazetteer-durrington; sto-wikipedia-durrington; sto-osm-overpass"
+ },
+ "durrington-southern-circle": {
+  "lat": 51.190815,
+  "lon": -1.784941,
+  "x": 2880.0,
+  "z": -1330.0,
+  "type": "timber-circle",
+  "confidence": "low",
+  "note": "position estimated (south-east part of the enclosure, near the SE entrance); +/-60 m. Wikipedia text says the circle is 70 m north of Woodhenge, which does not fit the enclosure ellipse above; unresolved. Do not rely on better than ~100 m.",
+  "source": "sto-wikipedia-durrington"
+ },
+ "woodhenge": {
+  "lat": 51.189392,
+  "lon": -1.785793,
+  "x": 2820.6,
+  "z": -1171.6,
+  "polygon": [
+   [
+    51.189628,
+    -1.7858
+   ],
+   [
+    51.189619,
+    -1.785665
+   ],
+   [
+    51.189581,
+    -1.785544
+   ],
+   [
+    51.18952,
+    -1.785451
+   ],
+   [
+    51.189448,
+    -1.785399
+   ],
+   [
+    51.189364,
+    -1.785387
+   ],
+   [
+    51.189268,
+    -1.785432
+   ],
+   [
+    51.189202,
+    -1.785517
+   ],
+   [
+    51.189158,
+    -1.785632
+   ],
+   [
+    51.189141,
+    -1.785777
+   ],
+   [
+    51.189156,
+    -1.78591
+   ],
+   [
+    51.189199,
+    -1.786026
+   ],
+   [
+    51.189264,
+    -1.786112
+   ],
+   [
+    51.189304,
+    -1.786142
+   ],
+   [
+    51.189388,
+    -1.786163
+   ],
+   [
+    51.189462,
+    -1.786143
+   ],
+   [
+    51.189536,
+    -1.786079
+   ],
+   [
+    51.189582,
+    -1.786002
+   ],
+   [
+    51.189619,
+    -1.78588
+   ]
+  ],
+  "diameter": 110,
+  "type": "henge",
+  "note": "OSM polygon (54 m wide) marks the post-ring area; Wikipedia: whole monument 110 m across incl. ditch (up to 12 m wide) and outer bank; six oval post rings; entrance NE; Wikipedia 51.1894,-1.78576",
+  "source": "sto-osm-overpass; sto-wikipedia-woodhenge"
+ },
+ "coneybury-henge": {
+  "lat": 51.173498,
+  "lon": -1.809294,
+  "x": 1180.5,
+  "z": 596.6,
+  "polygon": [
+   [
+    51.173272,
+    -1.8091
+   ],
+   [
+    51.173324,
+    -1.808989
+   ],
+   [
+    51.173396,
+    -1.808914
+   ],
+   [
+    51.17348,
+    -1.808882
+   ],
+   [
+    51.173566,
+    -1.808897
+   ],
+   [
+    51.173644,
+    -1.808958
+   ],
+   [
+    51.173705,
+    -1.809057
+   ],
+   [
+    51.17374,
+    -1.809182
+   ],
+   [
+    51.173748,
+    -1.809309
+   ],
+   [
+    51.17373,
+    -1.809434
+   ],
+   [
+    51.173689,
+    -1.809543
+   ],
+   [
+    51.173629,
+    -1.809627
+   ],
+   [
+    51.173555,
+    -1.809675
+   ],
+   [
+    51.173475,
+    -1.809685
+   ],
+   [
+    51.173397,
+    -1.809654
+   ],
+   [
+    51.17333,
+    -1.809586
+   ],
+   [
+    51.173279,
+    -1.809488
+   ],
+   [
+    51.173249,
+    -1.809369
+   ],
+   [
+    51.173246,
+    -1.809231
+   ]
+  ],
+  "diameter": 56.2,
+  "type": "henge",
+  "note": "OSM outline; Neolithic henge excavated 1980s; (Coneybury Anomaly pit site is nearby, not mapped)",
+  "source": "sto-osm-overpass"
+ },
+ "bluestonehenge": {
+  "lat": 51.171534,
+  "lon": -1.797814,
+  "x": 1981.6,
+  "z": 815.0,
+  "polygon": [
+   [
+    51.171443,
+    -1.797613
+   ],
+   [
+    51.171489,
+    -1.797577
+   ],
+   [
+    51.171539,
+    -1.797566
+   ],
+   [
+    51.171589,
+    -1.797582
+   ],
+   [
+    51.171633,
+    -1.797621
+   ],
+   [
+    51.171667,
+    -1.797681
+   ],
+   [
+    51.171687,
+    -1.797755
+   ],
+   [
+    51.171692,
+    -1.797836
+   ],
+   [
+    51.171679,
+    -1.797918
+   ],
+   [
+    51.17165,
+    -1.797989
+   ],
+   [
+    51.171607,
+    -1.798041
+   ],
+   [
+    51.171557,
+    -1.798067
+   ],
+   [
+    51.171503,
+    -1.798065
+   ],
+   [
+    51.171453,
+    -1.798034
+   ],
+   [
+    51.171413,
+    -1.797979
+   ],
+   [
+    51.171386,
+    -1.797905
+   ],
+   [
+    51.171377,
+    -1.797821
+   ],
+   [
+    51.171384,
+    -1.797742
+   ],
+   [
+    51.171407,
+    -1.79767
+   ]
+  ],
+  "diameter": 35.1,
+  "type": "henge",
+  "note": "West Amesbury henge on the Avon bank; OSM marks it \"approximate location from photos\"; Wikipedia 51.1714,-1.7980; ditch ~25 m wide, stone circle ~10 m across (possibly 27 stones)",
+  "source": "sto-osm-overpass; sto-wikipedia-bluestonehenge"
+ },
+ "cuckoo-stone": {
+  "lat": 51.18914,
+  "lon": -1.791634,
+  "x": 2412.9,
+  "z": -1143.6,
+  "note": "Wikipedia 51.18923,-1.79168 (SU14654335)",
+  "source": "sto-osm-overpass; sto-wikipedia-cuckoo-stone"
+ },
+ "robin-hoods-ball": {
+  "lat": 51.212708,
+  "lon": -1.854927,
+  "x": -2004.0,
+  "z": -3765.6,
+  "polygon": [
+   [
+    51.211843,
+    -1.854096
+   ],
+   [
+    51.212031,
+    -1.85371
+   ],
+   [
+    51.212344,
+    -1.853414
+   ],
+   [
+    51.212761,
+    -1.853194
+   ],
+   [
+    51.21303,
+    -1.853309
+   ],
+   [
+    51.21316,
+    -1.853452
+   ],
+   [
+    51.213418,
+    -1.853711
+   ],
+   [
+    51.213571,
+    -1.854081
+   ],
+   [
+    51.213616,
+    -1.855072
+   ],
+   [
+    51.213566,
+    -1.85556
+   ],
+   [
+    51.213525,
+    -1.855829
+   ],
+   [
+    51.213418,
+    -1.856047
+   ],
+   [
+    51.213133,
+    -1.856242
+   ],
+   [
+    51.21273,
+    -1.856542
+   ],
+   [
+    51.212488,
+    -1.856413
+   ],
+   [
+    51.212246,
+    -1.856413
+   ],
+   [
+    51.212004,
+    -1.856156
+   ],
+   [
+    51.211843,
+    -1.855598
+   ],
+   [
+    51.211735,
+    -1.854997
+   ],
+   [
+    51.211708,
+    -1.854697
+   ]
+  ],
+  "type": "causewayed-enclosure",
+  "insideBounds": false,
+  "note": "about 4 km NNW of the stones; Wikipedia 51.2128,-1.8550",
+  "source": "sto-osm-overpass; sto-wikipedia-robin-hoods-ball"
+ },
+ "vespasians-camp": {
+  "lat": 51.174687,
+  "lon": -1.792096,
+  "x": 2380.7,
+  "z": 464.2,
+  "polygon": [
+   [
+    51.173054,
+    -1.793828
+   ],
+   [
+    51.17361,
+    -1.793787
+   ],
+   [
+    51.174166,
+    -1.793745
+   ],
+   [
+    51.174722,
+    -1.793737
+   ],
+   [
+    51.175279,
+    -1.793737
+   ],
+   [
+    51.175835,
+    -1.793737
+   ],
+   [
+    51.176392,
+    -1.793724
+   ],
+   [
+    51.176948,
+    -1.793708
+   ],
+   [
+    51.177428,
+    -1.79333
+   ],
+   [
+    51.177336,
+    -1.79254
+   ],
+   [
+    51.176847,
+    -1.792141
+   ],
+   [
+    51.176328,
+    -1.791823
+   ],
+   [
+    51.175806,
+    -1.791514
+   ],
+   [
+    51.17528,
+    -1.791223
+   ],
+   [
+    51.174755,
+    -1.790931
+   ],
+   [
+    51.174222,
+    -1.790678
+   ],
+   [
+    51.173684,
+    -1.790454
+   ],
+   [
+    51.173145,
+    -1.790229
+   ],
+   [
+    51.172624,
+    -1.789923
+   ],
+   [
+    51.172143,
+    -1.789644
+   ],
+   [
+    51.17234,
+    -1.79047
+   ],
+   [
+    51.172537,
+    -1.791298
+   ],
+   [
+    51.172703,
+    -1.792145
+   ],
+   [
+    51.172869,
+    -1.792991
+   ]
+  ],
+  "type": "hillfort",
+  "length": 730,
+  "note": "OSM outline (rampart line, 14 vertices) re-sampled to 24 points at equal arc length (corners slightly rounded). Wikipedia: 14 ha, 730 m N-S, 374 m wide at the south, 100 m at the north; bank up to 40 m wide, ditch up to 10 m, counterscarp 18 m; Avon runs along the south side (sic: OSM puts the loop west and south)",
+  "source": "sto-osm-overpass; sto-wikipedia-vespasians-camp"
+ },
+ "amesbury-church": {
+  "lat": 51.171886,
+  "lon": -1.784282,
+  "x": 2926.0,
+  "z": 775.8,
+  "note": "St Mary and St Melor (building polygon centroid); Grade I; may be the surviving priory church (Wikipedia Amesbury Abbey)",
+  "source": "sto-osm-overpass"
+ },
+ "amesbury-abbey-house": {
+  "lat": 51.174502,
+  "lon": -1.785392,
+  "x": 2848.5,
+  "z": 484.8,
+  "note": "OSM building \"Amesbury Abbey\": the 19th-century country house (Wikipedia: priory was destroyed at the Dissolution); not the medieval priory church",
+  "source": "sto-osm-overpass"
+ },
+ "amesbury-abbey-precinct": {
+  "lat": 51.171886,
+  "lon": -1.784927,
+  "x": 2881.0,
+  "z": 775.8,
+  "polygon": [
+   [
+    51.172471,
+    -1.786503
+   ],
+   [
+    51.172471,
+    -1.783351
+   ],
+   [
+    51.171302,
+    -1.783351
+   ],
+   [
+    51.171302,
+    -1.786503
+   ]
+  ],
+  "type": "conjectural",
+  "confidence": "low",
+  "note": "NO source gives the precinct boundary. 220 x 130 m rectangle centred ~45 m west of the church (Fontevraud priory lay by the church). Placeholder only: lead should label as conjectural.",
+  "source": "conjecture"
+ },
+ "amesbury-town-centre": {
+  "lat": 51.1723,
+  "lon": -1.78175,
+  "x": 3102.7,
+  "z": 729.8,
+  "note": "OSM place=town node",
+  "source": "sto-osm-overpass"
+ },
+ "stonehenge-bottom-label": {
+  "lat": 51.177789,
+  "lon": -1.819128,
+  "x": 494.2,
+  "z": 119.1,
+  "note": "OSM place=locality node \"Stonehenge Bottom\" (label position only; the valley is fitted from the DEM)",
+  "source": "sto-osm-overpass"
+ }
+}

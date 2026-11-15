@@ -1,0 +1,382 @@
+[
+ {
+  "id": "london",
+  "name": "London",
+  "lat": 51.5074,
+  "lon": -0.0877,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 48,
+    "to": 410,
+    "label": "Roman town",
+    "size": 5
+   },
+   {
+    "from": 410,
+    "to": 600,
+    "label": "Largely empty walled city",
+    "size": 0
+   },
+   {
+    "from": 600,
+    "to": 886,
+    "label": "Lundenwic",
+    "size": 3
+   },
+   {
+    "from": 886,
+    "to": 1066,
+    "label": "Late Saxon town",
+    "size": 4
+   },
+   {
+    "from": 1066,
+    "to": null,
+    "label": "Capital",
+    "size": 5
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": [],
+  "altNames": [
+   {
+    "name": "Londinium",
+    "from": 48,
+    "to": 410
+   },
+   {
+    "name": "Lundenwic",
+    "from": 600,
+    "to": 886
+   },
+   {
+    "name": "Lundenburh",
+    "from": 886,
+    "to": 1066
+   }
+  ],
+  "site": "london"
+ },
+ {
+  "id": "york",
+  "name": "York",
+  "lat": 53.96,
+  "lon": -1.08,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 71,
+    "to": 410,
+    "label": "Legionary fortress and colonia",
+    "size": 4
+   },
+   {
+    "from": 410,
+    "to": 627,
+    "label": "Reduced",
+    "size": 1
+   },
+   {
+    "from": 627,
+    "to": 866,
+    "label": "Eoforwic",
+    "size": 3
+   },
+   {
+    "from": 866,
+    "to": 954,
+    "label": "Jorvik",
+    "size": 4
+   },
+   {
+    "from": 954,
+    "to": null,
+    "label": "City",
+    "size": 4
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": [],
+  "altNames": [
+   {
+    "name": "Eboracum",
+    "from": 71,
+    "to": 410
+   },
+   {
+    "name": "Eoforwic",
+    "from": 627,
+    "to": 866
+   },
+   {
+    "name": "Jorvik",
+    "from": 866,
+    "to": 954
+   }
+  ]
+ },
+ {
+  "id": "winchester",
+  "name": "Winchester",
+  "lat": 51.063,
+  "lon": -1.31,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 70,
+    "to": 410,
+    "label": "Venta Belgarum",
+    "size": 3
+   },
+   {
+    "from": 660,
+    "to": null,
+    "label": "Royal and episcopal city",
+    "size": 4
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": [],
+  "altNames": [
+   {
+    "name": "Venta Belgarum",
+    "from": 70,
+    "to": 410
+   }
+  ]
+ },
+ {
+  "id": "stonehenge",
+  "name": "Stonehenge",
+  "lat": 51.1789,
+  "lon": -1.8262,
+  "country": "england",
+  "kind": "monument",
+  "phases": [
+   {
+    "from": -3000,
+    "to": -1500,
+    "label": "In use",
+    "size": 3
+   },
+   {
+    "from": -1500,
+    "to": null,
+    "label": "Disused monument",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": []
+ },
+ {
+  "id": "maiden-castle",
+  "name": "Maiden Castle",
+  "lat": 50.695,
+  "lon": -2.47,
+  "country": "england",
+  "kind": "hillfort",
+  "phases": [
+   {
+    "from": -600,
+    "to": 60,
+    "label": "Hillfort",
+    "size": 3
+   },
+   {
+    "from": 60,
+    "to": null,
+    "label": "Abandoned",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": []
+ },
+ {
+  "id": "canterbury",
+  "name": "Canterbury",
+  "lat": 51.28,
+  "lon": 1.08,
+  "country": "england",
+  "kind": "cathedral",
+  "phases": [
+   {
+    "from": 50,
+    "to": 410,
+    "label": "Durovernum",
+    "size": 3
+   },
+   {
+    "from": 597,
+    "to": null,
+    "label": "Cathedral city",
+    "size": 4
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": [],
+  "altNames": [
+   {
+    "name": "Durovernum",
+    "from": 50,
+    "to": 410
+   }
+  ]
+ },
+ {
+  "id": "chester",
+  "name": "Chester",
+  "lat": 53.19,
+  "lon": -2.89,
+  "country": "england",
+  "kind": "fort",
+  "phases": [
+   {
+    "from": 75,
+    "to": 400,
+    "label": "Legionary fortress Deva",
+    "size": 4
+   },
+   {
+    "from": 907,
+    "to": null,
+    "label": "Town",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": [],
+  "altNames": [
+   {
+    "name": "Deva",
+    "from": 75,
+    "to": 400
+   }
+  ]
+ },
+ {
+  "id": "hastings",
+  "name": "Battle of Hastings",
+  "lat": 50.912,
+  "lon": 0.487,
+  "country": "england",
+  "kind": "battle",
+  "phases": [
+   {
+    "from": 1066,
+    "to": 1066,
+    "label": "Battle",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": []
+ },
+ {
+  "id": "norwich",
+  "name": "Norwich",
+  "lat": 52.63,
+  "lon": 1.297,
+  "country": "england",
+  "kind": "city",
+  "phases": [
+   {
+    "from": 900,
+    "to": null,
+    "label": "Town",
+    "size": 4
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": []
+ },
+ {
+  "id": "bristol",
+  "name": "Bristol",
+  "lat": 51.454,
+  "lon": -2.59,
+  "country": "england",
+  "kind": "port",
+  "phases": [
+   {
+    "from": 1000,
+    "to": null,
+    "label": "Port",
+    "size": 4
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": []
+ },
+ {
+  "id": "durham",
+  "name": "Durham",
+  "lat": 54.775,
+  "lon": -1.576,
+  "country": "england",
+  "kind": "cathedral",
+  "phases": [
+   {
+    "from": 995,
+    "to": null,
+    "label": "Cathedral and castle",
+    "size": 3
+   }
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": []
+ },
+ {
+  "id": "fountains",
+  "name": "Fountains Abbey",
+  "lat": 54.11,
+  "lon": -1.58,
+  "country": "england",
+  "kind": "monastery",
+  "phases": [
+   {
+    "from": 1132,
+    "to": 1539,
+    "label": "Cistercian abbey",
+    "size": 3
+   },
+   {
+    "from": 1539,
+    "to": null,
+    "label": "Dissolved",
+    "size": 0
+   }
+  ],
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/places.json exists.",
+  "sources": []
+ }
+]

@@ -1,0 +1,60 @@
+history.sqlite build  2026-11-14 06:15:48   (only=all)
+input sha256 4e3447e296a055be
+
+JSON files: 51 found
+  loaded                           44
+  skipped (unrecognised name)      7
+    locations/barnet/terrain-lidar.json: skipped (unrecognised name)
+    locations/brentford/terrain-lidar.json: skipped (unrecognised name)
+    locations/brentford/vessels.json: skipped (unrecognised name)
+    locations/london/streets.json: skipped (unrecognised name)
+    locations/london/terrain-lidar.json: skipped (unrecognised name)
+    locations/london/vessels.json: skipped (unrecognised name)
+    locations/stonehenge/terrain-lidar.json: skipped (unrecognised name)
+
+Row counts:
+  asset                      128
+  build_meta                   4
+  citation                  2195
+  dangling_citation            0
+  episode                     14
+  episode_fact               168
+  era                         27
+  event                      147
+  fact                      3482
+  landmark                   168
+  landmark_path_point        458
+  landmark_phase             306
+  line_feature                42
+  line_point                 782
+  load_issue                   7
+  location                     5
+  place                      243
+  place_name                  95
+  place_phase                684
+  polity                      73
+  polity_point               344
+  sea_level_keyframe           9
+  source                     626
+  stone                      127
+  woodland_keyframe           38
+  zone                        44
+  total facts (fact table): 3482
+
+load_issue rows: 7
+  info     unrecognised     7
+
+Entities with no citation (v_unsourced):
+  place         45 of 243
+  event         25 of 147
+  polity         6 of 73
+  line           4 of 42
+Facts with n_sources=0: 326 of 3482
+
+Dangling source ids: 0 citations, 0 distinct ids
+
+PRAGMA foreign_key_check: 0 violations; integrity_check: ok
+
+wrote data/db/history.sqlite (4120 KB)
+wrote data/db/history.sql (4161 KB)
+Data is edited by other people/agents: files may have been incomplete at build time. Just re-run this script.

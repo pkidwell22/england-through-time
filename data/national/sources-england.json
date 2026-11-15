@@ -1,0 +1,857 @@
+{
+ "nat-eh-stonehenge": {
+  "title": "History of Stonehenge",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/"
+ },
+ "nat-eh-avebury": {
+  "title": "History of Avebury Henge and Stone Circles",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/avebury/history/"
+ },
+ "nat-eh-silbury": {
+  "title": "History of Silbury Hill",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/silbury-hill/history/"
+ },
+ "nat-eh-grimes-graves": {
+  "title": "History of Grime's Graves",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/grimes-graves-prehistoric-flint-mine/history/"
+ },
+ "nat-eh-maiden-castle": {
+  "title": "History of Maiden Castle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/maiden-castle/history/"
+ },
+ "nat-eh-old-sarum": {
+  "title": "History of Old Sarum",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/old-sarum/history/"
+ },
+ "nat-eh-wroxeter": {
+  "title": "History of Wroxeter Roman City",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/wroxeter-roman-city/history/"
+ },
+ "nat-eh-richborough": {
+  "title": "History of Richborough Roman Fort and Amphitheatre",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/richborough-roman-fort-and-amphitheatre/history-and-stories/history/"
+ },
+ "nat-eh-silchester": {
+  "title": "History of Silchester Roman City Walls and Amphitheatre",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/silchester-roman-city-walls-and-amphitheatre/history/"
+ },
+ "nat-eh-lindisfarne": {
+  "title": "History of Lindisfarne Priory",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/history/"
+ },
+ "nat-eh-whitby": {
+  "title": "History of Whitby Abbey",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/whitby-abbey/history-and-stories/history/"
+ },
+ "nat-eh-housesteads": {
+  "title": "History of Housesteads Roman Fort",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/housesteads-roman-fort-hadrians-wall/history/"
+ },
+ "nat-eh-battle-abbey": {
+  "title": "History of Battle Abbey and Battlefield",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/history/"
+ },
+ "nat-eh-dover": {
+  "title": "History of Dover Castle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/history/"
+ },
+ "nat-eh-rievaulx": {
+  "title": "History of Rievaulx Abbey",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/rievaulx-abbey/history-and-stories/history/"
+ },
+ "nat-eh-jarrow": {
+  "title": "History of St Paul's Monastery, Jarrow",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/st-pauls-monastery-jarrow/history/"
+ },
+ "nat-eh-kenilworth": {
+  "title": "History of Kenilworth Castle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/kenilworth-castle/history-and-stories/history/"
+ },
+ "nat-eh-chesters": {
+  "title": "History of Chesters Roman Fort",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/history/"
+ },
+ "nat-eh-pevensey": {
+  "title": "History of Pevensey Castle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/pevensey-castle/history/"
+ },
+ "nat-nt-sutton-hoo": {
+  "title": "The history of Sutton Hoo",
+  "publisher": "National Trust",
+  "url": "https://www.nationaltrust.org.uk/visit/suffolk/sutton-hoo/history-of-sutton-hoo"
+ },
+ "nat-vindolanda": {
+  "title": "Roman Vindolanda Fort and Museum",
+  "publisher": "The Vindolanda Trust",
+  "url": "https://www.vindolanda.com/roman-vindolanda-fort-museum"
+ },
+ "nat-tna-domesday": {
+  "title": "What does Domesday Book tell us?",
+  "publisher": "The National Archives",
+  "url": "http://www.nationalarchives.gov.uk/education/teaching-resources/what-does-domesday-book-tell-us/"
+ },
+ "nat-cam-early-records": {
+  "title": "Early records",
+  "publisher": "University of Cambridge",
+  "url": "https://www.cam.ac.uk/about-the-university/history/early-records"
+ },
+ "nat-romanbaths-timeline": {
+  "title": "Roman Baths timeline",
+  "publisher": "The Roman Baths, Bath",
+  "url": "https://www.romanbaths.co.uk/roman-baths-timeline"
+ },
+ "nat-herefordshire-woodland": {
+  "title": "Woodland (the medieval countryside), citing Rackham 1976",
+  "publisher": "Herefordshire Through Time, Herefordshire Council",
+  "url": "https://htt.herefordshire.gov.uk/herefordshires-past/the-medieval-period/countryside-and-landscape/woodland"
+ },
+ "nat-ou-woodland": {
+  "title": "Neighbourhood nature, 1.3 Woodland history",
+  "publisher": "The Open University (OpenLearn)",
+  "url": "https://www.open.edu/openlearn/nature-environment/natural-history/neighbourhood-nature/content-section-1.3"
+ },
+ "nat-wp-historical-population": {
+  "title": "List of towns and cities in England by historical population (tables after Russell 1948, Darby 1977, Hoskins 1984)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_towns_and_cities_in_England_by_historical_population"
+ },
+ "nat-wp-brentford-1016": {
+  "title": "Battle of Brentford (1016)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Brentford_(1016)"
+ },
+ "nat-wp-barnet": {
+  "title": "Battle of Barnet",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Barnet"
+ },
+ "nat-wp-roman-britain": {
+  "title": "Roman Britain",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Roman_Britain"
+ },
+ "nat-wp-camulodunum": {
+  "title": "Camulodunum",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Camulodunum"
+ },
+ "nat-wp-verulamium": {
+  "title": "Verulamium",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Verulamium"
+ },
+ "nat-wp-eboracum": {
+  "title": "Eboracum",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Eboracum"
+ },
+ "nat-wp-lindum": {
+  "title": "Lindum Colonia",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Lindum_Colonia"
+ },
+ "nat-wp-glevum": {
+  "title": "Glevum",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Glevum"
+ },
+ "nat-wp-deva": {
+  "title": "Deva Victrix",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Deva_Victrix"
+ },
+ "nat-wp-danelaw": {
+  "title": "Danelaw",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Danelaw"
+ },
+ "nat-wp-burghal-hidage": {
+  "title": "Burghal Hidage",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Burghal_Hidage"
+ },
+ "nat-wp-hamwic": {
+  "title": "Southampton (history: Hamwic)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hamwic"
+ },
+ "nat-wp-dunwich": {
+  "title": "Dunwich",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dunwich"
+ },
+ "nat-wp-towton": {
+  "title": "Battle of Towton",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Towton"
+ },
+ "nat-wp-bosworth": {
+  "title": "Battle of Bosworth Field",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Bosworth_Field"
+ },
+ "nat-wp-maldon": {
+  "title": "Battle of Maldon",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Maldon"
+ },
+ "nat-wp-edington": {
+  "title": "Battle of Edington",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Edington"
+ },
+ "nat-wp-brunanburh": {
+  "title": "Battle of Brunanburh",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Brunanburh"
+ },
+ "nat-wp-stamford-bridge": {
+  "title": "Battle of Stamford Bridge",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge"
+ },
+ "nat-wp-tewkesbury": {
+  "title": "Battle of Tewkesbury",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Tewkesbury"
+ },
+ "nat-wp-ravenser-odd": {
+  "title": "Ravenser Odd",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ravenser_Odd"
+ },
+ "nat-wp-yeavering": {
+  "title": "Yeavering",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Yeavering"
+ },
+ "nat-wp-flag-fen": {
+  "title": "Flag Fen",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Flag_Fen"
+ },
+ "nat-wp-danebury": {
+  "title": "Danebury",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Danebury"
+ },
+ "nat-wp-hengistbury": {
+  "title": "Hengistbury Head",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hengistbury_Head"
+ },
+ "nat-wp-scandinavian-york": {
+  "title": "Scandinavian York",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Scandinavian_York"
+ },
+ "nat-wp-black-death": {
+  "title": "Black Death in England",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Black_Death_in_England"
+ },
+ "nat-wp-dissolution": {
+  "title": "Dissolution of the monasteries",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_monasteries"
+ },
+ "nat-wp-aethelstan": {
+  "title": "Æthelstan",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/%C3%86thelstan"
+ },
+ "nat-wp-mercia": {
+  "title": "Mercia",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Mercia"
+ },
+ "nat-wp-northumbria": {
+  "title": "Northumbria",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Northumbria"
+ },
+ "nat-wp-east-anglia": {
+  "title": "Kingdom of East Anglia",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kingdom_of_East_Anglia"
+ },
+ "nat-wp-kent": {
+  "title": "Kingdom of Kent",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+ },
+ "nat-wp-wessex": {
+  "title": "Wessex",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Wessex"
+ },
+ "nat-wp-essex": {
+  "title": "Kingdom of Essex",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kingdom_of_Essex"
+ },
+ "nat-wp-sussex": {
+  "title": "Kingdom of Sussex",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sussex"
+ },
+ "nat-wp-hwicce": {
+  "title": "Hwicce",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hwicce"
+ },
+ "nat-wp-lindsey": {
+  "title": "Kingdom of Lindsey",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kingdom_of_Lindsey"
+ },
+ "nat-wp-welsh-marches": {
+  "title": "Welsh Marches",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Welsh_Marches"
+ },
+ "nat-wp-winchester": {
+  "title": "Winchester",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Winchester"
+ },
+ "nat-eh-thornborough": {
+  "title": "History of Thornborough Henges",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/thornborough-henges/history/"
+ },
+ "nat-eh-stanwick": {
+  "title": "History of Stanwick Iron Age Fortifications",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/stanwick-iron-age-fortifications/history/"
+ },
+ "nat-eh-aldborough": {
+  "title": "History of Aldborough Roman Site",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/aldborough-roman-site/history/"
+ },
+ "nat-eh-corbridge": {
+  "title": "History of Corbridge Roman Town",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/corbridge-roman-town-hadrians-wall/history-and-stories/history/"
+ },
+ "nat-eh-portchester": {
+  "title": "History of Portchester Castle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/portchester-castle/history-and-stories/history/"
+ },
+ "nat-eh-castlerigg": {
+  "title": "History of Castlerigg Stone Circle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/castlerigg-stone-circle/history/"
+ },
+ "nat-eh-west-kennet": {
+  "title": "History of West Kennet Long Barrow",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/west-kennet-long-barrow/history/"
+ },
+ "nat-eh-windmill-hill": {
+  "title": "History of Windmill Hill",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/windmill-hill/history/"
+ },
+ "nat-eh-grimspound": {
+  "title": "History of Grimspound",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/grimspound/history/"
+ },
+ "nat-eh-uffington": {
+  "title": "History of Uffington Castle, White Horse and Dragon Hill",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/uffington-castle-white-horse-and-dragon-hill/history/"
+ },
+ "nat-eh-furness": {
+  "title": "History of Furness Abbey",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/furness-abbey/history/"
+ },
+ "nat-eh-carlisle-castle": {
+  "title": "History of Carlisle Castle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/carlisle-castle/history/"
+ },
+ "nat-eh-scarborough": {
+  "title": "History of Scarborough Castle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/scarborough-castle/history/"
+ },
+ "nat-eh-reculver": {
+  "title": "History of Reculver Towers and Roman Fort",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/reculver-towers-and-roman-fort/history/"
+ },
+ "nat-eh-st-augustines": {
+  "title": "History of St Augustine’s Abbey",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/st-augustines-abbey/history-and-stories/history/"
+ },
+ "nat-eh-hadrians-wall": {
+  "title": "History of Hadrian’s Wall",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/"
+ },
+ "nat-eh-thetford-priory": {
+  "title": "History of Thetford Priory",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/thetford-priory/history/"
+ },
+ "nat-eh-berwick": {
+  "title": "History of Berwick-Upon-Tweed Castle, Main Guard and Ramparts",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/berwick-upon-tweed-castle-and-ramparts/history/"
+ },
+ "nat-eh-cirencester-amphitheatre": {
+  "title": "History of Cirencester Amphitheatre",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/cirencester-amphitheatre/history/"
+ },
+ "nat-eh-lincoln-bishops-palace": {
+  "title": "History of Lincoln Medieval Bishops’ Palace",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/lincoln-medieval-bishops-palace/history/"
+ },
+ "nat-eh-chester-amphitheatre": {
+  "title": "History of Chester Roman Amphitheatre",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/chester-roman-amphitheatre/history/"
+ },
+ "nat-eh-framlingham": {
+  "title": "Framlingham Castle: History and Stories",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/framlingham-castle/history/"
+ },
+ "nat-eh-tintagel": {
+  "title": "History of Tintagel Castle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/tintagel-castle/history-and-legend/history/"
+ },
+ "nat-eh-birdoswald": {
+  "title": "History of Birdoswald Roman Fort",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/birdoswald-roman-fort-hadrians-wall/history-and-stories/history/"
+ },
+ "nat-eh-richmond": {
+  "title": "History of Richmond Castle",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/richmond-castle/history-and-stories/history/"
+ },
+ "nat-eh-jewry-wall": {
+  "title": "History of Jewry Wall, Leicester",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/jewry-wall/history/"
+ },
+ "nat-eh-yarmouth-rows": {
+  "title": "History of Great Yarmouth Row Houses",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/great-yarmouth-row-houses-and-greyfriars-cloisters/history/"
+ },
+ "nat-eh-burgh-castle": {
+  "title": "History of Burgh Castle Roman Fort",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/burgh-castle/history/"
+ },
+ "nat-eh-st-albans-wall": {
+  "title": "History of Roman Wall, St Albans",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/roman-wall-of-st-albans/history/"
+ },
+ "nat-eh-london-wall": {
+  "title": "History of London Wall",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/london-wall/history/"
+ },
+ "nat-londonmuseum-roman-timeline": {
+  "title": "A timeline of Roman London: Londinium from start to end",
+  "publisher": "London Museum",
+  "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"
+ },
+ "nat-vch-colchester-roman": {
+  "title": "Iron-Age and Roman Colchester (Victoria County History, essex vol9 pp2-18)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/essex/vol9/pp2-18"
+ },
+ "nat-vch-colchester-medieval": {
+  "title": "Medieval Colchester: Introduction (Victoria County History, essex vol9 pp19-26)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/essex/vol9/pp19-26"
+ },
+ "nat-vch-chester-roman": {
+  "title": "Roman Chester (Victoria County History, ches vol5 pt1 pp9-15)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/ches/vol5/pt1/pp9-15"
+ },
+ "nat-vch-chester-early-medieval": {
+  "title": "Early medieval Chester 400-1230 (Victoria County History, ches vol5 pt1 pp16-33)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/ches/vol5/pt1/pp16-33"
+ },
+ "nat-vch-york-pre-conquest": {
+  "title": "Before the Norman Conquest (Victoria County History, yorks city-of-york pp2-24)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/yorks/city-of-york/pp2-24"
+ },
+ "nat-vch-gloucester-intro": {
+  "title": "The city of Gloucester: Introduction (Victoria County History, glos vol4 pp1-4)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/glos/vol4/pp1-4"
+ },
+ "nat-vch-gloucester-saxon": {
+  "title": "Anglo-Saxon Gloucester: c.680 - 1066 (Victoria County History, glos vol4 pp5-12)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/glos/vol4/pp5-12"
+ },
+ "nat-vch-coventry": {
+  "title": "The City of Coventry: Introduction (Victoria County History, warks vol8 pp1-23)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/warks/vol8/pp1-23"
+ },
+ "nat-vch-coventry-priory": {
+  "title": "Houses of Benedictine monks: Priory of Coventry (Victoria County History, warks vol2 pp52-59)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/warks/vol2/pp52-59"
+ },
+ "nat-vch-oxford-medieval": {
+  "title": "Medieval Oxford (Victoria County History, oxon vol4 pp3-73)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/oxon/vol4/pp3-73"
+ },
+ "nat-vch-hull-medieval": {
+  "title": "Medieval Hull (Victoria County History, yorks east vol1 pp11-85)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/yorks/east/vol1/pp11-85"
+ },
+ "nat-vch-cambridge-medieval": {
+  "title": "The city of Cambridge: Medieval history (Victoria County History, cambs vol3 pp2-15)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/cambs/vol3/pp2-15"
+ },
+ "nat-vch-lichfield": {
+  "title": "Lichfield: History to c.1500 (Victoria County History, staffs vol14 pp4-14)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/staffs/vol14/pp4-14"
+ },
+ "nat-vch-wells-cathedral": {
+  "title": "Colleges: The cathedral of Wells (Victoria County History, som vol2 pp162-169)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/som/vol2/pp162-169"
+ },
+ "nat-vch-bath-priory": {
+  "title": "Houses of Benedictine monks: The cathedral priory of Bath (Victoria County History, som vol2 pp69-81)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/som/vol2/pp69-81"
+ },
+ "nat-vch-glastonbury-abbey": {
+  "title": "Houses of Benedictine monks: The abbey of Glastonbury (Victoria County History, som vol2 pp82-99)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/som/vol2/pp82-99"
+ },
+ "nat-vch-ely-priory": {
+  "title": "Houses of Benedictine monks: Abbey and cathedral priory of Ely (Victoria County History, cambs vol2 pp199-210)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/cambs/vol2/pp199-210"
+ },
+ "nat-vch-peterborough-abbey": {
+  "title": "Houses of Benedictine monks: The abbey of Peterborough (Victoria County History, northants vol2 pp83-95)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/northants/vol2/pp83-95"
+ },
+ "nat-vch-worcester": {
+  "title": "The city of Worcester: Introduction and borough (Victoria County History, worcs vol4 pp376-390)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/worcs/vol4/pp376-390"
+ },
+ "nat-vch-rochester-priory": {
+  "title": "Houses of Benedictine monks: The cathedral priory of St Andrew, Rochester (Victoria County History, kent vol2 pp121-126)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/kent/vol2/pp121-126"
+ },
+ "nat-vch-sherborne-abbey": {
+  "title": "Houses of Benedictine monks: The abbey of Sherborne (Victoria County History, dorset vol2 pp62-70)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/dorset/vol2/pp62-70"
+ },
+ "nat-vch-bury-abbey": {
+  "title": "Houses of Benedictine monks: Abbey of Bury St Edmunds (Victoria County History, suff vol2 pp56-72)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/suff/vol2/pp56-72"
+ },
+ "nat-vch-wallingford": {
+  "title": "The borough of Wallingford: Introduction and castle (Victoria County History, berks vol3 pp517-531)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/berks/vol3/pp517-531"
+ },
+ "nat-vch-chichester": {
+  "title": "The City of Chichester: Historical introduction (Victoria County History, sussex vol3 pp82-90)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/sussex/vol3/pp82-90"
+ },
+ "nat-vch-durham-priory": {
+  "title": "Houses of Benedictine monks: Priory of St Cuthbert, Durham (later Durham cathedral) (Victoria County History, durham vol2 pp86-103)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/durham/vol2/pp86-103"
+ },
+ "nat-vch-norwich-priory": {
+  "title": "Houses of Benedictine monks: The cathedral priory of the Holy Trinity, Norwich (Victoria County History, norf vol2 pp317-328)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/norf/vol2/pp317-328"
+ },
+ "nat-vch-beverley": {
+  "title": "Medieval Beverley: Beverley and St John (Victoria County History, yorks east vol6 pp2-11)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/yorks/east/vol6/pp2-11"
+ },
+ "nat-vch-salisbury-cathedral": {
+  "title": "The cathedral of Salisbury: From the foundation to the fifteenth century (Victoria County History, wilts vol3 pp156-183)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/wilts/vol3/pp156-183"
+ },
+ "nat-vch-winchester-st-swithun": {
+  "title": "Houses of Benedictine monks: Priory of St Swithun, Winchester (Victoria County History, hants vol2 pp108-115)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/hants/vol2/pp108-115"
+ },
+ "nat-vch-canterbury-christ-church": {
+  "title": "Houses of Benedictine monks: The cathedral priory of the Holy Trinity or Christ Church, Canterbury (Victoria County History, kent vol2 pp113-121)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/kent/vol2/pp113-121"
+ },
+ "nat-vch-thetford-priory": {
+  "title": "Houses of Cluniac monks: The priory of St Mary, Thetford (Victoria County History, norf vol2 pp363-369)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/norf/vol2/pp363-369"
+ },
+ "nat-vch-gloucester-abbey": {
+  "title": "Houses of Benedictine monks: The abbey of St Peter at Gloucester (Victoria County History, glos vol2 pp53-61)",
+  "publisher": "British History Online (Victoria County History)",
+  "url": "https://www.british-history.ac.uk/vch/glos/vol2/pp53-61"
+ },
+ "nat-bt-standard": {
+  "title": "Battlefields Hub: Battle of the Standard",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=32"
+ },
+ "nat-bt-lewes": {
+  "title": "Battlefields Hub: Battle of Lewes",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=22"
+ },
+ "nat-bt-evesham": {
+  "title": "Battlefields Hub: Battle of Evesham",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=14"
+ },
+ "nat-bt-nevilles-cross": {
+  "title": "Battlefields Hub: Battle of Neville's Cross",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=28"
+ },
+ "nat-bt-otterburn": {
+  "title": "Battlefields Hub: Battle of Otterburn",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=34"
+ },
+ "nat-bt-shrewsbury": {
+  "title": "Battlefields Hub: Battle of Shrewsbury",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=39"
+ },
+ "nat-bt-brunanburh": {
+  "title": "Battlefields Hub: Battle of Brunanburh",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=59"
+ },
+ "nat-bt-maldon": {
+  "title": "Battlefields Hub: Battle of Maldon",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=23"
+ },
+ "nat-bt-assandun": {
+  "title": "Battlefields Hub: Battle of Assandun",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=113"
+ },
+ "nat-bt-fulford": {
+  "title": "Battlefields Hub: Battle of Fulford",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=52"
+ },
+ "nat-bt-stamford-bridge": {
+  "title": "Battlefields Hub: Battle of Stamford Bridge",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=41"
+ },
+ "nat-bt-hastings": {
+  "title": "Battlefields Hub: Battle of Hastings",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=17"
+ },
+ "nat-bt-st-albans-1455": {
+  "title": "Battlefields Hub: First Battle of St Albans",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=111"
+ },
+ "nat-bt-towton": {
+  "title": "Battlefields Hub: Battle of Towton",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=46"
+ },
+ "nat-bt-barnet": {
+  "title": "Battlefields Hub: Battle of Barnet",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=5"
+ },
+ "nat-bt-tewkesbury": {
+  "title": "Battlefields Hub: Battle of Tewkesbury",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=45"
+ },
+ "nat-bt-bosworth": {
+  "title": "Battlefields Hub: Battle of Bosworth",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=8"
+ },
+ "nat-bt-stoke-field": {
+  "title": "Battlefields Hub: Battle of Stoke Field",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=42"
+ },
+ "nat-bt-flodden": {
+  "title": "Battlefields Hub: Battle of Flodden",
+  "publisher": "The Battlefields Trust",
+  "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=15"
+ },
+ "nat-he-nhle-battlefields": {
+  "title": "National Heritage List for England open data: Registered Battlefields layer (names, list entry numbers and boundaries)",
+  "publisher": "Historic England",
+  "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/8/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&geometryPrecision=6&maxAllowableOffset=0.0001&f=json"
+ },
+ "nat-bede-he-sellar": {
+  "title": "Bede, Ecclesiastical History of England, trans. A. M. Sellar (1907)",
+  "publisher": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/files/38326/38326-h/38326-h.html"
+ },
+ "nat-ptolemy-geography-2-2": {
+  "title": "Ptolemy, Geography II.2: Albion island of Britannia (trans. Stevenson)",
+  "publisher": "LacusCurtius (University of Chicago)",
+  "url": "https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/2*.html"
+ },
+ "nat-tacitus-annals-14": {
+  "title": "Tacitus, Annals XIV.29-39 (Loeb translation)",
+  "publisher": "LacusCurtius (University of Chicago)",
+  "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html"
+ },
+ "nat-tacitus-histories-3": {
+  "title": "Tacitus, Histories III.45 (Loeb translation)",
+  "publisher": "LacusCurtius (University of Chicago)",
+  "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Histories/3B*.html"
+ },
+ "nat-tacitus-agricola": {
+  "title": "Tacitus, Agricola (Church and Brodribb translation)",
+  "publisher": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/cache/epub/7524/pg7524.txt"
+ },
+ "nat-rib-91": {
+  "title": "RIB 91: Togidubnus, Chichester",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/91"
+ },
+ "nat-rib-288": {
+  "title": "RIB 288: civitas Cornoviorum, Wroxeter forum",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/288"
+ },
+ "nat-rib-707": {
+  "title": "RIB 707: vicus of Petuaria, Brough-on-Humber",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/707"
+ },
+ "nat-rib-1672": {
+  "title": "RIB 1672: civitas Durotrigum Lendiniensis, Hadrian's Wall",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/1672"
+ },
+ "nat-rib-1843": {
+  "title": "RIB 1843: civitas Dumnoniorum, Hadrian's Wall",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/1843"
+ },
+ "nat-rib-1962": {
+  "title": "RIB 1962: civitas Catuvellaunorum, Hadrian's Wall",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/1962"
+ },
+ "nat-rib-2022": {
+  "title": "RIB 2022: civitas Brigantum, Hadrian's Wall",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/2022"
+ },
+ "nat-rib-2250": {
+  "title": "RIB 2250: respublica civitatis Dobunnorum, Kenchester milestone",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/2250"
+ },
+ "nat-rib-3526": {
+  "title": "RIB 3526: civitas Carvetiorum, milestone of Severus Alexander",
+  "publisher": "Roman Inscriptions of Britain",
+  "url": "https://romaninscriptionsofbritain.org/inscriptions/3526"
+ },
+ "nat-nt-fountains": {
+  "title": "History of Fountains Abbey and Studley Royal",
+  "publisher": "National Trust",
+  "url": "https://www.nationaltrust.org.uk/visit/yorkshire/fountains-abbey-and-studley-royal-water-garden/history-of-fountains-abbey-and-studley-royal"
+ },
+ "nat-lincs-her-torksey": {
+  "title": "MLI125067: Winter camp of the Viking Great Army at Torksey",
+  "publisher": "Lincolnshire Heritage Explorer",
+  "url": "https://heritage-explorer.lincolnshire.gov.uk/Monument/MLI125067"
+ },
+ "nat-ox-hillforts-ham-hill": {
+  "title": "Atlas of Hillforts of Britain and Ireland: Ham Hill (EN0448)",
+  "publisher": "University of Oxford",
+  "url": "https://hillforts.arch.ox.ac.uk/records/EN0448.html"
+ },
+ "nat-ads-burghal-hidage": {
+  "title": "D. Hill, The Burghal Hidage: the establishment of a text, Medieval Archaeology 13 (1969), 84-92",
+  "publisher": "Archaeology Data Service",
+  "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-769-1/dissemination/pdf/vol13/13_084_092.pdf"
+ },
+ "nat-eh-stonehenge-reconstructed": {
+  "title": "Stonehenge Reconstructed: Durrington Walls and Woodhenge",
+  "publisher": "English Heritage",
+  "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/stonehenge-reconstructed/"
+ },
+ "nat-healy-2018-grimes-graves": {
+  "title": "Healy et al. 2018, When and why? The chronology and context of flint mining at Grime's Graves, Norfolk, England. Proceedings of the Prehistoric Society 84",
+  "publisher": "University of Stirling repository (STORRE)",
+  "url": "https://storre.stir.ac.uk/handle/1893/28588"
+ },
+ "nat-asc-avalon-11th": {
+  "title": "The Anglo-Saxon Chronicle: eleventh century (Ingram translation)",
+  "publisher": "Avalon Project, Yale Law School",
+  "url": "https://avalon.law.yale.edu/medieval/ang11.asp"
+ }
+}

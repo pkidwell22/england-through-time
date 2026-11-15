@@ -1,0 +1,311 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-14T05:02:35Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 21496954,
+  "lat": 51.1723002,
+  "lon": -1.7817518,
+  "tags": {
+    "name": "Amesbury",
+    "place": "town",
+    "source": "NPE"
+  }
+},
+{
+  "type": "node",
+  "id": 323289333,
+  "lat": 51.1993965,
+  "lon": -1.7747510,
+  "tags": {
+    "name": "Durrington",
+    "place": "village",
+    "postal_code": "SP4 8",
+    "wikidata": "Q2613443",
+    "wikipedia": "en:Durrington, Wiltshire"
+  }
+},
+{
+  "type": "node",
+  "id": 358049257,
+  "lat": 51.2109500,
+  "lon": -1.7699318,
+  "tags": {
+    "name": "Brigmerston",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 358499985,
+  "lat": 51.1718483,
+  "lon": -1.8008679,
+  "tags": {
+    "name": "West Amesbury",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 433479298,
+  "lat": 51.1907729,
+  "lon": -1.7580703,
+  "tags": {
+    "name": "Bulford",
+    "place": "village",
+    "wikidata": "Q2927948",
+    "wikipedia": "en:Bulford"
+  }
+},
+{
+  "type": "node",
+  "id": 1445885001,
+  "lat": 51.1427022,
+  "lon": -1.8060451,
+  "tags": {
+    "name": "Great Durnford",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 1968518550,
+  "lat": 51.2064811,
+  "lon": -1.7681643,
+  "tags": {
+    "name": "Milston",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 2452121662,
+  "lat": 51.1505769,
+  "lon": -1.8113383,
+  "tags": {
+    "name": "Lake",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 2452121664,
+  "lat": 51.1614479,
+  "lon": -1.8040129,
+  "tags": {
+    "name": "Normanton",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 2452121665,
+  "lat": 51.1576798,
+  "lon": -1.8103000,
+  "tags": {
+    "name": "Wilsford",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 2798262563,
+  "lat": 51.1964821,
+  "lon": -1.8176327,
+  "tags": {
+    "name": "Larkhill",
+    "place": "village",
+    "wikidata": "Q738194"
+  }
+},
+{
+  "type": "node",
+  "id": 3166295663,
+  "lat": 51.1726829,
+  "lon": -1.7814899,
+  "tags": {
+    "addr:city": "Salisbury",
+    "addr:street": "High Street",
+    "addr:suburb": "Amesbury",
+    "amenity": "place_of_worship",
+    "name": "Amesbury Methodist Church",
+    "phone": "+441980623948",
+    "religion": "christian",
+    "source": "Photograph"
+  }
+},
+{
+  "type": "way",
+  "id": 38353180,
+  "bounds": {
+    "minlat": 51.1701100,
+    "minlon": -1.7611224,
+    "maxlat": 51.1703253,
+    "maxlon": -1.7607553
+  },
+  "geometry": [
+    { "lat": 51.1701120, "lon": -1.7609554 },
+    { "lat": 51.1701100, "lon": -1.7607608 },
+    { "lat": 51.1703233, "lon": -1.7607553 },
+    { "lat": 51.1703253, "lon": -1.7609491 },
+    { "lat": 51.1702666, "lon": -1.7609506 },
+    { "lat": 51.1702683, "lon": -1.7611204 },
+    { "lat": 51.1701903, "lon": -1.7611224 },
+    { "lat": 51.1701886, "lon": -1.7609535 },
+    { "lat": 51.1701120, "lon": -1.7609554 }
+  ],
+  "tags": {
+    "addr:postcode": "SP4 7SN",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "baptist",
+    "name": "Amesbury Baptist Church",
+    "ref:GB:uprn": "100121335041",
+    "religion": "christian",
+    "source:addr:postcode": "ONSUD;OS Open UPRN"
+  }
+},
+{
+  "type": "way",
+  "id": 152664898,
+  "bounds": {
+    "minlat": 51.1742694,
+    "minlon": -1.7856372,
+    "maxlat": 51.1747343,
+    "maxlon": -1.7851466
+  },
+  "geometry": [
+    { "lat": 51.1746899, "lon": -1.7856372 },
+    { "lat": 51.1742694, "lon": -1.7855044 },
+    { "lat": 51.1743138, "lon": -1.7851466 },
+    { "lat": 51.1747343, "lon": -1.7852794 },
+    { "lat": 51.1746899, "lon": -1.7856372 }
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Amesbury Abbey",
+    "wikidata": "Q107042662"
+  }
+},
+{
+  "type": "way",
+  "id": 192898162,
+  "bounds": {
+    "minlat": 51.1724682,
+    "minlon": -1.7824481,
+    "maxlat": 51.1728814,
+    "maxlon": -1.7821110
+  },
+  "geometry": [
+    { "lat": 51.1728814, "lon": -1.7822861 },
+    { "lat": 51.1728378, "lon": -1.7823804 },
+    { "lat": 51.1727847, "lon": -1.7824381 },
+    { "lat": 51.1727165, "lon": -1.7824481 },
+    { "lat": 51.1726664, "lon": -1.7823925 },
+    { "lat": 51.1724682, "lon": -1.7821110 }
+  ],
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Abbey Lane",
+    "source": "bing",
+    "source:name": "OS_OpenData_Locator"
+  }
+},
+{
+  "type": "way",
+  "id": 237984795,
+  "bounds": {
+    "minlat": 51.1717553,
+    "minlon": -1.7845754,
+    "maxlat": 51.1720717,
+    "maxlon": -1.7839862
+  },
+  "geometry": [
+    { "lat": 51.1718797, "lon": -1.7841596 },
+    { "lat": 51.1717726, "lon": -1.7841221 },
+    { "lat": 51.1717600, "lon": -1.7842135 },
+    { "lat": 51.1717553, "lon": -1.7842478 },
+    { "lat": 51.1718136, "lon": -1.7842682 },
+    { "lat": 51.1717858, "lon": -1.7844706 },
+    { "lat": 51.1718366, "lon": -1.7844884 },
+    { "lat": 51.1718288, "lon": -1.7845457 },
+    { "lat": 51.1719138, "lon": -1.7845754 },
+    { "lat": 51.1719455, "lon": -1.7843447 },
+    { "lat": 51.1720496, "lon": -1.7843810 },
+    { "lat": 51.1720717, "lon": -1.7842203 },
+    { "lat": 51.1719775, "lon": -1.7841874 },
+    { "lat": 51.1720005, "lon": -1.7840201 },
+    { "lat": 51.1719035, "lon": -1.7839862 },
+    { "lat": 51.1718797, "lon": -1.7841596 }
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "anglican",
+    "name": "St Mary & St Melor",
+    "ref:dove": "13162",
+    "religion": "christian",
+    "wikidata": "Q17529541"
+  }
+},
+{
+  "type": "way",
+  "id": 422731419,
+  "bounds": {
+    "minlat": 51.1746751,
+    "minlon": -1.7796763,
+    "maxlat": 51.1749878,
+    "maxlon": -1.7791764
+  },
+  "geometry": [
+    { "lat": 51.1748508, "lon": -1.7791764 },
+    { "lat": 51.1747799, "lon": -1.7792579 },
+    { "lat": 51.1747897, "lon": -1.7792798 },
+    { "lat": 51.1746988, "lon": -1.7793842 },
+    { "lat": 51.1747540, "lon": -1.7795065 },
+    { "lat": 51.1746751, "lon": -1.7795971 },
+    { "lat": 51.1747109, "lon": -1.7796763 },
+    { "lat": 51.1748521, "lon": -1.7795142 },
+    { "lat": 51.1748882, "lon": -1.7795942 },
+    { "lat": 51.1749878, "lon": -1.7794799 },
+    { "lat": 51.1748508, "lon": -1.7791764 }
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "catholic",
+    "name": "Christ the King",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 852654433,
+  "bounds": {
+    "minlat": 51.1723039,
+    "minlon": -1.7821110,
+    "maxlat": 51.1724682,
+    "maxlon": -1.7818498
+  },
+  "geometry": [
+    { "lat": 51.1724682, "lon": -1.7821110 },
+    { "lat": 51.1723039, "lon": -1.7818498 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Abbey Lane",
+    "source": "bing",
+    "source:name": "OS_OpenData_Locator",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

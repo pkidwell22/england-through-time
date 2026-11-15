@@ -1,0 +1,41 @@
+{
+ "_stub": true,
+ "image": "/assets/national/height.png",
+ "width": 384,
+ "height": 432,
+ "bounds": {
+  "latMin": 49.7,
+  "latMax": 56.0,
+  "lonMin": -6.5,
+  "lonMax": 2.2
+ },
+ "encoding": "rg16",
+ "scale": 0.1,
+ "offset": -1000,
+ "seaLevel": [
+  {
+   "year": -4000,
+   "value": -6
+  },
+  {
+   "year": -2000,
+   "value": -2.5
+  },
+  {
+   "year": 43,
+   "value": -1
+  },
+  {
+   "year": 1000,
+   "value": -0.4
+  },
+  {
+   "year": 1625,
+   "value": 0
+  }
+ ],
+ "notes": [
+  "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/terrain.json exists."
+ ],
+ "sources": []
+}

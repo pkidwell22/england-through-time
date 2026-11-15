@@ -1,0 +1,1920 @@
+{
+ "meta": {
+  "note": "Years are signed integers (-2500 = 2500 BCE). 'built' = recommended modelled year of completion; 'from' = recommended start of construction; 'to' = recommended end (null = still present, in whatever form, in 1625). Many dimension figures come from Wikipedia pointers and press pages because primary PDFs were not machine-readable; see landscape.md access notes. Wikipedia-derived values are marked in dateNote/unknown where they conflict with other sources.",
+  "evidenceEnum": "attested-standing | attested-excavated | attested-documentary | attested-pictorial | reconstructed | conjectural"
+ },
+ "features": [
+  {
+   "id": "robin-hoods-ball",
+   "name": "Robin Hood's Ball causewayed enclosure",
+   "kind": "causewayed-enclosure",
+   "approxLatLon": [
+    51.2128,
+    -1.855
+   ],
+   "latLonSource": "sto-wp-robinhood (Wikipedia infobox). About 3.8 km N and 2.0 km W of the provisional origin: OUTSIDE the provisional site bounds (z -2800); just outside the northern WHS boundary.",
+   "dates": {
+    "from": -3600,
+    "built": -3550,
+    "to": -3000,
+    "dateNote": "Sources disagree: Wikipedia 'probably built c.4000 BC, possibly in use to c.3000 BC'; English Heritage 'centuries around 3500 BC'. No fetched source gives a radiocarbon model. 3600 BCE is the brief's figure. Fell out of use around the time Stonehenge's earliest earthworks began (Wikipedia). Earthwork remained as a low ruin to 1625 (to=null shown in appearance)."
+   },
+   "dimensions": {
+    "ditchCircuits": 2,
+    "diameterM": null,
+    "enclosedAreaHa": null,
+    "note": "No fetched source gives a diameter or ditch size. Two circuits of ditch with low banks behind; ditch dug in segments."
+   },
+   "counts": {
+    "causewayGaps": "one per Wikipedia (other sources say several; unresolved)"
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -3600,
+     "to": -3500,
+     "show": "Two concentric segmented ditches cut in white chalk, short digs separated by causeways, low fresh chalk banks behind; bare white scars on the hilltop. Inside, little visible (no sources on structures)."
+    },
+    {
+     "from": -3500,
+     "to": -3000,
+     "show": "Banks and ditch silting, partly grassed; occasional recut/reuse not documented."
+    },
+    {
+     "from": -3000,
+     "to": 1625,
+     "show": "Grassed, low rounded ring earthworks on downland; abandoned, no activity attested. A copse NW of it gave the later name; the name Robin Hood's Ball is modern and the 1820 map calls it Neath Barrow."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "low",
+   "attested": [
+    "Causewayed enclosure with two ditch circuits and low banks (sto-wp-robinhood)",
+    "Early Neolithic, 'centuries around 3500 BC' (sto-eh-history)",
+    "Never comprehensively excavated (sto-wp-robinhood)",
+    "Scheduled 1965; within Salisbury Plain Training Area (sto-wp-robinhood)"
+   ],
+   "inferred": [
+    "Banks were originally fresh white chalk (general causewayed-enclosure practice, not in fetched sources)",
+    "Position as a precursor to Stonehenge's landscape (sto-eh-history)"
+   ],
+   "unknown": [
+    "Diameter, ditch depth/width, bank height",
+    "Precise start/end dates",
+    "Internal features and settlement",
+    "Whether it lay in clearing or woodland"
+   ],
+   "sources": [
+    "sto-wp-robinhood",
+    "sto-eh-history"
+   ]
+  },
+  {
+   "id": "amesbury-42",
+   "name": "Amesbury 42 long barrow (east end of Greater Cursus)",
+   "kind": "long-barrow",
+   "approxLatLon": [
+    51.187683,
+    -1.804781
+   ],
+   "latLonSource": "sto-ia47-am42 (Internet Archaeology site record, grid SU 1374 4318)",
+   "dates": {
+    "from": -3600,
+    "built": -3500,
+    "to": null,
+    "dateNote": "Radiocarbon 3640-3370 cal BC (2 sigma, OxA-20594, Bayliss & Whittle 2007) per sto-ia47-am42; English Heritage cites an antler from the lowest ditch layer at 3520-3350 BC and says it is unknown whether cursus or barrow came first. Mound survives only as a slight earthwork under a track."
+   },
+   "dimensions": {
+    "lengthM": 62,
+    "widthM": 20,
+    "heightNowM": 0.29,
+    "ditchWidthM": 11,
+    "orientation": "N-S",
+    "note": "Dimensions are of the surviving earthwork (indicative of original size at best). Ditch phase 1 causewayed, phase 2 continuous."
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -3600,
+     "to": -3450,
+     "show": "Elongated mound, N-S, c. 60-70 m long, flanked by chalk-cut ditches; fresh white chalk mound and ditch edges."
+    },
+    {
+     "from": -3450,
+     "to": 1625,
+     "show": "Grassed mound, progressively spread; by 1625 a long low swell (Thurnam dug it 1866, so intact in 1625)."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "Length 62 m, width 20 m, surviving height 0.29 m (sto-ia47-am42)",
+    "Excavated by Thurnam 1866, several burials, cattle skulls (sto-eh-reconstructed)",
+    "Radiocarbon 3640-3370 cal BC (sto-ia47-am42)"
+   ],
+   "inferred": [
+    "Original mound was higher than 0.29 m (surviving height is after ploughing/track)",
+    "Chalk-white appearance when new"
+   ],
+   "unknown": [
+    "Original height",
+    "Sequence relative to Greater Cursus"
+   ],
+   "sources": [
+    "sto-ia47-am42",
+    "sto-eh-reconstructed",
+    "sto-wp-cursus"
+   ]
+  },
+  {
+   "id": "winterbourne-stoke-1",
+   "name": "Winterbourne Stoke 1 long barrow",
+   "kind": "long-barrow",
+   "approxLatLon": [
+    51.172744,
+    -1.858341
+   ],
+   "latLonSource": "sto-ia47-ws1 (grid SU 1000 4151)",
+   "dates": {
+    "from": -3700,
+    "built": -3600,
+    "to": null,
+    "dateNote": "No radiocarbon date for this barrow (sto-ia47-ws1). Long barrows in the WHS are 4th-millennium BC generally (sto-ia47-index); modelled date is a generic placeholder, low confidence. Barrow was the focus of the later Winterbourne Stoke Crossroads round-barrow cemetery."
+   },
+   "dimensions": {
+    "lengthM": 84,
+    "widthM": 27,
+    "heightM": 3,
+    "ditchWidthM": 12,
+    "orientation": "NE-SW, mound focus NE",
+    "note": "Side ditches only, continuous; NW ditch much larger, SE ditch heavily damaged. Not visible from Stonehenge. Scheduled Monument 10462."
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -3700,
+     "to": -3500,
+     "show": "Tall NE-heavy chalk mound ~84 m long with two flanking side ditches; white chalk when new."
+    },
+    {
+     "from": -3500,
+     "to": 1625,
+     "show": "Grassed, imposing mound, ~3 m high, with Bronze Age round barrows later added to the NE and an arable-eroded SE ditch."
+    }
+   ],
+   "evidence": "attested-standing",
+   "confidence": "medium",
+   "attested": [
+    "84 x 27 x 3 m, side ditches 12 m wide (sto-ia47-ws1)",
+    "Excavated; three internal pits (sto-ia47-ws1)",
+    "Described as an imposing monument (sto-ia47-longbarrows)"
+   ],
+   "inferred": [
+    "Neolithic date c. 3700-3500 BCE"
+   ],
+   "unknown": [
+    "Absolute date",
+    "Original height",
+    "Note: sto-ia47-longbarrows labels it WS71 in one place and sto-ia47-index says WS71 existence confirmed and WS86 newly discovered nearby; identifier confusion unresolved"
+   ],
+   "sources": [
+    "sto-ia47-ws1",
+    "sto-ia47-longbarrows",
+    "sto-ia47-index"
+   ]
+  },
+  {
+   "id": "normanton-down-long-barrows",
+   "name": "Normanton Down long barrows (Wilsford 30, Amesbury 14, Wilsford 13)",
+   "kind": "long-barrow",
+   "approxLatLon": [
+    51.1687,
+    -1.8382
+   ],
+   "latLonSource": "sto-ia47-wil30 (Wilsford 30, lat 51.168671 lon -1.838186); Amesbury 14 at 51.174873, -1.836305 (sto-ia47-am14)",
+   "dates": {
+    "from": -3700,
+    "built": -3600,
+    "to": null,
+    "dateNote": "No radiocarbon dates for Wilsford 30 or Amesbury 14 (sto-ia47-wil30, sto-ia47-am14). English Heritage says Normanton Down has two small Neolithic long barrows; sto-ia47-longbarrows lists three (Amesbury 14, Wilsford 30, Wilsford 13). Placeholder 4th-millennium date."
+   },
+   "dimensions": {
+    "wilsford30": {
+     "lengthM": 43,
+     "widthM": 20,
+     "heightM": 2.3,
+     "orientation": "W-E",
+     "ditchWidthM": 4
+    },
+    "amesbury14": {
+     "lengthM": 33,
+     "widthM": 18,
+     "heightM": 1.6,
+     "orientation": "NNW-SSE",
+     "ditchWidthM": 8
+    },
+    "wilsford13": null
+   },
+   "counts": {
+    "longBarrows": "2 (English Heritage) or 3 (Internet Archaeology)"
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -3700,
+     "to": -3500,
+     "show": "Small chalk long mounds 30-45 m long with flanking ditches."
+    },
+    {
+     "from": -3500,
+     "to": 1625,
+     "show": "Grassed long mounds, later overlain/neighboured by the Normanton Down round barrow cemetery from c. 2000 BCE; a Neolithic rectangular mortuary enclosure lies south of one (Wikipedia)."
+    }
+   ],
+   "evidence": "attested-standing",
+   "confidence": "medium",
+   "attested": [
+    "Wilsford 30 43x20x2.3 m, Amesbury 14 33x18x1.6 m (sto-ia47-wil30, sto-ia47-am14)",
+    "Cunnington and Hoare found human remains at the east end of one (sto-wp-normanton)"
+   ],
+   "inferred": [
+    "Date c. 3700-3500 BCE"
+   ],
+   "unknown": [
+    "Dates",
+    "Wilsford 13 dimensions (not fetched)",
+    "Whether the 'two' and 'three' counts reflect different definitions"
+   ],
+   "sources": [
+    "sto-ia47-wil30",
+    "sto-ia47-am14",
+    "sto-ia47-longbarrows",
+    "sto-eh-reconstructed",
+    "sto-wp-normanton"
+   ]
+  },
+  {
+   "id": "greater-cursus",
+   "name": "Greater Stonehenge Cursus",
+   "kind": "cursus",
+   "approxLatLon": [
+    51.186,
+    -1.826
+   ],
+   "latLonSource": "sto-wp-cursus (Wikipedia infobox, approximate monument centre; other researchers hold exact coordinates)",
+   "dates": {
+    "from": -3550,
+    "built": -3500,
+    "to": null,
+    "dateNote": "Antler pick from the bottom of the western terminal ditch dated 3630-3375 BCE (sto-wp-cursus; Thomas et al. 2009 abstract says the new antler is about a millennium earlier than the 1940s antler dated 2890-2460 BC, sto-antiq-thomas2009). English Heritage: built c. 3500 BC. Recut c. 2500 BCE and again 2000-1500 BCE (sto-wp-cursus). Earthwork persisted as a ploughed-down but visible monument to 1625."
+   },
+   "dimensions": {
+    "lengthM": 2760,
+    "lengthRangeM": [
+     2760,
+     3000
+    ],
+    "widthM": 100,
+    "widthMaxM": 150,
+    "westTerminalDitchDepthM": 2,
+    "westTerminalDitchWidthM": 2.75,
+    "southDitchDepthM": 0.75,
+    "southDitchWidthTopM": 1.8,
+    "note": "Ditches uneven in width and depth; E and S ditches shallow, W terminal ditch deepest. Bank dimensions not given by any fetched source. Three possible entrances (one N, two S) from geophysics (sto-eh-reconstructed)."
+   },
+   "counts": {
+    "terminals": 2,
+    "possibleEntrances": 3
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -3550,
+     "to": -3450,
+     "show": "Long rectangular enclosure of two parallel white-chalk ditches with banks, rounded/squared terminals, c. 100 m between; fresh chalk lines over grazed open grassland."
+    },
+    {
+     "from": -3450,
+     "to": -2500,
+     "show": "Banks slumped and grassed; ditches silting; Amesbury 42 long barrow at the east end."
+    },
+    {
+     "from": -2500,
+     "to": -1500,
+     "show": "Ditch partially recut (c. 2500 BCE, 2000-1500 BCE); Bronze Age round barrow sits inside the western end."
+    },
+    {
+     "from": -1500,
+     "to": 1625,
+     "show": "Low grassed bank-and-ditch remains, ploughed down in places, visible only as a faint linear swelling."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "About 2.7-3 km long, c. 100 m wide widening to c. 150 m at the west (sto-wp-cursus)",
+    "Antler from W terminal ditch 3630-3375 BCE (sto-wp-cursus)",
+    "1940s antler dated 2890-2460 BC; newer antler about a thousand years earlier (sto-antiq-thomas2009)",
+    "Dug with red deer antler picks; surrounded by open chalk grassland per snails (sto-eh-reconstructed)",
+    "Recut c. 2500 BCE and 2000-1500 BCE (sto-wp-cursus)"
+   ],
+   "inferred": [
+    "Banks flanked the ditches (cursus form; no bank dimensions fetched)",
+    "Possible row of posts reinforcing its lines (Thomas et al. suggestion, sto-antiq-thomas2009)"
+   ],
+   "unknown": [
+    "Bank height and width",
+    "Terminal shapes beyond 'terminals' (Wikipedia gives few details)",
+    "Exact dates for the construction sequence"
+   ],
+   "sources": [
+    "sto-wp-cursus",
+    "sto-antiq-thomas2009",
+    "sto-eh-reconstructed",
+    "sto-eh-history"
+   ]
+  },
+  {
+   "id": "lesser-cursus",
+   "name": "Lesser Stonehenge Cursus",
+   "kind": "cursus",
+   "approxLatLon": null,
+   "latLonSource": "Described as c. 750 m NW of the Greater Cursus's western end (sto-wp-cursus); no coordinates given",
+   "dates": {
+    "from": -3050,
+    "built": -3000,
+    "to": null,
+    "dateNote": "Antler picks date it c. 3000 BCE (sto-wp-cursus, Wikipedia only). English Heritage lumps both cursuses 'centuries around 3500 BC' (sto-eh-history): conflict, so low confidence. Ploughed to a cropmark since WWII; in 1625 a low earthwork."
+   },
+   "dimensions": {
+    "lengthM": 400,
+    "widthM": 60,
+    "orientation": "WSW-ENE"
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -3050,
+     "to": -2900,
+     "show": "Smaller rectangular enclosure, c. 400 x 60 m, with chalk banks and ditches."
+    },
+    {
+     "from": -2900,
+     "to": 1625,
+     "show": "Grassed, low earthworks fading with time."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "low",
+   "attested": [
+    "About 400 m x 60 m, WSW-ENE; now a cropmark (sto-wp-cursus)"
+   ],
+   "inferred": [
+    "Bank-and-ditch form same as the Greater Cursus"
+   ],
+   "unknown": [
+    "Date reliability",
+    "Bank dimensions",
+    "Exact coordinates"
+   ],
+   "sources": [
+    "sto-wp-cursus",
+    "sto-eh-history"
+   ]
+  },
+  {
+   "id": "coneybury",
+   "name": "Coneybury Anomaly pit and Coneybury henge",
+   "kind": "henge",
+   "approxLatLon": [
+    51.1735,
+    -1.8093
+   ],
+   "latLonSource": "sto-wp-coneybury (Wikipedia infobox)",
+   "dates": {
+    "from": -3800,
+    "built": -3800,
+    "to": -2000,
+    "dateNote": "The Anomaly is early Neolithic and older than the henge (sto-wp-coneybury); NO absolute date was retrieved in any fetched source. -3800 is the brief's figure and from memory only: treat as conjectural. The henge's date was also not retrieved (pottery early Neolithic to Middle Bronze Age); the brief's c. 2700 BCE is unverified. The henge was levelled by ploughing, plausibly medieval (ridge and furrow, sto-wp-coneybury)."
+   },
+   "dimensions": {
+    "hengeDitchOvalM": [
+     45,
+     55
+    ],
+    "excavatedDitchWidthM": 4,
+    "excavatedDitchDepthM": 3,
+    "anomalyPitOffsetM": 12
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -3800,
+     "to": -2700,
+     "show": "A single pit (no visible mark above ground after feast) near the future henge location; no structure."
+    },
+    {
+     "from": -2700,
+     "to": -2000,
+     "show": "Oval ditch c. 45 x 55 m, ~3 m deep, with an outer or inner bank (not documented), fresh white chalk."
+    },
+    {
+     "from": -2000,
+     "to": 1625,
+     "show": "Silted and grassed; flattened by ploughing, hard to see (sto-wp-coneybury)."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "low",
+   "attested": [
+    "Oval ditch 45x55 m from aerial photos; excavated ditch c. 4 m wide, 3 m deep (sto-wp-coneybury)",
+    "Anomaly: pit 12 m NW of the henge with early Neolithic pottery, animal bone, Mesolithic and Neolithic flints (sto-wp-coneybury)"
+   ],
+   "inferred": [
+    "Feast interpretation (Wikipedia: gathering of people from different cultures)"
+   ],
+   "unknown": [
+    "Absolute dates of both",
+    "Bank form",
+    "Whether henge dating c. 2700 BCE is right"
+   ],
+   "sources": [
+    "sto-wp-coneybury"
+   ]
+  },
+  {
+   "id": "west-amesbury-henge",
+   "name": "West Amesbury henge and 'Bluestonehenge' (Avon end of the Avenue)",
+   "kind": "henge",
+   "approxLatLon": [
+    51.1714,
+    -1.798
+   ],
+   "latLonSource": "sto-wp-bluestonehenge (Wikipedia infobox)",
+   "dates": {
+    "from": -3000,
+    "built": -2900,
+    "to": -2400,
+    "dateNote": "Stone settings said to be erected c. 3400-2500 BC based on two arrowheads (Wikipedia, weak); bluestones removed (presumably to Stonehenge) by 2469-2286 BC per antler radiocarbon; henge ditch and outer bank c. 2400 BC (sto-wp-bluestonehenge). Modelled: circle c. 3000 BCE (brief's guess, not firmly dated), dismantled c. -2400, henge built c. -2400, still a faint bank by 1625."
+   },
+   "dimensions": {
+    "stoneCircleDiameterM": 10,
+    "stones": "up to c. 27 (about 25 in brief)",
+    "hengeDitchWidthM": 25,
+    "note": "Wikipedia '82 ft (25 m) wide ditch' is ambiguous (width or overall diameter). Stone circle ~10 m diameter."
+   },
+   "counts": {
+    "bluestones": 27
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -3000,
+     "to": -2400,
+     "show": "A small ring (c. 10 m) of upright bluestones, c. 25-27 stones, on the river terrace beside the Avon."
+    },
+    {
+     "from": -2400,
+     "to": -2200,
+     "show": "Stones gone; a henge ditch with outer bank fresh white chalk, the Avenue's river end attached."
+    },
+    {
+     "from": -2200,
+     "to": 1625,
+     "show": "Grassed, silted ring and bank, ploughed down."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "Stone settings removed, ring of stone sockets, 2008-2009 excavation (sto-wp-bluestonehenge)",
+    "Dismantling dated 2469-2286 BC (sto-wp-bluestonehenge)",
+    "Henge ditch and outer bank c. 2400 BC (sto-wp-bluestonehenge)"
+   ],
+   "inferred": [
+    "Original stones were bluestones (shape of sockets matched Stonehenge's bluestones, sto-wp-bluestonehenge)",
+    "Erected c. 3000 BCE (hoped-for date; not confirmed in fetched sources)"
+   ],
+   "unknown": [
+    "Exact stone count",
+    "Henge bank height",
+    "Erection date of the circle"
+   ],
+   "sources": [
+    "sto-wp-bluestonehenge",
+    "sto-wp-avenue"
+   ]
+  },
+  {
+   "id": "cuckoo-stone",
+   "name": "Cuckoo Stone",
+   "kind": "standing-stone",
+   "approxLatLon": [
+    51.18923,
+    -1.79168
+   ],
+   "latLonSource": "sto-wp-cuckoo (Wikipedia infobox)",
+   "dates": {
+    "from": -2800,
+    "built": -2800,
+    "to": null,
+    "dateNote": "Wikipedia: 'set upright sometime before 2000 BC', Neolithic/Bronze Age; no precise date in fetched sources. A post briefly stood in the socket first. Around 2000 BC cremations accumulated around it. Fallen, lying on its side today; when it fell is not stated."
+   },
+   "dimensions": {
+    "note": "Squat sarsen; no dimensions in fetched sources."
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -2800,
+     "to": -2000,
+     "show": "Squat sarsen standing in the pit, grey and weathered, in grassland between Woodhenge and Durrington Walls."
+    },
+    {
+     "from": -2000,
+     "to": -1500,
+     "show": "Cremation burials cluster around it."
+    },
+    {
+     "from": 43,
+     "to": 400,
+     "show": "A small rectangular Roman building (likely shrine) SW of the stone; pits and coins."
+    },
+    {
+     "from": 400,
+     "to": 1625,
+     "show": "Stone fallen; when it toppled is unknown. Show it lying on its side (modern state), low confidence for 1625."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "low",
+   "attested": [
+    "Excavated 2007: socket pit west of the stone; post-hole in socket (sto-wp-cuckoo)",
+    "Cremations c. 2000 BC; Roman rectangular building with coins (sto-wp-cuckoo)",
+    "Now lies fallen (sto-wp-cuckoo)"
+   ],
+   "inferred": [
+    "Roman building was a shrine (sto-wp-cuckoo says 'likely')"
+   ],
+   "unknown": [
+    "Date of erection",
+    "Date of fall",
+    "Dimensions"
+   ],
+   "sources": [
+    "sto-wp-cuckoo"
+   ]
+  },
+  {
+   "id": "woodhenge",
+   "name": "Woodhenge",
+   "kind": "timber-circle",
+   "approxLatLon": [
+    51.1894,
+    -1.78576
+   ],
+   "latLonSource": "sto-wp-woodhenge (Wikipedia infobox)",
+   "dates": {
+    "from": -2480,
+    "built": -2470,
+    "to": -1800,
+    "dateNote": "Ditch dated c. 2470-2000 BCE; still in use c. 1800 BCE (sto-wp-woodhenge, Wikipedia). Timber lifespan not given. Modelled: posts erected c. -2470; timbers decay or removed unknown; bank and ditch ruin by 1625. Concrete post markers are modern and must not be shown."
+   },
+   "dimensions": {
+    "rings": 6,
+    "ringShape": "concentric ovals",
+    "postholes": 168,
+    "outerRingM": [
+     43,
+     40
+    ],
+    "overallDiameterWithBankDitchM": 110,
+    "ditchDepthM": 2.4,
+    "ditchWidthMaxM": 12,
+    "bankWidthM": 10,
+    "bankHeightM": 1,
+    "deepestPostholeM": 2,
+    "postHeightMaxM": 7.5,
+    "entrance": "NE"
+   },
+   "counts": {
+    "postholes": 168,
+    "rings": 6,
+    "burials": 2
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -2480,
+     "to": -2470,
+     "show": "Six concentric oval rings of tall timber posts, up to ~7.5 m (inferred), within an encircling ditch and outer bank; single NE entrance; fresh white chalk spoil."
+    },
+    {
+     "from": -2470,
+     "to": -1800,
+     "show": "Timbers in situ until decay or removal (not known); ditch silting, a crouched child buried at the centre, a teenager buried in the E ditch."
+    },
+    {
+     "from": -1800,
+     "to": 1625,
+     "show": "Posts gone; low grassed bank and shallow ditch; ploughed and levelled in places."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "168 postholes in 6 oval rings, outer ring 43 x 40 m (sto-wp-woodhenge)",
+    "Ditch 2.4 m deep, up to 12 m wide; bank 10 m wide, 1 m high; NE entrance (sto-wp-woodhenge)",
+    "Child burial at centre, teenage burial in E ditch (sto-wp-woodhenge)"
+   ],
+   "inferred": [
+    "Posts up to 7.5 m tall, 5 tons (Wikipedia 'likely')",
+    "A roofed building vs open timber ring unresolved"
+   ],
+   "unknown": [
+    "Whether timbers were removed or rotted, and when",
+    "Post carving or painting",
+    "Exact construction year"
+   ],
+   "sources": [
+    "sto-wp-woodhenge"
+   ]
+  },
+  {
+   "id": "dw-settlement",
+   "name": "Durrington Walls pre-henge settlement",
+   "kind": "settlement",
+   "approxLatLon": [
+    51.1925,
+    -1.7875
+   ],
+   "latLonSource": "sto-wp-durrington (Wikipedia coordinate for Durrington Walls)",
+   "dates": {
+    "from": -2515,
+    "built": -2510,
+    "to": -2480,
+    "dateNote": "Bayesian modelling: occupied only c. 10-12 years, ending c. 2500-2460 BC (sto-archco-durrington). Bristol 2007 press release gives houses radiocarbon dated 2600-2500 BC (older, broader). Recommended: village c. -2515 to -2480; flag the older 2600-2500 range."
+   },
+   "dimensions": {
+    "houseSizeM": "about 5 x 5 (16 ft square)",
+    "floor": "clay/chalk floor with central hearth; box-bed and dresser outlines",
+    "note": "House walls: one cob-walled house; others likely wattle-and-daub (Wikipedia). Chalk floors renewed at most 9 times; quarry pits recut at most 12 times (sto-archco-durrington)."
+   },
+   "counts": {
+    "housesExcavated": 8,
+    "totalHouses": null,
+    "note": "Eight houses excavated in 2006, six floors well preserved (sto-bristol-2007); seven floors east of the bank per Wikipedia. Total unknown. Wikipedia's 'up to 1000 houses/4000 people' is an upper speculation. 'Hundreds of people' (sto-bristol-2007). Model: a few dozen houses as a conjectural-density cluster."
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -2515,
+     "to": -2480,
+     "show": "Clusters of small square wattle-and-daub houses (some cob), ~5 m square, with thatched roofs, on both sides of a worn path down the dry valley to the Avon; hearth smoke; chalk-plastered floors; quarry pits and middens; feasting debris of pig and cattle. About 10-12 years of use."
+    },
+    {
+     "from": -2480,
+     "to": -2400,
+     "show": "Abandoned settlement buried by the rising henge bank; houses gone from the surface."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "Eight houses excavated 2006; clay floors, central hearth (sto-bristol-2007)",
+    "Settlement duration c. 10-12 years, out of use c. 2500-2460 BC (sto-archco-durrington)"
+   ],
+   "inferred": [
+    "Thatch roofs (not found; assumed)",
+    "House walls mostly wattle and daub (Wikipedia 'likely')",
+    "Number of houses and population"
+   ],
+   "unknown": [
+    "Total houses",
+    "Roof form",
+    "Whether the settlement was seasonal (midwinter feasts argued; contested)"
+   ],
+   "sources": [
+    "sto-bristol-2007",
+    "sto-archco-durrington",
+    "sto-wp-durrington"
+   ]
+  },
+  {
+   "id": "dw-timber-enclosure",
+   "name": "Durrington Walls timber palisade ring beneath the bank (2016 discovery)",
+   "kind": "timber-circle",
+   "approxLatLon": [
+    51.1925,
+    -1.7875
+   ],
+   "latLonSource": "sto-wp-durrington",
+   "dates": {
+    "from": -2490,
+    "built": -2480,
+    "to": -2450,
+    "dateNote": "Lasted a maximum of about 50 years per Bayesian analysis (sto-archco-durrington); posts removed and sockets filled with chalk rubble before the henge bank/ditch was dug, c. 2480-2450 BC (sto-archco-durrington). The Wikipedia page's claim that the palisade was built about 50 years earlier than the henge fits."
+   },
+   "dimensions": {
+    "ringDiameterM": [
+     440,
+     450
+    ],
+    "posts": 300,
+    "postSpacingM": 5,
+    "postHeightM": "about 5 (Current Archaeology) or 7 (Wikipedia); conflict",
+    "postDiameterM": "up to 1.5 (Wikipedia)",
+    "pitDepthM": 1.5,
+    "tonnesEach": "1.5-3"
+   },
+   "counts": {
+    "posts": 300
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -2490,
+     "to": -2450,
+     "show": "A vast ring of c. 300 tall timber posts spaced ~5 m apart, 440-450 m across, enclosing the valley and village; pale fresh-cut oak or pine."
+    },
+    {
+     "from": -2450,
+     "to": -2400,
+     "show": "Posts pulled; the ring line becomes the henge bank, 3 m high, with ditch."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "Ring of post pits c. 440-450 m across, up to 300 posts, c. 5 m apart (sto-archco-durrington)",
+    "Posts removed vertically; sockets packed with chalk rubble (sto-archco-durrington)",
+    "Radar showed postholes beneath the bank; the 2015 'standing stones' claim was refuted in 2016 (sto-wp-durrington)"
+   ],
+   "inferred": [
+    "Post height and diameter (differing figures)",
+    "Posts carried timber, not stone"
+   ],
+   "unknown": [
+    "Whether the posts were joined by a fence",
+    "Post material"
+   ],
+   "sources": [
+    "sto-archco-durrington",
+    "sto-wp-durrington"
+   ]
+  },
+  {
+   "id": "dw-southern-circle",
+   "name": "Durrington Walls Southern Circle (timber)",
+   "kind": "timber-circle",
+   "approxLatLon": [
+    51.1925,
+    -1.7875
+   ],
+   "latLonSource": "sto-wp-durrington (inside henge, c. 70 m N of Woodhenge per sto-wp-woodhenge)",
+   "dates": {
+    "from": -2600,
+    "built": -2500,
+    "to": -2400,
+    "dateNote": "Wikipedia: built c. 2600 BC, four concentric rings of postholes; two more rings added about 200 years later (sto-wp-durrington). Current Archaeology: expanded with c. 200 posts at the time the palisade was dismantled (c. 2480-2450 BC), the removed timbers possibly reused (speculation) (sto-archco-durrington). The two accounts conflict; recommended build c. -2500 to match the settlement. 'End' unknown."
+   },
+   "dimensions": {
+    "rings": "4, later 6 (Wikipedia)",
+    "orientation": "SE, midwinter sunrise (Wikipedia)",
+    "note": "Post sizes not given in fetched sources. Never replaced by stone as far as fetched sources say."
+   },
+   "counts": {
+    "rings": 6
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -2500,
+     "to": -2400,
+     "show": "Large circular setting of concentric timber post rings, c. 4-6 rings, oriented to midwinter sunrise (SE); inside the later henge."
+    },
+    {
+     "from": -2400,
+     "to": -1800,
+     "show": "Timbers decay or are removed; not known."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "low",
+   "attested": [
+    "Concentric rings of post sockets excavated by Wainwright 1966-67 (sto-wp-durrington, sto-archco-durrington)"
+   ],
+   "inferred": [
+    "Post sizes",
+    "Roofed or open"
+   ],
+   "unknown": [
+    "Post heights",
+    "Whether replaced by stone (no source says so)",
+    "Removal date"
+   ],
+   "sources": [
+    "sto-wp-durrington",
+    "sto-archco-durrington",
+    "sto-wp-woodhenge"
+   ]
+  },
+  {
+   "id": "dw-northern-circle",
+   "name": "Durrington Walls Northern Circle (timber)",
+   "kind": "timber-circle",
+   "approxLatLon": [
+    51.1925,
+    -1.7875
+   ],
+   "latLonSource": "sto-wp-durrington (slightly north of the Southern Circle)",
+   "dates": {
+    "from": -2500,
+    "built": -2500,
+    "to": -2400,
+    "dateNote": "Only a statement that a smaller timber circle was found by Wainwright in 1966 slightly north of the Southern Circle (sto-wp-durrington); no date. Date and rings are conjectural."
+   },
+   "dimensions": {
+    "note": "Smaller than the Southern Circle; no ring or post data in fetched sources."
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -2500,
+     "to": -2400,
+     "show": "A smaller, simpler timber ring north of the Southern Circle (conjectural form)."
+    }
+   ],
+   "evidence": "conjectural",
+   "confidence": "low",
+   "attested": [
+    "Smaller timber circle found by Wainwright 1966 (sto-wp-durrington)"
+   ],
+   "inferred": [
+    "Contemporary with the Southern Circle"
+   ],
+   "unknown": [
+    "Rings",
+    "Posts",
+    "Date",
+    "Replacement by stone"
+   ],
+   "sources": [
+    "sto-wp-durrington"
+   ]
+  },
+  {
+   "id": "dw-henge",
+   "name": "Durrington Walls henge bank and ditch",
+   "kind": "henge",
+   "approxLatLon": [
+    51.1925,
+    -1.7875
+   ],
+   "latLonSource": "sto-wp-durrington",
+   "dates": {
+    "from": -2480,
+    "built": -2460,
+    "to": null,
+    "dateNote": "Completed c. 2480-2450 BC, its route following the old post-pit line (sto-archco-durrington). Wikipedia: occupation 'c. 2800-2100'. Two or three centuries later the north and south entrances were blocked, leaving one eastern entrance (sto-archco-durrington). Wikipedia lists two original entrances (NW, SE) plus possible blocked N and E: conflict. In 1625 a ploughed-down earthwork."
+   },
+   "dimensions": {
+    "diameterM": 500,
+    "ditchDepthM": 5.5,
+    "ditchWidthTopM": 18,
+    "ditchWidthBaseM": 7,
+    "bankWidthMaxM": 30,
+    "bankHeightM": 3,
+    "note": "Wikipedia: ditch ~5.5 m deep, 7 m wide at base, 18 m top; bank up to 30 m wide. Current Archaeology: bank ~3 m high, ditch 3-5 m wide and about 6 m deep. Treat bank width as 'tens of metres' and ditch ~5-6 m deep."
+   },
+   "counts": {
+    "entrances": "1 after c. 2250; 2-4 earlier (sources differ)"
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -2480,
+     "to": -2400,
+     "show": "Huge circular chalk bank, c. 3 m high and tens of metres wide, a deep vertical-sided ditch outside, entrances N and S (or NW/SE), brilliant white chalk."
+    },
+    {
+     "from": -2400,
+     "to": -2200,
+     "show": "N and S entrances blocked, E entrance only; bank slumping."
+    },
+    {
+     "from": -2200,
+     "to": 1625,
+     "show": "Grassed rounded bank, silting ditch, ploughed on the west side by medieval/later cultivation (not sourced)."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "Diameter c. 500 m (sto-wp-durrington)",
+    "Bank/ditch dimensions as above (sto-wp-durrington, sto-archco-durrington)",
+    "Completion c. 2480-2450 BC (sto-archco-durrington)"
+   ],
+   "inferred": [
+    "Original chalk-white colour",
+    "Which entrances existed when"
+   ],
+   "unknown": [
+    "Exact bank height and width",
+    "Entrance count at each date"
+   ],
+   "sources": [
+    "sto-wp-durrington",
+    "sto-archco-durrington"
+   ]
+  },
+  {
+   "id": "dw-shafts",
+   "name": "Durrington Walls shaft/pit circuit (Gaffney et al. 2020)",
+   "kind": "pit-circuit",
+   "approxLatLon": [
+    51.1925,
+    -1.7875
+   ],
+   "latLonSource": "centred on sto-wp-durrington (arcs around and south of the henge)",
+   "dates": {
+    "from": -2450,
+    "built": -2400,
+    "to": null,
+    "dateNote": "Radiocarbon dated lower silts of one pit to the Late Neolithic (sto-ia55-gaffney2020). Wikipedia: a 2021 study using luminescence on soil unexposed to daylight since 2400 BC. Specific OSL/C14 tables were not read. DISPUTED: Leivers 2021 reckoned some northern-arc features natural sinkholes (sto-ia69-gaffney2025). Include only as an optional conjectural overlay."
+   },
+   "dimensions": {
+    "circuitDiameterM": 2000,
+    "diameterOfFeaturesM": "14-20+ (2025: 13D c. 14 m, 16D 18-20 m; 2020: some 20 m or more)",
+    "depthM": "at least 5 (2020); base c. 4-5 m (2025 ERT)"
+   },
+   "counts": {
+    "features2020": 20,
+    "pitsOrProbablePits2025": 16
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -2400,
+     "to": -2200,
+     "show": "Optional: a ring of c. 15-20 very large pits, 14-20 m across and 4-5+ m deep, arcs around Durrington Walls, grassed edge; do not show timber post fill."
+    }
+   ],
+   "evidence": "conjectural",
+   "confidence": "low",
+   "attested": [
+    "Geophysics found 20 comparable features in arcs (sto-ia55-gaffney2020)",
+    "Cores and OSL (sto-ia69-gaffney2025)"
+   ],
+   "inferred": [
+    "A deliberate circuit more than 2 km across",
+    "Possible inner post alignment (sto-ia55-gaffney2020: 'some evidence')"
+   ],
+   "unknown": [
+    "Whether some are natural",
+    "Whether all are Neolithic",
+    "Original use"
+   ],
+   "sources": [
+    "sto-ia55-gaffney2020",
+    "sto-ia69-gaffney2025",
+    "sto-wp-durrington"
+   ]
+  },
+  {
+   "id": "dw-avenue",
+   "name": "Durrington Walls Avenue to the Avon",
+   "kind": "avenue",
+   "approxLatLon": null,
+   "latLonSource": "runs from the Southern Circle to the Avon; no coordinates fetched",
+   "dates": {
+    "from": -2510,
+    "built": -2500,
+    "to": -2400,
+    "dateNote": "Contemporary with the settlement (houses on both sides, sto-bristol-2007); no separate date."
+   },
+   "dimensions": {
+    "lengthM": 170,
+    "widthM": 27,
+    "note": "Bristol 2007: about 560 ft long (c. 170 m) and 90 ft wide (c. 27 m), described as stone-surfaced. Wikipedia: paved, aligned to summer solstice sunset."
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -2510,
+     "to": -2400,
+     "show": "A broad surfaced causeway c. 27 m wide, c. 170 m long, from the timber circle down to the Avon, houses clustered on both sides."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "low",
+   "attested": [
+    "Dimensions and houses on either side (sto-bristol-2007)"
+   ],
+   "inferred": [
+    "Surface material stone (press release wording)"
+   ],
+   "unknown": [
+    "Surface details",
+    "Later fate"
+   ],
+   "sources": [
+    "sto-bristol-2007",
+    "sto-wp-durrington"
+   ]
+  },
+  {
+   "id": "stonehenge-avenue",
+   "name": "Stonehenge Avenue",
+   "kind": "avenue",
+   "approxLatLon": null,
+   "latLonSource": "linear feature from the stones to the Avon at West Amesbury (end near 51.1714, -1.7980, sto-wp-bluestonehenge); other researchers hold exact coordinates",
+   "dates": {
+    "from": -2350,
+    "built": -2300,
+    "to": null,
+    "dateNote": "Four antler picks from the ditches date construction to 2345-2200 BC (sto-eh-reconstructed), 200-300 years after sarsens were raised. Wikipedia: Stonehenge 3 period 2600-1700 BCE (too broad). Mostly levelled by ploughing by 1625 except in places."
+   },
+   "dimensions": {
+    "lengthKm": 2.8,
+    "corridorWidthM": 12,
+    "ditchMidpointSeparationAtKingBarrowRidgeM": 30,
+    "outerDitchProfile": "V-shaped, about 2 m deep"
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -2350,
+     "to": -2200,
+     "show": "Parallel banks and V-shaped outer ditches in fresh white chalk, running NE then E over King Barrow Ridge then SE down to the Avon at West Amesbury; open grazed grassland around."
+    },
+    {
+     "from": -2200,
+     "to": 1625,
+     "show": "Banks grassed, then levelled by ploughing in places; ditches filled."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "Length about 2.8 km (sto-eh-reconstructed)",
+    "Banks sliced off but ditches visible in 2013 (sto-wp-avenue)",
+    "Construction 2345-2200 BC from antler picks (sto-eh-reconstructed)",
+    "Natural periglacial stripes under it; Parker Pearson holds the Avenue followed them (sto-wp-avenue)"
+   ],
+   "inferred": [
+    "Banks about 12 m apart; ditches c. 30 m apart (my reading of English Heritage's wording: corridor 12 m between banks, ditch midpoints 30 m apart)"
+   ],
+   "unknown": [
+    "Bank height",
+    "Exact stage assignments"
+   ],
+   "sources": [
+    "sto-eh-reconstructed",
+    "sto-wp-avenue",
+    "sto-wp-bluestonehenge"
+   ]
+  },
+  {
+   "id": "normanton-down-cemetery",
+   "name": "Normanton Down round barrow cemetery",
+   "kind": "barrow-cemetery",
+   "approxLatLon": [
+    51.1702,
+    -1.83
+   ],
+   "latLonSource": "sto-wp-normanton (51.1700, -1.8300 approx from 51°10′12″N 1°49′48″W), about 1 km S of Stonehenge",
+   "dates": {
+    "from": -2200,
+    "built": -1800,
+    "to": null,
+    "dateNote": "Burials roughly 2600-1600 BC (sto-wp-normanton); Wilsford G7 probably built 2000-1800 BC (sto-eh-reconstructed). Barrows stayed visible to 1625; excavated 1800s."
+   },
+   "dimensions": {
+    "bushBarrow": "diameter 49 m, mound 3.3 m high (sto-wp-bushbarrow) or about 40 m wide and 3 m (sto-wp-normanton)",
+    "wilsfordG7": "central mound 30 m across, ditch 8 m wide (sto-eh-reconstructed)"
+   },
+   "counts": {
+    "barrows": "around 40 (EH, Wikipedia); at least 35 surviving in 1957; 24 under six scheduling designations (sto-wp-normanton)",
+    "types": "bowl, bell, disc, one saucer"
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -2200,
+     "to": -1500,
+     "show": "Round mounds (bowl, bell, disc, one saucer) along the ridge, fresh chalk-and-turf when new (inferred), beside the earlier long barrows; Bush Barrow has a 3.3 m mound."
+    },
+    {
+     "from": -1500,
+     "to": 1625,
+     "show": "Grassed mounds in open downland; fewer re-used; later field boundaries not sourced here."
+    }
+   ],
+   "evidence": "attested-standing",
+   "confidence": "medium",
+   "attested": [
+    "About 40 round barrows plus long barrow(s) (sto-wp-normanton)",
+    "Bush Barrow dated c. 1950 BC; lozenge 184 x 156 x 1 mm (sto-wp-bushbarrow)"
+   ],
+   "inferred": [
+    "Fresh chalk-white mounds (general practice)"
+   ],
+   "unknown": [
+    "Individual barrow dates",
+    "Which barrows had timber rings or fences"
+   ],
+   "sources": [
+    "sto-wp-normanton",
+    "sto-wp-bushbarrow",
+    "sto-eh-reconstructed"
+   ]
+  },
+  {
+   "id": "bush-barrow",
+   "name": "Bush Barrow",
+   "kind": "round-barrow",
+   "approxLatLon": [
+    51.17051,
+    -1.83482
+   ],
+   "latLonSource": "sto-wp-bushbarrow (Wikipedia infobox)",
+   "dates": {
+    "from": -1960,
+    "built": -1950,
+    "to": null,
+    "dateNote": "c. 1950 BC (Wessex culture) per sto-wp-bushbarrow; excavated 1808 by Cunnington for Hoare."
+   },
+   "dimensions": {
+    "overallDiameterM": 49,
+    "heightM": 3.3,
+    "summitWidthM": 10.5,
+    "goldLozengeMm": [
+     184,
+     156,
+     1
+    ],
+    "note": "Dimensions are modern surviving earthwork. A different Wikipedia article gives 40 m x 3 m."
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -1950,
+     "to": 1625,
+     "show": "Grassed bowl barrow c. 3 m high. The name 'Bush' comes from trees on top recorded by Stukeley in the 1720s, so do not assume trees in 1625."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "Male burial with a gold lozenge, belt plate, three bronze daggers, axe, macehead (sto-wp-bushbarrow)"
+   ],
+   "inferred": [],
+   "unknown": [
+    "Original height",
+    "Whether it had a ditch visible in 1625"
+   ],
+   "sources": [
+    "sto-wp-bushbarrow",
+    "sto-wp-normanton"
+   ]
+  },
+  {
+   "id": "king-barrow-ridge",
+   "name": "King Barrow Ridge barrows (Old and New King Barrows)",
+   "kind": "barrow-cemetery",
+   "approxLatLon": null,
+   "latLonSource": "no coordinates fetched; ridge ~1 km E of Stonehenge (the square enclosure is about 1 km E, sto-sarsen2018)",
+   "dates": {
+    "from": -2200,
+    "built": -1800,
+    "to": null,
+    "dateNote": "Early Bronze Age (sto-eh-history); no further data retrieved. A square enclosure on the ridge is probably a Neolithic mortuary enclosure, or a square barrow or sheepfold (sto-sarsen2018)."
+   },
+   "dimensions": {},
+   "counts": {
+    "barrows": null
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -2200,
+     "to": 1625,
+     "show": "Linear group of grassed round barrows on the ridge visible from the stones; the Avenue crosses the ridge."
+    }
+   ],
+   "evidence": "attested-standing",
+   "confidence": "low",
+   "attested": [
+    "King Barrow Ridge hosts early Bronze Age round barrows (sto-eh-history)"
+   ],
+   "inferred": [],
+   "unknown": [
+    "Counts, types, dimensions (not retrieved)"
+   ],
+   "sources": [
+    "sto-eh-history",
+    "sto-sarsen2018"
+   ]
+  },
+  {
+   "id": "winterbourne-stoke-crossroads",
+   "name": "Winterbourne Stoke Crossroads barrow cemetery",
+   "kind": "barrow-cemetery",
+   "approxLatLon": [
+    51.1727,
+    -1.8583
+   ],
+   "latLonSource": "long barrow WS1 coordinate (sto-ia47-ws1); the round barrow group extends c. 500 m NE of it",
+   "dates": {
+    "from": -2200,
+    "built": -1800,
+    "to": null,
+    "dateNote": "Early Bronze Age (general); no specific dates retrieved. Counts in search snippets (17, 19, 22) conflict and were NOT confirmed because the Historic England page returned 403."
+   },
+   "dimensions": {
+    "lengthM": 500,
+    "note": "linear group from the long barrow, per search snippet (not confirmed)"
+   },
+   "counts": {
+    "roundBarrows": "unconfirmed: 17 to 22 depending on source; all types of Bronze Age barrow (bowl, bell, disc, pond) reported by the National Trust (snippet, not fetched)"
+   },
+   "appearanceByPeriod": [
+    {
+     "from": -2200,
+     "to": 1625,
+     "show": "Linear group of grassed round barrows extending NE from the Winterbourne Stoke 1 long barrow."
+    }
+   ],
+   "evidence": "attested-standing",
+   "confidence": "low",
+   "attested": [
+    "Long barrow WS1 at its SW end (sto-ia47-ws1)"
+   ],
+   "inferred": [
+    "Round barrows numbering about 20"
+   ],
+   "unknown": [
+    "Exact counts",
+    "Types per mound",
+    "Dates"
+   ],
+   "sources": [
+    "sto-ia47-ws1"
+   ]
+  },
+  {
+   "id": "amesbury-archer",
+   "name": "Amesbury Archer grave (context only)",
+   "kind": "burial",
+   "approxLatLon": null,
+   "latLonSource": "OS grid SU16324043 only (sto-wp-archer); about 4.5 km E of the stones, outside the site bounds",
+   "dates": {
+    "from": -2340,
+    "built": -2300,
+    "to": -2300,
+    "dateNote": "Born c. 2340 BC, died c. 2300 BC aged about 40 (sto-wp-archer). Beaker grave; found 2002 at Boscombe Down/Amesbury."
+   },
+   "dimensions": {},
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -2300,
+     "to": -2290,
+     "show": "Not modelled (outside the extent); a single grave later barrow-less."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "high",
+   "attested": [
+    "Beaker grave with five pots, copper knives, arrowheads, gold hair ornaments, isotopes point to the Alps (sto-wp-archer)"
+   ],
+   "inferred": [],
+   "unknown": [
+    "Whether a barrow covered it"
+   ],
+   "sources": [
+    "sto-wp-archer"
+   ]
+  },
+  {
+   "id": "bronze-age-fields",
+   "name": "Middle Bronze Age fields and enclosures",
+   "kind": "field-system",
+   "approxLatLon": null,
+   "latLonSource": "eastern part of the WHS (sto-roberts2018); no coordinates",
+   "dates": {
+    "from": -1500,
+    "built": -1300,
+    "to": -1100,
+    "dateNote": "Middle Bronze Age (sto-roberts2018). The 1500-1100 BCE span is the brief's; the fetched sources give 'Middle Bronze Age' without year ranges. Fields may continue into the Iron Age."
+   },
+   "dimensions": {
+    "note": "No areas or counts in the abstract page."
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -1500,
+     "to": -1100,
+     "show": "Early fields or enclosures in the eastern WHS, replaced by a major ditch system; low banks or lynchets and ditches; grass or cultivated plots (no crops sourced)."
+    },
+    {
+     "from": -1100,
+     "to": 1625,
+     "show": "Faint lynchets, later cultivation traces."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "low",
+   "attested": [
+    "Early fields or enclosures in the eastern WHS, previously thought to have had little Bronze Age agricultural/domestic activity (sto-roberts2018)",
+    "Two individuals buried in the ditch system; a perinatal infant in a palisade ditch in the west (sto-roberts2018)"
+   ],
+   "inferred": [
+    "Co-axial layout (not confirmed in fetched sources)",
+    "Enclosed block around Stonehenge/Normanton Down (search snippet only)"
+   ],
+   "unknown": [
+    "Extent",
+    "Crops",
+    "Richards 1990 Environs Project results (not fetched)"
+   ],
+   "sources": [
+    "sto-roberts2018",
+    "sto-sarsen2018"
+   ]
+  },
+  {
+   "id": "vespasians-camp",
+   "name": "Vespasian's Camp hillfort",
+   "kind": "hillfort",
+   "approxLatLon": [
+    51.1739,
+    -1.7931
+   ],
+   "latLonSource": "sto-wp-vespasian (51°10′26″N 1°47′35″W)",
+   "dates": {
+    "from": -700,
+    "built": -600,
+    "to": null,
+    "dateNote": "Only 'Iron Age' (sto-wp-vespasian); no construction dates retrieved. -700..-600 is a placeholder (low confidence). Name from Camden in the 16th century (sto-wp-vespasian). 18th-century landscaping; a medieval road cut across the top; A303 cut through the north in the 1970s."
+   },
+   "dimensions": {
+    "areaHa": 14,
+    "bankWidthM": 40,
+    "bankHeightAboveDitchBottomM": 6,
+    "ditchWidthM": 10,
+    "counterscarpWidthM": 18,
+    "defencesMaxWidthM": 68
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -700,
+     "to": -500,
+     "show": "Enclosure of 14 ha on a spur above the Avon, with a big bank (up to 6 m above the ditch floor), outer ditch and low counterscarp; fresh white chalk."
+    },
+    {
+     "from": -500,
+     "to": 1625,
+     "show": "Grassed ramparts; a medieval road runs over the hilltop; grazing."
+    }
+   ],
+   "evidence": "attested-standing",
+   "confidence": "low",
+   "attested": [
+    "Dimensions as above (sto-wp-vespasian)",
+    "Medieval road crossing hilltop (sto-wp-vespasian)"
+   ],
+   "inferred": [
+    "Timber revetment or palisade (not sourced)"
+   ],
+   "unknown": [
+    "Start and end of occupation",
+    "Whether any Roman use"
+   ],
+   "sources": [
+    "sto-wp-vespasian"
+   ]
+  },
+  {
+   "id": "blick-mead",
+   "name": "Blick Mead Mesolithic spring site",
+   "kind": "mesolithic-site",
+   "approxLatLon": [
+    51.1775,
+    -1.7878
+   ],
+   "latLonSource": "sto-wp-blickmead (51°10′39″N 1°47′16″W)",
+   "dates": {
+    "from": -8000,
+    "built": -6000,
+    "to": -4000,
+    "dateNote": "Wikipedia pages conflict: Blick Mead 'continuous habitation c. 8000-4000 BCE'; Vespasian's Camp article 'occupied c. 6250-4700 BCE' (sto-wp-vespasian). Southampton: pollen/DNA cover later Mesolithic (from c. 5500 BC) to Neolithic (c. 4000 BC). Recommend 6250-4000 BCE; low confidence."
+   },
+   "dimensions": {
+    "springTempC": 11,
+    "flints": 70000,
+    "animalBones": 2400
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -6250,
+     "to": -4000,
+     "show": "A warm spring beside the Avon, hunter-gatherer camp with a tree-throw pit dwelling; partly open woodland with meadow clearings; aurochs bones."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "low",
+   "attested": [
+    "Spring at c. 11 C, pit dwelling, aurochs, flints (sto-wp-blickmead)",
+    "Partly open woodland and meadow-like clearings (sto-soton-blickmead2022)"
+   ],
+   "inferred": [
+    "Continuous occupation"
+   ],
+   "unknown": [
+    "Occupation duration",
+    "Seasonality"
+   ],
+   "sources": [
+    "sto-wp-blickmead",
+    "sto-wp-vespasian",
+    "sto-soton-blickmead2022"
+   ]
+  },
+  {
+   "id": "roman-activity",
+   "name": "Roman-period activity in the landscape",
+   "kind": "activity",
+   "approxLatLon": null,
+   "latLonSource": "scattered; Cuckoo Stone building at sto-wp-cuckoo coordinates",
+   "dates": {
+    "from": 43,
+    "built": 100,
+    "to": 410,
+    "dateNote": "Roman Britain 43-410 CE (general). Evidence is sparse."
+   },
+   "dimensions": {},
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": 43,
+     "to": 410,
+     "show": "Little beyond arable colluviation across the downs; a small rectangular building (probable shrine) near the Cuckoo Stone; coins and pottery at the stones; a large Roman graveyard near the Archer grave, and a Romano-British settlement overlooking the Avon (Wikipedia: 'likely')."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "low",
+   "attested": [
+    "Roman building and coins at the Cuckoo Stone (sto-wp-cuckoo)",
+    "Late 4th c. coins, Roman pottery at Stonehenge (sto-wp-stonehenge)",
+    "Colluviation linked to arable continued through Roman times (sto-french2012)"
+   ],
+   "inferred": [
+    "Large Romano-British settlement at Amesbury (sto-wp-amesbury says likely)"
+   ],
+   "unknown": [
+    "Roads in the immediate WHS (none found in fetched sources)",
+    "Roman activity at Durrington Walls (not found)"
+   ],
+   "sources": [
+    "sto-wp-cuckoo",
+    "sto-wp-stonehenge",
+    "sto-french2012",
+    "sto-wp-amesbury"
+   ]
+  },
+  {
+   "id": "early-medieval-activity",
+   "name": "Early medieval activity",
+   "kind": "activity",
+   "approxLatLon": null,
+   "latLonSource": "at the stones",
+   "dates": {
+    "from": 600,
+    "built": 650,
+    "to": 690,
+    "dateNote": "A decapitated man (28-32) died 600-690 CE; excavated within the stone circles (sto-wp-stonehenge). A 5th-century Anglo-Saxon disc brooch at a Blick Mead spring (search snippet only; not used)."
+   },
+   "dimensions": {},
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": 600,
+     "to": 690,
+     "show": "A single execution burial in the monument; not a visible feature."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "Decapitated burial radiocarbon dated 600-690 CE (sto-wp-stonehenge)"
+   ],
+   "inferred": [
+    "A gallows nearby (Pitts's suggestion)"
+   ],
+   "unknown": [
+    "Rest of the early medieval landscape"
+   ],
+   "sources": [
+    "sto-wp-stonehenge"
+   ]
+  },
+  {
+   "id": "amesbury-abbey",
+   "name": "Amesbury Abbey / Priory (Benedictine, then Fontevraud)",
+   "kind": "abbey",
+   "approxLatLon": [
+    51.1719,
+    -1.7843
+   ],
+   "latLonSource": "sto-wp-amesburyabbey (modern house site; medieval priory is nearby, exact location not given)",
+   "dates": {
+    "from": 979,
+    "built": 1177,
+    "to": 1540,
+    "dateNote": "Benedictine abbey founded c. 979 by Queen Ælfthryth; dissolved by Henry II in 1177 and refounded as a Fontevraud priory; dissolved 1540 per sto-wp-amesbury (the abbey article gives no date; brief says 1539). Buildings demolished; the parish church survived. The Crown granted the estate to Edward Seymour, Earl of Hertford, from the 1540s; Seymours held it until 1675 (sto-wp-amesbury). The mansion by Hopper (1834-40) and the 1661 mansion are later than 1625."
+   },
+   "dimensions": {
+    "note": "No plan or dimensions retrieved."
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": 979,
+     "to": 1177,
+     "show": "Benedictine nunnery beside the church; stone and timber claustral buildings (form unknown)."
+    },
+    {
+     "from": 1177,
+     "to": 1540,
+     "show": "Fontevraud priory, a large religious house by the Avon with the parish church (St Mary and St Melor); Henry III and Eleanor of Provence stayed."
+    },
+    {
+     "from": 1540,
+     "to": 1625,
+     "show": "Priory buildings demolished; the estate under the Seymour/Hertford family; manor house of the Seymours (form not retrieved)."
+    }
+   ],
+   "evidence": "attested-documentary",
+   "confidence": "medium",
+   "attested": [
+    "979 foundation, 1177 refoundation (sto-wp-amesburyabbey, sto-wp-amesbury)",
+    "Priory dissolved c. 1540; estate to Seymour (sto-wp-amesbury)"
+   ],
+   "inferred": [
+    "Layout"
+   ],
+   "unknown": [
+    "Building form",
+    "Exact dissolution year (1539 vs 1540)"
+   ],
+   "sources": [
+    "sto-wp-amesburyabbey",
+    "sto-wp-amesbury"
+   ]
+  },
+  {
+   "id": "amesbury-town",
+   "name": "Amesbury town and medieval landscape",
+   "kind": "town",
+   "approxLatLon": [
+    51.1719,
+    -1.7843
+   ],
+   "latLonSource": "same as Amesbury Abbey (sto-wp-amesburyabbey), nearby",
+   "dates": {
+    "from": 700,
+    "built": 1086,
+    "to": null,
+    "dateNote": "Domesday (1086): 111 households, eight mills (sto-wp-amesbury). Saxon settlement from the 7th century (a monastery perhaps earlier, weak)."
+   },
+   "dimensions": {},
+   "counts": {
+    "domesday1086": "111 households, 8 mills"
+   },
+   "appearanceByPeriod": [
+    {
+     "from": 700,
+     "to": 1086,
+     "show": "Saxon village on the Avon, mills."
+    },
+    {
+     "from": 1086,
+     "to": 1625,
+     "show": "Small town on the Avon crossing of the London-Exeter road (Wikipedia: 'important river crossing'), abbey/priory adjoining; open fields on the downs; Coneybury ridge-and-furrow shows cultivation. Sheep downland: not documented in fetched sources."
+    }
+   ],
+   "evidence": "attested-documentary",
+   "confidence": "low",
+   "attested": [
+    "Domesday figures (sto-wp-amesbury)",
+    "Ridge and furrow over Coneybury (sto-wp-coneybury)"
+   ],
+   "inferred": [
+    "Sheep-corn husbandry on the downs (general chalkland pattern; no fetched source)"
+   ],
+   "unknown": [
+    "Street plan",
+    "Road precursors of A303/A344",
+    "Field layout in 1625"
+   ],
+   "sources": [
+    "sto-wp-amesbury",
+    "sto-wp-coneybury",
+    "sto-wp-vespasian"
+   ]
+  },
+  {
+   "id": "river-avon",
+   "name": "River Avon (Wiltshire Avon)",
+   "kind": "river",
+   "approxLatLon": null,
+   "latLonSource": "flows through Durrington and Amesbury (sto-wp-avon); local course held by other researchers",
+   "dates": {
+    "from": -4000,
+    "built": -4000,
+    "to": null,
+    "dateNote": "Always present. Floodplain cover: alder-hazel carr and sedges fringing the Avon through the Neolithic and Bronze Age; colluviation and channel sedimentation increased with clearance c. 800-500 BCE (sto-french2012)."
+   },
+   "dimensions": {
+    "totalLengthKm": 96,
+    "sourceM_asl": 124
+   },
+   "counts": {},
+   "appearanceByPeriod": [
+    {
+     "from": -4000,
+     "to": -800,
+     "show": "Narrow clear chalk-fed river with alder-hazel carr and sedge fringe; shallow wet floodplain."
+    },
+    {
+     "from": -800,
+     "to": 1625,
+     "show": "Sediment-laden at times, floodplain open with sedge fringe; water meadows are medieval (not sourced)."
+    }
+   ],
+   "evidence": "attested-excavated",
+   "confidence": "medium",
+   "attested": [
+    "Course Upavon to Durrington to Amesbury to Salisbury (sto-wp-avon)",
+    "Episodic increases in channel sedimentation with clearance (sto-french2012)"
+   ],
+   "inferred": [
+    "Chalk-stream character (Wikipedia carries only a category tag)"
+   ],
+   "unknown": [
+    "Channel changes",
+    "Fords and crossings in 1625"
+   ],
+   "sources": [
+    "sto-wp-avon",
+    "sto-french2012"
+   ]
+  }
+ ],
+ "vegetation": [
+  {
+   "year": -4000,
+   "woodlandFraction": 0.35,
+   "note": "ESTIMATE. Mesolithic to earliest Neolithic: partly open woodland with meadow-like clearings (Blick Mead pollen and DNA); the area was never closed-canopy but trees were present. Fraction is my guess within ~3 km.",
+   "sources": [
+    "sto-soton-blickmead2022",
+    "sto-french2012"
+   ]
+  },
+  {
+   "year": -3500,
+   "woodlandFraction": 0.2,
+   "note": "ESTIMATE. Cursus built in open chalk grassland (snails); landscape 'opened up in the later Mesolithic and earlier Neolithic'.",
+   "sources": [
+    "sto-eh-reconstructed",
+    "sto-french2012"
+   ]
+  },
+  {
+   "year": -3000,
+   "woodlandFraction": 0.15,
+   "note": "ESTIMATE. Stable rendzina grassland on slopes; a hiatus c. 2900 BC.",
+   "sources": [
+    "sto-french2012"
+   ]
+  },
+  {
+   "year": -2500,
+   "woodlandFraction": 0.12,
+   "note": "ESTIMATE. Localised woodland stayed near Durrington Walls (possibly higher downs); pine persisted; alder-hazel carr on the floodplain.",
+   "sources": [
+    "sto-french2012"
+   ]
+  },
+  {
+   "year": -2000,
+   "woodlandFraction": 0.1,
+   "note": "ESTIMATE. Managed grassland landscape with barrows.",
+   "sources": [
+    "sto-french2012"
+   ]
+  },
+  {
+   "year": -1500,
+   "woodlandFraction": 0.08,
+   "note": "ESTIMATE. Middle Bronze Age fields in the east of the WHS.",
+   "sources": [
+    "sto-french2012",
+    "sto-roberts2018"
+   ]
+  },
+  {
+   "year": -1000,
+   "woodlandFraction": 0.05,
+   "note": "ESTIMATE. Near full clearance approaching.",
+   "sources": [
+    "sto-french2012"
+   ]
+  },
+  {
+   "year": -500,
+   "woodlandFraction": 0.03,
+   "note": "ESTIMATE. Full clearance c. 800-500 cal BC, leaving a marshy sedge and alder fringe; colluvium from arable.",
+   "sources": [
+    "sto-french2012"
+   ]
+  },
+  {
+   "year": 1,
+   "woodlandFraction": 0.03,
+   "note": "ESTIMATE. Open arable and grazing downland.",
+   "sources": [
+    "sto-french2012"
+   ]
+  },
+  {
+   "year": 500,
+   "woodlandFraction": 0.06,
+   "note": "SPECULATIVE. Possible scrub regeneration post-Roman; no fetched source documents it.",
+   "sources": []
+  },
+  {
+   "year": 1000,
+   "woodlandFraction": 0.04,
+   "note": "ESTIMATE.",
+   "sources": []
+  },
+  {
+   "year": 1625,
+   "woodlandFraction": 0.04,
+   "note": "ESTIMATE. Open sheep-and-corn downland; no fetched source gives figures.",
+   "sources": []
+  }
+ ],
+ "events": [
+  {
+   "year": -8000,
+   "label": "Mesolithic pine posts near the later stones (to c. 8000 BC)",
+   "note": "Four, possibly five postholes under the former car park.",
+   "sources": [
+    "sto-wp-stonehenge"
+   ]
+  },
+  {
+   "year": -3800,
+   "label": "Coneybury Anomaly feast (date unsourced)",
+   "note": "Early Neolithic pit, brief's date unverified.",
+   "sources": [
+    "sto-wp-coneybury"
+   ]
+  },
+  {
+   "year": -3600,
+   "label": "Robin Hood's Ball and long barrows (c. 3600-3500)",
+   "note": "Dates approximate.",
+   "sources": [
+    "sto-wp-robinhood",
+    "sto-ia47-am42"
+   ]
+  },
+  {
+   "year": -3500,
+   "label": "Greater Cursus built",
+   "note": "Antler 3630-3375 BCE.",
+   "sources": [
+    "sto-wp-cursus",
+    "sto-antiq-thomas2009"
+   ]
+  },
+  {
+   "year": -3000,
+   "label": "Lesser Cursus (antler date, weak)",
+   "note": "Wikipedia only.",
+   "sources": [
+    "sto-wp-cursus"
+   ]
+  },
+  {
+   "year": -2510,
+   "label": "Durrington Walls village (c. 10-12 years)",
+   "note": "Houses c. 5 m square.",
+   "sources": [
+    "sto-archco-durrington",
+    "sto-bristol-2007"
+   ]
+  },
+  {
+   "year": -2480,
+   "label": "Timber ring replaced by Durrington Walls henge bank",
+   "note": "Around 300 posts removed; henge completed c. 2480-2450 BC.",
+   "sources": [
+    "sto-archco-durrington"
+   ]
+  },
+  {
+   "year": -2470,
+   "label": "Woodhenge",
+   "note": "Ditch 2470-2000 BC.",
+   "sources": [
+    "sto-wp-woodhenge"
+   ]
+  },
+  {
+   "year": -2400,
+   "label": "West Amesbury henge built; stones removed",
+   "note": "Removal 2469-2286 BC.",
+   "sources": [
+    "sto-wp-bluestonehenge"
+   ]
+  },
+  {
+   "year": -2300,
+   "label": "Stonehenge Avenue built (2345-2200 BC) and the Amesbury Archer buried",
+   "note": "Archer c. 2340-2300 BC.",
+   "sources": [
+    "sto-eh-reconstructed",
+    "sto-wp-archer"
+   ]
+  },
+  {
+   "year": -1950,
+   "label": "Bush Barrow burial",
+   "note": "c. 1950 BC.",
+   "sources": [
+    "sto-wp-bushbarrow"
+   ]
+  },
+  {
+   "year": -1500,
+   "label": "Middle Bronze Age fields begin (brief's date)",
+   "note": "Fetched sources say only Middle Bronze Age.",
+   "sources": [
+    "sto-roberts2018"
+   ]
+  },
+  {
+   "year": -650,
+   "label": "Vespasian's Camp (placeholder date)",
+   "note": "Iron Age; no dates retrieved.",
+   "sources": [
+    "sto-wp-vespasian"
+   ]
+  },
+  {
+   "year": 43,
+   "label": "Roman period begins; shrine at the Cuckoo Stone later",
+   "note": "Shrine date not given.",
+   "sources": [
+    "sto-wp-cuckoo"
+   ]
+  },
+  {
+   "year": 650,
+   "label": "Execution burial inside Stonehenge (600-690 CE)",
+   "note": "",
+   "sources": [
+    "sto-wp-stonehenge"
+   ]
+  },
+  {
+   "year": 979,
+   "label": "Amesbury Abbey founded by Queen Ælfthryth",
+   "note": "",
+   "sources": [
+    "sto-wp-amesburyabbey"
+   ]
+  },
+  {
+   "year": 1086,
+   "label": "Domesday: Amblesberie 111 households, eight mills",
+   "note": "",
+   "sources": [
+    "sto-wp-amesbury"
+   ]
+  },
+  {
+   "year": 1177,
+   "label": "Abbey replaced by Fontevraud priory",
+   "note": "",
+   "sources": [
+    "sto-wp-amesburyabbey"
+   ]
+  },
+  {
+   "year": 1540,
+   "label": "Amesbury Priory dissolved and demolished; estate to Seymour",
+   "note": "Brief says 1539; sto-wp-amesbury says 1540.",
+   "sources": [
+    "sto-wp-amesbury"
+   ]
+  }
+ ]
+}

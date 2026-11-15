@@ -1,0 +1,62 @@
+[
+ {
+  "id": "brentford-1016",
+  "name": "Battle of Brentford",
+  "year": 1016,
+  "fraction": 0.5,
+  "dateNote": "1016; day and month not recorded. In the Chronicle it comes 'within two nights' of Edmund's relief of London, after Cnut's siege had begun in May and after Edmund's fights at Penselwood and Sherston, and before the battle of Assandun and Edmund's death on St Andrew's day (30 November). Summer is likely but is an inference.",
+  "lat": 51.4803,
+  "lon": -0.3022,
+  "inMap": true,
+  "view": {
+   "position": [
+    -730,
+    380,
+    301
+   ],
+   "target": [
+    74,
+    0,
+    297
+   ]
+  },
+  "summary": "In 1016 Cnut's army besieged London. Edmund Ironside gathered a force, came to the city along the north side of the Thames and drove the besiegers to their ships. Within two nights he crossed the Thames at Brentford, fought the Danish army and put it to flight; many of the English were drowned, which the Chronicle blames on their own carelessness in going ahead of the army for plunder. Edmund then went to Wessex for more men and the Danes returned to London. That is all that is recorded. The scene shows the river, the ford and the banks as best they can be placed, with plain blocks of figures and shaded areas for where the armies may have been. Every one of those is a guess, and the model does not show the fight itself.",
+  "attested": [
+   "The only narrative source is the Anglo-Saxon Chronicle for 1016: Edmund 'went over at Brentford; where he fought with the enemy, and put them to flight: but there many of the English were drowned, from their own carelessness; who went before the main army with a design to plunder'.",
+   "Just before, in the same entry: Edmund gathered his force a third time, went to London 'all by north of the Thames, and so out through Clayhanger', relieved the citizens and drove the enemy to their ships. Brentford followed 'within two nights'.",
+   "Just after: Edmund went into Wessex to gather his army, and the Danes soon returned to London and attacked it by land and water.",
+   "Later in the same year Edmund, with a fourth levy, 'forded over the Thames at Brentford' and went into Kent. The Thames could therefore be waded at Brentford by an army, at least at some states of the river.",
+   "Brentford was an established, named place: recorded from 705, in connection with a meeting of the kings of Wessex and Essex, and the seat of a council under Offa in 780 and a church synod in 781. Half of a Thames fishery there was granted to Winchester in 996.",
+   "The county history judges that the lowest permanent ford on the Thames was probably at Old England, the low ground at the Brent mouth, and (citing Stenton) that the battle was fought on the south bank."
+  ],
+  "tradition": [
+   "That the fight was on the Surrey bank after a crossing from north to south: an inference from the order of words in the Chronicle. A poem in praise of Cnut has been read as implying fighting on both banks (reported by Wikipedia; not checked here).",
+   "That the English dead fell in the fighting and were not drowned: argued by Frank Stenton and Russell Poole, as reported by Wikipedia (not checked here).",
+   "That the crossing was at Old England, and that timber stakes found on the foreshore there defended the ford. The stakes are undated. The older claim that they are the stakes Julius Caesar met when he forced the Thames in 54 BCE is antiquarian tradition; Mortimer Wheeler doubted it in 1929.",
+   "That Cnut was 'twice driven back across the Thames at Brentford', as a local history page puts it. The Chronicle records one fight at Brentford and one later crossing by Edmund on his way into Kent.",
+   "A Danish strength of 8,000 to 12,000, given in Wikipedia's summary box, has no contemporary basis.",
+   "The granite monument at Brentford that commemorates Caesar's crossing and the battle marks tradition, not a located site."
+  ],
+  "unknown": [
+   "Where the army crossed, and on which bank or banks the fighting took place.",
+   "The day and month.",
+   "Numbers on either side, and losses. The figures in the model are stand-ins and are not to scale with any army.",
+   "Whether Cnut was there in person, and who led the Danes on the day.",
+   "Where, when and how the drowning happened: at the crossing, in pursuit, or somewhere else on the river.",
+   "The state of the tide and the river, the weather, and whether the Danes had ships at hand.",
+   "What stood at Brentford in 1016. No late Saxon building has been excavated there.",
+   "The exact form of the river: its width, the shoals and islands, and the mouths of the Brent."
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "sources": [
+   "bre-asc-avalon",
+   "bre-vch-mdx7-growth",
+   "bre-vch-mdx7-comms",
+   "bre-clerk-siege-london",
+   "bre-bclhs-brentford-bridge",
+   "bre-wheeler-old-england",
+   "bre-wikipedia-battle"
+  ]
+ }
+]

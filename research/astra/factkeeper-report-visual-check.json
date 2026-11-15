@@ -1,0 +1,16 @@
+{
+  "markdown_parsed": true,
+  "tables": 4,
+  "json_code_blocks": 55,
+  "visual_verified": false,
+  "attempts": [
+    {
+      "method": "isolated headless Chrome",
+      "result": "launch exited SIGABRT under execution environment; no screenshot"
+    },
+    {
+      "method": "computer-use in-app browser",
+      "result": "browser access host unavailable; no screenshot"
+    }
+  ]
+}

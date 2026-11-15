@@ -1,0 +1,19 @@
+{
+  "avenue-2400bce": {
+    "fps": 60,
+    "frameMs": 16.67,
+    "worstMs": 16.8,
+    "calls": 69,
+    "triangles": 2327772,
+    "instances": 218,
+    "trees": 39269,
+    "pixelRatio": 1,
+    "size": [
+      1600,
+      900
+    ],
+    "bench": {
+      "msPerFrame": 14.14
+    }
+  }
+}

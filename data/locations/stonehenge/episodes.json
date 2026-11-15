@@ -1,0 +1,349 @@
+[
+ {
+  "id": "stonehenge-midsummer-sunrise-2500bce",
+  "name": "Midsummer sunrise along the axis, c. 2500 BCE",
+  "year": -2500,
+  "fraction": 0.47,
+  "dateNote": "Late June (about 21 June by the solar year) in the sarsen-circle era. The year is a representative one inside 2580 to 2400 BCE; the day is the solstice by astronomy, not a recorded date.",
+  "lat": 51.178868,
+  "lon": -1.826196,
+  "inMap": true,
+  "view": {
+   "position": [
+    -2,
+    43.96,
+    2
+   ],
+   "target": [
+    137.69,
+    36.8,
+    -115.94
+   ]
+  },
+  "summary": "Looking from inside the circle north-east along the monument's axis, past the Heel Stone and down the first stretch of the Avenue, towards where the sun comes up on the longest day. The scene's one fixed sun is NOT moved: the white line and sun disc are an overlay marking the computed direction (azimuth about 48 to 49 degrees), not real lighting. For 2500 BCE, with the sun's upper edge just visible and standard refraction, the sunrise point is at azimuth 48.2 degrees on a flat horizon or 49.2 degrees if the horizon is raised 0.6 degrees. The Avenue's first straight stretch leaves the stones at about 49.9 degrees (from OpenStreetMap mapping), and the Heel Stone lies at about 51 degrees from the centre, so the sun rose slightly to the left of both. The true horizon height to the north-east was not taken from any source read.",
+  "attested": [
+   "The monument's main axis runs north-east to south-west, shared by the trilithon horseshoe, the bluestone settings, the sarsen circle and the first stretch of the Avenue (Darvill et al. 2012).",
+   "Midsummer sunrise is seen over and slightly to the left of the Heel Stone and falls within the Avenue (Sky at Night).",
+   "The first straight stretch of the Avenue leaves the stones at azimuth about 49.9 degrees, measured from OpenStreetMap-mapped earthwork outlines (this project's geography research, not a survey azimuth).",
+   "William Stukeley recognised the solstice axis in 1720."
+  ],
+  "tradition": [
+   "That the builders meant midsummer sunrise: Ruggles favours midwinter as the more important; Hawkins's 1960s claims are generally treated as over-optimistic.",
+   "That crowds gathered at the stones on this morning in 2500 BCE; the figures are not shown."
+  ],
+  "unknown": [
+   "What, if anything, was done at the stones on midsummer morning, and whether the alignment was meant to be precise to a degree.",
+   "The altitude of the true horizon north-east of the stones (woodland, relief): the computed range uses a flat 0 degree and a 0.6 degree horizon as an assumption.",
+   "Today the same sunrise is about 1 degree larger in azimuth (49.2 degrees on a flat horizon) because the Earth's axial tilt has fallen from about 24.0 to 23.4 degrees.",
+   "Computed with cos A = (sin d - sin phi sin h) / (cos phi cos h), latitude 51.179 degrees, obliquity 23.97 degrees (Laskar series, 2500 BCE), refraction 0.57 degrees, solar semi-diameter 0.27 degrees: my calculation, not a source."
+  ],
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "sources": [
+   "sto-darvill-2012-remodelled",
+   "sto-skyatnight-astronomy",
+   "sto-wiki-archaeoastronomy",
+   "sto-osm-overpass",
+   "sto-wikipedia-heel-stone",
+   "sto-ea-survey-2010"
+  ]
+ },
+ {
+  "id": "stonehenge-midwinter-sunset-2500bce",
+  "name": "Midwinter sunset through the Great Trilithon, c. 2500 BCE",
+  "year": -2500,
+  "fraction": 0.98,
+  "dateNote": "Late December (about 21 December by the solar year) in the sarsen-circle era; a representative year inside 2580 to 2400 BCE, the day fixed by astronomy.",
+  "lat": 51.178868,
+  "lon": -1.826196,
+  "inMap": true,
+  "view": {
+   "position": [
+    84.14,
+    42.59,
+    -70.85
+   ],
+   "target": [
+    -4.97,
+    44.02,
+    4.19
+   ]
+  },
+  "summary": "From the Avenue, 110 m north-east of the centre, looking south-west through the circle at the Great Trilithon on the day of the shortest sun. As in the sunrise episode the scene's single fixed sun is not moved: the line and disc are an overlay marking the computed sunset direction. For 2500 BCE, upper edge just visible with standard refraction, the sun set at azimuth 231.0 degrees on a flat horizon or 230.0 degrees if the horizon is raised 0.6 degrees, within about a degree of the reverse of the Avenue's first stretch (229.9 degrees). Ruggles favours midwinter as the more important of the two solstices, and Parker Pearson cites the midwinter feasting at Durrington Walls; that is interpretation. The horizon height to the south-west was not measured from any source read.",
+  "attested": [
+   "From the far end of the Avenue the midwinter sunset can be seen through the central arches (Sky at Night).",
+   "The Avenue's first straight stretch, the trilithon horseshoe and the circles share one axis, open to the north-east and facing the Great Trilithon in the south-west (Darvill et al. 2012).",
+   "Durrington Walls pig-tooth evidence points to midwinter slaughter and feasting (cited by Parker Pearson in the Sky at Night account)."
+  ],
+  "tradition": [
+   "That the monument was built to frame the midwinter sunset (Ruggles's preferred reading; Darvill argues the trilithon layout points to a midwinter focus). Midsummer sunrise as the main intent is the older, popular view.",
+   "That people gathered on this evening; none are drawn."
+  ],
+  "unknown": [
+   "What ceremonies took place, and whether the alignment was precise to better than a degree.",
+   "The altitude of the south-west horizon, so the exact azimuth range: 230.0 to 231.0 degrees assumes a 0 to 0.6 degree horizon, my assumption.",
+   "Today the sunset is about 1 degree larger in azimuth (231.0 degrees flat horizon) than in 2500 BCE. Computed as in the sunrise episode; my calculation, not a source."
+  ],
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "sources": [
+   "sto-darvill-2012-remodelled",
+   "sto-skyatnight-astronomy",
+   "sto-wiki-archaeoastronomy",
+   "sto-osm-overpass",
+   "sto-wp-durrington"
+  ]
+ },
+ {
+  "id": "stonehenge-raising-sarsens",
+  "name": "Raising the sarsens",
+  "year": -2500,
+  "fraction": 0.5,
+  "dateNote": "c. 2560 to 2470 BCE in the model; the sarsen circle is dated 2580 to 2475 BCE and the trilithons 2585 to 2400 BCE (93%) by the English Heritage Bayesian model. The day is arbitrary.",
+  "lat": 51.178868,
+  "lon": -1.826196,
+  "inMap": true,
+  "view": {
+   "position": [
+    42,
+    53.28,
+    42
+   ],
+   "target": [
+    0,
+    42.92,
+    0
+   ]
+  },
+  "summary": "The great sarsen stones go up. The sarsen circle (30 uprights carrying a ring of 30 lintels) and the five trilithons are built over perhaps a century; the model shows the circle part-way through. The stones were dragged from the Marlborough Downs, about 25 km north, and shaped on site; the lintels were fitted with mortise-and-tenon and tongue-and-groove joints borrowed from carpentry. How they were moved and raised is not known: the stones rising smoothly from the ground is the site's way of showing 'under construction', not a method.",
+  "attested": [
+   "A sarsen circle of 30 uprights and 30 lintels, outer diameter about 29.6 m, was designed (Darvill et al. 2012); the uprights are about 4.1 m high, the lintel tops about 4.9 m above ground.",
+   "Five trilithons form a horseshoe about 13.7 m across, open to the north-east; the tallest stone (56) stands about 6.7 m above ground with about 2.4 m buried.",
+   "Radiocarbon dating of an antler in the socket of stones 53 and 54 gives 2585 to 2400 BCE (93%).",
+   "The sarsens come from the Marlborough Downs about 25 km north (English Heritage; Nash et al. 2020, from a search summary only)."
+  ],
+  "tradition": [
+   "Geoffrey of Monmouth's tale that Merlin brought the stones from Ireland (1136) is legend."
+  ],
+  "unknown": [
+   "How the stones were transported and raised, how many people it took and how long it took.",
+   "Whether the sarsen circle was ever completed: stones 13, 17, 18, 20 and 24 and 24 lintels are missing today. Ashbee argued it was never finished; Darvill thinks it was robbed; parchmarks from 2013 hint at a complete circle. Unresolved.",
+   "The order of the trilithons, circle and bluestone settings within Stage 2."
+  ],
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "sources": [
+   "sto-darvill-2012-remodelled",
+   "sto-marshall-2012-eh-chronology",
+   "sto-eh-stones",
+   "sto-eh-research",
+   "sto-wiki-stonehenge",
+   "sto-banton-2014-abstract"
+  ]
+ },
+ {
+  "id": "durrington-midwinter-feast-2500bce",
+  "name": "Midwinter feasting at Durrington Walls, c. 2500 BCE",
+  "year": -2500,
+  "fraction": 0.98,
+  "dateNote": "Late December in a representative year of the village's decade or so of use (c. 2515 to 2480 BCE in the model). The village is dated 2600 to 2500 BCE (2007 release) and, by later modelling, to roughly 10 to 12 years ending 2500 to 2460 BCE.",
+  "lat": 51.191369,
+  "lon": -1.784763,
+  "inMap": true,
+  "view": {
+   "position": [
+    3120,
+    78.46,
+    -1080
+   ],
+   "target": [
+    2880,
+    23.52,
+    -1400
+   ]
+  },
+  "summary": "A village of small square houses with clay floors stands inside the great timber ring at Durrington Walls, about 2.8 km east of Stonehenge on the Avon. Pig teeth from the site point to animals slaughtered in the winter, and the Southern Circle there is oriented to the midwinter sunrise; the usual reading is that people came here for midwinter feasts and, after the village was abandoned, the timber ring was replaced by a henge bank. How many houses there were and how many people came is not known, and none are drawn.",
+  "attested": [
+   "Eight houses about 5 m (16 ft) square, with clay floors, central hearths and box-bed and dresser outlines, were excavated in 2006.",
+   "Occupation was brief, about 10 to 12 years, with chalk floors renewed at most nine times (Bayesian modelling).",
+   "Pig-tooth evidence points to midwinter slaughter (cited by Parker Pearson in the Sky at Night account); the Southern Circle is oriented to midwinter sunrise (Wikipedia).",
+   "Up to about 300 timber posts in a ring 440 to 450 m across stood under the later bank; they were pulled about 2480 BCE."
+  ],
+  "tradition": [
+   "That Durrington's occupants were connected with building or using Stonehenge: widely suggested, not proven by the sources read.",
+   "That feasting here was tied to a midwinter gathering at Stonehenge, 'up to 4,000 people' being an upper-end speculation."
+  ],
+  "unknown": [
+   "The number of houses and people (a few dozen houses are drawn, conjecturally), and exactly where in the henge they stood.",
+   "What the timber ring and the circles were for; whether the Avenue to the river was walked at this season.",
+   "The height of the posts (5 m per the 2016 excavations, 7 m per Wikipedia: conflict)."
+  ],
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "sources": [
+   "sto-bristol-2007",
+   "sto-archco-durrington",
+   "sto-wp-durrington",
+   "sto-skyatnight-astronomy",
+   "sto-wiki-archaeoastronomy"
+  ]
+ },
+ {
+  "id": "bush-barrow-burial",
+  "name": "Bush Barrow burial, c. 1900 BCE",
+  "year": -1900,
+  "fraction": 0.5,
+  "dateNote": "Wikipedia gives c. 1950 BCE for the burial and the Wilsford G7 group 2000 to 1800 BCE; 1900 BCE is a display year inside the uncertainty.",
+  "lat": 51.170513,
+  "lon": -1.834741,
+  "inMap": true,
+  "view": {
+   "position": [
+    -520,
+    66.78,
+    840
+   ],
+   "target": [
+    -596,
+    46.5,
+    929
+   ]
+  },
+  "summary": "Bush Barrow, on the Normanton Down ridge about 1.1 km south-south-west of Stonehenge, is a large round barrow about 49 m across and 3.3 m high, holds a rich Early Bronze Age burial with gold, dated about 1950 BCE. The gold lozenge plate measures about 184 by 156 mm. Round barrows of this period fill the ridges around the stones; here the scene is the barrow standing new on the skyline. Who was buried there is not known from the research notes.",
+  "attested": [
+   "Bush Barrow lies on Normanton Down, 3.3 m high and 49 m overall (or 40 m wide by another count).",
+   "It held an Early Bronze Age burial with a gold lozenge about 184 x 156 x 1 mm, dated about 1950 BCE.",
+   "Normanton Down has about 40 round barrows (bowl, bell, disc and a saucer), of which at least 35 were surviving in 1957, with burials between about 2600 and 1600 BCE."
+  ],
+  "tradition": [
+   "That the burial was a chieftain's or king's: 'chieftain' is a modern label.",
+   "That the barrows were meant to be seen from the stones, or the reverse."
+  ],
+  "unknown": [
+   "The buried person's name, status or relation to Stonehenge, and the exact date of the burial.",
+   "The barrow's original form: its present shape is modern survey, and the model's 'new' mound is generic.",
+   "The other grave goods are not itemised in the research notes for this project."
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "sources": [
+   "sto-wp-bushbarrow",
+   "sto-wikipedia-bush-barrow",
+   "sto-wp-normanton",
+   "sto-wikipedia-normanton-down",
+   "sto-osm-overpass"
+  ]
+ },
+ {
+  "id": "amesbury-abbey-979",
+  "name": "Amesbury Abbey founded, 979",
+  "year": 979,
+  "fraction": 0.5,
+  "dateNote": "c. 979. The foundation date is approximate; the day is arbitrary.",
+  "lat": 51.171889,
+  "lon": -1.784892,
+  "inMap": true,
+  "view": {
+   "position": [
+    2650,
+    54.76,
+    1000
+   ],
+   "target": [
+    2926,
+    7.57,
+    776
+   ]
+  },
+  "summary": "A Benedictine abbey is founded at Amesbury, in the Avon valley east of Stonehenge, by Queen Aelfthryth. It later becomes a Fontevraud priory (1177) and is dissolved about 1540. What it looked like in 979 and where exactly it stood within Amesbury are not known from the sources read; the precinct on the map is a conjectural rectangle by the church, and the buildings are placeholders.",
+  "attested": [
+   "A Benedictine abbey was founded at Amesbury c. 979 by Queen Aelfthryth (Wikipedia).",
+   "It was refounded as a Fontevraud priory in 1177 and dissolved c. 1540; the estate went to the Seymours.",
+   "The parish church of St Mary and St Melor may be the surviving priory church (Wikipedia; unproven)."
+  ],
+  "tradition": [],
+  "unknown": [
+   "The site, size and form of the 10th-century buildings, and the precinct's boundary.",
+   "Whether the Dissolution date is 1539 or 1540: sources conflict."
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "sources": [
+   "sto-wp-amesburyabbey",
+   "sto-wp-amesbury",
+   "sto-wikipedia-amesbury-abbey",
+   "sto-osm-overpass"
+  ]
+ },
+ {
+  "id": "inigo-jones-survey-1620",
+  "name": "Inigo Jones surveys Stonehenge for James I, 1620",
+  "year": 1620,
+  "fraction": 0.6,
+  "dateNote": "1620; the fraction 0.6 is an arbitrary display value, no month is known from the sources read. The survey and the Duke of Buckingham's digging are both given as 1620, though English Heritage also says 'the 1620s'.",
+  "lat": 51.178868,
+  "lon": -1.826196,
+  "inMap": true,
+  "view": {
+   "position": [
+    -46,
+    46.86,
+    46
+   ],
+   "target": [
+    0,
+    42.92,
+    0
+   ]
+  },
+  "summary": "King James I, visiting Wilton House in 1620, asks the architect Inigo Jones to survey the stones. Jones's plan (published by his pupil John Webb in 1655) shows an idealised, regular monument which he reads as a Roman temple. The same year the Duke of Buckingham has the centre dug, the first known excavation there. The view shows the stones as they are thought to have stood, with the great trilithon down and the south-west trilithon still standing; which stones stood or lay in 1625 is largely inferred. Jones's plan is a restoration, not a record.",
+  "attested": [
+   "Jones surveyed Stonehenge for James I in the 1620s (English Heritage); Webb's 1655 publication reports the king's commission after his visit to Wilton in 1620.",
+   "The Duke of Buckingham's digging in the centre is the first known excavation there (English Heritage).",
+   "Stone 55 and the Great Trilithon had fallen before the first 17th-century plans (Darvill); the south-west trilithon (57 and 58 with lintel 158) stood until 1797."
+  ],
+  "tradition": [
+   "Jones's claim that Stonehenge was a Roman temple: now rejected."
+  ],
+  "unknown": [
+   "Which other stones were fallen, leaning or broken in 1625: no dated record; the model uses inference from later plans.",
+   "How accurately Jones measured: his plan is an ideal geometry and cannot be used as a measured survey."
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "sources": [
+   "sto-eh-sources",
+   "sto-eh-research",
+   "sto-webb-1655-stone-heng",
+   "sto-darvill-2012-remodelled",
+   "sto-wiki-stonehenge"
+  ]
+ },
+ {
+  "id": "robin-hoods-ball-3550bce",
+  "name": "Robin Hood's Ball causewayed enclosure, c. 3550 BCE",
+  "year": -3550,
+  "fraction": 0.5,
+  "dateNote": "'Centuries around 3500 BC' (English Heritage); Wikipedia: probably built c. 4000 BC, possibly used to c. 3000 BC. Low confidence.",
+  "lat": 51.2128,
+  "lon": -1.855,
+  "inMap": false,
+  "offMap": "Robin Hood's Ball lies about 3.8 km north and 2 km west of the stones, 1 km beyond the north edge of this map, so it cannot be shown here. It is an earlier Neolithic causewayed enclosure with two ditch circuits and low banks, never comprehensively excavated.",
+  "summary": "One of the first lasting monuments of the Stonehenge landscape, a causewayed enclosure on high ground north of the later Cursus, built when the ditches were fresh white chalk. Its size, internal features and end date are not known.",
+  "attested": [
+   "A causewayed enclosure with two ditch circuits and low banks, with one causeway noted by Wikipedia.",
+   "Dated to the centuries around 3500 BCE by English Heritage."
+  ],
+  "tradition": [],
+  "unknown": [
+   "Its diameter, internal features and the date it went out of use."
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "low",
+  "sources": [
+   "sto-wp-robinhood",
+   "sto-eh-history",
+   "sto-wikipedia-robin-hoods-ball"
+  ]
+ }
+]

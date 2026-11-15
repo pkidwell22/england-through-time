@@ -1,0 +1,102 @@
+{
+ "sto-osm-overpass": {
+  "title": "OpenStreetMap data (historic, archaeological_site, natural=stone, waterway, place, amenity=place_of_worship) via Overpass API",
+  "publisher": "OpenStreetMap contributors (ODbL), Overpass API",
+  "url": "https://overpass-api.de/api/interpreter"
+ },
+ "sto-eudem-elevation": {
+  "title": "EU-DEM v1.1, 25 m elevation, via OpenTopoData eudem25m endpoint",
+  "publisher": "Copernicus / EEA; served by OpenTopoData",
+  "url": "https://api.opentopodata.org/v1/eudem25m"
+ },
+ "sto-open-meteo-elevation": {
+  "title": "Open-Meteo Elevation API (Copernicus GLO-90 DEM, 90 m)",
+  "publisher": "Open-Meteo",
+  "url": "https://api.open-meteo.com/v1/elevation"
+ },
+ "sto-ea-survey-2010": {
+  "title": "Stonehenge, Amesbury, Wiltshire: Archaeological Survey Report (Stonehenge World Heritage Site Landscape Project), Research Department Report Series 109-2010 (NGR SU 12244219; GNSS survey to OS National Grid)",
+  "publisher": "English Heritage, via Archaeology Data Service",
+  "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-1893-1/dissemination/pdf/englishh2-98976.pdf"
+ },
+ "sto-gazetteer-stonehenge": {
+  "title": "Stonehenge, Wiltshire (grid reference SU 1224 4219; 51.178887, -1.8262196)",
+  "publisher": "Gazetteer of Great Britain",
+  "url": "https://gazetteer.org.uk/place/Stonehenge,_Wiltshire_304714"
+ },
+ "sto-gazetteer-durrington": {
+  "title": "Durrington Walls, Wiltshire (SU 1500 4376; 535 x 510 yd; Scheduled Monument 1009133)",
+  "publisher": "Gazetteer of Great Britain",
+  "url": "https://gazetteer.org.uk/place/Durrington_Walls,_Wiltshire_301622"
+ },
+ "sto-he-1010140": {
+  "title": "Stonehenge, the Avenue, and three barrows adjacent to the Avenue (list entry 1010140): NGRs of the three scheduled areas",
+  "publisher": "Historic England (corporate site mirror)",
+  "url": "https://he-corp-prod-uksouth-corpweb.azurewebsites.net/listing/the-list/list-entry/1010140"
+ },
+ "sto-wikipedia-stonehenge": {
+  "title": "Stonehenge (coordinates 51.17889, -1.82611)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stonehenge"
+ },
+ "sto-wikipedia-heel-stone": {
+  "title": "Heel Stone (51.179305, -1.825302; 77.4 m from the centre)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Heel_Stone"
+ },
+ "sto-wikipedia-avenue": {
+  "title": "Stonehenge Avenue",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stonehenge_Avenue"
+ },
+ "sto-wikipedia-cursus": {
+  "title": "Stonehenge Cursus (length 2.76 km, ~100 m wide; Amesbury 42; Lesser Cursus ~400 x 60 m)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stonehenge_Cursus"
+ },
+ "sto-wikipedia-durrington": {
+  "title": "Durrington Walls (51.1925, -1.7875; ~500 m henge; Southern Circle)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Durrington_Walls"
+ },
+ "sto-wikipedia-woodhenge": {
+  "title": "Woodhenge (51.1894, -1.78576; 110 m overall)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Woodhenge"
+ },
+ "sto-wikipedia-vespasians-camp": {
+  "title": "Vespasian's Camp (14 ha; 730 m N-S; rampart and ditch dimensions)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Vespasian%27s_Camp"
+ },
+ "sto-wikipedia-robin-hoods-ball": {
+  "title": "Robin Hood's Ball (51.2128, -1.8550)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Robin_Hood%27s_Ball"
+ },
+ "sto-wikipedia-bluestonehenge": {
+  "title": "Bluestonehenge (51.1714, -1.7980)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bluestonehenge"
+ },
+ "sto-wikipedia-amesbury-abbey": {
+  "title": "Amesbury Abbey (51.1719, -1.7843; priory destroyed at the Dissolution)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Amesbury_Abbey"
+ },
+ "sto-wikipedia-cuckoo-stone": {
+  "title": "Cuckoo Stone (51.18923, -1.79168; SU14654335)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Cuckoo_Stone"
+ },
+ "sto-wikipedia-bush-barrow": {
+  "title": "Bush Barrow (51.17051, -1.83482; SU11644126; 49 m, 3.3 m high)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bush_Barrow"
+ },
+ "sto-wikipedia-normanton-down": {
+  "title": "Normanton Down Barrows (barrow types in the cemetery)",
+  "publisher": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Normanton_Down_Barrows"
+ }
+}

@@ -1,0 +1,1827 @@
+{
+ "when": "2026-11-14T09:36:21.714Z",
+ "base": "http://127.0.0.1:4310",
+ "hard": [
+  "a.wet",
+  "c.street",
+  "c.landmark",
+  "c.road",
+  "c.precinct",
+  "e.craftOnLand",
+  "e.craftInStructure",
+  "e.craftOutOfDate",
+  "e.movingOnLand",
+  "e.movingInPier",
+  "h.beforeDate",
+  "h.phaseOverlap",
+  "h.zoneLeftover"
+ ],
+ "sites": {
+  "stonehenge": {
+   "site": "stonehenge",
+   "houses": 209,
+   "entries": 123,
+   "trees": 39269,
+   "tiles": 0,
+   "years": 274,
+   "checked": 218,
+   "skipped": 56,
+   "ms": 4136,
+   "categories": {
+    "i.labelUnderground": {
+     "distinct": 3,
+     "objectYears": 3,
+     "worst": [
+      {
+       "key": "greater-cursus#0",
+       "first": -3547.5,
+       "last": -3547.5,
+       "years": 1,
+       "x": 81.3,
+       "z": -853.8,
+       "info": "label 1.6 m under the surface",
+       "sev": 1,
+       "worstT": -3547.5
+      },
+      {
+       "key": "durrington-timber-ring#0",
+       "first": -2527.5,
+       "last": -2527.5,
+       "years": 1,
+       "x": 2758.7,
+       "z": -1537.8,
+       "info": "label 0.3 m under the surface",
+       "sev": 1,
+       "worstT": -2527.5
+      },
+      {
+       "key": "durrington-walls-henge#0",
+       "first": -2478.5,
+       "last": -2478.5,
+       "years": 1,
+       "x": 2757.7,
+       "z": -1537.8,
+       "info": "label 5.7 m under the surface",
+       "sev": 1,
+       "worstT": -2478.5
+      }
+     ]
+    }
+   },
+   "perYear": [
+    {
+     "t": -3998.5,
+     "year": -4000,
+     "live": 0,
+     "landmarks": 1,
+     "trees": 39031,
+     "counts": {}
+    },
+    {
+     "t": -3898.5,
+     "year": -3900,
+     "live": 0,
+     "landmarks": 1,
+     "trees": 29179,
+     "counts": {}
+    },
+    {
+     "t": -3869.5,
+     "year": -3871,
+     "live": 0,
+     "landmarks": 1,
+     "trees": 26709,
+     "counts": {}
+    },
+    {
+     "t": -3868.5,
+     "year": -3870,
+     "live": 0,
+     "landmarks": 1,
+     "trees": 26619,
+     "counts": {}
+    },
+    {
+     "t": -3867.5,
+     "year": -3869,
+     "live": 0,
+     "landmarks": 1,
+     "trees": 26511,
+     "counts": {}
+    },
+    {
+     "t": -3798.5,
+     "year": -3800,
+     "live": 0,
+     "landmarks": 1,
+     "trees": 20730,
+     "counts": {}
+    },
+    {
+     "t": -3699.5,
+     "year": -3701,
+     "live": 0,
+     "landmarks": 1,
+     "trees": 13908,
+     "counts": {}
+    },
+    {
+     "t": -3698.5,
+     "year": -3700,
+     "live": 0,
+     "landmarks": 6,
+     "trees": 13854,
+     "counts": {}
+    },
+    {
+     "t": -3697.5,
+     "year": -3699,
+     "live": 0,
+     "landmarks": 6,
+     "trees": 13794,
+     "counts": {}
+    },
+    {
+     "t": -3599.5,
+     "year": -3601,
+     "live": 0,
+     "landmarks": 6,
+     "trees": 8809,
+     "counts": {}
+    },
+    {
+     "t": -3598.5,
+     "year": -3600,
+     "live": 0,
+     "landmarks": 7,
+     "trees": 8764,
+     "counts": {}
+    },
+    {
+     "t": -3597.5,
+     "year": -3599,
+     "live": 0,
+     "landmarks": 7,
+     "trees": 8735,
+     "counts": {}
+    },
+    {
+     "t": -3549.5,
+     "year": -3551,
+     "live": 0,
+     "landmarks": 7,
+     "trees": 6770,
+     "counts": {}
+    },
+    {
+     "t": -3547.5,
+     "year": -3549,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 6698,
+     "counts": {
+      "i.labelUnderground": 1
+     }
+    },
+    {
+     "t": -3499.5,
+     "year": -3501,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 5197,
+     "counts": {}
+    },
+    {
+     "t": -3498.5,
+     "year": -3500,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 5167,
+     "counts": {}
+    },
+    {
+     "t": -3497.5,
+     "year": -3499,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 5134,
+     "counts": {}
+    },
+    {
+     "t": -3398.5,
+     "year": -3400,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 4203,
+     "counts": {}
+    },
+    {
+     "t": -3299.5,
+     "year": -3301,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 3517,
+     "counts": {}
+    },
+    {
+     "t": -3298.5,
+     "year": -3300,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 3511,
+     "counts": {}
+    },
+    {
+     "t": -3297.5,
+     "year": -3299,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 3502,
+     "counts": {}
+    },
+    {
+     "t": -3199.5,
+     "year": -3201,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 2729,
+     "counts": {}
+    },
+    {
+     "t": -3198.5,
+     "year": -3200,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 2720,
+     "counts": {}
+    },
+    {
+     "t": -3197.5,
+     "year": -3199,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 2717,
+     "counts": {}
+    },
+    {
+     "t": -3099.5,
+     "year": -3101,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 2134,
+     "counts": {}
+    },
+    {
+     "t": -3098.5,
+     "year": -3100,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 2129,
+     "counts": {}
+    },
+    {
+     "t": -3097.5,
+     "year": -3099,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 2126,
+     "counts": {}
+    },
+    {
+     "t": -3000.5,
+     "year": -3002,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 1672,
+     "counts": {}
+    },
+    {
+     "t": -2999.5,
+     "year": -3001,
+     "live": 0,
+     "landmarks": 9,
+     "trees": 1669,
+     "counts": {}
+    },
+    {
+     "t": -2998.5,
+     "year": -3000,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1666,
+     "counts": {}
+    },
+    {
+     "t": -2997.5,
+     "year": -2999,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1660,
+     "counts": {}
+    },
+    {
+     "t": -2994.5,
+     "year": -2996,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1645,
+     "counts": {}
+    },
+    {
+     "t": -2992.5,
+     "year": -2994,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1636,
+     "counts": {}
+    },
+    {
+     "t": -2989.5,
+     "year": -2991,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1627,
+     "counts": {}
+    },
+    {
+     "t": -2987.5,
+     "year": -2989,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1624,
+     "counts": {}
+    },
+    {
+     "t": -2949.5,
+     "year": -2951,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1534,
+     "counts": {}
+    },
+    {
+     "t": -2947.5,
+     "year": -2949,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1525,
+     "counts": {}
+    },
+    {
+     "t": -2899.5,
+     "year": -2901,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1412,
+     "counts": {}
+    },
+    {
+     "t": -2898.5,
+     "year": -2900,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1409,
+     "counts": {}
+    },
+    {
+     "t": -2848.5,
+     "year": -2850,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1290,
+     "counts": {}
+    },
+    {
+     "t": -2799.5,
+     "year": -2801,
+     "live": 0,
+     "landmarks": 13,
+     "trees": 1214,
+     "counts": {}
+    },
+    {
+     "t": -2798.5,
+     "year": -2800,
+     "live": 0,
+     "landmarks": 14,
+     "trees": 1214,
+     "counts": {}
+    },
+    {
+     "t": -2797.5,
+     "year": -2799,
+     "live": 0,
+     "landmarks": 14,
+     "trees": 1214,
+     "counts": {}
+    },
+    {
+     "t": -2789.5,
+     "year": -2791,
+     "live": 0,
+     "landmarks": 14,
+     "trees": 1202,
+     "counts": {}
+    },
+    {
+     "t": -2787.5,
+     "year": -2789,
+     "live": 0,
+     "landmarks": 14,
+     "trees": 1202,
+     "counts": {}
+    },
+    {
+     "t": -2699.5,
+     "year": -2701,
+     "live": 0,
+     "landmarks": 14,
+     "trees": 1051,
+     "counts": {}
+    },
+    {
+     "t": -2698.5,
+     "year": -2700,
+     "live": 0,
+     "landmarks": 15,
+     "trees": 1048,
+     "counts": {}
+    },
+    {
+     "t": -2697.5,
+     "year": -2699,
+     "live": 0,
+     "landmarks": 15,
+     "trees": 1045,
+     "counts": {}
+    },
+    {
+     "t": -2689.5,
+     "year": -2691,
+     "live": 0,
+     "landmarks": 15,
+     "trees": 1018,
+     "counts": {}
+    },
+    {
+     "t": -2687.5,
+     "year": -2689,
+     "live": 0,
+     "landmarks": 15,
+     "trees": 1018,
+     "counts": {}
+    },
+    {
+     "t": -2634.5,
+     "year": -2636,
+     "live": 0,
+     "landmarks": 15,
+     "trees": 904,
+     "counts": {}
+    },
+    {
+     "t": -2632.5,
+     "year": -2634,
+     "live": 0,
+     "landmarks": 16,
+     "trees": 901,
+     "counts": {}
+    },
+    {
+     "t": -2619.5,
+     "year": -2621,
+     "live": 0,
+     "landmarks": 16,
+     "trees": 871,
+     "counts": {}
+    },
+    {
+     "t": -2618.5,
+     "year": -2620,
+     "live": 0,
+     "landmarks": 16,
+     "trees": 871,
+     "counts": {}
+    },
+    {
+     "t": -2609.5,
+     "year": -2611,
+     "live": 0,
+     "landmarks": 16,
+     "trees": 859,
+     "counts": {}
+    },
+    {
+     "t": -2607.5,
+     "year": -2609,
+     "live": 0,
+     "landmarks": 16,
+     "trees": 853,
+     "counts": {}
+    },
+    {
+     "t": -2599.5,
+     "year": -2601,
+     "live": 0,
+     "landmarks": 16,
+     "trees": 850,
+     "counts": {}
+    },
+    {
+     "t": -2597.5,
+     "year": -2599,
+     "live": 0,
+     "landmarks": 16,
+     "trees": 847,
+     "counts": {}
+    },
+    {
+     "t": -2579.5,
+     "year": -2581,
+     "live": 0,
+     "landmarks": 16,
+     "trees": 820,
+     "counts": {}
+    },
+    {
+     "t": -2577.5,
+     "year": -2579,
+     "live": 0,
+     "landmarks": 17,
+     "trees": 820,
+     "counts": {}
+    },
+    {
+     "t": -2559.5,
+     "year": -2561,
+     "live": 0,
+     "landmarks": 17,
+     "trees": 814,
+     "counts": {}
+    },
+    {
+     "t": -2558.5,
+     "year": -2560,
+     "live": 0,
+     "landmarks": 18,
+     "trees": 814,
+     "counts": {}
+    },
+    {
+     "t": -2557.5,
+     "year": -2559,
+     "live": 0,
+     "landmarks": 18,
+     "trees": 812,
+     "counts": {}
+    },
+    {
+     "t": -2554.5,
+     "year": -2556,
+     "live": 0,
+     "landmarks": 18,
+     "trees": 800,
+     "counts": {}
+    },
+    {
+     "t": -2552.5,
+     "year": -2554,
+     "live": 0,
+     "landmarks": 20,
+     "trees": 800,
+     "counts": {}
+    },
+    {
+     "t": -2549.5,
+     "year": -2551,
+     "live": 0,
+     "landmarks": 20,
+     "trees": 788,
+     "counts": {}
+    },
+    {
+     "t": -2547.5,
+     "year": -2549,
+     "live": 0,
+     "landmarks": 20,
+     "trees": 788,
+     "counts": {}
+    },
+    {
+     "t": -2542.5,
+     "year": -2544,
+     "live": 0,
+     "landmarks": 21,
+     "trees": 785,
+     "counts": {}
+    },
+    {
+     "t": -2539.5,
+     "year": -2541,
+     "live": 0,
+     "landmarks": 21,
+     "trees": 782,
+     "counts": {}
+    },
+    {
+     "t": -2537.5,
+     "year": -2539,
+     "live": 0,
+     "landmarks": 21,
+     "trees": 770,
+     "counts": {}
+    },
+    {
+     "t": -2529.5,
+     "year": -2531,
+     "live": 0,
+     "landmarks": 21,
+     "trees": 758,
+     "counts": {}
+    },
+    {
+     "t": -2527.5,
+     "year": -2529,
+     "live": 0,
+     "landmarks": 22,
+     "trees": 755,
+     "counts": {
+      "i.labelUnderground": 1
+     }
+    },
+    {
+     "t": -2519.5,
+     "year": -2521,
+     "live": 0,
+     "landmarks": 22,
+     "trees": 743,
+     "counts": {}
+    },
+    {
+     "t": -2517.5,
+     "year": -2519,
+     "live": 0,
+     "landmarks": 23,
+     "trees": 743,
+     "counts": {}
+    },
+    {
+     "t": -2513.5,
+     "year": -2515,
+     "live": 0,
+     "landmarks": 23,
+     "trees": 740,
+     "counts": {}
+    },
+    {
+     "t": -2505.5,
+     "year": -2507,
+     "live": 0,
+     "landmarks": 23,
+     "trees": 740,
+     "counts": {}
+    },
+    {
+     "t": -2503.5,
+     "year": -2505,
+     "live": 2,
+     "landmarks": 23,
+     "trees": 736,
+     "counts": {}
+    },
+    {
+     "t": -2499.5,
+     "year": -2501,
+     "live": 49,
+     "landmarks": 23,
+     "trees": 733,
+     "counts": {}
+    },
+    {
+     "t": -2498.5,
+     "year": -2500,
+     "live": 53,
+     "landmarks": 26,
+     "trees": 726,
+     "counts": {}
+    },
+    {
+     "t": -2497.5,
+     "year": -2499,
+     "live": 53,
+     "landmarks": 24,
+     "trees": 721,
+     "counts": {}
+    },
+    {
+     "t": -2493.5,
+     "year": -2495,
+     "live": 53,
+     "landmarks": 24,
+     "trees": 715,
+     "counts": {}
+    },
+    {
+     "t": -2491.5,
+     "year": -2493,
+     "live": 53,
+     "landmarks": 24,
+     "trees": 710,
+     "counts": {}
+    },
+    {
+     "t": -2480.5,
+     "year": -2482,
+     "live": 53,
+     "landmarks": 24,
+     "trees": 693,
+     "counts": {}
+    },
+    {
+     "t": -2479.5,
+     "year": -2481,
+     "live": 53,
+     "landmarks": 24,
+     "trees": 693,
+     "counts": {}
+    },
+    {
+     "t": -2478.5,
+     "year": -2480,
+     "live": 53,
+     "landmarks": 25,
+     "trees": 693,
+     "counts": {
+      "i.labelUnderground": 1
+     }
+    },
+    {
+     "t": -2474.5,
+     "year": -2476,
+     "live": 42,
+     "landmarks": 25,
+     "trees": 684,
+     "counts": {}
+    },
+    {
+     "t": -2472.5,
+     "year": -2474,
+     "live": 5,
+     "landmarks": 26,
+     "trees": 681,
+     "counts": {}
+    },
+    {
+     "t": -2469.5,
+     "year": -2471,
+     "live": 0,
+     "landmarks": 26,
+     "trees": 681,
+     "counts": {}
+    },
+    {
+     "t": -2467.5,
+     "year": -2469,
+     "live": 0,
+     "landmarks": 26,
+     "trees": 678,
+     "counts": {}
+    },
+    {
+     "t": -2459.5,
+     "year": -2461,
+     "live": 0,
+     "landmarks": 26,
+     "trees": 675,
+     "counts": {}
+    },
+    {
+     "t": -2457.5,
+     "year": -2459,
+     "live": 0,
+     "landmarks": 26,
+     "trees": 672,
+     "counts": {}
+    },
+    {
+     "t": -2429.5,
+     "year": -2431,
+     "live": 0,
+     "landmarks": 26,
+     "trees": 636,
+     "counts": {}
+    },
+    {
+     "t": -2427.5,
+     "year": -2429,
+     "live": 0,
+     "landmarks": 26,
+     "trees": 630,
+     "counts": {}
+    },
+    {
+     "t": -2419.5,
+     "year": -2421,
+     "live": 0,
+     "landmarks": 26,
+     "trees": 618,
+     "counts": {}
+    },
+    {
+     "t": -2417.5,
+     "year": -2419,
+     "live": 0,
+     "landmarks": 27,
+     "trees": 618,
+     "counts": {}
+    },
+    {
+     "t": -2399.5,
+     "year": -2401,
+     "live": 0,
+     "landmarks": 27,
+     "trees": 599,
+     "counts": {}
+    },
+    {
+     "t": -2398.5,
+     "year": -2400,
+     "live": 0,
+     "landmarks": 28,
+     "trees": 599,
+     "counts": {}
+    },
+    {
+     "t": -2397.5,
+     "year": -2399,
+     "live": 0,
+     "landmarks": 28,
+     "trees": 599,
+     "counts": {}
+    },
+    {
+     "t": -2389.5,
+     "year": -2391,
+     "live": 0,
+     "landmarks": 28,
+     "trees": 596,
+     "counts": {}
+    },
+    {
+     "t": -2387.5,
+     "year": -2389,
+     "live": 0,
+     "landmarks": 28,
+     "trees": 596,
+     "counts": {}
+    },
+    {
+     "t": -2379.5,
+     "year": -2381,
+     "live": 0,
+     "landmarks": 28,
+     "trees": 590,
+     "counts": {}
+    },
+    {
+     "t": -2377.5,
+     "year": -2379,
+     "live": 0,
+     "landmarks": 28,
+     "trees": 587,
+     "counts": {}
+    },
+    {
+     "t": -2349.5,
+     "year": -2351,
+     "live": 0,
+     "landmarks": 28,
+     "trees": 560,
+     "counts": {}
+    },
+    {
+     "t": -2347.5,
+     "year": -2349,
+     "live": 0,
+     "landmarks": 27,
+     "trees": 560,
+     "counts": {}
+    },
+    {
+     "t": -2339.5,
+     "year": -2341,
+     "live": 0,
+     "landmarks": 27,
+     "trees": 557,
+     "counts": {}
+    },
+    {
+     "t": -2329.5,
+     "year": -2331,
+     "live": 0,
+     "landmarks": 27,
+     "trees": 554,
+     "counts": {}
+    },
+    {
+     "t": -2327.5,
+     "year": -2329,
+     "live": 0,
+     "landmarks": 27,
+     "trees": 554,
+     "counts": {}
+    },
+    {
+     "t": -2314.5,
+     "year": -2316,
+     "live": 0,
+     "landmarks": 27,
+     "trees": 542,
+     "counts": {}
+    },
+    {
+     "t": -2299.5,
+     "year": -2301,
+     "live": 0,
+     "landmarks": 27,
+     "trees": 533,
+     "counts": {}
+    },
+    {
+     "t": -2298.5,
+     "year": -2300,
+     "live": 0,
+     "landmarks": 25,
+     "trees": 533,
+     "counts": {}
+    },
+    {
+     "t": -2297.5,
+     "year": -2299,
+     "live": 0,
+     "landmarks": 25,
+     "trees": 533,
+     "counts": {}
+    },
+    {
+     "t": -2279.5,
+     "year": -2281,
+     "live": 0,
+     "landmarks": 25,
+     "trees": 521,
+     "counts": {}
+    },
+    {
+     "t": -2277.5,
+     "year": -2279,
+     "live": 0,
+     "landmarks": 23,
+     "trees": 518,
+     "counts": {}
+    },
+    {
+     "t": -2249.5,
+     "year": -2251,
+     "live": 0,
+     "landmarks": 23,
+     "trees": 499,
+     "counts": {}
+    },
+    {
+     "t": -2247.5,
+     "year": -2249,
+     "live": 0,
+     "landmarks": 23,
+     "trees": 499,
+     "counts": {}
+    },
+    {
+     "t": -2219.5,
+     "year": -2221,
+     "live": 0,
+     "landmarks": 23,
+     "trees": 475,
+     "counts": {}
+    },
+    {
+     "t": -2217.5,
+     "year": -2219,
+     "live": 0,
+     "landmarks": 24,
+     "trees": 475,
+     "counts": {}
+    },
+    {
+     "t": -2199.5,
+     "year": -2201,
+     "live": 0,
+     "landmarks": 24,
+     "trees": 463,
+     "counts": {}
+    },
+    {
+     "t": -2198.5,
+     "year": -2200,
+     "live": 0,
+     "landmarks": 30,
+     "trees": 463,
+     "counts": {}
+    },
+    {
+     "t": -2164.5,
+     "year": -2166,
+     "live": 0,
+     "landmarks": 30,
+     "trees": 437,
+     "counts": {}
+    },
+    {
+     "t": -2162.5,
+     "year": -2164,
+     "live": 0,
+     "landmarks": 30,
+     "trees": 437,
+     "counts": {}
+    },
+    {
+     "t": -2149.5,
+     "year": -2151,
+     "live": 0,
+     "landmarks": 30,
+     "trees": 434,
+     "counts": {}
+    },
+    {
+     "t": -2147.5,
+     "year": -2149,
+     "live": 0,
+     "landmarks": 30,
+     "trees": 434,
+     "counts": {}
+    },
+    {
+     "t": -2119.5,
+     "year": -2121,
+     "live": 0,
+     "landmarks": 30,
+     "trees": 407,
+     "counts": {}
+    },
+    {
+     "t": -2117.5,
+     "year": -2119,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 407,
+     "counts": {}
+    },
+    {
+     "t": -2099.5,
+     "year": -2101,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 389,
+     "counts": {}
+    },
+    {
+     "t": -2098.5,
+     "year": -2100,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 389,
+     "counts": {}
+    },
+    {
+     "t": -2059.5,
+     "year": -2061,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 377,
+     "counts": {}
+    },
+    {
+     "t": -2057.5,
+     "year": -2059,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 377,
+     "counts": {}
+    },
+    {
+     "t": -2049.5,
+     "year": -2051,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 371,
+     "counts": {}
+    },
+    {
+     "t": -2047.5,
+     "year": -2049,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 371,
+     "counts": {}
+    },
+    {
+     "t": -2019.5,
+     "year": -2021,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 366,
+     "counts": {}
+    },
+    {
+     "t": -2017.5,
+     "year": -2019,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 363,
+     "counts": {}
+    },
+    {
+     "t": -1998.5,
+     "year": -2000,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 360,
+     "counts": {}
+    },
+    {
+     "t": -1959.5,
+     "year": -1961,
+     "live": 0,
+     "landmarks": 31,
+     "trees": 330,
+     "counts": {}
+    },
+    {
+     "t": -1957.5,
+     "year": -1959,
+     "live": 0,
+     "landmarks": 32,
+     "trees": 330,
+     "counts": {}
+    },
+    {
+     "t": -1949.5,
+     "year": -1951,
+     "live": 0,
+     "landmarks": 32,
+     "trees": 324,
+     "counts": {}
+    },
+    {
+     "t": -1948.5,
+     "year": -1950,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 324,
+     "counts": {}
+    },
+    {
+     "t": -1947.5,
+     "year": -1949,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 324,
+     "counts": {}
+    },
+    {
+     "t": -1899.5,
+     "year": -1901,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 318,
+     "counts": {}
+    },
+    {
+     "t": -1898.5,
+     "year": -1900,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 315,
+     "counts": {}
+    },
+    {
+     "t": -1799.5,
+     "year": -1801,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 279,
+     "counts": {}
+    },
+    {
+     "t": -1749.5,
+     "year": -1751,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 258,
+     "counts": {}
+    },
+    {
+     "t": -1747.5,
+     "year": -1749,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 258,
+     "counts": {}
+    },
+    {
+     "t": -1698.5,
+     "year": -1700,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 222,
+     "counts": {}
+    },
+    {
+     "t": -1598.5,
+     "year": -1600,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 189,
+     "counts": {}
+    },
+    {
+     "t": -1589.5,
+     "year": -1591,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 183,
+     "counts": {}
+    },
+    {
+     "t": -1588.5,
+     "year": -1590,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 183,
+     "counts": {}
+    },
+    {
+     "t": -1587.5,
+     "year": -1589,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 180,
+     "counts": {}
+    },
+    {
+     "t": -1549.5,
+     "year": -1551,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 159,
+     "counts": {}
+    },
+    {
+     "t": -1547.5,
+     "year": -1549,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 159,
+     "counts": {}
+    },
+    {
+     "t": -1499.5,
+     "year": -1501,
+     "live": 0,
+     "landmarks": 33,
+     "trees": 153,
+     "counts": {}
+    },
+    {
+     "t": -1498.5,
+     "year": -1500,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 153,
+     "counts": {}
+    },
+    {
+     "t": -1497.5,
+     "year": -1499,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 150,
+     "counts": {}
+    },
+    {
+     "t": -1398.5,
+     "year": -1400,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 120,
+     "counts": {}
+    },
+    {
+     "t": -1299.5,
+     "year": -1301,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 90,
+     "counts": {}
+    },
+    {
+     "t": -1297.5,
+     "year": -1299,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 90,
+     "counts": {}
+    },
+    {
+     "t": -1198.5,
+     "year": -1200,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 57,
+     "counts": {}
+    },
+    {
+     "t": -1098.5,
+     "year": -1100,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 36,
+     "counts": {}
+    },
+    {
+     "t": -998.5,
+     "year": -1000,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 27,
+     "counts": {}
+    },
+    {
+     "t": -898.5,
+     "year": -900,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 21,
+     "counts": {}
+    },
+    {
+     "t": -798.5,
+     "year": -800,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 18,
+     "counts": {}
+    },
+    {
+     "t": -699.5,
+     "year": -701,
+     "live": 0,
+     "landmarks": 38,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": -698.5,
+     "year": -700,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": -599.5,
+     "year": -601,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": -597.5,
+     "year": -599,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": -549.5,
+     "year": -551,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": -547.5,
+     "year": -549,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": -498.5,
+     "year": -500,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": -399.5,
+     "year": -401,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": -398.5,
+     "year": -400,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": -298.5,
+     "year": -300,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": -198.5,
+     "year": -200,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": -98.5,
+     "year": -100,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": 0.5,
+     "year": -1,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": 1.5,
+     "year": 1,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 3,
+     "counts": {}
+    },
+    {
+     "t": 99.5,
+     "year": 99,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 100.5,
+     "year": 100,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 109.5,
+     "year": 109,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 111.5,
+     "year": 111,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 200.5,
+     "year": 200,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 21,
+     "counts": {}
+    },
+    {
+     "t": 300.5,
+     "year": 300,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 27,
+     "counts": {}
+    },
+    {
+     "t": 374.5,
+     "year": 374,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 36,
+     "counts": {}
+    },
+    {
+     "t": 400.5,
+     "year": 400,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 36,
+     "counts": {}
+    },
+    {
+     "t": 411.5,
+     "year": 411,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 36,
+     "counts": {}
+    },
+    {
+     "t": 500.5,
+     "year": 500,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 51,
+     "counts": {}
+    },
+    {
+     "t": 600.5,
+     "year": 600,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 36,
+     "counts": {}
+    },
+    {
+     "t": 659.5,
+     "year": 659,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 36,
+     "counts": {}
+    },
+    {
+     "t": 700.5,
+     "year": 700,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 36,
+     "counts": {}
+    },
+    {
+     "t": 800.5,
+     "year": 800,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 21,
+     "counts": {}
+    },
+    {
+     "t": 900.5,
+     "year": 900,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 21,
+     "counts": {}
+    },
+    {
+     "t": 978.5,
+     "year": 978,
+     "live": 0,
+     "landmarks": 39,
+     "trees": 18,
+     "counts": {}
+    },
+    {
+     "t": 979.5,
+     "year": 979,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 18,
+     "counts": {}
+    },
+    {
+     "t": 989.5,
+     "year": 989,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 991.5,
+     "year": 991,
+     "live": 0,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1085.5,
+     "year": 1085,
+     "live": 64,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1087.5,
+     "year": 1087,
+     "live": 66,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1100.5,
+     "year": 1100,
+     "live": 73,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1129.5,
+     "year": 1129,
+     "live": 76,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1149.5,
+     "year": 1149,
+     "live": 76,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1177.5,
+     "year": 1177,
+     "live": 76,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1187.5,
+     "year": 1187,
+     "live": 76,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1199.5,
+     "year": 1199,
+     "live": 76,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1200.5,
+     "year": 1200,
+     "live": 76,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1201.5,
+     "year": 1201,
+     "live": 76,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1300.5,
+     "year": 1300,
+     "live": 76,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1400.5,
+     "year": 1400,
+     "live": 76,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1456.5,
+     "year": 1456,
+     "live": 76,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1500.5,
+     "year": 1500,
+     "live": 76,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1539.5,
+     "year": 1539,
+     "live": 75,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1540.5,
+     "year": 1540,
+     "live": 73,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1541.5,
+     "year": 1541,
+     "live": 74,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1549.5,
+     "year": 1549,
+     "live": 76,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1551.5,
+     "year": 1551,
+     "live": 77,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1559.5,
+     "year": 1559,
+     "live": 77,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1561.5,
+     "year": 1561,
+     "live": 77,
+     "landmarks": 41,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1585.5,
+     "year": 1585,
+     "live": 77,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    },
+    {
+     "t": 1600.5,
+     "year": 1600,
+     "live": 77,
+     "landmarks": 40,
+     "trees": 15,
+     "counts": {}
+    }
+   ],
+   "loadMs": 28645
+  }
+ },
+ "hardTotal": 0
+}

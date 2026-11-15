@@ -1,0 +1,887 @@
+[
+  {
+    "file": "data/assets.json",
+    "before": "b0bc36806e027662030b01dd95f15d0d1d2fd56e576b18058e190a3dcc8783e9",
+    "now": "6da83d5a3481159483868412b8327b0bdf20f98339a35f006fcc2b7e2dc6e0ed"
+  },
+  {
+    "file": "data/locations/stonehenge/terrain-lidar.json",
+    "before": "0f9422faa92aa29970d0c4856f8b96b6dc1e3ad0e229aeb58d26e778e0bfff52",
+    "now": "ebc869f0eacd64efbb5221785fb45e4decb8099632a1b6f9eccc61dc5f596554"
+  },
+  {
+    "file": "data/locations/barnet/site.json",
+    "before": "ba94f928a77b5a42e20a45b30e04c13c6c6228e73a9e2686ea245d7040b78470",
+    "now": "97aa9dcbcf1450390775828cd6af3834d70f8e7d1e027cd05973eecd51010ca2"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--transition-3-site.png",
+    "before": "1d8add31fbd917d6cef54f06b7d81ada1cb6fe1b49d40a56588788ded03560c2",
+    "now": "166e6d3442a4ee95e12bb4e83a30bfc1386721e6e759fcdf861436a55f43cbe2"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--transition-1-entering.png",
+    "before": "52f1f2742fff7856360236f07f08f3354b4b9ff23df96fd06fa84c27e5b1d049",
+    "now": "ed3633a7f983119aa34f5dee655cd97f1e15f14abe6295777c51c1caf9770775"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-playing.png",
+    "before": "a91270c739f9a33c0672824ebe2f02beb5ad2a640ab925f824d847b7734eaf31",
+    "now": "a250d2cf736f1ff625e1d142ba5c2e527b8af456610a5cf02071a78620326f1b"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-place-long.png",
+    "before": "3d491adce5fcf0a18524735b669ad9520a28a148ce4e9a4a247e841a96a5005e",
+    "now": "7430e5eff6a37229e6c58d6a6681035fbb00dbcae85d69276cf461f4d5b26b94"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--london-default.png",
+    "before": "b841d49f99895008eadf0fdff606c01ddeee512b62d95e44fc24574bc21a166b",
+    "now": "f19c7b8857397df7efb4441438ea7eecb402845089ed8a64de7255f51606ca70"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-place-explore.png",
+    "before": "ff7e4451d7a1acc174c6eee63865ce2a7133db7d2a6efae7778a68bf30e4a2e4",
+    "now": "b57ed7409b355b9ab5afdb883e80e37732dbf5e114f6c1a0a34a6fb9a3d7f5dd"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--loading-map.png",
+    "before": "4feab9d66bf7a28dbb45fd89dc704a8739c69040399821505c6d8ae13a183ff4",
+    "now": "c55e7131bcfb903fa2a50c249d5da0946946f2c00e9814f70b0dc11b1949932c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--transition-1-entering.png",
+    "before": "459965ba27d181c0460b7a355cf7742755fd8b42dcf5922b26e493096714a122",
+    "now": "4c42c2ec0014167ce2629b84bd56dab7bbfb7908d1203d9da832974c543c19e0"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--stonehenge-default.png",
+    "before": "72e15cd98d73401df84ec709fdedab764e3df2291d77010f47d9485ea8af7594",
+    "now": "b7fb589bf7df328f7c33f5bb621e93c6ef4bc50e36536b266f269a9c0cfa5d5e"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--transition-4-leaving.png",
+    "before": "088d71268791b2935810a7579220e9cc3ed485f57158284fbc8a366a072b6f5c",
+    "now": "8a0257ccea54391661120ad409d48425d208a3996f0c5bdb6ca1a9400702d944"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--london-evidence.png",
+    "before": "3ef2d5710c1c19ba405975695022de155af42d4ac523152247afc3c517002481",
+    "now": "c1d6ac4e2c455ae2269f6e23897999e1dd1a73989b90a5902ce0d47d01964059"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-default.png",
+    "before": "3fdfc25aa1e93c52650a997a0a902c63edcf7af952541c71dbbdf4161e6c5e75",
+    "now": "010773956eb10d2d9b0ed57d3c454eedc9f85e579ebd067d3d600f93974453c0"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--london-landmark-district.png",
+    "before": "353c90d8b202f0ca1f5342a9ea1edf931e11fe8fe8034b8de72fda8505a4bf75",
+    "now": "fc5694109f1924ca9c11b2764772db365d22e167f88c759c850f08492cdf1958"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--london-walk.png",
+    "before": "43097b914cd546822315903cead2b8685904eb0300fef8ae271d536f27aacf5a",
+    "now": "53d597a42da10bfa624d4b95854bba21b6c028c96731a4d704086abe1273cfb9"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-polities-off.png",
+    "before": "028c2ba7feff96afc24a07e41bcb491590cc48704d74732e75ff04ddc4e08839",
+    "now": "3b864404bcdb3329dbed97cc74d3fa39da94e7acf5b85944a7902a85a13dd47c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-place-long-scrolled.png",
+    "before": "e684363c83070925b117666b7c7c149df8aef945dc6fa52cfb2ff2d4f38c1e01",
+    "now": "21ddc803aa1fe1dc791bd1d84a49335ef968ce465de36d55d41370f7dd12308c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--london-evidence.png",
+    "before": "0979815efec3f96cccbea49e1d66c72483277a3849e97fa8ecc9778b9e1aa0fd",
+    "now": "2f6352d04e48a797d87be28d5af1eb60a487d575943b59bfc283cf47c4c561dd"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-evidence-key.png",
+    "before": "0eb8dbe353fd5312efa56138fb071adf4950168aedf114d28aaad4e50be58b29",
+    "now": "0be88bccf10cf29a6e83ce7caf05a96a82282baaab8eb8b26ee3a3edb38f11e9"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--transition-2-loading.png",
+    "before": "69053614caf1e770a7271b3c39a2dc0502b7d01edaa06686e53af5e125e1806a",
+    "now": "960fc9fa6abe6f3ee2a4e6d17b3f0201cd4e9cd82bb717c1d25d3794ef971512"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-place-long-scrolled.png",
+    "before": "2ffae190a3e68d27521174e97dab2a1f24cb8d63ae3ebe3906b543b98bbf8c4d",
+    "now": "a7484368a43498938bd4a8b880488a69ad12184f6d0a0bf61a8eb1b14deb6893"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-focus-slider.png",
+    "before": "b6f6bf8a397815268a84eae44b3a0f89984d9ff8529c01ec27c40b2e3e9d5188",
+    "now": "4c230b183f842dd5d2983f8a0ee64626d3adbb1ea2b489011f42a1c7b632621e"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-polities-off.png",
+    "before": "3d08b869f658d48c5753e43971c23ed74859df55b48d0b56ec2f8b9810b677ce",
+    "now": "0f97367b18d1d3539452b554398fa865b18f603b3262a1587a600b6094b46eb1"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--transition-3-site.png",
+    "before": "0b9b15b5f2954e5ae62b88c5a8544a9b062848382f3089167c2368e2c988bd85",
+    "now": "b022e53fc513f8571f2cf467f45f773e56ff4942dd18774393c0cf24f3f0f6af"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-place-explore.png",
+    "before": "f218ce503ae7d09f4b026d5f6f4fad89335160b8ae9f59757250085ae558334e",
+    "now": "924e8db047e8e9e22837b7553dcaaf1f13b7df5e39cec422029f41a020191952"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--london-about.png",
+    "before": "ab0f785b5751ed71ffcef8a65ede8d72cfcfccdf874d100b321a5c3cc56d3914",
+    "now": "36d33b4d73658ec43fb28d22ef567f9106fd744e22b0ce6c6d948495991b978e"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-evidence-key.png",
+    "before": "0c9c1718670f8732d4f47644f5b149e8002ae2a115c31641ce2f0d289f4507d6",
+    "now": "5d965efb83f92a78f4d7ac30d660c99b2355af3977d454ed13e433d1a21b4d6f"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--brentford-episode.png",
+    "before": "2d8dda174cc4700c6ec20cce0c65f8b64bb397ad29d22b68eaeed9c8eecb72cf",
+    "now": "4eba49f8ab839f6bbd872f4a2439647649a3f57964fc6dec9f324a13438d9c10"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--stonehenge-default.png",
+    "before": "f1cd0aaa5635068ad1feb0e7a742542ed5c30505fdde7dfff4d2b9e11ca669ae",
+    "now": "891eec625bd1067e6ce7988761fd98fe2ae347cca2382da7c03da7612fa6e149"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-place-long.png",
+    "before": "af134c0a448ad87f8037da40e18515c3bbbfdc0d2b276d7624544ebbc78ae712",
+    "now": "23bc97017a2a57e057353669b3ababde852f02a1b279ef7b657e9e12210e24bd"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-place-long-scrolled.png",
+    "before": "6ca624e318b73689485b6ab22ff0e962d9a302a50b481302a14c41969a64ad4e",
+    "now": "8d5d8d702b77abeb09f718c3aee861278e4cb0c46bdde4fe7ec01f544ff9704e"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--london-default.png",
+    "before": "4e58c3ae7e8c9c4cd8d120f5facd185a79824047d78629c1ba5a4cd016a3b4ca",
+    "now": "a129f85cd3b911bffab2085c99aaf26cd599bf8bfd0468e01b5b3fd104983d10"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-focus.png",
+    "before": "27452022df9fda9360a029b7ed0e41fc559417d1af1bf07cb2bb03ea3604feca",
+    "now": "d81b25be3dfc75445e1a02788e7db51859b918ef1bea7a96b6fa08b28c777fc7"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--brentford-default.png",
+    "before": "c62904305201fc45efec45d744f0070c78d9c1835953d687815baa481337f8ba",
+    "now": "26d14df39b51e25d050ac386c2cc68fd6efc2c57ddec8988390022542d785287"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-evidence-only.png",
+    "before": "12431da4a837443b59ea2a9fc5675ed20a4bbaec4fe410a878873bdba651c7d2",
+    "now": "b2ea360ae052bd7ced7105d9ca06e3529c949d0bd989050880cd2e56965907ce"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--london-landmark-long.png",
+    "before": "24c75704781a21a2ad37cd43a32ef26d0f6fad9c182a0d794e9a5116d8453cd9",
+    "now": "f65335b88fbacff1e1d8824b0f825c2cfb176b12b53a0ed90055a0b19d78666b"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-default.png",
+    "before": "bd14dd9a744834fe6cf457d60b2130f99936392339b9a527a1d1424d9376038c",
+    "now": "6643b1b492cafc2137dff13dcf8a1e4e28ecc323d1435a7704208f1459983b17"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--transition-5-map.png",
+    "before": "8790ebccc462c23465eccd76c47536b30e1e8695c189c65f351573d0d8aac88a",
+    "now": "08eab2acdae0a666a5c53ee7b326b918a3e96c6e59e86ee72c4e5d3b263f7ee5"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--london-evidence.png",
+    "before": "199d6fc9d866e591d89f3290e4dd9d22c4ed7001660bf22a88d8b469bb82f899",
+    "now": "5848f61e4ec3f1e7be3b40102fc8af7bdf00fbbc0bdeba67df4af0c017f5cddc"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--london-about.png",
+    "before": "e00cdf77d0c163c8e22aa8bfc2c1e4f8c984fab066700b5daeba12591c5ad7dd",
+    "now": "147115165260c97d356e73052375b98263046dd45c1a02387733059ede770274"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--brentford-episode.png",
+    "before": "dd57a085c806f00916d038bbb8982126d33d18d4de1b31941d48f534ce440b17",
+    "now": "64b01eb6be9dde0ef9c083bc147e9485d88e5354af3525324f6e74559deb8e35"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--london-evidence.png",
+    "before": "35a8fa618c47f34e2ac0524551dc7f9ed4217d7e1d18453d1f73fdc7286cb9d9",
+    "now": "6fa4f0abb5519ff79b02f72e6994f733817e98043ec357556d32ccadb2467ec0"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--london-zone.png",
+    "before": "fc800adf8f0f54ffc5c997991ec2d8922825e0bcf0b1f78c64c6d5c864db6e17",
+    "now": "5a5cc7d237bb796ec6912e2aded01ee7725b4609325786cb2b584d5434105d8c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-place-long-scrolled.png",
+    "before": "fc5e0bba569b4b54b586c587a28d3cb39bb08ceb704939aac7e80870b18fc3d4",
+    "now": "77bee102298da346b146a935c91737a9e43682063bcfca28c783ee819816e5f3"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--stonehenge-episode.png",
+    "before": "e8522f7c3598b91d4482178d12f125156650224d0a5834783f0321f3db6dda20",
+    "now": "1f26b7dfce2a0c0cd43a5c3cfed9db6076695ae256706e484ce061cb1cc11ca4"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--loading-site.png",
+    "before": "a7fb9764de2f236c8ab3216bfbb3a157c075307e66c6ff6e3357fa7b3a9b3945",
+    "now": "8a82674e6fbb05f35ed1d42e820deb7852342ee7df9fb55d0ec5d3b6f69f0ec0"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-line.png",
+    "before": "70146334b924c658e462a3e64918c94ae61bd61a0353b168f5df94e61ddb32df",
+    "now": "f12799cfa0ee78e748307c8524a7efb4e2a68839f87f03f5c7617993bae7a34c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--error-unknown-site.png",
+    "before": "ee59fa6340e1e0a736d418884e94a2972b34fa8727240cdc5471e447f2297924",
+    "now": "4299e2f27654c0abf9e7acfd14ca4fa654384aa51253bfe6088a7cd50f65ae87"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-place-long.png",
+    "before": "ac03835152e5af196679d8e95eade3ee506265dcd3e44fafb312ef19baea3032",
+    "now": "639addbd70c81db6820763fb5ffe6e950827bd9bc78a18809e994133c078b126"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--transition-1-entering.png",
+    "before": "2300067388fb104c80ef8a41c6bcf09a3ec022a1faf9e145c09daec6989eb479",
+    "now": "318f7bd4eb0bc36d4aa0c6b7144ab0221373be1942d657d55722436ac1d54afe"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--brentford-default.png",
+    "before": "9860049865af875bac909cd747634eda7e2a60cc105ed5c358552a0015556143",
+    "now": "8c9407150520067fe396438a7703f15824a84e6fa5cb02f292ef0b83350b178f"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-evidence-only.png",
+    "before": "c0853b8d6a0f8cf86f7cc2b21d9e15faae2c7176748865b05aaa61d7f29f4759",
+    "now": "9127e5f06056d7de69aca045a158af48b0acd0d3cc2cac09c25ce3ca8c996114"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--london-default.png",
+    "before": "00d1bbb2d2ae8f75bcb6bf936438ca34571d64e267d4f7ea8af3c83d826d6f41",
+    "now": "0ea10bbb3ba48e9c7e78c3b58aaeae67c7f11e3cf3644d4b2bdcbbc9ae914471"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--london-early.png",
+    "before": "f339afd28d10710dc129fcccda78c578bb7a11a32f31453629a324b455d194e9",
+    "now": "b8bdaf64a82ed0d163a756d3735fec3dc3ef64e0ed8e97ade2945444b9d942aa"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--loading-map.png",
+    "before": "20175bdd5d1866b2191efef74a4e3c00f8bd34298efa3d03d33e6a94df848258",
+    "now": "82a480e82509d106df46a6e83692c1db71855f4b8d506904d0648ecef4f23bde"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--london-landmark-district.png",
+    "before": "3de988e97066b270acaa80e060c14b5f2e2a208e86cbb15a2e299f6ac461f253",
+    "now": "f18bdab568aeacdae31ccd693efd8b2f24dcf524d9dbe11cb80a14d3a9fc09b4"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-playing.png",
+    "before": "7ade208f0a003b76a4b74e50cb017d10f7b41be71b85df497202f4ee3a64401b",
+    "now": "abce3974e91ff1535781efbfa9f5dade13b468ac74fe3270ebb643d7caa2cce8"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-focus-slider.png",
+    "before": "c8bce011559f4d694bc0c7d6501a83989c86ae13d6dd4c41514db9eac798aeaa",
+    "now": "a7ecd0a17eff1720e3e53258f33580663ddbcf202ea2141bc6d6bdeabbf267fd"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-default.png",
+    "before": "75ab8bcc8faa99518553fb02d39806d41f1e5bd23d3b049983f32a02fda8dc46",
+    "now": "7bfc196e42c54973fa19dee01f811bc1d81ccbaa9d07c28bf2bac3f0cadb866c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--stonehenge-episode.png",
+    "before": "c09f82fbce3ffbf9cba3c07d70d67fd0325e8427fc000c0897c9b913b739554e",
+    "now": "db8204684ae9fdf42ec4bf87e87bdeb31b7d899ea7c79494a5b4e1e66483dffc"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-about.png",
+    "before": "e5d52e0b8c1b9eeaab7500ed192cc0d51af6475647a905c3e7a5d7864b48fbbb",
+    "now": "4dccd918d9fa4dc3ba869f3d38be108852cac8c7c4f2bdbd729a0e371f403d26"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--london-about.png",
+    "before": "6525746d6edd2d5799875e42a2e4368e19b7bf080fd86a608c917c5bd880e6ad",
+    "now": "0f19c7e331d6d0957623f9c27bc50f52821be5971c36b65616f85372a9f5c481"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--error-unknown-site.png",
+    "before": "a90c17b25d9e1a131acc55c6c0ef873049b118d0c9fb880e1366486972492f89",
+    "now": "bd93dd91e14f703527dcc0fd01536641593c7420a4e0749ecad8149fa709da82"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--london-default.png",
+    "before": "675eb8ef21ecc6eaf92fbfa965bebf56d71cc5daa4d4b93a2f39f31dc890f323",
+    "now": "626346280fe3a4f8be9a5a1bd5efdae21b275b14f310dc13c7c024f14c9d6d70"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-about.png",
+    "before": "7f08011a6ad7ec4cccb0cadd06fcdeca3d7952f9d31147383100b55f710fbe5d",
+    "now": "f59883a50e892fa813e58b9a67d4071c87bb73e8eebbff06e16eaf0e0f81aa28"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--london-landmark-long.png",
+    "before": "3262f0bd4ad85b580308007d336167608cc6e4b6b367c17338559aa92aeb3906",
+    "now": "ece149e6edbea27fc0aef61fb315ba29b29506d75a82ad6bfed26ad5f7c38a2e"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--transition-5-map.png",
+    "before": "f7ee486954c16bc5831485b12a6fb993b438aaea4398eaded08617bd494b389e",
+    "now": "2cbda889f5a0a0ed22667a744736e67138f430412adf5c673267f83e416feb65"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--transition-4-leaving.png",
+    "before": "934975ec62d6bd7f8d1eaef4a5da1e1aeb2dff70c6b6da82552f31f8d8eacf1d",
+    "now": "447702fb6925014032f1ea612d0a883039bb924339b9483a0c1f2042ebf8f655"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-focus.png",
+    "before": "365ff8517c888b0b20e6df69952c6c2300b04aca30444134c765cf41cf63e63f",
+    "now": "74e42e38c729e2d343a5de0cfeb91f18c5aa6250922c5aa0405a69fa066b3dc7"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--transition-2-loading.png",
+    "before": "013d6bf2a616baededa03f44c6460310c953924f6a977058f60db7bbd9aee7e4",
+    "now": "a30840fbb6266bf8ec7de5248b581e08c0a3c78f6250cebc4750c63fa34e266e"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-place-long.png",
+    "before": "1baaae1cac6a19614086df8a97184b67aa59195188289ebd47d39e642ea53a78",
+    "now": "9b8db21a282d42db3ea88d564cd14878bed97c162fc9c89fe73108568e7369b0"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--loading-map.png",
+    "before": "ada1aa9f6906cb56f976ffb651d7a0ee262dca356ef5f8818479e5386f62966c",
+    "now": "22eb4811974d58d8828b5778331c7ddc3abf3c1373f7154fdceafbbcc6efe1b5"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-about.png",
+    "before": "750ed1f136144389f1f7d372b254f7584242b0b6ad3bb628e5f4ebc00728484f",
+    "now": "047939a5c2ae1c2ca952838c20702199c5ad72452f98cfedc38fcce89d241451"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-evidence-only.png",
+    "before": "051d7af950a80b9413e03b921d6cd1e6a9371bf1fdb69fe0a86a569cced1368b",
+    "now": "f30c240987fe8fa815597c409571f5c8a6b9dda1fdf6cfde8956b24cf47c96b1"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-focus-slider.png",
+    "before": "fa4590f31302e77ef9ca15b7044822176b2324324d2ee1aa587916c852eda414",
+    "now": "2f2f4c8820f6ede75b004ff1d125252373be8394ff5157c7c516bb9cc1de57b7"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-place-long.png",
+    "before": "4d4febda195c96c66af64da02080285fb04deb723f22233a305c170031e5ec0e",
+    "now": "9c66cd09c240d524138296ddc8b23a8833b8aecf57ff648030c9acf00de76b5b"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--stonehenge-default.png",
+    "before": "fd707e7c824da9836ece51310fdabe43cbc3d6b9117029170690b8a08d24479c",
+    "now": "31ef0ea7eaac696627acae79b69ccea29ccdd55213989787e3b87fa399a86e5a"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-focus-slider.png",
+    "before": "956f0a22a48c0dc4558e67162e1e341891d10ea3467c1e60dbe39fa950fdbfc2",
+    "now": "656e1c941e442d0799ccb7a6a19b011ece266e58e34f88a14b2050472001fd8c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-place-explore.png",
+    "before": "162e929e2a58f96e3aec5962ec3339209b9f988191ba27d9a5c9cdcbed6cde5c",
+    "now": "0b7c3141a94357377fcce1d8ee151862f977eb59e99b6ffa6525b4a587660906"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--barnet-default.png",
+    "before": "7a9a10177a26599deb0c278a19665cf4b1e41393378499f366f2d0de67a65b35",
+    "now": "7b80a038e1278791fdf4dc017fb0a85cc1a06dcb343f382a7f7079868c95d4ae"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--loading-site.png",
+    "before": "873870b9ee361d00036a9bc54fc35364ee06362a255eed9343445384d5d82351",
+    "now": "eaf136e0c86abc9464dce16ef39dce672eaf879664cb49737ebd0b75c52d9f8a"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--loading-map.png",
+    "before": "ca27adac34da1232dccd95152387e21a85706c7ec65dce8c94bccbf1f378d3b3",
+    "now": "d23672e2d7703d58be494b719cdc6888d90f484faf6d58474c61a06304a8a30b"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--transition-5-map.png",
+    "before": "52deae02785675c1c4b2542777fb63fe83256b7fbfb5ad530e41e538500ea9d1",
+    "now": "1844131c22c0a49026df4633b82ca8e34d4a8e36c7724910768608e890d00086"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--london-landmark-long-scrolled.png",
+    "before": "a53408a4d07e9cf378902cd39331f8d2e44dfecb4464f06e23d24e7c3ca34562",
+    "now": "535fd557261375766006f70a53a30f26ed991f4a34db524a615b8cf7dfc37735"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--london-early.png",
+    "before": "5a2c14f51fcd02e5555d4fac767229bd3ab9823c85b4501657d8eb0c2134305e",
+    "now": "8e893f16eef59bd36e43726949039f74adf433d1b4cca456f9f9a38b3aeb0274"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--transition-3-site.png",
+    "before": "d979ac6dfddcf79407f0934e5dcaf2af73df4f410c72b5b18c14a72f48014cd7",
+    "now": "1ea1c1f16135454d70b334d64be6067a153f82f701b6d448d675894377f0c54c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--london-zone.png",
+    "before": "5d5c1886d5bbe92d30202177faaa4242e838df66a6ac31dff90f28402d79f436",
+    "now": "c3b1c8e7cfd4ed7af04a786011110a78632c0a858ce26fced511bc5b86411cc6"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--transition-5-map.png",
+    "before": "f15862135f66accdd6081ef49001368ea9725fc6e2c1b72ed08fba8e2ae1e4cc",
+    "now": "9a3c8338b906209a842e74ea4dfbe506f3bf8fee9fb8e23dc1eef92b9974e244"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--brentford-default.png",
+    "before": "d7734ac0bcba1700311375b702f13bdb0d0dd4a175d2820515d70ad38341e573",
+    "now": "11c2426f6a30a04b767a113edcf32b77889c8a4951ad059df7334298782172c2"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-evidence-only.png",
+    "before": "6dca231dcb2b034f3cdb1364ccc968147b8b604131dcd2cf38f344e53271e9aa",
+    "now": "f00dc9f19b29224dc48c8c10a86dad82cce10c8cc3559c813f7e452144540836"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--london-landmark-long-scrolled.png",
+    "before": "4c69fcbe1746841adba09afd7d445929af021a3c06db9301d26383dae10d97e3",
+    "now": "6915ff874c9a6881336884f4232d8f17421bd2eb939b77fac92d593eb413ae74"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-default.png",
+    "before": "49107312dcb02c47f4267f1c96844e9a0eff5c55a788d86f09f91279667cebf4",
+    "now": "88ff232a50fcb9532170b84c723555585add53c53c80f938b8464326ecb2e813"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-line.png",
+    "before": "d1bf3894c1cdfc476e332e81dcb3752ee614f26c71d61d089010ccde851c83a3",
+    "now": "4a147acdf1dca0b052ffdb74c86180a3e024d738e65a36cb819384cbd02046e5"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--barnet-episode.png",
+    "before": "e5b73059856fcdde7b04f66530055d2c82d3b8f1adac0137bc48b9811aaec352",
+    "now": "32999803f99cb56371fa6950ed0a74e4dafcb2760173fb1da9cee5a88cd3ebc6"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--london-walk.png",
+    "before": "92d4bb60a2db9c99ee5a21340e7c78aae13917e8fc2a0e6b5a4d3e50310481cd",
+    "now": "377e65f13982471e6c045b6f5df3f8190d08b0522ed9e783a9ba3469a78a0a7a"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-playing.png",
+    "before": "f026acec0d8c1030cd9bce81a2eb73846b7f94946cac9f8c757805667d4a62d5",
+    "now": "136ebd29cfec92739c54b5a0f9e9a9eec369e23bbf7a85bbbd3892ba1c10ea08"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-place-long-scrolled.png",
+    "before": "68e098d5bc9c711fadba4390cb19d1051c30f6ae1d4233a0b99771e13b4045ce",
+    "now": "f459ae8ff6c18f8d3fe25c6743a7c6f318425d0ed8e2eb1f29f1d93fb4f6193c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-focus.png",
+    "before": "790a637c9dfe3592566bb7c74118c7e02c9c56ec9911352a0cc2d4646aa9218a",
+    "now": "524e891d5ffd511bce7eddd28c0cc7682d20cc0f2faa4a5e3fbaceeaea5d4d48"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-line.png",
+    "before": "927812dcc114c4f39b830583380809a592d7f51b4ede293a635c050cea23319f",
+    "now": "99e629d3e53aba578a763162c3f1636728e05136cfcbb9a4f6e55e907112302b"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-line.png",
+    "before": "7b45a4e85f4595c6f62605d9131d26e4642a791bed6acb7deff3b7f62f17ae2e",
+    "now": "41eae49694495c00bed2ca8c3ae9189991d412ccfb011acc68838a1deebaa888"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--barnet-default.png",
+    "before": "296845cd669139177ac4b90bc5352e2229866aa30a813d33924173703f596f88",
+    "now": "cf0822fecb1489f7289abd3827b7dba2d2e6719ea607550efbc1cc5cd98c597c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-about.png",
+    "before": "1098c2b01e51d4c9a4fe69acf48fed4f105210105b8f421ff992708c0c54ae86",
+    "now": "5c8b5db2121c4ae9fdfdca30b65fd69dcdb5ac8a02f71bfbc7ec862c7265cb19"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--barnet-episode.png",
+    "before": "e0b2a0eaecd5821523f6daeccd5be10a654499a68bfacddd67d598f739a1b73c",
+    "now": "91d34cfec87c775525a342945e5d3882001c9d600bfc8225fa4a6ac1fa3526b4"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-focus.png",
+    "before": "9caa04df3ade7160571003d777700f86902c3edad761deca0e700bb1c03f86af",
+    "now": "356ce016c56c4c31f23138197017fb547bb8cd92da635bf8ad40b3111da92bec"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--london-landmark-district.png",
+    "before": "0020d08bcc59ede03ca0ac1517a09be764153a30e08975bea3563f6c100f7505",
+    "now": "527653b9a9b872e1289fed36816cd369c84e137e0de2390d3dffd55c0506fd0f"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-evidence-only.png",
+    "before": "b0aedf647f1a3bc603500b9c6f2de737d5a6564c4877eee574e229b8fc232541",
+    "now": "5db5cdf219bc3637e47c89d332ed837268c58e76c47ee4218ec8c15568d8a083"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--brentford-default.png",
+    "before": "fb967995f6c50194503a4abc6d2495dd436bac366eb4dbadce9e52acbff2f782",
+    "now": "cb9e1ebc030ad3ca1a82190ea74fa1f0e204a5aeaeb62b740810c98e29de6a18"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--london-zone.png",
+    "before": "19b0c72607312e20a5f74aa6606e22aeaf4bdba057d44a059be14b5da1227941",
+    "now": "24d1acb65882121c7878eadb272b7c4677873995fc19e96f686febc4072c3c4d"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-focus-slider.png",
+    "before": "f3c50f9edb442f99d6d11593e12f48b7fde789a66bbc1680d12784918bb090b4",
+    "now": "ca0e579d59073d31d1c559f6886356258ee61c7927d6a4059e3aa6d3f6f6a252"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-polities-off.png",
+    "before": "e0fe5ae4c59a8361d79baabcbeb84d92c5ee4dac150f4871e6ccf691f76162db",
+    "now": "9fcc0a36403d86fa27e916f50bc408e887f150ba361c6029861e588b7c7282c5"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-playing.png",
+    "before": "fd86a78e0444f1b923d8af37b414ebceff8cbb992b5d0a941dd3fb6b1e00227c",
+    "now": "1bcaed16d43bb30e061b0f3cb9afcf15cb20d86c9d0bea04e964211d05b91a91"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-evidence-key.png",
+    "before": "9806dfdcf3f295757bfeb5a0bc6646960acd3d3b29272a16f24287b83cd1fb4b",
+    "now": "47411860aae56a6a58be6cd47ccb4f5c356af35d3240d70364701ba7b56d1c5f"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-focus.png",
+    "before": "44335af3fe31296b248b67c8633bc6028481198cefe901354ed259939e19ba71",
+    "now": "967a5cdb4213d6ef0e693ac9e3a8df409033ce04a2c1387431c1b584bf8efda0"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--stonehenge-default.png",
+    "before": "d4534bbefd6c7cb48c31242cfb90ed0cb4276326996cb3907262d81abf87644f",
+    "now": "82343580e2933021feff412937c088f768d8768da2f84da18e14cb8554ae2019"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--london-landmark-long.png",
+    "before": "04a2e0c3b0ae449b027ab868fd9e7ed750463703ae8d182b98bf5a648b6281e4",
+    "now": "9ac868385e7ae6c8e21dd314b3a4fb8a7fe2e2a59441b619aa6a7da9427c85a9"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--london-zone.png",
+    "before": "3f1094c0e0c0c6702a595e9fc8e9c00d45ae725c6e6d589b3021ee8eee8956e1",
+    "now": "1abe6723b36d43c90e12e4611f56084c2b0131555c851e0b9d9b8b5327fcc7fc"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--loading-site.png",
+    "before": "06a2a7191dfb019112dd89143b5a1ea8ecdde522ce6bc765e59abe715e076f70",
+    "now": "c446a36fde5ab3f37498da098ed66de01774fabe56974e6116525ccf667687f3"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-place-explore.png",
+    "before": "4390b79b3be7b37f86dbab5d057870fe3c05926020dd5d4e339d52119d64c5c3",
+    "now": "ef9c16cf87deedc4ad019820ae53e0f05a12df419768933dd050927c14631c83"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--stonehenge-episode.png",
+    "before": "fc8445bcf005c290cb05dca11e8f47a4299b93a1c314d38152af9aba1e59b69c",
+    "now": "640af19b770df697950841053651b8c1be2de1442b9e865e227169d090360f4d"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--transition-1-entering.png",
+    "before": "24a6dab36034e697fd64b139217c4b5a58e09f9cc6b546a2c024adafbb65eccf",
+    "now": "aed66d0157a6c52c07cc40941fc70f8a8837d48394367ec7e4b4aec3e9ac0c11"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--brentford-episode.png",
+    "before": "7eed661113a80be0d3d1238afae94f1c460adca86f3179e497a806dc03f161ae",
+    "now": "8137504d759e8274c219f4380d6d7e8bcab9a2a8b9cf517d73d13b0e1890f343"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--london-early.png",
+    "before": "59e82edd6cff903e242f2d73cde54d6bb27508d253615da38b5c5a60ffdeb1be",
+    "now": "1181319f908ffeafe1a6f01f631fd6dbbf3487d2a351194d854b5e4f99867dad"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--london-walk.png",
+    "before": "3ec922e6936a63f00ee726374ca0d84b593245e01953bf242ff3c5d3345fbd90",
+    "now": "3a1cfa482f5939703dc1549782c75db78cbb4ce636c3ef5977dfb93135187ec6"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--barnet-episode.png",
+    "before": "b1cb749156e20f64b0e3bbd27dc04a61fb8bff89995835af7bfbc1e1e7e830e3",
+    "now": "011948748d7232b5c3c6c3359417513704263437883836a73fa5d8c67c7d1010"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-polity.png",
+    "before": "83f89f18bf55b831d88e7914113443ade72e9fcd8eb3ad8fd565fa3512702e8c",
+    "now": "c30962b12184abba33d81f8e751f2fdc082976ed9b8379bb1c7722a236f0c361"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--transition-2-loading.png",
+    "before": "98b7b4f5f0957362278c3ba1db7e2a9ac380c0160ddffb9a7c1a2ddd8488df72",
+    "now": "9e841afb63039b06386f1732b33a06c4ab8589e066d41266e6721d5c3b2fddd8"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--barnet-default.png",
+    "before": "4df376a568b0cbaa43b9df9ca5dab6857fca84146df5d1b352f2865963d28e0c",
+    "now": "a74f90f965cc060fcdefa8e9b4541dd8009de88edfc9ed136bfdd74a75e62994"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--london-landmark-long-scrolled.png",
+    "before": "174edadce97bd06b3eeb1760e4f2854f4c1c1cdddee2e0339e6a2c346e3153ff",
+    "now": "931d6e4ec9d4c030b26a747225f4b14cdf3c3c1ce38bc4e7d69bb9178ff71d0a"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--transition-4-leaving.png",
+    "before": "2c31e2148cb699ecd09fdcb503a0e2ed0f9703f67c6aedb98ec83993cd9172fd",
+    "now": "40a7758a8fbc8e2e15f9da9935e0f1eb943a8f2e197eec06fa0175a2360ee984"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-line.png",
+    "before": "206f3b11b496f4e79a3f9e2d1bc6148751f7ef9f7d2d65d2c18a3119e5b65a00",
+    "now": "4c0b1772b46c24e53e3f34c3b9888ea26ed14b7f6ad76c6df2d016bbe55b5b90"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--london-landmark-long.png",
+    "before": "5d859af451e3e2ba3f2a87249a9dd249ef0e2806408ca31e68b514c2d526639b",
+    "now": "c572f089cf10a54ca45a4bb22b39a313d160903b9508d71ad9e378ebae3b2df1"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--error-unknown-site.png",
+    "before": "f3a8b7331bc6d04a75a24e268f4555edb6d0e80cd042bbe7e35a9b9cf34eb7b4",
+    "now": "23caa1cd699101e00da4d4ab6b7d2510c494af0a40e8c37173e1d5cdbe63c6f6"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--map-polity.png",
+    "before": "c10983965ff0539253c7dfcfdf65965429bff756f5cd1c51f0f66c3a3a2256c8",
+    "now": "573cfd38ce9d73ae53c68416dfa333697e1d0c08cead915dc44eb636ca7ebd36"
+  },
+  {
+    "file": "docs/screenshots/interface/after/index.json",
+    "before": "1894646741815296b3c5c00408f8636f31977495cc2eaedc47dc71b1f4b8f74c",
+    "now": "fd5bea5189c24ade60618cdeda7b9a5260285f056ee7ed5520b7110eef16c83c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--transition-2-loading.png",
+    "before": "1e46404a9bea7abd45fdc2b53e6a6e1e8f9901aac1cb1ffd2a04b38a232e402f",
+    "now": "7f0df1aa826b7df7bf15848fc69802086828cb4d85f1c6a6a35fc5424ff2ea1f"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-evidence-key.png",
+    "before": "d547f3f2859a8d83a0229fd585b1007add4628af8e8b2bbea92cc4ef98afa9d0",
+    "now": "7c836d073c9dd8dc8a2036c3158c38f25325a6f4a70ddfbb724317c57e634b6b"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--london-early.png",
+    "before": "843538d2d83b75aad0c6d0fb30de5cf662178ea4f035a666410b3ea53760265c",
+    "now": "33edef15993d6a86be67aff83add2eda54957c8683fe5f2a1132e9dacf852ccd"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--barnet-default.png",
+    "before": "07c4977050761aa29ac04b341a12f4a5c863288b2ac828833da682c0685e061e",
+    "now": "f6ded198aa00339fc891fb354156e2324dcd00739c48c01d9db325c7fdd9643d"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--transition-3-site.png",
+    "before": "a639dadea478c30d364787ceff467259a8a6c6f0fd4d4a18aa7999f670ba2282",
+    "now": "462d05f7bc5eb48de289b6268e4568a191b90529268e90bcb5d3180481c503b0"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-playing.png",
+    "before": "9ed8923f8a291b304f5228f1a22304db73267a4e8b64110ca32da9dc1cc2cb16",
+    "now": "ad471d1ffeac53bc452bde4ea358ef3651b8a0e27207a25f9169a0a1619819da"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-about.png",
+    "before": "170e35ed5f91b25a42b2a4d483af00ed2c3f495ae4317480f33000ca77662d86",
+    "now": "4f7fa6c03ce781996e457a3bd646c50f2b21019030228364864c9897bdbe66ce"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--loading-site.png",
+    "before": "eefaf292b15c10cabdff2cd697705d3baa8d1b9b31aa5bb6c329756dff3c3669",
+    "now": "279f1a945e8739f3d8e84268f339d4278f21ef19ec141a35379a096cd2feb4f9"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--map-polities-off.png",
+    "before": "37cb5c7788eea52ec8cc79d478be7b67d710402817c4600df76aa3a3f2ea4d25",
+    "now": "b35f134bb4f7134c5b4b13fa0cc0c5908cedd37b0515f3d347a261946133e512"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-polity.png",
+    "before": "835f79888139906648b2cd445d75d2c5ca345f19ae39dad23b8a666be17b951d",
+    "now": "29b7bdadf59ed6b8923b5c93f5a182f92308627e37ed14f56385c52e8f7a95c7"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-place-explore.png",
+    "before": "f699d52730bfba9609a34aae01249c0178a55db988680ced91169f814b6a1033",
+    "now": "a76cf7d2972f019773b1bf42b9996960d03a3c8dfa2f8ae7997bcf4084104aed"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--transition-2-loading.png",
+    "before": "755f33304a941921c39c52afcca228e6db7ec7c93110cd6cbdb3182407249e34",
+    "now": "e24cb34f2de0bb5fb5fa17f5a4649b32b10f1a8cba89d7d877a6f9cc829099bc"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--london-walk.png",
+    "before": "8221d68c123f6d88b7a7398b0ff32ca56e1bafa2910200962d00e3d9f6fb03ca",
+    "now": "36bca088757296c6ceeb593bf4739a764f1a447e8e7b13e7432dae280e339435"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--london-landmark-district.png",
+    "before": "4ef69c3d569f3a3282c388a38c6601c08c671c871c6e2015b02f4034a180c6ff",
+    "now": "e1dc1ecb6b76670e59484e8a68e0a5ef64a3eea96440a95fa2f11db21e6f1288"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--brentford-episode.png",
+    "before": "b45e090c34b743979eeb16a039f665cd09a4c20d21c774f0d11ba61898cb3bfa",
+    "now": "4b0c21003991512f9dca39d4327164af8d04ac91ce2bd23df1c55dd6a236377b"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--transition-4-leaving.png",
+    "before": "00b968bd9231f867da55d827d4ac26cfe71601bf8f332095643da0ac08ead5e4",
+    "now": "7ffc0a0668d515d3a417f66f2d483ba7a1e2d112c6c9cf72c1e249900d4de347"
+  },
+  {
+    "file": "docs/screenshots/interface/after/tab820--london-landmark-long-scrolled.png",
+    "before": "464ef139820c10cf35e229810d404e7aeb4e5f5708fe48f65f2c97836a71f464",
+    "now": "f22664ba083300740ac63595f4948d17f004b646b0df2cc967c75ab43cf9a70c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-polity.png",
+    "before": "81a4c6d34c1c422bf2c5723e2a5b4b24e853a34a0a829782a952553cc53cdd09",
+    "now": "954b211b68448e6bff3cfc9a7554df2077339d9ef0729e19696ef50b13277ef4"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-polities-off.png",
+    "before": "9c5b330a6ea9cd716a2aeb79bf5ebb0c3396353ee3de54e1343d4be858a68c16",
+    "now": "b5f1ea78d4f884c6149a3ed53892c347eaf706f2669c42b363c135700e8df2d3"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--map-evidence-key.png",
+    "before": "a97e17317b688f52660bcca7bb0e4a8aefd836d060fa9cd7a92785dc5ff48b13",
+    "now": "245acfc424b5e76e26e08dd541ad4045e3b5225e37d24b8297e419f452835101"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--stonehenge-episode.png",
+    "before": "dcac2c74d2455c7ecd98d5bb57979fd48828c85e75fc18ba2a94a23442bf8462",
+    "now": "a3de3871bab35140e47757cba5a887e667d245079509beadd599a767beab2529"
+  },
+  {
+    "file": "docs/screenshots/interface/after/desk1440--transition-1-entering.png",
+    "before": "446cd1f159a1c0c28f44498c0f94287dde047175ecc00c8ed660513bdc9b90e0",
+    "now": "3a1a1cce02405aaefdd65381262a315155116254d4f6e4a4f64f22805782f6f4"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--london-about.png",
+    "before": "8d8a7874e4d77ec5274bbe518281d9450484589b0fc9815e9f1b27e5355901aa",
+    "now": "7478a131c1eabe4ee1e321bbf8b5a482fece3cd443c3ccd79da1b1266e9c0c5c"
+  },
+  {
+    "file": "docs/screenshots/interface/after/lap1280--error-unknown-site.png",
+    "before": "0667063210dea4524f22757cf965213a68a27de2592ae32dcb00bfdb2e5fee54",
+    "now": "a4bf567613849168c5ffaf97d0cd5323e4406aacc79144f9dee31a2d4f8af348"
+  },
+  {
+    "file": "docs/screenshots/interface/after/hd1920--map-default.png",
+    "before": "e1ae0a79c7b776f6b9bfd3370d7fffa6575906be348f3aa6e408bf385797bf9d",
+    "now": "f57eab0603c67bb23db9ebc3b4ef16d92145152d8e0cb93c77ef9403cfad528d"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--barnet-episode.png",
+    "before": "e194cbd2a0f8bc2fa8803ab40b513e64c66097146b426b6adbebbff84abee74d",
+    "now": "d7d5f2d3f4539c6657a12aaed5f2483f5334d63bc9efa4c2beec4e357d04e330"
+  },
+  {
+    "file": "docs/screenshots/interface/after/phone390--map-polity.png",
+    "before": "5af3f0eed026a731cf81255c9bd9511d7b464776a96f16b877ed972c0a2cff86",
+    "now": "cd91f38e56e67e0d2c93a9e5a3ceb00bf00ed9621703837bc7be362cf66257b3"
+  },
+  {
+    "file": "docs/screenshots/lidar/stonehenge-stones-before.png",
+    "before": "aad27122d06e359ab136a68d9140bf4722eaa2f1e3d5d36e99ab7d88f4b385a1",
+    "now": null
+  },
+  {
+    "file": "docs/screenshots/lidar/stonehenge-stones-after.png",
+    "before": "9b7ffc89554aa55d218026a07a9e574ac9ed9887d243033f184a3a92769e6835",
+    "now": null
+  },
+  {
+    "file": "src/lib/data.ts",
+    "before": "68f466c5f7c9106fb8c2966744b93323e1aa582640d7a02861ab0b384a6660f7",
+    "now": "4bc407e4be3a37196e686490b24df9ba1551d7112a54924a236ff929f6f40969"
+  },
+  {
+    "file": "src/lib/types.ts",
+    "before": "f7ca782a8402996fb5b9cc807ee087d587efc697fba84e92045a305f15c9a84f",
+    "now": "e430f2323c02570ab0c597b8e348a61774e786a735c17e11c05f67952fd5ac3e"
+  },
+  {
+    "file": "src/scene/vegetation.ts",
+    "before": "0a4689bb1912830272be845c2e63b5bd4ded8148a92fbef9b2a215f3de39bbf2",
+    "now": "9f3ae021ebc77ce02a03ffc40615cd109a9ed564d3b77e7d36f190ded160400c"
+  },
+  {
+    "file": "src/scene/populace.ts",
+    "before": "54e40296e708409f726a38977be014ff4d9c4e2aac261d373497f27af54fe203",
+    "now": "799982ebd09ebbc1a88bf8576d1a7affab8db030bce517b531c7c6552e142c1e"
+  },
+  {
+    "file": "src/scene/props.ts",
+    "before": "006c3e5ac7aadfe194273289eff17cd9e3b2baaa822f7a21bdccde7f28cf760c",
+    "now": "affc4f3de35366dbd138ccf8e0cccd382c4bed575da86a86588a704197dc348d"
+  },
+  {
+    "file": "src/scene/engine.ts",
+    "before": "e442982f47ac4cabbadb80438bd030d2f855a7b117efb8cc718d6aeda551a4e1",
+    "now": "9dba6fa66aa2a16a181237825ba6ead08db59a1f46bd078db7c97b0bd2695a5b"
+  },
+  {
+    "file": "src/scene/materials.ts",
+    "before": "802d48bea4e12854e41e6c4f46e2646c386b8414656c01b6d9ad451a3fa13660",
+    "now": "2e7d35f0affb7b578d395279547fd2529bf691fa41b4d1085c3de9c32e6b44c4"
+  },
+  {
+    "file": "src/scene/houses.ts",
+    "before": "1a3e0071d0e1a04866a5aaddc72a944ed3438158e4fa7d6c33c721b2f852dae4",
+    "now": "5324bbc20974e1deb22de37d517d327a76581696aa5d3701f49b89c16427d12a"
+  },
+  {
+    "file": "src/scene/veg/types.ts",
+    "before": "dc80b5a18e25932cac865f919d87dcfc559207dbbe5e91342176c79029e3a1f2",
+    "now": "86a1ef50e283cf4578ee29ebca1b03e2b99a2091912c877a24d24c5383b6bc33"
+  },
+  {
+    "file": "src/scene/veg/scanned.ts",
+    "before": "4b1efe7bc71a36348a48a9c9af47518778282fad8c6f9541d70a156322828262",
+    "now": "7d31c8b21fc0a223d92c541225a3bf64ea12e419ada84c447f6cabe2499045aa"
+  },
+  {
+    "file": "src/scene/veg/procedural.ts",
+    "before": "25cd48d8df48d827da904876531a0db9dc90bb88511fe200bc77b2f1d0bc75bc",
+    "now": "d948e8c364f950d10ebba719efd8f4eda079878c5379e798f1fab1658b6aad93"
+  },
+  {
+    "file": "src/scene/pop/world.ts",
+    "before": "1d9902ba9f8f57673f2ff808d316c81c62c748dd27cb3af99b8ccdaf1d3bca43",
+    "now": "6d5bf5e471cc8cdc45f8276173c591af90b27f88004ed4f8d59a72f08dac6fb9"
+  }
+]

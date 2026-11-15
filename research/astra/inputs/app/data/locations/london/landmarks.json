@@ -1,0 +1,3969 @@
+[
+ {
+  "id": "roman-bridge",
+  "name": "Roman bridge",
+  "lat": 51.5082,
+  "lon": -0.0867,
+  "tier": "district",
+  "path": [
+   [
+    51.5102,
+    -0.0858
+   ],
+   [
+    51.5062,
+    -0.0876
+   ]
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "A timber bridge across the Thames on the Fish Street Hill line, the reason the town stood here. A probable timber pier base of the late 1st century was excavated near Pudding Lane in 1981.",
+  "uncertainty": "No bridge of the 50s is directly dated: a crossing 'in place by AD 63' is inferred from the layout of the quays, and a fixed bridge 'built by c. 85\u201390' is Milne's reading of the pier base, whose identification is still only probable. The exact line, pier count, deck height and the date it went out of use are unknown.",
+  "phases": [
+   {
+    "label": "First crossing (bridge or ferry; form conjectural)",
+    "from": 50,
+    "built": 52,
+    "to": 60,
+    "end": "burned",
+    "model": {
+     "kind": "bridge",
+     "type": "timber",
+     "width": 5,
+     "deck": 4.5,
+     "span": 12
+    },
+    "dateNote": "Inference only; no structure of the 50s has been found."
+   },
+   {
+    "label": "Timber bridge on pier bases",
+    "from": 62,
+    "built": 90,
+    "to": 330,
+    "end": "decay",
+    "goneBy": 450,
+    "dateNote": "In place by c. 63 (inferred); pier base dated c. 85\u201390. End date unknown.",
+    "model": {
+     "kind": "bridge",
+     "type": "timber",
+     "width": 6,
+     "deck": 5.5,
+     "span": 14
+    }
+   }
+  ],
+  "sources": [
+   "gresham-discovering-port-roman-london",
+   "britannia-milne-further-evidence-roman",
+   "london-archaeologist-brigham-watson-regis-house",
+   "london-museum-timeline-roman-london",
+   "history-london-port-roman-london-secondary"
+  ]
+ },
+ {
+  "id": "forum-first",
+  "name": "First forum and basilica",
+  "lat": 51.5124,
+  "lon": -0.0848,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The first civic centre on Cornhill: a gravelled court with a basilica about 40 \u00d7 20 m. It stayed in use while the much larger second forum was built around it.",
+  "uncertainty": "Dated 'late 70s or 80s' (MOLA, after the 2025 Gracechurch Street discovery). Only the basilica size is documented; the court dimensions and all heights are conjecture.",
+  "phases": [
+   {
+    "label": "First forum and basilica",
+    "from": 75,
+    "built": 85,
+    "to": 122,
+    "end": "demolished",
+    "dateNote": "Built late 70s or 80s; taken down as the second forum was completed c. 120\u2013125.",
+    "model": {
+     "kind": "forum",
+     "l": 42,
+     "w": 60,
+     "h": 6,
+     "range": 7,
+     "basilica": {
+      "w": 20,
+      "h": 12
+     }
+    }
+   }
+  ],
+  "sources": [
+   "mola-roman-londons-first-basilica",
+   "current-archaeology-basilica-basement-rediscovering-heart",
+   "london-archaeologist-marsden-reconstructing-forum-basilica"
+  ]
+ },
+ {
+  "id": "forum",
+  "name": "Second forum and basilica",
+  "lat": 51.5128,
+  "lon": -0.0845,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The great forum-basilica of Londinium, built around and over the first forum from about 100 CE; the basilica ran along its north side.",
+  "uncertainty": "Plan known from scattered excavations. The c. 167 m square figure comes only from a secondary lead and was not verified; every height is conjecture. Marsden argues older models wrongly added inner porticoes and a cross-walkway (not shown here).",
+  "phases": [
+   {
+    "label": "Second forum-basilica",
+    "from": 100,
+    "built": 125,
+    "to": 300,
+    "end": "demolished",
+    "dateNote": "Built c. 100\u2013125; ruinous or demolished in the early 300s.",
+    "model": {
+     "kind": "forum",
+     "l": 167,
+     "w": 167,
+     "h": 9,
+     "range": 14,
+     "basilica": {
+      "w": 52,
+      "h": 25
+     }
+    }
+   }
+  ],
+  "sources": [
+   "london-archaeologist-marsden-reconstructing-forum-basilica",
+   "britannia-brigham-reassessment-second-basilica",
+   "mola-roman-londons-first-basilica",
+   "london-museum-timeline-roman-london"
+  ]
+ },
+ {
+  "id": "amphitheatre",
+  "name": "Amphitheatre",
+  "lat": 51.5155,
+  "lon": -0.092,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "An oval arena beneath today's Guildhall Yard: built in timber about 74 CE and rebuilt shortly after 120 with a masonry arena wall and entrances. The seating was always timber.",
+  "uncertainty": "Only the eastern end has been excavated. 'Over 100 m long' and a capacity of about 7,000 are the only verified figures; arena axes and seating height are estimates.",
+  "phases": [
+   {
+    "label": "Timber amphitheatre",
+    "from": 72,
+    "built": 74,
+    "to": 120,
+    "end": "replaced",
+    "model": {
+     "kind": "amphitheatre",
+     "l": 90,
+     "w": 75,
+     "h": 7,
+     "wall": "timber"
+    },
+    "dateNote": "c. 74 (MOLA)."
+   },
+   {
+    "label": "Rebuilt amphitheatre with masonry arena wall",
+    "from": 120,
+    "built": 125,
+    "to": 320,
+    "end": "decay",
+    "goneBy": 400,
+    "model": {
+     "kind": "amphitheatre",
+     "l": 105,
+     "w": 85,
+     "h": 9,
+     "wall": "roman-rubble"
+    },
+    "dateNote": "Rebuilt shortly after 120; abandoned in the early to mid 4th century and then robbed."
+   }
+  ],
+  "sources": [
+   "mola-londons-roman-amphitheatre-guildhall",
+   "city-of-london-londons-roman-amphitheatre-information",
+   "london-museum-roman-amphitheatre-central-london"
+  ]
+ },
+ {
+  "id": "plantation-place-fort",
+  "name": "Plantation Place fort",
+  "lat": 51.511,
+  "lon": -0.0825,
+  "tier": "overview",
+  "path": [
+   [
+    51.51149,
+    -0.08347
+   ],
+   [
+    51.51149,
+    -0.08153
+   ],
+   [
+    51.51051,
+    -0.08153
+   ],
+   [
+    51.51051,
+    -0.08347
+   ],
+   [
+    51.51149,
+    -0.08347
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "An earth-and-timber fort of about 1.5 hectares built on Cornhill around 63 CE, soon after the Boudican revolt: the main physical evidence for the town's military-led recovery.",
+  "uncertainty": "Known from one excavated corner; the rectangle shown is a schematic 1.5 ha outline, and the timber wall stands in for turf-and-timber ramparts about 3 m high. End date approximate.",
+  "phases": [
+   {
+    "label": "Earth-and-timber fort",
+    "from": 63,
+    "built": 64,
+    "to": 85,
+    "end": "demolished",
+    "dateNote": "c. 63 to c. 85.",
+    "model": {
+     "kind": "wall",
+     "h": 3,
+     "thick": 2.5,
+     "wall": "timber",
+     "crenel": false,
+     "towers": 0,
+     "closed": true
+    }
+   }
+  ],
+  "sources": [
+   "mola-roman-fort-built-response",
+   "london-archaeologist-marsden-purpose-cripplegate-roman"
+  ]
+ },
+ {
+  "id": "cripplegate-fort",
+  "name": "Cripplegate fort",
+  "lat": 51.5172,
+  "lon": -0.0948,
+  "tier": "overview",
+  "path": [
+   [
+    51.5182,
+    -0.0963
+   ],
+   [
+    51.518,
+    -0.0932
+   ],
+   [
+    51.5163,
+    -0.0932
+   ],
+   [
+    51.5164,
+    -0.0965
+   ],
+   [
+    51.5182,
+    -0.0963
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A stone-walled fort of about 4.5 hectares on the north-west edge of the town, built about 120. It was probably out of use as a fort by the later 2nd century; its north and west walls were built into the city wall about 200.",
+  "uncertainty": "Internal buildings are barely known and are not shown. The side lengths used (about 220 \u00d7 215 m) are unverified. The walls are shown standing until 200 although the garrison had probably gone decades earlier.",
+  "phases": [
+   {
+    "label": "Fort",
+    "from": 120,
+    "built": 125,
+    "to": 200,
+    "end": "handover",
+    "model": {
+     "kind": "wall",
+     "h": 4.5,
+     "thick": 1.3,
+     "wall": "roman-rubble",
+     "crenel": true,
+     "towers": 0
+    },
+    "dateNote": "Built c. 120; disused by the mid to late 2nd century."
+   }
+  ],
+  "sources": [
+   "london-archaeologist-marsden-purpose-cripplegate-roman",
+   "mola-roman-medieval-cripplegate-city",
+   "london-museum-timeline-roman-london"
+  ]
+ },
+ {
+  "id": "city-wall",
+  "name": "City wall",
+  "lat": 51.5158,
+  "lon": -0.0812,
+  "tier": "overview",
+  "path": [
+   [
+    51.5092,
+    -0.0768
+   ],
+   [
+    51.51,
+    -0.0762
+   ],
+   [
+    51.5135,
+    -0.0764
+   ],
+   [
+    51.515,
+    -0.079
+   ],
+   [
+    51.5158,
+    -0.0812
+   ],
+   [
+    51.5172,
+    -0.085
+   ],
+   [
+    51.5177,
+    -0.0886
+   ],
+   [
+    51.518,
+    -0.0932
+   ],
+   [
+    51.5182,
+    -0.0963
+   ],
+   [
+    51.5166,
+    -0.0968
+   ],
+   [
+    51.516,
+    -0.099
+   ],
+   [
+    51.5154,
+    -0.1012
+   ],
+   [
+    51.5139,
+    -0.1023
+   ],
+   [
+    51.5112,
+    -0.1028
+   ]
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The landward wall, about 3 km long, 2\u20132.6 m thick and about 6.4 m high, built of Kentish ragstone c. 190\u2013225 and enclosing some 134 hectares. It set the limits of the city for the next 1,400 years.",
+  "uncertainty": "Condition between the 5th and 9th centuries is poorly documented; the weathered state shown is illustrative. Gate forms and tower spacing are schematic: the real eastern bastions are late Roman and the western ones medieval. The westward extension around Blackfriars (1282\u20131310) is not modelled.",
+  "phases": [
+   {
+    "label": "Roman wall",
+    "from": 190,
+    "built": 225,
+    "to": 350,
+    "end": "handover",
+    "dateNote": "c. 190\u2013225. Four original gates plus the fort's north gate (Cripplegate).",
+    "model": {
+     "kind": "wall",
+     "h": 6.4,
+     "thick": 2.5,
+     "wall": "roman-rubble",
+     "crenel": true,
+     "towers": 0,
+     "gates": [
+      [
+       51.5135,
+       -0.0764,
+       "Aldgate"
+      ],
+      [
+       51.5158,
+       -0.0812,
+       "Bishopsgate"
+      ],
+      [
+       51.5181,
+       -0.0945,
+       "Cripplegate"
+      ],
+      [
+       51.5154,
+       -0.1012,
+       "Newgate"
+      ],
+      [
+       51.5139,
+       -0.1023,
+       "Ludgate"
+      ]
+     ]
+    }
+   },
+   {
+    "label": "Late Roman wall with Aldersgate added",
+    "from": 350,
+    "continues": true,
+    "to": 420,
+    "end": "handover",
+    "dateNote": "Aldersgate is a later Roman insertion, c. 350 (date from a secondary lead only). Bastions were added to the eastern sector about the same time; they are not modelled.",
+    "model": {
+     "kind": "wall",
+     "h": 6.4,
+     "thick": 2.5,
+     "wall": "roman-rubble",
+     "crenel": true,
+     "towers": 0,
+     "gates": [
+      [
+       51.5135,
+       -0.0764,
+       "Aldgate"
+      ],
+      [
+       51.5158,
+       -0.0812,
+       "Bishopsgate"
+      ],
+      [
+       51.5181,
+       -0.0945,
+       "Cripplegate"
+      ],
+      [
+       51.5166,
+       -0.0968,
+       "Aldersgate"
+      ],
+      [
+       51.5154,
+       -0.1012,
+       "Newgate"
+      ],
+      [
+       51.5139,
+       -0.1023,
+       "Ludgate"
+      ]
+     ]
+    }
+   },
+   {
+    "label": "Roman wall, unmaintained",
+    "from": 420,
+    "continues": true,
+    "to": 886,
+    "end": "handover",
+    "model": {
+     "kind": "wall",
+     "h": 5.4,
+     "thick": 2.5,
+     "wall": "roman-rubble",
+     "crenel": false,
+     "weathered": true,
+     "towers": 0,
+     "gates": [
+      [
+       51.5135,
+       -0.0764,
+       "Aldgate"
+      ],
+      [
+       51.5158,
+       -0.0812,
+       "Bishopsgate"
+      ],
+      [
+       51.5181,
+       -0.0945,
+       "Cripplegate"
+      ],
+      [
+       51.5166,
+       -0.0968,
+       "Aldersgate"
+      ],
+      [
+       51.5154,
+       -0.1012,
+       "Newgate"
+      ],
+      [
+       51.5139,
+       -0.1023,
+       "Ludgate"
+      ]
+     ]
+    }
+   },
+   {
+    "label": "Wall reused by the Saxon and Norman city",
+    "from": 886,
+    "continues": true,
+    "to": 1415,
+    "end": "handover",
+    "dateNote": "Repaired repeatedly, notably in the 13th century.",
+    "model": {
+     "kind": "wall",
+     "h": 7.5,
+     "thick": 2.5,
+     "wall": "ragstone",
+     "crenel": true,
+     "towers": 65,
+     "gates": [
+      [
+       51.5135,
+       -0.0764,
+       "Aldgate"
+      ],
+      [
+       51.5158,
+       -0.0812,
+       "Bishopsgate"
+      ],
+      [
+       51.5181,
+       -0.0945,
+       "Cripplegate"
+      ],
+      [
+       51.5166,
+       -0.0968,
+       "Aldersgate"
+      ],
+      [
+       51.5154,
+       -0.1012,
+       "Newgate"
+      ],
+      [
+       51.5139,
+       -0.1023,
+       "Ludgate"
+      ]
+     ]
+    }
+   },
+   {
+    "label": "Late medieval wall with Moorgate",
+    "from": 1415,
+    "continues": true,
+    "to": null,
+    "dateNote": "Moorgate opened 1415. Ludgate rebuilt 1586, Aldgate 1607\u201309, Aldersgate 1617 (rebuilds not separately modelled).",
+    "model": {
+     "kind": "wall",
+     "h": 7.5,
+     "thick": 2.5,
+     "wall": "ragstone",
+     "crenel": true,
+     "towers": 65,
+     "gates": [
+      [
+       51.5135,
+       -0.0764,
+       "Aldgate"
+      ],
+      [
+       51.5158,
+       -0.0812,
+       "Bishopsgate"
+      ],
+      [
+       51.5177,
+       -0.0886,
+       "Moorgate (from 1415)"
+      ],
+      [
+       51.5181,
+       -0.0945,
+       "Cripplegate"
+      ],
+      [
+       51.5166,
+       -0.0968,
+       "Aldersgate"
+      ],
+      [
+       51.5154,
+       -0.1012,
+       "Newgate"
+      ],
+      [
+       51.5139,
+       -0.1023,
+       "Ludgate"
+      ]
+     ]
+    }
+   }
+  ],
+  "sources": [
+   "english-heritage-history-london-wall",
+   "london-museum-timeline-roman-london",
+   "current-archaeology-fortress-londinium-tracing-londons",
+   "bho-stow-wall-about-citie",
+   "bho-stow-gates-wall",
+   "bho-fitzstephen-descriptio-stow-appendix",
+   "bho-stow-ditch-sometimes-compassing",
+   "moeml-aldgate",
+   "grub-street-aldgate-reproducing-harben-dictionary",
+   "grub-street-aldersgate-reproducing-harben-dictionary"
+  ]
+ },
+ {
+  "id": "riverside-wall",
+  "name": "Riverside wall",
+  "lat": 51.51,
+  "lon": -0.09,
+  "tier": "overview",
+  "path": [
+   [
+    51.5113,
+    -0.1026
+   ],
+   [
+    51.5107,
+    -0.096
+   ],
+   [
+    51.5101,
+    -0.09
+   ],
+   [
+    51.5098,
+    -0.083
+   ],
+   [
+    51.5095,
+    -0.0775
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A wall about 1,700 m long added along the river front c. 255\u2013275 on the line of Thames Street, closing the circuit. Its eastern end was strengthened as late as c. 388\u2013402, parts still stood in the late 9th century, and it had gone by the 12th.",
+  "uncertainty": "Its full line and the pace of its collapse are only partly known; the slow decay shown is illustrative.",
+  "phases": [
+   {
+    "label": "Riverside wall",
+    "from": 255,
+    "built": 275,
+    "to": 450,
+    "end": "decay",
+    "goneBy": 1100,
+    "model": {
+     "kind": "wall",
+     "h": 5.5,
+     "thick": 2.2,
+     "wall": "roman-rubble",
+     "crenel": true,
+     "towers": 0
+    }
+   }
+  ],
+  "sources": [
+   "english-heritage-history-london-wall",
+   "london-museum-timeline-roman-london",
+   "gresham-discovering-port-roman-london",
+   "mola-saxon-ad-4101066-research",
+   "gresham-london-notsodark-ages-lyn",
+   "london-museum-lundenwic-other-medieval-london",
+   "lamas-saxon-origins-queenhithe-r",
+   "bho-stow-wall-about-citie"
+  ]
+ },
+ {
+  "id": "governors-palace",
+  "name": "Cannon Street riverside complex ('governor's palace')",
+  "lat": 51.5112,
+  "lon": -0.0903,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "A large terraced riverside complex with courts and an ornamental pool under Cannon Street station, formerly called the governor's palace.",
+  "uncertainty": "Its function, and whether it was one building at all, are disputed; the western range is entirely hypothetical and the c. 130 \u00d7 100 m extent is from secondary sources. The single symmetrical courtyard shown is a placeholder.",
+  "phases": [
+   {
+    "label": "Riverside complex",
+    "from": 80,
+    "built": 100,
+    "to": 300,
+    "end": "demolished",
+    "model": {
+     "kind": "courtyard",
+     "l": 130,
+     "w": 95,
+     "h": 8,
+     "range": 14,
+     "wall": "roman-rubble",
+     "roof": "tegula",
+     "placeholder": true
+    }
+   }
+  ],
+  "sources": [
+   "london-guided-cannon-street-stations-grandiose",
+   "london-archaeologist-marsden-purpose-cripplegate-roman",
+   "aubrey-research-roman-governors-palace-site"
+  ]
+ },
+ {
+  "id": "huggin-hill-baths",
+  "name": "Huggin Hill baths",
+  "lat": 51.5112,
+  "lon": -0.0947,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "low",
+  "summary": "A large public bath-house terraced into the hillside above the river.",
+  "uncertainty": "Only 'late 1st century' could be verified for construction; demolition c. 180\u2013200 is unverified. Elevation is reconstruction.",
+  "phases": [
+   {
+    "label": "Public baths",
+    "from": 75,
+    "built": 90,
+    "to": 190,
+    "end": "demolished",
+    "model": {
+     "kind": "hall",
+     "l": 75,
+     "w": 35,
+     "h": 9,
+     "wall": "roman-rubble",
+     "roof": "tegula",
+     "vaulted": true
+    },
+    "dateNote": "Late 1st century; demolition c. 180\u2013200 (low confidence)."
+   }
+  ],
+  "sources": [
+   "onlondon-vic-keegans-lost-london",
+   "aubrey-research-huggin-hill-roman-bath"
+  ]
+ },
+ {
+  "id": "mithraeum",
+  "name": "Temple of Mithras",
+  "lat": 51.5124,
+  "lon": -0.0906,
+  "bearing": 90,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "A small aisled temple on the east bank of the Walbrook, built c. 240\u2013250 with its apse to the west; converted, probably to Bacchus, in the early 4th century. Found in 1954.",
+  "uncertainty": "Roof form and height are reconstruction; the 18 \u00d7 8 m plan is from secondary sources.",
+  "phases": [
+   {
+    "label": "Mithraeum",
+    "from": 240,
+    "built": 250,
+    "to": 380,
+    "end": "decay",
+    "goneBy": 480,
+    "model": {
+     "kind": "hall",
+     "l": 18,
+     "w": 8,
+     "h": 6,
+     "wall": "roman-rubble",
+     "roof": "tegula",
+     "apse": true
+    },
+    "dateNote": "Built c. 240\u2013250; out of use in the late 4th century."
+   }
+  ],
+  "sources": [
+   "mola-mithras-mithraism-top-10",
+   "british-listed-temple-mithras-grade-ii",
+   "london-museum-timeline-roman-london"
+  ]
+ },
+ {
+  "id": "road-watling-south",
+  "name": "Road to the bridge from the south (Borough High Street line)",
+  "lat": 51.503,
+  "lon": -0.091,
+  "tier": "overview",
+  "path": [
+   [
+    51.5062,
+    -0.0879
+   ],
+   [
+    51.504,
+    -0.0898
+   ],
+   [
+    51.501,
+    -0.0925
+   ],
+   [
+    51.496,
+    -0.0965
+   ],
+   [
+    51.4945,
+    -0.098
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The approach road across the Southwark islands, where the roads from the Kent coast and the south met before the bridge.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 50,
+    "built": 55,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 8
+    }
+   }
+  ],
+  "sources": [
+   "rfla-roman-ad-43-410",
+   "rfla-prehistory-research-framework-london",
+   "southwark-council-archaeology-southwark-roman",
+   "london-archaeologist-brigham-watson-regis-house",
+   "gresham-discovering-port-roman-london"
+  ],
+  "uncertainty": "Line simplified; the internal street grid was only partly regular."
+ },
+ {
+  "id": "road-ermine",
+  "name": "Road north (Bishopsgate line)",
+  "lat": 51.517,
+  "lon": -0.081,
+  "tier": "overview",
+  "path": [
+   [
+    51.5102,
+    -0.0858
+   ],
+   [
+    51.5128,
+    -0.0846
+   ],
+   [
+    51.5158,
+    -0.0812
+   ],
+   [
+    51.519,
+    -0.08
+   ],
+   [
+    51.5225,
+    -0.079
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The road from the bridge past the forum and north towards Lincoln and York.",
+  "uncertainty": "Use of the stretch inside the walls between the 5th and 9th centuries is uncertain. Line simplified; the internal street grid was only partly regular.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 50,
+    "built": 55,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 8
+    }
+   }
+  ],
+  "sources": [
+   "rfla-roman-ad-43-410",
+   "rfla-prehistory-research-framework-london",
+   "southwark-council-archaeology-southwark-roman",
+   "london-archaeologist-brigham-watson-regis-house"
+  ]
+ },
+ {
+  "id": "road-main-street",
+  "name": "Main east\u2013west Roman street",
+  "lat": 51.514,
+  "lon": -0.09,
+  "tier": "overview",
+  "path": [
+   [
+    51.5154,
+    -0.1012
+   ],
+   [
+    51.5142,
+    -0.095
+   ],
+   [
+    51.5132,
+    -0.09
+   ],
+   [
+    51.5127,
+    -0.085
+   ],
+   [
+    51.5135,
+    -0.0764
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The principal street of Londinium, running east\u2013west north of the Walbrook crossing.",
+  "phases": [
+   {
+    "label": "Roman street",
+    "from": 50,
+    "built": 55,
+    "to": 430,
+    "end": "decay",
+    "goneBy": 600,
+    "model": {
+     "kind": "road",
+     "width": 8
+    }
+   }
+  ],
+  "sources": [
+   "rfla-roman-ad-43-410",
+   "rfla-prehistory-research-framework-london",
+   "southwark-council-archaeology-southwark-roman",
+   "london-archaeologist-brigham-watson-regis-house"
+  ],
+  "uncertainty": "Line simplified; the internal street grid was only partly regular."
+ },
+ {
+  "id": "road-cheapside",
+  "name": "Cheapside \u2013 Cornhill",
+  "lat": 51.514,
+  "lon": -0.092,
+  "tier": "overview",
+  "path": [
+   [
+    51.5154,
+    -0.1012
+   ],
+   [
+    51.5144,
+    -0.096
+   ],
+   [
+    51.5137,
+    -0.0905
+   ],
+   [
+    51.5132,
+    -0.085
+   ],
+   [
+    51.5135,
+    -0.0764
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The market street ('ceap') of the re-established Saxon city, the spine of the medieval street plan.",
+  "uncertainty": "The date at which the late Saxon street grid was laid out is debated (late 9th to 10th century).",
+  "phases": [
+   {
+    "label": "Street",
+    "from": 890,
+    "built": 950,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 12
+    }
+   }
+  ],
+  "sources": [
+   "lamas-saxon-origins-queenhithe-r",
+   "mola-saxon-ad-4101066-research",
+   "london-museum-vikings-london"
+  ]
+ },
+ {
+  "id": "road-west",
+  "name": "Road west (Holborn line)",
+  "lat": 51.517,
+  "lon": -0.11,
+  "tier": "overview",
+  "path": [
+   [
+    51.5154,
+    -0.1012
+   ],
+   [
+    51.5172,
+    -0.107
+   ],
+   [
+    51.5172,
+    -0.115
+   ],
+   [
+    51.5163,
+    -0.125
+   ],
+   [
+    51.5155,
+    -0.134
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The Roman road west from Newgate towards Silchester, still a main road in 1625.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 50,
+    "built": 60,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 8
+    }
+   }
+  ],
+  "sources": [
+   "rfla-roman-ad-43-410",
+   "rfla-prehistory-research-framework-london",
+   "southwark-council-archaeology-southwark-roman",
+   "london-archaeologist-brigham-watson-regis-house"
+  ],
+  "uncertainty": "Line simplified; the internal street grid was only partly regular."
+ },
+ {
+  "id": "road-strand",
+  "name": "Fleet Street \u2013 Strand \u2013 King Street",
+  "lat": 51.511,
+  "lon": -0.118,
+  "tier": "overview",
+  "path": [
+   [
+    51.5139,
+    -0.1023
+   ],
+   [
+    51.514,
+    -0.108
+   ],
+   [
+    51.5128,
+    -0.114
+   ],
+   [
+    51.5105,
+    -0.12
+   ],
+   [
+    51.5075,
+    -0.127
+   ],
+   [
+    51.504,
+    -0.1262
+   ],
+   [
+    51.5008,
+    -0.1265
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The road along the river terrace from Ludgate through Lundenwic to Westminster.",
+  "uncertainty": "Probably of Roman origin, but that is not proven for its whole length.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 600,
+    "built": 650,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 9
+    }
+   }
+  ],
+  "sources": [
+   "lamas-excavations-royal-opera-house",
+   "gresham-london-notsodark-ages-lyn",
+   "london-museum-lundenwic-other-medieval-london",
+   "london-museum-vikings-london",
+   "mola-saxon-ad-4101066-research"
+  ]
+ },
+ {
+  "id": "walbrook",
+  "name": "Walbrook stream",
+  "lat": 51.5135,
+  "lon": -0.09,
+  "tier": "overview",
+  "path": [
+   [
+    51.519,
+    -0.0865
+   ],
+   [
+    51.516,
+    -0.0885
+   ],
+   [
+    51.5135,
+    -0.09
+   ],
+   [
+    51.5115,
+    -0.091
+   ],
+   [
+    51.5101,
+    -0.0915
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "The stream that divided the Roman and medieval city. Progressively built over and culverted; gone from view by the late 16th century.",
+  "uncertainty": "No single date exists for the covering; Stow (1598) describes it as wholly vaulted over. The gradual narrowing shown is illustrative.",
+  "phases": [
+   {
+    "label": "Open stream",
+    "from": -4000,
+    "continues": true,
+    "to": 1440,
+    "end": "decay",
+    "goneBy": 1560,
+    "model": {
+     "kind": "stream",
+     "width": 7
+    },
+    "dateNote": "Covered piecemeal from c. 1440; fully vaulted inside the walls by c. 1550\u201360."
+   }
+  ],
+  "sources": [
+   "bho-stow-ancient-present-rivers",
+   "bho-stow-bridges-this-citie"
+  ]
+ },
+ {
+  "id": "fleet",
+  "name": "River Fleet",
+  "lat": 51.515,
+  "lon": -0.1048,
+  "tier": "overview",
+  "path": [
+   [
+    51.523,
+    -0.1055
+   ],
+   [
+    51.518,
+    -0.1052
+   ],
+   [
+    51.514,
+    -0.1047
+   ],
+   [
+    51.5112,
+    -0.1043
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "A tributary entering the Thames at Blackfriars; an open, increasingly foul river throughout this period.",
+  "phases": [
+   {
+    "label": "Open river",
+    "from": -4000,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "stream",
+     "width": 16
+    }
+   }
+  ],
+  "sources": [
+   "bho-stow-ancient-present-rivers",
+   "bho-stow-castle-baynard-warde",
+   "bho-stow-bridges-this-citie"
+  ],
+  "uncertainty": "It silted and narrowed from the 13th century; the constant width shown is a simplification."
+ },
+ {
+  "id": "st-pauls",
+  "name": "St Paul's Cathedral",
+  "lat": 51.5138,
+  "lon": -0.0984,
+  "bearing": 82,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A cathedral has stood on Ludgate Hill since 604. The medieval building, 'Old St Paul's', was one of the longest churches in Europe and carried a very tall timber spire until 1561.",
+  "uncertainty": "Nothing is known of the form of the Anglo-Saxon churches; the small buildings shown before 1087 are placeholders. Overall length 586 ft (about 179 m) is documented. Published spire heights range from about 122 to 158 m (149 m is the traditional figure); the model uses about 144 m and no figure is a reliable measurement.",
+  "phases": [
+   {
+    "label": "Anglo-Saxon cathedral (form unknown)",
+    "from": 604,
+    "built": 610,
+    "to": 962,
+    "end": "burned",
+    "dateNote": "Founded 604. No fabric or exact site of the Saxon church has been identified.",
+    "model": {
+     "kind": "church",
+     "l": 30,
+     "w": 11,
+     "h": 8,
+     "wall": "roman-rubble",
+     "roof": "shingle",
+     "placeholder": true
+    }
+   },
+   {
+    "label": "Late Saxon cathedral (form unknown)",
+    "from": 962,
+    "built": 970,
+    "to": 1087,
+    "end": "burned",
+    "model": {
+     "kind": "church",
+     "l": 42,
+     "w": 14,
+     "h": 10,
+     "wall": "ragstone",
+     "roof": "shingle",
+     "tower": {
+      "w": 9,
+      "h": 20,
+      "at": "west"
+     },
+     "placeholder": true
+    },
+    "dateNote": "Rebuilt after the fire of 962; destroyed in the fire of 1087."
+   },
+   {
+    "label": "Old St Paul's: Romanesque church under construction",
+    "from": 1087,
+    "built": 1200,
+    "to": 1221,
+    "end": "handover",
+    "model": {
+     "kind": "church",
+     "l": 150,
+     "w": 32,
+     "h": 28,
+     "wall": "caen",
+     "roof": "lead",
+     "aisles": true,
+     "transept": {
+      "l": 88,
+      "w": 28
+     },
+     "tower": {
+      "w": 16,
+      "h": 50,
+      "at": "crossing"
+     }
+    },
+    "dateNote": "Begun after the 1087 fire."
+   },
+   {
+    "label": "Old St Paul's with spire",
+    "from": 1221,
+    "continues": true,
+    "to": 1314,
+    "end": "handover",
+    "dateNote": "Steeple erected 1221/22; the Gothic 'New Work' east end begun 1251\u201356 and finished 1314.",
+    "model": {
+     "kind": "church",
+     "l": 150,
+     "w": 32,
+     "h": 28,
+     "wall": "caen",
+     "roof": "lead",
+     "aisles": true,
+     "transept": {
+      "l": 88,
+      "w": 28
+     },
+     "tower": {
+      "w": 16,
+      "h": 62,
+      "at": "crossing"
+     },
+     "spire": 75
+    }
+   },
+   {
+    "label": "Old St Paul's, extended, with renewed spire",
+    "from": 1314,
+    "continues": true,
+    "to": 1561,
+    "end": "handover",
+    "dateNote": "Renewed spire dedicated 1314; destroyed by lightning and fire, 4 June 1561.",
+    "model": {
+     "kind": "church",
+     "l": 179,
+     "w": 32,
+     "h": 28,
+     "wall": "caen",
+     "roof": "lead",
+     "aisles": true,
+     "transept": {
+      "l": 88,
+      "w": 28
+     },
+     "tower": {
+      "w": 16,
+      "h": 62,
+      "at": "crossing"
+     },
+     "spire": 82,
+     "crossingAt": 0.46
+    }
+   },
+   {
+    "label": "Old St Paul's without its spire",
+    "from": 1561,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "church",
+     "l": 179,
+     "w": 32,
+     "h": 28,
+     "wall": "caen",
+     "roof": "lead",
+     "aisles": true,
+     "transept": {
+      "l": 88,
+      "w": 28
+     },
+     "tower": {
+      "w": 16,
+      "h": 62,
+      "at": "crossing"
+     },
+     "crossingAt": 0.46
+    },
+    "dateNote": "Roofs repaired 1561\u201366; the spire was never rebuilt. Tower stump about 62 m."
+   }
+  ],
+  "sources": [
+   "bho-secular-canons-cathedral-st",
+   "gresham-archaeology-st-pauls-cathedral",
+   "gresham-london-notsodark-ages-lyn",
+   "project-gutenberg-w-benham-old-st",
+   "bho-stow-faringdon-ward-infra",
+   "london-museum-history-st-pauls-cathedral",
+   "current-archaeology-st-pauls-before-wren",
+   "nc-state-virtual-pauls-cross-project"
+  ]
+ },
+ {
+  "id": "queenhithe",
+  "name": "Queenhithe",
+  "lat": 51.5106,
+  "lon": -0.095,
+  "bearing": 170,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "A trading shore from the late 880s ('\u00c6thelred's Hythe', first charter 889): at first an open beach market, with low timber revetments from the late 10th century and embankments dated 1021 and 1045. The main dock above the bridge through the Middle Ages.",
+  "phases": [
+   {
+    "label": "Revetted dock",
+    "from": 970,
+    "built": 1021,
+    "to": null,
+    "dateNote": "Revetments late 10th century; embankments tree-ring dated 1021 and 1045.",
+    "model": {
+     "kind": "dock",
+     "l": 55,
+     "w": 34
+    }
+   }
+  ],
+  "sources": [
+   "lamas-saxon-origins-queenhithe-r",
+   "bho-stow-queene-hith-warde"
+  ],
+  "uncertainty": "The beach-market phase (c. 886\u2013970) had no built quay and is not modelled; the timber dock shown is generic."
+ },
+ {
+  "id": "saxon-bridge",
+  "name": "Late Saxon and Norman timber bridge",
+  "lat": 51.5078,
+  "lon": -0.0871,
+  "tier": "district",
+  "path": [
+   [
+    51.5096,
+    -0.0862
+   ],
+   [
+    51.5064,
+    -0.0877
+   ]
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "A timber bridge existed again by about 1000 CE and was repaired or rebuilt several times before the stone bridge replaced it.",
+  "uncertainty": "Its exact line, form and the number of rebuildings are not known; the model is generic.",
+  "phases": [
+   {
+    "label": "Timber bridge",
+    "from": 990,
+    "built": 1000,
+    "to": 1135,
+    "end": "burned",
+    "dateNote": "In existence by c. 1000. The 1014 'pulling down' is saga tradition only; burned in 1135 or 1136 depending on the source.",
+    "model": {
+     "kind": "bridge",
+     "type": "timber",
+     "width": 6,
+     "deck": 5,
+     "span": 11
+    }
+   },
+   {
+    "label": "Rebuilt timber bridge",
+    "from": 1136,
+    "built": 1163,
+    "to": 1209,
+    "end": "demolished",
+    "model": {
+     "kind": "bridge",
+     "type": "timber",
+     "width": 6,
+     "deck": 5,
+     "span": 11
+    },
+    "dateNote": "Last timber rebuild 1163 (Peter of Colechurch); replaced by the stone bridge built alongside."
+   }
+  ],
+  "sources": [
+   "lamas-medieval-london-bridge-role",
+   "bho-stow-bridges-this-citie",
+   "london-museum-vikings-london",
+   "bho-old-new-london-vol",
+   "mola-saxon-ad-4101066-research"
+  ]
+ },
+ {
+  "id": "old-london-bridge",
+  "name": "Old London Bridge",
+  "lat": 51.5078,
+  "lon": -0.0871,
+  "tier": "district",
+  "path": [
+   [
+    51.509,
+    -0.0865
+   ],
+   [
+    51.50665,
+    -0.08777
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "The stone bridge of 19 arches and a drawbridge opening, begun in 1176 and finished in 1209, about 276 m long and only about 6 m wide, lined with houses, with a chapel on its central pier and a fortified gate at the Southwark end.",
+  "uncertainty": "Length 276 m follows MOLA (the traditional figure is 926 ft, about 282 m). The deck height above the water is undocumented and the 8 m used is an assumption. Individual pier, arch and starling sizes are generated, not measured. Five arches collapsed in the winter of 1281\u201382 and two (with the Stone Gate) in January 1437; those repairs are not animated.",
+  "phases": [
+   {
+    "label": "Stone bridge",
+    "from": 1176,
+    "built": 1209,
+    "to": null,
+    "model": {
+     "kind": "stone-bridge",
+     "width": 6.1,
+     "deck": 8,
+     "arches": 19
+    }
+   }
+  ],
+  "sources": [
+   "lamas-medieval-london-bridge-role",
+   "current-archaeology-life-across-water-exploring",
+   "bho-stow-bridges-this-citie",
+   "bho-stow-towers-castels-bridge",
+   "bho-austin-canons-priory-southwark",
+   "bho-old-new-london-vol",
+   "bho-stow-bridgewarde-within",
+   "moeml-london-bridge"
+  ]
+ },
+ {
+  "id": "bridge-houses",
+  "name": "Houses on London Bridge",
+  "lat": 51.5078,
+  "lon": -0.0871,
+  "tier": "district",
+  "path": [
+   [
+    51.509,
+    -0.0865
+   ],
+   [
+    51.50665,
+    -0.08777
+   ]
+  ],
+  "evidence": "attested-pictorial",
+  "confidence": "medium",
+  "summary": "Houses stood on the bridge from soon after it was finished: about 140 by 1358 and about 130 in the 16th century, overhanging the river on both sides of a roadway only about 4 m wide and bridging it in places.",
+  "uncertainty": "No house is individually documented before the 16th\u201317th century views, and those disagree in detail. Number of storeys before the 15th century is conjectural.",
+  "phases": [
+   {
+    "label": "First houses",
+    "from": 1209,
+    "built": 1211,
+    "to": 1212,
+    "end": "burned",
+    "model": {
+     "kind": "bridge-houses",
+     "storeys": 2,
+     "style": "medieval",
+     "deck": 8
+    },
+    "dateNote": "Destroyed in the fire of 11 July 1212."
+   },
+   {
+    "label": "Medieval houses",
+    "from": 1214,
+    "built": 1260,
+    "to": 1480,
+    "end": "handover",
+    "model": {
+     "kind": "bridge-houses",
+     "storeys": 3,
+     "style": "medieval",
+     "deck": 8
+    }
+   },
+   {
+    "label": "Tudor houses",
+    "from": 1480,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "bridge-houses",
+     "storeys": 4,
+     "style": "tudor",
+     "deck": 8
+    }
+   }
+  ],
+  "sources": [
+   "lamas-medieval-london-bridge-role",
+   "current-archaeology-life-across-water-exploring",
+   "bho-stow-bridges-this-citie",
+   "bho-stow-towers-castels-bridge",
+   "bho-austin-canons-priory-southwark",
+   "bho-old-new-london-vol",
+   "bho-stow-bridgewarde-within",
+   "moeml-london-bridge"
+  ]
+ },
+ {
+  "id": "bridge-chapel",
+  "name": "Chapel of St Thomas on the Bridge",
+  "lat": 51.5079,
+  "lon": -0.087,
+  "tier": "district",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A two-storey chapel on the large central pier, dedicated to Thomas Becket. Rebuilt 1387\u201396; closed in 1548 and turned into a house, shop and warehouse.",
+  "phases": [
+   {
+    "label": "First chapel",
+    "from": 1205,
+    "built": 1212,
+    "to": 1387,
+    "end": "replaced",
+    "model": {
+     "kind": "bridge-chapel",
+     "h": 12,
+     "style": "early"
+    }
+   },
+   {
+    "label": "Rebuilt chapel",
+    "from": 1387,
+    "built": 1396,
+    "to": 1549,
+    "end": "handover",
+    "model": {
+     "kind": "bridge-chapel",
+     "h": 15,
+     "style": "perpendicular"
+    },
+    "dateNote": "Rebuilt 1387\u201396."
+   },
+   {
+    "label": "Chapel converted to a dwelling",
+    "from": 1549,
+    "continues": true,
+    "to": null,
+    "dateNote": "Chapel closed 1548; converted to a house in 1549 (first lease 1553 in another account).",
+    "model": {
+     "kind": "bridge-chapel",
+     "h": 15,
+     "style": "house"
+    }
+   }
+  ],
+  "sources": [
+   "bho-colleges-st-thomas-london",
+   "current-archaeology-life-across-water-exploring",
+   "lamas-medieval-london-bridge-role",
+   "bho-stow-bridges-this-citie",
+   "bho-stow-towers-castels-bridge",
+   "bho-austin-canons-priory-southwark",
+   "bho-old-new-london-vol"
+  ],
+  "path": [
+   [
+    51.509,
+    -0.0865
+   ],
+   [
+    51.50665,
+    -0.08777
+   ]
+  ],
+  "uncertainty": "Dimensions are not documented; the form follows later views."
+ },
+ {
+  "id": "bridge-stone-gate",
+  "name": "Great Stone Gate",
+  "lat": 51.5068,
+  "lon": -0.0877,
+  "tier": "district",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The fortified gate at the Southwark end of the bridge. After 1577 the heads of traitors were displayed here.",
+  "phases": [
+   {
+    "label": "Stone gate",
+    "from": 1200,
+    "built": 1209,
+    "to": 1437,
+    "end": "ruin",
+    "goneBy": 1440,
+    "dateNote": "Collapsed with two arches in January 1437.",
+    "model": {
+     "kind": "bridge-gate",
+     "h": 16,
+     "w": 11
+    }
+   },
+   {
+    "label": "Rebuilt stone gate",
+    "from": 1437,
+    "built": 1466,
+    "to": null,
+    "model": {
+     "kind": "bridge-gate",
+     "h": 19,
+     "w": 12,
+     "heads": 1577
+    },
+    "dateNote": "Rebuilt after the collapse of January 1437; burned in Fauconberg's attack of 1471 and repaired. Traitors' heads were moved here in 1577."
+   }
+  ],
+  "sources": [
+   "bho-stow-towers-castels-bridge",
+   "bho-stow-gates-wall",
+   "current-archaeology-life-across-water-exploring",
+   "lamas-medieval-london-bridge-role",
+   "bho-stow-bridges-this-citie",
+   "bho-austin-canons-priory-southwark",
+   "bho-old-new-london-vol"
+  ],
+  "path": [
+   [
+    51.509,
+    -0.0865
+   ],
+   [
+    51.50665,
+    -0.08777
+   ]
+  ],
+  "uncertainty": "Dimensions undocumented."
+ },
+ {
+  "id": "bridge-drawbridge-gate",
+  "name": "Drawbridge Gate",
+  "lat": 51.5072,
+  "lon": -0.0875,
+  "tier": "district",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A gate tower beside the drawbridge, seventh opening from the Southwark end. Demolished in 1577 and replaced by Nonsuch House.",
+  "phases": [
+   {
+    "label": "Drawbridge tower",
+    "from": 1250,
+    "built": 1258,
+    "to": 1426,
+    "end": "replaced",
+    "dateNote": "Early form poorly documented.",
+    "model": {
+     "kind": "bridge-gate",
+     "h": 14,
+     "w": 10,
+     "pier": 12
+    }
+   },
+   {
+    "label": "Rebuilt drawbridge gate",
+    "from": 1426,
+    "built": 1428,
+    "to": 1577,
+    "end": "demolished",
+    "model": {
+     "kind": "bridge-gate",
+     "h": 17,
+     "w": 10,
+     "pier": 12
+    }
+   }
+  ],
+  "sources": [
+   "bho-stow-towers-castels-bridge",
+   "current-archaeology-life-across-water-exploring",
+   "moeml-drawbridge-tower",
+   "ianvisits-london-bridges-lost-nonsuch",
+   "lamas-medieval-london-bridge-role",
+   "bho-stow-bridges-this-citie",
+   "bho-austin-canons-priory-southwark",
+   "bho-old-new-london-vol"
+  ],
+  "path": [
+   [
+    51.509,
+    -0.0865
+   ],
+   [
+    51.50665,
+    -0.08777
+   ]
+  ],
+  "uncertainty": "Dimensions undocumented. Traitors' heads were displayed on this tower until its demolition in 1577."
+ },
+ {
+  "id": "nonsuch-house",
+  "name": "Nonsuch House",
+  "lat": 51.5072,
+  "lon": -0.0875,
+  "tier": "district",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A four-and-a-half-storey timber house with corner turrets and onion domes, built across the bridge in 1577\u201379 on the site of the drawbridge tower; its design is attributed to Lewis Stockett, Surveyor of the Queen's Works.",
+  "uncertainty": "Footprint about 22.9 \u00d7 7.6 m in the Gerhold-based account; height undocumented, and no measured contemporary drawing exists. It is said by later tradition, unverified, to have been prefabricated in the Netherlands.",
+  "phases": [
+   {
+    "label": "Nonsuch House",
+    "from": 1577,
+    "built": 1579,
+    "to": null,
+    "model": {
+     "kind": "nonsuch",
+     "h": 17,
+     "w": 15,
+     "d": 7.6
+    },
+    "dateNote": "Tower taken down 1577; house finished September 1579 (Stow)."
+   }
+  ],
+  "sources": [
+   "bho-stow-towers-castels-bridge",
+   "current-archaeology-life-across-water-exploring",
+   "moeml-drawbridge-tower",
+   "ianvisits-london-bridges-lost-nonsuch"
+  ],
+  "path": [
+   [
+    51.509,
+    -0.0865
+   ],
+   [
+    51.50665,
+    -0.08777
+   ]
+  ]
+ },
+ {
+  "id": "bridge-waterworks",
+  "name": "London Bridge waterworks",
+  "lat": 51.5089,
+  "lon": -0.0866,
+  "tier": "district",
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "Tide-driven waterwheels under the northernmost arches, set up by Peter Morris in 1581\u201382 to pump river water into the city.",
+  "phases": [
+   {
+    "label": "Waterwheels",
+    "from": 1581,
+    "built": 1582,
+    "to": null,
+    "model": {
+     "kind": "waterwheel",
+     "d": 6
+    },
+    "dateNote": "Operational 1582 (Stow). Corn mills were added at the south end c. 1590\u201391 (not modelled)."
+   }
+  ],
+  "sources": [
+   "bho-stow-ancient-present-rivers",
+   "current-archaeology-life-across-water-exploring"
+  ],
+  "path": [
+   [
+    51.509,
+    -0.0865
+   ],
+   [
+    51.50665,
+    -0.08777
+   ]
+  ]
+ },
+ {
+  "id": "st-magnus",
+  "name": "St Magnus the Martyr",
+  "lat": 51.5093,
+  "lon": -0.0861,
+  "bearing": 80,
+  "tier": "district",
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "The parish church at the north end of the bridge; every traveller crossing passed its door.",
+  "uncertainty": "No firm earliest mention could be verified: 1067 rests on a suspect charter, so 'by the early 12th century' is used. No reliable image of the medieval building survives; the form and the date of enlargement are generic.",
+  "phases": [
+   {
+    "label": "Early church",
+    "from": 1100,
+    "built": 1128,
+    "to": 1250,
+    "end": "handover",
+    "model": {
+     "kind": "church",
+     "l": 22,
+     "w": 9,
+     "h": 7,
+     "wall": "ragstone",
+     "roof": "shingle"
+    }
+   },
+   {
+    "label": "Enlarged medieval church",
+    "from": 1250,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "church",
+     "l": 34,
+     "w": 16,
+     "h": 10,
+     "wall": "ragstone",
+     "roof": "lead",
+     "aisles": true,
+     "tower": {
+      "w": 7,
+      "h": 26,
+      "at": "west"
+     }
+    }
+   }
+  ],
+  "sources": [
+   "city-of-london-st-magnus-martyr",
+   "bho-stow-bridgewarde-within"
+  ]
+ },
+ {
+  "id": "fishmongers-hall",
+  "name": "Fishmongers' Hall",
+  "lat": 51.5092,
+  "lon": -0.0874,
+  "bearing": 80,
+  "tier": "district",
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "The riverside hall of the Fishmongers' Company, just upstream of the bridge, from 1434.",
+  "uncertainty": "1434 is the traditional date of acquisition and was not verified. Appearance before the 1640s views is conjectural.",
+  "phases": [
+   {
+    "label": "Company hall",
+    "from": 1434,
+    "built": 1444,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 36,
+     "w": 30,
+     "h": 9,
+     "range": 8,
+     "wall": "ragstone",
+     "roof": "tile"
+    }
+   }
+  ],
+  "sources": [
+   "bho-stow-bridgewarde-within"
+  ]
+ },
+ {
+  "id": "st-olave",
+  "name": "St Olave, Southwark",
+  "lat": 51.5063,
+  "lon": -0.0866,
+  "bearing": 85,
+  "tier": "district",
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "Church at the south bridge foot dedicated to St Olaf of Norway, in existence by the late 11th century.",
+  "uncertainty": "In existence by the late 11th century; the medieval form is generic.",
+  "phases": [
+   {
+    "label": "Church",
+    "from": 1070,
+    "built": 1096,
+    "to": null,
+    "model": {
+     "kind": "church",
+     "l": 30,
+     "w": 14,
+     "h": 9,
+     "wall": "ragstone",
+     "roof": "tile",
+     "tower": {
+      "w": 7,
+      "h": 22,
+      "at": "west"
+     }
+    }
+   }
+  ],
+  "sources": [
+   "bho-stow-bridge-warde-without",
+   "london-museum-vikings-london",
+   "current-archaeology-life-across-water-exploring"
+  ]
+ },
+ {
+  "id": "st-mary-overie",
+  "name": "St Mary Overie (St Saviour's)",
+  "lat": 51.5061,
+  "lon": -0.0896,
+  "bearing": 82,
+  "tier": "district",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Augustinian priory church at the Southwark bridge foot, refounded 1106, rebuilt in Gothic style after the fire of 1212. It became the parish church of St Saviour in 1540 and survives as Southwark Cathedral.",
+  "phases": [
+   {
+    "label": "Norman priory church",
+    "from": 1106,
+    "built": 1140,
+    "to": 1212,
+    "end": "burned",
+    "model": {
+     "kind": "church",
+     "l": 55,
+     "w": 18,
+     "h": 13,
+     "wall": "ragstone",
+     "roof": "shingle",
+     "transept": {
+      "l": 34,
+      "w": 9
+     },
+     "tower": {
+      "w": 9,
+      "h": 22,
+      "at": "crossing"
+     }
+    },
+    "dateNote": "Refounded 1106; burned 11 July 1212 in the same fire as the bridge."
+   },
+   {
+    "label": "Gothic priory church",
+    "from": 1220,
+    "built": 1300,
+    "to": 1520,
+    "end": "handover",
+    "model": {
+     "kind": "church",
+     "l": 80,
+     "w": 21,
+     "h": 17,
+     "wall": "ragstone",
+     "roof": "lead",
+     "aisles": true,
+     "transept": {
+      "l": 36,
+      "w": 10
+     },
+     "tower": {
+      "w": 10.5,
+      "h": 30,
+      "at": "crossing"
+     }
+    }
+   },
+   {
+    "label": "Church with heightened tower",
+    "from": 1520,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "church",
+     "l": 80,
+     "w": 21,
+     "h": 17,
+     "wall": "ragstone",
+     "roof": "lead",
+     "aisles": true,
+     "transept": {
+      "l": 36,
+      "w": 10
+     },
+     "tower": {
+      "w": 10.5,
+      "h": 45,
+      "at": "crossing",
+      "pinnacles": true
+     }
+    },
+    "dateNote": "Priory surrendered 27 October 1539; parish church of St Saviour from 1540."
+   }
+  ],
+  "sources": [
+   "bho-austin-canons-priory-southwark",
+   "southwark-cathedral-augustinian-heritage",
+   "bho-stow-bridge-warde-without",
+   "southwark-cathedral-our-history"
+  ]
+ },
+ {
+  "id": "winchester-palace",
+  "name": "Winchester Palace",
+  "lat": 51.5066,
+  "lon": -0.0905,
+  "bearing": 80,
+  "tier": "district",
+  "evidence": "attested-standing",
+  "confidence": "medium",
+  "summary": "The London house of the bishops of Winchester on Bankside, with a great hall whose rose-window gable still stands.",
+  "phases": [
+   {
+    "label": "Bishop's palace",
+    "from": 1144,
+    "built": 1160,
+    "to": 1300,
+    "end": "handover",
+    "model": {
+     "kind": "hall",
+     "l": 30,
+     "w": 11,
+     "h": 9,
+     "wall": "ragstone",
+     "roof": "shingle"
+    },
+    "dateNote": "Henry of Blois, c. 1140s."
+   },
+   {
+    "label": "Palace with great hall",
+    "from": 1300,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 70,
+     "w": 48,
+     "h": 10,
+     "range": 10,
+     "wall": "ragstone",
+     "roof": "tile",
+     "greatHall": true
+    },
+    "dateNote": "The standing great hall is a 14th-century rebuild."
+   }
+  ],
+  "sources": [
+   "english-heritage-history-winchester-palace",
+   "bho-stow-bridge-warde-without"
+  ]
+ },
+ {
+  "id": "billingsgate",
+  "name": "Billingsgate",
+  "lat": 51.5089,
+  "lon": -0.0843,
+  "bearing": 170,
+  "tier": "district",
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "The dock and market below the bridge, in use by about 1000 CE.",
+  "phases": [
+   {
+    "label": "Dock",
+    "from": 990,
+    "built": 1000,
+    "to": null,
+    "model": {
+     "kind": "dock",
+     "l": 40,
+     "w": 30
+    }
+   }
+  ],
+  "sources": [
+   "bho-stow-billinsgate-warde",
+   "mola-medieval-c1066c1500-research-framework"
+  ]
+ },
+ {
+  "id": "roman-quay",
+  "name": "Roman quays and warehouses",
+  "lat": 51.5099,
+  "lon": -0.086,
+  "tier": "district",
+  "path": [
+   [
+    51.5103,
+    -0.0885
+   ],
+   [
+    51.51,
+    -0.0858
+   ],
+   [
+    51.5097,
+    -0.0838
+   ]
+  ],
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "Massive oak-timber quays with open-fronted warehouses behind, rebuilt further out into the river several times between the 1st and 3rd centuries.",
+  "uncertainty": "The model shows one generalised quay line that follows the modelled bank; the real sequence had several distinct waterfronts advancing about 35 m in all (a secondary figure). Warehouses are generic.",
+  "phases": [
+   {
+    "label": "First timber revetment",
+    "from": 52,
+    "built": 52,
+    "to": 62,
+    "end": "replaced",
+    "dateNote": "Tree-ring date 52 CE.",
+    "model": {
+     "kind": "quay",
+     "width": 9,
+     "warehouses": false
+    }
+   },
+   {
+    "label": "Timber quays and warehouses",
+    "from": 63,
+    "built": 102,
+    "to": 255,
+    "end": "decay",
+    "goneBy": 400,
+    "dateNote": "Tree-ring anchors: great quay 63, landing stage c. 70, extension 102, further advances to the mid 3rd century; quays dismantled by the 4th century.",
+    "model": {
+     "kind": "quay",
+     "width": 12,
+     "warehouses": true
+    }
+   }
+  ],
+  "sources": [
+   "london-archaeologist-brigham-watson-regis-house",
+   "gresham-discovering-port-roman-london",
+   "britannia-brigham-late-roman-waterfront",
+   "rfla-roman-ad-43-410",
+   "history-london-port-roman-london-secondary"
+  ]
+ },
+ {
+  "id": "westminster-abbey",
+  "name": "Westminster Abbey",
+  "lat": 51.4994,
+  "lon": -0.1273,
+  "bearing": 88,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Edward the Confessor's great church, consecrated in 1065, was replaced from 1245 by Henry III's Gothic abbey. The nave took until the early 16th century; the west towers were not built until the 18th century and are not shown.",
+  "uncertainty": "The Confessor's church is known from excavation and the Bayeux Tapestry; its elevation is reconstruction.",
+  "phases": [
+   {
+    "label": "Edward the Confessor's abbey",
+    "from": 1045,
+    "built": 1065,
+    "to": 1245,
+    "end": "replaced",
+    "model": {
+     "kind": "church",
+     "l": 98,
+     "w": 22,
+     "h": 17,
+     "wall": "caen",
+     "roof": "lead",
+     "aisles": true,
+     "transept": {
+      "l": 46,
+      "w": 12
+     },
+     "tower": {
+      "w": 11,
+      "h": 32,
+      "at": "crossing"
+     }
+    }
+   },
+   {
+    "label": "Henry III's abbey: east end, transepts and part of the nave",
+    "from": 1245,
+    "built": 1269,
+    "to": 1376,
+    "end": "handover",
+    "model": {
+     "kind": "church",
+     "l": 110,
+     "w": 24,
+     "h": 31,
+     "wall": "caen",
+     "roof": "lead",
+     "aisles": true,
+     "transept": {
+      "l": 62,
+      "w": 24
+     },
+     "crossingAt": 0.6
+    },
+    "dateNote": "By 1269 only the east end, transepts and first nave bays were finished; the Romanesque nave stood for another century."
+   },
+   {
+    "label": "Abbey with nave completed westwards",
+    "from": 1376,
+    "continues": true,
+    "to": null,
+    "dateNote": "Nave built slowly 1376\u20131517. No west towers before 1745.",
+    "model": {
+     "kind": "church",
+     "l": 156,
+     "w": 24,
+     "h": 31,
+     "wall": "caen",
+     "roof": "lead",
+     "aisles": true,
+     "transept": {
+      "l": 62,
+      "w": 24
+     },
+     "crossingAt": 0.42
+    }
+   }
+  ],
+  "sources": [
+   "westminster-abbey-history-westminster-abbey",
+   "bho-stow-citie-westminster",
+   "bho-benedictine-monks-st-peters"
+  ]
+ },
+ {
+  "id": "henry-vii-chapel",
+  "name": "Henry VII's Lady Chapel",
+  "lat": 51.4994,
+  "lon": -0.1262,
+  "bearing": 88,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The Perpendicular Lady Chapel at the east end of Westminster Abbey.",
+  "phases": [
+   {
+    "label": "Lady Chapel",
+    "from": 1503,
+    "built": 1516,
+    "to": null,
+    "model": {
+     "kind": "church",
+     "l": 32,
+     "w": 21,
+     "h": 20,
+     "wall": "caen",
+     "roof": "lead",
+     "pinnacles": true
+    },
+    "dateNote": "Consecrated 19 February 1516."
+   }
+  ],
+  "sources": [
+   "westminster-abbey-henry-vii-elizabeth-york",
+   "bho-stow-citie-westminster"
+  ]
+ },
+ {
+  "id": "westminster-hall",
+  "name": "Westminster Hall and Palace",
+  "lat": 51.4997,
+  "lon": -0.1254,
+  "bearing": 5,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "William II's great hall of 1097\u201399, the largest in England, given its hammerbeam roof in the 1390s. The royal palace grew around it.",
+  "uncertainty": "The surrounding palace buildings are shown only as a generic range. The 73 \u00d7 20.5 m plan was seen only in secondary summaries; wall and roof heights are estimates.",
+  "phases": [
+   {
+    "label": "Norman hall",
+    "from": 1097,
+    "built": 1099,
+    "to": 1393,
+    "end": "handover",
+    "model": {
+     "kind": "hall",
+     "l": 73,
+     "w": 20.5,
+     "h": 12,
+     "wall": "ragstone",
+     "roof": "shingle",
+     "pitch": 0.9
+    }
+   },
+   {
+    "label": "Hall with hammerbeam roof",
+    "from": 1393,
+    "continues": true,
+    "to": null,
+    "dateNote": "Roof commissioned 1393, substantially built 1397\u201399, work ceased 1401.",
+    "model": {
+     "kind": "hall",
+     "l": 73,
+     "w": 20.5,
+     "h": 13,
+     "wall": "ragstone",
+     "roof": "lead",
+     "pitch": 1.1,
+     "endTowers": true
+    }
+   }
+  ],
+  "sources": [
+   "bho-stow-citie-westminster",
+   "mola-saxon-ad-4101066-research"
+  ]
+ },
+ {
+  "id": "white-tower",
+  "name": "Tower of London: the White Tower",
+  "lat": 51.5081,
+  "lon": -0.076,
+  "bearing": 0,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "William the Conqueror's great stone keep in the south-east corner of the Roman walls, begun in the 1070s and complete by about 1100.",
+  "phases": [
+   {
+    "label": "White Tower",
+    "from": 1078,
+    "built": 1100,
+    "to": null,
+    "dateNote": "Begun c. 1075\u201381, complete by c. 1100; 27 m to the battlements. Whitewashed from 1240.",
+    "model": {
+     "kind": "keep",
+     "w": 36,
+     "d": 32.5,
+     "h": 27,
+     "turrets": true,
+     "wall": "caen"
+    }
+   }
+  ],
+  "sources": [
+   "hrp-1066-norman-tower-london",
+   "hrp-tower-london-historic-environment",
+   "bho-stow-towers-castels-bridge",
+   "chapels-royal-chapel-st-peter-ad",
+   "brigham-young-tower-london-middlesex-henry"
+  ],
+  "uncertainty": "The turrets' onion-shaped caps date from the early 1530s; the model shows one form throughout."
+ },
+ {
+  "id": "tower-inner-ward",
+  "name": "Tower of London: inner curtain wall",
+  "lat": 51.5081,
+  "lon": -0.076,
+  "tier": "overview",
+  "path": [
+   [
+    51.5089,
+    -0.0772
+   ],
+   [
+    51.509,
+    -0.0749
+   ],
+   [
+    51.5074,
+    -0.0747
+   ],
+   [
+    51.5074,
+    -0.0771
+   ],
+   [
+    51.5089,
+    -0.0772
+   ]
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The towered inner curtain built mainly under Henry III.",
+  "uncertainty": "Wall line simplified to a quadrilateral.",
+  "phases": [
+   {
+    "label": "Inner curtain",
+    "from": 1238,
+    "built": 1250,
+    "to": null,
+    "model": {
+     "kind": "wall",
+     "h": 10,
+     "thick": 3,
+     "wall": "ragstone",
+     "crenel": true,
+     "towers": 55,
+     "closed": true
+    },
+    "dateNote": "Henry III, 1238\u20131240s. A first stone enclosure and ditch of c. 1190 is not shown."
+   }
+  ],
+  "sources": [
+   "hrp-1066-norman-tower-london",
+   "hrp-tower-london-historic-environment",
+   "bho-stow-towers-castels-bridge"
+  ]
+ },
+ {
+  "id": "tower-outer-ward",
+  "name": "Tower of London: outer curtain and moat",
+  "lat": 51.5081,
+  "lon": -0.076,
+  "tier": "overview",
+  "path": [
+   [
+    51.5092,
+    -0.0777
+   ],
+   [
+    51.5093,
+    -0.0744
+   ],
+   [
+    51.5071,
+    -0.0742
+   ],
+   [
+    51.5071,
+    -0.0776
+   ],
+   [
+    51.5092,
+    -0.0777
+   ]
+  ],
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Edward I's outer curtain wall and moat, 1275\u201385, which gave the Tower its concentric form.",
+  "uncertainty": "Wall line simplified to a quadrilateral; the moat (about 50 m wide) is not modelled.",
+  "phases": [
+   {
+    "label": "Outer curtain",
+    "from": 1275,
+    "built": 1285,
+    "to": null,
+    "model": {
+     "kind": "wall",
+     "h": 7,
+     "thick": 2.5,
+     "wall": "ragstone",
+     "crenel": true,
+     "towers": 0,
+     "closed": true
+    }
+   }
+  ],
+  "sources": [
+   "hrp-1066-norman-tower-london",
+   "hrp-tower-london-historic-environment",
+   "bho-stow-towers-castels-bridge"
+  ]
+ },
+ {
+  "id": "baynards-castle-1",
+  "name": "Baynard's Castle (first)",
+  "lat": 51.5124,
+  "lon": -0.1018,
+  "bearing": 0,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "A Norman castle in the south-west corner of the city, demolished in 1213; the site passed to the Blackfriars.",
+  "uncertainty": "Its plan and appearance are unknown. A generic small keep is shown. Slighted 1213; the site was absorbed by Blackfriars in 1276. Nearby Montfichet's Tower, equally undocumented, is not shown.",
+  "phases": [
+   {
+    "label": "Norman castle",
+    "from": 1070,
+    "built": 1087,
+    "to": 1213,
+    "end": "demolished",
+    "model": {
+     "kind": "keep",
+     "w": 18,
+     "d": 16,
+     "h": 15,
+     "turrets": false,
+     "wall": "ragstone",
+     "placeholder": true
+    }
+   }
+  ],
+  "sources": [
+   "bho-stow-towers-castels-bridge",
+   "mola-medieval-c1066c1500-research-framework",
+   "bho-friaries-black-friars-vch"
+  ]
+ },
+ {
+  "id": "baynards-castle-2",
+  "name": "Baynard's Castle (riverside house)",
+  "lat": 51.5109,
+  "lon": -0.0995,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A great riverside house rebuilt after a fire in 1428 and remodelled as a royal residence by Henry VII about 1501.",
+  "phases": [
+   {
+    "label": "Riverside mansion",
+    "from": 1428,
+    "built": 1435,
+    "to": 1501,
+    "end": "handover",
+    "model": {
+     "kind": "courtyard",
+     "l": 60,
+     "w": 45,
+     "h": 12,
+     "range": 10,
+     "wall": "ragstone",
+     "roof": "tile",
+     "towers": 2
+    },
+    "dateNote": "A 14th-century riverside house preceded it; rebuilt after the fire of 1428."
+   },
+   {
+    "label": "Henry VII's rebuilding",
+    "from": 1501,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 70,
+     "w": 48,
+     "h": 15,
+     "range": 10,
+     "wall": "ragstone",
+     "roof": "lead",
+     "towers": 4
+    }
+   }
+  ],
+  "sources": [
+   "bho-stow-towers-castels-bridge",
+   "bho-stow-castle-baynard-warde"
+  ]
+ },
+ {
+  "id": "temple-church",
+  "name": "Temple Church",
+  "lat": 51.5132,
+  "lon": -0.1104,
+  "bearing": 88,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The Knights Templar's church with its round nave, consecrated in 1185; the chancel was added by 1240.",
+  "phases": [
+   {
+    "label": "Round church",
+    "from": 1160,
+    "built": 1185,
+    "to": 1240,
+    "end": "handover",
+    "model": {
+     "kind": "church",
+     "l": 14,
+     "w": 10,
+     "h": 9,
+     "wall": "caen",
+     "roof": "lead",
+     "round": 18
+    }
+   },
+   {
+    "label": "Round church with hall chancel",
+    "from": 1240,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "church",
+     "l": 28,
+     "w": 18,
+     "h": 11,
+     "wall": "caen",
+     "roof": "lead",
+     "round": 18
+    }
+   }
+  ],
+  "sources": [
+   "bho-houses-military-orders-temple",
+   "temple-church-history"
+  ]
+ },
+ {
+  "id": "blackfriars",
+  "name": "Blackfriars",
+  "lat": 51.5125,
+  "lon": -0.1035,
+  "bearing": 85,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The Dominican friary built from 1276 between Ludgate and the river; the city wall was moved west to enclose it. Dissolved 1538; its church was pulled down and the buildings became houses and, later, an indoor playhouse.",
+  "uncertainty": "Layout is schematic.",
+  "phases": [
+   {
+    "label": "Dominican friary",
+    "from": 1276,
+    "built": 1295,
+    "to": 1538,
+    "end": "handover",
+    "model": {
+     "kind": "friary",
+     "l": 67,
+     "w": 20,
+     "h": 14,
+     "cloister": 34,
+     "wall": "ragstone",
+     "roof": "lead",
+     "fleche": 14
+    },
+    "dateNote": "Site granted 1276; church begun 1279 and built into the 1290s."
+   },
+   {
+    "label": "Converted precinct (church demolished)",
+    "from": 1538,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 40,
+     "w": 40,
+     "h": 9,
+     "range": 8,
+     "wall": "ragstone",
+     "roof": "tile"
+    },
+    "dateNote": "Church demolished after 1538; an indoor playhouse occupied the upper frater from 1596 (King's Men from 1608\u201309)."
+   }
+  ],
+  "sources": [
+   "bho-friaries-black-friars-vch",
+   "bho-stow-wall-about-citie",
+   "bho-stow-faringdon-ward-infra",
+   "folger-shakespeares-theater-folger-shakespeare"
+  ]
+ },
+ {
+  "id": "greyfriars",
+  "name": "Greyfriars (Christ Church)",
+  "lat": 51.5158,
+  "lon": -0.099,
+  "bearing": 85,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "high",
+  "summary": "The Franciscan friary by Newgate. Its great 14th-century church, about 90 m long, became the parish church of Christ Church after the Dissolution.",
+  "phases": [
+   {
+    "label": "First friary",
+    "from": 1225,
+    "built": 1240,
+    "to": 1306,
+    "end": "handover",
+    "model": {
+     "kind": "friary",
+     "l": 40,
+     "w": 14,
+     "h": 10,
+     "cloister": 28,
+     "wall": "ragstone",
+     "roof": "tile"
+    }
+   },
+   {
+    "label": "Great church",
+    "from": 1306,
+    "continues": true,
+    "to": null,
+    "dateNote": "Great church built 1306\u201327 (300 \u00d7 89 \u00d7 64 ft); kept as Christ Church parish church from 1547.",
+    "model": {
+     "kind": "friary",
+     "l": 91.4,
+     "w": 27.1,
+     "h": 19.5,
+     "cloister": 36,
+     "wall": "ragstone",
+     "roof": "lead",
+     "fleche": 16
+    }
+   }
+  ],
+  "sources": [
+   "bho-friaries-grey-friars-vch",
+   "bho-stow-faringdon-ward-infra"
+  ]
+ },
+ {
+  "id": "austin-friars",
+  "name": "Austin Friars",
+  "lat": 51.5155,
+  "lon": -0.0855,
+  "bearing": 85,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The Augustinian friary founded in 1253. After 1538 the nave was given to London's Dutch Protestant community (1550).",
+  "phases": [
+   {
+    "label": "Friary",
+    "from": 1253,
+    "built": 1280,
+    "to": 1354,
+    "end": "handover",
+    "model": {
+     "kind": "friary",
+     "l": 45,
+     "w": 16,
+     "h": 11,
+     "cloister": 28,
+     "wall": "ragstone",
+     "roof": "tile"
+    }
+   },
+   {
+    "label": "Rebuilt church with spire",
+    "from": 1354,
+    "continues": true,
+    "to": 1600,
+    "end": "handover",
+    "model": {
+     "kind": "friary",
+     "l": 78,
+     "w": 25,
+     "h": 15,
+     "cloister": 30,
+     "wall": "ragstone",
+     "roof": "lead",
+     "fleche": 26
+    }
+   },
+   {
+    "label": "Nave only (Dutch Church)",
+    "from": 1600,
+    "continues": true,
+    "to": null,
+    "dateNote": "Choir and steeple taken down around 1600.",
+    "model": {
+     "kind": "church",
+     "l": 46,
+     "w": 25,
+     "h": 15,
+     "wall": "ragstone",
+     "roof": "lead",
+     "aisles": true
+    }
+   }
+  ],
+  "sources": [
+   "bho-friaries-austin-friars-vch",
+   "bho-stow-broadstreete-warde"
+  ]
+ },
+ {
+  "id": "holy-trinity-aldgate",
+  "name": "Holy Trinity Priory, Aldgate",
+  "lat": 51.5136,
+  "lon": -0.0778,
+  "bearing": 85,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A rich Augustinian priory founded in 1108 just inside Aldgate; the first London house to be dissolved (1532), then largely pulled down for a mansion.",
+  "phases": [
+   {
+    "label": "Priory",
+    "from": 1108,
+    "built": 1150,
+    "to": 1532,
+    "end": "demolished",
+    "model": {
+     "kind": "friary",
+     "l": 75,
+     "w": 24,
+     "h": 16,
+     "cloister": 32,
+     "wall": "ragstone",
+     "roof": "lead",
+     "tower": {
+      "w": 9,
+      "h": 30
+     }
+    },
+    "dateNote": "Founded 1107/08; burned 1132 and rebuilt; surrendered July 1531 (Stow) or 1532."
+   },
+   {
+    "label": "Duke's Place mansion",
+    "from": 1534,
+    "built": 1544,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 42,
+     "w": 36,
+     "h": 10,
+     "range": 8,
+     "wall": "ragstone",
+     "roof": "tile"
+    }
+   }
+  ],
+  "sources": [
+   "bho-austin-canons-priory-holy",
+   "bho-stow-ealdgate-warde"
+  ]
+ },
+ {
+  "id": "st-bartholomew",
+  "name": "St Bartholomew's Priory and Hospital",
+  "lat": 51.5188,
+  "lon": -0.0998,
+  "bearing": 85,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Founded by Rahere in 1123 beside Smithfield. After the Dissolution the nave was demolished and the choir kept as a parish church.",
+  "phases": [
+   {
+    "label": "Priory church",
+    "from": 1123,
+    "built": 1160,
+    "to": 1543,
+    "end": "handover",
+    "model": {
+     "kind": "friary",
+     "l": 85,
+     "w": 22,
+     "h": 15,
+     "cloister": 30,
+     "wall": "ragstone",
+     "roof": "lead",
+     "tower": {
+      "w": 9,
+      "h": 26
+     }
+    }
+   },
+   {
+    "label": "Choir only (parish church)",
+    "from": 1543,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "church",
+     "l": 38,
+     "w": 22,
+     "h": 15,
+     "wall": "ragstone",
+     "roof": "lead",
+     "aisles": true
+    }
+   }
+  ],
+  "sources": [
+   "bho-austin-canons-priory-st",
+   "bho-hospitals-st-bartholomew-vch",
+   "st-bartholomew-history",
+   "bho-stow-warde-faringdon-extra"
+  ]
+ },
+ {
+  "id": "charterhouse",
+  "name": "Charterhouse",
+  "lat": 51.5213,
+  "lon": -0.1,
+  "bearing": 0,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "A Carthusian monastery founded in 1371 with a great cloister of individual cells; a courtier's mansion after 1545 and Sutton's Hospital from 1611.",
+  "phases": [
+   {
+    "label": "Carthusian monastery",
+    "from": 1371,
+    "built": 1436,
+    "to": 1545,
+    "end": "handover",
+    "model": {
+     "kind": "courtyard",
+     "l": 104,
+     "w": 91,
+     "h": 5,
+     "range": 7,
+     "wall": "ragstone",
+     "roof": "tile"
+    },
+    "dateNote": "Founded 1371 on the plague cemetery of 1349; the cells took about 60 years to complete. Dissolved 1537\u201338."
+   },
+   {
+    "label": "Mansion, later Sutton's Hospital",
+    "from": 1545,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 60,
+     "w": 50,
+     "h": 10,
+     "range": 9,
+     "wall": "ragstone",
+     "roof": "tile"
+    }
+   }
+  ],
+  "sources": [
+   "bho-religious-houses-house-carthusian",
+   "charterhouse-history",
+   "bho-stow-suburbs-without-walls"
+  ]
+ },
+ {
+  "id": "savoy",
+  "name": "Savoy Palace, later Savoy Hospital",
+  "lat": 51.5103,
+  "lon": -0.1205,
+  "bearing": 60,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "John of Gaunt's palace on the Strand, the grandest noble house in England, destroyed in the Peasants' Revolt of 1381. Henry VII's hospital was built on the ruins from 1505.",
+  "uncertainty": "No reliable image of the palace exists; the model is generic.",
+  "phases": [
+   {
+    "label": "Savoy Palace",
+    "from": 1246,
+    "built": 1360,
+    "to": 1381,
+    "end": "ruin",
+    "goneBy": 1509,
+    "model": {
+     "kind": "courtyard",
+     "l": 85,
+     "w": 60,
+     "h": 13,
+     "range": 11,
+     "wall": "ragstone",
+     "roof": "lead",
+     "towers": 2,
+     "placeholder": true
+    },
+    "dateNote": "Peter of Savoy's house from 1245\u201346; Lancastrian palace of the 1350s; burned 1381 and left a ruin."
+   },
+   {
+    "label": "Savoy Hospital",
+    "from": 1509,
+    "built": 1517,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 85,
+     "w": 55,
+     "h": 11,
+     "range": 10,
+     "wall": "ragstone",
+     "roof": "lead",
+     "tower": {
+      "w": 7,
+      "h": 22
+     }
+    },
+    "dateNote": "Stow gives only 'about 1509'; the completion date was not verified."
+   }
+  ],
+  "sources": [
+   "bho-stow-liberties-dutchie-lancaster"
+  ]
+ },
+ {
+  "id": "guildhall",
+  "name": "Guildhall",
+  "lat": 51.5158,
+  "lon": -0.092,
+  "bearing": 85,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "The city's great hall, rebuilt from 1411, standing over the buried Roman amphitheatre.",
+  "uncertainty": "An earlier stone guildhall stood on the site from the 12th\u201313th century; it is not shown.",
+  "phases": [
+   {
+    "label": "Great Hall",
+    "from": 1411,
+    "built": 1430,
+    "to": null,
+    "model": {
+     "kind": "hall",
+     "l": 50,
+     "w": 17.5,
+     "h": 15,
+     "wall": "ragstone",
+     "roof": "lead",
+     "pitch": 0.9,
+     "endTowers": true
+    },
+    "dateNote": "Hall c. 1411\u201330; precinct complete c. 1450."
+   }
+  ],
+  "sources": [
+   "bho-stow-cheape-warde",
+   "gresham-envy-kings-guildhall-london",
+   "city-of-london-many-lives-guildhall"
+  ]
+ },
+ {
+  "id": "leadenhall",
+  "name": "Leadenhall",
+  "lat": 51.5129,
+  "lon": -0.0836,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "A quadrangular public granary and market built in the 1440s on the site of the Roman basilica.",
+  "phases": [
+   {
+    "label": "Garner and market",
+    "from": 1440,
+    "built": 1455,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 68,
+     "w": 58,
+     "h": 11,
+     "range": 9,
+     "wall": "ragstone",
+     "roof": "lead",
+     "towers": 4
+    },
+    "dateNote": "Simon Eyre's quadrangle of the 1440s; damaged by fire in 1484."
+   }
+  ],
+  "sources": [
+   "bho-stow-limestreete-warde"
+  ]
+ },
+ {
+  "id": "royal-exchange",
+  "name": "Royal Exchange",
+  "lat": 51.5136,
+  "lon": -0.0871,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "attested-pictorial",
+  "confidence": "high",
+  "summary": "Thomas Gresham's bourse, built 1566\u201368 around an arcaded courtyard on the Antwerp model and named the Royal Exchange after Elizabeth I's visit in 1571.",
+  "phases": [
+   {
+    "label": "Gresham's Exchange",
+    "from": 1566,
+    "built": 1568,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 62,
+     "w": 52,
+     "h": 12,
+     "range": 9,
+     "wall": "brick",
+     "roof": "slate",
+     "tower": {
+      "w": 5,
+      "h": 30
+     },
+     "arcade": true
+    },
+    "dateNote": "First brick 7 June 1566, slated November 1567; named 'Royal' at Elizabeth's visit of 23 January 1571."
+   }
+  ],
+  "sources": [
+   "bho-stow-cornehill-warde",
+   "london-museum-financial-powerhouse-city-london"
+  ],
+  "uncertainty": "No dimensions were found; the footprint is estimated."
+ },
+ {
+  "id": "bridewell",
+  "name": "Bridewell Palace",
+  "lat": 51.5123,
+  "lon": -0.1052,
+  "bearing": 170,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Henry VIII's brick palace beside the Fleet, built 1515\u201323; given to the City in 1553 as a workhouse and prison.",
+  "phases": [
+   {
+    "label": "Palace",
+    "from": 1515,
+    "built": 1523,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 95,
+     "w": 50,
+     "h": 12,
+     "range": 9,
+     "wall": "brick",
+     "roof": "tile",
+     "double": true,
+     "towers": 2
+    }
+   }
+  ],
+  "sources": [
+   "moeml-bridewell",
+   "bho-stow-warde-faringdon-extra",
+   "bho-stow-towers-castels-bridge"
+  ]
+ },
+ {
+  "id": "whitehall",
+  "name": "York Place, later Whitehall Palace",
+  "lat": 51.5042,
+  "lon": -0.1252,
+  "bearing": 5,
+  "tier": "overview",
+  "evidence": "attested-pictorial",
+  "confidence": "medium",
+  "summary": "The archbishops of York's London house, seized by Henry VIII in 1529\u201330 and expanded into the largest palace in Europe, a sprawl of courts and galleries between the river and St James's Park.",
+  "uncertainty": "Shown as generic courtyards; the real plan was irregular. The 'Holbein Gate' (c. 1531\u201332) and tiltyard are not separately modelled.",
+  "phases": [
+   {
+    "label": "York Place",
+    "from": 1240,
+    "built": 1260,
+    "to": 1530,
+    "end": "handover",
+    "model": {
+     "kind": "courtyard",
+     "l": 60,
+     "w": 45,
+     "h": 10,
+     "range": 9,
+     "wall": "ragstone",
+     "roof": "tile"
+    }
+   },
+   {
+    "label": "Whitehall Palace",
+    "from": 1530,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 150,
+     "w": 90,
+     "h": 12,
+     "range": 10,
+     "wall": "brick",
+     "roof": "lead",
+     "double": true,
+     "towers": 4
+    }
+   }
+  ],
+  "sources": [
+   "bho-survey-london-vol-14",
+   "bho-stow-citie-westminster"
+  ]
+ },
+ {
+  "id": "banqueting-house",
+  "name": "Banqueting House, Whitehall",
+  "lat": 51.5046,
+  "lon": -0.126,
+  "bearing": 5,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "high",
+  "summary": "Inigo Jones's Palladian hall of 1619\u201322, the first fully classical building in London. It replaced a banqueting house of 1606\u201307 that burned in January 1619.",
+  "phases": [
+   {
+    "label": "Jacobean banqueting house",
+    "from": 1606,
+    "built": 1607,
+    "to": 1619,
+    "end": "burned",
+    "model": {
+     "kind": "hall",
+     "l": 36.6,
+     "w": 16.2,
+     "h": 12,
+     "wall": "brick",
+     "roof": "lead",
+     "pitch": 0.5
+    },
+    "dateNote": "Built 1606\u201307 (opened January 1608), 120 \u00d7 53 ft; burned 12 January 1619."
+   },
+   {
+    "label": "Inigo Jones's Banqueting House",
+    "from": 1619,
+    "built": 1622,
+    "to": null,
+    "model": {
+     "kind": "hall",
+     "l": 33.5,
+     "w": 16.8,
+     "h": 21.6,
+     "wall": "ashlar",
+     "roof": "lead",
+     "pitch": 0.15,
+     "classical": true
+    },
+    "dateNote": "110 \u00d7 55 \u00d7 55 ft over a 16 ft undercroft; originally faced in three different stones."
+   }
+  ],
+  "sources": [
+   "bho-survey-london-vol-13"
+  ]
+ },
+ {
+  "id": "somerset-house",
+  "name": "Somerset House",
+  "lat": 51.5108,
+  "lon": -0.1172,
+  "bearing": 60,
+  "tier": "overview",
+  "evidence": "attested-pictorial",
+  "confidence": "medium",
+  "summary": "Protector Somerset's Renaissance palace on the Strand, 1547\u201352; Denmark House under James I's queen.",
+  "phases": [
+   {
+    "label": "Palace",
+    "from": 1547,
+    "built": 1552,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 80,
+     "w": 60,
+     "h": 13,
+     "range": 10,
+     "wall": "ashlar",
+     "roof": "lead"
+    }
+   }
+  ],
+  "sources": [
+   "somerset-house-history",
+   "bho-stow-liberties-dutchie-lancaster"
+  ]
+ },
+ {
+  "id": "northumberland-house",
+  "name": "Northampton House (Suffolk House from 1614)",
+  "lat": 51.5073,
+  "lon": -0.1268,
+  "bearing": 45,
+  "tier": "overview",
+  "evidence": "attested-pictorial",
+  "confidence": "high",
+  "summary": "A Jacobean courtyard mansion with corner turrets at Charing Cross, built about 1605\u201309 for the Earl of Northampton; known as Northumberland House only later.",
+  "phases": [
+   {
+    "label": "Mansion",
+    "from": 1605,
+    "built": 1609,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 49.4,
+     "w": 50,
+     "h": 14,
+     "range": 9,
+     "wall": "brick",
+     "roof": "lead",
+     "towers": 4
+    }
+   }
+  ],
+  "sources": [
+   "bho-survey-london-vol-18"
+  ],
+  "uncertainty": "Strand front about 162 ft (49 m); depth and height are estimates."
+ },
+ {
+  "id": "lambeth-palace",
+  "name": "Lambeth Palace",
+  "lat": 51.4955,
+  "lon": -0.12,
+  "bearing": 10,
+  "tier": "overview",
+  "evidence": "attested-standing",
+  "confidence": "low",
+  "summary": "The London residence of the archbishops of Canterbury since about 1200, on the marshy bank opposite Westminster.",
+  "phases": [
+   {
+    "label": "Archbishop's house and chapel",
+    "from": 1200,
+    "built": 1230,
+    "to": 1490,
+    "end": "handover",
+    "model": {
+     "kind": "courtyard",
+     "l": 60,
+     "w": 45,
+     "h": 9,
+     "range": 9,
+     "wall": "ragstone",
+     "roof": "tile"
+    }
+   },
+   {
+    "label": "Palace with Morton's Tower",
+    "from": 1490,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 70,
+     "w": 50,
+     "h": 10,
+     "range": 9,
+     "wall": "brick",
+     "roof": "tile",
+     "towers": 2
+    }
+   }
+  ],
+  "sources": [],
+  "uncertainty": "Dates here are from general reference knowledge and were not checked against a fetched source in this research pass."
+ },
+ {
+  "id": "bermondsey-abbey",
+  "name": "Bermondsey Abbey",
+  "lat": 51.4976,
+  "lon": -0.081,
+  "bearing": 85,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "low",
+  "summary": "A Cluniac priory (later abbey) founded in 1082 on the Bermondsey eyot; dissolved 1538 and replaced by a mansion.",
+  "phases": [
+   {
+    "label": "Priory",
+    "from": 1082,
+    "built": 1140,
+    "to": 1538,
+    "end": "demolished",
+    "model": {
+     "kind": "friary",
+     "l": 80,
+     "w": 24,
+     "h": 15,
+     "cloister": 32,
+     "wall": "ragstone",
+     "roof": "lead",
+     "tower": {
+      "w": 9,
+      "h": 26
+     }
+    }
+   },
+   {
+    "label": "Bermondsey House",
+    "from": 1541,
+    "built": 1548,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 50,
+     "w": 40,
+     "h": 10,
+     "range": 8,
+     "wall": "brick",
+     "roof": "tile"
+    }
+   }
+  ],
+  "sources": [],
+  "uncertainty": "Dates here are from general reference knowledge and were not checked against a fetched source in this research pass."
+ },
+ {
+  "id": "custom-house",
+  "name": "Custom House",
+  "lat": 51.5086,
+  "lon": -0.0805,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "low",
+  "summary": "The quay where duties were collected. A custom house stood at Wool Quay by 1377 and John Churchman built a new one in 1382.",
+  "phases": [
+   {
+    "label": "Custom house at Wool Quay",
+    "from": 1377,
+    "built": 1382,
+    "to": null,
+    "dateNote": "In existence by 1377; Churchman's building 1382.",
+    "model": {
+     "kind": "hall",
+     "l": 24,
+     "w": 10,
+     "h": 7,
+     "wall": "ragstone",
+     "roof": "tile"
+    }
+   }
+  ],
+  "sources": [
+   "bho-survey-london-vol-15",
+   "gresham-legal-quays-sir-william",
+   "bho-stow-towerstreet-warde"
+  ],
+  "uncertainty": "An Elizabethan rebuilding in 1559 is often stated but could not be confirmed, and one scholarly lecture implies it did not happen as planned; the model therefore shows a single building throughout. Form generic."
+ },
+ {
+  "id": "steelyard",
+  "name": "The Steelyard",
+  "lat": 51.5103,
+  "lon": -0.0907,
+  "bearing": 80,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "The walled riverside base of the Hanseatic merchants, with its guildhall and warehouses. Its privileges were withdrawn in 1598 but the buildings stood.",
+  "phases": [
+   {
+    "label": "Hanse compound",
+    "from": 1259,
+    "built": 1320,
+    "to": null,
+    "model": {
+     "kind": "courtyard",
+     "l": 70,
+     "w": 45,
+     "h": 10,
+     "range": 9,
+     "wall": "ragstone",
+     "roof": "tile"
+    },
+    "dateNote": "Guildhall of the German merchants by 1259; enlarged 1475; closed 1598, returned to the Hanse towns 1606."
+   }
+  ],
+  "sources": [
+   "bho-stow-downegate-warde",
+   "moeml-steelyard"
+  ]
+ },
+ {
+  "id": "rose",
+  "name": "The Rose playhouse",
+  "lat": 51.5072,
+  "lon": -0.0955,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "high",
+  "summary": "Philip Henslowe's playhouse of 1587, the first on Bankside; its foundations were excavated in 1989.",
+  "phases": [
+   {
+    "label": "Playhouse",
+    "from": 1587,
+    "built": 1587,
+    "to": 1592,
+    "end": "handover",
+    "model": {
+     "kind": "playhouse",
+     "d": 22,
+     "h": 10,
+     "sides": 14,
+     "roof": "thatch"
+    }
+   },
+   {
+    "label": "Enlarged playhouse",
+    "from": 1592,
+    "continues": true,
+    "to": 1605,
+    "end": "demolished",
+    "dateNote": "Enlarged 1591\u201392; out of use by about 1603 and gone by 1606.",
+    "model": {
+     "kind": "playhouse",
+     "d": 23.5,
+     "h": 10,
+     "sides": 14,
+     "roof": "thatch"
+    }
+   }
+  ],
+  "sources": [
+   "mola-15871644-shakespeares-bankside-playhouses",
+   "reed-rose-theatre-citing-bowsher",
+   "folger-shakespeares-theater-folger-shakespeare",
+   "bho-survey-london-vol-22"
+  ],
+  "uncertainty": "Plan (14-sided, about 22 m) is from excavation; height is not documented."
+ },
+ {
+  "id": "swan",
+  "name": "The Swan playhouse",
+  "lat": 51.5073,
+  "lon": -0.1046,
+  "tier": "overview",
+  "evidence": "attested-pictorial",
+  "confidence": "medium",
+  "summary": "Built about 1595 in Paris Garden; the subject of the only surviving sketch of an Elizabethan playhouse interior.",
+  "phases": [
+   {
+    "label": "Playhouse",
+    "from": 1594,
+    "built": 1595,
+    "to": null,
+    "model": {
+     "kind": "playhouse",
+     "d": 30,
+     "h": 11,
+     "sides": 20,
+     "roof": "thatch"
+    }
+   }
+  ],
+  "sources": [
+   "moeml-swan",
+   "bho-survey-london-vol-22"
+  ],
+  "uncertainty": "Size and number of sides are not documented; the model borrows the Globe estimate."
+ },
+ {
+  "id": "globe",
+  "name": "The Globe",
+  "lat": 51.5067,
+  "lon": -0.0946,
+  "tier": "overview",
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "Built in 1599 from the timbers of the Theatre; burned on 29 June 1613 and rebuilt with a tiled roof by 1614.",
+  "uncertainty": "Only a small arc of the foundations has been excavated: the roughly 30 m diameter and 20 sides are extrapolations (16\u201318 sides is also argued). Height is undocumented.",
+  "phases": [
+   {
+    "label": "First Globe",
+    "from": 1599,
+    "built": 1599,
+    "to": 1613,
+    "end": "burned",
+    "model": {
+     "kind": "playhouse",
+     "d": 30,
+     "h": 11,
+     "sides": 20,
+     "roof": "thatch"
+    }
+   },
+   {
+    "label": "Second Globe",
+    "from": 1614,
+    "built": 1614,
+    "to": null,
+    "model": {
+     "kind": "playhouse",
+     "d": 30,
+     "h": 11,
+     "sides": 20,
+     "roof": "tile"
+    }
+   }
+  ],
+  "sources": [
+   "shakespeares-globe-globe",
+   "reed-globe-theatre-citing-bowsher",
+   "folger-shakespeares-theater-folger-shakespeare",
+   "cup-blatherwick-gurr-shakespeares-factory",
+   "bho-survey-london-vol-22"
+  ]
+ },
+ {
+  "id": "bear-garden",
+  "name": "Bear Garden, later the Hope",
+  "lat": 51.5076,
+  "lon": -0.096,
+  "tier": "overview",
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "summary": "A baiting ring on Bankside, replaced in 1613\u201314 by the Hope, a dual-purpose playhouse and baiting house.",
+  "phases": [
+   {
+    "label": "Bear-baiting ring",
+    "from": 1546,
+    "built": 1546,
+    "to": 1613,
+    "end": "replaced",
+    "dateNote": "Baiting rings on Bankside from the 1540s.",
+    "model": {
+     "kind": "playhouse",
+     "d": 20,
+     "h": 8,
+     "sides": 12,
+     "roof": "thatch"
+    }
+   },
+   {
+    "label": "The Hope",
+    "from": 1613,
+    "built": 1614,
+    "to": null,
+    "model": {
+     "kind": "playhouse",
+     "d": 25,
+     "h": 10,
+     "sides": 16,
+     "roof": "tile"
+    }
+   }
+  ],
+  "sources": [
+   "bho-survey-london-vol-22",
+   "henslowe-alleyn-henslowealleyn-digitisation-project-muniments",
+   "bho-stow-bridge-warde-without"
+  ],
+  "uncertainty": "Sizes are estimates. Hollar's 1647 view swaps the labels of the Hope and the Globe."
+ },
+ {
+  "id": "waterfront-north",
+  "name": "City waterfront",
+  "lat": 51.5094,
+  "lon": -0.091,
+  "tier": "overview",
+  "path": [
+   [
+    51.5108,
+    -0.1035
+   ],
+   [
+    51.5104,
+    -0.099
+   ],
+   [
+    51.5099,
+    -0.095
+   ],
+   [
+    51.5094,
+    -0.091
+   ],
+   [
+    51.509,
+    -0.0868
+   ],
+   [
+    51.5088,
+    -0.083
+   ],
+   [
+    51.5085,
+    -0.0795
+   ],
+   [
+    51.5081,
+    -0.0775
+   ]
+  ],
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The built-up river frontage of the City: successive timber and later stone revetments pushed the bank out into the Thames, creating wharves between Thames Street and the water.",
+  "uncertainty": "The model draws one continuous frontage that follows the modelled bank line. The real waterfront was a patchwork of separately owned wharves, inlets and stairs, and the pace of medieval reclamation is not reliably quantified.",
+  "phases": [
+   {
+    "label": "Late Saxon and Norman embankments",
+    "from": 1000,
+    "built": 1060,
+    "to": 1250,
+    "end": "handover",
+    "model": {
+     "kind": "waterfront",
+     "wall": "timber-weathered",
+     "side": 1,
+     "top": 1.7
+    }
+   },
+   {
+    "label": "Medieval wharves",
+    "from": 1250,
+    "continues": true,
+    "to": 1450,
+    "end": "handover",
+    "model": {
+     "kind": "waterfront",
+     "wall": "timber-weathered",
+     "side": 1,
+     "top": 1.9,
+     "cranes": true
+    }
+   },
+   {
+    "label": "Late medieval and Tudor wharves (stone-fronted)",
+    "from": 1450,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "waterfront",
+     "wall": "ragstone",
+     "side": 1,
+     "top": 2.0,
+     "cranes": true
+    }
+   }
+  ],
+  "sources": [
+   "gresham-discovering-port-roman-london",
+   "history-london-port-roman-london-secondary",
+   "lamas-saxon-origins-queenhithe-r"
+  ]
+ },
+ {
+  "id": "waterfront-south",
+  "name": "Bankside and Southwark river wall",
+  "lat": 51.5069,
+  "lon": -0.092,
+  "tier": "overview",
+  "path": [
+   [
+    51.5072,
+    -0.1045
+   ],
+   [
+    51.5071,
+    -0.098
+   ],
+   [
+    51.5069,
+    -0.092
+   ],
+   [
+    51.5066,
+    -0.0878
+   ],
+   [
+    51.5062,
+    -0.084
+   ],
+   [
+    51.5057,
+    -0.08
+   ]
+  ],
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The embanked south shore from Paris Garden past Winchester Palace to the bridge foot and St Olave's.",
+  "uncertainty": "Dates of embankment are generalised; the line follows the modelled bank.",
+  "phases": [
+   {
+    "label": "River wall",
+    "from": 1200,
+    "built": 1350,
+    "to": null,
+    "model": {
+     "kind": "waterfront",
+     "wall": "timber-weathered",
+     "side": -1,
+     "top": 1.8
+    }
+   }
+  ],
+  "sources": [
+   "gresham-discovering-port-roman-london",
+   "history-london-port-roman-london-secondary",
+   "lamas-saxon-origins-queenhithe-r"
+  ]
+ },
+ {
+  "id": "river-traffic-roman",
+  "name": "Roman shipping",
+  "lat": 51.5082,
+  "lon": -0.09,
+  "tier": "overview",
+  "path": [
+   [
+    51.5098,
+    -0.106
+   ],
+   [
+    51.5072,
+    -0.0775
+   ]
+  ],
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Sea-going and river vessels served the Roman port; wrecks of the period have been excavated at Blackfriars and County Hall.",
+  "uncertainty": "Numbers and positions are illustrative. Vessel forms are generic.",
+  "phases": [
+   {
+    "label": "Ships and lighters at the quays",
+    "from": 55,
+    "built": 70,
+    "to": 260,
+    "end": "decay",
+    "goneBy": 400,
+    "model": {
+     "kind": "boats",
+     "count": 14,
+     "spread": 70,
+     "ships": 0.5
+    }
+   }
+  ],
+  "sources": []
+ },
+ {
+  "id": "river-traffic-medieval",
+  "name": "Medieval river traffic",
+  "lat": 51.5082,
+  "lon": -0.09,
+  "tier": "overview",
+  "path": [
+   [
+    51.5098,
+    -0.106
+   ],
+   [
+    51.5072,
+    -0.0775
+   ]
+  ],
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "The Thames was London's main highway. Period panoramas of the 16th and 17th centuries show it crowded with wherries and barges above the bridge and sea-going ships below it.",
+  "uncertainty": "Numbers and positions are illustrative, and the boats do not move. Vessel forms are generic.",
+  "phases": [
+   {
+    "label": "Boats and ships",
+    "from": 1000,
+    "built": 1100,
+    "to": 1485,
+    "end": "handover",
+    "model": {
+     "kind": "boats",
+     "count": 30,
+     "spread": 95,
+     "ships": 0.25
+    }
+   },
+   {
+    "label": "Wherries, barges and ships",
+    "from": 1485,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "boats",
+     "count": 70,
+     "spread": 100,
+     "ships": 0.18
+    }
+   }
+  ],
+  "sources": []
+ },
+ {
+  "id": "olafs-fleet",
+  "name": "Olaf's ships at the bridge (saga tradition)",
+  "lat": 51.5076,
+  "lon": -0.0862,
+  "tier": "district",
+  "path": [
+   [
+    51.5083,
+    -0.0858
+   ],
+   [
+    51.5069,
+    -0.0868
+   ]
+  ],
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Longships below the timber bridge, standing for the saga account of an attack on London Bridge in 1014.",
+  "uncertainty": "The attack is known only from Norse verse and a saga written about 200 years later; the Anglo-Saxon Chronicle is silent. Number, position and form of the ships are invented for the staging, and the bridge is deliberately not shown collapsing.",
+  "phases": [
+   {
+    "label": "Ships below the bridge",
+    "from": 1014,
+    "built": 1014,
+    "to": 1015,
+    "end": "handover",
+    "dateNote": "Shown for 1014 only.",
+    "model": {
+     "kind": "boats",
+     "count": 14,
+     "spread": 45,
+     "ships": 1,
+     "style": "longship"
+    }
+   }
+  ],
+  "sources": [
+   "ev-fact-or-folklore-the-viking-attack-on-london-bri",
+   "ev-heimskringla-saga-of-olaf-haraldson-chapter-on-t",
+   "ev-olaf-haraldsson-encyclopaedia-romana",
+   "ev-the-anglo-saxon-chronicle-eleventh-century-entri",
+   "ev-tooley-street-delight-19-march-2022-sigvatr-s-st"
+  ]
+ }
+]

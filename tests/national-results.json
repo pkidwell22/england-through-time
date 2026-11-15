@@ -1,0 +1,2543 @@
+{
+  "summary": {
+    "when": "2026-11-14T23:56:13.210Z",
+    "base": "http://127.0.0.1:4310",
+    "passed": 279,
+    "failed": 0,
+    "total": 279
+  },
+  "results": [
+    {
+      "group": "1 load",
+      "name": "no page errors / console errors / failed requests on load (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "1 load",
+      "name": "no console error for a missing /favicon.ico",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "1 load",
+      "name": "loader reports no dataset problems / placeholders (console warnings)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "engine ready",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "bare \"/\" opens the national map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "no \"stub\" notice shown (data-testid=stub-note)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "terrain is real data, not procedural stand-in",
+      "pass": true,
+      "detail": "{\"width\":2048,\"height\":1466,\"procedural\":false,\"min\":-299.4,\"max\":1036.2}"
+    },
+    {
+      "group": "1 load",
+      "name": "initial year is the last era's preset (1616 CE)",
+      "pass": true,
+      "detail": "1616 CE"
+    },
+    {
+      "group": "1 load",
+      "name": "one WebGL canvas in the stage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "1 load",
+      "name": "canvas is non-blank (screenshot pixel sample)",
+      "pass": true,
+      "detail": "{\"distinct\":240,\"lumRange\":184,\"w\":700,\"h\":420}"
+    },
+    {
+      "group": "1 load",
+      "name": "canvas is non-blank at 4000 BCE",
+      "pass": true,
+      "detail": "{\"distinct\":158,\"lumRange\":91.66666666666667,\"w\":700,\"h\":420}"
+    },
+    {
+      "group": "1 load",
+      "name": "WebGL context alive",
+      "pass": true,
+      "detail": "{\"lost\":false,\"renderer\":\"ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)\",\"w\":1600,\"h\":900}"
+    },
+    {
+      "group": "1 load",
+      "name": "fps readout shows a number",
+      "pass": true,
+      "detail": "60 fps"
+    },
+    {
+      "group": "1 load",
+      "name": "no page errors so far in the main page",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider min (Home) → \"4000 BCE\"",
+      "pass": true,
+      "detail": "4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "t at min is -3999",
+      "pass": true,
+      "detail": "-3999"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider max (End) → \"1625 CE\"",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "t at max is 1625",
+      "pass": true,
+      "detail": "1625"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "timeline ends labelled \"4000 BCE\" and \"1625 CE\"",
+      "pass": true,
+      "detail": "4000 BCE|1625 CE — Death of James I|1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider value 0 → \"4000 BCE\"",
+      "pass": true,
+      "detail": "4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider value 1 → \"1625 CE\"",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider value 0.25 → \"226 CE\"",
+      "pass": true,
+      "detail": "226 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "slider thumb and aria-valuetext follow the year",
+      "pass": true,
+      "detail": "{\"value\":0.25,\"text\":\"226 CE\"}"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "setT(99999) clamps to 1625",
+      "pass": true,
+      "detail": "1625 1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "setT(-99999) clamps to 4000 BCE",
+      "pass": true,
+      "detail": "-3999 4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "typing \"9999\" clamps to \"1625 CE\"",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "typing \"9999 BCE\" clamps to \"4000 BCE\"",
+      "pass": true,
+      "detail": "4000 BCE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "typed \"1066\" works",
+      "pass": true,
+      "detail": "1066 CE t=1066"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "typed garbage leaves the year unchanged",
+      "pass": true,
+      "detail": "1066 CE"
+    },
+    {
+      "group": "2 timeline endpoints",
+      "name": "typed \"2500 BCE\" works",
+      "pass": true,
+      "detail": "2500 BCE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "readout sequence across the boundary",
+      "pass": true,
+      "detail": "[[-2,\"3 BCE\"],[-1.5,\"3 BCE\"],[-1,\"2 BCE\"],[-0.5,\"2 BCE\"],[0,\"1 BCE\"],[0.5,\"1 BCE\"],[1,\"1 CE\"],[1.5,\"1 CE\"],[2,\"2 CE\"]]"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "no \"0\" year label",
+      "pass": true,
+      "detail": "3 BCE, 3 BCE, 2 BCE, 2 BCE, 1 BCE, 1 BCE, 1 CE, 1 CE, 2 CE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "…, 2 BCE, 1 BCE, 1 CE, 2 CE in order",
+      "pass": true,
+      "detail": "3 BCE → 2 BCE → 1 BCE → 1 CE → 2 CE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"1 BCE\" → \"1 BCE\", t=0",
+      "pass": true,
+      "detail": "1 BCE t=0"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"1 CE\" → \"1 CE\", t=1",
+      "pass": true,
+      "detail": "1 CE t=1"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"0\" is rejected",
+      "pass": true,
+      "detail": "1 CE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"55 bc\" → \"55 BCE\"",
+      "pass": true,
+      "detail": "55 BCE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"AD 43\" → \"43 CE\"",
+      "pass": true,
+      "detail": "43 CE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "typed \"-1\" → \"1 BCE\"",
+      "pass": true,
+      "detail": "1 BCE"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "slider sweep across the boundary never shows year 0",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "slider ArrowRight stepping never shows \"0 …\"",
+      "pass": true,
+      "detail": "49 BCE, 49 BCE, 49 BCE, 49 BCE, 49 BCE, 49 BCE, 49 BCE, 49 BCE …"
+    },
+    {
+      "group": "3 BCE/CE transition",
+      "name": "era name at 1 BCE/1 CE boundary is the Iron Age",
+      "pass": true,
+      "detail": "Iron Age"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-neolithic → 2500 BCE, \"Neolithic: first farmers and great monuments\"",
+      "pass": true,
+      "detail": "readout=2500 BCE era=Neolithic: first farmers and great monuments"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-neolithic button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-bronze-age → 1500 BCE, \"Bronze Age\"",
+      "pass": true,
+      "detail": "readout=1500 BCE era=Bronze Age"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-bronze-age button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-iron-age → 100 BCE, \"Iron Age\"",
+      "pass": true,
+      "detail": "readout=100 BCE era=Iron Age"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-iron-age button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-roman → 150 CE, \"Roman Britain\"",
+      "pass": true,
+      "detail": "readout=150 CE era=Roman Britain"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-roman button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-early-anglo-saxon → 700 CE, \"Early Anglo-Saxon kingdoms\"",
+      "pass": true,
+      "detail": "readout=700 CE era=Early Anglo-Saxon kingdoms"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-early-anglo-saxon button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-viking-age → 900 CE, \"Viking Age and the making of England\"",
+      "pass": true,
+      "detail": "readout=900 CE era=Viking Age and the making of England"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-viking-age button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-norman-angevin → 1150 CE, \"Norman and Angevin England\"",
+      "pass": true,
+      "detail": "readout=1150 CE era=Norman and Angevin England"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-norman-angevin button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-later-medieval → 1340 CE, \"Later medieval England\"",
+      "pass": true,
+      "detail": "readout=1340 CE era=Later medieval England"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-later-medieval button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-tudor → 1575 CE, \"Tudor England and Wales\"",
+      "pass": true,
+      "detail": "readout=1575 CE era=Tudor England and Wales"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-tudor button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-jacobean → 1616 CE, \"Jacobean England and Wales\"",
+      "pass": true,
+      "detail": "readout=1616 CE era=Jacobean England and Wales"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era-jacobean button is highlighted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "4 era presets",
+      "name": "one button per era (10)",
+      "pass": true,
+      "detail": "buttons=10"
+    },
+    {
+      "group": "4 era presets",
+      "name": "era boundaries (first/last year of every era) show the right era",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "5 playback",
+      "name": "speed select sets 5 yr/s",
+      "pass": true,
+      "detail": "{\"speed\":5,\"rate\":1}"
+    },
+    {
+      "group": "5 playback",
+      "name": "play-pause starts playback forwards",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "5 playback",
+      "name": "5 yr/s plays at about 5 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured 4.99 yr/s"
+    },
+    {
+      "group": "5 playback",
+      "name": "year readout updates during playback",
+      "pass": true,
+      "detail": "1009 CE → 1012 CE"
+    },
+    {
+      "group": "5 playback",
+      "name": "play-pause shows pause state while playing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "5 playback",
+      "name": "pause holds the year",
+      "pass": true,
+      "detail": "t 1012.7499999999947 → 1012.7499999999947"
+    },
+    {
+      "group": "5 playback",
+      "name": "25 yr/s plays at about 25 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured 24.94 yr/s"
+    },
+    {
+      "group": "5 playback",
+      "name": "changing speed changes the rate (25 vs 5 → ~5×)",
+      "pass": true,
+      "detail": "ratio 5.00"
+    },
+    {
+      "group": "5 playback",
+      "name": "reverse decreases the year at about -25 yr/s (±35%)",
+      "pass": true,
+      "detail": "measured -24.92 yr/s dir=-1"
+    },
+    {
+      "group": "5 playback",
+      "name": "Auto 1× advances",
+      "pass": true,
+      "detail": "{\"years\":21.86448000000462,\"rate\":21.801256354497447}"
+    },
+    {
+      "group": "5 playback",
+      "name": "Auto 2× is about twice Auto 1× (±40%)",
+      "pass": true,
+      "detail": "ratio 1.67"
+    },
+    {
+      "group": "5 playback",
+      "name": "playback stops at 1625",
+      "pass": true,
+      "detail": "playing=false t=1625 readout=1625 CE"
+    },
+    {
+      "group": "5 playback",
+      "name": "play button shows play state after stopping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "5 playback",
+      "name": "pressing play at the end restarts from 4000 BCE",
+      "pass": true,
+      "detail": "playing=true t=-3986.4975"
+    },
+    {
+      "group": "5 playback",
+      "name": "reverse playback stops at 4000 BCE",
+      "pass": true,
+      "detail": "playing=false t=-3999 readout=4000 BCE"
+    },
+    {
+      "group": "5 playback",
+      "name": "pressing reverse at the start restarts from 1625",
+      "pass": true,
+      "detail": "playing=true t=1612.499999999999"
+    },
+    {
+      "group": "5 playback",
+      "name": "playing through 1 BCE → 1 CE never shows \"0\"",
+      "pass": true,
+      "detail": "20 BCE → 19 BCE → 18 BCE → 17 BCE → 16 BCE → 14 BCE → 13 BCE → 12 BCE → 11 BCE → 9 BCE → 8 BCE → 7 BCE → 6 BCE → 4 BCE → 3 BCE → 2 BCE"
+    },
+    {
+      "group": "5 playback",
+      "name": "space bar toggles play/pause",
+      "pass": true,
+      "detail": "true → false"
+    },
+    {
+      "group": "5 playback",
+      "name": "setT(NaN/Infinity/undefined/'abc') and setSpeed(NaN) are ignored",
+      "pass": true,
+      "detail": "t 1201.4995000000006 → 1201.4995000000006 errors=[]"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[whole map] camera unchanged after slider change",
+      "pass": true,
+      "detail": "diff=0 year=309 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[whole map] camera unchanged after era preset",
+      "pass": true,
+      "detail": "diff=0 year=150 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[whole map] camera unchanged after typed year",
+      "pass": true,
+      "detail": "diff=0 year=55 BCE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[whole map] camera unchanged after 2 s playback",
+      "pass": true,
+      "detail": "diff=0 t=1050.8"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[whole map] camera unchanged at 4000 BCE",
+      "pass": true,
+      "detail": "diff=0 year=4000 BCE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[whole map] camera unchanged after setT (engine API)",
+      "pass": true,
+      "detail": "diff=0 year=1500 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[zoomed (focus London)] camera unchanged after slider change",
+      "pass": true,
+      "detail": "diff=0 year=309 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[zoomed (focus London)] camera unchanged after era preset",
+      "pass": true,
+      "detail": "diff=0 year=150 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[zoomed (focus London)] camera unchanged after typed year",
+      "pass": true,
+      "detail": "diff=0 year=55 BCE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[zoomed (focus London)] camera unchanged after 2 s playback",
+      "pass": true,
+      "detail": "diff=0 t=1050.8"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[zoomed (focus London)] camera unchanged at 4000 BCE",
+      "pass": true,
+      "detail": "diff=0 year=4000 BCE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "[zoomed (focus London)] camera unchanged after setT (engine API)",
+      "pass": true,
+      "detail": "diff=0 year=1500 CE"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "reset view moves the camera away from a zoomed position",
+      "pass": true,
+      "detail": "diff=1094.4"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "reset view returns to the same home camera from anywhere",
+      "pass": true,
+      "detail": "diff=0"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "mouse drag moves the camera",
+      "pass": true,
+      "detail": "diff=81.83"
+    },
+    {
+      "group": "6 camera preservation",
+      "name": "wheel zooms (camera distance shrinks)",
+      "pass": true,
+      "detail": "moved=320.3"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "place london absent at 40 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0,\"name\":\"London\",\"kind\":\"city\",\"size\":5}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "place london present at 100 CE",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"name\":\"Londinium\",\"kind\":\"city\",\"size\":5}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "London reads \"Londinium\" in 150",
+      "pass": true,
+      "detail": "Londinium"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "London reads \"London\" in 1300",
+      "pass": true,
+      "detail": "London"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "York reads \"Eboracum\" in 200",
+      "pass": true,
+      "detail": "Eboracum"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "York reads \"Jorvik\" in 900 and \"York\" in 1300",
+      "pass": true,
+      "detail": "Jorvik / York"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "London still reads \"Londinium\" in 410 (altName.to = 410 is the last year of the name)",
+      "pass": true,
+      "detail": "Londinium"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "York still reads \"Eboracum\" in 410 and \"Jorvik\" in 954",
+      "pass": true,
+      "detail": "Eboracum / Jorvik"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "London still reads \"Lundenburh\" in 1065 (altName.to = 1065)",
+      "pass": true,
+      "detail": "Lundenburh"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "selection heading for london in 150 matches /^Londinium\\b/",
+      "pass": true,
+      "detail": "Londinium (London)"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "selection heading for london in 1300 matches /^London$/",
+      "pass": true,
+      "detail": "London"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "selection heading for york in 200 matches /^Eboracum\\b/",
+      "pass": true,
+      "detail": "Eboracum (York)"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "a map label reads Londinium (not London) at 150 when zoomed on it",
+      "pass": true,
+      "detail": "[\"Londinium\",\"Watling Street (Richborough–Canterbury–London)\",\"Stane Street (London–Chichester)\",\"Devil’s Highway (London–Staines–Silchester)\",\"London–Colchester road\",\"Londinium\"]"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "line hadrians-wall absent at 100 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "line hadrians-wall present at 150 CE",
+      "pass": true,
+      "detail": "{\"alpha\":1}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "line offas-dyke absent at 700 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "line offas-dyke present at 800 CE",
+      "pass": true,
+      "detail": "{\"alpha\":1}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "line england-wales-border absent at 1500 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "line england-wales-border present at 1540 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0.912}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "all 32 Roman roads absent at 40 BCE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "all Roman roads absent at 42 CE (the year before the conquest)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "every Roman road dated to include 150 CE is visible at 150 CE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "Military Way (dated from 160) is absent at 150 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "polity mercia present at 750 CE",
+      "pass": true,
+      "detail": "{\"alpha\":1}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "polity mercia absent at 1000 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "polity england present at 950 CE",
+      "pass": true,
+      "detail": "{\"alpha\":1}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "polity england absent at 900 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "polity wales-shired absent at 1500 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "polity wales-shired present at 1540 CE",
+      "pass": true,
+      "detail": "{\"alpha\":0.6}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "conwy: no castle shown at 1280",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"kind\":\"monastery\",\"name\":\"Aberconwy\"}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "conwy: castle present at 1300",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"kind\":\"castle\",\"size\":2}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "caernarfon: no castle shown at 1280",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"kind\":\"palace\",\"name\":\"Caernarfon\"}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "caernarfon: castle present at 1300",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"kind\":\"castle\",\"size\":3}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "harlech: no castle shown at 1280",
+      "pass": true,
+      "detail": "{\"alpha\":0,\"kind\":\"castle\",\"name\":\"Harlech Castle\"}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "harlech: castle present at 1300",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"kind\":\"castle\",\"size\":2}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "beaumaris: no castle shown at 1280",
+      "pass": true,
+      "detail": "{\"alpha\":0,\"kind\":\"castle\",\"name\":\"Beaumaris\"}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "beaumaris: castle present at 1300",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"kind\":\"castle\",\"size\":2}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "tintern changes size/kind/state between 1530 and 1545 (Dissolution)",
+      "pass": true,
+      "detail": "1530={\"kind\":\"monastery\",\"size\":2,\"ring\":false} 1545={\"kind\":\"monastery\",\"size\":1,\"ring\":false}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "fountains changes size/kind/state between 1530 and 1545 (Dissolution)",
+      "pass": true,
+      "detail": "1530={\"kind\":\"monastery\",\"size\":3,\"ring\":false} 1545={\"kind\":\"monastery\",\"size\":0,\"ring\":true}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "glastonbury changes size/kind/state between 1530 and 1545 (Dissolution)",
+      "pass": true,
+      "detail": "1530={\"kind\":\"monastery\",\"size\":4,\"ring\":false} 1545={\"kind\":\"town\",\"size\":1.9375,\"ring\":false}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "place stonehenge present at 2000 BCE",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"name\":\"Stonehenge\",\"kind\":\"monument\",\"size\":5}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "place stonehenge present at 2990 BCE",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"name\":\"Stonehenge\",\"kind\":\"monument\",\"size\":4}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "place stonehenge absent at 3100 BCE",
+      "pass": true,
+      "detail": "{\"alpha\":0,\"name\":\"Stonehenge\",\"kind\":\"monument\",\"size\":4}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "place stonehenge present at 1000 CE",
+      "pass": true,
+      "detail": "{\"alpha\":1,\"name\":\"Stonehenge\",\"kind\":\"monument\",\"size\":1}"
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "no place, line, polity or event has a date outside 4000 BCE–1625 CE (or zero/non-integer)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "at 4000 BCE no line or polity is visible (nothing in the data predates the Neolithic)",
+      "pass": true,
+      "detail": "lines=0 polities=0"
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: order — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: overlap — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: zeroOrNonInteger — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: toBeforeFrom — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: openNotLast — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: outOfBounds — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: timelineRange — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: castleBefore1050 — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: romanRoadBefore43 — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: badEvidence — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: unknownSource — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: duplicates — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: sizeIssues — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: altNameIssues — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "sweep: yearHoles — none",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "clicking the london marker at 1300 CE selects it",
+      "pass": true,
+      "detail": "selected=london at (800,449) alpha=1.00 size=5"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "london: panel shows name, evidence badge, confidence badge",
+      "pass": true,
+      "detail": "{\"name\":\"London\",\"ev\":\"Evidence: excavated\",\"conf\":\"Confidence: medium\"}"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "london: panel lists phases (9) with the active one marked",
+      "pass": true,
+      "detail": "1/9"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "london: panel shows source links or the \"no source\" text",
+      "pass": true,
+      "detail": "3 links; noSourceText=false"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "clicking the york marker at 1300 CE selects it",
+      "pass": true,
+      "detail": "selected=york at (800,449) alpha=1.00 size=5"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "york: panel shows name, evidence badge, confidence badge",
+      "pass": true,
+      "detail": "{\"name\":\"York\",\"ev\":\"Evidence: excavated\",\"conf\":\"Confidence: medium\"}"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "york: panel lists phases (7) with the active one marked",
+      "pass": true,
+      "detail": "1/7"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "york: panel shows source links or the \"no source\" text",
+      "pass": true,
+      "detail": "4 links; noSourceText=false"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "clicking the stonehenge marker at 2000 BCE selects it",
+      "pass": true,
+      "detail": "selected=stonehenge at (800,446) alpha=1.00 size=5"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "stonehenge: panel shows name, evidence badge, confidence badge",
+      "pass": true,
+      "detail": "{\"name\":\"Stonehenge\",\"ev\":\"Evidence: standing fabric\",\"conf\":\"Confidence: high\"}"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "stonehenge: panel lists phases (4) with the active one marked",
+      "pass": true,
+      "detail": "1/4"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "stonehenge: panel shows source links or the \"no source\" text",
+      "pass": true,
+      "detail": "1 links; noSourceText=false"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "clicking the conwy marker at 1300 CE selects it",
+      "pass": true,
+      "detail": "selected=conwy at (800,449) alpha=1.00 size=2"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "conwy: panel shows name, evidence badge, confidence badge",
+      "pass": true,
+      "detail": "{\"name\":\"Conwy\",\"ev\":\"Evidence: standing fabric\",\"conf\":\"Confidence: high\"}"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "conwy: panel lists phases (2) with the active one marked",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "conwy: panel shows source links or the \"no source\" text",
+      "pass": true,
+      "detail": "2 links; noSourceText=false"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "clicking the glastonbury marker at 1300 CE selects it",
+      "pass": true,
+      "detail": "selected=glastonbury at (800,449) alpha=1.00 size=4"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "glastonbury: panel shows name, evidence badge, confidence badge",
+      "pass": true,
+      "detail": "{\"name\":\"Glastonbury\",\"ev\":\"Evidence: standing fabric\",\"conf\":\"Confidence: medium\"}"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "glastonbury: panel lists phases (3) with the active one marked",
+      "pass": true,
+      "detail": "1/3"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "glastonbury: panel shows source links or the \"no source\" text",
+      "pass": true,
+      "detail": "2 links; noSourceText=false"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "clicking the battle-brentford-1016 marker at 1016 CE selects it",
+      "pass": true,
+      "detail": "selected=battle-brentford-1016 at (800,449) alpha=0.46 size=2"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "battle-brentford-1016: panel shows name, evidence badge, confidence badge",
+      "pass": true,
+      "detail": "{\"name\":\"Battle of Brentford\",\"ev\":\"Evidence: documents\",\"conf\":\"Confidence: medium\"}"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "battle-brentford-1016: panel lists phases (1) with the active one marked",
+      "pass": true,
+      "detail": "1/1"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "battle-brentford-1016: panel shows source links or the \"no source\" text",
+      "pass": true,
+      "detail": "2 links; noSourceText=false"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "clicking the battle-barnet marker at 1471 CE selects it",
+      "pass": true,
+      "detail": "selected=battle-barnet at (800,445) alpha=0.46 size=3"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "battle-barnet: panel shows name, evidence badge, confidence badge",
+      "pass": true,
+      "detail": "{\"name\":\"Battle of Barnet\",\"ev\":\"Evidence: documents\",\"conf\":\"Confidence: medium\"}"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "battle-barnet: panel lists phases (1) with the active one marked",
+      "pass": true,
+      "detail": "1/1"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "battle-barnet: panel shows source links or the \"no source\" text",
+      "pass": true,
+      "detail": "3 links; noSourceText=false"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "info panel renders completely for all 243 places, 42 lines, 73 polities",
+      "pass": true,
+      "detail": "0 bad: "
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "no page errors while opening every panel",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "Escape clears the selection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "close button clears the selection and restores the era text",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "exactly four places declare a site (london, brentford, barnet, stonehenge)",
+      "pass": true,
+      "detail": "stonehenge:stonehenge, london:london, battle-brentford-1016:brentford, battle-barnet:barnet"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "places without a site show no Explore control",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "evidence / polities / labels / quality toggles apply",
+      "pass": true,
+      "detail": "{\"t\":1471.5,\"playing\":false,\"direction\":1,\"speed\":5,\"rate\":1,\"quality\":\"low\",\"fps\":60,\"labels\":false,\"polities\":false,\"evidence\":true,\"ready\":true}"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "evidence legend visible when tint is on",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "key lists marker kinds and line styles",
+      "pass": true,
+      "detail": "20 entries"
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "scope note opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "H hides and restores the UI",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: marker click selects london at 1300",
+      "pass": true,
+      "detail": "[800,448.8802737547538]"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: \"Explore this site\" control is shown (data-testid enter-site)",
+      "pass": true,
+      "detail": "Explore this site | Opens the detailed model in 1300 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: enters the site viewer (?site=london), national engine gone",
+      "pass": true,
+      "detail": "http://127.0.0.1:4310/?site=london&year=1300"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: same year carried over (1300 CE is inside the 4000 BCE–1625 CE window)",
+      "pass": true,
+      "detail": "site readout 1300 CE, url /?site=london&year=1300"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: address bar year matches the readout",
+      "pass": true,
+      "detail": "http://127.0.0.1:4310/?site=london&year=1300"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: \"Back to map\" button present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: back to map carries the site's year back (1500 CE)",
+      "pass": true,
+      "detail": "1500 CE /?map=1&year=1500"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: national map is functional after returning (stats ok, canvas, no stub)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: browser Back after \"Back to map\" returns to the site viewer",
+      "pass": true,
+      "detail": "{\"nat\":false,\"ltt\":true,\"url\":\"?site=london&year=1300\"}"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: no page errors during map<->site round trip",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: marker click selects battle-brentford-1016 at 1016",
+      "pass": true,
+      "detail": "[800,449.2132136185174]"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: \"Explore this site\" control is shown (data-testid enter-site)",
+      "pass": true,
+      "detail": "Explore this site | Opens the detailed model in 1016 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: enters the site viewer (?site=brentford), national engine gone",
+      "pass": true,
+      "detail": "http://127.0.0.1:4310/?site=brentford&year=1016"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: same year carried over (1016 CE is inside the 950 CE–1100 CE window)",
+      "pass": true,
+      "detail": "site readout 1016 CE, url /?site=brentford&year=1016"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: address bar year matches the readout",
+      "pass": true,
+      "detail": "http://127.0.0.1:4310/?site=brentford&year=1016"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: \"Back to map\" button present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: back to map carries the site's year back (1050 CE)",
+      "pass": true,
+      "detail": "1050 CE /?map=1&year=1050"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: national map is functional after returning (stats ok, canvas, no stub)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: browser Back after \"Back to map\" returns to the site viewer",
+      "pass": true,
+      "detail": "{\"nat\":false,\"ltt\":true,\"url\":\"?site=brentford&year=1016\"}"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: no page errors during map<->site round trip",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: marker click selects battle-barnet at 1471",
+      "pass": true,
+      "detail": "[800,445.13986986762654]"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: \"Explore this site\" control is shown (data-testid enter-site)",
+      "pass": true,
+      "detail": "Explore this site | Opens the detailed model in 1471 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: enters the site viewer (?site=barnet), national engine gone",
+      "pass": true,
+      "detail": "http://127.0.0.1:4310/?site=barnet&year=1471"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: same year carried over (1471 CE is inside the 1400 CE–1500 CE window)",
+      "pass": true,
+      "detail": "site readout 1471 CE, url /?site=barnet&year=1471"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: address bar year matches the readout",
+      "pass": true,
+      "detail": "http://127.0.0.1:4310/?site=barnet&year=1471"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: \"Back to map\" button present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: back to map carries the site's year back (1480 CE)",
+      "pass": true,
+      "detail": "1480 CE /?map=1&year=1480"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: national map is functional after returning (stats ok, canvas, no stub)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: browser Back after \"Back to map\" returns to the site viewer",
+      "pass": true,
+      "detail": "{\"nat\":false,\"ltt\":true,\"url\":\"?site=barnet&year=1471\"}"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: no page errors during map<->site round trip",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: entering from 1300 CE (outside the site window) lands inside the window and does not error",
+      "pass": true,
+      "detail": "readout=1016 CE t=1016 url=/?site=brentford&year=1016"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: enter button text for 1300 CE does not promise a year the site cannot show",
+      "pass": true,
+      "detail": "Explore this site | This site covers 950–1100 CE; opens at 1016 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: address bar year agrees with the readout after clamping",
+      "pass": true,
+      "detail": "/?site=brentford&year=1016 vs 1016 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: entering from 500 BCE (outside the site window) lands inside the window and does not error",
+      "pass": true,
+      "detail": "readout=1016 CE t=1016 url=/?site=brentford&year=1016"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: enter button text for 500 BCE does not promise a year the site cannot show",
+      "pass": true,
+      "detail": "Explore this site | This site covers 950–1100 CE; opens at 1016 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: address bar year agrees with the readout after clamping",
+      "pass": true,
+      "detail": "/?site=brentford&year=1016 vs 1016 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: entering from 1300 CE (outside the site window) lands inside the window and does not error",
+      "pass": true,
+      "detail": "readout=1471 CE t=1471 url=/?site=barnet&year=1471"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: enter button text for 1300 CE does not promise a year the site cannot show",
+      "pass": true,
+      "detail": "Explore this site | This site covers 1400–1500 CE; opens at 1471 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: address bar year agrees with the readout after clamping",
+      "pass": true,
+      "detail": "/?site=barnet&year=1471 vs 1471 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: entering from 1616 CE (outside the site window) lands inside the window and does not error",
+      "pass": true,
+      "detail": "readout=1471 CE t=1471 url=/?site=barnet&year=1471"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: enter button text for 1616 CE does not promise a year the site cannot show",
+      "pass": true,
+      "detail": "Explore this site | This site covers 1400–1500 CE; opens at 1471 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: address bar year agrees with the readout after clamping",
+      "pass": true,
+      "detail": "/?site=barnet&year=1471 vs 1471 CE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: entering from 3000 BCE (outside the site window) lands inside the window and does not error",
+      "pass": true,
+      "detail": "readout=3000 BCE t=-2999 url=/?site=london&year=-3000"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: enter button text for 3000 BCE does not promise a year the site cannot show",
+      "pass": true,
+      "detail": "Explore this site | Opens the detailed model in 3000 BCE"
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: address bar year agrees with the readout after clamping",
+      "pass": true,
+      "detail": "/?site=london&year=-3000 vs 3000 BCE"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?year=1616&view=bridge opens the London site at the bridge",
+      "pass": true,
+      "detail": "1616 CE"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?year=1616&view=bridge opens the London site at the bridge — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&year=1066 opens the national map at 1066",
+      "pass": true,
+      "detail": "1066 CE"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&year=1066 opens the national map at 1066 — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?site=barnet opens Barnet (at its initial year 1471)",
+      "pass": true,
+      "detail": "1471 CE"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?site=barnet opens Barnet (at its initial year 1471) — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?site=brentford opens Brentford (at its initial year 1016)",
+      "pass": true,
+      "detail": "1016 CE"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?site=brentford opens Brentford (at its initial year 1016) — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?site=london opens London",
+      "pass": true,
+      "detail": "1616 CE"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?site=london opens London — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?site=nonsense falls back to the national map",
+      "pass": true,
+      "detail": "falls back to the map"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?site=nonsense falls back to the national map — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&year=55 BCE",
+      "pass": true,
+      "detail": "55 BCE"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&year=55 BCE — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&year=0 is ignored (falls back to 1616)",
+      "pass": true,
+      "detail": "1616 CE"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&year=0 is ignored (falls back to 1616) — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&year=99999 clamps to 1625 CE",
+      "pass": true,
+      "detail": "1625 CE"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&year=99999 clamps to 1625 CE — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&quality=low&labels=0&polities=0&evidence=1 applied",
+      "pass": true,
+      "detail": "{\"t\":1616,\"playing\":false,\"direction\":1,\"speed\":0,\"rate\":1,\"quality\":\"low\",\"fps\":61,\"labels\":false,\"polities\":false,\"evidence\":true,\"ready\":true}"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&quality=low&labels=0&polities=0&evidence=1 applied — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&place=london selects London",
+      "pass": true,
+      "detail": "london"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&place=london selects London — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&ui=0 hides the controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "group": "11 deep links",
+      "name": "/?map=1&ui=0 hides the controls — no page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "12 performance",
+      "name": "perf run quality=low completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "12 performance",
+      "name": "perf run quality=medium completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "12 performance",
+      "name": "perf run quality=high completed without errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "12 performance",
+      "name": "every scenario renders in under 50 ms/frame at medium quality (benchmark)",
+      "pass": true,
+      "detail": "[4.49,4.38,3.74,3.3,3.37,3.23]"
+    },
+    {
+      "group": "13 quality switching",
+      "name": "quality → low: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "distinct=255 tris=159834 dpr=1"
+    },
+    {
+      "group": "13 quality switching",
+      "name": "quality → high: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "distinct=244 tris=2490970 dpr=1"
+    },
+    {
+      "group": "13 quality switching",
+      "name": "quality → medium: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "distinct=251 tris=626266 dpr=1"
+    },
+    {
+      "group": "13 quality switching",
+      "name": "quality → low: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "distinct=260 tris=159834 dpr=1"
+    },
+    {
+      "group": "13 quality switching",
+      "name": "quality → medium: applied, year and camera kept, still rendering",
+      "pass": true,
+      "detail": "distinct=252 tris=626266 dpr=1"
+    },
+    {
+      "group": "13 quality switching",
+      "name": "no errors while switching quality",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "group": "session",
+      "name": "no page/console errors during the whole main-page run (favicon aside)",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "retried": [],
+  "info": [
+    {
+      "group": "1 load",
+      "name": "dataset size",
+      "detail": {
+        "places": 243,
+        "lines": 42,
+        "polities": 73,
+        "events": 70,
+        "sources": 448
+      }
+    },
+    {
+      "group": "1 load",
+      "name": "initial stats",
+      "detail": {
+        "places": 243,
+        "placesVisible": 211,
+        "lines": 42,
+        "linesVisible": 9,
+        "polities": 73,
+        "politiesVisible": 2,
+        "labels": 30,
+        "woodland": 0.07032727272727274,
+        "seaLevel": -0.2569230769230769
+      }
+    },
+    {
+      "group": "1 load",
+      "name": "WebGL renderer",
+      "detail": {
+        "lost": false,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+        "w": 1600,
+        "h": 900
+      }
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "map labels containing London/Londinium at 150 (zoomed on London)",
+      "detail": [
+        "Londinium",
+        "Watling Street (Richborough–Canterbury–London)",
+        "Stane Street (London–Chichester)",
+        "Devil’s Highway (London–Staines–Silchester)",
+        "London–Colchester road",
+        "Londinium"
+      ]
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "visible at 4000 BCE",
+      "detail": {
+        "places": 1,
+        "lines": 0,
+        "polities": 0
+      }
+    },
+    {
+      "group": "7 data lifecycles (engine placeStatus/lineStatus/polityStatus)",
+      "name": "visible at 1625 CE",
+      "detail": {
+        "places": 211,
+        "lines": 9,
+        "polities": 2
+      }
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "REVIEW sweep: religiousBefore597 (3)",
+      "detail": [
+        "place st-davids (St Davids) phase 0 \"Monastery and bishop's seat of St David\" 550 CE→1114 CE [kind monastery]",
+        "place llantwit-major (Llantwit Major) phase 0 \"Monastery and school of St Illtud\" 500 CE→1099 CE [kind monastery]",
+        "place bangor (Bangor) phase 0 \"Monastery and bishop’s seat of St Deinio\" 530 CE→1119 CE [kind monastery]"
+      ]
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "REVIEW sweep: gaps (1)",
+      "detail": [
+        "place rhuddlan (Rhuddlan): gap 1063 CE → 1073 CE (10 yr) between phase 0 and 1"
+      ]
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "REVIEW sweep: longSegments (1)",
+      "detail": [
+        "line great-north-road (Great North Road (London–York–Berwick)): vertices 26→27 are 44 km apart"
+      ]
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "REVIEW sweep: countryMismatch (0)",
+      "detail": []
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "REVIEW sweep: noSource (55)",
+      "detail": [
+        "place hambledon-hill (Hambledon Hill)",
+        "place cissbury (Cissbury)",
+        "place langdale-axe-factory (Langdale axe quarries)",
+        "place arbor-low (Arbor Low)",
+        "place seahenge (Holme timber circle (Seahenge))",
+        "place must-farm (Must Farm)",
+        "place cadbury-castle (Cadbury Castle)",
+        "place glastonbury-lake-village (Glastonbury Lake Village)",
+        "place fishbourne (Fishbourne Roman Palace)",
+        "place caistor-st-edmund (Caistor St Edmund)",
+        "place brough-on-humber (Brough-on-Humber)",
+        "place water-newton (Water Newton)",
+        "place catterick (Catterick)",
+        "place south-shields (South Shields)",
+        "place manchester (Manchester)",
+        "place lancaster (Lancaster)",
+        "place charterhouse (Charterhouse-on-Mendip)",
+        "place wirksworth (Wirksworth)",
+        "place west-stow (West Stow)",
+        "place rendlesham (Rendlesham)",
+        "place sandwich (Sandwich)",
+        "place hexham (Hexham)",
+        "place ripon (Ripon)",
+        "place winchelsea (Winchelsea)",
+        "place portsmouth (Portsmouth)",
+        "place dartmouth (Dartmouth)",
+        "place bodmin (Bodmin)",
+        "place walsingham (Walsingham)",
+        "place windsor (Windsor Castle)",
+        "place corfe (Corfe Castle)",
+        "place pontefract (Pontefract Castle)",
+        "place alnwick (Alnwick Castle)",
+        "place clarendon (Clarendon Palace)",
+        "place hampton-court (Hampton Court)",
+        "place nonsuch (Nonsuch Palace)",
+        "place liverpool (Liverpool)",
+        "place leeds (Leeds)",
+        "place birmingham (Birmingham)",
+        "place kendal (Kendal)",
+        "place dinas-powys (Dinas Powys hillfort)",
+        "place dinas-bran (Castell Dinas Brân)",
+        "place brecon (Brecon)",
+        "place wrexham (Wrexham)",
+        "place monmouth (Monmouth)",
+        "place machynlleth (Machynlleth)",
+        "line wansdyke-east (East Wansdyke)",
+        "line wansdyke-west (West Wansdyke)",
+        "line devils-dyke-cambs (Devil’s Dyke (Cambridgeshire))",
+        "line great-north-road (Great North Road (London–York–Berwick))",
+        "polity elmet (Elmet)",
+        "polity dumnonia (Dumnonia)",
+        "polity earldom-mercia (Earldom of Mercia)",
+        "polity earldom-east-anglia (Earldom of East Anglia)",
+        "polity ceredigion (Ceredigion)",
+        "polity glywysing (Glywysing (later Morgannwg))"
+      ]
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "REVIEW sweep: nearDuplicatePolities (5)",
+      "detail": [
+        "britannia-superior (Britannia Superior) and britannia-inferior (Britannia Inferior): same kind and dates 197 CE→295 CE",
+        "maxima-caesariensis (Maxima Caesariensis) and flavia-caesariensis (Flavia Caesariensis): same kind and dates 296 CE→410 CE",
+        "britannia-prima (Britannia Prima) and britannia-secunda (Britannia Secunda): same kind and dates 296 CE→410 CE",
+        "powys-fadog (Powys Fadog) and powys-wenwynwyn (Powys Wenwynwyn): same kind and dates 1160 CE→1283 CE",
+        "principality-north (Principality of Wales (royal counties of Anglesey, Caernarfon and Merioneth)) and principality-south (Principality of Wales (royal counties of Cardigan and Carmarthen)): same kind and dates 1284 CE→1536 CE"
+      ]
+    },
+    {
+      "group": "8 anachronism sweep (all data)",
+      "name": "REVIEW sweep: nearDuplicatePlaces (2)",
+      "detail": [
+        "battle-abbey and battle-hastings are within ~400 m",
+        "pillar-of-eliseg and valle-crucis are within ~400 m"
+      ]
+    },
+    {
+      "group": "9 selection and info panel",
+      "name": "entries with no resolvable source (panel shows the fallback text)",
+      "detail": {
+        "places": [
+          "hambledon-hill",
+          "cissbury",
+          "langdale-axe-factory",
+          "arbor-low",
+          "seahenge",
+          "must-farm",
+          "cadbury-castle",
+          "glastonbury-lake-village",
+          "fishbourne",
+          "caistor-st-edmund",
+          "brough-on-humber",
+          "water-newton",
+          "catterick",
+          "south-shields",
+          "manchester",
+          "lancaster",
+          "charterhouse",
+          "wirksworth",
+          "west-stow",
+          "rendlesham",
+          "sandwich",
+          "hexham",
+          "ripon",
+          "winchelsea",
+          "portsmouth",
+          "dartmouth",
+          "bodmin",
+          "walsingham",
+          "windsor",
+          "corfe",
+          "pontefract",
+          "alnwick",
+          "clarendon",
+          "hampton-court",
+          "nonsuch",
+          "liverpool",
+          "leeds",
+          "birmingham",
+          "kendal",
+          "dinas-powys",
+          "dinas-bran",
+          "brecon",
+          "wrexham",
+          "monmouth",
+          "machynlleth"
+        ],
+        "lines": [
+          "wansdyke-east",
+          "wansdyke-west",
+          "devils-dyke-cambs",
+          "great-north-road"
+        ],
+        "polities": [
+          "elmet",
+          "dumnonia",
+          "earldom-mercia",
+          "earldom-east-anglia",
+          "ceredigion",
+          "glywysing"
+        ]
+      }
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london: browser Back after \"Back to map\"",
+      "detail": {
+        "nat": false,
+        "ltt": true,
+        "url": "?site=london&year=1300"
+      }
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford: browser Back after \"Back to map\"",
+      "detail": {
+        "nat": false,
+        "ltt": true,
+        "url": "?site=brentford&year=1016"
+      }
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet: browser Back after \"Back to map\"",
+      "detail": {
+        "nat": false,
+        "ltt": true,
+        "url": "?site=barnet&year=1471"
+      }
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford entered from national 1300 CE (outside 950 CE–1100 CE): control says \"Explore this site | This site covers 950–1100 CE; opens at 1016 CE\"",
+      "detail": {
+        "siteReadout": "1016 CE",
+        "t": 1016,
+        "url": "/?site=brentford&year=1016"
+      }
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "brentford entered from national 500 BCE (outside 950 CE–1100 CE): control says \"Explore this site | This site covers 950–1100 CE; opens at 1016 CE\"",
+      "detail": {
+        "siteReadout": "1016 CE",
+        "t": 1016,
+        "url": "/?site=brentford&year=1016"
+      }
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet entered from national 1300 CE (outside 1400 CE–1500 CE): control says \"Explore this site | This site covers 1400–1500 CE; opens at 1471 CE\"",
+      "detail": {
+        "siteReadout": "1471 CE",
+        "t": 1471,
+        "url": "/?site=barnet&year=1471"
+      }
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "barnet entered from national 1616 CE (outside 1400 CE–1500 CE): control says \"Explore this site | This site covers 1400–1500 CE; opens at 1471 CE\"",
+      "detail": {
+        "siteReadout": "1471 CE",
+        "t": 1471,
+        "url": "/?site=barnet&year=1471"
+      }
+    },
+    {
+      "group": "10 enter site / back to map",
+      "name": "london entered from national 3000 BCE (outside 4000 BCE–1625 CE): control says \"Explore this site | Opens the detailed model in 3000 BCE\"",
+      "detail": {
+        "siteReadout": "3000 BCE",
+        "t": -2999,
+        "url": "/?site=london&year=-3000"
+      }
+    },
+    {
+      "group": "session",
+      "name": "main page reloads / state losses",
+      "detail": 0
+    }
+  ],
+  "perf": [
+    {
+      "quality": "low",
+      "view": "whole map",
+      "year": "3000 BCE",
+      "fps": 60,
+      "rafFps": 60.3,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.56,
+      "benchFps": 281,
+      "triangles": 156666,
+      "calls": 5,
+      "placesVisible": 11,
+      "linesVisible": 1,
+      "politiesVisible": 0,
+      "labels": 4,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1585
+    },
+    {
+      "quality": "low",
+      "view": "whole map",
+      "year": "150 CE",
+      "fps": 60,
+      "rafFps": 60.8,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.56,
+      "benchFps": 281,
+      "triangles": 173916,
+      "calls": 37,
+      "placesVisible": 80,
+      "linesVisible": 33,
+      "politiesVisible": 20,
+      "labels": 34,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1585
+    },
+    {
+      "quality": "low",
+      "view": "whole map",
+      "year": "1300 CE",
+      "fps": 60,
+      "rafFps": 60.8,
+      "frameMs": 16.66,
+      "worstMs": 16.8,
+      "benchMs": 3.72,
+      "benchFps": 269,
+      "triangles": 159834,
+      "calls": 12,
+      "placesVisible": 209,
+      "linesVisible": 8,
+      "politiesVisible": 4,
+      "labels": 33,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1585
+    },
+    {
+      "quality": "low",
+      "view": "whole map",
+      "year": "1600 CE",
+      "fps": 60,
+      "rafFps": 61,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.53,
+      "benchFps": 283,
+      "triangles": 161418,
+      "calls": 13,
+      "placesVisible": 211,
+      "linesVisible": 9,
+      "politiesVisible": 2,
+      "labels": 30,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1585
+    },
+    {
+      "quality": "low",
+      "view": "south-east zoom",
+      "year": "1300 CE",
+      "fps": 60,
+      "rafFps": 60.6,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.17,
+      "benchFps": 315,
+      "triangles": 159834,
+      "calls": 12,
+      "placesVisible": 209,
+      "linesVisible": 8,
+      "politiesVisible": 4,
+      "labels": 57,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1585
+    },
+    {
+      "quality": "low",
+      "view": "south-east zoom",
+      "year": "1600 CE",
+      "fps": 60,
+      "rafFps": 61,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.32,
+      "benchFps": 301,
+      "triangles": 161418,
+      "calls": 13,
+      "placesVisible": 211,
+      "linesVisible": 9,
+      "politiesVisible": 2,
+      "labels": 59,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1585
+    },
+    {
+      "quality": "medium",
+      "view": "whole map",
+      "year": "3000 BCE",
+      "fps": 60,
+      "rafFps": 60.3,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 4.49,
+      "benchFps": 223,
+      "triangles": 623098,
+      "calls": 5,
+      "placesVisible": 11,
+      "linesVisible": 1,
+      "politiesVisible": 0,
+      "labels": 4,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 2180
+    },
+    {
+      "quality": "medium",
+      "view": "whole map",
+      "year": "150 CE",
+      "fps": 60,
+      "rafFps": 60.4,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 4.38,
+      "benchFps": 228,
+      "triangles": 640348,
+      "calls": 37,
+      "placesVisible": 80,
+      "linesVisible": 33,
+      "politiesVisible": 20,
+      "labels": 34,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 2180
+    },
+    {
+      "quality": "medium",
+      "view": "whole map",
+      "year": "1300 CE",
+      "fps": 60,
+      "rafFps": 60.2,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.74,
+      "benchFps": 267,
+      "triangles": 626266,
+      "calls": 12,
+      "placesVisible": 209,
+      "linesVisible": 8,
+      "politiesVisible": 4,
+      "labels": 33,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 2180
+    },
+    {
+      "quality": "medium",
+      "view": "whole map",
+      "year": "1600 CE",
+      "fps": 60,
+      "rafFps": 60.1,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.3,
+      "benchFps": 303,
+      "triangles": 627850,
+      "calls": 13,
+      "placesVisible": 211,
+      "linesVisible": 9,
+      "politiesVisible": 2,
+      "labels": 30,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 2180
+    },
+    {
+      "quality": "medium",
+      "view": "south-east zoom",
+      "year": "1300 CE",
+      "fps": 60,
+      "rafFps": 60.3,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.37,
+      "benchFps": 297,
+      "triangles": 626266,
+      "calls": 12,
+      "placesVisible": 209,
+      "linesVisible": 8,
+      "politiesVisible": 4,
+      "labels": 57,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 2180
+    },
+    {
+      "quality": "medium",
+      "view": "south-east zoom",
+      "year": "1600 CE",
+      "fps": 60,
+      "rafFps": 60.4,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.23,
+      "benchFps": 310,
+      "triangles": 627850,
+      "calls": 13,
+      "placesVisible": 211,
+      "linesVisible": 9,
+      "politiesVisible": 2,
+      "labels": 59,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 2180
+    },
+    {
+      "quality": "high",
+      "view": "whole map",
+      "year": "3000 BCE",
+      "fps": 60,
+      "rafFps": 60.1,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 5.84,
+      "benchFps": 171,
+      "triangles": 2487802,
+      "calls": 5,
+      "placesVisible": 11,
+      "linesVisible": 1,
+      "politiesVisible": 0,
+      "labels": 4,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1714
+    },
+    {
+      "quality": "high",
+      "view": "whole map",
+      "year": "150 CE",
+      "fps": 60,
+      "rafFps": 60.8,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 5.91,
+      "benchFps": 169,
+      "triangles": 2505052,
+      "calls": 37,
+      "placesVisible": 80,
+      "linesVisible": 33,
+      "politiesVisible": 20,
+      "labels": 34,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1714
+    },
+    {
+      "quality": "high",
+      "view": "whole map",
+      "year": "1300 CE",
+      "fps": 60,
+      "rafFps": 61,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 5.43,
+      "benchFps": 184,
+      "triangles": 2490970,
+      "calls": 12,
+      "placesVisible": 209,
+      "linesVisible": 8,
+      "politiesVisible": 4,
+      "labels": 33,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1714
+    },
+    {
+      "quality": "high",
+      "view": "whole map",
+      "year": "1600 CE",
+      "fps": 60,
+      "rafFps": 60.1,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 5.67,
+      "benchFps": 176,
+      "triangles": 2492554,
+      "calls": 13,
+      "placesVisible": 211,
+      "linesVisible": 9,
+      "politiesVisible": 2,
+      "labels": 30,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1714
+    },
+    {
+      "quality": "high",
+      "view": "south-east zoom",
+      "year": "1300 CE",
+      "fps": 60,
+      "rafFps": 60.6,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 3.94,
+      "benchFps": 254,
+      "triangles": 2490970,
+      "calls": 12,
+      "placesVisible": 209,
+      "linesVisible": 8,
+      "politiesVisible": 4,
+      "labels": 57,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1714
+    },
+    {
+      "quality": "high",
+      "view": "south-east zoom",
+      "year": "1600 CE",
+      "fps": 60,
+      "rafFps": 60.4,
+      "frameMs": 16.67,
+      "worstMs": 16.8,
+      "benchMs": 4.13,
+      "benchFps": 242,
+      "triangles": 2492554,
+      "calls": 13,
+      "placesVisible": 211,
+      "linesVisible": 9,
+      "politiesVisible": 2,
+      "labels": 59,
+      "pixelRatio": 1,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1714
+    }
+  ],
+  "sweep": {
+    "order": [],
+    "overlap": [],
+    "zeroOrNonInteger": [],
+    "toBeforeFrom": [],
+    "openNotLast": [],
+    "outOfBounds": [],
+    "timelineRange": [],
+    "castleBefore1050": [],
+    "religiousBefore597": [
+      "place st-davids (St Davids) phase 0 \"Monastery and bishop's seat of St David\" 550 CE→1114 CE [kind monastery]",
+      "place llantwit-major (Llantwit Major) phase 0 \"Monastery and school of St Illtud\" 500 CE→1099 CE [kind monastery]",
+      "place bangor (Bangor) phase 0 \"Monastery and bishop’s seat of St Deinio\" 530 CE→1119 CE [kind monastery]"
+    ],
+    "romanRoadBefore43": [],
+    "badEvidence": [],
+    "unknownSource": [],
+    "duplicates": [],
+    "longSegments": [
+      "line great-north-road (Great North Road (London–York–Berwick)): vertices 26→27 are 44 km apart"
+    ],
+    "countryMismatch": [],
+    "gaps": [
+      "place rhuddlan (Rhuddlan): gap 1063 CE → 1073 CE (10 yr) between phase 0 and 1"
+    ],
+    "altNameIssues": [],
+    "sizeIssues": [],
+    "noSource": [
+      "place hambledon-hill (Hambledon Hill)",
+      "place cissbury (Cissbury)",
+      "place langdale-axe-factory (Langdale axe quarries)",
+      "place arbor-low (Arbor Low)",
+      "place seahenge (Holme timber circle (Seahenge))",
+      "place must-farm (Must Farm)",
+      "place cadbury-castle (Cadbury Castle)",
+      "place glastonbury-lake-village (Glastonbury Lake Village)",
+      "place fishbourne (Fishbourne Roman Palace)",
+      "place caistor-st-edmund (Caistor St Edmund)",
+      "place brough-on-humber (Brough-on-Humber)",
+      "place water-newton (Water Newton)",
+      "place catterick (Catterick)",
+      "place south-shields (South Shields)",
+      "place manchester (Manchester)",
+      "place lancaster (Lancaster)",
+      "place charterhouse (Charterhouse-on-Mendip)",
+      "place wirksworth (Wirksworth)",
+      "place west-stow (West Stow)",
+      "place rendlesham (Rendlesham)",
+      "place sandwich (Sandwich)",
+      "place hexham (Hexham)",
+      "place ripon (Ripon)",
+      "place winchelsea (Winchelsea)",
+      "place portsmouth (Portsmouth)",
+      "place dartmouth (Dartmouth)",
+      "place bodmin (Bodmin)",
+      "place walsingham (Walsingham)",
+      "place windsor (Windsor Castle)",
+      "place corfe (Corfe Castle)",
+      "place pontefract (Pontefract Castle)",
+      "place alnwick (Alnwick Castle)",
+      "place clarendon (Clarendon Palace)",
+      "place hampton-court (Hampton Court)",
+      "place nonsuch (Nonsuch Palace)",
+      "place liverpool (Liverpool)",
+      "place leeds (Leeds)",
+      "place birmingham (Birmingham)",
+      "place kendal (Kendal)",
+      "place dinas-powys (Dinas Powys hillfort)",
+      "place dinas-bran (Castell Dinas Brân)",
+      "place brecon (Brecon)",
+      "place wrexham (Wrexham)",
+      "place monmouth (Monmouth)",
+      "place machynlleth (Machynlleth)",
+      "line wansdyke-east (East Wansdyke)",
+      "line wansdyke-west (West Wansdyke)",
+      "line devils-dyke-cambs (Devil’s Dyke (Cambridgeshire))",
+      "line great-north-road (Great North Road (London–York–Berwick))",
+      "polity elmet (Elmet)",
+      "polity dumnonia (Dumnonia)",
+      "polity earldom-mercia (Earldom of Mercia)",
+      "polity earldom-east-anglia (Earldom of East Anglia)",
+      "polity ceredigion (Ceredigion)",
+      "polity glywysing (Glywysing (later Morgannwg))"
+    ],
+    "joinConvention": {
+      "inclusive": 440,
+      "exclusive": 0,
+      "byCountry": {
+        "england": {
+          "inclusive": 350,
+          "exclusive": 0
+        },
+        "wales": {
+          "inclusive": 90,
+          "exclusive": 0
+        }
+      },
+      "examples": [
+        "stonehenge: 2501 BCE → 2500 BCE",
+        "stonehenge: 1501 BCE → 1500 BCE",
+        "stonehenge: 42 CE → 43 CE",
+        "durrington-walls: 2451 BCE → 2450 BCE",
+        "durrington-walls: 2001 BCE → 2000 BCE",
+        "avebury: 2201 BCE → 2200 BCE",
+        "avebury: 1801 BCE → 1800 BCE",
+        "silbury-hill: 2350 BCE → 2349 BCE"
+      ]
+    },
+    "yearHoles": [],
+    "nearDuplicatePolities": [
+      "britannia-superior (Britannia Superior) and britannia-inferior (Britannia Inferior): same kind and dates 197 CE→295 CE",
+      "maxima-caesariensis (Maxima Caesariensis) and flavia-caesariensis (Flavia Caesariensis): same kind and dates 296 CE→410 CE",
+      "britannia-prima (Britannia Prima) and britannia-secunda (Britannia Secunda): same kind and dates 296 CE→410 CE",
+      "powys-fadog (Powys Fadog) and powys-wenwynwyn (Powys Wenwynwyn): same kind and dates 1160 CE→1283 CE",
+      "principality-north (Principality of Wales (royal counties of Anglesey, Caernarfon and Merioneth)) and principality-south (Principality of Wales (royal counties of Cardigan and Carmarthen)): same kind and dates 1284 CE→1536 CE"
+    ],
+    "nearDuplicatePlaces": [
+      "battle-abbey and battle-hastings are within ~400 m",
+      "pillar-of-eliseg and valle-crucis are within ~400 m"
+    ]
+  }
+}

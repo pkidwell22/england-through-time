@@ -1,0 +1,188 @@
+[
+ {
+  "id": "watling",
+  "name": "Watling Street",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.28,
+    1.08
+   ],
+   [
+    51.5,
+    -0.09
+   ],
+   [
+    51.75,
+    -0.34
+   ],
+   [
+    52.06,
+    -0.9
+   ],
+   [
+    52.58,
+    -1.7
+   ],
+   [
+    52.67,
+    -2.64
+   ]
+  ],
+  "from": 50,
+  "to": 410,
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/lines.json exists.",
+  "sources": []
+ },
+ {
+  "id": "ermine",
+  "name": "Ermine Street",
+  "kind": "roman-road",
+  "path": [
+   [
+    51.5,
+    -0.09
+   ],
+   [
+    52.33,
+    -0.19
+   ],
+   [
+    53.23,
+    -0.54
+   ],
+   [
+    53.96,
+    -1.08
+   ]
+  ],
+  "from": 50,
+  "to": 410,
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/lines.json exists.",
+  "sources": []
+ },
+ {
+  "id": "hadrian",
+  "name": "Hadrian's Wall",
+  "kind": "frontier-wall",
+  "path": [
+   [
+    54.99,
+    -1.53
+   ],
+   [
+    55.0,
+    -2.3
+   ],
+   [
+    54.99,
+    -2.6
+   ],
+   [
+    54.95,
+    -3.2
+   ]
+  ],
+  "from": 122,
+  "to": 410,
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/lines.json exists.",
+  "sources": []
+ },
+ {
+  "id": "offa",
+  "name": "Offa's Dyke",
+  "kind": "dyke",
+  "path": [
+   [
+    53.3,
+    -3.3
+   ],
+   [
+    52.7,
+    -3.1
+   ],
+   [
+    52.3,
+    -3.05
+   ],
+   [
+    51.65,
+    -2.67
+   ]
+  ],
+  "from": 790,
+  "to": 1000,
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/lines.json exists.",
+  "sources": []
+ },
+ {
+  "id": "great-north",
+  "name": "Great North Road",
+  "kind": "road",
+  "path": [
+   [
+    51.5,
+    -0.09
+   ],
+   [
+    52.57,
+    -0.25
+   ],
+   [
+    53.52,
+    -1.13
+   ],
+   [
+    54.78,
+    -1.58
+   ]
+  ],
+  "from": 1100,
+  "to": null,
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/lines.json exists.",
+  "sources": []
+ },
+ {
+  "id": "march",
+  "name": "Anglo-Welsh border",
+  "kind": "border",
+  "path": [
+   [
+    53.25,
+    -3.0
+   ],
+   [
+    52.9,
+    -3.0
+   ],
+   [
+    52.4,
+    -3.1
+   ],
+   [
+    51.85,
+    -2.7
+   ],
+   [
+    51.6,
+    -2.66
+   ]
+  ],
+  "from": 1284,
+  "to": null,
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "summary": "PLACEHOLDER (src/national/stub): development stand-in, not researched. Replaced automatically when data/national/lines.json exists.",
+  "sources": []
+ }
+]

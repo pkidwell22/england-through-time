@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Octahedral impostor bake</title>
+<style>body{margin:0;background:#222;color:#ccc;font:12px sans-serif}</style>
+</head>
+<body>
+<p>Bake page for scripts/bake-octa.mjs: hemi-octahedral tree impostors (N x N views of LOD0). Not part of the app.</p>
+<script type="module">
+import { THREE, loadModelData, partGeometry, texture } from "./viewer.js";
+
+/*
+ * Frame (i, j) of an N x N grid looks at the tree from the direction decode(((i, j) + 0.5) / N * 2 - 1) of the
+ * upper hemisphere (hemi-octahedral map: the centre of the atlas is straight down from above, its four edges the
+ * horizon). Camera basis per frame: right = normalize(cross(Y, d)), up = cross(d, right); orthographic, half-size R
+ * round the bounding-box centre C. src/scene/veg/impostor.ts uses exactly the same maths at runtime.
+ *
+ * Outputs (RGBA, alpha = coverage, colour bled into empty texels):
+ *   colour: the raw texture bytes (sRGB) of bark and leaf cards
+ *   normal: R,G = octahedral-encoded object-space normal (leaf cards keep their soft crown normals), B = crown
+ *           occlusion proxy (how deep in the crown, and how low, the visible leaf sits: 1 = outer sunlit shell)
+ */
+const renderer = new THREE.WebGLRenderer({ antialias: false, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+
+const VERT = `
+varying vec2 vUv; varying vec3 vN; varying vec3 vP;
+void main(){ vUv = uv; vN = normal; vP = position; gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }`;
+const FRAG = `
+uniform sampler2D map; uniform float hasMap; uniform vec3 color; uniform float mode; uniform float alphaTest; uniform float crown;
+uniform vec3 cC; uniform vec3 cR; uniform vec2 cY; uniform vec3 viewDirObj;
+varying vec2 vUv; varying vec3 vN; varying vec3 vP;
+vec2 octEnc(vec3 n){ n /= (abs(n.x) + abs(n.y) + abs(n.z)); vec2 p = n.xz; if (n.y < 0.0) p = (1.0 - abs(p.yx)) * vec2(p.x >= 0.0 ? 1.0 : -1.0, p.y >= 0.0 ? 1.0 : -1.0); return p; }
+void main(){
+  vec4 t = hasMap > 0.5 ? texture2D(map, vUv) : vec4(1.0);
+  if (t.a < alphaTest) discard;
+  if (mode < 0.5) { gl_FragColor = vec4(t.rgb * color, 1.0); return; }
+  vec3 n = normalize(vN);
+  float occ;
+  float hy = clamp((vP.y - cY.x) / max(0.01, cY.y - cY.x), 0.0, 1.0);
+  if (crown > 0.5) {
+    // crown normals already point out of the crown; bend a little towards the viewer (a card cannot show the far side)
+    n = normalize(n + viewDirObj * 0.35);
+    float e = length((vP - cC) / cR);
+    occ = (0.3 + 0.7 * smoothstep(0.2, 1.0, e)) * mix(0.62, 1.0, hy);
+  } else {
+    if (dot(n, viewDirObj) < 0.0) n = -n;
+    occ = mix(0.35, 0.7, hy);
+  }
+  gl_FragColor = vec4(octEnc(n) * 0.5 + 0.5, occ, 1.0);
+}`;
+function mat(map, alphaTest, mode, color, crown, crownBox) {
+  return new THREE.ShaderMaterial({
+    vertexShader: VERT, fragmentShader: FRAG, side: THREE.DoubleSide,
+    uniforms: {
+      map: { value: map }, hasMap: { value: map ? 1 : 0 }, color: { value: new THREE.Color(...(color || [1, 1, 1])) }, mode: { value: mode },
+      alphaTest: { value: alphaTest }, crown: { value: crown ? 1 : 0 },
+      cC: { value: crownBox.c }, cR: { value: crownBox.r }, cY: { value: crownBox.y }, viewDirObj: { value: new THREE.Vector3(0, 0, 1) },
+    },
+  });
+}
+
+function decodeHemi(u, v) {
+  const px = (u + v) / 2, pz = (u - v) / 2;
+  const y = 1 - Math.abs(px) - Math.abs(pz);
+  return new THREE.Vector3(px, Math.max(y, 0), pz).normalize();
+}
+function basis(d) {
+  const right = new THREE.Vector3(0, 1, 0).cross(d);
+  if (right.lengthSq() < 1e-8) right.set(1, 0, 0);
+  right.normalize();
+  const up = d.clone().cross(right).normalize();
+  return { right, up };
+}
+
+/** Render N x N frames into a (N*cell)^2 target, supersampled, and return a canvas (colour bled into empty texels). */
+function renderAtlas(scene, mats, N, cell, C, R, ss = 2) {
+  const S = N * cell;
+  const rt = new THREE.WebGLRenderTarget(S * ss, S * ss, { type: THREE.UnsignedByteType });
+  renderer.setRenderTarget(rt);
+  renderer.setClearColor(0x000000, 0);
+  renderer.clear();
+  const cam = new THREE.OrthographicCamera(-R, R, R, -R, 0.01, R * 8);
+  for (let j = 0; j < N; j++)
+    for (let i = 0; i < N; i++) {
+      const d = decodeHemi(((i + 0.5) / N) * 2 - 1, ((j + 0.5) / N) * 2 - 1);
+      const { right, up } = basis(d);
+      cam.position.copy(C).addScaledVector(d, R * 3);
+      cam.matrix.makeBasis(right, up, d).setPosition(cam.position);
+      cam.matrix.decompose(cam.position, cam.quaternion, cam.scale);
+      cam.matrixWorldNeedsUpdate = true;
+      cam.updateMatrixWorld(true);
+      for (const m of mats) m.uniforms.viewDirObj.value.copy(d);
+      rt.viewport.set(i * cell * ss, j * cell * ss, cell * ss, cell * ss);
+      rt.scissor.set(i * cell * ss, j * cell * ss, cell * ss, cell * ss);
+      rt.scissorTest = true;
+      renderer.setRenderTarget(rt);
+      renderer.render(scene, cam);
+    }
+  const W = S * ss;
+  const px = new Uint8Array(W * W * 4);
+  renderer.readRenderTargetPixels(rt, 0, 0, W, W, px);
+  renderer.setRenderTarget(null);
+  rt.dispose();
+  const out = new Uint8ClampedArray(S * S * 4);
+  for (let y = 0; y < S; y++) for (let x = 0; x < S; x++) {
+    let r = 0, g = 0, b = 0, a = 0;
+    for (let sy = 0; sy < ss; sy++) for (let sx = 0; sx < ss; sx++) {
+      const i = ((y * ss + sy) * W + (x * ss + sx)) * 4;
+      const al = px[i + 3];
+      r += px[i] * al; g += px[i + 1] * al; b += px[i + 2] * al; a += al;
+    }
+    const o = ((S - 1 - y) * S + x) * 4;
+    if (a > 0) { out[o] = r / a; out[o + 1] = g / a; out[o + 2] = b / a; }
+    out[o + 3] = a / (ss * ss);
+  }
+  dilate(out, S, S, 24);
+  const cv = document.createElement("canvas");
+  cv.width = cv.height = S;
+  cv.getContext("2d").putImageData(new ImageData(out, S, S), 0, 0);
+  return cv;
+}
+function dilate(d, W, H, passes) {
+  let filled = new Uint8Array(W * H);
+  for (let i = 0; i < W * H; i++) filled[i] = d[i * 4 + 3] > 0 ? 1 : 0;
+  for (let p = 0; p < passes; p++) {
+    const next = filled.slice();
+    let any = false;
+    for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+      const i = y * W + x;
+      if (filled[i]) continue;
+      let r = 0, g = 0, b = 0, n = 0;
+      for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+        const X = x + dx, Y = y + dy;
+        if (X < 0 || Y < 0 || X >= W || Y >= H) continue;
+        const j = Y * W + X;
+        if (!filled[j]) continue;
+        r += d[j * 4]; g += d[j * 4 + 1]; b += d[j * 4 + 2]; n++;
+      }
+      if (n) { d[i * 4] = r / n; d[i * 4 + 1] = g / n; d[i * 4 + 2] = b / n; next[i] = 1; any = true; }
+    }
+    filled = next;
+    if (!any) break;
+  }
+  // whatever is still empty takes the mean colour, so low mip levels (which average colour regardless of alpha) do
+  // not darken towards black
+  let r = 0, g = 0, b = 0, n = 0;
+  for (let i = 0; i < W * H; i++) if (d[i * 4 + 3] > 0) { r += d[i * 4]; g += d[i * 4 + 1]; b += d[i * 4 + 2]; n++; }
+  if (n) for (let i = 0; i < W * H; i++) if (!filled[i]) { d[i * 4] = r / n; d[i * 4 + 1] = g / n; d[i * 4 + 2] = b / n; }
+}
+
+window.bakeOcta = async (id, N, cell) => {
+  const { meta, bin } = await loadModelData(id);
+  const v = meta.variants[0];
+  const lod0 = v.lods[0];
+  // tree bounds and crown (leaf card) bounds
+  const box = new THREE.Box3(new THREE.Vector3(...v.bounds.min), new THREE.Vector3(...v.bounds.max));
+  const C = box.getCenter(new THREE.Vector3());
+  const geos = lod0.parts.map((p) => partGeometry(bin, p));
+  let R = 0;
+  for (const g of geos) {
+    const pa = g.attributes.position;
+    for (let i = 0; i < pa.count; i++) R = Math.max(R, Math.hypot(pa.getX(i) - C.x, pa.getY(i) - C.y, pa.getZ(i) - C.z));
+  }
+  R *= 1.01;
+  const crownBox = new THREE.Box3();
+  lod0.parts.forEach((p, k) => { if (p.material.kind === "cutout") { geos[k].computeBoundingBox(); crownBox.union(geos[k].boundingBox); } });
+  if (crownBox.isEmpty()) crownBox.copy(box);
+  const cb = { c: crownBox.getCenter(new THREE.Vector3()), r: crownBox.getSize(new THREE.Vector3()).multiplyScalar(0.5), y: new THREE.Vector2(box.min.y, crownBox.max.y) };
+  const scenes = [new THREE.Scene(), new THREE.Scene()];
+  const mats = [[], []];
+  for (let k = 0; k < lod0.parts.length; k++) {
+    const m = lod0.parts[k].material;
+    const map = m.map ? await texture(id, m.map, false, true) : null;
+    if (map && m.alphaTest) map.wrapS = map.wrapT = THREE.ClampToEdgeWrapping;
+    for (const mode of [0, 1]) {
+      const mt = mat(map, m.alphaTest || 0, mode, mode === 0 ? m.color : null, !!m.crownNormals, cb);
+      mats[mode].push(mt);
+      scenes[mode].add(new THREE.Mesh(geos[k], mt));
+    }
+  }
+  const c = renderAtlas(scenes[0], mats[0], N, cell, C, R).toDataURL("image/png");
+  const n = renderAtlas(scenes[1], mats[1], N, cell, C, R).toDataURL("image/png");
+  return { c, n, info: { N, cell, center: C.toArray(), radius: R, height: v.size.height } };
+};
+window.bakeReady = true;
+</script>
+</body>
+</html>

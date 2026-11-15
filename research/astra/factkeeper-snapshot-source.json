@@ -1,0 +1,4290 @@
+[
+  {
+    "id": "bar-barnet-battlefield-project-2015-2018",
+    "title": "The Barnet Battlefield Project 2015-2018, G. Foard, T. Partida and S. Wilson (University of Huddersfield; PDF report with historic landscape mapping, source extracts and survey results)",
+    "publisher": "Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-3872-1/dissemination/pdf/Barnet_Battlefield_Project_2015-2018.pdf",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-watson-2022-looking-for-the-site",
+    "title": "Looking for the site of the Battle of Barnet, B. Watson, London Archaeologist 16(7), Winter 2022, 192-195 (PDF)",
+    "publisher": "London Archaeologist via Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol16/LonArch_16-07/LonArch_16-07_09_Watson_Barnet.pdf",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-battlefields-trust-barnet",
+    "title": "Battle of Barnet, 14 April 1471 (UK Battlefields Resource Centre)",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/warsoftheroses/battleview.asp?BattleFieldId=5",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-vch-middx-monken-hadley-intro",
+    "title": "Monken Hadley: Introduction, A History of the County of Middlesex vol. 5 (1976), pp. 260-263",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol5/pp260-263",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-vch-middx-monken-hadley-church",
+    "title": "Monken Hadley: Church, A History of the County of Middlesex vol. 5 (1976), pp. 267-269",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol5/pp267-269",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-vch-middx-south-mimms-intro",
+    "title": "South Mimms: Introduction, A History of the County of Middlesex vol. 5 (1976), pp. 271-282",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol5/pp271-282",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-vch-middx-south-mimms-manors",
+    "title": "South Mimms: Manors, A History of the County of Middlesex vol. 5 (1976), pp. 282-285",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol5/pp282-285",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-vch-herts-barnet",
+    "title": "Parishes: Barnet, A History of the County of Hertford vol. 2 (1908), pp. 329-337",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/herts/vol2/pp329-337",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-arrivall-part-3",
+    "title": "Historie of the Arrivall of Edward IV, part 3: Coventry to the Battle of Barnet (transcription of the 1838 Camden Society text)",
+    "publisher": "All About History (transcription)",
+    "url": "https://allabouthistory.co.uk/History/o3/History-of-the-Arrival-of-Edward-IV-Part-3",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-warkworth-barnet",
+    "title": "Warkworth's Chronicle: the Battle of Barnet (text of the 1839 Camden Society edition)",
+    "publisher": "eblong.com (transcription)",
+    "url": "https://eblong.com/draconc/static/warkworth-barnet.html",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-barnet-society-2021",
+    "title": "Mystery remains over lost battlefield site of 1471 Battle of Barnet (19 March 2021)",
+    "publisher": "The Barnet Society",
+    "url": "https://www.barnetsociety.org.uk/mystery-remains-over-lost-battlefield-site-of-1471-battle-of-barnet/",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-barnet-museum-battle",
+    "title": "The Battle of Barnet",
+    "publisher": "Barnet Museum",
+    "url": "https://www.barnetmuseum.co.uk/battle-of-barnet/",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-listing-st-mary-monken-hadley",
+    "title": "Parish Church of St Mary the Virgin, Monken Hadley (copy of the statutory list entry 1078819)",
+    "publisher": "British Listed Buildings",
+    "url": "https://britishlistedbuildings.co.uk/101078819-parish-church-of-st-mary-the-virgin-high-barnet-ward",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-wikipedia-battle-of-barnet",
+    "title": "Battle of Barnet (used as a lead only: summary of the English Heritage 1995 interpretation and modern estimates)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Barnet",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-wikipedia-st-mary-monken-hadley",
+    "title": "St Mary the Virgin, Monken Hadley (used as a lead only)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/St_Mary_the_Virgin,_Monken_Hadley",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-wikipedia-hadley-green",
+    "title": "Hadley Green (used as a lead only)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hadley_Green",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-osm-overpass",
+    "title": "OpenStreetMap data for the Barnet / Hadley / Kitts End area (modern road and stream lines, building and pond positions), queried through the Overpass API",
+    "publisher": "OpenStreetMap contributors (ODbL)",
+    "url": "https://overpass-api.de/api/interpreter",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bar-eudem-elevation",
+    "title": "EU-DEM 25 m elevation model, sampled on a 250 m grid through the Open Topo Data API",
+    "publisher": "Copernicus / Open Topo Data",
+    "url": "https://api.opentopodata.org/v1/eudem25m",
+    "scope": "barnet",
+    "origin_file": "locations/barnet/sources.json"
+  },
+  {
+    "id": "bre-asc-avalon",
+    "title": "The Anglo-Saxon Chronicle, eleventh century (entries for 1013 and 1016; Ingram's translation)",
+    "publisher": "Avalon Project, Yale Law School",
+    "url": "https://avalon.law.yale.edu/medieval/ang11.asp",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-vch-mdx7-growth",
+    "title": "Ealing and Brentford: Growth of Brentford, in A History of the County of Middlesex, Volume 7 (Victoria County History, 1982), pp. 113-120",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol7/pp113-120",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-vch-mdx7-comms",
+    "title": "Ealing and Brentford: Communications, in A History of the County of Middlesex, Volume 7 (Victoria County History, 1982), pp. 101-105",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol7/pp101-105",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-vch-mdx7-intro",
+    "title": "Ealing and Brentford: Introduction (boundaries, relief, geology, streams), in A History of the County of Middlesex, Volume 7 (Victoria County History, 1982), pp. 100-101",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol7/pp100-101",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-vch-mdx7-econ",
+    "title": "Ealing and Brentford: Economic history (fields, fisheries, mills, osiers, market), in A History of the County of Middlesex, Volume 7 (Victoria County History, 1982), pp. 131-144",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol7/pp131-144",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-vch-mdx3-heston-isleworth",
+    "title": "Heston and Isleworth: Introduction, in A History of the County of Middlesex, Volume 3 (Victoria County History, 1962), pp. 85-94",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol3/pp85-94",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-vch-mdx1-iron-age",
+    "title": "Archaeology: The Iron Age, in A History of the County of Middlesex, Volume 1 (Victoria County History, 1969), pp. 50-64",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol1/pp50-64",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-vch-surrey3-kew",
+    "title": "Parishes: Kew, in A History of the County of Surrey, Volume 3 (Victoria County History, 1911), pp. 482-487",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/surrey/vol3/pp482-487",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-wheeler-old-england",
+    "title": "'Old England', Brentford, R. E. M. Wheeler, Antiquity 3(9), 1929, pp. 20-32 (only the publisher's extract was read)",
+    "publisher": "Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/old-england-brentford/CB6847588D316CDA1F874D72B94B59AE",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-tdp-foreshore-pioneers",
+    "title": "Foreshore pioneers (Riverpedia): Wheeler's 1928 excavation near the Brent mouth and later foreshore work at Brentford",
+    "publisher": "Thames Discovery Programme",
+    "url": "https://old.thamesdiscovery.org/riverpedia/foreshore-pioneers",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-tdp-brentford-aits",
+    "title": "Brentford Riverside and Aits (key site summary)",
+    "publisher": "Thames Discovery Programme",
+    "url": "https://old.thamesdiscovery.org/riverpedia/brentford-riverside-and-aits",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-bclhs-brentford-bridge",
+    "title": "The History of Brentford Bridge",
+    "publisher": "Brentford & Chiswick Local History Society",
+    "url": "https://brentfordandchiswicklhs.org.uk/?p=2620",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-brentfordhistory-to-793",
+    "title": "To 793 (The History of Brentford)",
+    "publisher": "brentfordhistory.com (local history site)",
+    "url": "https://brentfordhistory.com/early-days/to-793/",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-opendomesday-isleworth",
+    "title": "Isleworth, Middlesex, in Domesday Book",
+    "publisher": "Open Domesday (Anna Powell-Smith; data from the Hull Domesday Project)",
+    "url": "https://opendomesday.org/place/TQ1675/isleworth/",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-aubrey-domesday-hanwell",
+    "title": "Hanwell, Middlesex, Domesday Book 1086 (secondary summary; its household totals are internally inconsistent)",
+    "publisher": "Aubrey Research",
+    "url": "https://www.aubreyresearch.com/domesday/mdx/hanwell",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-clerk-siege-london",
+    "title": "The Danish Conquest, Part 10: The Siege of London (Old English text and translation of the 1016 siege passage; Lidsmannaflokkr)",
+    "publisher": "A Clerk of Oxford (academic blog)",
+    "url": "https://aclerkofoxford.blogspot.com/2016/05/the-danish-conquest-part-10-siege-of.html",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-wikipedia-battle",
+    "title": "Battle of Brentford (1016) (lead only: used to find the Stenton, Poole and Knutsdrapa readings, none of which was read directly)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Brentford_(1016)",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-wikipedia-brentford-ait",
+    "title": "Brentford Ait (lead only: size, names, 18th-century use)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Brentford_Ait",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-wikipedia-lots-ait",
+    "title": "Lot's Ait (lead only: size, osier growing)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lot%27s_Ait",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-wikipedia-brentford-dock",
+    "title": "Brentford Dock (lead only: the dock stood on an island between the Thames and two mouths of the Brent)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Brentford_Dock",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-wikipedia-syon-house",
+    "title": "Syon House (lead only: the tidal meadow on the river bank, flooded twice a day)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Syon_House",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "bre-osm-nominatim",
+    "title": "OpenStreetMap (Nominatim search and an Overpass extract, November 2026): modern Thames centreline, aits, Brent course and High Street used to place features",
+    "publisher": "OpenStreetMap contributors",
+    "url": "https://nominatim.openstreetmap.org/search?q=Brentford+Ait&format=json&limit=3",
+    "scope": "brentford",
+    "origin_file": "locations/brentford/sources.json"
+  },
+  {
+    "id": "sto-darvill-2012-remodelled",
+    "title": "Darvill, Marshall, Parker Pearson & Wainwright 2012. Stonehenge remodelled. Antiquity 86(334): 1021-1040 (PDF, text extracted locally from the fetched file)",
+    "publisher": "Antiquity / Cambridge University Press",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A118920A90FB7CCB2838CEEB10BE477D/S0003598X00048225a.pdf/stonehenge_remodelled.pdf",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-marshall-2012-eh-chronology",
+    "title": "Marshall, Darvill, Parker Pearson & Wainwright 2012. Stonehenge, Amesbury, Wiltshire: chronological modelling. English Heritage Research Report 1-2012 (PDF, text extracted locally)",
+    "publisher": "English Heritage / Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-1893-1/dissemination/pdf/englishh2-135552.pdf",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wiki-stonehenge",
+    "title": "Stonehenge (Wikipedia; fetched chars 0-200000 of 299004; pointer only)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wiki-altar-stone",
+    "title": "Altar Stone (Stonehenge) (Wikipedia; pointer only)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Altar_Stone_(Stonehenge)",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wiki-heel-stone",
+    "title": "Heel Stone (Wikipedia; pointer only)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Heel_Stone",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wiki-aubrey-holes",
+    "title": "Aubrey holes (Wikipedia; pointer only, partly out of date)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Aubrey_holes",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wiki-stonehenge-avenue",
+    "title": "Stonehenge Avenue (Wikipedia; pointer only)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge_Avenue",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wiki-archaeoastronomy",
+    "title": "Archaeoastronomy and Stonehenge (Wikipedia; pointer only)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Archaeoastronomy_and_Stonehenge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wiki-station-stones",
+    "title": "Station Stones (Wikipedia; pointer only)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Station_Stones",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-eh-history",
+    "title": "Stonehenge history timeline",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-eh-stones",
+    "title": "Discover more about the Stones",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/things-to-do/stone-circle/stones-of-stonehenge/",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-eh-description",
+    "title": "Description of Stonehenge",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/link/1c826050520e4ce28083585c48fe226f.aspx",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-eh-research",
+    "title": "Research on Stonehenge",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history/research/",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-eh-sources",
+    "title": "Sources for Stonehenge (visual and literary sources list)",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/sources/",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-skyatnight-astronomy",
+    "title": "Stonehenge astronomy",
+    "publisher": "BBC Sky at Night Magazine",
+    "url": "https://www.skyatnightmagazine.com/space-science/stonehenge-astronomy",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-tudortreasures-accounts",
+    "title": "Stonehenge: medieval and Tudor accounts",
+    "publisher": "Tudor Treasures (secondary compilation)",
+    "url": "https://tudortreasures.net/stonehenge-medieval-and-tudor-accounts/",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-banton-2014-abstract",
+    "title": "Banton et al. 2014. Parchmarks at Stonehenge, July 2013. Antiquity 88(341): 733-739 (abstract page only; full text paywalled)",
+    "publisher": "Antiquity / Cambridge University Press",
+    "url": "https://cambridge.org/core/journals/antiquity/article/parchmarks-at-stonehenge-july-2013/69AAE39C702A5B844CFDD84EA0B3F26C",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-webb-1655-stone-heng",
+    "title": "Webb (Inigo Jones) 1655. The Most Notable Antiquity of Great Britain, vulgarly called Stone-Heng (Project Gutenberg #64069; only first 100000 of 238096 chars read)",
+    "publisher": "Project Gutenberg",
+    "url": "https://gutenberg.org/cache/epub/64069/pg64069-images.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-bakker-1979-deheere-abstract",
+    "title": "Bakker 1979. Lucas de Heere's Stonehenge. Antiquity 53(208): 107-111 (abstract/extract page only)",
+    "publisher": "Antiquity / Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/lucas-de-heeres-stonehenge/98B375C3E6BB69BF31D2900181F1EA34",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-durrington",
+    "title": "Durrington Walls",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Durrington_Walls",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-cursus",
+    "title": "Stonehenge Cursus",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge_Cursus",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-robinhood",
+    "title": "Robin Hood's Ball",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Robin_Hood%27s_Ball",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-avenue",
+    "title": "Stonehenge Avenue",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge_Avenue",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-woodhenge",
+    "title": "Woodhenge",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Woodhenge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-bluestonehenge",
+    "title": "Bluestonehenge",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Bluestonehenge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-bushbarrow",
+    "title": "Bush Barrow",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Bush_Barrow",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-normanton",
+    "title": "Normanton Down Barrows",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Normanton_Down_Barrows",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-vespasian",
+    "title": "Vespasian's Camp",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Vespasian%27s_Camp",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-blickmead",
+    "title": "Blick Mead",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Blick_Mead",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-amesburyabbey",
+    "title": "Amesbury Abbey",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Amesbury_Abbey",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-amesbury",
+    "title": "Amesbury",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Amesbury",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-coneybury",
+    "title": "Coneybury Henge",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Coneybury_Henge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-cuckoo",
+    "title": "Cuckoo Stone",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Cuckoo_Stone",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-archer",
+    "title": "Amesbury Archer",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Amesbury_Archer",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-stonehenge",
+    "title": "Stonehenge (landscape sections, first 100,000 characters read)",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wp-avon",
+    "title": "River Avon, Hampshire",
+    "publisher": "Wikipedia (pointer only)",
+    "url": "https://en.wikipedia.org/wiki/River_Avon,_Hampshire",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ia55-gaffney2020",
+    "title": "Gaffney et al. 2020, A Massive, Late Neolithic Pit Structure associated with Durrington Walls Henge (abstract/summary page)",
+    "publisher": "Internet Archaeology 55",
+    "url": "https://intarch.ac.uk/journal/issue55/4/index.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ia69-gaffney2025",
+    "title": "The Perils of Pits: further research at Durrington Walls henge (2021-2025)",
+    "publisher": "Internet Archaeology 69",
+    "url": "https://intarch.ac.uk/journal/issue69/19/index.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-antiq-thomas2009",
+    "title": "Thomas et al. 2009, The date of the Greater Stonehenge Cursus (abstract page)",
+    "publisher": "Antiquity 83(319), Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/abs/date-of-the-greater-stonehenge-cursus/7D9CD07DA019DCC2929EA0CCD848E3B2",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-archco-durrington",
+    "title": "Rethinking Durrington Walls: a long-lost monument revealed",
+    "publisher": "Current Archaeology",
+    "url": "https://archaeology.co.uk/articles/features/rethinking-durrington-walls-a-long-lost-monument-revealed.htm",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-bristol-2007",
+    "title": "Huge settlement unearthed at Stonehenge (press release, 2007)",
+    "publisher": "University of Bristol",
+    "url": "https://bristol.ac.uk/news/2007/5271.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ia47-longbarrows",
+    "title": "5. Long Barrows in the Stonehenge WHS and Environs",
+    "publisher": "Internet Archaeology 47",
+    "url": "https://intarch.ac.uk/journal/issue47/7/5-1.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ia47-index",
+    "title": "Long barrows in the Stonehenge WHS and environs (article summary)",
+    "publisher": "Internet Archaeology 47",
+    "url": "https://intarch.ac.uk/journal/issue47/7/index.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ia47-am42",
+    "title": "Site record: Amesbury 42",
+    "publisher": "Internet Archaeology 47",
+    "url": "https://intarch.ac.uk/journal/issue47/7/subpages/AM42.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ia47-ws1",
+    "title": "Site record: Winterbourne Stoke 1",
+    "publisher": "Internet Archaeology 47",
+    "url": "https://intarch.ac.uk/journal/issue47/7/subpages/WS1.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ia47-wil30",
+    "title": "Site record: Wilsford 30",
+    "publisher": "Internet Archaeology 47",
+    "url": "https://intarch.ac.uk/journal/issue47/7/subpages/WIL30.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ia47-am14",
+    "title": "Site record: Amesbury 14",
+    "publisher": "Internet Archaeology 47",
+    "url": "https://intarch.ac.uk/journal/issue47/7/subpages/AM14.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-eh-reconstructed",
+    "title": "Stonehenge Reconstructed (English Heritage; first 100,000 characters read)",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/stonehenge-reconstructed/",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-soton-blickmead2022",
+    "title": "Study reveals Stonehenge landscape before the world-famous monument (Hudson et al. 2022 news item)",
+    "publisher": "University of Southampton",
+    "url": "https://www.southampton.ac.uk/news/2022/04/blick-mead.page",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-french2012",
+    "title": "French et al. 2012, Durrington Walls to West Amesbury by way of Stonehenge: a major transformation of the Holocene landscape (abstract page)",
+    "publisher": "The Antiquaries Journal 92, Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/antiquaries-journal/article/durrington-walls-to-west-amesbury-by-way-of-stonehenge-a-major-transformation-of-the-holocene-landscape/235FDE54B958C11121A6CC444081AD22",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-roberts2018",
+    "title": "Roberts et al. 2018, The Early Field Systems of the Stonehenge Landscape (abstract page)",
+    "publisher": "Landscapes 18(2), Queen's University Belfast research portal",
+    "url": "https://pure.qub.ac.uk/en/publications/the-early-field-systems-of-the-stonehenge-landscape/",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-sarsen2018",
+    "title": "Two new Stonehenge landscape reports (blog post, 28 Feb 2018)",
+    "publisher": "Sarsen.org",
+    "url": "https://www.sarsen.org/2018/02/two-new-stonehenge-landscape-reports.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-sos-stones",
+    "title": "The Stones of Stonehenge: per-stone posts (Stone 1 ... Stone 160; weights, heights, notes), read from the site's Blogger JSON feed",
+    "publisher": "stonesofstonehenge.org.uk (photographic stone-by-stone site)",
+    "url": "https://www.stonesofstonehenge.org.uk/feeds/posts/default?max-results=500&alt=json",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-sos-about",
+    "title": "The Stones of Stonehenge: about this site (Petrie numbering convention)",
+    "publisher": "stonesofstonehenge.org.uk",
+    "url": "https://www.stonesofstonehenge.org.uk/p/about-this-site.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-sos-missing",
+    "title": "The Stones of Stonehenge: Missing Stones (buried stumps, Station Stones 92 and 94, missing sarsens 13, 17, 18, 20, parchmarks 2013)",
+    "publisher": "stonesofstonehenge.org.uk",
+    "url": "http://www.stonesofstonehenge.org.uk/p/missing-stones.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-stukeley-1740",
+    "title": "Stonehenge, a Temple Restor'd to the British Druids (William Stukeley, 1740; observations 1719-24), full text",
+    "publisher": "Internet Archive (scan)",
+    "url": "https://archive.org/details/bim_eighteenth-century_stonehenge-a-temple-rest_stukeley-william_1740",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wood-1747",
+    "title": "Choir Gaure, vulgarly called Stonehenge, described, restored, and explained (John Wood, survey 1740, pub. 1747), full text (OCR)",
+    "publisher": "Internet Archive (scan)",
+    "url": "https://archive.org/details/bim_eighteenth-century_choir-gaure-vulgarly-ca_wood-john_1747",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-barclay-1895",
+    "title": "Stonehenge and its Earth-Works (Edgar Barclay, 1895) - description following Petrie's 1880 plan and numbering",
+    "publisher": "Internet Archive (Duke University Libraries scan)",
+    "url": "https://archive.org/details/stonehengeitsear01barc",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-long-1876",
+    "title": "Stonehenge and its Barrows (William Long, 1876), quoting Aubrey, Stukeley and Hoare",
+    "publisher": "Internet Archive (Google Books scan)",
+    "url": "https://archive.org/details/stonehengeandit00longgoog",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-stevens-1916",
+    "title": "Stonehenge: Today and Yesterday (Frank Stevens, 1916), Project Gutenberg #19130",
+    "publisher": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/files/19130/19130.txt",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-eb1911-stonehenge",
+    "title": "Encyclopaedia Britannica, 11th edition: Stonehenge (1900 fall, 1901 raising of stone 56, 1797 fall)",
+    "publisher": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Stonehenge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-eh-100-years-care",
+    "title": "Stonehenge: 100 years of care (restoration from 1919, stones 6 and 7)",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/stonehenge-100-years-of-care/",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-antiquity-keeping-time",
+    "title": "Keeping time at Stonehenge (Antiquity): sarsen circle state counts, stone-numbering, missing stones",
+    "publisher": "Cambridge University Press (Antiquity)",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/keeping-time-at-stonehenge/792A5E8E091C8B7CB9C26B4A35A6B399",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-field-2015-blog",
+    "title": "Field et al. 2015 stones: summary of weights, burial depths and numbering (blog digest of the Historic England analytical survey)",
+    "publisher": "Brian Mountainman blog",
+    "url": "https://brian-mountainman.blogspot.com/2018/01/field-et-al-2015-stones.html",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-osm-overpass",
+    "title": "OpenStreetMap stone outlines, Station Stone and Stone Hole 97 markers near Stonehenge (Overpass API query, fetched 2026-11-14; outlines traced from imagery)",
+    "publisher": "OpenStreetMap contributors, ODbL 1.0",
+    "url": "https://overpass-api.de/api/interpreter",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-commons-plan-svg",
+    "title": "File:Stonehenge plan v2 notex 2.svg (Astroskiandhike, CC BY-SA 4.0, 2018): examined, schematic 'suggested astronomical alignments' diagram without stone numbers; NOT used for positions",
+    "publisher": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Stonehenge_plan_v2_notex_2.svg",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-eudem-elevation",
+    "title": "EU-DEM v1.1, 25 m elevation, via OpenTopoData eudem25m endpoint",
+    "publisher": "Copernicus / EEA; served by OpenTopoData",
+    "url": "https://api.opentopodata.org/v1/eudem25m",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-open-meteo-elevation",
+    "title": "Open-Meteo Elevation API (Copernicus GLO-90 DEM, 90 m)",
+    "publisher": "Open-Meteo",
+    "url": "https://api.open-meteo.com/v1/elevation",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ea-survey-2010",
+    "title": "Stonehenge, Amesbury, Wiltshire: Archaeological Survey Report (Stonehenge World Heritage Site Landscape Project), Research Department Report Series 109-2010 (NGR SU 12244219; GNSS survey to OS National Grid)",
+    "publisher": "English Heritage, via Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-1893-1/dissemination/pdf/englishh2-98976.pdf",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-gazetteer-stonehenge",
+    "title": "Stonehenge, Wiltshire (grid reference SU 1224 4219; 51.178887, -1.8262196)",
+    "publisher": "Gazetteer of Great Britain",
+    "url": "https://gazetteer.org.uk/place/Stonehenge,_Wiltshire_304714",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-gazetteer-durrington",
+    "title": "Durrington Walls, Wiltshire (SU 1500 4376; 535 x 510 yd; Scheduled Monument 1009133)",
+    "publisher": "Gazetteer of Great Britain",
+    "url": "https://gazetteer.org.uk/place/Durrington_Walls,_Wiltshire_301622",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-he-1010140",
+    "title": "Stonehenge, the Avenue, and three barrows adjacent to the Avenue (list entry 1010140): NGRs of the three scheduled areas",
+    "publisher": "Historic England (corporate site mirror)",
+    "url": "https://he-corp-prod-uksouth-corpweb.azurewebsites.net/listing/the-list/list-entry/1010140",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-stonehenge",
+    "title": "Stonehenge (coordinates 51.17889, -1.82611)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-heel-stone",
+    "title": "Heel Stone (51.179305, -1.825302; 77.4 m from the centre)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Heel_Stone",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-avenue",
+    "title": "Stonehenge Avenue",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge_Avenue",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-cursus",
+    "title": "Stonehenge Cursus (length 2.76 km, ~100 m wide; Amesbury 42; Lesser Cursus ~400 x 60 m)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge_Cursus",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-durrington",
+    "title": "Durrington Walls (51.1925, -1.7875; ~500 m henge; Southern Circle)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Durrington_Walls",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-woodhenge",
+    "title": "Woodhenge (51.1894, -1.78576; 110 m overall)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Woodhenge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-vespasians-camp",
+    "title": "Vespasian's Camp (14 ha; 730 m N-S; rampart and ditch dimensions)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Vespasian%27s_Camp",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-robin-hoods-ball",
+    "title": "Robin Hood's Ball (51.2128, -1.8550)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robin_Hood%27s_Ball",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-bluestonehenge",
+    "title": "Bluestonehenge (51.1714, -1.7980)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bluestonehenge",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-amesbury-abbey",
+    "title": "Amesbury Abbey (51.1719, -1.7843; priory destroyed at the Dissolution)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Amesbury_Abbey",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-cuckoo-stone",
+    "title": "Cuckoo Stone (51.18923, -1.79168; SU14654335)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cuckoo_Stone",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-bush-barrow",
+    "title": "Bush Barrow (51.17051, -1.83482; SU11644126; 49 m, 3.3 m high)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bush_Barrow",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-wikipedia-normanton-down",
+    "title": "Normanton Down Barrows (barrow types in the cemetery)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Normanton_Down_Barrows",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "sto-ea-lidar-dtm",
+    "title": "Environment Agency LIDAR Composite Digital Terrain Model (DTM) 2022, 1 m, bare-earth, WCS",
+    "publisher": "Environment Agency (Defra Data Services Platform), Open Government Licence v3.0",
+    "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs",
+    "scope": "stonehenge",
+    "origin_file": "locations/stonehenge/sources.json"
+  },
+  {
+    "id": "nat-eh-stonehenge",
+    "title": "History of Stonehenge",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-avebury",
+    "title": "History of Avebury Henge and Stone Circles",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/avebury/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-silbury",
+    "title": "History of Silbury Hill",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/silbury-hill/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-grimes-graves",
+    "title": "History of Grime's Graves",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/grimes-graves-prehistoric-flint-mine/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-maiden-castle",
+    "title": "History of Maiden Castle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/maiden-castle/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-old-sarum",
+    "title": "History of Old Sarum",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/old-sarum/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-wroxeter",
+    "title": "History of Wroxeter Roman City",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/wroxeter-roman-city/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-richborough",
+    "title": "History of Richborough Roman Fort and Amphitheatre",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/richborough-roman-fort-and-amphitheatre/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-silchester",
+    "title": "History of Silchester Roman City Walls and Amphitheatre",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/silchester-roman-city-walls-and-amphitheatre/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-lindisfarne",
+    "title": "History of Lindisfarne Priory",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-whitby",
+    "title": "History of Whitby Abbey",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/whitby-abbey/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-housesteads",
+    "title": "History of Housesteads Roman Fort",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/housesteads-roman-fort-hadrians-wall/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-battle-abbey",
+    "title": "History of Battle Abbey and Battlefield",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-dover",
+    "title": "History of Dover Castle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-rievaulx",
+    "title": "History of Rievaulx Abbey",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/rievaulx-abbey/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-jarrow",
+    "title": "History of St Paul's Monastery, Jarrow",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/st-pauls-monastery-jarrow/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-kenilworth",
+    "title": "History of Kenilworth Castle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/kenilworth-castle/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-chesters",
+    "title": "History of Chesters Roman Fort",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-pevensey",
+    "title": "History of Pevensey Castle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/pevensey-castle/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-nt-sutton-hoo",
+    "title": "The history of Sutton Hoo",
+    "publisher": "National Trust",
+    "url": "https://www.nationaltrust.org.uk/visit/suffolk/sutton-hoo/history-of-sutton-hoo",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vindolanda",
+    "title": "Roman Vindolanda Fort and Museum",
+    "publisher": "The Vindolanda Trust",
+    "url": "https://www.vindolanda.com/roman-vindolanda-fort-museum",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-tna-domesday",
+    "title": "What does Domesday Book tell us?",
+    "publisher": "The National Archives",
+    "url": "http://www.nationalarchives.gov.uk/education/teaching-resources/what-does-domesday-book-tell-us/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-cam-early-records",
+    "title": "Early records",
+    "publisher": "University of Cambridge",
+    "url": "https://www.cam.ac.uk/about-the-university/history/early-records",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-romanbaths-timeline",
+    "title": "Roman Baths timeline",
+    "publisher": "The Roman Baths, Bath",
+    "url": "https://www.romanbaths.co.uk/roman-baths-timeline",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-herefordshire-woodland",
+    "title": "Woodland (the medieval countryside), citing Rackham 1976",
+    "publisher": "Herefordshire Through Time, Herefordshire Council",
+    "url": "https://htt.herefordshire.gov.uk/herefordshires-past/the-medieval-period/countryside-and-landscape/woodland",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-ou-woodland",
+    "title": "Neighbourhood nature, 1.3 Woodland history",
+    "publisher": "The Open University (OpenLearn)",
+    "url": "https://www.open.edu/openlearn/nature-environment/natural-history/neighbourhood-nature/content-section-1.3",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-historical-population",
+    "title": "List of towns and cities in England by historical population (tables after Russell 1948, Darby 1977, Hoskins 1984)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_towns_and_cities_in_England_by_historical_population",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-brentford-1016",
+    "title": "Battle of Brentford (1016)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Brentford_(1016)",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-barnet",
+    "title": "Battle of Barnet",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Barnet",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-roman-britain",
+    "title": "Roman Britain",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Roman_Britain",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-camulodunum",
+    "title": "Camulodunum",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Camulodunum",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-verulamium",
+    "title": "Verulamium",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Verulamium",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-eboracum",
+    "title": "Eboracum",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Eboracum",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-lindum",
+    "title": "Lindum Colonia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lindum_Colonia",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-glevum",
+    "title": "Glevum",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Glevum",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-deva",
+    "title": "Deva Victrix",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deva_Victrix",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-danelaw",
+    "title": "Danelaw",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Danelaw",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-burghal-hidage",
+    "title": "Burghal Hidage",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Burghal_Hidage",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-hamwic",
+    "title": "Southampton (history: Hamwic)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hamwic",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-dunwich",
+    "title": "Dunwich",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dunwich",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-towton",
+    "title": "Battle of Towton",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Towton",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-bosworth",
+    "title": "Battle of Bosworth Field",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Bosworth_Field",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-maldon",
+    "title": "Battle of Maldon",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Maldon",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-edington",
+    "title": "Battle of Edington",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Edington",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-brunanburh",
+    "title": "Battle of Brunanburh",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Brunanburh",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-stamford-bridge",
+    "title": "Battle of Stamford Bridge",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-tewkesbury",
+    "title": "Battle of Tewkesbury",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Tewkesbury",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-ravenser-odd",
+    "title": "Ravenser Odd",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ravenser_Odd",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-yeavering",
+    "title": "Yeavering",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Yeavering",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-flag-fen",
+    "title": "Flag Fen",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Flag_Fen",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-danebury",
+    "title": "Danebury",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Danebury",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-hengistbury",
+    "title": "Hengistbury Head",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hengistbury_Head",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-scandinavian-york",
+    "title": "Scandinavian York",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Scandinavian_York",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-black-death",
+    "title": "Black Death in England",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-dissolution",
+    "title": "Dissolution of the monasteries",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_monasteries",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-aethelstan",
+    "title": "Æthelstan",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/%C3%86thelstan",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-mercia",
+    "title": "Mercia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mercia",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-northumbria",
+    "title": "Northumbria",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Northumbria",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-east-anglia",
+    "title": "Kingdom of East Anglia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_East_Anglia",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-kent",
+    "title": "Kingdom of Kent",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-wessex",
+    "title": "Wessex",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Wessex",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-essex",
+    "title": "Kingdom of Essex",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Essex",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-sussex",
+    "title": "Kingdom of Sussex",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sussex",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-hwicce",
+    "title": "Hwicce",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hwicce",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-lindsey",
+    "title": "Kingdom of Lindsey",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Lindsey",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-welsh-marches",
+    "title": "Welsh Marches",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Welsh_Marches",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-wp-winchester",
+    "title": "Winchester",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Winchester",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-thornborough",
+    "title": "History of Thornborough Henges",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/thornborough-henges/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-stanwick",
+    "title": "History of Stanwick Iron Age Fortifications",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/stanwick-iron-age-fortifications/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-aldborough",
+    "title": "History of Aldborough Roman Site",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/aldborough-roman-site/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-corbridge",
+    "title": "History of Corbridge Roman Town",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/corbridge-roman-town-hadrians-wall/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-portchester",
+    "title": "History of Portchester Castle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/portchester-castle/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-castlerigg",
+    "title": "History of Castlerigg Stone Circle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/castlerigg-stone-circle/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-west-kennet",
+    "title": "History of West Kennet Long Barrow",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/west-kennet-long-barrow/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-windmill-hill",
+    "title": "History of Windmill Hill",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/windmill-hill/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-grimspound",
+    "title": "History of Grimspound",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/grimspound/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-uffington",
+    "title": "History of Uffington Castle, White Horse and Dragon Hill",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/uffington-castle-white-horse-and-dragon-hill/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-furness",
+    "title": "History of Furness Abbey",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/furness-abbey/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-carlisle-castle",
+    "title": "History of Carlisle Castle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/carlisle-castle/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-scarborough",
+    "title": "History of Scarborough Castle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/scarborough-castle/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-reculver",
+    "title": "History of Reculver Towers and Roman Fort",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/reculver-towers-and-roman-fort/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-st-augustines",
+    "title": "History of St Augustine’s Abbey",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/st-augustines-abbey/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-hadrians-wall",
+    "title": "History of Hadrian’s Wall",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-thetford-priory",
+    "title": "History of Thetford Priory",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/thetford-priory/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-berwick",
+    "title": "History of Berwick-Upon-Tweed Castle, Main Guard and Ramparts",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/berwick-upon-tweed-castle-and-ramparts/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-cirencester-amphitheatre",
+    "title": "History of Cirencester Amphitheatre",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/cirencester-amphitheatre/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-lincoln-bishops-palace",
+    "title": "History of Lincoln Medieval Bishops’ Palace",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/lincoln-medieval-bishops-palace/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-chester-amphitheatre",
+    "title": "History of Chester Roman Amphitheatre",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/chester-roman-amphitheatre/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-framlingham",
+    "title": "Framlingham Castle: History and Stories",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/framlingham-castle/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-tintagel",
+    "title": "History of Tintagel Castle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/tintagel-castle/history-and-legend/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-birdoswald",
+    "title": "History of Birdoswald Roman Fort",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/birdoswald-roman-fort-hadrians-wall/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-richmond",
+    "title": "History of Richmond Castle",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/richmond-castle/history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-jewry-wall",
+    "title": "History of Jewry Wall, Leicester",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/jewry-wall/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-yarmouth-rows",
+    "title": "History of Great Yarmouth Row Houses",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/great-yarmouth-row-houses-and-greyfriars-cloisters/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-burgh-castle",
+    "title": "History of Burgh Castle Roman Fort",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/burgh-castle/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-st-albans-wall",
+    "title": "History of Roman Wall, St Albans",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/roman-wall-of-st-albans/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-eh-london-wall",
+    "title": "History of London Wall",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/london-wall/history/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-londonmuseum-roman-timeline",
+    "title": "A timeline of Roman London: Londinium from start to end",
+    "publisher": "London Museum",
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-colchester-roman",
+    "title": "Iron-Age and Roman Colchester (Victoria County History, essex vol9 pp2-18)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/essex/vol9/pp2-18",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-colchester-medieval",
+    "title": "Medieval Colchester: Introduction (Victoria County History, essex vol9 pp19-26)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/essex/vol9/pp19-26",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-chester-roman",
+    "title": "Roman Chester (Victoria County History, ches vol5 pt1 pp9-15)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/ches/vol5/pt1/pp9-15",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-chester-early-medieval",
+    "title": "Early medieval Chester 400-1230 (Victoria County History, ches vol5 pt1 pp16-33)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/ches/vol5/pt1/pp16-33",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-york-pre-conquest",
+    "title": "Before the Norman Conquest (Victoria County History, yorks city-of-york pp2-24)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/yorks/city-of-york/pp2-24",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-gloucester-intro",
+    "title": "The city of Gloucester: Introduction (Victoria County History, glos vol4 pp1-4)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/glos/vol4/pp1-4",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-gloucester-saxon",
+    "title": "Anglo-Saxon Gloucester: c.680 - 1066 (Victoria County History, glos vol4 pp5-12)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/glos/vol4/pp5-12",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-coventry",
+    "title": "The City of Coventry: Introduction (Victoria County History, warks vol8 pp1-23)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/warks/vol8/pp1-23",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-coventry-priory",
+    "title": "Houses of Benedictine monks: Priory of Coventry (Victoria County History, warks vol2 pp52-59)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/warks/vol2/pp52-59",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-oxford-medieval",
+    "title": "Medieval Oxford (Victoria County History, oxon vol4 pp3-73)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/oxon/vol4/pp3-73",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-hull-medieval",
+    "title": "Medieval Hull (Victoria County History, yorks east vol1 pp11-85)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/yorks/east/vol1/pp11-85",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-cambridge-medieval",
+    "title": "The city of Cambridge: Medieval history (Victoria County History, cambs vol3 pp2-15)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/cambs/vol3/pp2-15",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-lichfield",
+    "title": "Lichfield: History to c.1500 (Victoria County History, staffs vol14 pp4-14)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/staffs/vol14/pp4-14",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-wells-cathedral",
+    "title": "Colleges: The cathedral of Wells (Victoria County History, som vol2 pp162-169)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/som/vol2/pp162-169",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-bath-priory",
+    "title": "Houses of Benedictine monks: The cathedral priory of Bath (Victoria County History, som vol2 pp69-81)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/som/vol2/pp69-81",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-glastonbury-abbey",
+    "title": "Houses of Benedictine monks: The abbey of Glastonbury (Victoria County History, som vol2 pp82-99)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/som/vol2/pp82-99",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-ely-priory",
+    "title": "Houses of Benedictine monks: Abbey and cathedral priory of Ely (Victoria County History, cambs vol2 pp199-210)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/cambs/vol2/pp199-210",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-peterborough-abbey",
+    "title": "Houses of Benedictine monks: The abbey of Peterborough (Victoria County History, northants vol2 pp83-95)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/northants/vol2/pp83-95",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-worcester",
+    "title": "The city of Worcester: Introduction and borough (Victoria County History, worcs vol4 pp376-390)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/worcs/vol4/pp376-390",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-rochester-priory",
+    "title": "Houses of Benedictine monks: The cathedral priory of St Andrew, Rochester (Victoria County History, kent vol2 pp121-126)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/kent/vol2/pp121-126",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-sherborne-abbey",
+    "title": "Houses of Benedictine monks: The abbey of Sherborne (Victoria County History, dorset vol2 pp62-70)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/dorset/vol2/pp62-70",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-bury-abbey",
+    "title": "Houses of Benedictine monks: Abbey of Bury St Edmunds (Victoria County History, suff vol2 pp56-72)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/suff/vol2/pp56-72",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-wallingford",
+    "title": "The borough of Wallingford: Introduction and castle (Victoria County History, berks vol3 pp517-531)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/berks/vol3/pp517-531",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-chichester",
+    "title": "The City of Chichester: Historical introduction (Victoria County History, sussex vol3 pp82-90)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/sussex/vol3/pp82-90",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-durham-priory",
+    "title": "Houses of Benedictine monks: Priory of St Cuthbert, Durham (later Durham cathedral) (Victoria County History, durham vol2 pp86-103)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/durham/vol2/pp86-103",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-norwich-priory",
+    "title": "Houses of Benedictine monks: The cathedral priory of the Holy Trinity, Norwich (Victoria County History, norf vol2 pp317-328)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/norf/vol2/pp317-328",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-beverley",
+    "title": "Medieval Beverley: Beverley and St John (Victoria County History, yorks east vol6 pp2-11)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/yorks/east/vol6/pp2-11",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-salisbury-cathedral",
+    "title": "The cathedral of Salisbury: From the foundation to the fifteenth century (Victoria County History, wilts vol3 pp156-183)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/wilts/vol3/pp156-183",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-winchester-st-swithun",
+    "title": "Houses of Benedictine monks: Priory of St Swithun, Winchester (Victoria County History, hants vol2 pp108-115)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/hants/vol2/pp108-115",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-canterbury-christ-church",
+    "title": "Houses of Benedictine monks: The cathedral priory of the Holy Trinity or Christ Church, Canterbury (Victoria County History, kent vol2 pp113-121)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/kent/vol2/pp113-121",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-thetford-priory",
+    "title": "Houses of Cluniac monks: The priory of St Mary, Thetford (Victoria County History, norf vol2 pp363-369)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/norf/vol2/pp363-369",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-vch-gloucester-abbey",
+    "title": "Houses of Benedictine monks: The abbey of St Peter at Gloucester (Victoria County History, glos vol2 pp53-61)",
+    "publisher": "British History Online (Victoria County History)",
+    "url": "https://www.british-history.ac.uk/vch/glos/vol2/pp53-61",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-standard",
+    "title": "Battlefields Hub: Battle of the Standard",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=32",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-lewes",
+    "title": "Battlefields Hub: Battle of Lewes",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=22",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-evesham",
+    "title": "Battlefields Hub: Battle of Evesham",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=14",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-nevilles-cross",
+    "title": "Battlefields Hub: Battle of Neville's Cross",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=28",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-otterburn",
+    "title": "Battlefields Hub: Battle of Otterburn",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=34",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-shrewsbury",
+    "title": "Battlefields Hub: Battle of Shrewsbury",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=39",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-brunanburh",
+    "title": "Battlefields Hub: Battle of Brunanburh",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=59",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-maldon",
+    "title": "Battlefields Hub: Battle of Maldon",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=23",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-assandun",
+    "title": "Battlefields Hub: Battle of Assandun",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=113",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-fulford",
+    "title": "Battlefields Hub: Battle of Fulford",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=52",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-stamford-bridge",
+    "title": "Battlefields Hub: Battle of Stamford Bridge",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=41",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-hastings",
+    "title": "Battlefields Hub: Battle of Hastings",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=17",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-st-albans-1455",
+    "title": "Battlefields Hub: First Battle of St Albans",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=111",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-towton",
+    "title": "Battlefields Hub: Battle of Towton",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=46",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-barnet",
+    "title": "Battlefields Hub: Battle of Barnet",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=5",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-tewkesbury",
+    "title": "Battlefields Hub: Battle of Tewkesbury",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=45",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-bosworth",
+    "title": "Battlefields Hub: Battle of Bosworth",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=8",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-stoke-field",
+    "title": "Battlefields Hub: Battle of Stoke Field",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=42",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-bt-flodden",
+    "title": "Battlefields Hub: Battle of Flodden",
+    "publisher": "The Battlefields Trust",
+    "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=15",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "nat-he-nhle-battlefields",
+    "title": "National Heritage List for England open data: Registered Battlefields layer (names, list entry numbers and boundaries)",
+    "publisher": "Historic England",
+    "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/8/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&geometryPrecision=6&maxAllowableOffset=0.0001&f=json",
+    "scope": "national",
+    "origin_file": "national/sources-england.json"
+  },
+  {
+    "id": "ter-gebco-2025",
+    "title": "The GEBCO_2025 Grid: a continuous terrain model of the global oceans and land (15 arc-second; subset 49.5-56.2 N, 6.7 W-2.5 E fetched by OPeNDAP)",
+    "publisher": "GEBCO Bathymetric Compilation Group / British Oceanographic Data Centre, served by CEDA",
+    "url": "https://dap.ceda.ac.uk/thredds/dodsC/bodc/gebco/global/gebco_2025/ice_surface_elevation/netcdf/GEBCO_2025.nc.dds",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-gebco-terms",
+    "title": "Gridded bathymetry data: GEBCO grid description, citation and terms of use (grid placed in the public domain)",
+    "publisher": "General Bathymetric Chart of the Oceans (GEBCO), IHO-IOC",
+    "url": "https://www.gebco.net/data-products/gridded-bathymetry-data",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-copdem-glo90",
+    "title": "Copernicus DEM: Global and European Digital Elevation Model (GLO-90 collection description, licence and attribution)",
+    "publisher": "Copernicus Data Space Ecosystem / European Space Agency",
+    "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-copdem-aws",
+    "title": "Copernicus DEM GLO-90 cloud-optimised GeoTIFF tiles (61 one-degree tiles, N49-N56, W007-E002). Produced using Copernicus WorldDEM-90 (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA; all rights reserved",
+    "publisher": "European Space Agency / Sinergise, Registry of Open Data on AWS",
+    "url": "https://copernicus-dem-90m.s3.amazonaws.com/Copernicus_DSM_COG_30_N51_00_W001_00_DEM/Copernicus_DSM_COG_30_N51_00_W001_00_DEM.tif",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-holsea-2018",
+    "title": "Data for: Relative sea-level changes and crustal movements in Britain and Ireland since the Last Glacial Maximum (sea-level index point database; paper in Quaternary Science Reviews 188, 143-159)",
+    "publisher": "I. Shennan, S. L. Bradley and R. Edwards, Mendeley Data v1, 2018 (CC BY-NC 3.0)",
+    "url": "https://data.mendeley.com/datasets/rfw98r8g83",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-shennan-2009",
+    "title": "Late Holocene relative land- and sea-level changes: Providing information for stakeholders",
+    "publisher": "I. Shennan, G. Milne and S. Bradley, GSA Today 19(9), 52-53, Geological Society of America, 2009",
+    "url": "https://rock.geosociety.org/gsatoday/archive/19/9/article/i1052-5173-19-9-52.htm",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-wiki-doggerland",
+    "title": "Doggerland",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Doggerland",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-wiki-fens",
+    "title": "The Fens",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/The_Fens",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-wiki-somerset-levels",
+    "title": "Somerset Levels",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Somerset_Levels",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-wiki-romney-marsh",
+    "title": "Romney Marsh",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Romney_Marsh",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-wiki-wantsum",
+    "title": "Wantsum Channel",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Wantsum_Channel",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-wiki-holderness",
+    "title": "Holderness",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Holderness",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-wiki-ravenser-odd",
+    "title": "Ravenser Odd",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ravenser_Odd",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "ter-wiki-dunwich",
+    "title": "Dunwich",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dunwich",
+    "scope": "national",
+    "origin_file": "national/sources-terrain.json"
+  },
+  {
+    "id": "wal-cadw-bryn-celli-ddu",
+    "title": "Bryn Celli Ddu Chambered Tomb (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/bryn-celli-ddu-burial-chamber",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-barclodiad",
+    "title": "Barclodiad y Gawres Chambered Tomb (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/barclodiad-y-gawres-burial-chamber",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-pentre-ifan",
+    "title": "Pentre Ifan Chambered Tomb (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/pentre-ifan-burial-chamber",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-pentre-ifan",
+    "title": "Pentre Ifan chambered tomb (NPRN 101450), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/101450/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-trer-ceiri",
+    "title": "Tre'r Ceiri hillfort (NPRN 95292), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95292/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-liverpool-great-orme",
+    "title": "Britain’s earliest mining boom revealed (news release on Williams and Le Carlier de Veslud, Antiquity 2019)",
+    "publisher": "University of Liverpool",
+    "url": "https://news.liverpool.ac.uk/2019/10/15/britains-earliest-mining-boom-revealed/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-great-orme-mines",
+    "title": "Great Orme Mines (site operator home page)",
+    "publisher": "Great Orme Mines Ltd",
+    "url": "https://www.greatormemines.info/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-parys-mountain",
+    "title": "Parys Mountain (Pleiades place 82297, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/82297/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-castell-henllys",
+    "title": "Castell Henllys defended settlement (NPRN 94989), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/94989/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-isca",
+    "title": "Isca Silurum (Caerleon) (Pleiades place 79532, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/79532/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-caerleon",
+    "title": "Caerleon Roman Fortress and Baths (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-fortress-and-baths",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-segontium",
+    "title": "Segontium Roman Fort (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/segontium-roman-fort",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-segontium",
+    "title": "Segontium (Pleiades place 79678, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/79678/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-moridunum",
+    "title": "*Moridunum (Carmarthen) (Pleiades place 79602, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/79602/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-carmarthen-castle",
+    "title": "Carmarthen Castle (NPRN 95084), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95084/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-caerwent",
+    "title": "Caerwent Roman Town (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/caerwent-roman-town",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-venta-silurum",
+    "title": "Venta (Silurum) (Pleiades place 79733, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/79733/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-dolaucothi",
+    "title": "Dolaucothi Gold Mines (NPRN 95142), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95142/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-nidum",
+    "title": "Neath Roman fort (Nidum) (NPRN 301350), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/301350/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-nidum",
+    "title": "Nido / Nidum (Pleiades place 79616, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/79616/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-gobannium",
+    "title": "Gobannio (Abergavenny) (Pleiades place 79484, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/79484/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-burrium",
+    "title": "Burrium (Usk) (Pleiades place 79360, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/79360/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-canovium",
+    "title": "Caerhun Roman fort (Canovium) (NPRN 95640), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95640/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-canovium",
+    "title": "Kanovium / Conovium (Pleiades place 79542, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/79542/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-tomen-y-mur",
+    "title": "Tomen y Mur Roman fort (NPRN 95476), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95476/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-brecon-gaer",
+    "title": "Y Gaer (Brecon Gaer) Roman Fort (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/brecon-gaer-roman-fort",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-st-davids",
+    "title": "St Davids Bishop's Palace (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/st-davids-bishops-palace",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-illtud",
+    "title": "Illtud (c. 475 - c. 525), Celtic saint and one of the founders of monachism in Britain",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s-ILLT-UD0-0475",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-deiniol",
+    "title": "Deiniol (died 584), saint, founder of Bangor and first bishop in Gwynedd",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s-DEIN-IOL-0584",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-deganwy",
+    "title": "Deganwy Castle (NPRN 95282), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95282/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-dinefwr",
+    "title": "Dinefwr Castle (NPRN 425), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/425/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-mathrafal",
+    "title": "Mathrafal defended enclosure (NPRN 306778), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/306778/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-aberffraw",
+    "title": "Aberffraw (NPRN 32986), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/32986/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-dinas-emrys",
+    "title": "Dinas Emrys (NPRN 95284), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95284/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-nmw-llangors",
+    "title": "The Palace in the Lake (Llan-gors crannog)",
+    "publisher": "Amgueddfa Cymru – Museum Wales",
+    "url": "https://museum.wales/articles/1350/Palas-ym-Mrycheiniog/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-valle-crucis",
+    "title": "Valle Crucis Abbey (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/valle-crucis-abbey",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-chepstow",
+    "title": "Chepstow Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/chepstow-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-pembroke",
+    "title": "Pembroke Castle (NPRN 94945), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/94945/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-cardiff",
+    "title": "Cardiff Castle (NPRN 33), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/33/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-pleiades-cardiff-fort",
+    "title": "Tamion? (Cardiff Roman forts) (Pleiades place 79706, JSON record)",
+    "publisher": "Pleiades: a gazetteer of past places (ISAW, New York University / Ancient World Mapping Center)",
+    "url": "https://pleiades.stoa.org/places/79706/json",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-caerphilly",
+    "title": "Caerphilly Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/caerphilly-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-dolwyddelan",
+    "title": "Dolwyddelan Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/dolwyddelan-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-castell-y-bere",
+    "title": "Castell y Bere (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/castell-y-bere",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-dolbadarn",
+    "title": "Dolbadarn Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/dolbadarn-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-criccieth",
+    "title": "Criccieth Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/criccieth-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-flint",
+    "title": "Flint Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/flint-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-rhuddlan",
+    "title": "Rhuddlan Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/rhuddlan-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-bodleian-welsh-law",
+    "title": "Welsh Law: Legal history research guide (Statute of Rhuddlan 1284)",
+    "publisher": "Bodleian Libraries, University of Oxford",
+    "url": "https://libguides.bodleian.ox.ac.uk/law-histcom/wales",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-conwy",
+    "title": "Conwy Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/conwy-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-caernarfon",
+    "title": "Caernarfon Castle (NPRN 95318), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95318/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-caernarfon",
+    "title": "Caernarfon Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/caernarfon-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-harlech",
+    "title": "Harlech Castle (NPRN 93729), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/93729/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-harlech",
+    "title": "Harlech Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/harlech-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-beaumaris",
+    "title": "Beaumaris Castle (NPRN 95769), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95769/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-beaumaris",
+    "title": "Beaumaris Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/beaumaris-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-kidwelly",
+    "title": "Kidwelly Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/kidwelly-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-montgomery",
+    "title": "Montgomery Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/montgomery-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-dolforwyn",
+    "title": "Dolforwyn Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/dolforwyn-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-raglan",
+    "title": "Raglan Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/raglan-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-denbigh",
+    "title": "Denbigh Castle (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/denbigh-castle",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-sycharth",
+    "title": "Sycharth (NPRN 306999), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/306999/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-owain-glyndwr",
+    "title": "Owain Glyndwr (c. 1354 - 1416), 'Prince of Wales'",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s-OWAI-GLY-1354",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-tintern",
+    "title": "Tintern Abbey (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/tintern-abbey",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-strata-florida",
+    "title": "Strata Florida Abbey (NPRN 95764), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/95764/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-strata-florida",
+    "title": "Strata Florida Abbey (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/strata-florida-abbey",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-neath-abbey",
+    "title": "Neath Abbey and Gatehouse (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/neath-abbey-and-gatehouse",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-margam",
+    "title": "Margam Abbey (NPRN 132), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/132/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-basingwerk",
+    "title": "Basingwerk Abbey (visitor page)",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/visit/places-to-visit/basingwerk-abbey",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-swansea-castle",
+    "title": "Swansea Castle (NPRN 275871), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/275871/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-haverfordwest",
+    "title": "Haverfordwest Castle (NPRN 94235), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/94235/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-mynydd-carn",
+    "title": "Battle of Mynydd Carn (NPRN 300319), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/300319/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-gruffudd-ap-cynan",
+    "title": "Gruffudd ap Cynan (c. 1055 - 1137), king of Gwynedd",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s-GRUF-APC-1055",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-crug-mawr",
+    "title": "Crug Mawr, site of battle, near Cardigan (NPRN 402323), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/402323/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-irfon-bridge",
+    "title": "Irfon Bridge / Battle of Orewin Bridge, Builth Wells (NPRN 403411), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/403411/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-llywelyn-ap-gruffydd",
+    "title": "Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282)",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s-LLYW-APG-1200",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-bryn-glas",
+    "title": "Pilleth / Battle of Bryn Glas (NPRN 306352), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/306352/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-rhodri-mawr",
+    "title": "Rhodri Mawr ('the Great') (died 877), king of Gwynedd, Powys, and Deheubarth",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s-RHOD-MAW-0877",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-hywel-dda",
+    "title": "Hywel Dda (Hywel the Good) (died 950), king and legislator",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s-HYWE-DDA-0950",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-gruffudd-ap-llywelyn",
+    "title": "Gruffudd ap Llywelyn (died 1064), king of Gwynedd 1039-1064 and overlord of all the Welsh 1055-1064",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s12-GRUF-APL-1063",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-llywelyn-ap-iorwerth",
+    "title": "Llywelyn ap Iorwerth ('Llywelyn the Great') (1173 - 1240), prince of Gwynedd",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s-LLYW-API-1173",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-dwb-rhys-ap-gruffydd",
+    "title": "Rhys ap Gruffydd (1132 - 1197), lord of Deheubarth ('The Lord Rhys')",
+    "publisher": "Dictionary of Welsh Biography (National Library of Wales / Honourable Society of Cymmrodorion)",
+    "url": "https://biography.wales/article/s-RHYS-APG-1132",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-legislation-laws-in-wales-1535",
+    "title": "Laws in Wales Act 1535 (27 Hen. 8 c. 26), revised text",
+    "publisher": "legislation.gov.uk (The National Archives)",
+    "url": "https://www.legislation.gov.uk/aep/Hen8/27/26",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-legislation-laws-in-wales-1542",
+    "title": "Laws in Wales Act 1542 (34 & 35 Hen. 8 c. 26), contents",
+    "publisher": "legislation.gov.uk (The National Archives)",
+    "url": "https://www.legislation.gov.uk/aep/Hen8/34-35/26/contents",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-itinere-gb",
+    "title": "How Roman is your road? Data and code (file data_itinere_gb.geojson: the Britain subset of Itiner-e static version 2024, CC BY 4.0), doi:10.5281/zenodo.23673516",
+    "publisher": "T. Hotham, Zenodo (2026); roads from de Soto, Pažout, Brughmans and others, Itiner-e",
+    "url": "https://zenodo.org/api/records/23673516",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-itinere",
+    "title": "A High-Resolution Dataset of Roads of the Roman Empire: Itiner-e static version 2024 (CC BY 4.0), doi:10.5281/zenodo.17122148",
+    "publisher": "P. de Soto, A. Pažout, T. Brughmans and others, Zenodo (2025)",
+    "url": "https://zenodo.org/api/records/17122148",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-ons-counties",
+    "title": "data_counties.geojson: ceremonial and preserved county boundaries built from ONS 2025 local authority boundaries (Open Government Licence v3; contains OS data © Crown copyright), in doi:10.5281/zenodo.23673516",
+    "publisher": "T. Hotham, Zenodo (2026); boundaries from the Office for National Statistics",
+    "url": "https://zenodo.org/api/records/23673516/files/data_counties.geojson/content",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-eh-hadrians-wall",
+    "title": "History of Hadrian’s Wall",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-eh-offas-dyke",
+    "title": "History of Offa’s Dyke",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/offas-dyke/history/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-oda-dating",
+    "title": "Recording the Dykes (Offa’s Dyke Centre display panel on excavation and scientific dating)",
+    "publisher": "Offa’s Dyke Association",
+    "url": "https://offasdyke.org.uk/offas-dyke-association/offas-dyke-centre/display-panel-14",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-coflein-wats-dyke",
+    "title": "Wat’s Dyke (NPRN 306867), site record",
+    "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+    "url": "https://coflein.gov.uk/en/site/306867/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-nationaltrail-ridgeway",
+    "title": "The Ridgeway National Trail",
+    "publisher": "National Trails (Natural England)",
+    "url": "https://www.nationaltrail.co.uk/en_GB/trails/the-ridgeway/",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "wal-cadw-battlefields",
+    "title": "Historic battlefields in Wales",
+    "publisher": "Cadw (Welsh Government historic environment service)",
+    "url": "https://cadw.gov.wales/advice-support/historic-assets/other-historic-assets/historic-battlefields-wales",
+    "scope": "national",
+    "origin_file": "national/sources-wales.json"
+  },
+  {
+    "id": "gresham-discovering-port-roman-london",
+    "title": "Discovering the Port of Roman London (Gustav Milne, lecture transcript)",
+    "publisher": "Gresham College",
+    "url": "https://www.gresham.ac.uk/sites/default/files/2017-09-27_GustavMilne_RomanPort.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "britannia-milne-further-evidence-roman",
+    "title": "Milne, Further Evidence for Roman London Bridge?, Britannia 13 (1982) - abstract",
+    "publisher": "Britannia / Cambridge University Press",
+    "url": "https://cambridge.org/core/journals/britannia/article/further-evidence-for-roman-london-bridge/A19C8685D8125B06CCA44A43D3898298",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-archaeologist-brigham-watson-regis-house",
+    "title": "Brigham & Watson, Regis House (part 2), London Archaeologist 8(3)",
+    "publisher": "London Archaeologist / Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol08/vol08_03/08_03_063_069.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-museum-timeline-roman-london",
+    "title": "A timeline of Roman London",
+    "publisher": "London Museum",
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "history-london-port-roman-london-secondary",
+    "title": "The Port of Roman London (secondary summary)",
+    "publisher": "The History of London",
+    "url": "https://www.thehistoryoflondon.co.uk/the-port-of-roman-london/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-archaeologist-marsden-reconstructing-forum-basilica",
+    "title": "Marsden, Reconstructing the forum and basilica of Roman London, London Archaeologist 15(8), 2019",
+    "publisher": "London Archaeologist / Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol15/vol15_08/LonArch-15-08_4_Marsden.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "britannia-brigham-reassessment-second-basilica",
+    "title": "Brigham, A Reassessment of the Second Basilica in London, A.D. 100-400, Britannia 21 (1990) - abstract",
+    "publisher": "Britannia / Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/britannia/article/reassessment-of-the-second-basilica-in-london-ad-100400-excavations-at-leadenhall-court-198486/B68344E4B64EE6D6750782B1F308BB1A",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "mola-roman-londons-first-basilica",
+    "title": "Roman London's first basilica discovered",
+    "publisher": "MOLA",
+    "url": "https://www.mola.org.uk/node/33933",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "mola-londons-roman-amphitheatre-guildhall",
+    "title": "London's Roman amphitheatre: Guildhall Yard, City of London (MOLA Monograph 35) - abstract",
+    "publisher": "MOLA",
+    "url": "https://mola.iro.bl.uk/concern/books/80edc531-99f3-4659-94b7-5d5595480e63?locale=en",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "city-of-london-londons-roman-amphitheatre-information",
+    "title": "London's Roman Amphitheatre information sheet (Sept 2015)",
+    "publisher": "City of London Corporation / Guildhall Galleries",
+    "url": "https://www.cityoflondon.gov.uk/assets/Things-to-do/roman-amphitheatre-london.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-museum-roman-amphitheatre-central-london",
+    "title": "The Roman amphitheatre in central London",
+    "publisher": "London Museum",
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/roman-amphitheatre-central-london/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-archaeologist-marsden-purpose-cripplegate-roman",
+    "title": "Marsden, The purpose of the Cripplegate Roman fort, London Archaeologist 15(5), 2018",
+    "publisher": "London Archaeologist / Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol15/vol15_05/LonArch-15-05_6_marsden.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "mola-roman-medieval-cripplegate-city",
+    "title": "Roman and medieval Cripplegate, City of London: excavations 1992-8 (MoLAS Monograph 21) - abstract",
+    "publisher": "MOLA",
+    "url": "https://mola.iro.bl.uk/concern/books/c1f24fa0-2cee-4170-8c88-3951d6a463e6?locale=en",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "english-heritage-history-london-wall",
+    "title": "History of London Wall",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/london-wall/history/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "current-archaeology-fortress-londinium-tracing-londons",
+    "title": "Fortress Londinium: tracing London's Roman defences, Current Archaeology 401",
+    "publisher": "Current Archaeology / The Past",
+    "url": "https://the-past.com/current-archaeology/401/feature/fortress-londinium-tracing-londons-roman-defences/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-wall-about-citie",
+    "title": "Stow, Survey of London: The wall about the Citie",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp5-10",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-gates-wall",
+    "title": "Stow, Survey of London: Gates in the wall",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp27-44",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-fitzstephen-descriptio-stow-appendix",
+    "title": "FitzStephen, Descriptio (Stow appendix)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp218-229",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-ditch-sometimes-compassing",
+    "title": "Stow, A Survey of London (1603), 'The ditch sometimes compassing the wall'",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp19-20",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "moeml-aldgate",
+    "title": "Aldgate",
+    "publisher": "The Map of Early Modern London (MoEML)",
+    "url": "https://mapoflondon.uvic.ca/ALDG1.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "grub-street-aldgate-reproducing-harben-dictionary",
+    "title": "Aldgate (reproducing Harben, A Dictionary of London, 1918)",
+    "publisher": "The Grub Street Project",
+    "url": "https://grubstreetproject.net/places/42",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "grub-street-aldersgate-reproducing-harben-dictionary",
+    "title": "Aldersgate (reproducing Harben, A Dictionary of London, 1918)",
+    "publisher": "The Grub Street Project",
+    "url": "https://grubstreetproject.net/places/34",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "mola-saxon-ad-4101066-research",
+    "title": "Saxon (AD 410-1066), Research Framework for London Archaeology",
+    "publisher": "Research Frameworks / MOLA",
+    "url": "https://researchframeworks.org/rfla/saxon-ad-410-1066/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "gresham-london-notsodark-ages-lyn",
+    "title": "London in the Not-so-Dark Ages (Lyn Blackmore lecture)",
+    "publisher": "Gresham College",
+    "url": "https://gresham.ac.uk/node/12856",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-museum-lundenwic-other-medieval-london",
+    "title": "Lundenwic: The other medieval London",
+    "publisher": "London Museum",
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/lundenwic-other-medieval-london/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "lamas-saxon-origins-queenhithe-r",
+    "title": "The Saxon origins of Queenhithe (R. Wroe-Brown, LAMAS Trans 50)",
+    "publisher": "London & Middlesex Archaeological Society / ADS",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_12-16_SaxonOriginsQueenhithe.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-guided-cannon-street-stations-grandiose",
+    "title": "Cannon Street Station's grandiose Roman past (secondary summary of Marsden and of Perring & Milne)",
+    "publisher": "London Guided Walks",
+    "url": "https://londonguidedwalks.co.uk/cannon-street-station/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "aubrey-research-roman-governors-palace-site",
+    "title": "Roman governor's palace (site of) - gazetteer entry with coordinates",
+    "publisher": "Aubrey Research (derived from Historic England NHLE 1001997)",
+    "url": "https://www.aubreyresearch.com/roman-britain/sites/roman-governors-palace-site-of",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "onlondon-vic-keegans-lost-london",
+    "title": "Vic Keegan's Lost London 25: the Huggin Hill Roman Baths (secondary)",
+    "publisher": "OnLondon",
+    "url": "https://www.onlondon.co.uk/vic-keegans-lost-london-25-the-huggin-hill-roman-baths/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "aubrey-research-huggin-hill-roman-bath",
+    "title": "Huggin Hill Roman bath house - gazetteer entry with coordinates",
+    "publisher": "Aubrey Research (derived from Historic England NHLE 1001981)",
+    "url": "https://www.aubreyresearch.com/roman-britain/sites/huggin-hill-roman-bath-house-120m-wnw-of-st-jamess-church",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "mola-mithras-mithraism-top-10",
+    "title": "Mithras and Mithraism: top 10 things you need to know",
+    "publisher": "MOLA",
+    "url": "https://www.mola.org.uk/node/29561",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "british-listed-temple-mithras-grade-ii",
+    "title": "Temple of Mithras, Grade II listing text (mirror of Historic England NHLE 1391846)",
+    "publisher": "British Listed Buildings / Historic England",
+    "url": "https://britishlistedbuildings.co.uk/101391846-temple-of-mithras-cordwainer-ward",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "rfla-roman-ad-43-410",
+    "title": "Roman (AD 43 - 410) - A Research Framework for London Archaeology",
+    "publisher": "Research Frameworks Network / Museum of London / Historic England",
+    "url": "https://researchframeworks.org/rfla/roman/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "rfla-prehistory-research-framework-london",
+    "title": "Prehistory - A Research Framework for London Archaeology (note on Watling Street and Stane Street)",
+    "publisher": "Research Frameworks Network / Museum of London / Historic England",
+    "url": "https://researchframeworks.org/rfla/prehistory/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "southwark-council-archaeology-southwark-roman",
+    "title": "Archaeology in Southwark - Roman",
+    "publisher": "Southwark Council",
+    "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/design-and-conservation/archaeology-and/roman",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-museum-vikings-london",
+    "title": "Vikings in London",
+    "publisher": "London Museum",
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/vikings/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "lamas-excavations-royal-opera-house",
+    "title": "Excavations at the Royal Opera House: Middle Saxon London (Bowsher & Malcolm, LAMAS Trans 50)",
+    "publisher": "London & Middlesex Archaeological Society / ADS",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_4-11_ExcavationsRoyalOperaHouseMiddleSaxonLondon.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-ancient-present-rivers",
+    "title": "Stow, Survey of London: Of the ancient and present rivers",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-19",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-bridges-this-citie",
+    "title": "Stow, A Survey of London (1603), 'Bridges of this Citie'",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp21-27",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-castle-baynard-warde",
+    "title": "Stow, Survey of London: Castle Baynard warde",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp11-20",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-secular-canons-cathedral-st",
+    "title": "Secular canons: Cathedral of St Paul (VCH London vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp409-433",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "gresham-archaeology-st-pauls-cathedral",
+    "title": "The Archaeology of St Paul's Cathedral (John Schofield lecture)",
+    "publisher": "Gresham College",
+    "url": "https://www.gresham.ac.uk/node/12865",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "project-gutenberg-w-benham-old-st",
+    "title": "W. Benham, Old St Paul's Cathedral (1902)",
+    "publisher": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/files/16531/16531-h/16531-h.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-faringdon-ward-infra",
+    "title": "Stow, Survey of London: Faringdon ward infra",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp310-344",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-museum-history-st-pauls-cathedral",
+    "title": "A history of St Paul's Cathedral",
+    "publisher": "London Museum",
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/a-history-of-st-pauls-cathedral/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "current-archaeology-st-pauls-before-wren",
+    "title": "St Paul's before Wren",
+    "publisher": "Current Archaeology",
+    "url": "https://archaeology.co.uk/articles/news/st-pauls-before-wren.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "nc-state-virtual-pauls-cross-project",
+    "title": "Virtual Paul's Cross Project: Churchyard resources (model based on Schofield survey, Wren measurements, Hollar)",
+    "publisher": "NC State University",
+    "url": "https://vpcross.chass.ncsu.edu/churchyard/resources",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-queene-hith-warde",
+    "title": "Stow, Survey of London: Queene hith warde",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp1-11",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "lamas-medieval-london-bridge-role",
+    "title": "Medieval London Bridge and its role in the defence of the realm (B. Watson, LAMAS Trans 50)",
+    "publisher": "London & Middlesex Archaeological Society / ADS",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-4072-1/dissemination/pdf/LAMAS_Vol50_17-22_MedievalLondonBridgeAndRoleInDefenceOfTheRealm.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-old-new-london-vol",
+    "title": "Old and New London vol. 2: London Bridge",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/old-new-london/vol2/pp9-17",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "current-archaeology-life-across-water-exploring",
+    "title": "Life across the water: exploring London Bridge and its houses (after D. Gerhold)",
+    "publisher": "Current Archaeology / The Past",
+    "url": "https://the-past.com/current-archaeology/391/feature/life-across-the-water-exploring-london-bridge-and-its-houses/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-towers-castels-bridge",
+    "title": "Stow, Survey of London: Of Towers and Castels (bridge towers)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp44-71",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-austin-canons-priory-southwark",
+    "title": "Austin canons: Priory of Southwark (date of the 1212 fire)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp480-484",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-bridgewarde-within",
+    "title": "Stow, A Survey of London (1603), 'Bridgewarde within'",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp211-216",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "moeml-london-bridge",
+    "title": "London Bridge",
+    "publisher": "The Map of Early Modern London (MoEML)",
+    "url": "https://mapoflondon.uvic.ca/LOND1.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-colleges-st-thomas-london",
+    "title": "Colleges: St Thomas on London Bridge, VCH London vol. 1, pp. 572-574",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp572-574",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "moeml-drawbridge-tower",
+    "title": "Drawbridge Tower",
+    "publisher": "The Map of Early Modern London (MoEML)",
+    "url": "https://mapoflondon.uvic.ca/DRAW2.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ianvisits-london-bridges-lost-nonsuch",
+    "title": "London Bridge's lost Nonsuch House (secondary; sundials 1681, hedged prefab claim)",
+    "publisher": "IanVisits",
+    "url": "https://www.ianvisits.co.uk/blog/2021/02/24/london-bridges-lost-nonsuch-house/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "city-of-london-st-magnus-martyr",
+    "title": "St Magnus the Martyr",
+    "publisher": "City of London Corporation",
+    "url": "https://www.cityoflondon.gov.uk/things-to-do/architecture/city-churches-and-religious-buildings/st-magnus-the-martyr",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-bridge-warde-without",
+    "title": "Stow, Survey of London: Bridge warde without",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp52-69",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "southwark-cathedral-augustinian-heritage",
+    "title": "Augustinian Heritage",
+    "publisher": "Southwark Cathedral",
+    "url": "https://cathedral.southwark.anglican.org/about-us/augustinian-heritage/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "southwark-cathedral-our-history",
+    "title": "Our history",
+    "publisher": "Southwark Cathedral",
+    "url": "https://cathedral.southwark.anglican.org/about/our-history",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "english-heritage-history-winchester-palace",
+    "title": "History of Winchester Palace",
+    "publisher": "English Heritage",
+    "url": "https://www.english-heritage.org.uk/visit/places/winchester-palace/history/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-billinsgate-warde",
+    "title": "Stow, Survey of London: Billinsgate warde",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp205-211",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "mola-medieval-c1066c1500-research-framework",
+    "title": "Medieval (c1066-c1500), Research Framework for London Archaeology",
+    "publisher": "Research Frameworks / MOLA",
+    "url": "https://researchframeworks.org/rfla/?p=84",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "britannia-brigham-late-roman-waterfront",
+    "title": "Brigham, The Late Roman Waterfront in London, Britannia 21 (1990) - abstract",
+    "publisher": "Britannia / Cambridge University Press",
+    "url": "https://cambridge.org/core/journals/britannia/article/abs/late-roman-waterfront-in-london/2117E8E13B6BDD7D20B96FA98FB5C190",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "westminster-abbey-history-westminster-abbey",
+    "title": "History of Westminster Abbey",
+    "publisher": "Westminster Abbey",
+    "url": "https://www.westminster-abbey.org/history/history-of-westminster-abbey",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-citie-westminster",
+    "title": "Stow, Survey of London: The Citie of Westminster",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp97-124",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-benedictine-monks-st-peters",
+    "title": "Benedictine monks: St Peter's abbey, Westminster (VCH London vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp433-457",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "westminster-abbey-henry-vii-elizabeth-york",
+    "title": "Henry VII and Elizabeth of York",
+    "publisher": "Westminster Abbey",
+    "url": "https://www.westminster-abbey.org/abbey-commemorations/royals/henry-vii-and-elizabeth-of-york",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "hrp-1066-norman-tower-london",
+    "title": "1066 and the Norman Tower of London: Chronology",
+    "publisher": "Historic Royal Palaces",
+    "url": "https://www.hrp.org.uk/media/1704/teach047_normantoweroflondonchronology.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "hrp-tower-london-historic-environment",
+    "title": "The Tower of London: Historic Environment site form",
+    "publisher": "Historic Royal Palaces",
+    "url": "https://www.hrp.org.uk/media/1807/teach303_tolhistoricsiteformocr.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "chapels-royal-chapel-st-peter-ad",
+    "title": "The Chapel of St Peter ad Vincula",
+    "publisher": "The Chapels Royal, HM Tower of London",
+    "url": "https://www.thechapelsroyalhmtoweroflondon.org.uk/welcome/the-chapel-of-st-peter-ad-vincula",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "brigham-young-tower-london-middlesex-henry",
+    "title": "Tower of London, Middlesex (Henry VIII's houses project)",
+    "publisher": "Brigham Young University",
+    "url": "https://henryviiihouses.byu.edu/?p=1064",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-friaries-black-friars-vch",
+    "title": "Friaries: The black friars (VCH London vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp498-502",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-houses-military-orders-temple",
+    "title": "Houses of Military Orders: The Temple (VCH London vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp485-491",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "temple-church-history",
+    "title": "History",
+    "publisher": "Temple Church",
+    "url": "https://www.templechurch.com/history",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "folger-shakespeares-theater-folger-shakespeare",
+    "title": "Shakespeare's Theater (Folger Shakespeare editions essay)",
+    "publisher": "Folger Shakespeare Library",
+    "url": "https://www.folger.edu/explore/shakespeares-works/shakespeares-theater-from-the-folger-shakespeare-editions/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-friaries-grey-friars-vch",
+    "title": "Friaries: The grey friars (VCH London vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp502-507",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-friaries-austin-friars-vch",
+    "title": "Friaries: The Austin friars (VCH London vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp510-513",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-broadstreete-warde",
+    "title": "Stow, A Survey of London (1603), 'Broadstreete warde'",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp175-186",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-austin-canons-priory-holy",
+    "title": "Austin canons: Priory of Holy Trinity or Christchurch, Aldgate (VCH London vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp465-475",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-ealdgate-warde",
+    "title": "Stow, A Survey of London (1603), 'Ealdgate warde'",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp138-150",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-austin-canons-priory-st",
+    "title": "Austin canons: Priory of St Bartholomew, Smithfield (VCH London vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp475-480",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-hospitals-st-bartholomew-vch",
+    "title": "Hospitals: St Bartholomew (VCH London vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/london/vol1/pp520-525",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "st-bartholomew-history",
+    "title": "History",
+    "publisher": "St Bartholomew the Great",
+    "url": "https://www.greatstbarts.com/history/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-warde-faringdon-extra",
+    "title": "Stow, A Survey of London (1603), 'The warde of Faringdon extra, or without'",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp20-52",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-religious-houses-house-carthusian",
+    "title": "Religious Houses: House of Carthusian monks (VCH Middlesex vol. 1)",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol1/pp159-169",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "charterhouse-history",
+    "title": "History",
+    "publisher": "The Charterhouse",
+    "url": "https://thecharterhouse.org/explore-the-charterhouse/history/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-suburbs-without-walls",
+    "title": "Stow, A Survey of London (1603), 'The Suburbs without the walls'",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp69-91",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-liberties-dutchie-lancaster",
+    "title": "Stow, Survey of London: Liberties of the Dutchie of Lancaster",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp91-97",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-cheape-warde",
+    "title": "Stow, Survey of London: Cheape warde",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp258-276",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "gresham-envy-kings-guildhall-london",
+    "title": "Envy of Kings: The Guildhall of London and the Power of the Medieval Corporation",
+    "publisher": "Gresham College",
+    "url": "https://www.gresham.ac.uk/node/13035",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "city-of-london-many-lives-guildhall",
+    "title": "The many lives of Guildhall",
+    "publisher": "City of London Corporation",
+    "url": "https://www.guildhall.cityoflondon.gov.uk/visual-guides/the-many-lives-of-guildhall",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-limestreete-warde",
+    "title": "Stow, Survey of London: Limestreete warde",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp150-163",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-cornehill-warde",
+    "title": "Stow, A Survey of London (1603), 'Cornehill warde'",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp187-200",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-museum-financial-powerhouse-city-london",
+    "title": "The financial powerhouse of the City of London (history of the Royal Exchange)",
+    "publisher": "London Museum",
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/history-royal-exchange/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "moeml-bridewell",
+    "title": "Bridewell",
+    "publisher": "The Map of Early Modern London (MoEML)",
+    "url": "https://mapoflondon.uvic.ca/BRID2.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-survey-london-vol-14",
+    "title": "Survey of London vol. 14, St Margaret, Westminster, Part III: The Holbein Gate and the Tiltyard Gallery",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/survey-london/vol14/pt3/pp10-22",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-survey-london-vol-13",
+    "title": "Survey of London vol. 13, St Margaret, Westminster, Part II: The Banqueting House",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/survey-london/vol13/pt2/pp116-139",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "somerset-house-history",
+    "title": "History",
+    "publisher": "Somerset House Trust",
+    "url": "https://www.somersethouse.org.uk/about-us/history",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-survey-london-vol-18",
+    "title": "Survey of London vol. 18, St Martin-in-the-Fields II: The Strand: Northumberland House",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/survey-london/vol18/pt2/pp10-20",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-survey-london-vol-15",
+    "title": "Survey of London vol. 15: The Custom House",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/node/65494",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "gresham-legal-quays-sir-william",
+    "title": "The Legal Quays: Sir William Paulet, First Marquis of Winchester (lecture)",
+    "publisher": "Gresham College",
+    "url": "https://www.gresham.ac.uk/node/11942",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-towerstreet-warde",
+    "title": "Stow, A Survey of London (1603), 'Towerstreet warde'",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp129-138",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-stow-downegate-warde",
+    "title": "Stow, Survey of London: Downegate warde",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/no-series/survey-of-london-stow/1603/pp229-238",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "moeml-steelyard",
+    "title": "The Steelyard",
+    "publisher": "The Map of Early Modern London (MoEML)",
+    "url": "https://mapoflondon.uvic.ca/STEE2.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "mola-15871644-shakespeares-bankside-playhouses",
+    "title": "1587-1644: Shakespeare's Bankside playhouses",
+    "publisher": "MOLA",
+    "url": "https://www.mola.org.uk/1587-1644",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "reed-rose-theatre-citing-bowsher",
+    "title": "Rose Theatre (citing Bowsher and Miller, The Rose and the Globe, MOLA 2009)",
+    "publisher": "REED: Early Modern London Theatres",
+    "url": "https://library2.utm.utoronto.ca/otra/reed/content/rose-theatre",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-survey-london-vol-22",
+    "title": "Survey of London vol. 22, Bankside: The Bear Gardens and Playhouses",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/survey-london/vol22/pp66-77",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "moeml-swan",
+    "title": "The Swan",
+    "publisher": "The Map of Early Modern London (MoEML)",
+    "url": "https://mapoflondon.uvic.ca/SWAN1.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "shakespeares-globe-globe",
+    "title": "The Globe",
+    "publisher": "Shakespeare's Globe",
+    "url": "https://www.shakespearesglobe.com/discover/shakespeares-world/the-globe/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "reed-globe-theatre-citing-bowsher",
+    "title": "Globe Theatre (citing Bowsher and Miller 2009; Blatherwick and Gurr 1992)",
+    "publisher": "REED: Early Modern London Theatres",
+    "url": "https://library2.utm.utoronto.ca/otra/reed/content/globe-theatre",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "cup-blatherwick-gurr-shakespeares-factory",
+    "title": "Blatherwick and Gurr, 'Shakespeare's factory: archaeological evaluations on the site of the Globe Theatre', Antiquity 66 (1992), abstract page",
+    "publisher": "Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/abs/shakespeares-factory-archaeological-evaluations-on-the-site-of-the-globe-theatre-at-115-anchor-terrace-southwark-bridge-road-southwark/AF3ABBF52A9B8597D803A5530103285F",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "henslowe-alleyn-henslowealleyn-digitisation-project-muniments",
+    "title": "Henslowe-Alleyn Digitisation Project: Muniments Series 1, Groups 049 and 051 (Hope contract and brickwork articles)",
+    "publisher": "Henslowe-Alleyn Digitisation Project / Dulwich College",
+    "url": "https://henslowe-alleyn.org.uk/catalogue/muniments-series-1/group-051/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "current-archaeology-basilica-basement-rediscovering-heart",
+    "title": "The basilica in the basement: rediscovering the heart of Roman London, Current Archaeology 422",
+    "publisher": "Current Archaeology / The Past",
+    "url": "https://the-past.com/current-archaeology/422/feature/the-basilica-in-the-the-basement-rediscovering-the-heart-of-roman-london/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "mola-roman-fort-built-response",
+    "title": "Roman fort built in response to Boudica's revolt discovered",
+    "publisher": "MOLA",
+    "url": "https://www.mola.org.uk/discoveries/news/roman-fort-built-response-boudicas-revolt-discovered",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "gresham-early-river-thames-iron",
+    "title": "The Early River Thames: The Iron Age and Before (Jon Cotton, 10 Oct 2016)",
+    "publisher": "Gresham College",
+    "url": "https://www.gresham.ac.uk/node/13163",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "southwark-council-archaeology-southwark-prehistoric",
+    "title": "Archaeology in Southwark - prehistoric",
+    "publisher": "Southwark Council",
+    "url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/design-and-conservation/archaeology-and-2",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "cup-bramcote-green-bermondsey-bronze",
+    "title": "Bramcote Green, Bermondsey: a Bronze Age trackway and palaeo-environmental sequence (abstract)",
+    "publisher": "Proceedings of the Prehistoric Society / Cambridge University Press",
+    "url": "https://cambridge.org/core/journals/proceedings-of-the-prehistoric-society/article/bramcote-green-bermondsey-a-bronze-age-trackway-and-palaeoenvironmental-sequence/1C69FF0EA8905C6D3F8A4573E9636708",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "city-of-london-roman-london-information-sheet",
+    "title": "Roman London information sheet (Sept 2015)",
+    "publisher": "City of London Corporation / Guildhall Galleries",
+    "url": "https://www.cityoflondon.gov.uk/assets/Things-to-do/roman-amphitheatre-roman-london.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "britannia-marsden-west-population-change",
+    "title": "Marsden & West, Population Change in Roman London, Britannia 23 (1992) - extract",
+    "publisher": "Britannia / Cambridge University Press",
+    "url": "https://cambridge.org/core/journals/britannia/article/abs/population-change-in-roman-london/398604A4963E556AE24827C326276902",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "current-archaeology-londons-last-roman-st",
+    "title": "London's last Roman? (St Martin-in-the-Fields)",
+    "publisher": "Current Archaeology",
+    "url": "https://archaeology.co.uk/articles/features/londons-last-roman.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "london-museum-great-pestilence-london",
+    "title": "The Great Pestilence in London",
+    "publisher": "London Museum",
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "bho-london-viewers-their-certificates",
+    "title": "London Viewers and their Certificates: Introduction (on the Assize of Buildings)",
+    "publisher": "British History Online (London Record Society 26)",
+    "url": "https://www.british-history.ac.uk/london-record-soc/vol26/xi-lxv",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "encyclopediacom-gale-london-growth",
+    "title": "London, growth of",
+    "publisher": "Encyclopedia.com (Gale, Europe 1450-1789)",
+    "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/london-growth",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "cup-r-finlay-population-metropolis",
+    "title": "R. Finlay, Population and Metropolis: The Demography of London 1580-1650, ch. 'The general growth of population in London' (summary)",
+    "publisher": "Cambridge University Press",
+    "url": "https://www.cambridge.org/core/books/population-and-metropolis/general-growth-of-population-in-london/34DBFB9DA37E2BAA2820EBFD3371287A",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "cup-w-c-baer-housebuilding",
+    "title": "W. C. Baer, 'The house-building sector of London's economy, 1550-1650', Urban History (2012), abstract",
+    "publisher": "Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/urban-history/article/abs/housebuilding-sector-of-londons-economy-15501650/636A7A421687F51A5252390C038870A6",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "history-london-brief-early-stuart-london",
+    "title": "In brief: Early Stuart London (secondary)",
+    "publisher": "The History of London",
+    "url": "https://thehistoryoflondon.co.uk/in-brief-early-stuart-period/2",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "moeml-moorfields",
+    "title": "Moorfields",
+    "publisher": "The Map of Early Modern London (MoEML)",
+    "url": "https://mapoflondon.uvic.ca/MOOR1.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-tacitus-annals-book-xiv-chapters-29-39-loeb-tran",
+    "title": "Tacitus, Annals, Book XIV chapters 29-39 (Loeb translation)",
+    "publisher": "LacusCurtius, University of Chicago",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-cassius-dio-roman-history-epitome-of-book-lxii-l",
+    "title": "Cassius Dio, Roman History, Epitome of Book LXII (Loeb translation)",
+    "publisher": "LacusCurtius, University of Chicago",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/62*.html",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-introduction-london-in-a-d-60-in-an-inventory-of",
+    "title": "Introduction: London in A.D. 60, in An Inventory of the Historical Monuments in London, Volume 3, Roman London (RCHME 1928), pp. 27-32",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/rchme/london/vol3/pp27-32",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-a-research-framework-for-london-archaeology-2002",
+    "title": "A research framework for London archaeology 2002",
+    "publisher": "Museum of London / MOLA",
+    "url": "https://www.mola.org.uk/sites/default/files/downloads/Research%20framework%20for%20London%20Archaeology%20MOLA%202002.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-roman-fort-built-in-response-to-boudica-s-uprisi",
+    "title": "Roman fort built in response to Boudica's uprising (Plantation Place)",
+    "publisher": "MOLA",
+    "url": "https://www.mola.org.uk/node/27906",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-bloomberg-writing-tablets-contract-of-21-october",
+    "title": "Bloomberg writing tablets (contract of 21 October AD 62)",
+    "publisher": "MOLA",
+    "url": "https://www.mola.org.uk/node/27981",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-letters-from-londinium",
+    "title": "Letters from Londinium",
+    "publisher": "Current Archaeology",
+    "url": "https://archaeology.co.uk/articles/features/letters-from-londinium.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-ad-50-the-story-of-roman-london",
+    "title": "AD 50 - The story of Roman London",
+    "publisher": "Current Archaeology",
+    "url": "https://archaeology.co.uk/articles/specials/timeline/the-story-of-roman-london.htm",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-london-s-catastrophic-fires",
+    "title": "London's catastrophic fires",
+    "publisher": "London Museum",
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/london-catastrophic-fires/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-boudica-s-revolt-and-the-sack-of-london-secondar",
+    "title": "Boudica's Revolt and the Sack of London (secondary; source of the 30-60 cm figure)",
+    "publisher": "roman-britain.co.uk",
+    "url": "https://www.roman-britain.co.uk/boudica-the-iceni-warrior-queen/boudica-sacks-london-and-verulamium",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-fact-or-folklore-the-viking-attack-on-london-bri",
+    "title": "Fact or folklore: the Viking attack on London Bridge, Hagland and Watson 2005 (for 1016: Cnut's ships dragged across north Southwark)",
+    "publisher": "London Archaeologist via Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol10/vol10_12/10_12_328_333.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-heimskringla-saga-of-olaf-haraldson-chapter-on-t",
+    "title": "Heimskringla, Saga of Olaf Haraldson: chapter on the breaking of the bridge, with verses of Ottar Svarte and Sigvat",
+    "publisher": "Wisdom Library",
+    "url": "https://www.wisdomlib.org/scandinavia/book/heimskringla/d/doc5250.html",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-olaf-haraldsson-encyclopaedia-romana",
+    "title": "Olaf Haraldsson (Encyclopaedia Romana)",
+    "publisher": "University of Chicago (J. Grout)",
+    "url": "https://penelope.uchicago.edu/~grout/encyclopaedia_romana/Britannia/anglo-saxon/maldon/haraldsson.html",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-the-anglo-saxon-chronicle-eleventh-century-entri",
+    "title": "The Anglo-Saxon Chronicle, eleventh century (entries for 1009, 1013, 1014)",
+    "publisher": "Avalon Project, Yale Law School",
+    "url": "https://avalon.law.yale.edu/medieval/ang11.asp",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-tooley-street-delight-19-march-2022-sigvatr-s-st",
+    "title": "Tooley Street Delight (19 March 2022): Sigvatr's stanza, bryggjur as wharves",
+    "publisher": "Norse and Viking Ramblings (academic blog)",
+    "url": "https://norseandviking.blogspot.com/search/label/skaldic",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-the-anglo-saxon-chronicle-eleventh-century-entry",
+    "title": "The Anglo-Saxon Chronicle, eleventh century (entry for 1016)",
+    "publisher": "Avalon Project, Yale Law School",
+    "url": "https://avalon.law.yale.edu/medieval/ang11.asp",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-the-danish-conquest-part-10-the-siege-of-london-",
+    "title": "The Danish Conquest, Part 10: The Siege of London (Old English text and translation of the 1016 siege passage; Lidsmannaflokkr)",
+    "publisher": "A Clerk of Oxford (academic blog)",
+    "url": "https://aclerkofoxford.blogspot.com/2016/05/the-danish-conquest-part-10-siege-of.html",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-ealing-and-brentford-growth-of-brentford-in-a-hi",
+    "title": "Ealing and Brentford: Growth of Brentford, in A History of the County of Middlesex, Volume 7 (Victoria County History), pp. 113-120",
+    "publisher": "British History Online",
+    "url": "https://www.british-history.ac.uk/vch/middx/vol7/pp113-120",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-the-barnet-battlefield-project-2015-2018-g-foard",
+    "title": "The Barnet Battlefield Project 2015-2018, G. Foard, T. Partida and S. Wilson (University of Huddersfield; PDF, includes excerpts from the Arrivall, Warkworth, von Wesel, Hall and the registered battlefield map)",
+    "publisher": "Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-3872-1/dissemination/pdf/Barnet_Battlefield_Project_2015-2018.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-looking-for-the-site-of-the-battle-of-barnet-b-w",
+    "title": "Looking for the site of the Battle of Barnet, B. Watson, London Archaeologist 16(7), Winter 2022, 192-195 (PDF)",
+    "publisher": "London Archaeologist via Archaeology Data Service",
+    "url": "https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-457-1/dissemination/pdf/vol16/LonArch_16-07/LonArch_16-07_09_Watson_Barnet.pdf",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-mystery-remains-over-lost-battlefield-site-of-14",
+    "title": "Mystery remains over lost battlefield site of 1471 Battle of Barnet (19 March 2021)",
+    "publisher": "The Barnet Society",
+    "url": "https://www.barnetsociety.org.uk/mystery-remains-over-lost-battlefield-site-of-1471-battle-of-barnet/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-warkworth-s-chronicle-the-battle-of-barnet-text-",
+    "title": "Warkworth's Chronicle: the Battle of Barnet (text of the 1839 Camden Society edition)",
+    "publisher": "eblong.com (transcription)",
+    "url": "https://eblong.com/draconc/static/warkworth-barnet.html",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-how-much-ancient-divisions-survive-unnatural-all",
+    "title": "'How much ancient divisions survive': unnatural alliances and the battle of Barnet, 14 April 1471",
+    "publisher": "The History of Parliament",
+    "url": "https://historyofparliament.com/2021/04/14/battle-of-barnet/",
+    "scope": "global",
+    "origin_file": "sources.json"
+  },
+  {
+    "id": "ev-the-battle-of-barnet-and-the-great-north-road-se",
+    "title": "The Battle of Barnet and the Great North Road (secondary; Norden map, 1995 registration, obelisk)",
+    "publisher": "greatnorthroad.co.uk",
+    "url": "https://greatnorthroad.co.uk/?p=5497",
+    "scope": "global",
+    "origin_file": "sources.json"
+  }
+]

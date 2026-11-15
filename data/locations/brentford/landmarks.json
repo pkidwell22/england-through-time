@@ -1,0 +1,776 @@
+[
+ {
+  "id": "thames-ford",
+  "name": "Thames ford (line conjectural)",
+  "lat": 51.4803,
+  "lon": -0.3022,
+  "path": [
+   [
+    51.4811,
+    -0.3039
+   ],
+   [
+    51.4803,
+    -0.3022
+   ],
+   [
+    51.4795,
+    -0.3005
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "A crossing of the Thames by wading. The Anglo-Saxon Chronicle has Edmund 'go over at Brentford' and later 'ford over the Thames at Brentford' in 1016, so a usable ford existed. The county history thinks the lowest permanent ford on the Thames was probably at Old England, the low ground by the Brent mouth; that is where it is drawn.",
+  "uncertainty": "The exact line is not known. It is drawn from Old England to the Kew bank because the county history and local historians favour that spot; a crossing a few hundred metres downstream, where the Kew ferry later ran from Ferry Lane, is just as possible. The place-name itself is usually taken to mean the ford over the Brent, not the Thames. Timber stakes found on the foreshore at Old England and at Brentford End were claimed by Montagu Sharpe as the defences Caesar met in 54 BCE, and the county history allows that they were 'perhaps used to defend the ford': the Caesar link is antiquarian tradition, the stakes are undated in the sources read, Wheeler doubted the identification in 1929, and none are shown. Depth, bed and width of the ford are guesses.",
+  "phases": [
+   {
+    "label": "Ford",
+    "from": 950,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "ford",
+     "width": 10
+    },
+    "dateNote": "In use in 1016 (Chronicle). Shown throughout the window on the assumption that the ford did not change; nothing dates its beginning or end."
+   }
+  ],
+  "sources": [
+   "bre-asc-avalon",
+   "bre-vch-mdx7-comms",
+   "bre-vch-mdx7-growth",
+   "bre-bclhs-brentford-bridge",
+   "bre-wheeler-old-england",
+   "bre-brentfordhistory-to-793",
+   "bre-tdp-foreshore-pioneers"
+  ]
+ },
+ {
+  "id": "river-brent",
+  "name": "River Brent",
+  "lat": 51.4838,
+  "lon": -0.3099,
+  "path": [
+   [
+    51.4925,
+    -0.325
+   ],
+   [
+    51.4917,
+    -0.3236
+   ],
+   [
+    51.4913,
+    -0.3206
+   ],
+   [
+    51.4896,
+    -0.3207
+   ],
+   [
+    51.4882,
+    -0.3215
+   ],
+   [
+    51.4872,
+    -0.3204
+   ],
+   [
+    51.487,
+    -0.3179
+   ],
+   [
+    51.4865,
+    -0.315
+   ],
+   [
+    51.4853,
+    -0.3136
+   ],
+   [
+    51.4848,
+    -0.3112
+   ],
+   [
+    51.4838,
+    -0.3099
+   ],
+   [
+    51.4832,
+    -0.3106
+   ],
+   [
+    51.4827,
+    -0.3119
+   ],
+   [
+    51.4823,
+    -0.3124
+   ],
+   [
+    51.4816,
+    -0.3124
+   ],
+   [
+    51.4809,
+    -0.3111
+   ],
+   [
+    51.481,
+    -0.309
+   ],
+   [
+    51.4819,
+    -0.3071
+   ],
+   [
+    51.4821,
+    -0.3052
+   ],
+   [
+    51.4825,
+    -0.303
+   ],
+   [
+    51.4829,
+    -0.3004
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "summary": "The tributary that gives Brentford its name, joining the Thames from the north. Alluvium lies along it and at its mouth.",
+  "uncertainty": "The course is the modern river and canal line, generalised. Below Brentford Bridge the Brent was straightened between 1699 and 1760 and later canalised, so the bends drawn here are not the 11th-century ones, and a second mouth that once made an island of the Old England ground is not shown. Width is a guess.",
+  "phases": [
+   {
+    "label": "Open river",
+    "from": 950,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "stream",
+     "width": 12
+    }
+   }
+  ],
+  "sources": [
+   "bre-vch-mdx7-intro",
+   "bre-vch-mdx3-heston-isleworth",
+   "bre-wikipedia-brentford-dock",
+   "bre-osm-nominatim"
+  ]
+ },
+ {
+  "id": "brent-ford",
+  "name": "Crossing of the Brent on the west road",
+  "lat": 51.4823,
+  "lon": -0.3124,
+  "path": [
+   [
+    51.4824,
+    -0.312
+   ],
+   [
+    51.4822,
+    -0.3128
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "Where the road west from London crossed the Brent. The name Brentford, recorded from 705, is usually taken to mean this ford. A bridge is first recorded in 1224, long after this window, so a ford is shown.",
+  "uncertainty": "The ford has not been found. It is placed at the modern Brentford Bridge; the local history society thinks the early crossing 'probably lay near the present bridge site' and that the first wooden bridge may have been a little upstream. Whether a timber bridge already stood here in the 11th century is not known.",
+  "phases": [
+   {
+    "label": "Ford",
+    "from": 950,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "ford",
+     "width": 6
+    },
+    "dateNote": "A bridge existed by 1224 (grant of pontage); nothing earlier is recorded."
+   }
+  ],
+  "sources": [
+   "bre-vch-mdx7-growth",
+   "bre-vch-mdx7-comms",
+   "bre-bclhs-brentford-bridge"
+  ]
+ },
+ {
+  "id": "west-road-east",
+  "name": "Road from London (later Brentford High Street)",
+  "lat": 51.4862,
+  "lon": -0.298,
+  "path": [
+   [
+    51.4916,
+    -0.2795
+   ],
+   [
+    51.4903,
+    -0.2853
+   ],
+   [
+    51.4897,
+    -0.2863
+   ],
+   [
+    51.4888,
+    -0.288
+   ],
+   [
+    51.4882,
+    -0.2912
+   ],
+   [
+    51.4872,
+    -0.2947
+   ],
+   [
+    51.4862,
+    -0.298
+   ],
+   [
+    51.485,
+    -0.3016
+   ],
+   [
+    51.4838,
+    -0.3046
+   ],
+   [
+    51.4834,
+    -0.3066
+   ],
+   [
+    51.483,
+    -0.3088
+   ],
+   [
+    51.4824,
+    -0.312
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The main road from London to the west, successor to the Roman road to Silchester, running along the gravel just above the Thames to the Brent crossing.",
+  "uncertainty": "The Roman road from London to Silchester and the west ran through Brentford from the late 1st century, with Roman buildings mainly just north of the modern High Street, but the county history says its line did not survive; the present High Street alignment is recorded only by the late 14th century. The line drawn is the modern High Street and London Road, generalised. That a through road was in use in 1016 is an inference from the place's role as a crossing, not a recorded fact, and its surface and width are guesses.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 950,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 6
+    }
+   }
+  ],
+  "sources": [
+   "bre-vch-mdx7-comms",
+   "bre-vch-mdx7-growth",
+   "bre-vch-mdx3-heston-isleworth",
+   "bre-osm-nominatim"
+  ]
+ },
+ {
+  "id": "west-road-west",
+  "name": "Road to the west (towards Staines)",
+  "lat": 51.48,
+  "lon": -0.3195,
+  "path": [
+   [
+    51.4822,
+    -0.3128
+   ],
+   [
+    51.4821,
+    -0.3135
+   ],
+   [
+    51.4817,
+    -0.3145
+   ],
+   [
+    51.4786,
+    -0.3234
+   ],
+   [
+    51.4782,
+    -0.3248
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "summary": "The same road beyond the Brent, through the later Brentford End towards Hounslow and Staines. The county history calls the London to Staines road probably the oldest man-made feature of the district.",
+  "uncertainty": "The Roman road from London to Silchester and the west ran through Brentford from the late 1st century, with Roman buildings mainly just north of the modern High Street, but the county history says its line did not survive; the present High Street alignment is recorded only by the late 14th century. The line drawn is the modern High Street and London Road, generalised. That a through road was in use in 1016 is an inference from the place's role as a crossing, not a recorded fact, and its surface and width are guesses.",
+  "phases": [
+   {
+    "label": "Road",
+    "from": 950,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 6
+    }
+   }
+  ],
+  "sources": [
+   "bre-vch-mdx7-comms",
+   "bre-vch-mdx7-growth",
+   "bre-vch-mdx3-heston-isleworth",
+   "bre-osm-nominatim"
+  ]
+ },
+ {
+  "id": "ford-track",
+  "name": "Track to the Thames ford (conjectural)",
+  "lat": 51.4802,
+  "lon": -0.3095,
+  "path": [
+   [
+    51.4819,
+    -0.314
+   ],
+   [
+    51.4805,
+    -0.3125
+   ],
+   [
+    51.48,
+    -0.3095
+   ],
+   [
+    51.4804,
+    -0.3062
+   ],
+   [
+    51.4811,
+    -0.3039
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "A way from the west road to the head of the Thames ford, keeping west and south of the Brent's last bend.",
+  "uncertainty": "Invented to connect the road with the ford as drawn. No such track is recorded or excavated, and if the ford lay elsewhere the approach did too.",
+  "phases": [
+   {
+    "label": "Track",
+    "from": 950,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "road",
+     "width": 3
+    }
+   }
+  ],
+  "sources": [
+   "bre-vch-mdx7-comms"
+  ]
+ },
+ {
+  "id": "fields-old-brentford",
+  "name": "Arable north of the road (conjectural)",
+  "lat": 51.4877,
+  "lon": -0.3021,
+  "path": [
+   [
+    51.4858,
+    -0.304
+   ],
+   [
+    51.487,
+    -0.299
+   ],
+   [
+    51.4895,
+    -0.3
+   ],
+   [
+    51.4885,
+    -0.3055
+   ]
+  ],
+  "bearing": 150,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Ploughed strips on the brickearth and gravel above the road, standing for the farmland of the bishop of London's manor.",
+  "uncertainty": "Open fields north and south of the highway at Old Brentford are first described in 1383. Whether the ground was laid out in strips, or ploughed at all, three and a half centuries earlier is not known; the outline, strip direction and spacing are invented.",
+  "phases": [
+   {
+    "label": "Strips",
+    "from": 950,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "field-strips",
+     "spacing": 9,
+     "pitch": 9,
+     "bearing": 150
+    },
+    "dateNote": "Open fields recorded here in 1383; nothing earlier."
+   }
+  ],
+  "sources": [
+   "bre-vch-mdx7-growth",
+   "bre-vch-mdx7-econ",
+   "bre-vch-mdx7-intro"
+  ]
+ },
+ {
+  "id": "fields-isleworth",
+  "name": "Arable west of the Brent (conjectural)",
+  "lat": 51.479,
+  "lon": -0.317,
+  "path": [
+   [
+    51.4808,
+    -0.3158
+   ],
+   [
+    51.4795,
+    -0.3196
+   ],
+   [
+    51.4772,
+    -0.3182
+   ],
+   [
+    51.4786,
+    -0.3142
+   ]
+  ],
+  "bearing": 20,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "Ploughed strips south of the west road, standing for the large arable of the manor of Isleworth, which Domesday Book credits with land for 55 ploughs.",
+  "uncertainty": "Domesday gives the size of the manor's arable in 1086, not where it lay; Isleworth village is over a kilometre to the south. The outline, strip direction and spacing are invented.",
+  "phases": [
+   {
+    "label": "Strips",
+    "from": 950,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "field-strips",
+     "spacing": 9,
+     "pitch": 9,
+     "bearing": 20
+    }
+   }
+  ],
+  "sources": [
+   "bre-opendomesday-isleworth",
+   "bre-vch-mdx3-heston-isleworth"
+  ]
+ },
+ {
+  "id": "fishing-boats",
+  "name": "Fishing boats (illustrative)",
+  "lat": 51.4846,
+  "lon": -0.2966,
+  "path": [
+   [
+    51.4836,
+    -0.2988
+   ],
+   [
+    51.4856,
+    -0.2945
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "A few small boats off Old Brentford. A Thames fishery at Brentford existed by 996, when the king granted half of it to Winchester; later records speak of weirs.",
+  "uncertainty": "The fishery is documented; the boats are not. Their number, place and form are illustrative, and the weir or fish traps the fishery probably used cannot be drawn with the kinds available.",
+  "phases": [
+   {
+    "label": "Boats",
+    "from": 950,
+    "continues": true,
+    "to": null,
+    "model": {
+     "kind": "boats",
+     "fleet": [
+      {
+       "type": "clinker-skiff",
+       "n": 3,
+       "zone": "river",
+       "moving": 1
+      }
+     ]
+    },
+    "dateNote": "Fishery recorded in 996."
+   }
+  ],
+  "sources": [
+   "bre-vch-mdx7-econ",
+   "bre-vch-mdx7-growth"
+  ]
+ },
+ {
+  "id": "marker-crossing",
+  "name": "Possible crossing, 1016 (conjectural)",
+  "lat": 51.4803,
+  "lon": -0.3022,
+  "path": [
+   [
+    51.4816,
+    -0.3036
+   ],
+   [
+    51.4798,
+    -0.2998
+   ],
+   [
+    51.479,
+    -0.3008
+   ],
+   [
+    51.4808,
+    -0.3046
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "A shaded band over the ford as drawn: one place where Edmund's army may have crossed the Thames in 1016.",
+  "uncertainty": "Invented for the staging. The Chronicle says only that the king 'went over at Brentford'. The band marks the ford line preferred by the county history, not a located crossing; see the second band downstream.",
+  "phases": [
+   {
+    "label": "Possible crossing",
+    "from": 1016,
+    "built": 1016,
+    "to": 1017,
+    "end": "handover",
+    "dateNote": "Shown for 1016 only. The day and month of the battle are not recorded.",
+    "model": {
+     "kind": "zone-marker",
+     "color": "#e0b040",
+     "opacity": 0.25,
+     "label": "Possible crossing (conjectural)"
+    }
+   }
+  ],
+  "sources": [
+   "bre-asc-avalon",
+   "bre-vch-mdx7-comms"
+  ]
+ },
+ {
+  "id": "marker-crossing-alt",
+  "name": "Another possible crossing, 1016 (conjectural)",
+  "lat": 51.4834,
+  "lon": -0.2982,
+  "path": [
+   [
+    51.4848,
+    -0.2994
+   ],
+   [
+    51.4826,
+    -0.296
+   ],
+   [
+    51.482,
+    -0.297
+   ],
+   [
+    51.4842,
+    -0.3004
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "A second shaded band, on the line of the later Kew ferry from Old Brentford, shown to make plain that the crossing place is not known.",
+  "uncertainty": "Invented for the staging. A ferry to Kew, probably from Ferry Lane, is recorded by the 16th century; nothing shows a ford there in 1016. The band is here only as an alternative to the first.",
+  "phases": [
+   {
+    "label": "Another possible crossing",
+    "from": 1016,
+    "built": 1016,
+    "to": 1017,
+    "end": "handover",
+    "dateNote": "Shown for 1016 only. The day and month of the battle are not recorded.",
+    "model": {
+     "kind": "zone-marker",
+     "color": "#e0b040",
+     "opacity": 0.18,
+     "label": "Another possible crossing (conjectural)"
+    }
+   }
+  ],
+  "sources": [
+   "bre-asc-avalon",
+   "bre-vch-mdx7-comms"
+  ]
+ },
+ {
+  "id": "marker-danish-position",
+  "name": "Possible Danish position, 1016 (conjectural)",
+  "lat": 51.4778,
+  "lon": -0.2975,
+  "path": [
+   [
+    51.479,
+    -0.299
+   ],
+   [
+    51.4786,
+    -0.295
+   ],
+   [
+    51.4766,
+    -0.2955
+   ],
+   [
+    51.4768,
+    -0.2998
+   ]
+  ],
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "A shaded area on the Surrey bank where the Danish army may have stood. The Chronicle's wording, that Edmund crossed and then fought, is usually read as putting the fight south of the river, and the county history (citing Stenton) says it was fought on the south bank.",
+  "uncertainty": "Invented for the staging. No source gives the Danish position. The south bank is an inference from one sentence; a skaldic poem has been read as implying fighting on both banks (not checked here). The area's place, size and shape are arbitrary.",
+  "phases": [
+   {
+    "label": "Possible Danish position",
+    "from": 1016,
+    "built": 1016,
+    "to": 1017,
+    "end": "handover",
+    "dateNote": "Shown for 1016 only. The day and month of the battle are not recorded.",
+    "model": {
+     "kind": "zone-marker",
+     "color": "#b04a3a",
+     "opacity": 0.22,
+     "label": "Possible Danish position (conjectural)"
+    }
+   }
+  ],
+  "sources": [
+   "bre-asc-avalon",
+   "bre-vch-mdx7-growth",
+   "bre-wikipedia-battle"
+  ]
+ },
+ {
+  "id": "troops-english-main",
+  "name": "Edmund's army (stand-in figures)",
+  "lat": 51.48088,
+  "lon": -0.30515,
+  "bearing": 129,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "A block of plain figures at the Middlesex end of the ford, standing for the English army that crossed the Thames here under King Edmund in 1016.",
+  "uncertainty": "Invented for the staging. The size of Edmund's army is not recorded: 1,200 figures are drawn so that the block can be seen, and a figure does not stand for any number of men. Its place, formation and facing are arbitrary, and whether the army crossed in one body is unknown. No arms, banners or named leaders are shown.",
+  "phases": [
+   {
+    "label": "English army (stand-in)",
+    "from": 1016,
+    "built": 1016,
+    "to": 1017,
+    "end": "handover",
+    "dateNote": "Shown for 1016 only. The day and month of the battle are not recorded.",
+    "model": {
+     "kind": "troops",
+     "count": 1200,
+     "cols": 120,
+     "spacing": 1.3,
+     "faction": "b",
+     "facing": 129,
+     "banner": false
+    }
+   }
+  ],
+  "sources": [
+   "bre-asc-avalon"
+  ]
+ },
+ {
+  "id": "troops-english-advance",
+  "name": "Englishmen ahead of the army (stand-in figures)",
+  "lat": 51.4791,
+  "lon": -0.2998,
+  "bearing": 129,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "A small loose group on the Surrey bank, standing for the men who, the Chronicle says, 'went before the main army with a design to plunder' and of whom many drowned.",
+  "uncertainty": "Invented for the staging. The Chronicle does not say where these men were, how many they were, or whether they drowned at the ford, in pursuit or elsewhere; Stenton and Poole are reported to have argued that they fell in the fighting and did not drown (not checked here). The 150 loosely spaced figures and this spot are arbitrary. Nobody is shown drowning.",
+  "phases": [
+   {
+    "label": "Advance party (stand-in)",
+    "from": 1016,
+    "built": 1016,
+    "to": 1017,
+    "end": "handover",
+    "dateNote": "Shown for 1016 only. The day and month of the battle are not recorded.",
+    "model": {
+     "kind": "troops",
+     "count": 150,
+     "cols": 30,
+     "spacing": 2.2,
+     "faction": "b",
+     "facing": 129,
+     "banner": false
+    }
+   }
+  ],
+  "sources": [
+   "bre-asc-avalon",
+   "bre-wikipedia-battle"
+  ]
+ },
+ {
+  "id": "troops-danish",
+  "name": "Danish army (stand-in figures)",
+  "lat": 51.4778,
+  "lon": -0.2975,
+  "bearing": 309,
+  "tier": "overview",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "summary": "A block of plain figures on the Surrey bank, standing for the Danish army that Edmund fought and put to flight.",
+  "uncertainty": "Invented for the staging. The size of the Danish force is not recorded (a modern figure of 8,000 to 12,000 has no contemporary basis): 1,000 figures are drawn so that the block can be seen. Whether Cnut was present, who commanded, where the army stood and which way it fled are all unknown. No ships are shown because none are mentioned at Brentford.",
+  "phases": [
+   {
+    "label": "Danish army (stand-in)",
+    "from": 1016,
+    "built": 1016,
+    "to": 1017,
+    "end": "handover",
+    "dateNote": "Shown for 1016 only. The day and month of the battle are not recorded.",
+    "model": {
+     "kind": "troops",
+     "count": 1000,
+     "cols": 110,
+     "spacing": 1.3,
+     "faction": "a",
+     "facing": 309,
+     "banner": false
+    }
+   }
+  ],
+  "sources": [
+   "bre-asc-avalon",
+   "bre-wikipedia-battle"
+  ]
+ }
+]

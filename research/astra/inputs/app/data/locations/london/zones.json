@@ -1,0 +1,948 @@
+[
+ {
+  "id": "iron-age-farmsteads",
+  "label": "Late prehistoric farmsteads",
+  "style": "roundhouse",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.507,
+   "lon": -0.098,
+   "rx": 1900,
+   "rz": 1100
+  },
+  "spacing": 300,
+  "fill": 0.3,
+  "grow": [
+   -1200,
+   -300
+  ],
+  "decline": [
+   20,
+   55
+  ],
+  "declineBy": "abandonment",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "A handful of roundhouses standing for scattered later prehistoric farming. Bronze Age ploughing on the Southwark eyots is excavated but was short-lived (mid 2nd millennium BCE) before rising water buried it; no house shown here is an excavated building, and the mainstream view is that no pre-Roman settlement stood on the site of the City.",
+  "sources": [
+   "rfla-prehistory-research-framework-london",
+   "gresham-early-river-thames-iron",
+   "southwark-council-archaeology-southwark-prehistoric",
+   "london-museum-timeline-roman-london",
+   "gresham-discovering-port-roman-london",
+   "london-archaeologist-brigham-watson-regis-house",
+   "cup-bramcote-green-bermondsey-bronze"
+  ]
+ },
+ {
+  "id": "londinium-first",
+  "label": "First Londinium (c. 48\u201360)",
+  "style": "roman-timber",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5122,
+   "lon": -0.0862,
+   "rx": 430,
+   "rz": 290
+  },
+  "spacing": 21,
+  "fill": 0.7,
+  "gridBearing": 80,
+  "grow": [
+   48,
+   60
+  ],
+  "decline": [
+   60,
+   60
+  ],
+  "declineBy": "fire",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Timber and clay buildings around Cornhill and the bridgehead, perhaps 10,000 people by 60 CE, destroyed in the Boudican revolt (a burnt layer is found across this area). The earliest dated feature is a roadside drain of 47 CE. Extent approximate; buildings generic.",
+  "sources": [
+   "rfla-roman-ad-43-410",
+   "london-museum-timeline-roman-london",
+   "city-of-london-roman-london-information-sheet",
+   "mola-roman-fort-built-response",
+   "london-archaeologist-brigham-watson-regis-house",
+   "britannia-marsden-west-population-change",
+   "english-heritage-history-london-wall"
+  ]
+ },
+ {
+  "id": "southwark-first",
+  "label": "First Roman Southwark",
+  "style": "roman-timber",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.505,
+   "lon": -0.0895,
+   "rx": 170,
+   "rz": 260
+  },
+  "spacing": 22,
+  "fill": 0.45,
+  "gridBearing": 20,
+  "grow": [
+   50,
+   60
+  ],
+  "decline": [
+   60,
+   60
+  ],
+  "declineBy": "fire",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Roadside settlement on the north island, also burned in 60/61.",
+  "sources": [
+   "southwark-council-archaeology-southwark-roman",
+   "gresham-discovering-port-roman-london",
+   "rfla-roman-ad-43-410"
+  ]
+ },
+ {
+  "id": "londinium-timber",
+  "label": "Londinium: timber buildings (c. 62\u2013130)",
+  "style": "roman-timber",
+  "shape": {
+   "type": "ref",
+   "polygon": "walled-city"
+  },
+  "spacing": 21,
+  "fill": 0.42,
+  "band": 0,
+  "gridBearing": 80,
+  "grow": [
+   62,
+   115
+  ],
+  "decline": [
+   122,
+   128
+  ],
+  "declineBy": "fire",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "The rebuilt and expanding town up to the Hadrianic fire (c. 120\u2013130, probably mid 120s). The fire was extensive but not total, and rebuilding followed at lower density; showing this whole class of buildings burning is a simplification.",
+  "sources": [
+   "rfla-roman-ad-43-410",
+   "london-museum-timeline-roman-london",
+   "city-of-london-roman-london-information-sheet",
+   "mola-roman-fort-built-response",
+   "london-archaeologist-brigham-watson-regis-house"
+  ]
+ },
+ {
+  "id": "londinium-masonry",
+  "label": "Londinium: larger and stone buildings",
+  "style": "roman-masonry",
+  "shape": {
+   "type": "ref",
+   "polygon": "walled-city"
+  },
+  "spacing": 21,
+  "fill": 0.22,
+  "band": 0.42,
+  "gridBearing": 80,
+  "grow": [
+   70,
+   200
+  ],
+  "decline": [
+   330,
+   430
+  ],
+  "declineBy": "abandonment",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Stone-founded town houses and public buildings, which persisted into the 4th century while the town thinned out around them. Institutional estimates put the peak population at 20,000\u201330,000 by the mid 2nd century.",
+  "sources": [
+   "mola-saxon-ad-4101066-research",
+   "rfla-roman-ad-43-410",
+   "london-museum-timeline-roman-london",
+   "britannia-marsden-west-population-change",
+   "london-archaeologist-brigham-watson-regis-house",
+   "current-archaeology-londons-last-roman-st",
+   "city-of-london-roman-london-information-sheet",
+   "english-heritage-history-london-wall"
+  ]
+ },
+ {
+  "id": "londinium-later",
+  "label": "Londinium after the Hadrianic fire",
+  "style": "roman-timber",
+  "shape": {
+   "type": "ref",
+   "polygon": "walled-city"
+  },
+  "spacing": 21,
+  "fill": 0.4,
+  "band": 0,
+  "gridBearing": 80,
+  "grow": [
+   129,
+   150
+  ],
+  "decline": [
+   180,
+   380
+  ],
+  "declineBy": "abandonment",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "Reduced rebuilding after the 120s and a long contraction of housing from the later 2nd century, when 'dark earth' began to accumulate over former building plots. No sourced population figure exists for the 3rd\u20134th centuries; the pace shown is illustrative.",
+  "sources": [
+   "london-archaeologist-brigham-watson-regis-house",
+   "london-museum-timeline-roman-london",
+   "mola-saxon-ad-4101066-research",
+   "rfla-roman-ad-43-410",
+   "britannia-marsden-west-population-change",
+   "current-archaeology-londons-last-roman-st"
+  ]
+ },
+ {
+  "id": "southwark-roman",
+  "label": "Roman Southwark",
+  "style": "roman-timber",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5045,
+   "lon": -0.09,
+   "rx": 250,
+   "rz": 380
+  },
+  "spacing": 23,
+  "fill": 0.4,
+  "gridBearing": 20,
+  "grow": [
+   62,
+   130
+  ],
+  "decline": [
+   200,
+   400
+  ],
+  "declineBy": "abandonment",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "A substantial suburb on the two islands south of the bridge, part of Londinium from the start, with some large stone buildings (not individually shown). Its extent in hectares and the pace of late Roman contraction are poorly known.",
+  "sources": [
+   "southwark-council-archaeology-southwark-roman",
+   "gresham-discovering-port-roman-london",
+   "rfla-roman-ad-43-410"
+  ]
+ },
+ {
+  "id": "dark-earth-scrub",
+  "label": "Scrub and rough ground inside the empty walls",
+  "style": "scrub",
+  "shape": {
+   "type": "ref",
+   "polygon": "walled-city"
+  },
+  "spacing": 26,
+  "fill": 0.2,
+  "grow": [
+   420,
+   560
+  ],
+  "decline": [
+   880,
+   1050
+  ],
+  "declineBy": "clearance",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "Inside the walls there is an evidence gap from c. 410/450 to the mid\u2013late 9th century. What grew there is not known; scrub among ruins is a plausible guess, and some of the ground may have been cultivated.",
+  "sources": [
+   "mola-saxon-ad-4101066-research",
+   "gresham-london-notsodark-ages-lyn",
+   "london-museum-lundenwic-other-medieval-london",
+   "lamas-saxon-origins-queenhithe-r",
+   "bho-stow-wall-about-citie"
+  ]
+ },
+ {
+  "id": "pauls-enclave",
+  "label": "Settlement by St Paul's (7th\u20139th c.)",
+  "style": "saxon",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5136,
+   "lon": -0.098,
+   "rx": 130,
+   "rz": 90
+  },
+  "spacing": 26,
+  "fill": 0.35,
+  "grow": [
+   604,
+   700
+  ],
+  "decline": [
+   886,
+   960
+  ],
+  "declineBy": "rebuild",
+  "evidence": "conjectural",
+  "confidence": "low",
+  "note": "A cathedral implies some community inside the walls, but there is very little archaeological evidence for it. The cluster is a guess.",
+  "sources": [
+   "mola-saxon-ad-4101066-research",
+   "gresham-london-notsodark-ages-lyn",
+   "london-museum-lundenwic-other-medieval-london",
+   "lamas-saxon-origins-queenhithe-r",
+   "bho-stow-wall-about-citie",
+   "bho-secular-canons-cathedral-st",
+   "gresham-archaeology-st-pauls-cathedral",
+   "project-gutenberg-w-benham-old-st"
+  ]
+ },
+ {
+  "id": "lundenwic",
+  "label": "Lundenwic (c. 600/670\u2013850s)",
+  "style": "saxon",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.512,
+   "lon": -0.1212,
+   "rx": 470,
+   "rz": 280,
+   "bearing": 60
+  },
+  "spacing": 23,
+  "fill": 0.55,
+  "gridBearing": 60,
+  "grow": [
+   620,
+   750
+  ],
+  "decline": [
+   770,
+   886
+  ],
+  "declineBy": "abandonment",
+  "evidence": "attested-excavated",
+  "confidence": "medium",
+  "note": "The Middle Saxon trading town around today's Covent Garden and Strand: first settled in the early 7th century, dense from the 670s, about 55\u201360 hectares at its peak c. 730\u2013770. Decline began around 770, before the Viking raids of 842 and 851; a defensive ditch of the 840s is not modelled. Extent from excavation; buildings are generic single-storey timber halls of about 11 \u00d7 5.5 m.",
+  "sources": [
+   "lamas-excavations-royal-opera-house",
+   "gresham-london-notsodark-ages-lyn",
+   "london-museum-lundenwic-other-medieval-london",
+   "london-museum-vikings-london",
+   "mola-saxon-ad-4101066-research"
+  ]
+ },
+ {
+  "id": "lundenburh",
+  "label": "Lundenburh: late Saxon city (886\u2013c. 1100)",
+  "style": "saxon",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.512,
+   "lon": -0.092,
+   "rx": 640,
+   "rz": 290,
+   "bearing": 80
+  },
+  "spacing": 21,
+  "fill": 0.5,
+  "gridBearing": 80,
+  "grow": [
+   886,
+   1010
+  ],
+  "decline": [
+   1066,
+   1180
+  ],
+  "declineBy": "rebuild",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Alfred's re-establishment of 886 (reoccupation may have begun a generation earlier). Settlement began between Cheapside and the river and spread north of Cheapside only in the early 11th century. Timber buildings, generic.",
+  "sources": [
+   "lamas-saxon-origins-queenhithe-r",
+   "mola-saxon-ad-4101066-research",
+   "london-museum-vikings-london"
+  ]
+ },
+ {
+  "id": "medieval-city",
+  "label": "Medieval city within the walls",
+  "style": "medieval",
+  "shape": {
+   "type": "ref",
+   "polygon": "walled-city"
+  },
+  "spacing": 21,
+  "fill": 0.86,
+  "gridBearing": 80,
+  "grow": [
+   1040,
+   1290
+  ],
+  "decline": [
+   1470,
+   1590
+  ],
+  "declineBy": "rebuild",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Generic timber-framed houses filling the walled area: about 25,000 people c. 1100, 60,000\u2013100,000 c. 1300, 40,000\u201350,000 c. 1400 after the Black Death (all estimates). Each model stands for several real buildings; streets follow a regular lattice, not the real street plan. The fires of 1087, 1135/36 and 1212 are not animated here.",
+  "sources": [
+   "mola-medieval-c1066c1500-research-framework",
+   "london-museum-great-pestilence-london",
+   "bho-religious-houses-house-carthusian",
+   "bho-london-viewers-their-certificates",
+   "bho-austin-canons-priory-southwark",
+   "bho-secular-canons-cathedral-st",
+   "bho-stow-bridges-this-citie"
+  ]
+ },
+ {
+  "id": "tudor-city",
+  "label": "Tudor and Jacobean city within the walls",
+  "style": "tudor",
+  "shape": {
+   "type": "ref",
+   "polygon": "walled-city"
+  },
+  "spacing": 21,
+  "fill": 0.93,
+  "gridBearing": 80,
+  "grow": [
+   1470,
+   1595
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Taller, jettied, tile-roofed timber houses replacing the medieval stock: about 50,000 people c. 1500 and about 200,000 by 1600 (estimates, including suburbs). Brick was required by proclamation from 1605 with little effect by 1625. Generic; each model stands for several real buildings.",
+  "sources": [
+   "encyclopediacom-gale-london-growth",
+   "cup-r-finlay-population-metropolis",
+   "cup-w-c-baer-housebuilding",
+   "history-london-brief-early-stuart-london",
+   "current-archaeology-life-across-water-exploring"
+  ]
+ },
+ {
+  "id": "parish-churches",
+  "label": "Parish churches",
+  "style": "parish-church",
+  "shape": {
+   "type": "ref",
+   "polygon": "walled-city"
+  },
+  "spacing": 108,
+  "fill": 0.85,
+  "gridBearing": 80,
+  "grow": [
+   950,
+   1200
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "London had about 126 parish churches, suburbs included, by c. 1180. The number is attested; the positions shown are evenly spread placeholders, not the real churches.",
+  "sources": [
+   "bho-fitzstephen-descriptio-stow-appendix",
+   "mola-medieval-c1066c1500-research-framework",
+   "mola-saxon-ad-4101066-research"
+  ]
+ },
+ {
+  "id": "southwark-medieval",
+  "label": "Medieval Southwark",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5038,
+   "lon": -0.0905,
+   "rx": 210,
+   "rz": 430,
+   "bearing": 20
+  },
+  "spacing": 22,
+  "fill": 0.6,
+  "gridBearing": 20,
+  "grow": [
+   1000,
+   1350
+  ],
+  "decline": [
+   1490,
+   1600
+  ],
+  "declineBy": "rebuild",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "The borough strung along the road south from the bridge. A late Saxon burh here is documented but no defences have ever been found.",
+  "sources": [
+   "bho-stow-bridge-warde-without",
+   "london-museum-vikings-london",
+   "current-archaeology-life-across-water-exploring",
+   "lamas-medieval-london-bridge-role",
+   "mola-saxon-ad-4101066-research"
+  ]
+ },
+ {
+  "id": "southwark-tudor",
+  "label": "Tudor Southwark and Bankside",
+  "style": "tudor",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5035,
+   "lon": -0.091,
+   "rx": 330,
+   "rz": 560,
+   "bearing": 20
+  },
+  "spacing": 22,
+  "fill": 0.7,
+  "gridBearing": 20,
+  "grow": [
+   1490,
+   1620
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Southwark grew quickly in the 16th century.",
+  "sources": [
+   "bho-stow-suburbs-without-walls",
+   "bho-stow-bridge-warde-without",
+   "bho-stow-warde-faringdon-extra"
+  ]
+ },
+ {
+  "id": "bankside",
+  "label": "Bankside",
+  "style": "tudor",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5071,
+   "lon": -0.098,
+   "rx": 560,
+   "rz": 75,
+   "bearing": 85
+  },
+  "spacing": 22,
+  "fill": 0.65,
+  "gridBearing": 85,
+  "grow": [
+   1520,
+   1620
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "The riverside strip of inns, stews, baiting rings and playhouses west of the bridge.",
+  "sources": [
+   "bho-stow-suburbs-without-walls",
+   "bho-stow-bridge-warde-without",
+   "bho-stow-warde-faringdon-extra",
+   "bho-survey-london-vol-22",
+   "henslowe-alleyn-henslowealleyn-digitisation-project-muniments"
+  ]
+ },
+ {
+  "id": "west-suburb-medieval",
+  "label": "Fleet Street and Holborn (medieval)",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5152,
+   "lon": -0.1075,
+   "rx": 330,
+   "rz": 400
+  },
+  "spacing": 23,
+  "fill": 0.45,
+  "gridBearing": 85,
+  "grow": [
+   1100,
+   1340
+  ],
+  "decline": [
+   1500,
+   1600
+  ],
+  "declineBy": "rebuild",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "The western suburb beyond Ludgate and Newgate, including the lawyers' inns.",
+  "sources": [
+   "mola-medieval-c1066c1500-research-framework",
+   "london-museum-great-pestilence-london",
+   "bho-religious-houses-house-carthusian"
+  ]
+ },
+ {
+  "id": "west-suburb-tudor",
+  "label": "Fleet Street, Holborn and the Inns (Tudor)",
+  "style": "tudor",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5155,
+   "lon": -0.11,
+   "rx": 520,
+   "rz": 440
+  },
+  "spacing": 23,
+  "fill": 0.68,
+  "gridBearing": 85,
+  "grow": [
+   1500,
+   1625
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Continuous building now links the City to the Strand.",
+  "sources": [
+   "bho-stow-suburbs-without-walls",
+   "bho-stow-bridge-warde-without",
+   "bho-stow-warde-faringdon-extra"
+  ]
+ },
+ {
+  "id": "strand-medieval",
+  "label": "The Strand (medieval)",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5108,
+   "lon": -0.119,
+   "rx": 560,
+   "rz": 90,
+   "bearing": 60
+  },
+  "spacing": 24,
+  "fill": 0.4,
+  "gridBearing": 60,
+  "grow": [
+   1200,
+   1400
+  ],
+  "decline": [
+   1500,
+   1600
+  ],
+  "declineBy": "rebuild",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Ribbon development along the road to Westminster.",
+  "sources": [
+   "bho-stow-liberties-dutchie-lancaster"
+  ]
+ },
+ {
+  "id": "strand-mansions",
+  "label": "Strand palaces",
+  "style": "mansion",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5098,
+   "lon": -0.1178,
+   "rx": 620,
+   "rz": 55,
+   "bearing": 60
+  },
+  "spacing": 75,
+  "fill": 0.75,
+  "gridBearing": 60,
+  "grow": [
+   1230,
+   1560
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "The riverside town houses of bishops and, after the Reformation, of courtiers (Durham, York, Arundel, Essex Houses and others). The row is attested; the individual houses shown are generic.",
+  "sources": [
+   "bho-stow-liberties-dutchie-lancaster",
+   "history-london-brief-early-stuart-london"
+  ]
+ },
+ {
+  "id": "strand-tudor",
+  "label": "The Strand and Covent Garden fringe (Tudor)",
+  "style": "tudor",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5112,
+   "lon": -0.1195,
+   "rx": 640,
+   "rz": 130,
+   "bearing": 60
+  },
+  "spacing": 24,
+  "fill": 0.6,
+  "gridBearing": 60,
+  "grow": [
+   1500,
+   1625
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Covent Garden itself was still open ground in 1625; the piazza dates from the 1630s.",
+  "sources": [
+   "bho-stow-suburbs-without-walls",
+   "bho-stow-bridge-warde-without",
+   "bho-stow-warde-faringdon-extra",
+   "bho-stow-liberties-dutchie-lancaster",
+   "history-london-brief-early-stuart-london"
+  ]
+ },
+ {
+  "id": "westminster-medieval",
+  "label": "Westminster (medieval)",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.501,
+   "lon": -0.1278,
+   "rx": 170,
+   "rz": 330
+  },
+  "spacing": 24,
+  "fill": 0.45,
+  "gridBearing": 5,
+  "grow": [
+   1100,
+   1400
+  ],
+  "decline": [
+   1500,
+   1600
+  ],
+  "declineBy": "rebuild",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "The town that grew up to serve the abbey and palace.",
+  "sources": [
+   "bho-stow-citie-westminster",
+   "mola-saxon-ad-4101066-research"
+  ]
+ },
+ {
+  "id": "westminster-tudor",
+  "label": "Westminster (Tudor and Jacobean)",
+  "style": "tudor",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.502,
+   "lon": -0.1282,
+   "rx": 230,
+   "rz": 470
+  },
+  "spacing": 24,
+  "fill": 0.6,
+  "gridBearing": 5,
+  "grow": [
+   1500,
+   1625
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Westminster and the court quarter around Whitehall.",
+  "sources": [
+   "bho-survey-london-vol-14",
+   "bho-stow-citie-westminster",
+   "bho-stow-suburbs-without-walls",
+   "bho-stow-bridge-warde-without",
+   "bho-stow-warde-faringdon-extra"
+  ]
+ },
+ {
+  "id": "east-suburb-medieval",
+  "label": "Eastern suburbs (medieval)",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5115,
+   "lon": -0.0725,
+   "rx": 230,
+   "rz": 380
+  },
+  "spacing": 24,
+  "fill": 0.3,
+  "gridBearing": 80,
+  "grow": [
+   1200,
+   1400
+  ],
+  "decline": [
+   1520,
+   1600
+  ],
+  "declineBy": "rebuild",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "Aldgate Without, East Smithfield and the St Katharine's precinct.",
+  "sources": [
+   "mola-medieval-c1066c1500-research-framework",
+   "london-museum-great-pestilence-london",
+   "bho-religious-houses-house-carthusian"
+  ]
+ },
+ {
+  "id": "east-suburb-tudor",
+  "label": "Eastern suburbs (Tudor and Jacobean)",
+  "style": "tudor",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.511,
+   "lon": -0.07,
+   "rx": 380,
+   "rz": 470
+  },
+  "spacing": 24,
+  "fill": 0.62,
+  "gridBearing": 80,
+  "grow": [
+   1530,
+   1625
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Fast, poor-quality growth along the river and the Whitechapel road, which Stow deplored in 1598.",
+  "sources": [
+   "bho-stow-suburbs-without-walls",
+   "bho-stow-bridge-warde-without",
+   "bho-stow-warde-faringdon-extra"
+  ]
+ },
+ {
+  "id": "north-suburb-medieval",
+  "label": "Northern suburbs (medieval)",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5194,
+   "lon": -0.091,
+   "rx": 950,
+   "rz": 150
+  },
+  "spacing": 25,
+  "fill": 0.28,
+  "gridBearing": 80,
+  "grow": [
+   1200,
+   1400
+  ],
+  "decline": [
+   1520,
+   1600
+  ],
+  "declineBy": "rebuild",
+  "evidence": "reconstructed",
+  "confidence": "low",
+  "note": "Bishopsgate, Cripplegate and Aldersgate Without and the Smithfield fringe. Moorfields, a marsh until drained in the 16th century, is not separately modelled.",
+  "sources": [
+   "mola-medieval-c1066c1500-research-framework",
+   "london-museum-great-pestilence-london",
+   "bho-religious-houses-house-carthusian"
+  ]
+ },
+ {
+  "id": "north-suburb-tudor",
+  "label": "Northern suburbs (Tudor and Jacobean)",
+  "style": "tudor",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5198,
+   "lon": -0.092,
+   "rx": 1150,
+   "rz": 200
+  },
+  "spacing": 25,
+  "fill": 0.55,
+  "gridBearing": 80,
+  "grow": [
+   1530,
+   1625
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "Suburban growth north of the wall.",
+  "sources": [
+   "bho-stow-suburbs-without-walls",
+   "bho-stow-bridge-warde-without",
+   "bho-stow-warde-faringdon-extra",
+   "moeml-moorfields",
+   "bho-stow-gates-wall"
+  ]
+ },
+ {
+  "id": "bridge-foot-medieval",
+  "label": "Southwark bridge foot (medieval)",
+  "style": "medieval",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5056,
+   "lon": -0.0884,
+   "rx": 230,
+   "rz": 115,
+   "bearing": 80
+  },
+  "spacing": 22,
+  "fill": 0.9,
+  "gridBearing": 20,
+  "grow": [
+   1000,
+   1250
+  ],
+  "decline": [
+   1490,
+   1600
+  ],
+  "declineBy": "rebuild",
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "The densely built head of Borough High Street, Tooley Street and the approach to the bridge. Generic houses.",
+  "sources": [
+   "bho-stow-bridge-warde-without",
+   "london-museum-vikings-london",
+   "current-archaeology-life-across-water-exploring",
+   "lamas-medieval-london-bridge-role",
+   "mola-saxon-ad-4101066-research"
+  ]
+ },
+ {
+  "id": "bridge-foot-tudor",
+  "label": "Southwark bridge foot (tudor)",
+  "style": "tudor",
+  "shape": {
+   "type": "ellipse",
+   "lat": 51.5056,
+   "lon": -0.0884,
+   "rx": 230,
+   "rz": 115,
+   "bearing": 80
+  },
+  "spacing": 22,
+  "fill": 0.9,
+  "gridBearing": 20,
+  "grow": [
+   1490,
+   1600
+  ],
+  "decline": null,
+  "evidence": "reconstructed",
+  "confidence": "medium",
+  "note": "The densely built head of Borough High Street, Tooley Street and the approach to the bridge. Generic houses.",
+  "sources": [
+   "bho-stow-suburbs-without-walls",
+   "bho-stow-bridge-warde-without",
+   "bho-stow-warde-faringdon-extra"
+  ]
+ }
+]

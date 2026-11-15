@@ -1,0 +1,12 @@
+{
+  "zero_years": [],
+  "inverted_fact_ranges": [],
+  "completion_outside_phase": [],
+  "gone_before_ended": [],
+  "history_foreign_keys": [],
+  "history_integrity": [
+    {
+      "integrity_check": "ok"
+    }
+  ]
+}

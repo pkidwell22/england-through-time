@@ -1,0 +1,1721 @@
+{
+ "id": "stonehenge",
+ "name": "Stonehenge and its landscape",
+ "subtitle": "From the first earthworks to the Jacobean antiquaries, 4000 BCE to 1625 CE",
+ "scopeNote": "A 6.4 by 5 km piece of the Stonehenge World Heritage landscape, from 4000 BCE to 1625 CE, with the sarsen circle at the origin. Two levels of detail: the whole landscape is a schematic overview (barrows, cursus, henges, hillfort and town are placed from mapped outlines and published dates, but their form is generic), while the 'district' round the stones (about 800 by 650 m) has stone-by-stone megaliths from a catalogue, the ditch and bank, the Aubrey Holes, the first stretch of the Avenue and the Heel Stone. No feature is shown before its date, and where a date is a range or a model the landmark says so. The state of the stones before the first drawings (de Heere, 1570s) is mostly undated: which stones stood, leant or lay in 1625 is inferred, not recorded. Height comes from a modern LIDAR surface with modern works removed, with the ditch and Avenue ditches cut back in on their dates. Ground cover, trees and house positions are reconstruction. The solstice episodes mark the sunrise and sunset directions with overlay lines and discs; the scene's one fixed sun is not moved to the solstice. Amesbury's outline and the Durrington settlement area are schematic envelopes, not surveyed boundaries.",
+ "origin": {
+  "lat": 51.17888,
+  "lon": -1.82619,
+  "note": "FINAL. Centre of the sarsen circle to within ~3 m (geography research: circle fitted to OSM-mapped uprights 51.178859, -1.826208; EH 2010 survey NGR SU 12244219; the stone catalogue's fitted centre 51.178868, -1.8261962). Megalith landmarks are anchored at the catalogue's fitted centre. Local x = metres east, z = metres south."
+ },
+ "bounds": {
+  "xMin": -2700,
+  "xMax": 3700,
+  "zMin": -2800,
+  "zMax": 2200
+ },
+ "timeline": {
+  "start": -4000,
+  "end": 1625,
+  "initialYear": -2400,
+  "scale": [
+   {
+    "year": -4000,
+    "u": 0
+   },
+   {
+    "year": -3700,
+    "u": 0.05
+   },
+   {
+    "year": -3000,
+    "u": 0.24
+   },
+   {
+    "year": -2500,
+    "u": 0.5
+   },
+   {
+    "year": -2000,
+    "u": 0.7
+   },
+   {
+    "year": -1500,
+    "u": 0.84
+   },
+   {
+    "year": 1,
+    "u": 0.91
+   },
+   {
+    "year": 1000,
+    "u": 0.955
+   },
+   {
+    "year": 1625,
+    "u": 1
+   }
+  ]
+ },
+ "terrain": {
+  "base": 39.71,
+  "slope": {
+   "bearing": 167.7,
+   "gradient": 0.00174
+  },
+  "hills": [
+   {
+    "name": "King Barrow Ridge (central: New King Barrows; the Avenue climbs it)",
+    "lat": 51.18021,
+    "lon": -1.80712,
+    "height": 13.9,
+    "sigma": 346
+   },
+   {
+    "name": "King Barrow Ridge (south: Coneybury Hill)",
+    "lat": 51.1732,
+    "lon": -1.81079,
+    "height": 26.2,
+    "sigma": 454
+   },
+   {
+    "name": "Normanton Down ridge (Bush Barrow and the Normanton Down barrows)",
+    "lat": 51.17028,
+    "lon": -1.83839,
+    "height": 11.3,
+    "sigma": 215
+   },
+   {
+    "name": "North-west upland (beyond the west end of the Greater Cursus / Lesser Cursus)",
+    "lat": 51.19414,
+    "lon": -1.85129,
+    "height": 15.8,
+    "sigma": 696
+   },
+   {
+    "name": "Larkhill rise (high ground north of Larkhill)",
+    "lat": 51.20535,
+    "lon": -1.816,
+    "height": 38.6,
+    "sigma": 800
+   },
+   {
+    "name": "High ground north-west of Durrington Walls",
+    "lat": 51.19238,
+    "lon": -1.79331,
+    "height": 43.7,
+    "sigma": 648
+   },
+   {
+    "name": "West upland (Winterbourne Stoke Down)",
+    "lat": 51.17649,
+    "lon": -1.84735,
+    "height": 21.2,
+    "sigma": 436
+   },
+   {
+    "name": "South-west upland (Wilsford Down side)",
+    "lat": 51.16776,
+    "lon": -1.86606,
+    "height": 17.9,
+    "sigma": 311
+   },
+   {
+    "name": "South ridge (Normanton / Lake Down side)",
+    "lat": 51.1633,
+    "lon": -1.81414,
+    "height": 34.8,
+    "sigma": 318
+   },
+   {
+    "name": "Upland south-east of Amesbury",
+    "lat": 51.16237,
+    "lon": -1.78109,
+    "height": 28.5,
+    "sigma": 277
+   },
+   {
+    "name": "Vespasian's Camp spur (hill-fort promontory above the Avon)",
+    "lat": 51.17482,
+    "lon": -1.79104,
+    "height": 24.7,
+    "sigma": 247
+   },
+   {
+    "name": "Stonehenge Down knoll (flattens the ground under the stones)",
+    "lat": 51.1787,
+    "lon": -1.82535,
+    "height": 5.5,
+    "sigma": 124
+   }
+  ],
+  "valleys": [
+   {
+    "name": "River Avon valley (broad flood-plain and valley flanks)",
+    "path": [
+     [
+      51.19096,
+      -1.76757
+     ],
+     [
+      51.18867,
+      -1.76897
+     ],
+     [
+      51.18811,
+      -1.771
+     ],
+     [
+      51.19129,
+      -1.77611
+     ],
+     [
+      51.19184,
+      -1.78124
+     ],
+     [
+      51.18825,
+      -1.78245
+     ],
+     [
+      51.18343,
+      -1.77819
+     ],
+     [
+      51.18235,
+      -1.77485
+     ],
+     [
+      51.17824,
+      -1.77431
+     ],
+     [
+      51.17641,
+      -1.78152
+     ],
+     [
+      51.17669,
+      -1.7856
+     ],
+     [
+      51.17463,
+      -1.79002
+     ],
+     [
+      51.17355,
+      -1.78949
+     ],
+     [
+      51.17212,
+      -1.78585
+     ],
+     [
+      51.1703,
+      -1.78472
+     ],
+     [
+      51.16644,
+      -1.77608
+     ],
+     [
+      51.16519,
+      -1.77716
+     ],
+     [
+      51.16445,
+      -1.77913
+     ],
+     [
+      51.16498,
+      -1.78309
+     ],
+     [
+      51.17077,
+      -1.79227
+     ],
+     [
+      51.17135,
+      -1.79664
+     ],
+     [
+      51.17065,
+      -1.79909
+     ],
+     [
+      51.16647,
+      -1.80508
+     ],
+     [
+      51.16389,
+      -1.80458
+     ],
+     [
+      51.16279,
+      -1.80133
+     ],
+     [
+      51.15893,
+      -1.79889
+     ],
+     [
+      51.15744,
+      -1.79964
+     ],
+     [
+      51.15637,
+      -1.80354
+     ]
+    ],
+    "depth": 29.6,
+    "sigma": 934
+   },
+   {
+    "name": "River Avon channel and steep valley sides (Vespasian's Camp, Amesbury)",
+    "path": [
+     [
+      51.19096,
+      -1.76757
+     ],
+     [
+      51.18867,
+      -1.76897
+     ],
+     [
+      51.18811,
+      -1.771
+     ],
+     [
+      51.19129,
+      -1.77611
+     ],
+     [
+      51.19184,
+      -1.78124
+     ],
+     [
+      51.18825,
+      -1.78245
+     ],
+     [
+      51.18343,
+      -1.77819
+     ],
+     [
+      51.18235,
+      -1.77485
+     ],
+     [
+      51.17824,
+      -1.77431
+     ],
+     [
+      51.17641,
+      -1.78152
+     ],
+     [
+      51.17669,
+      -1.7856
+     ],
+     [
+      51.17463,
+      -1.79002
+     ],
+     [
+      51.17355,
+      -1.78949
+     ],
+     [
+      51.17212,
+      -1.78585
+     ],
+     [
+      51.1703,
+      -1.78472
+     ],
+     [
+      51.16644,
+      -1.77608
+     ],
+     [
+      51.16519,
+      -1.77716
+     ],
+     [
+      51.16445,
+      -1.77913
+     ],
+     [
+      51.16498,
+      -1.78309
+     ],
+     [
+      51.17077,
+      -1.79227
+     ],
+     [
+      51.17135,
+      -1.79664
+     ],
+     [
+      51.17065,
+      -1.79909
+     ],
+     [
+      51.16647,
+      -1.80508
+     ],
+     [
+      51.16389,
+      -1.80458
+     ],
+     [
+      51.16279,
+      -1.80133
+     ],
+     [
+      51.15893,
+      -1.79889
+     ],
+     [
+      51.15744,
+      -1.79964
+     ],
+     [
+      51.15637,
+      -1.80354
+     ]
+    ],
+    "depth": 12.1,
+    "sigma": 154
+   },
+   {
+    "name": "Stonehenge Bottom (dry valley east of the stones; the Avenue crosses it)",
+    "path": [
+     [
+      51.19055,
+      -1.81546
+     ],
+     [
+      51.18695,
+      -1.8169
+     ],
+     [
+      51.18335,
+      -1.81761
+     ],
+     [
+      51.18066,
+      -1.81819
+     ],
+     [
+      51.17616,
+      -1.81962
+     ],
+     [
+      51.17077,
+      -1.82005
+     ],
+     [
+      51.16628,
+      -1.82019
+     ],
+     [
+      51.16358,
+      -1.82119
+     ],
+     [
+      51.16178,
+      -1.82334
+     ],
+     [
+      51.15998,
+      -1.82621
+     ],
+     [
+      51.15819,
+      -1.82908
+     ]
+    ],
+    "depth": 14,
+    "sigma": 287
+   },
+   {
+    "name": "North-west dry valley (towards Winterbourne Stoke)",
+    "path": [
+     [
+      51.20403,
+      -1.85415
+     ],
+     [
+      51.19864,
+      -1.85272
+     ],
+     [
+      51.19594,
+      -1.85344
+     ],
+     [
+      51.19414,
+      -1.8563
+     ],
+     [
+      51.19234,
+      -1.8606
+     ],
+     [
+      51.19055,
+      -1.86633
+     ]
+    ],
+    "depth": 11.5,
+    "sigma": 150
+   },
+   {
+    "name": "Wilsford dry valley (south-west of Normanton Down)",
+    "path": [
+     [
+      51.17437,
+      -1.8477
+     ],
+     [
+      51.17257,
+      -1.84627
+     ],
+     [
+      51.17077,
+      -1.84341
+     ],
+     [
+      51.16807,
+      -1.84197
+     ],
+     [
+      51.16538,
+      -1.83911
+     ],
+     [
+      51.16358,
+      -1.83481
+     ],
+     [
+      51.16223,
+      -1.83194
+     ],
+     [
+      51.16043,
+      -1.82908
+     ],
+     [
+      51.15864,
+      -1.82764
+     ]
+    ],
+    "depth": 17.8,
+    "sigma": 290
+   },
+   {
+    "name": "Dry valley between King Barrow Ridge and Durrington",
+    "path": [
+     [
+      51.19144,
+      -1.80185
+     ],
+     [
+      51.18875,
+      -1.79898
+     ],
+     [
+      51.18605,
+      -1.79325
+     ],
+     [
+      51.18425,
+      -1.78752
+     ]
+    ],
+    "depth": 6.2,
+    "sigma": 155
+   },
+   {
+    "name": "Stonehenge ditch",
+    "path": [
+     [
+      51.179345,
+      -1.826196
+     ],
+     [
+      51.179343,
+      -1.82613
+     ],
+     [
+      51.179337,
+      -1.826064
+     ],
+     [
+      51.179328,
+      -1.826
+     ],
+     [
+      51.179316,
+      -1.825936
+     ],
+     [
+      51.1793,
+      -1.825875
+     ],
+     [
+      51.179281,
+      -1.825816
+     ],
+     [
+      51.179258,
+      -1.82576
+     ],
+     [
+      51.179233,
+      -1.825708
+     ],
+     [
+      51.179205,
+      -1.825659
+     ],
+     [
+      51.179174,
+      -1.825614
+     ],
+     [
+      51.179141,
+      -1.825574
+     ],
+     [
+      51.179106,
+      -1.825538
+     ],
+     [
+      51.179069,
+      -1.825508
+     ],
+     [
+      51.179031,
+      -1.825482
+     ],
+     [
+      51.178991,
+      -1.825462
+     ],
+     [
+      51.178951,
+      -1.825448
+     ],
+     [
+      51.17891,
+      -1.825439
+     ],
+     [
+      51.178868,
+      -1.825436
+     ],
+     [
+      51.178826,
+      -1.825439
+     ],
+     [
+      51.178785,
+      -1.825448
+     ],
+     [
+      51.178745,
+      -1.825462
+     ],
+     [
+      51.178705,
+      -1.825482
+     ],
+     [
+      51.178667,
+      -1.825508
+     ],
+     [
+      51.17863,
+      -1.825538
+     ],
+     [
+      51.178595,
+      -1.825574
+     ],
+     [
+      51.178562,
+      -1.825614
+     ],
+     [
+      51.178531,
+      -1.825659
+     ],
+     [
+      51.178503,
+      -1.825708
+     ],
+     [
+      51.178478,
+      -1.82576
+     ],
+     [
+      51.178455,
+      -1.825816
+     ],
+     [
+      51.178436,
+      -1.825875
+     ],
+     [
+      51.17842,
+      -1.825936
+     ],
+     [
+      51.178408,
+      -1.826
+     ],
+     [
+      51.178399,
+      -1.826064
+     ],
+     [
+      51.178393,
+      -1.82613
+     ],
+     [
+      51.178391,
+      -1.826196
+     ],
+     [
+      51.178393,
+      -1.826262
+     ],
+     [
+      51.178399,
+      -1.826328
+     ],
+     [
+      51.178408,
+      -1.826393
+     ],
+     [
+      51.17842,
+      -1.826456
+     ],
+     [
+      51.178436,
+      -1.826517
+     ],
+     [
+      51.178455,
+      -1.826576
+     ],
+     [
+      51.178478,
+      -1.826632
+     ],
+     [
+      51.178503,
+      -1.826685
+     ],
+     [
+      51.178531,
+      -1.826733
+     ],
+     [
+      51.178562,
+      -1.826778
+     ],
+     [
+      51.178595,
+      -1.826819
+     ],
+     [
+      51.17863,
+      -1.826854
+     ],
+     [
+      51.178667,
+      -1.826885
+     ],
+     [
+      51.178705,
+      -1.82691
+     ],
+     [
+      51.178745,
+      -1.82693
+     ],
+     [
+      51.178785,
+      -1.826945
+     ],
+     [
+      51.178826,
+      -1.826953
+     ],
+     [
+      51.178868,
+      -1.826956
+     ],
+     [
+      51.17891,
+      -1.826953
+     ],
+     [
+      51.178951,
+      -1.826945
+     ],
+     [
+      51.178991,
+      -1.82693
+     ],
+     [
+      51.179031,
+      -1.82691
+     ],
+     [
+      51.179069,
+      -1.826885
+     ],
+     [
+      51.179106,
+      -1.826854
+     ],
+     [
+      51.179141,
+      -1.826819
+     ],
+     [
+      51.179174,
+      -1.826778
+     ],
+     [
+      51.179205,
+      -1.826733
+     ],
+     [
+      51.179233,
+      -1.826685
+     ],
+     [
+      51.179258,
+      -1.826632
+     ],
+     [
+      51.179281,
+      -1.826576
+     ],
+     [
+      51.1793,
+      -1.826517
+     ],
+     [
+      51.179316,
+      -1.826456
+     ],
+     [
+      51.179328,
+      -1.826393
+     ],
+     [
+      51.179337,
+      -1.826328
+     ],
+     [
+      51.179343,
+      -1.826262
+     ],
+     [
+      51.179345,
+      -1.826196
+     ]
+    ],
+    "depth": 1.5,
+    "sigma": 2,
+    "fill": [
+     {
+      "year": -4000,
+      "value": 1
+     },
+     {
+      "year": -3001,
+      "value": 1
+     },
+     {
+      "year": -2995,
+      "value": 0
+     },
+     {
+      "year": -2400,
+      "value": 0.35
+     },
+     {
+      "year": -1500,
+      "value": 0.6
+     },
+     {
+      "year": 1625,
+      "value": 0.8
+     }
+    ]
+   },
+   {
+    "name": "Avenue ditch (north side)",
+    "path": [
+     [
+      51.179524,
+      -1.825207
+     ],
+     [
+      51.180443,
+      -1.823471
+     ],
+     [
+      51.18136,
+      -1.821734
+     ],
+     [
+      51.182321,
+      -1.819972
+     ],
+     [
+      51.182354,
+      -1.817723
+     ],
+     [
+      51.18222,
+      -1.815452
+     ],
+     [
+      51.182086,
+      -1.813187
+     ],
+     [
+      51.181915,
+      -1.810925
+     ],
+     [
+      51.181656,
+      -1.808675
+     ],
+     [
+      51.181234,
+      -1.806476
+     ],
+     [
+      51.180572,
+      -1.804433
+     ],
+     [
+      51.179578,
+      -1.802741
+     ],
+     [
+      51.178316,
+      -1.801842
+     ],
+     [
+      51.176987,
+      -1.801015
+     ],
+     [
+      51.175663,
+      -1.800166
+     ],
+     [
+      51.174321,
+      -1.799403
+     ],
+     [
+      51.173005,
+      -1.798564
+     ],
+     [
+      51.171721,
+      -1.797591
+     ]
+    ],
+    "depth": 0.6,
+    "sigma": 1.5,
+    "fill": [
+     {
+      "year": -4000,
+      "value": 1
+     },
+     {
+      "year": -2400,
+      "value": 1
+     },
+     {
+      "year": -2380,
+      "value": 0
+     },
+     {
+      "year": 1625,
+      "value": 0.7
+     }
+    ]
+   },
+   {
+    "name": "Avenue ditch (south side)",
+    "path": [
+     [
+      51.179338,
+      -1.824957
+     ],
+     [
+      51.180257,
+      -1.823221
+     ],
+     [
+      51.181176,
+      -1.821482
+     ],
+     [
+      51.182095,
+      -1.81983
+     ],
+     [
+      51.182112,
+      -1.817739
+     ],
+     [
+      51.181978,
+      -1.815488
+     ],
+     [
+      51.181844,
+      -1.813229
+     ],
+     [
+      51.181675,
+      -1.810983
+     ],
+     [
+      51.18142,
+      -1.808767
+     ],
+     [
+      51.18101,
+      -1.806622
+     ],
+     [
+      51.180374,
+      -1.804657
+     ],
+     [
+      51.179436,
+      -1.803055
+     ],
+     [
+      51.178222,
+      -1.8022
+     ],
+     [
+      51.176897,
+      -1.801375
+     ],
+     [
+      51.175577,
+      -1.800528
+     ],
+     [
+      51.174235,
+      -1.799765
+     ],
+     [
+      51.172907,
+      -1.798918
+     ],
+     [
+      51.171617,
+      -1.797941
+     ]
+    ],
+    "depth": 0.6,
+    "sigma": 1.5,
+    "fill": [
+     {
+      "year": -4000,
+      "value": 1
+     },
+     {
+      "year": -2400,
+      "value": 1
+     },
+     {
+      "year": -2380,
+      "value": 0
+     },
+     {
+      "year": 1625,
+      "value": 0.7
+     }
+    ]
+   }
+  ],
+  "note": "Heights are metres above a local datum of Ordnance Datum minus 62 m (stones about 39.5, the Avon floor about 0 to 2: the engine clamps land at 2 m). Analytic fallback: a least-squares fit of the engine's own terrain formula (base + tilt + 12 gaussian hills - 6 valleys) to 1,302 EU-DEM 25 m samples, with the 2 m of datum difference removed from the base (hills and valleys are relative). Error against the DEM: RMS 4.5 m over the whole area (3.1 m, max 6.9 m, within 500 m of the stones); the two DEMs themselves disagree by RMS 2.6 m. It is a broad-shape model, not a survey. Where terrain-lidar.json is present the Environment Agency 1 m bare-earth LIDAR (datum offset 62) replaces this relief and only the dated ditches below are cut into it. The Stonehenge ditch is a closed 72-point ring of radius 53 m (a ditch centreline taken from the monument's c. 110 m overall diameter; the ditch width and profile are not recorded in the sources read), 1.5 m deep, dug about 3000 to 2900 BCE (the model switches it on in 3001 to 2995 BCE). Its silting (0.35 filled by 2400 BCE, 0.6 by 1500 BCE, 0.8 by 1625 CE) is MODELLED, not measured: the real ditch was also re-cut (Stage 3) and its later fill is not dated here. The two Avenue ditches (23 m apart, from the OpenStreetMap-mapped centreline) are dug 2400 to 2380 BCE in the model and 70% silted by 1625: the Avenue's date is 2430 to 2200 BCE (Darvill 2012) or 2345 to 2200 BCE (English Heritage antler dates), and the ditches were later ploughed nearly flat, so the depth shown is a gentle stand-in for ditches about 2 m deep when new.",
+  "sources": [
+   "sto-eudem-elevation",
+   "sto-open-meteo-elevation",
+   "sto-osm-overpass",
+   "sto-ea-lidar-dtm",
+   "sto-ea-survey-2010",
+   "sto-darvill-2012-remodelled",
+   "sto-eh-reconstructed"
+  ]
+ },
+ "polygons": {
+  "durrington-walls": [
+   [
+    51.194905,
+    -1.78666
+   ],
+   [
+    51.194737,
+    -1.785383
+   ],
+   [
+    51.19426,
+    -1.784299
+   ],
+   [
+    51.193545,
+    -1.783576
+   ],
+   [
+    51.192703,
+    -1.783321
+   ],
+   [
+    51.19186,
+    -1.783576
+   ],
+   [
+    51.191145,
+    -1.784299
+   ],
+   [
+    51.190668,
+    -1.785383
+   ],
+   [
+    51.1905,
+    -1.78666
+   ],
+   [
+    51.190668,
+    -1.787938
+   ],
+   [
+    51.191145,
+    -1.789021
+   ],
+   [
+    51.19186,
+    -1.789745
+   ],
+   [
+    51.192703,
+    -1.789999
+   ],
+   [
+    51.193545,
+    -1.789745
+   ],
+   [
+    51.19426,
+    -1.789021
+   ],
+   [
+    51.194737,
+    -1.787938
+   ]
+  ],
+  "vespasians-camp": [
+   [
+    51.173054,
+    -1.793828
+   ],
+   [
+    51.17361,
+    -1.793787
+   ],
+   [
+    51.174166,
+    -1.793745
+   ],
+   [
+    51.174722,
+    -1.793737
+   ],
+   [
+    51.175279,
+    -1.793737
+   ],
+   [
+    51.175835,
+    -1.793737
+   ],
+   [
+    51.176392,
+    -1.793724
+   ],
+   [
+    51.176948,
+    -1.793708
+   ],
+   [
+    51.177428,
+    -1.79333
+   ],
+   [
+    51.177336,
+    -1.79254
+   ],
+   [
+    51.176847,
+    -1.792141
+   ],
+   [
+    51.176328,
+    -1.791823
+   ],
+   [
+    51.175806,
+    -1.791514
+   ],
+   [
+    51.17528,
+    -1.791223
+   ],
+   [
+    51.174755,
+    -1.790931
+   ],
+   [
+    51.174222,
+    -1.790678
+   ],
+   [
+    51.173684,
+    -1.790454
+   ],
+   [
+    51.173145,
+    -1.790229
+   ],
+   [
+    51.172624,
+    -1.789923
+   ],
+   [
+    51.172143,
+    -1.789644
+   ],
+   [
+    51.17234,
+    -1.79047
+   ],
+   [
+    51.172537,
+    -1.791298
+   ],
+   [
+    51.172703,
+    -1.792145
+   ],
+   [
+    51.172869,
+    -1.792991
+   ]
+  ],
+  "woodhenge": [
+   [
+    51.189628,
+    -1.7858
+   ],
+   [
+    51.189619,
+    -1.785665
+   ],
+   [
+    51.189581,
+    -1.785544
+   ],
+   [
+    51.18952,
+    -1.785451
+   ],
+   [
+    51.189448,
+    -1.785399
+   ],
+   [
+    51.189364,
+    -1.785387
+   ],
+   [
+    51.189268,
+    -1.785432
+   ],
+   [
+    51.189202,
+    -1.785517
+   ],
+   [
+    51.189158,
+    -1.785632
+   ],
+   [
+    51.189141,
+    -1.785777
+   ],
+   [
+    51.189156,
+    -1.78591
+   ],
+   [
+    51.189199,
+    -1.786026
+   ],
+   [
+    51.189264,
+    -1.786112
+   ],
+   [
+    51.189304,
+    -1.786142
+   ],
+   [
+    51.189388,
+    -1.786163
+   ],
+   [
+    51.189462,
+    -1.786143
+   ],
+   [
+    51.189536,
+    -1.786079
+   ],
+   [
+    51.189582,
+    -1.786002
+   ],
+   [
+    51.189619,
+    -1.78588
+   ]
+  ],
+  "greater-cursus": [
+   [
+    51.186523,
+    -1.832286
+   ],
+   [
+    51.186068,
+    -1.841065
+   ],
+   [
+    51.185725,
+    -1.844707
+   ],
+   [
+    51.185039,
+    -1.844602
+   ],
+   [
+    51.185057,
+    -1.836946
+   ],
+   [
+    51.186466,
+    -1.818242
+   ],
+   [
+    51.186829,
+    -1.812873
+   ],
+   [
+    51.187389,
+    -1.805423
+   ],
+   [
+    51.188067,
+    -1.805389
+   ],
+   [
+    51.187583,
+    -1.815989
+   ],
+   [
+    51.1874,
+    -1.818195
+   ],
+   [
+    51.187297,
+    -1.81986
+   ],
+   [
+    51.187164,
+    -1.821767
+   ],
+   [
+    51.18701,
+    -1.823957
+   ]
+  ],
+  "lesser-cursus": [
+   [
+    51.190964,
+    -1.847229
+   ],
+   [
+    51.191284,
+    -1.847434
+   ],
+   [
+    51.190318,
+    -1.852977
+   ],
+   [
+    51.190286,
+    -1.853096
+   ],
+   [
+    51.190238,
+    -1.853156
+   ],
+   [
+    51.190169,
+    -1.853156
+   ],
+   [
+    51.190083,
+    -1.853122
+   ],
+   [
+    51.190041,
+    -1.85302
+   ],
+   [
+    51.190014,
+    -1.852798
+   ],
+   [
+    51.190009,
+    -1.852679
+   ]
+  ],
+  "durrington-settlement": [
+   [
+    51.191369,
+    -1.783902
+   ],
+   [
+    51.191134,
+    -1.783987
+   ],
+   [
+    51.190947,
+    -1.784226
+   ],
+   [
+    51.190842,
+    -1.784571
+   ],
+   [
+    51.190842,
+    -1.784954
+   ],
+   [
+    51.190947,
+    -1.785299
+   ],
+   [
+    51.191134,
+    -1.785538
+   ],
+   [
+    51.191369,
+    -1.785623
+   ],
+   [
+    51.191603,
+    -1.785538
+   ],
+   [
+    51.19179,
+    -1.785299
+   ],
+   [
+    51.191895,
+    -1.784954
+   ],
+   [
+    51.191895,
+    -1.784571
+   ],
+   [
+    51.19179,
+    -1.784226
+   ],
+   [
+    51.191603,
+    -1.783987
+   ]
+  ],
+  "amesbury-town": [
+   [
+    51.172303,
+    -1.777981
+   ],
+   [
+    51.171649,
+    -1.778265
+   ],
+   [
+    51.171095,
+    -1.779073
+   ],
+   [
+    51.170724,
+    -1.780282
+   ],
+   [
+    51.170594,
+    -1.781709
+   ],
+   [
+    51.170724,
+    -1.783135
+   ],
+   [
+    51.171095,
+    -1.784345
+   ],
+   [
+    51.171649,
+    -1.785153
+   ],
+   [
+    51.172303,
+    -1.785436
+   ],
+   [
+    51.172957,
+    -1.785153
+   ],
+   [
+    51.173511,
+    -1.784345
+   ],
+   [
+    51.173882,
+    -1.783135
+   ],
+   [
+    51.174012,
+    -1.781709
+   ],
+   [
+    51.173882,
+    -1.780282
+   ],
+   [
+    51.173511,
+    -1.779073
+   ],
+   [
+    51.172957,
+    -1.778265
+   ]
+  ],
+  "amesbury-abbey-precinct": [
+   [
+    51.172471,
+    -1.786503
+   ],
+   [
+    51.172471,
+    -1.783351
+   ],
+   [
+    51.171302,
+    -1.783351
+   ],
+   [
+    51.171302,
+    -1.786503
+   ]
+  ]
+ },
+ "woodland": {
+  "cover": [
+   {
+    "year": -4000,
+    "value": 0.35
+   },
+   {
+    "year": -3500,
+    "value": 0.2
+   },
+   {
+    "year": -3000,
+    "value": 0.15
+   },
+   {
+    "year": -2500,
+    "value": 0.12
+   },
+   {
+    "year": -2000,
+    "value": 0.1
+   },
+   {
+    "year": -1500,
+    "value": 0.08
+   },
+   {
+    "year": -1000,
+    "value": 0.05
+   },
+   {
+    "year": -500,
+    "value": 0.03
+   },
+   {
+    "year": 1,
+    "value": 0.03
+   },
+   {
+    "year": 500,
+    "value": 0.06
+   },
+   {
+    "year": 1000,
+    "value": 0.04
+   },
+   {
+    "year": 1625,
+    "value": 0.04
+   }
+  ],
+  "hedgerowTrees": false,
+  "note": "ESTIMATE, not measured. The values are my estimate of the fraction of the ground within about 3 km under woodland or scrub (the engine uses it as the share of possible tree sites that stand), from qualitative statements only: partly open woodland with clearings around 4000 BCE (Blick Mead pollen and DNA), open chalk grassland by 3500 BCE (snail evidence at the Cursus), stable grassland on thin soils about 3000 BCE, patches of woodland near Durrington Walls and alder-hazel carr on the Avon floodplain in the 3rd millennium, and clearance by about 800 to 500 BCE. The rise to 0.06 around 500 CE (post-Roman scrub) is speculative and unsourced; 1000 and 1625 are estimates. Where the trees stand is generated, not mapped. There are no hedgerow trees: the downland was open until enclosure.",
+  "sources": [
+   "sto-soton-blickmead2022",
+   "sto-french2012",
+   "sto-eh-reconstructed",
+   "sto-roberts2018"
+  ]
+ },
+ "district": {
+  "name": "The stones",
+  "bounds": {
+   "xMin": -400,
+   "xMax": 400,
+   "zMin": -350,
+   "zMax": 300
+  },
+  "note": "Detailed round the monument: stone-by-stone megaliths from the stone catalogue (sarsen circle and lintels, trilithons, bluestone settings, Altar Stone, Station Stones, Slaughter Stone, Heel Stone), the ditch and bank, the Aubrey Holes and the first straight stretch of the Avenue. Positions and sizes come from surveyed plans and the catalogue; the form of timber structures, the original height of the bank and the state of each stone in 1625 are inferred. Everything outside this box, including the barrows, the Cursus, Durrington Walls and Amesbury, is schematic."
+ },
+ "views": [
+  {
+   "id": "landscape",
+   "name": "Whole landscape",
+   "position": [
+    -1500,
+    1100,
+    1900
+   ],
+   "target": [
+    700,
+    28,
+    -500
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "avenue",
+   "name": "From the Avenue",
+   "position": [
+    91.79,
+    45.23,
+    -77.29
+   ],
+   "target": [
+    0,
+    42.92,
+    0
+   ],
+   "scope": "district"
+  },
+  {
+   "id": "inside",
+   "name": "Inside the circle",
+   "position": [
+    -2,
+    43.96,
+    2
+   ],
+   "target": [
+    137.69,
+    36.8,
+    -115.94
+   ],
+   "scope": "district"
+  },
+  {
+   "id": "durrington",
+   "name": "Durrington Walls and Woodhenge",
+   "position": [
+    2450,
+    280.92,
+    -800
+   ],
+   "target": [
+    2800,
+    36.54,
+    -1300
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "barrows",
+   "name": "Normanton Down barrows",
+   "position": [
+    -900,
+    160.44,
+    1300
+   ],
+   "target": [
+    -450,
+    34.67,
+    700
+   ],
+   "scope": "overview"
+  },
+  {
+   "id": "low",
+   "name": "Stone height, south-west",
+   "position": [
+    -26.8,
+    43.46,
+    22.5
+   ],
+   "target": [
+    0,
+    41.92,
+    0
+   ],
+   "scope": "district"
+  }
+ ],
+ "atmosphere": {
+  "fog": 7e-05
+ }
+}

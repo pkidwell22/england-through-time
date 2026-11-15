@@ -1,0 +1,30 @@
+{
+  "name": "london-through-time",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 4310",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 4310",
+    "test": "vitest run",
+    "test:e2e": "node tests/e2e.mjs",
+    "shots": "node tests/shots.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.180.0",
+    "three-gpu-pathtracer": "0.0.24",
+    "three-mesh-bvh": "0.9.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/three": "^0.180.0",
+    "playwright-core": "^1.56.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

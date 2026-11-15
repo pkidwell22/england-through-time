@@ -1,0 +1,400 @@
+{
+  "selection": "Every twelfth national place sorted by namespaced id, after excluding battles, any size>=4 place, and high-confidence places. All phases and caveats of selected entities are included in source screening.",
+  "remaining_pool": 137,
+  "sample": [
+    {
+      "entity": {
+        "id": "england-wales/aberffraw",
+        "location_id": "england-wales",
+        "local_id": "aberffraw",
+        "name": "Aberffraw",
+        "lat": 53.1954,
+        "lon": -4.4635,
+        "country": "wales",
+        "kind": "palace",
+        "evidence": "attested-documentary",
+        "confidence": "medium",
+        "summary": "By tradition the chief seat of the kings of Gwynedd, on the west coast of Anglesey; the princes styled themselves ‘prince of Aberffraw’ in the 13th century. The settlement declined after a great storm in 1331 altered the coast.",
+        "uncertainty": "Coflein reports the royal seat as tradition. The position of the llys within the village is not securely established and the start date is a placeholder; documentary references begin in the 7th-9th centuries.",
+        "site_id": null,
+        "origin_file": "national/places-wales.json",
+        "origin_path": "$[26]"
+      },
+      "sources": [
+        {
+          "id": "wal-coflein-aberffraw",
+          "title": "Aberffraw (NPRN 32986), site record",
+          "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales (Coflein)",
+          "url": "https://coflein.gov.uk/en/site/32986/",
+          "scope": "national",
+          "origin_file": "national/sources-wales.json"
+        }
+      ],
+      "read_evidence": [
+        {
+          "url": "https://coflein.gov.uk/en/site/32986/",
+          "excerpt": "Description\nAberffraw is a small coastal town in Anglesey, situated on the banks of the river Ffraw. It is traditionally said to be the chief seat of the Early Welsh Kings of Gwynedd. The royal palace or Llys (Nprn 15012) at Aberffraw reflects the town's status as the administrative centre of one of three 'Cantrefi' or 'Hundreds' in which the island of Anglesey was divided in the post Roman period. The town is thought to have grown in importance during the early middle ages, and then, following the great storm of 1331, to have declined as a result of coastline alterations which affected what had been a busy sea port.\nHowever, Aberffraw parish continued to be of importance, having land owned by many of the major Anglesey families, the Meyricks, the Owens (until 1808) then the Hughes (as Lord Dinorben), the Williams/Wynns (as Lord Newborough), the Pagets (as Earl of Uxbridge/Marquis of Ang"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "id": "england-wales/berwick",
+        "location_id": "england-wales",
+        "local_id": "berwick",
+        "name": "Berwick-upon-Tweed",
+        "lat": 55.77,
+        "lon": -2.005,
+        "country": "england",
+        "kind": "port",
+        "evidence": "attested-documentary",
+        "confidence": "medium",
+        "summary": "A Scottish town for most of the Middle Ages, finally taken by England in 1482. It is listed under England only for that last phase.",
+        "uncertainty": "1296, 1318, 1482 and the ramparts (begun 1558, stopped 1569) are English Heritage's dates. The 1120 start as a royal burgh is from memory.",
+        "site_id": null,
+        "origin_file": "national/places.json",
+        "origin_path": "$[123]"
+      },
+      "sources": [
+        {
+          "id": "nat-eh-berwick",
+          "title": "History of Berwick-Upon-Tweed Castle, Main Guard and Ramparts",
+          "publisher": "English Heritage",
+          "url": "https://www.english-heritage.org.uk/visit/places/berwick-upon-tweed-castle-and-ramparts/history/",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        }
+      ],
+      "read_evidence": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/places/berwick-upon-tweed-castle-and-ramparts/history/",
+          "excerpt": "Situated at the mouth of the River Tweed near the border of two kingdoms, the town of Berwick suffered centuries of conflict, as control of the town passed back and forward between England and Scotland until the late 17th century. Each crisis brought repairs and improvements to the fortifications, culminating in the great artillery ramparts begun in 1558. These survive largely intact and make Berwick one of the most important fortified towns of Europe.\nThe prosperous royal burgh of Berwick had been part of Scotland for more than three centuries when, in 1292, Edward I of England declared John de Balliol King of Scotland in Berwick Castle. Edward’s feudal claims over Balliol soon led to Scottish discontent and to Scotland’s alliance with France. English policy was to make war. Berwick was captured in 1296 but retaken by Robert Bruce in 1318. The town changed sides several times before fin"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "id": "england-wales/cambridge",
+        "location_id": "england-wales",
+        "local_id": "cambridge",
+        "name": "Cambridge",
+        "lat": 52.205,
+        "lon": 0.119,
+        "country": "england",
+        "kind": "town",
+        "evidence": "attested-documentary",
+        "confidence": "medium",
+        "summary": "A river-crossing town where scholars fleeing Oxford settled in 1209; they had a chancellor by 1226. It was 22nd in 1377.",
+        "uncertainty": "Roman and Danish dates approximate. 875, the castle of 1068 and the clerks first mentioned in 1209 are in VCH Cambridgeshire.",
+        "site_id": null,
+        "origin_file": "national/places.json",
+        "origin_path": "$[99]"
+      },
+      "sources": [
+        {
+          "id": "nat-cam-early-records",
+          "title": "Early records",
+          "publisher": "University of Cambridge",
+          "url": "https://www.cam.ac.uk/about-the-university/history/early-records",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        },
+        {
+          "id": "nat-vch-cambridge-medieval",
+          "title": "The city of Cambridge: Medieval history (Victoria County History, cambs vol3 pp2-15)",
+          "publisher": "British History Online (Victoria County History)",
+          "url": "https://www.british-history.ac.uk/vch/cambs/vol3/pp2-15",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        },
+        {
+          "id": "nat-wp-historical-population",
+          "title": "List of towns and cities in England by historical population (tables after Russell 1948, Darby 1977, Hoskins 1984)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_towns_and_cities_in_England_by_historical_population",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        }
+      ],
+      "read_evidence": [
+        {
+          "url": "https://www.cam.ac.uk/about-the-university/history/early-records",
+          "excerpt": "When we first come across Cambridge in written records, it was already a considerable town. The bridge across the River Cam or Granta, from which the town took its name, had existed since at least 875. The town was an important trading centre before the Domesday survey was compiled in 1086, by which time a castle stood on the rising ground to the north of the bridge, and there were already substantial commercial and residential properties as well as several churches in the main settlement which lay south of the bridge.\nWithin the town, or very close to it, there were a number of other religious institutions. There had been canons in the Church of St Giles below the castle before 1112, when they moved to a new site across the River Cam at Barnwell, and the Convent of St Radegund had existed since 1135 on the site which eventually became Jesus College. There were also two hospitals, one re"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "id": "england-wales/corfe",
+        "location_id": "england-wales",
+        "local_id": "corfe",
+        "name": "Corfe Castle",
+        "lat": 50.64,
+        "lon": -2.059,
+        "country": "england",
+        "kind": "castle",
+        "evidence": "attested-standing",
+        "confidence": "medium",
+        "summary": "One of the earliest stone castles in England and a favourite stronghold of King John.",
+        "uncertainty": "Dates from memory. Not checked against a fetched source: dates and size come from general reference knowledge.",
+        "site_id": null,
+        "origin_file": "national/places.json",
+        "origin_path": "$[137]"
+      },
+      "sources": [],
+      "read_evidence": []
+    },
+    {
+      "entity": {
+        "id": "england-wales/dolwyddelan",
+        "location_id": "england-wales",
+        "local_id": "dolwyddelan",
+        "name": "Dolwyddelan Castle",
+        "lat": 53.0531,
+        "lon": -3.9083,
+        "country": "wales",
+        "kind": "castle",
+        "evidence": "attested-standing",
+        "confidence": "medium",
+        "summary": "A stone keep guarding a route through Snowdonia, built by Llywelyn ap Iorwerth, ruler of Gwynedd from 1201 to 1240. It fell to Edward I in 1283, who refitted it.",
+        "uncertainty": "The building date is not recorded; 1210 is a placeholder within Llywelyn’s reign. The castle was lived in again from the late 15th century, which is not shown.",
+        "site_id": null,
+        "origin_file": "national/places-wales.json",
+        "origin_path": "$[35]"
+      },
+      "sources": [
+        {
+          "id": "wal-cadw-dolwyddelan",
+          "title": "Dolwyddelan Castle (visitor page)",
+          "publisher": "Cadw (Welsh Government historic environment service)",
+          "url": "https://cadw.gov.wales/visit/places-to-visit/dolwyddelan-castle",
+          "scope": "national",
+          "origin_file": "national/sources-wales.json"
+        }
+      ],
+      "read_evidence": [
+        {
+          "url": "https://cadw.gov.wales/visit/places-to-visit/dolwyddelan-castle",
+          "excerpt": "The internal area of the castle is now open April to September on Fridays, Saturdays, Sundays & Bank Holidays - 10am-4pm. All other days, external viewing only.\nThe pathway via the farm house to the castle is private property and there is no access to the castle via this route.\nOne of a group of fortresses built to command the mountain passes, it stands as a lasting memorial to Prince Llywelyn ap Iorwerth, or Llywelyn the Great. He was the undisputed ruler of Gwynedd from 1201 to his death in 1240.\nEdward set his own stamp on Dolwyddelan from the day it fell in 1283. The garrison was hastily equipped with camouflage white tunics – perfect for winter warfare in the mountains. He raised the height of the keep, built a new tower and installed a siege engine complete with stone ‘cannon balls’.\nNothing lasts for ever. By the early 19th century Dolwyddelan was a romantic ruin popular with land"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "id": "england-wales/hastings",
+        "location_id": "england-wales",
+        "local_id": "hastings",
+        "name": "Hastings",
+        "lat": 50.856,
+        "lon": 0.573,
+        "country": "england",
+        "kind": "port",
+        "evidence": "attested-documentary",
+        "confidence": "medium",
+        "summary": "A burh of 500 hides which gave its name to the battle fought 10 km inland.",
+        "uncertainty": "The storm-damage date is approximate. Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+        "site_id": null,
+        "origin_file": "national/places.json",
+        "origin_path": "$[97]"
+      },
+      "sources": [
+        {
+          "id": "nat-wp-burghal-hidage",
+          "title": "Burghal Hidage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burghal_Hidage",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        },
+        {
+          "id": "nat-wp-historical-population",
+          "title": "List of towns and cities in England by historical population (tables after Russell 1948, Darby 1977, Hoskins 1984)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_towns_and_cities_in_England_by_historical_population",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        }
+      ],
+      "read_evidence": []
+    },
+    {
+      "entity": {
+        "id": "england-wales/lewes",
+        "location_id": "england-wales",
+        "local_id": "lewes",
+        "name": "Lewes",
+        "lat": 50.873,
+        "lon": 0.01,
+        "country": "england",
+        "kind": "town",
+        "evidence": "attested-documentary",
+        "confidence": "medium",
+        "summary": "A burh of 1,300 hides and the chief town of Norman Sussex; about 2,000 people at Domesday.",
+        "uncertainty": "Dates are supported here only by Wikipedia, which is a lead rather than verification.",
+        "site_id": null,
+        "origin_file": "national/places.json",
+        "origin_path": "$[96]"
+      },
+      "sources": [
+        {
+          "id": "nat-wp-burghal-hidage",
+          "title": "Burghal Hidage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burghal_Hidage",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        },
+        {
+          "id": "nat-wp-historical-population",
+          "title": "List of towns and cities in England by historical population (tables after Russell 1948, Darby 1977, Hoskins 1984)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_towns_and_cities_in_England_by_historical_population",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        }
+      ],
+      "read_evidence": []
+    },
+    {
+      "entity": {
+        "id": "england-wales/montgomery",
+        "location_id": "england-wales",
+        "local_id": "montgomery",
+        "name": "Montgomery",
+        "lat": 52.5633,
+        "lon": -3.1499,
+        "country": "wales",
+        "kind": "castle",
+        "evidence": "attested-standing",
+        "confidence": "medium",
+        "summary": "Henry III began the stone castle about 1223 against Llywelyn ap Iorwerth, replacing the nearby timber castle of Hen Domen. It withstood attacks in 1228, 1231 and 1245. The treaty that recognised Llywelyn ap Gruffudd as Prince of Wales was sealed at the nearby ford in 1267.",
+        "uncertainty": "The marker is at the stone castle; Hen Domen lies about 1.5 km north-west. Its foundation about 1071 by Roger of Montgomery is from general knowledge.",
+        "site_id": null,
+        "origin_file": "national/places-wales.json",
+        "origin_path": "$[46]"
+      },
+      "sources": [
+        {
+          "id": "wal-cadw-montgomery",
+          "title": "Montgomery Castle (visitor page)",
+          "publisher": "Cadw (Welsh Government historic environment service)",
+          "url": "https://cadw.gov.wales/visit/places-to-visit/montgomery-castle",
+          "scope": "national",
+          "origin_file": "national/sources-wales.json"
+        }
+      ],
+      "read_evidence": [
+        {
+          "url": "https://cadw.gov.wales/visit/places-to-visit/montgomery-castle",
+          "excerpt": "Montgomery is one of those castles that, even in ruin, retain a powerful atmosphere and presence that transcend its state of preservation. Perhaps it’s something to do with its location, on a steep crag above a pretty Georgian town with all-seeing views across the Welsh border.\nCommenced around 1223 on the orders of Henry III in response to the growing power of Welsh native prince Llywelyn ap Iorwerth (Llywelyn the Great), Montgomery’s stone castle replaced a nearby wooden fort known as Hen Domen. Perched on its rocky ridge, this new fortress was significantly sturdier and more sophisticated, with a stone inner ward, well, deep defensive ditches crossed by drawbridges and walled town.\nThe castle remained in use for centuries, surviving attacks by Llywelyn in 1228 and 1231 and Llywelyn’s son Dafydd in 1245. The castle’s ultimate end came during the Civil War, when it fell to the Parliamen"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "id": "england-wales/portchester",
+        "location_id": "england-wales",
+        "local_id": "portchester",
+        "name": "Portchester",
+        "lat": 50.837,
+        "lon": -1.114,
+        "country": "england",
+        "kind": "fort",
+        "evidence": "attested-standing",
+        "confidence": "medium",
+        "summary": "The best preserved Roman fort north of the Alps, reused as a burh and a medieval castle.",
+        "uncertainty": "The Latin name is an identification, not a certainty. English Heritage: built probably between 285 and 290 (coins date it after about 268), occupied through the 5th century, given to the king in 904, castle built in one corner after the Conquest. The year 1100 for the castle is approximate.",
+        "site_id": null,
+        "origin_file": "national/places.json",
+        "origin_path": "$[56]"
+      },
+      "sources": [
+        {
+          "id": "nat-eh-portchester",
+          "title": "History of Portchester Castle",
+          "publisher": "English Heritage",
+          "url": "https://www.english-heritage.org.uk/visit/places/portchester-castle/history-and-stories/history/",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        },
+        {
+          "id": "nat-wp-burghal-hidage",
+          "title": "Burghal Hidage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burghal_Hidage",
+          "scope": "national",
+          "origin_file": "national/sources-england.json"
+        }
+      ],
+      "read_evidence": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/places/portchester-castle/history-and-stories/history/",
+          "excerpt": "Portchester Castle stands in a commanding position at the north end of Portsmouth Harbour. The Romans built a huge fort here, which remains the best preserved Roman fort north of the Alps. After the Norman Conquest a castle was built in one corner of the fort, which grew into an impressive royal residence. From 1665 Portchester was frequently used to house foreign prisoners of war, most notably during the wars with France between 1793 and 1815.\nA reconstruction drawing of the Roman fort at Portchester being built, probably between AD 285 and 290\nPortchester Castle was begun as a Roman fort, one of the series of coastal forts now known as the Forts of the Saxon Shore. These forts were built over the course of the 3rd century, to meet the threat presented by Saxon pirates who were then raiding the south coast of Roman Britain.\nPortchester is the favoured of two candidates for the Roman Por"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "id": "england-wales/seahenge",
+        "location_id": "england-wales",
+        "local_id": "seahenge",
+        "name": "Holme timber circle (Seahenge)",
+        "lat": 52.968,
+        "lon": 0.521,
+        "country": "england",
+        "kind": "monument",
+        "evidence": "attested-excavated",
+        "confidence": "medium",
+        "summary": "A ring of 55 split oak posts around an inverted tree stump, built on a saltmarsh. Tree rings show the timbers were felled in 2049 BCE.",
+        "uncertainty": "The felling date is precise; how long the circle was used is unknown, so the end date is nominal. Not checked against a fetched source: dates and size come from general reference knowledge.",
+        "site_id": null,
+        "origin_file": "national/places.json",
+        "origin_path": "$[13]"
+      },
+      "sources": [],
+      "read_evidence": []
+    },
+    {
+      "entity": {
+        "id": "england-wales/torksey",
+        "location_id": "england-wales",
+        "local_id": "torksey",
+        "name": "Torksey",
+        "lat": 53.303,
+        "lon": -0.744,
+        "country": "england",
+        "kind": "fort",
+        "evidence": "attested-excavated",
+        "confidence": "medium",
+        "summary": "The Great Army's camp of 872-3 covered some 55 hectares, larger than most towns of the day.",
+        "uncertainty": "The size comes from metal-detected finds; dates other than 872-3 are approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+        "site_id": null,
+        "origin_file": "national/places.json",
+        "origin_path": "$[83]"
+      },
+      "sources": [],
+      "read_evidence": []
+    },
+    {
+      "entity": {
+        "id": "england-wales/windsor",
+        "location_id": "england-wales",
+        "local_id": "windsor",
+        "name": "Windsor Castle",
+        "lat": 51.484,
+        "lon": -0.604,
+        "country": "england",
+        "kind": "castle",
+        "evidence": "attested-standing",
+        "confidence": "medium",
+        "summary": "One of the ring of castles William built around London, and a main royal residence from the 12th century.",
+        "uncertainty": "Dates approximate. Not checked against a fetched source: dates and size come from general reference knowledge.",
+        "site_id": null,
+        "origin_file": "national/places.json",
+        "origin_path": "$[135]"
+      },
+      "sources": [],
+      "read_evidence": []
+    }
+  ]
+}

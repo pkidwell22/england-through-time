@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Model bake</title>
+<style>body{margin:0;background:#222;color:#ccc;font:12px sans-serif}</style>
+</head>
+<body>
+<p>Bake page for scripts/bake-models.mjs: leaf-cluster atlases and crossed-billboard impostors. Not part of the app.</p>
+<script type="module">
+import { THREE, BASE, loadModelData, partGeometry, texture } from "./viewer.js";
+
+const renderer = new THREE.WebGLRenderer({ antialias: false, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+
+const VERT = `
+varying vec2 vUv; varying vec3 vN;
+void main(){ vUv = uv; vN = normalize(normalMatrix * normal); gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }`;
+// mode 0: albedo straight from the texture bytes (no colour-space conversion), 1: view-space normal
+const FRAG = `
+uniform sampler2D map; uniform float hasMap; uniform vec3 color; uniform float mode; uniform float alphaTest; uniform float crown;
+varying vec2 vUv; varying vec3 vN;
+void main(){
+  vec4 t = hasMap > 0.5 ? texture2D(map, vUv) : vec4(1.0);
+  if (t.a < alphaTest) discard;
+  if (mode < 0.5) { gl_FragColor = vec4(t.rgb * color, 1.0); }
+  else {
+    vec3 n = normalize(vN);
+    // leaf cards carry "crown" normals that must not flip with the facing; real geometry flips
+    if (crown < 0.5) { if (!gl_FrontFacing) n = -n; if (n.z < 0.0) n = -n; }
+    else n = normalize(n + vec3(0.0, 0.0, 0.6)); // a flat card cannot show the far side of the crown: bias to the viewer
+    gl_FragColor = vec4(n * 0.5 + 0.5, 1.0);
+  }
+}`;
+function mat(map, alphaTest, mode, color, crown = false) {
+  return new THREE.ShaderMaterial({
+    vertexShader: VERT, fragmentShader: FRAG, side: THREE.DoubleSide,
+    uniforms: { map: { value: map }, hasMap: { value: map ? 1 : 0 }, color: { value: new THREE.Color(...(color || [1, 1, 1])) }, mode: { value: mode }, alphaTest: { value: alphaTest }, crown: { value: crown ? 1 : 0 } },
+  });
+}
+
+/** Render cells (viewport rects in a W x H target) and return a PNG data URL with transparent background,
+ *  colour bled into the transparent texels so mipmaps do not darken the edges. */
+function renderCells(W, H, cells, ss = 2) {
+  const rt = new THREE.WebGLRenderTarget(W * ss, H * ss, { type: THREE.UnsignedByteType });
+  renderer.setRenderTarget(rt);
+  renderer.setClearColor(0x000000, 0);
+  renderer.clear();
+  for (const c of cells) {
+    rt.viewport.set(c.x * ss, c.y * ss, c.w * ss, c.h * ss);
+    rt.scissor.set(c.x * ss, c.y * ss, c.w * ss, c.h * ss);
+    rt.scissorTest = true;
+    renderer.setRenderTarget(rt);
+    renderer.render(c.scene, c.camera);
+  }
+  const px = new Uint8Array(W * ss * H * ss * 4);
+  renderer.readRenderTargetPixels(rt, 0, 0, W * ss, H * ss, px);
+  renderer.setRenderTarget(null);
+  rt.dispose();
+  // box downsample (premultiplied) + flip to top-down
+  const out = new Uint8ClampedArray(W * H * 4);
+  for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+    let r = 0, g = 0, b = 0, a = 0;
+    for (let sy = 0; sy < ss; sy++) for (let sx = 0; sx < ss; sx++) {
+      const i = ((y * ss + sy) * W * ss + (x * ss + sx)) * 4;
+      const al = px[i + 3];
+      r += px[i] * al; g += px[i + 1] * al; b += px[i + 2] * al; a += al;
+    }
+    const o = ((H - 1 - y) * W + x) * 4;
+    if (a > 0) { out[o] = r / a; out[o + 1] = g / a; out[o + 2] = b / a; }
+    out[o + 3] = a / (ss * ss);
+  }
+  dilate(out, W, H, 12);
+  const cv = document.createElement("canvas");
+  cv.width = W; cv.height = H;
+  const ctx = cv.getContext("2d");
+  ctx.putImageData(new ImageData(out, W, H), 0, 0);
+  return cv;
+}
+function dilate(d, W, H, passes) {
+  let filled = new Uint8Array(W * H);
+  for (let i = 0; i < W * H; i++) filled[i] = d[i * 4 + 3] > 0 ? 1 : 0;
+  for (let p = 0; p < passes; p++) {
+    const next = filled.slice();
+    for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+      const i = y * W + x;
+      if (filled[i]) continue;
+      let r = 0, g = 0, b = 0, n = 0;
+      for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+        const X = x + dx, Y = y + dy;
+        if (X < 0 || Y < 0 || X >= W || Y >= H) continue;
+        const j = Y * W + X;
+        if (!filled[j]) continue;
+        r += d[j * 4]; g += d[j * 4 + 1]; b += d[j * 4 + 2]; n++;
+      }
+      if (n) { d[i * 4] = r / n; d[i * 4 + 1] = g / n; d[i * 4 + 2] = b / n; next[i] = 1; }
+    }
+    filled = next;
+  }
+}
+
+async function bakeLeaves(id, meta) {
+  const L = meta.bake.leaf;
+  const bin = await (await fetch(`${BASE}_bake/${id}/leaf.bin`, { cache: "no-store" })).arrayBuffer();
+  const src = await new Promise((res) => new THREE.TextureLoader().load(`${BASE}_bake/${id}/${L.texture}?v=${Date.now()}`, res));
+  src.colorSpace = THREE.NoColorSpace;
+  src.wrapS = src.wrapT = THREE.RepeatWrapping;
+  const out = {};
+  for (const at of L.atlases) {
+    const S = 1024, cell = 512;
+    const cells = at.samples.map((s, i) => {
+      const g = new THREE.BufferGeometry();
+      g.setAttribute("position", new THREE.BufferAttribute(new Float32Array(bin, s.P, s.count * 3), 3));
+      g.setAttribute("uv", new THREE.BufferAttribute(new Float32Array(bin, s.U, s.count * 2), 2));
+      g.computeVertexNormals();
+      const scene = new THREE.Scene();
+      scene.add(new THREE.Mesh(g, mat(src, 0.5, 0)));
+      const h = s.s / 2;
+      const camera = new THREE.OrthographicCamera(-h, h, h, -h, -s.s * 4, s.s * 4);
+      camera.position.set(0, 0, s.s * 2);
+      camera.lookAt(0, 0, 0);
+      return { x: (i % 2) * cell, y: Math.floor(i / 2) * cell, w: cell, h: cell, scene, camera };
+    });
+    out[at.name] = renderCells(S, S, cells);
+  }
+  return out;
+}
+
+async function bakeImpostors(id, meta, bin, leafCanvases) {
+  const out = [];
+  for (const im of meta.bake.impostors) {
+    const v = meta.variants[im.variant];
+    const lod0 = v.lods[0];
+    const scenes = [new THREE.Scene(), new THREE.Scene()];
+    for (const p of lod0.parts) {
+      const m = p.material;
+      let map = null;
+      if (m.kind === "cutout" && leafCanvases[m.name]) {
+        map = new THREE.CanvasTexture(leafCanvases[m.name]);
+        map.colorSpace = THREE.NoColorSpace;
+        map.flipY = true;
+      } else if (m.map) map = await texture(id, m.map, false, true);
+      const geo = partGeometry(bin, p);
+      scenes[0].add(new THREE.Mesh(geo, mat(map, m.alphaTest || 0, 0, m.color)));
+      scenes[1].add(new THREE.Mesh(geo, mat(map, m.alphaTest || 0, 1, null, !!m.crownNormals)));
+    }
+    const W = im.size, H = im.size / 2, cell = H;
+    const h = im.L / 2, cy = im.y0 + h;
+    const cams = [0, 1].map((k) => {
+      const c = new THREE.OrthographicCamera(-h, h, h, -h, 0.01, im.L * 8);
+      if (k === 0) c.position.set(im.cx, cy, im.cz + im.L * 3);
+      else c.position.set(im.cx + im.L * 3, cy, im.cz);
+      c.lookAt(im.cx, cy, im.cz);
+      return c;
+    });
+    const pass = (mode) => renderCells(W, H, [0, 1].map((k) => ({ x: k * cell, y: 0, w: cell, h: cell, scene: scenes[mode], camera: cams[k] })));
+    out.push({ variant: im.variant, c: pass(0).toDataURL("image/png"), n: pass(1).toDataURL("image/png") });
+  }
+  return out;
+}
+
+window.bake = async (id) => {
+  const { meta, bin } = await loadModelData(id);
+  const leaf = meta.bake.leaf ? await bakeLeaves(id, meta) : {};
+  const imp = await bakeImpostors(id, meta, bin, leaf);
+  const leafUrls = {};
+  for (const [k, cv] of Object.entries(leaf)) leafUrls[k] = cv.toDataURL("image/png");
+  return { leaf: leafUrls, imp };
+};
+window.bakeReady = true;
+</script>
+</body>
+</html>

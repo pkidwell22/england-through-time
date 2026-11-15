@@ -1,0 +1,5 @@
+places-england exit 0
+places-wales exit 0
+polities-lines exit 0
+stonehenge exit 0
+all done

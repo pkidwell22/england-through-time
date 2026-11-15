@@ -1,0 +1,63 @@
+[
+ {
+  "id": "barnet-1471",
+  "name": "Battle of Barnet",
+  "year": 1471,
+  "fraction": 0.28,
+  "dateNote": "Easter Sunday, 14 April 1471 (Julian calendar; 23 April by the modern calendar). Secure. Edward reached Barnet on the evening of 13 April and deployed in the dark; the Arrivall says the fight began between four and five in the morning and lasted about three hours, Warkworth from four until ten.",
+  "lat": 51.6655,
+  "lon": -0.199,
+  "inMap": true,
+  "view": {
+   "position": [
+    50,
+    330.0,
+    820
+   ],
+   "target": [
+    35,
+    68.0,
+    -330
+   ]
+  },
+  "summary": "Edward IV, back from exile, marched out of London on 13 April 1471 and in the dark drew up his army close to that of the Earl of Warwick, which was already in position north of Barnet across the road to St Albans. They fought at dawn on Easter Sunday in thick mist, with the lines misaligned so that each overlapped the other at one end. The king's left was broken and fled through the town, but in the confusion Warwick's army collapsed; Warwick and his brother Montagu were killed. Where exactly on this ridge it happened is not known.",
+  "attested": [
+   "Date, commanders and outcome: Edward IV, with his brothers Gloucester and Clarence and Lord Hastings, defeated Warwick, Montagu, Oxford and Exeter. Warwick and Montagu were killed, Exeter was left for dead, Oxford escaped.",
+   "Mist: the Arrivall speaks of 'a greate myste' that stopped either side seeing the other; Warkworth independently says neither could see the other perfectly.",
+   "Misaligned lines: the Arrivall says the hosts did not meet 'directly frount to frount'. At the west end Warwick's line overreached the king's and drove it back, with many fleeing 'towards Barnet, and so forthe to London'; at the east end the king's line overreached theirs.",
+   "The night before: Edward would not let his men stay in the town, lodged them much nearer the enemy than he supposed and kept silence; Warwick's guns fired through the night and 'alway ovarshote the Kyngs hoste'.",
+   "Warwick arrived first and chose the ground; the Arrivall has his people drawn up 'undre an hedge-syde' rather more than half a mile from Barnet. Other accounts say a mile, on a 'plain'.",
+   "A chapel for the dead was built afterwards on or near the field (Great Chronicle of London, about 1512).",
+   "Survey 2015–18: systematic metal-detecting, mainly in Wrotham Park, found no clear battle scatter. A few lead round shot found earlier in the Wrotham Park, Kitts End and Old Fold area are probably from the battle. No mass grave has been found."
+  ],
+  "tradition": [
+   "Army sizes. The Arrivall (the king's side) gives 9,000 against 30,000; Warkworth gives Warwick 20,000. Modern figures of about 10,000–12,000 Yorkists against about 15,000 Lancastrians (Battlefields Trust; Barnet Museum gives 10,000–13,000 and 13,000–15,000) are estimates.",
+   "The textbook deployment (Lancastrians: Oxford on the right, Montagu in the centre, Exeter on the left, Warwick in reserve; Yorkists: Hastings left, Edward centre, Gloucester right) is a modern reconstruction, not something a contemporary wrote down.",
+   "Oxford's badge of a star with streams being mistaken for Edward's sun with streams, and the cry of 'Treason': from Warkworth alone.",
+   "Casualties: Warkworth says 4,000; other figures run from about 1,000 to 10,000. None is reliable.",
+   "'Dead Man's Bottom': a name for the valley running from Bentley Heath towards Monken Mead, marked in slightly different places on 17th-century and modern maps. The report notes it may have nothing to do with the battle.",
+   "The Hadley Highstone (an obelisk of 1740, later moved) marks a traditional spot for Warwick's death; there is no evidence for it."
+  ],
+  "unknown": [
+   "Where the battle was fought within a zone about 2 km long from Hadley Green to Kitts End and beyond: the survey report weighs six possible deployments and concludes that the battlefield cannot yet be identified.",
+   "The position, length and facing of both lines, and where each commander stood.",
+   "The real size of either army.",
+   "Which hedge the 'hedge-side' was, and how much of the ground was open common and how much hedged closes in 1471.",
+   "Where Warwick and Montagu died, and where the dead were buried.",
+   "The number and position of guns on either side.",
+   "How dense the mist was, and for how long; the mist shown is a rendering choice."
+  ],
+  "evidence": "attested-documentary",
+  "confidence": "medium",
+  "sources": [
+   "bar-barnet-battlefield-project-2015-2018",
+   "bar-watson-2022-looking-for-the-site",
+   "bar-battlefields-trust-barnet",
+   "bar-arrivall-part-3",
+   "bar-warkworth-barnet",
+   "bar-barnet-society-2021",
+   "bar-barnet-museum-battle"
+  ],
+  "locationNote": "The point given is the road fork at Hadley Highstone, between the registered area (Hadley Green) and the Kitts End alternative. Treat it as the middle of a zone of possibility, not a site."
+ }
+]

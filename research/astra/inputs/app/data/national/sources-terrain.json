@@ -1,0 +1,72 @@
+{
+  "ter-gebco-2025": {
+    "title": "The GEBCO_2025 Grid: a continuous terrain model of the global oceans and land (15 arc-second; subset 49.5-56.2 N, 6.7 W-2.5 E fetched by OPeNDAP)",
+    "publisher": "GEBCO Bathymetric Compilation Group / British Oceanographic Data Centre, served by CEDA",
+    "url": "https://dap.ceda.ac.uk/thredds/dodsC/bodc/gebco/global/gebco_2025/ice_surface_elevation/netcdf/GEBCO_2025.nc.dds"
+  },
+  "ter-gebco-terms": {
+    "title": "Gridded bathymetry data: GEBCO grid description, citation and terms of use (grid placed in the public domain)",
+    "publisher": "General Bathymetric Chart of the Oceans (GEBCO), IHO-IOC",
+    "url": "https://www.gebco.net/data-products/gridded-bathymetry-data"
+  },
+  "ter-copdem-glo90": {
+    "title": "Copernicus DEM: Global and European Digital Elevation Model (GLO-90 collection description, licence and attribution)",
+    "publisher": "Copernicus Data Space Ecosystem / European Space Agency",
+    "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM"
+  },
+  "ter-copdem-aws": {
+    "title": "Copernicus DEM GLO-90 cloud-optimised GeoTIFF tiles (61 one-degree tiles, N49-N56, W007-E002). Produced using Copernicus WorldDEM-90 (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA; all rights reserved",
+    "publisher": "European Space Agency / Sinergise, Registry of Open Data on AWS",
+    "url": "https://copernicus-dem-90m.s3.amazonaws.com/Copernicus_DSM_COG_30_N51_00_W001_00_DEM/Copernicus_DSM_COG_30_N51_00_W001_00_DEM.tif"
+  },
+  "ter-holsea-2018": {
+    "title": "Data for: Relative sea-level changes and crustal movements in Britain and Ireland since the Last Glacial Maximum (sea-level index point database; paper in Quaternary Science Reviews 188, 143-159)",
+    "publisher": "I. Shennan, S. L. Bradley and R. Edwards, Mendeley Data v1, 2018 (CC BY-NC 3.0)",
+    "url": "https://data.mendeley.com/datasets/rfw98r8g83"
+  },
+  "ter-shennan-2009": {
+    "title": "Late Holocene relative land- and sea-level changes: Providing information for stakeholders",
+    "publisher": "I. Shennan, G. Milne and S. Bradley, GSA Today 19(9), 52-53, Geological Society of America, 2009",
+    "url": "https://rock.geosociety.org/gsatoday/archive/19/9/article/i1052-5173-19-9-52.htm"
+  },
+  "ter-wiki-doggerland": {
+    "title": "Doggerland",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Doggerland"
+  },
+  "ter-wiki-fens": {
+    "title": "The Fens",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/The_Fens"
+  },
+  "ter-wiki-somerset-levels": {
+    "title": "Somerset Levels",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Somerset_Levels"
+  },
+  "ter-wiki-romney-marsh": {
+    "title": "Romney Marsh",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Romney_Marsh"
+  },
+  "ter-wiki-wantsum": {
+    "title": "Wantsum Channel",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Wantsum_Channel"
+  },
+  "ter-wiki-holderness": {
+    "title": "Holderness",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Holderness"
+  },
+  "ter-wiki-ravenser-odd": {
+    "title": "Ravenser Odd",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ravenser_Odd"
+  },
+  "ter-wiki-dunwich": {
+    "title": "Dunwich",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dunwich"
+  }
+}
