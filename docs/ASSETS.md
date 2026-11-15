@@ -257,9 +257,23 @@ spatial chunks.
 - `meshoptimizer` (via @types/three) and `sharp` (via next) are used as transitive dependencies; if
   either disappears from node_modules, add it as a devDependency.
 
+## Crowd figures (MakeHuman / MPFB, CC0)
+
+The people and the battle formations' soldiers are generated, not downloaded: `node scripts/build-figures.mjs` builds 13
+MakeHuman bodies with the MPFB Blender extension (base mesh, macro targets, `game_engine` rig and weights, and the
+`mpfb_*.jpg` skin masks used for the face detail; all CC0), dresses them in procedurally modelled period garments,
+bakes the animation and writes `public/assets/figures/` (7 GLB garment sets, a float16 animation texture, two 1024 x 512
+WebP atlases and `figures.json`; about 15 MB in all). Pipeline, budgets and every costume judgement call:
+[docs/FIGURES.md](FIGURES.md). Recorded in `data/assets.json` → `figures`.
+
+- MakeHuman community asset packs (static/files.makehumancommunity.org) were allowed but not used: the download was
+  refused by the server's firewall, and nothing else was tried. No CC-BY item is included, so no per-item credit is due.
+- MPFB's code is GPL-3.0; only CC0 assets and their exports are shipped.
+
 ## Credits that must be shown
 
 - Terrain (Stonehenge, Barnet, upland Brentford): Contains Environment Agency information © Environment Agency and/or database right 2026. Licensed under the Open Government Licence v3.0.
 - Mask outlines used to prepare that terrain: Feature outlines © OpenStreetMap contributors (ODbL 1.0). No OpenStreetMap data is drawn.
 - Materials, skies and models: Poly Haven, CC0 (no credit required; listed in `data/assets.json` and `data/models.json`).
+- Crowd figures: bodies and rig from MakeHuman / MPFB, CC0 (no credit required; listed in `data/assets.json` → `figures`).
 - National map sources (Copernicus GLO-90, GEBCO_2025, Itiner-e, ONS) are recorded in `data/national/sources-terrain.json` and `data/national/terrain.json`, and credited in the interface (`src/components/ui/Chrome.tsx`).

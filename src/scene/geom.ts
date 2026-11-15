@@ -9,6 +9,8 @@ import { tileOf } from "./materials";
  */
 export class Builder {
   private parts = new Map<string, THREE.BufferGeometry[]>();
+  /** Free-form data a builder leaves for other layers; copied to the phase group's userData (e.g. troop positions). */
+  meta: Record<string, unknown> = {};
   private stack: THREE.Matrix4[] = [new THREE.Matrix4()];
 
   private get m(): THREE.Matrix4 {

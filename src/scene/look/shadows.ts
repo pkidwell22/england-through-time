@@ -37,6 +37,8 @@ export class SunCascades {
     this.lights.length = 1;
     const sun = this.sun;
     sun.castShadow = sizes.length > 0;
+    // layer 4 (crowd figures) casts shadows but stays out of the water's mirror
+    sun.shadow.camera.layers.enable(4);
     sun.shadow.bias = bias;
     if (sizes.length) {
       sun.shadow.mapSize.set(sizes[0], sizes[0]);
@@ -48,6 +50,7 @@ export class SunCascades {
       l.name = `sun-cascade-${i}`;
       l.userData.cascadeOf = "sun";
       l.castShadow = true;
+      l.shadow.camera.layers.enable(4);
       l.shadow.mapSize.set(sizes[i], sizes[i]);
       l.shadow.bias = bias;
       this.scene.add(l, l.target);

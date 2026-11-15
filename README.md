@@ -16,7 +16,7 @@ version it has grown a national map of England and Wales with drill-in sites.
 - **Topic notes:** [look and lighting](docs/LOOK.md), [photo mode](docs/PHOTO-MODE.md),
   [placement audit](docs/AUDIT.md), [streets](docs/STREETS.md), [vessels](docs/VESSELS.md),
   [vegetation](docs/VEGETATION.md), [database](docs/DATABASE.md), [assets](docs/ASSETS.md),
-  [fact corrections](docs/CORRECTIONS.md), [national plan](docs/NATIONAL-PLAN.md).
+  [fact corrections](docs/CORRECTIONS.md), [national plan](docs/NATIONAL-PLAN.md), [crowd figures](docs/FIGURES.md).
 - **Progress screenshots:** `docs/screenshots/v1` … `v6` (same fixed viewpoints each pass).
 
 ## Layout
@@ -52,7 +52,7 @@ Neither is photorealistic yet, in the live view or in path-traced photo mode. `d
 
 ## Assets
 
-Scanned materials, skies and models are CC0 from Poly Haven. `python3 scripts/fetch-assets.py`
+Scanned materials, skies and models are CC0 from Poly Haven; the crowd figures are built from MakeHuman/MPFB bodies (CC0) by `node scripts/build-figures.mjs`. `python3 scripts/fetch-assets.py`
 (and `fetch-models.py`) re-download anything missing from `public/assets/`. Site terrain for
 Stonehenge, Barnet and upland Brentford uses Environment Agency LIDAR (Open Government Licence
 v3.0); masks use OpenStreetMap data (ODbL). Credit lines are in [docs/ASSETS.md](docs/ASSETS.md)

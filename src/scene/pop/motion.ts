@@ -313,6 +313,15 @@ export function seatedGeometry(): THREE.BufferGeometry {
   return b.build();
 }
 
+/** Just the low stool of seatedGeometry (the seated person is drawn by figures.ts). */
+export function stoolGeometry(): THREE.BufferGeometry {
+  const b = new PartBuilder();
+  const wood = 0x6a5238;
+  b.prism(4, 0.19, 0.19, 0.17, 0.17, 0.0, 0.4, 0, -0.02, { color: wood }, true);
+  b.prism(4, 0.21, 0.21, 0.21, 0.21, 0.4, 0.43, 0, -0.02, { color: wood });
+  return b.build();
+}
+
 export type AnimalKind = "cattle" | "sheep" | "horse" | "pig" | "dog" | "hen" | "packhorse";
 export const ANIMAL_KINDS: AnimalKind[] = ["cattle", "sheep", "horse", "pig", "dog", "hen", "packhorse"];
 

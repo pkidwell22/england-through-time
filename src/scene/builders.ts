@@ -769,6 +769,10 @@ function troops(b: Builder, m: PhaseModel, ctx: BuildCtx) {
     spots.push({ x, y: y - 0.05, z, rot: rot0 + (r() - 0.5) * 0.3, tall: 0.95 + r() * 0.1 });
   }
   stampFigures(b, parts, spots);
+  // the populace's figure layer (pop/figures.ts) may draw people in these places instead of the blocks above
+  const sp = new Float32Array(spots.length * 5);
+  spots.forEach((s, i) => sp.set([s.x, s.y, s.z, s.rot, s.tall], i * 5));
+  b.meta.troops = { spots: sp, tint, mounted, mats: mounted ? [body, head, horse] : [body, head] };
 
   // A trampled, shadowed strip of ground under the block, so its outline reads even where the figures are tiny.
   const halfW = ((Math.min(cols, count) - 1) * spacing) / 2 + spacing * 0.9;

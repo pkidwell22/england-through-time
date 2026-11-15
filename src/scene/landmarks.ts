@@ -235,6 +235,11 @@ export class LandmarkLayer {
           if (b.isEmpty()) return null;
           const group = new THREE.Group();
           group.name = `${lm.id}#${index}`;
+          if (b.meta && Object.keys(b.meta).length) {
+            Object.assign(group.userData, b.meta);
+            const tr = group.userData.troops as { year?: number } | undefined;
+            if (tr) tr.year = phase.from;
+          }
           if (!worldSpace) {
             group.position.set(x, terrain.hasRiver ? Math.max(0.6, ground(x, z)) : ground(x, z), z);
             group.rotation.y = Math.PI / 2 - ((lm.bearing ?? 90) * Math.PI) / 180;

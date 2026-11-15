@@ -9,7 +9,7 @@ import type { ExtraContext } from "../extras";
 import type { FabricLayer, PlacedHouse } from "../fabric";
 import { STYLES } from "../houses";
 import type { LandmarkLayer } from "../landmarks";
-import type { MotionMesh } from "./motion";
+import type { PopPool } from "./figures";
 
 /**
  * Where and when the illustrative populace stands and walks. Nothing here is a claim about real
@@ -157,12 +157,12 @@ export interface Caps {
 }
 
 export interface Meshes {
-  /** one mesh per body type */
-  people: MotionMesh[];
-  seated: MotionMesh;
+  /** one mesh (block figures) or figure pool (figures.ts) per body type */
+  people: PopPool[];
+  seated: PopPool;
   /** indexed like ANIMAL_KINDS */
-  ani: MotionMesh[];
-  cart: MotionMesh;
+  ani: PopPool[];
+  cart: PopPool;
 }
 
 export interface SmokeSink {
@@ -172,7 +172,7 @@ export interface SmokeSink {
 }
 
 /** earthy, undyed-to-muted dyes: a palette, not a costume claim */
-const CLOTH = ["#8a7a60", "#6b5a43", "#9a5a3c", "#b08a3a", "#5f6b45", "#56606b", "#7a3b34", "#a89c86", "#4d4339", "#7d6f58", "#6a5d4a"].map((c) => new THREE.Color(c));
+export const CLOTH = ["#8a7a60", "#6b5a43", "#9a5a3c", "#b08a3a", "#5f6b45", "#56606b", "#7a3b34", "#a89c86", "#4d4339", "#7d6f58", "#6a5d4a"].map((c) => new THREE.Color(c));
 const CATTLE = ["#5a3b28", "#7a5a3c", "#2b2420", "#c8bfae", "#8a6a4a", "#4a3223"].map((c) => new THREE.Color(c));
 const PIG = ["#d9b4a0", "#c49a86", "#8a6a58", "#3b2e28", "#e0c4b0"].map((c) => new THREE.Color(c));
 const DOG = ["#6a4a2e", "#2b2420", "#a88a5e", "#8a8a84", "#c8b890"].map((c) => new THREE.Color(c));
@@ -291,6 +291,11 @@ export class PopWorld {
     }
     this.buildStatics();
     this.phf = new Float32Array(this.phases.length);
+  }
+
+  /** Re-select on the next update (the populace switched between block figures and figure pools). */
+  invalidate(): void {
+    this.lastT = NaN;
   }
 
   // ------------------------------------------------------------------------------- helpers

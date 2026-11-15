@@ -1,0 +1,6153 @@
+{
+ "version": 1,
+ "frames": 24,
+ "layers": [
+  "stand",
+  "walk_slow",
+  "walk_brisk",
+  "idle",
+  "talk",
+  "seated",
+  "attention"
+ ],
+ "bones": 22,
+ "anim": {
+  "file": "anim.bin",
+  "width": 858,
+  "height": 24,
+  "depth": 7
+ },
+ "textures": {
+  "map": "figure_c.webp",
+  "normal": "figure_n.webp"
+ },
+ "bodies": [
+  {
+   "id": "man_a",
+   "type": 0,
+   "sex": "m",
+   "child": false,
+   "elder": false,
+   "height": 1.7239,
+   "k": 1.0023,
+   "S1": 0.9522,
+   "S2": 1.5034,
+   "Sf": 1.9043,
+   "v0": 0.5506
+  },
+  {
+   "id": "man_b",
+   "type": 0,
+   "sex": "m",
+   "child": false,
+   "elder": false,
+   "height": 1.6886,
+   "k": 0.9817,
+   "S1": 0.9327,
+   "S2": 1.4726,
+   "Sf": 1.8653,
+   "v0": 0.545
+  },
+  {
+   "id": "man_c",
+   "type": 0,
+   "sex": "m",
+   "child": false,
+   "elder": false,
+   "height": 1.6513,
+   "k": 0.9601,
+   "S1": 0.9121,
+   "S2": 1.4401,
+   "Sf": 1.8242,
+   "v0": 0.5389
+  },
+  {
+   "id": "woman_a",
+   "type": 1,
+   "sex": "f",
+   "child": false,
+   "elder": false,
+   "height": 1.5829,
+   "k": 0.9203,
+   "S1": 0.8743,
+   "S2": 1.3805,
+   "Sf": 1.7486,
+   "v0": 0.5276
+  },
+  {
+   "id": "woman_b",
+   "type": 1,
+   "sex": "f",
+   "child": false,
+   "elder": false,
+   "height": 1.5644,
+   "k": 0.9095,
+   "S1": 0.8641,
+   "S2": 1.3643,
+   "Sf": 1.7281,
+   "v0": 0.5245
+  },
+  {
+   "id": "woman_c",
+   "type": 1,
+   "sex": "f",
+   "child": false,
+   "elder": false,
+   "height": 1.5474,
+   "k": 0.8996,
+   "S1": 0.8546,
+   "S2": 1.3494,
+   "Sf": 1.7093,
+   "v0": 0.5217
+  },
+  {
+   "id": "tall",
+   "type": 2,
+   "sex": "m",
+   "child": false,
+   "elder": false,
+   "height": 1.8044,
+   "k": 1.049,
+   "S1": 0.9966,
+   "S2": 1.5736,
+   "Sf": 1.9932,
+   "v0": 0.5633
+  },
+  {
+   "id": "stout_m",
+   "type": 3,
+   "sex": "m",
+   "child": false,
+   "elder": false,
+   "height": 1.7164,
+   "k": 0.9979,
+   "S1": 0.948,
+   "S2": 1.4968,
+   "Sf": 1.896,
+   "v0": 0.5494
+  },
+  {
+   "id": "stout_f",
+   "type": 3,
+   "sex": "f",
+   "child": false,
+   "elder": false,
+   "height": 1.5425,
+   "k": 0.8968,
+   "S1": 0.8519,
+   "S2": 1.3452,
+   "Sf": 1.7039,
+   "v0": 0.5208
+  },
+  {
+   "id": "boy",
+   "type": 4,
+   "sex": "m",
+   "child": true,
+   "elder": false,
+   "height": 1.3109,
+   "k": 0.7622,
+   "S1": 0.7241,
+   "S2": 1.1433,
+   "Sf": 1.4481,
+   "v0": 0.4802
+  },
+  {
+   "id": "girl",
+   "type": 4,
+   "sex": "f",
+   "child": true,
+   "elder": false,
+   "height": 1.2211,
+   "k": 0.7099,
+   "S1": 0.6744,
+   "S2": 1.0649,
+   "Sf": 1.3489,
+   "v0": 0.4634
+  },
+  {
+   "id": "old_m",
+   "type": 5,
+   "sex": "m",
+   "child": false,
+   "elder": true,
+   "height": 1.6649,
+   "k": 0.968,
+   "S1": 0.7908,
+   "S2": 1.2487,
+   "Sf": 1.5817,
+   "v0": 0.5411
+  },
+  {
+   "id": "old_f",
+   "type": 5,
+   "sex": "f",
+   "child": false,
+   "elder": true,
+   "height": 1.4994,
+   "k": 0.8718,
+   "S1": 0.7122,
+   "S2": 1.1246,
+   "Sf": 1.4244,
+   "v0": 0.5135
+  }
+ ],
+ "sets": {
+  "prehistoric": {
+   "file": "prehistoric.glb",
+   "bodies": {
+    "man_a": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.55,
+        0.2
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.25,
+        0.6
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak-beard",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_a_0",
+       "tris": 4548,
+       "verts": 3048,
+       "perOutfit": [
+        3944,
+        4133,
+        3892,
+        4081
+       ]
+      },
+      {
+       "mesh": "man_a_1",
+       "tris": 1450,
+       "verts": 1231,
+       "perOutfit": [
+        1192,
+        1261,
+        1192,
+        1261
+       ]
+      },
+      {
+       "mesh": "man_a_2",
+       "tris": 284,
+       "verts": 385,
+       "perOutfit": [
+        257,
+        225,
+        257,
+        225
+       ]
+      },
+      {
+       "mesh": "man_a_3",
+       "tris": 93,
+       "verts": 159,
+       "perOutfit": [
+        86,
+        83,
+        86,
+        83
+       ]
+      }
+     ]
+    },
+    "man_b": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.55,
+        0.2
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.25,
+        0.6
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak-beard",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_b_0",
+       "tris": 4482,
+       "verts": 3001,
+       "perOutfit": [
+        3895,
+        4092,
+        3859,
+        4054
+       ]
+      },
+      {
+       "mesh": "man_b_1",
+       "tris": 1419,
+       "verts": 1197,
+       "perOutfit": [
+        1185,
+        1245,
+        1185,
+        1245
+       ]
+      },
+      {
+       "mesh": "man_b_2",
+       "tris": 282,
+       "verts": 386,
+       "perOutfit": [
+        256,
+        221,
+        256,
+        221
+       ]
+      },
+      {
+       "mesh": "man_b_3",
+       "tris": 94,
+       "verts": 162,
+       "perOutfit": [
+        88,
+        73,
+        88,
+        73
+       ]
+      }
+     ]
+    },
+    "man_c": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.55,
+        0.2
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.25,
+        0.6
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak-beard",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_c_0",
+       "tris": 4480,
+       "verts": 3030,
+       "perOutfit": [
+        3911,
+        4044,
+        3878,
+        4011
+       ]
+      },
+      {
+       "mesh": "man_c_1",
+       "tris": 1422,
+       "verts": 1231,
+       "perOutfit": [
+        1187,
+        1230,
+        1187,
+        1230
+       ]
+      },
+      {
+       "mesh": "man_c_2",
+       "tris": 292,
+       "verts": 406,
+       "perOutfit": [
+        265,
+        230,
+        265,
+        230
+       ]
+      },
+      {
+       "mesh": "man_c_3",
+       "tris": 93,
+       "verts": 167,
+       "perOutfit": [
+        87,
+        71,
+        87,
+        71
+       ]
+      }
+     ]
+    },
+    "woman_a": {
+     "outfits": [
+      {
+       "name": "dress",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "dress-cloak",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_a_0",
+       "tris": 4448,
+       "verts": 2877,
+       "perOutfit": [
+        3965,
+        4094
+       ]
+      },
+      {
+       "mesh": "woman_a_1",
+       "tris": 1399,
+       "verts": 1121,
+       "perOutfit": [
+        1250,
+        1282
+       ]
+      },
+      {
+       "mesh": "woman_a_2",
+       "tris": 262,
+       "verts": 348,
+       "perOutfit": [
+        247,
+        213
+       ]
+      },
+      {
+       "mesh": "woman_a_3",
+       "tris": 83,
+       "verts": 138,
+       "perOutfit": [
+        79,
+        71
+       ]
+      }
+     ]
+    },
+    "woman_b": {
+     "outfits": [
+      {
+       "name": "dress",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "dress-cloak",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_b_0",
+       "tris": 4327,
+       "verts": 2780,
+       "perOutfit": [
+        3866,
+        3991
+       ]
+      },
+      {
+       "mesh": "woman_b_1",
+       "tris": 1359,
+       "verts": 1094,
+       "perOutfit": [
+        1218,
+        1230
+       ]
+      },
+      {
+       "mesh": "woman_b_2",
+       "tris": 269,
+       "verts": 357,
+       "perOutfit": [
+        254,
+        221
+       ]
+      },
+      {
+       "mesh": "woman_b_3",
+       "tris": 81,
+       "verts": 138,
+       "perOutfit": [
+        77,
+        60
+       ]
+      }
+     ]
+    },
+    "woman_c": {
+     "outfits": [
+      {
+       "name": "dress",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "dress-cloak",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_c_0",
+       "tris": 4389,
+       "verts": 2820,
+       "perOutfit": [
+        3927,
+        4061
+       ]
+      },
+      {
+       "mesh": "woman_c_1",
+       "tris": 1382,
+       "verts": 1106,
+       "perOutfit": [
+        1240,
+        1247
+       ]
+      },
+      {
+       "mesh": "woman_c_2",
+       "tris": 264,
+       "verts": 343,
+       "perOutfit": [
+        249,
+        210
+       ]
+      },
+      {
+       "mesh": "woman_c_3",
+       "tris": 82,
+       "verts": 135,
+       "perOutfit": [
+        78,
+        67
+       ]
+      }
+     ]
+    },
+    "tall": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.55,
+        0.2
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.25,
+        0.6
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak-beard",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "tall_0",
+       "tris": 4665,
+       "verts": 3098,
+       "perOutfit": [
+        4008,
+        4238,
+        3956,
+        4186
+       ]
+      },
+      {
+       "mesh": "tall_1",
+       "tris": 1459,
+       "verts": 1213,
+       "perOutfit": [
+        1192,
+        1255,
+        1192,
+        1255
+       ]
+      },
+      {
+       "mesh": "tall_2",
+       "tris": 290,
+       "verts": 379,
+       "perOutfit": [
+        264,
+        236,
+        264,
+        236
+       ]
+      },
+      {
+       "mesh": "tall_3",
+       "tris": 96,
+       "verts": 170,
+       "perOutfit": [
+        88,
+        77,
+        88,
+        77
+       ]
+      }
+     ]
+    },
+    "stout_m": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.55,
+        0.2
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.25,
+        0.6
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak-beard",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_m_0",
+       "tris": 4572,
+       "verts": 3077,
+       "perOutfit": [
+        3949,
+        4118,
+        3917,
+        4086
+       ]
+      },
+      {
+       "mesh": "stout_m_1",
+       "tris": 1426,
+       "verts": 1221,
+       "perOutfit": [
+        1181,
+        1235,
+        1181,
+        1235
+       ]
+      },
+      {
+       "mesh": "stout_m_2",
+       "tris": 295,
+       "verts": 404,
+       "perOutfit": [
+        264,
+        226,
+        264,
+        226
+       ]
+      },
+      {
+       "mesh": "stout_m_3",
+       "tris": 100,
+       "verts": 179,
+       "perOutfit": [
+        90,
+        73,
+        90,
+        73
+       ]
+      }
+     ]
+    },
+    "stout_f": {
+     "outfits": [
+      {
+       "name": "dress",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "dress-cloak",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_f_0",
+       "tris": 4433,
+       "verts": 2806,
+       "perOutfit": [
+        3971,
+        4113
+       ]
+      },
+      {
+       "mesh": "stout_f_1",
+       "tris": 1401,
+       "verts": 1140,
+       "perOutfit": [
+        1260,
+        1286
+       ]
+      },
+      {
+       "mesh": "stout_f_2",
+       "tris": 259,
+       "verts": 336,
+       "perOutfit": [
+        245,
+        224
+       ]
+      },
+      {
+       "mesh": "stout_f_3",
+       "tris": 88,
+       "verts": 140,
+       "perOutfit": [
+        84,
+        76
+       ]
+      }
+     ]
+    },
+    "boy": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.55,
+        0.2
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.25,
+        0.6
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak-beard",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "boy_0",
+       "tris": 3968,
+       "verts": 2624,
+       "perOutfit": [
+        3644,
+        3705,
+        3644,
+        3705
+       ]
+      },
+      {
+       "mesh": "boy_1",
+       "tris": 1286,
+       "verts": 1061,
+       "perOutfit": [
+        1187,
+        1201,
+        1187,
+        1201
+       ]
+      },
+      {
+       "mesh": "boy_2",
+       "tris": 278,
+       "verts": 367,
+       "perOutfit": [
+        268,
+        216,
+        268,
+        216
+       ]
+      },
+      {
+       "mesh": "boy_3",
+       "tris": 93,
+       "verts": 156,
+       "perOutfit": [
+        89,
+        75,
+        89,
+        75
+       ]
+      }
+     ]
+    },
+    "girl": {
+     "outfits": [
+      {
+       "name": "dress",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "dress-cloak",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "girl_0",
+       "tris": 3786,
+       "verts": 2442,
+       "perOutfit": [
+        3501,
+        3552
+       ]
+      },
+      {
+       "mesh": "girl_1",
+       "tris": 1249,
+       "verts": 1013,
+       "perOutfit": [
+        1163,
+        1145
+       ]
+      },
+      {
+       "mesh": "girl_2",
+       "tris": 241,
+       "verts": 306,
+       "perOutfit": [
+        231,
+        195
+       ]
+      },
+      {
+       "mesh": "girl_3",
+       "tris": 88,
+       "verts": 136,
+       "perOutfit": [
+        84,
+        74
+       ]
+      }
+     ]
+    },
+    "old_m": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.55,
+        0.2
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.25,
+        0.6
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak-beard",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_m_0",
+       "tris": 4454,
+       "verts": 3023,
+       "perOutfit": [
+        3894,
+        4040,
+        3860,
+        4006
+       ]
+      },
+      {
+       "mesh": "old_m_1",
+       "tris": 1418,
+       "verts": 1267,
+       "perOutfit": [
+        1183,
+        1235,
+        1183,
+        1235
+       ]
+      },
+      {
+       "mesh": "old_m_2",
+       "tris": 283,
+       "verts": 382,
+       "perOutfit": [
+        258,
+        223,
+        258,
+        223
+       ]
+      },
+      {
+       "mesh": "old_m_3",
+       "tris": 93,
+       "verts": 157,
+       "perOutfit": [
+        89,
+        78,
+        89,
+        78
+       ]
+      }
+     ]
+    },
+    "old_f": {
+     "outfits": [
+      {
+       "name": "dress",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "dress-cloak",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_f_0",
+       "tris": 4343,
+       "verts": 2767,
+       "perOutfit": [
+        3910,
+        4042
+       ]
+      },
+      {
+       "mesh": "old_f_1",
+       "tris": 1382,
+       "verts": 1106,
+       "perOutfit": [
+        1250,
+        1260
+       ]
+      },
+      {
+       "mesh": "old_f_2",
+       "tris": 276,
+       "verts": 363,
+       "perOutfit": [
+        262,
+        229
+       ]
+      },
+      {
+       "mesh": "old_f_3",
+       "tris": 82,
+       "verts": 143,
+       "perOutfit": [
+        78,
+        64
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "roman": {
+   "file": "roman.glb",
+   "bodies": {
+    "man_a": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.45,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.35,
+        0.3
+       ]
+      },
+      {
+       "name": "longtunic-cloak",
+       "w": [
+        0.0,
+        0.4
+       ]
+      },
+      {
+       "name": "longtunic",
+       "w": [
+        0.0,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_a_0",
+       "tris": 5423,
+       "verts": 3651,
+       "perOutfit": [
+        3945,
+        3893,
+        3963,
+        4111,
+        4020
+       ]
+      },
+      {
+       "mesh": "man_a_1",
+       "tris": 1749,
+       "verts": 1512,
+       "perOutfit": [
+        1197,
+        1197,
+        1175,
+        1248,
+        1277
+       ]
+      },
+      {
+       "mesh": "man_a_2",
+       "tris": 321,
+       "verts": 451,
+       "perOutfit": [
+        257,
+        257,
+        200,
+        194,
+        247
+       ]
+      },
+      {
+       "mesh": "man_a_3",
+       "tris": 101,
+       "verts": 191,
+       "perOutfit": [
+        84,
+        84,
+        69,
+        60,
+        73
+       ]
+      }
+     ]
+    },
+    "man_b": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.45,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.35,
+        0.3
+       ]
+      },
+      {
+       "name": "longtunic-cloak",
+       "w": [
+        0.0,
+        0.4
+       ]
+      },
+      {
+       "name": "longtunic",
+       "w": [
+        0.0,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_b_0",
+       "tris": 5369,
+       "verts": 3634,
+       "perOutfit": [
+        3914,
+        3878,
+        3964,
+        4107,
+        4028
+       ]
+      },
+      {
+       "mesh": "man_b_1",
+       "tris": 1698,
+       "verts": 1444,
+       "perOutfit": [
+        1187,
+        1187,
+        1181,
+        1278,
+        1278
+       ]
+      },
+      {
+       "mesh": "man_b_2",
+       "tris": 315,
+       "verts": 425,
+       "perOutfit": [
+        256,
+        256,
+        192,
+        190,
+        248
+       ]
+      },
+      {
+       "mesh": "man_b_3",
+       "tris": 99,
+       "verts": 173,
+       "perOutfit": [
+        86,
+        86,
+        58,
+        49,
+        74
+       ]
+      }
+     ]
+    },
+    "man_c": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.45,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.35,
+        0.3
+       ]
+      },
+      {
+       "name": "longtunic-cloak",
+       "w": [
+        0.0,
+        0.4
+       ]
+      },
+      {
+       "name": "longtunic",
+       "w": [
+        0.0,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_c_0",
+       "tris": 5326,
+       "verts": 3629,
+       "perOutfit": [
+        3904,
+        3871,
+        3887,
+        4045,
+        4018
+       ]
+      },
+      {
+       "mesh": "man_c_1",
+       "tris": 1703,
+       "verts": 1513,
+       "perOutfit": [
+        1189,
+        1189,
+        1164,
+        1265,
+        1280
+       ]
+      },
+      {
+       "mesh": "man_c_2",
+       "tris": 323,
+       "verts": 456,
+       "perOutfit": [
+        258,
+        258,
+        198,
+        190,
+        247
+       ]
+      },
+      {
+       "mesh": "man_c_3",
+       "tris": 101,
+       "verts": 190,
+       "perOutfit": [
+        87,
+        87,
+        65,
+        56,
+        77
+       ]
+      }
+     ]
+    },
+    "woman_a": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      },
+      {
+       "name": "tunic-mantle",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "tunic-mantle-head",
+       "w": [
+        0.3,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_a_0",
+       "tris": 4754,
+       "verts": 3238,
+       "perOutfit": [
+        4080,
+        4090,
+        3463
+       ]
+      },
+      {
+       "mesh": "woman_a_1",
+       "tris": 1702,
+       "verts": 1373,
+       "perOutfit": [
+        1276,
+        1254,
+        1186
+       ]
+      },
+      {
+       "mesh": "woman_a_2",
+       "tris": 292,
+       "verts": 391,
+       "perOutfit": [
+        245,
+        198,
+        192
+       ]
+      },
+      {
+       "mesh": "woman_a_3",
+       "tris": 90,
+       "verts": 165,
+       "perOutfit": [
+        77,
+        56,
+        54
+       ]
+      }
+     ]
+    },
+    "woman_b": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      },
+      {
+       "name": "tunic-mantle",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "tunic-mantle-head",
+       "w": [
+        0.3,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_b_0",
+       "tris": 4626,
+       "verts": 3135,
+       "perOutfit": [
+        3978,
+        3967,
+        3341
+       ]
+      },
+      {
+       "mesh": "woman_b_1",
+       "tris": 1672,
+       "verts": 1350,
+       "perOutfit": [
+        1247,
+        1207,
+        1139
+       ]
+      },
+      {
+       "mesh": "woman_b_2",
+       "tris": 301,
+       "verts": 392,
+       "perOutfit": [
+        253,
+        197,
+        189
+       ]
+      },
+      {
+       "mesh": "woman_b_3",
+       "tris": 88,
+       "verts": 154,
+       "perOutfit": [
+        79,
+        55,
+        53
+       ]
+      }
+     ]
+    },
+    "woman_c": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      },
+      {
+       "name": "tunic-mantle",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "tunic-mantle-head",
+       "w": [
+        0.3,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_c_0",
+       "tris": 4698,
+       "verts": 3176,
+       "perOutfit": [
+        4044,
+        4050,
+        3443
+       ]
+      },
+      {
+       "mesh": "woman_c_1",
+       "tris": 1705,
+       "verts": 1373,
+       "perOutfit": [
+        1270,
+        1238,
+        1160
+       ]
+      },
+      {
+       "mesh": "woman_c_2",
+       "tris": 290,
+       "verts": 370,
+       "perOutfit": [
+        246,
+        193,
+        183
+       ]
+      },
+      {
+       "mesh": "woman_c_3",
+       "tris": 86,
+       "verts": 153,
+       "perOutfit": [
+        74,
+        61,
+        58
+       ]
+      }
+     ]
+    },
+    "tall": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.45,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.35,
+        0.3
+       ]
+      },
+      {
+       "name": "longtunic-cloak",
+       "w": [
+        0.0,
+        0.4
+       ]
+      },
+      {
+       "name": "longtunic",
+       "w": [
+        0.0,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "tall_0",
+       "tris": 5613,
+       "verts": 3720,
+       "perOutfit": [
+        4031,
+        3979,
+        4115,
+        4236,
+        4091
+       ]
+      },
+      {
+       "mesh": "tall_1",
+       "tris": 1766,
+       "verts": 1463,
+       "perOutfit": [
+        1199,
+        1199,
+        1219,
+        1293,
+        1288
+       ]
+      },
+      {
+       "mesh": "tall_2",
+       "tris": 329,
+       "verts": 442,
+       "perOutfit": [
+        262,
+        262,
+        205,
+        195,
+        252
+       ]
+      },
+      {
+       "mesh": "tall_3",
+       "tris": 118,
+       "verts": 225,
+       "perOutfit": [
+        88,
+        88,
+        70,
+        66,
+        84
+       ]
+      }
+     ]
+    },
+    "stout_m": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.45,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.35,
+        0.3
+       ]
+      },
+      {
+       "name": "longtunic-cloak",
+       "w": [
+        0.0,
+        0.4
+       ]
+      },
+      {
+       "name": "longtunic",
+       "w": [
+        0.0,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_m_0",
+       "tris": 5498,
+       "verts": 3715,
+       "perOutfit": [
+        3946,
+        3914,
+        3968,
+        4137,
+        4073
+       ]
+      },
+      {
+       "mesh": "stout_m_1",
+       "tris": 1729,
+       "verts": 1486,
+       "perOutfit": [
+        1187,
+        1187,
+        1177,
+        1276,
+        1286
+       ]
+      },
+      {
+       "mesh": "stout_m_2",
+       "tris": 339,
+       "verts": 476,
+       "perOutfit": [
+        265,
+        265,
+        205,
+        194,
+        253
+       ]
+      },
+      {
+       "mesh": "stout_m_3",
+       "tris": 116,
+       "verts": 204,
+       "perOutfit": [
+        91,
+        91,
+        69,
+        62,
+        84
+       ]
+      }
+     ]
+    },
+    "stout_f": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      },
+      {
+       "name": "tunic-mantle",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "tunic-mantle-head",
+       "w": [
+        0.3,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_f_0",
+       "tris": 4728,
+       "verts": 3174,
+       "perOutfit": [
+        4069,
+        4096,
+        3492
+       ]
+      },
+      {
+       "mesh": "stout_f_1",
+       "tris": 1707,
+       "verts": 1392,
+       "perOutfit": [
+        1279,
+        1275,
+        1209
+       ]
+      },
+      {
+       "mesh": "stout_f_2",
+       "tris": 284,
+       "verts": 373,
+       "perOutfit": [
+        239,
+        194,
+        186
+       ]
+      },
+      {
+       "mesh": "stout_f_3",
+       "tris": 91,
+       "verts": 161,
+       "perOutfit": [
+        75,
+        61,
+        60
+       ]
+      }
+     ]
+    },
+    "boy": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.45,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.35,
+        0.3
+       ]
+      },
+      {
+       "name": "longtunic-cloak",
+       "w": [
+        0.0,
+        0.4
+       ]
+      },
+      {
+       "name": "longtunic",
+       "w": [
+        0.0,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "boy_0",
+       "tris": 4497,
+       "verts": 3065,
+       "perOutfit": [
+        3650,
+        3650,
+        3600,
+        3664,
+        3724
+       ]
+      },
+      {
+       "mesh": "boy_1",
+       "tris": 1463,
+       "verts": 1277,
+       "perOutfit": [
+        1190,
+        1190,
+        1151,
+        1174,
+        1218
+       ]
+      },
+      {
+       "mesh": "boy_2",
+       "tris": 298,
+       "verts": 394,
+       "perOutfit": [
+        267,
+        267,
+        194,
+        175,
+        241
+       ]
+      },
+      {
+       "mesh": "boy_3",
+       "tris": 106,
+       "verts": 191,
+       "perOutfit": [
+        89,
+        89,
+        67,
+        62,
+        85
+       ]
+      }
+     ]
+    },
+    "girl": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      },
+      {
+       "name": "tunic-mantle",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "tunic-mantle-head",
+       "w": [
+        0.3,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "girl_0",
+       "tris": 4010,
+       "verts": 2715,
+       "perOutfit": [
+        3583,
+        3535,
+        2798
+       ]
+      },
+      {
+       "mesh": "girl_1",
+       "tris": 1588,
+       "verts": 1277,
+       "perOutfit": [
+        1179,
+        1112,
+        1047
+       ]
+      },
+      {
+       "mesh": "girl_2",
+       "tris": 271,
+       "verts": 348,
+       "perOutfit": [
+        228,
+        176,
+        168
+       ]
+      },
+      {
+       "mesh": "girl_3",
+       "tris": 102,
+       "verts": 179,
+       "perOutfit": [
+        85,
+        62,
+        60
+       ]
+      }
+     ]
+    },
+    "old_m": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.45,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.35,
+        0.3
+       ]
+      },
+      {
+       "name": "longtunic-cloak",
+       "w": [
+        0.0,
+        0.4
+       ]
+      },
+      {
+       "name": "longtunic",
+       "w": [
+        0.0,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_m_0",
+       "tris": 5327,
+       "verts": 3641,
+       "perOutfit": [
+        3906,
+        3872,
+        3877,
+        4053,
+        4033
+       ]
+      },
+      {
+       "mesh": "old_m_1",
+       "tris": 1710,
+       "verts": 1526,
+       "perOutfit": [
+        1187,
+        1187,
+        1183,
+        1267,
+        1279
+       ]
+      },
+      {
+       "mesh": "old_m_2",
+       "tris": 318,
+       "verts": 444,
+       "perOutfit": [
+        258,
+        258,
+        194,
+        185,
+        250
+       ]
+      },
+      {
+       "mesh": "old_m_3",
+       "tris": 105,
+       "verts": 184,
+       "perOutfit": [
+        89,
+        89,
+        60,
+        55,
+        84
+       ]
+      }
+     ]
+    },
+    "old_f": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      },
+      {
+       "name": "tunic-mantle",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "tunic-mantle-head",
+       "w": [
+        0.3,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_f_0",
+       "tris": 4631,
+       "verts": 3140,
+       "perOutfit": [
+        4013,
+        4008,
+        3382
+       ]
+      },
+      {
+       "mesh": "old_f_1",
+       "tris": 1694,
+       "verts": 1367,
+       "perOutfit": [
+        1270,
+        1235,
+        1165
+       ]
+      },
+      {
+       "mesh": "old_f_2",
+       "tris": 299,
+       "verts": 385,
+       "perOutfit": [
+        250,
+        200,
+        194
+       ]
+      },
+      {
+       "mesh": "old_f_3",
+       "tris": 92,
+       "verts": 172,
+       "perOutfit": [
+        78,
+        60,
+        60
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "saxon": {
+   "file": "saxon.glb",
+   "bodies": {
+    "man_a": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.2,
+        0.5
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.2,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_a_0",
+       "tris": 4694,
+       "verts": 3207,
+       "perOutfit": [
+        4075,
+        4023,
+        4153,
+        4089
+       ]
+      },
+      {
+       "mesh": "man_a_1",
+       "tris": 1457,
+       "verts": 1266,
+       "perOutfit": [
+        1194,
+        1194,
+        1262,
+        1140
+       ]
+      },
+      {
+       "mesh": "man_a_2",
+       "tris": 292,
+       "verts": 401,
+       "perOutfit": [
+        257,
+        257,
+        227,
+        261
+       ]
+      },
+      {
+       "mesh": "man_a_3",
+       "tris": 96,
+       "verts": 169,
+       "perOutfit": [
+        85,
+        85,
+        83,
+        89
+       ]
+      }
+     ]
+    },
+    "man_b": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.2,
+        0.5
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.2,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_b_0",
+       "tris": 4623,
+       "verts": 3149,
+       "perOutfit": [
+        4020,
+        3984,
+        4095,
+        4037
+       ]
+      },
+      {
+       "mesh": "man_b_1",
+       "tris": 1423,
+       "verts": 1247,
+       "perOutfit": [
+        1183,
+        1183,
+        1251,
+        1132
+       ]
+      },
+      {
+       "mesh": "man_b_2",
+       "tris": 291,
+       "verts": 404,
+       "perOutfit": [
+        256,
+        256,
+        222,
+        260
+       ]
+      },
+      {
+       "mesh": "man_b_3",
+       "tris": 96,
+       "verts": 167,
+       "perOutfit": [
+        86,
+        86,
+        72,
+        90
+       ]
+      }
+     ]
+    },
+    "man_c": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.2,
+        0.5
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.2,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_c_0",
+       "tris": 4591,
+       "verts": 3141,
+       "perOutfit": [
+        4005,
+        3972,
+        4085,
+        4021
+       ]
+      },
+      {
+       "mesh": "man_c_1",
+       "tris": 1430,
+       "verts": 1268,
+       "perOutfit": [
+        1189,
+        1189,
+        1235,
+        1131
+       ]
+      },
+      {
+       "mesh": "man_c_2",
+       "tris": 302,
+       "verts": 425,
+       "perOutfit": [
+        265,
+        265,
+        231,
+        269
+       ]
+      },
+      {
+       "mesh": "man_c_3",
+       "tris": 95,
+       "verts": 166,
+       "perOutfit": [
+        86,
+        86,
+        73,
+        89
+       ]
+      }
+     ]
+    },
+    "woman_a": {
+     "outfits": [
+      {
+       "name": "gown-veil",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "gown-veil-cloak",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-hair",
+       "w": [
+        0.1,
+        0.1
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_a_0",
+       "tris": 4617,
+       "verts": 3127,
+       "perOutfit": [
+        3473,
+        3568,
+        4025
+       ]
+      },
+      {
+       "mesh": "woman_a_1",
+       "tris": 1668,
+       "verts": 1348,
+       "perOutfit": [
+        1210,
+        1246,
+        1265
+       ]
+      },
+      {
+       "mesh": "woman_a_2",
+       "tris": 291,
+       "verts": 375,
+       "perOutfit": [
+        236,
+        207,
+        246
+       ]
+      },
+      {
+       "mesh": "woman_a_3",
+       "tris": 88,
+       "verts": 153,
+       "perOutfit": [
+        77,
+        68,
+        77
+       ]
+      }
+     ]
+    },
+    "woman_b": {
+     "outfits": [
+      {
+       "name": "gown-veil",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "gown-veil-cloak",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-hair",
+       "w": [
+        0.1,
+        0.1
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_b_0",
+       "tris": 4494,
+       "verts": 3010,
+       "perOutfit": [
+        3343,
+        3443,
+        3924
+       ]
+      },
+      {
+       "mesh": "woman_b_1",
+       "tris": 1640,
+       "verts": 1342,
+       "perOutfit": [
+        1177,
+        1191,
+        1236
+       ]
+      },
+      {
+       "mesh": "woman_b_2",
+       "tris": 296,
+       "verts": 381,
+       "perOutfit": [
+        239,
+        212,
+        251
+       ]
+      },
+      {
+       "mesh": "woman_b_3",
+       "tris": 86,
+       "verts": 154,
+       "perOutfit": [
+        77,
+        60,
+        77
+       ]
+      }
+     ]
+    },
+    "woman_c": {
+     "outfits": [
+      {
+       "name": "gown-veil",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "gown-veil-cloak",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-hair",
+       "w": [
+        0.1,
+        0.1
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_c_0",
+       "tris": 4578,
+       "verts": 3082,
+       "perOutfit": [
+        3452,
+        3564,
+        3998
+       ]
+      },
+      {
+       "mesh": "woman_c_1",
+       "tris": 1673,
+       "verts": 1367,
+       "perOutfit": [
+        1192,
+        1197,
+        1259
+       ]
+      },
+      {
+       "mesh": "woman_c_2",
+       "tris": 288,
+       "verts": 365,
+       "perOutfit": [
+        234,
+        197,
+        247
+       ]
+      },
+      {
+       "mesh": "woman_c_3",
+       "tris": 85,
+       "verts": 150,
+       "perOutfit": [
+        71,
+        62,
+        74
+       ]
+      }
+     ]
+    },
+    "tall": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.2,
+        0.5
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.2,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "tall_0",
+       "tris": 4835,
+       "verts": 3256,
+       "perOutfit": [
+        4167,
+        4115,
+        4280,
+        4166
+       ]
+      },
+      {
+       "mesh": "tall_1",
+       "tris": 1469,
+       "verts": 1254,
+       "perOutfit": [
+        1197,
+        1197,
+        1276,
+        1145
+       ]
+      },
+      {
+       "mesh": "tall_2",
+       "tris": 297,
+       "verts": 398,
+       "perOutfit": [
+        262,
+        262,
+        237,
+        268
+       ]
+      },
+      {
+       "mesh": "tall_3",
+       "tris": 99,
+       "verts": 180,
+       "perOutfit": [
+        88,
+        88,
+        80,
+        91
+       ]
+      }
+     ]
+    },
+    "stout_m": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.2,
+        0.5
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.2,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_m_0",
+       "tris": 4687,
+       "verts": 3203,
+       "perOutfit": [
+        4051,
+        4019,
+        4144,
+        4068
+       ]
+      },
+      {
+       "mesh": "stout_m_1",
+       "tris": 1435,
+       "verts": 1273,
+       "perOutfit": [
+        1185,
+        1185,
+        1244,
+        1129
+       ]
+      },
+      {
+       "mesh": "stout_m_2",
+       "tris": 304,
+       "verts": 421,
+       "perOutfit": [
+        264,
+        264,
+        228,
+        270
+       ]
+      },
+      {
+       "mesh": "stout_m_3",
+       "tris": 104,
+       "verts": 197,
+       "perOutfit": [
+        91,
+        91,
+        75,
+        95
+       ]
+      }
+     ]
+    },
+    "stout_f": {
+     "outfits": [
+      {
+       "name": "gown-veil",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "gown-veil-cloak",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-hair",
+       "w": [
+        0.1,
+        0.1
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_f_0",
+       "tris": 4634,
+       "verts": 3080,
+       "perOutfit": [
+        3483,
+        3603,
+        4054
+       ]
+      },
+      {
+       "mesh": "stout_f_1",
+       "tris": 1678,
+       "verts": 1376,
+       "perOutfit": [
+        1213,
+        1246,
+        1270
+       ]
+      },
+      {
+       "mesh": "stout_f_2",
+       "tris": 282,
+       "verts": 360,
+       "perOutfit": [
+        230,
+        209,
+        239
+       ]
+      },
+      {
+       "mesh": "stout_f_3",
+       "tris": 93,
+       "verts": 161,
+       "perOutfit": [
+        74,
+        67,
+        77
+       ]
+      }
+     ]
+    },
+    "boy": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.2,
+        0.5
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.2,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "boy_0",
+       "tris": 4061,
+       "verts": 2742,
+       "perOutfit": [
+        3711,
+        3711,
+        3745,
+        3727
+       ]
+      },
+      {
+       "mesh": "boy_1",
+       "tris": 1297,
+       "verts": 1098,
+       "perOutfit": [
+        1189,
+        1189,
+        1206,
+        1114
+       ]
+      },
+      {
+       "mesh": "boy_2",
+       "tris": 287,
+       "verts": 382,
+       "perOutfit": [
+        267,
+        267,
+        216,
+        271
+       ]
+      },
+      {
+       "mesh": "boy_3",
+       "tris": 97,
+       "verts": 175,
+       "perOutfit": [
+        89,
+        89,
+        76,
+        93
+       ]
+      }
+     ]
+    },
+    "girl": {
+     "outfits": [
+      {
+       "name": "gown",
+       "w": [
+        0.7,
+        0.7
+       ]
+      },
+      {
+       "name": "gown-cloak",
+       "w": [
+        0.3,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "girl_0",
+       "tris": 3833,
+       "verts": 2478,
+       "perOutfit": [
+        3557,
+        3596
+       ]
+      },
+      {
+       "mesh": "girl_1",
+       "tris": 1258,
+       "verts": 1020,
+       "perOutfit": [
+        1173,
+        1158
+       ]
+      },
+      {
+       "mesh": "girl_2",
+       "tris": 238,
+       "verts": 305,
+       "perOutfit": [
+        228,
+        185
+       ]
+      },
+      {
+       "mesh": "girl_3",
+       "tris": 87,
+       "verts": 144,
+       "perOutfit": [
+        83,
+        73
+       ]
+      }
+     ]
+    },
+    "old_m": {
+     "outfits": [
+      {
+       "name": "tunic",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-beard",
+       "w": [
+        0.3,
+        0.1
+       ]
+      },
+      {
+       "name": "tunic-cloak",
+       "w": [
+        0.2,
+        0.5
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.2,
+        0.3
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_m_0",
+       "tris": 4565,
+       "verts": 3137,
+       "perOutfit": [
+        3986,
+        3952,
+        4043,
+        4004
+       ]
+      },
+      {
+       "mesh": "old_m_1",
+       "tris": 1424,
+       "verts": 1313,
+       "perOutfit": [
+        1182,
+        1182,
+        1233,
+        1122
+       ]
+      },
+      {
+       "mesh": "old_m_2",
+       "tris": 291,
+       "verts": 401,
+       "perOutfit": [
+        258,
+        258,
+        224,
+        264
+       ]
+      },
+      {
+       "mesh": "old_m_3",
+       "tris": 97,
+       "verts": 170,
+       "perOutfit": [
+        89,
+        89,
+        78,
+        93
+       ]
+      }
+     ]
+    },
+    "old_f": {
+     "outfits": [
+      {
+       "name": "gown-veil",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "gown-veil-cloak",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-hair",
+       "w": [
+        0.1,
+        0.1
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_f_0",
+       "tris": 4517,
+       "verts": 3036,
+       "perOutfit": [
+        3384,
+        3505,
+        3969
+       ]
+      },
+      {
+       "mesh": "old_f_1",
+       "tris": 1664,
+       "verts": 1344,
+       "perOutfit": [
+        1200,
+        1211,
+        1261
+       ]
+      },
+      {
+       "mesh": "old_f_2",
+       "tris": 296,
+       "verts": 374,
+       "perOutfit": [
+        244,
+        214,
+        249
+       ]
+      },
+      {
+       "mesh": "old_f_3",
+       "tris": 98,
+       "verts": 176,
+       "perOutfit": [
+        78,
+        64,
+        78
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "medieval": {
+   "file": "medieval.glb",
+   "bodies": {
+    "man_a": {
+     "outfits": [
+      {
+       "name": "cote",
+       "w": [
+        0.3,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-hood",
+       "w": [
+        0.35,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-coif",
+       "w": [
+        0.15,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "long-hood",
+       "w": [
+        0.0,
+        0.55
+       ]
+      },
+      {
+       "name": "long",
+       "w": [
+        0.0,
+        0.45
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_a_0",
+       "tris": 5298,
+       "verts": 3696,
+       "perOutfit": [
+        4067,
+        3644,
+        4008,
+        4015,
+        3866,
+        4237
+       ]
+      },
+      {
+       "mesh": "man_a_1",
+       "tris": 2004,
+       "verts": 1650,
+       "perOutfit": [
+        1206,
+        1255,
+        1206,
+        1206,
+        1342,
+        1293
+       ]
+      },
+      {
+       "mesh": "man_a_2",
+       "tris": 328,
+       "verts": 425,
+       "perOutfit": [
+        251,
+        243,
+        251,
+        251,
+        240,
+        248
+       ]
+      },
+      {
+       "mesh": "man_a_3",
+       "tris": 98,
+       "verts": 191,
+       "perOutfit": [
+        81,
+        81,
+        81,
+        81,
+        73,
+        75
+       ]
+      }
+     ]
+    },
+    "man_b": {
+     "outfits": [
+      {
+       "name": "cote",
+       "w": [
+        0.3,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-hood",
+       "w": [
+        0.35,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-coif",
+       "w": [
+        0.15,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "long-hood",
+       "w": [
+        0.0,
+        0.55
+       ]
+      },
+      {
+       "name": "long",
+       "w": [
+        0.0,
+        0.45
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_b_0",
+       "tris": 5181,
+       "verts": 3615,
+       "perOutfit": [
+        4004,
+        3559,
+        3940,
+        3968,
+        3776,
+        4185
+       ]
+      },
+      {
+       "mesh": "man_b_1",
+       "tris": 1972,
+       "verts": 1630,
+       "perOutfit": [
+        1190,
+        1216,
+        1190,
+        1190,
+        1308,
+        1282
+       ]
+      },
+      {
+       "mesh": "man_b_2",
+       "tris": 329,
+       "verts": 444,
+       "perOutfit": [
+        253,
+        234,
+        253,
+        253,
+        229,
+        248
+       ]
+      },
+      {
+       "mesh": "man_b_3",
+       "tris": 101,
+       "verts": 180,
+       "perOutfit": [
+        84,
+        80,
+        84,
+        84,
+        70,
+        72
+       ]
+      }
+     ]
+    },
+    "man_c": {
+     "outfits": [
+      {
+       "name": "cote",
+       "w": [
+        0.3,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-hood",
+       "w": [
+        0.35,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-coif",
+       "w": [
+        0.15,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "long-hood",
+       "w": [
+        0.0,
+        0.55
+       ]
+      },
+      {
+       "name": "long",
+       "w": [
+        0.0,
+        0.45
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_c_0",
+       "tris": 5133,
+       "verts": 3636,
+       "perOutfit": [
+        4010,
+        3555,
+        3956,
+        3977,
+        3736,
+        4158
+       ]
+      },
+      {
+       "mesh": "man_c_1",
+       "tris": 1984,
+       "verts": 1662,
+       "perOutfit": [
+        1201,
+        1244,
+        1201,
+        1201,
+        1312,
+        1269
+       ]
+      },
+      {
+       "mesh": "man_c_2",
+       "tris": 340,
+       "verts": 475,
+       "perOutfit": [
+        257,
+        244,
+        257,
+        257,
+        236,
+        249
+       ]
+      },
+      {
+       "mesh": "man_c_3",
+       "tris": 105,
+       "verts": 195,
+       "perOutfit": [
+        87,
+        83,
+        87,
+        87,
+        73,
+        77
+       ]
+      }
+     ]
+    },
+    "woman_a": {
+     "outfits": [
+      {
+       "name": "kirtle-veil-wimple",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "kirtle-veil",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-coif-apron",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-veil-apron",
+       "w": [
+        0.15,
+        0.15
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_a_0",
+       "tris": 4049,
+       "verts": 2722,
+       "perOutfit": [
+        2947,
+        3263,
+        3813,
+        3308
+       ]
+      },
+      {
+       "mesh": "woman_a_1",
+       "tris": 1521,
+       "verts": 1306,
+       "perOutfit": [
+        1150,
+        1150,
+        1236,
+        1181
+       ]
+      },
+      {
+       "mesh": "woman_a_2",
+       "tris": 274,
+       "verts": 359,
+       "perOutfit": [
+        225,
+        225,
+        235,
+        235
+       ]
+      },
+      {
+       "mesh": "woman_a_3",
+       "tris": 86,
+       "verts": 147,
+       "perOutfit": [
+        75,
+        75,
+        76,
+        79
+       ]
+      }
+     ]
+    },
+    "woman_b": {
+     "outfits": [
+      {
+       "name": "kirtle-veil-wimple",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "kirtle-veil",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-coif-apron",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-veil-apron",
+       "w": [
+        0.15,
+        0.15
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_b_0",
+       "tris": 3959,
+       "verts": 2691,
+       "perOutfit": [
+        2876,
+        3174,
+        3718,
+        3210
+       ]
+      },
+      {
+       "mesh": "woman_b_1",
+       "tris": 1504,
+       "verts": 1318,
+       "perOutfit": [
+        1144,
+        1144,
+        1232,
+        1175
+       ]
+      },
+      {
+       "mesh": "woman_b_2",
+       "tris": 274,
+       "verts": 360,
+       "perOutfit": [
+        224,
+        224,
+        234,
+        234
+       ]
+      },
+      {
+       "mesh": "woman_b_3",
+       "tris": 79,
+       "verts": 128,
+       "perOutfit": [
+        70,
+        70,
+        72,
+        74
+       ]
+      }
+     ]
+    },
+    "woman_c": {
+     "outfits": [
+      {
+       "name": "kirtle-veil-wimple",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "kirtle-veil",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-coif-apron",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-veil-apron",
+       "w": [
+        0.15,
+        0.15
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_c_0",
+       "tris": 4023,
+       "verts": 2698,
+       "perOutfit": [
+        2940,
+        3261,
+        3784,
+        3303
+       ]
+      },
+      {
+       "mesh": "woman_c_1",
+       "tris": 1551,
+       "verts": 1316,
+       "perOutfit": [
+        1158,
+        1158,
+        1253,
+        1188
+       ]
+      },
+      {
+       "mesh": "woman_c_2",
+       "tris": 272,
+       "verts": 358,
+       "perOutfit": [
+        225,
+        225,
+        238,
+        235
+       ]
+      },
+      {
+       "mesh": "woman_c_3",
+       "tris": 80,
+       "verts": 133,
+       "perOutfit": [
+        69,
+        69,
+        72,
+        73
+       ]
+      }
+     ]
+    },
+    "tall": {
+     "outfits": [
+      {
+       "name": "cote",
+       "w": [
+        0.3,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-hood",
+       "w": [
+        0.35,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-coif",
+       "w": [
+        0.15,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "long-hood",
+       "w": [
+        0.0,
+        0.55
+       ]
+      },
+      {
+       "name": "long",
+       "w": [
+        0.0,
+        0.45
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "tall_0",
+       "tris": 5459,
+       "verts": 3769,
+       "perOutfit": [
+        4159,
+        3726,
+        4083,
+        4107,
+        3967,
+        4348
+       ]
+      },
+      {
+       "mesh": "tall_1",
+       "tris": 2049,
+       "verts": 1675,
+       "perOutfit": [
+        1203,
+        1243,
+        1203,
+        1203,
+        1344,
+        1304
+       ]
+      },
+      {
+       "mesh": "tall_2",
+       "tris": 339,
+       "verts": 456,
+       "perOutfit": [
+        262,
+        255,
+        262,
+        262,
+        246,
+        253
+       ]
+      },
+      {
+       "mesh": "tall_3",
+       "tris": 112,
+       "verts": 227,
+       "perOutfit": [
+        87,
+        78,
+        87,
+        87,
+        72,
+        84
+       ]
+      }
+     ]
+    },
+    "stout_m": {
+     "outfits": [
+      {
+       "name": "cote",
+       "w": [
+        0.3,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-hood",
+       "w": [
+        0.35,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-coif",
+       "w": [
+        0.15,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "long-hood",
+       "w": [
+        0.0,
+        0.55
+       ]
+      },
+      {
+       "name": "long",
+       "w": [
+        0.0,
+        0.45
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_m_0",
+       "tris": 5311,
+       "verts": 3741,
+       "perOutfit": [
+        4039,
+        3591,
+        3971,
+        4007,
+        3827,
+        4243
+       ]
+      },
+      {
+       "mesh": "stout_m_1",
+       "tris": 2032,
+       "verts": 1697,
+       "perOutfit": [
+        1199,
+        1231,
+        1199,
+        1199,
+        1332,
+        1300
+       ]
+      },
+      {
+       "mesh": "stout_m_2",
+       "tris": 343,
+       "verts": 473,
+       "perOutfit": [
+        264,
+        244,
+        264,
+        264,
+        235,
+        254
+       ]
+      },
+      {
+       "mesh": "stout_m_3",
+       "tris": 107,
+       "verts": 207,
+       "perOutfit": [
+        87,
+        80,
+        87,
+        87,
+        78,
+        82
+       ]
+      }
+     ]
+    },
+    "stout_f": {
+     "outfits": [
+      {
+       "name": "kirtle-veil-wimple",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "kirtle-veil",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-coif-apron",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-veil-apron",
+       "w": [
+        0.15,
+        0.15
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_f_0",
+       "tris": 4106,
+       "verts": 2762,
+       "perOutfit": [
+        2985,
+        3320,
+        3864,
+        3373
+       ]
+      },
+      {
+       "mesh": "stout_f_1",
+       "tris": 1564,
+       "verts": 1362,
+       "perOutfit": [
+        1167,
+        1167,
+        1253,
+        1198
+       ]
+      },
+      {
+       "mesh": "stout_f_2",
+       "tris": 274,
+       "verts": 371,
+       "perOutfit": [
+        225,
+        225,
+        234,
+        235
+       ]
+      },
+      {
+       "mesh": "stout_f_3",
+       "tris": 90,
+       "verts": 160,
+       "perOutfit": [
+        75,
+        75,
+        76,
+        79
+       ]
+      }
+     ]
+    },
+    "boy": {
+     "outfits": [
+      {
+       "name": "cote",
+       "w": [
+        0.3,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-hood",
+       "w": [
+        0.35,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-coif",
+       "w": [
+        0.15,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "long-hood",
+       "w": [
+        0.0,
+        0.55
+       ]
+      },
+      {
+       "name": "long",
+       "w": [
+        0.0,
+        0.45
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "boy_0",
+       "tris": 4412,
+       "verts": 3132,
+       "perOutfit": [
+        3697,
+        2991,
+        3638,
+        3697,
+        3100,
+        3806
+       ]
+      },
+      {
+       "mesh": "boy_1",
+       "tris": 1920,
+       "verts": 1569,
+       "perOutfit": [
+        1193,
+        1207,
+        1193,
+        1193,
+        1234,
+        1220
+       ]
+      },
+      {
+       "mesh": "boy_2",
+       "tris": 319,
+       "verts": 410,
+       "perOutfit": [
+        258,
+        243,
+        258,
+        258,
+        227,
+        242
+       ]
+      },
+      {
+       "mesh": "boy_3",
+       "tris": 107,
+       "verts": 206,
+       "perOutfit": [
+        87,
+        87,
+        87,
+        87,
+        85,
+        85
+       ]
+      }
+     ]
+    },
+    "girl": {
+     "outfits": [
+      {
+       "name": "kirtle-hair",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "kirtle-coif",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "girl_0",
+       "tris": 3502,
+       "verts": 2248,
+       "perOutfit": [
+        3396,
+        3319
+       ]
+      },
+      {
+       "mesh": "girl_1",
+       "tris": 1335,
+       "verts": 1026,
+       "perOutfit": [
+        1111,
+        1106
+       ]
+      },
+      {
+       "mesh": "girl_2",
+       "tris": 235,
+       "verts": 278,
+       "perOutfit": [
+        221,
+        211
+       ]
+      },
+      {
+       "mesh": "girl_3",
+       "tris": 81,
+       "verts": 123,
+       "perOutfit": [
+        80,
+        77
+       ]
+      }
+     ]
+    },
+    "old_m": {
+     "outfits": [
+      {
+       "name": "cote",
+       "w": [
+        0.3,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-hood",
+       "w": [
+        0.35,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-coif",
+       "w": [
+        0.15,
+        0.0
+       ]
+      },
+      {
+       "name": "cote-beard",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "long-hood",
+       "w": [
+        0.0,
+        0.55
+       ]
+      },
+      {
+       "name": "long",
+       "w": [
+        0.0,
+        0.45
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_m_0",
+       "tris": 5183,
+       "verts": 3650,
+       "perOutfit": [
+        3969,
+        3536,
+        3914,
+        3935,
+        3773,
+        4172
+       ]
+      },
+      {
+       "mesh": "old_m_1",
+       "tris": 2036,
+       "verts": 1745,
+       "perOutfit": [
+        1194,
+        1232,
+        1194,
+        1194,
+        1332,
+        1294
+       ]
+      },
+      {
+       "mesh": "old_m_2",
+       "tris": 335,
+       "verts": 454,
+       "perOutfit": [
+        257,
+        249,
+        257,
+        257,
+        241,
+        249
+       ]
+      },
+      {
+       "mesh": "old_m_3",
+       "tris": 98,
+       "verts": 183,
+       "perOutfit": [
+        88,
+        87,
+        88,
+        88,
+        83,
+        84
+       ]
+      }
+     ]
+    },
+    "old_f": {
+     "outfits": [
+      {
+       "name": "kirtle-veil-wimple",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "kirtle-veil",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-coif-apron",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "kirtle-veil-apron",
+       "w": [
+        0.15,
+        0.15
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_f_0",
+       "tris": 3995,
+       "verts": 2692,
+       "perOutfit": [
+        2885,
+        3206,
+        3763,
+        3254
+       ]
+      },
+      {
+       "mesh": "old_f_1",
+       "tris": 1561,
+       "verts": 1343,
+       "perOutfit": [
+        1162,
+        1162,
+        1250,
+        1191
+       ]
+      },
+      {
+       "mesh": "old_f_2",
+       "tris": 275,
+       "verts": 372,
+       "perOutfit": [
+        231,
+        231,
+        238,
+        241
+       ]
+      },
+      {
+       "mesh": "old_f_3",
+       "tris": 86,
+       "verts": 170,
+       "perOutfit": [
+        70,
+        70,
+        70,
+        74
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "tudor": {
+   "file": "tudor.glb",
+   "bodies": {
+    "man_a": {
+     "outfits": [
+      {
+       "name": "doublet-cap",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat-ruff",
+       "w": [
+        0.1,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-cloak-hat",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "gown-cap",
+       "w": [
+        0.0,
+        0.45
+       ]
+      },
+      {
+       "name": "gown-hat",
+       "w": [
+        0.0,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-ruff",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_a_0",
+       "tris": 5606,
+       "verts": 3938,
+       "perOutfit": [
+        3887,
+        3894,
+        3790,
+        3881,
+        3970,
+        3892,
+        3951,
+        3924
+       ]
+      },
+      {
+       "mesh": "man_a_1",
+       "tris": 1742,
+       "verts": 1596,
+       "perOutfit": [
+        1106,
+        1152,
+        1146,
+        1151,
+        1204,
+        1183,
+        1229,
+        1177
+       ]
+      },
+      {
+       "mesh": "man_a_2",
+       "tris": 356,
+       "verts": 483,
+       "perOutfit": [
+        276,
+        279,
+        272,
+        289,
+        258,
+        233,
+        236,
+        243
+       ]
+      },
+      {
+       "mesh": "man_a_3",
+       "tris": 110,
+       "verts": 218,
+       "perOutfit": [
+        90,
+        89,
+        86,
+        93,
+        87,
+        72,
+        71,
+        76
+       ]
+      }
+     ]
+    },
+    "man_b": {
+     "outfits": [
+      {
+       "name": "doublet-cap",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat-ruff",
+       "w": [
+        0.1,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-cloak-hat",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "gown-cap",
+       "w": [
+        0.0,
+        0.45
+       ]
+      },
+      {
+       "name": "gown-hat",
+       "w": [
+        0.0,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-ruff",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_b_0",
+       "tris": 5468,
+       "verts": 3789,
+       "perOutfit": [
+        3814,
+        3839,
+        3732,
+        3821,
+        3887,
+        3857,
+        3918,
+        3875
+       ]
+      },
+      {
+       "mesh": "man_b_1",
+       "tris": 1717,
+       "verts": 1552,
+       "perOutfit": [
+        1105,
+        1154,
+        1147,
+        1149,
+        1199,
+        1191,
+        1240,
+        1178
+       ]
+      },
+      {
+       "mesh": "man_b_2",
+       "tris": 354,
+       "verts": 499,
+       "perOutfit": [
+        275,
+        280,
+        272,
+        290,
+        247,
+        225,
+        230,
+        234
+       ]
+      },
+      {
+       "mesh": "man_b_3",
+       "tris": 112,
+       "verts": 224,
+       "perOutfit": [
+        92,
+        92,
+        88,
+        96,
+        83,
+        62,
+        62,
+        64
+       ]
+      }
+     ]
+    },
+    "man_c": {
+     "outfits": [
+      {
+       "name": "doublet-cap",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat-ruff",
+       "w": [
+        0.1,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-cloak-hat",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "gown-cap",
+       "w": [
+        0.0,
+        0.45
+       ]
+      },
+      {
+       "name": "gown-hat",
+       "w": [
+        0.0,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-ruff",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_c_0",
+       "tris": 5420,
+       "verts": 3784,
+       "perOutfit": [
+        3796,
+        3822,
+        3721,
+        3805,
+        3886,
+        3837,
+        3896,
+        3859
+       ]
+      },
+      {
+       "mesh": "man_c_1",
+       "tris": 1714,
+       "verts": 1538,
+       "perOutfit": [
+        1102,
+        1140,
+        1145,
+        1143,
+        1182,
+        1172,
+        1210,
+        1171
+       ]
+      },
+      {
+       "mesh": "man_c_2",
+       "tris": 357,
+       "verts": 510,
+       "perOutfit": [
+        276,
+        278,
+        272,
+        288,
+        253,
+        216,
+        218,
+        226
+       ]
+      },
+      {
+       "mesh": "man_c_3",
+       "tris": 110,
+       "verts": 213,
+       "perOutfit": [
+        90,
+        90,
+        86,
+        94,
+        82,
+        71,
+        71,
+        72
+       ]
+      }
+     ]
+    },
+    "woman_a": {
+     "outfits": [
+      {
+       "name": "gown-coif",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-coif-apron",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-coif-hat",
+       "w": [
+        0.2,
+        0.2
+       ]
+      },
+      {
+       "name": "gown-coif-hat-apron",
+       "w": [
+        0.07,
+        0.07
+       ]
+      },
+      {
+       "name": "gown-coif-ruff",
+       "w": [
+        0.08,
+        0.08
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_a_0",
+       "tris": 4117,
+       "verts": 2626,
+       "perOutfit": [
+        3866,
+        3921,
+        3883,
+        3938,
+        3898
+       ]
+      },
+      {
+       "mesh": "woman_a_1",
+       "tris": 1304,
+       "verts": 1029,
+       "perOutfit": [
+        1227,
+        1256,
+        1187,
+        1216,
+        1240
+       ]
+      },
+      {
+       "mesh": "woman_a_2",
+       "tris": 253,
+       "verts": 304,
+       "perOutfit": [
+        224,
+        234,
+        226,
+        236,
+        233
+       ]
+      },
+      {
+       "mesh": "woman_a_3",
+       "tris": 82,
+       "verts": 131,
+       "perOutfit": [
+        72,
+        76,
+        75,
+        79,
+        75
+       ]
+      }
+     ]
+    },
+    "woman_b": {
+     "outfits": [
+      {
+       "name": "gown-coif",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-coif-apron",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-coif-hat",
+       "w": [
+        0.2,
+        0.2
+       ]
+      },
+      {
+       "name": "gown-coif-hat-apron",
+       "w": [
+        0.07,
+        0.07
+       ]
+      },
+      {
+       "name": "gown-coif-ruff",
+       "w": [
+        0.08,
+        0.08
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_b_0",
+       "tris": 4016,
+       "verts": 2565,
+       "perOutfit": [
+        3762,
+        3812,
+        3777,
+        3827,
+        3781
+       ]
+      },
+      {
+       "mesh": "woman_b_1",
+       "tris": 1298,
+       "verts": 1025,
+       "perOutfit": [
+        1218,
+        1248,
+        1170,
+        1200,
+        1232
+       ]
+      },
+      {
+       "mesh": "woman_b_2",
+       "tris": 256,
+       "verts": 308,
+       "perOutfit": [
+        226,
+        236,
+        228,
+        238,
+        236
+       ]
+      },
+      {
+       "mesh": "woman_b_3",
+       "tris": 81,
+       "verts": 123,
+       "perOutfit": [
+        70,
+        74,
+        73,
+        77,
+        74
+       ]
+      }
+     ]
+    },
+    "woman_c": {
+     "outfits": [
+      {
+       "name": "gown-coif",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-coif-apron",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-coif-hat",
+       "w": [
+        0.2,
+        0.2
+       ]
+      },
+      {
+       "name": "gown-coif-hat-apron",
+       "w": [
+        0.07,
+        0.07
+       ]
+      },
+      {
+       "name": "gown-coif-ruff",
+       "w": [
+        0.08,
+        0.08
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "woman_c_0",
+       "tris": 4072,
+       "verts": 2558,
+       "perOutfit": [
+        3827,
+        3888,
+        3844,
+        3905,
+        3863
+       ]
+      },
+      {
+       "mesh": "woman_c_1",
+       "tris": 1322,
+       "verts": 1031,
+       "perOutfit": [
+        1246,
+        1282,
+        1200,
+        1236,
+        1260
+       ]
+      },
+      {
+       "mesh": "woman_c_2",
+       "tris": 254,
+       "verts": 306,
+       "perOutfit": [
+        224,
+        234,
+        226,
+        236,
+        234
+       ]
+      },
+      {
+       "mesh": "woman_c_3",
+       "tris": 82,
+       "verts": 125,
+       "perOutfit": [
+        71,
+        75,
+        75,
+        79,
+        74
+       ]
+      }
+     ]
+    },
+    "tall": {
+     "outfits": [
+      {
+       "name": "doublet-cap",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat-ruff",
+       "w": [
+        0.1,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-cloak-hat",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "gown-cap",
+       "w": [
+        0.0,
+        0.45
+       ]
+      },
+      {
+       "name": "gown-hat",
+       "w": [
+        0.0,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-ruff",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "tall_0",
+       "tris": 5817,
+       "verts": 4055,
+       "perOutfit": [
+        3974,
+        3982,
+        3881,
+        3965,
+        4051,
+        4013,
+        4073,
+        4043
+       ]
+      },
+      {
+       "mesh": "tall_1",
+       "tris": 1753,
+       "verts": 1575,
+       "perOutfit": [
+        1113,
+        1160,
+        1149,
+        1160,
+        1201,
+        1201,
+        1248,
+        1197
+       ]
+      },
+      {
+       "mesh": "tall_2",
+       "tris": 360,
+       "verts": 491,
+       "perOutfit": [
+        278,
+        278,
+        272,
+        288,
+        249,
+        222,
+        222,
+        228
+       ]
+      },
+      {
+       "mesh": "tall_3",
+       "tris": 115,
+       "verts": 237,
+       "perOutfit": [
+        90,
+        90,
+        86,
+        94,
+        84,
+        76,
+        76,
+        80
+       ]
+      }
+     ]
+    },
+    "stout_m": {
+     "outfits": [
+      {
+       "name": "doublet-cap",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat-ruff",
+       "w": [
+        0.1,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-cloak-hat",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "gown-cap",
+       "w": [
+        0.0,
+        0.45
+       ]
+      },
+      {
+       "name": "gown-hat",
+       "w": [
+        0.0,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-ruff",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_m_0",
+       "tris": 5569,
+       "verts": 3898,
+       "perOutfit": [
+        3828,
+        3847,
+        3746,
+        3831,
+        3889,
+        3865,
+        3916,
+        3865
+       ]
+      },
+      {
+       "mesh": "stout_m_1",
+       "tris": 1728,
+       "verts": 1552,
+       "perOutfit": [
+        1109,
+        1152,
+        1147,
+        1157,
+        1197,
+        1189,
+        1232,
+        1192
+       ]
+      },
+      {
+       "mesh": "stout_m_2",
+       "tris": 363,
+       "verts": 503,
+       "perOutfit": [
+        277,
+        280,
+        272,
+        290,
+        250,
+        221,
+        224,
+        231
+       ]
+      },
+      {
+       "mesh": "stout_m_3",
+       "tris": 115,
+       "verts": 217,
+       "perOutfit": [
+        91,
+        91,
+        88,
+        94,
+        84,
+        70,
+        70,
+        73
+       ]
+      }
+     ]
+    },
+    "stout_f": {
+     "outfits": [
+      {
+       "name": "gown-coif",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-coif-apron",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-coif-hat",
+       "w": [
+        0.2,
+        0.2
+       ]
+      },
+      {
+       "name": "gown-coif-hat-apron",
+       "w": [
+        0.07,
+        0.07
+       ]
+      },
+      {
+       "name": "gown-coif-ruff",
+       "w": [
+        0.08,
+        0.08
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_f_0",
+       "tris": 4123,
+       "verts": 2610,
+       "perOutfit": [
+        3873,
+        3935,
+        3889,
+        3951,
+        3907
+       ]
+      },
+      {
+       "mesh": "stout_f_1",
+       "tris": 1318,
+       "verts": 1045,
+       "perOutfit": [
+        1241,
+        1275,
+        1195,
+        1229,
+        1254
+       ]
+      },
+      {
+       "mesh": "stout_f_2",
+       "tris": 248,
+       "verts": 302,
+       "perOutfit": [
+        219,
+        229,
+        221,
+        231,
+        228
+       ]
+      },
+      {
+       "mesh": "stout_f_3",
+       "tris": 83,
+       "verts": 136,
+       "perOutfit": [
+        71,
+        75,
+        75,
+        79,
+        75
+       ]
+      }
+     ]
+    },
+    "boy": {
+     "outfits": [
+      {
+       "name": "doublet",
+       "w": [
+        0.5,
+        0.5
+       ]
+      },
+      {
+       "name": "doublet-cap",
+       "w": [
+        0.5,
+        0.5
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "boy_0",
+       "tris": 3487,
+       "verts": 2201,
+       "perOutfit": [
+        3439,
+        3422
+       ]
+      },
+      {
+       "mesh": "boy_1",
+       "tris": 1156,
+       "verts": 946,
+       "perOutfit": [
+        1142,
+        1100
+       ]
+      },
+      {
+       "mesh": "boy_2",
+       "tris": 281,
+       "verts": 325,
+       "perOutfit": [
+        272,
+        277
+       ]
+      },
+      {
+       "mesh": "boy_3",
+       "tris": 91,
+       "verts": 147,
+       "perOutfit": [
+        88,
+        91
+       ]
+      }
+     ]
+    },
+    "girl": {
+     "outfits": [
+      {
+       "name": "gown-coif",
+       "w": [
+        0.6,
+        0.6
+       ]
+      },
+      {
+       "name": "gown-coif-apron",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "girl_0",
+       "tris": 3417,
+       "verts": 2129,
+       "perOutfit": [
+        3340,
+        3386
+       ]
+      },
+      {
+       "mesh": "girl_1",
+       "tris": 1149,
+       "verts": 873,
+       "perOutfit": [
+        1125,
+        1149
+       ]
+      },
+      {
+       "mesh": "girl_2",
+       "tris": 208,
+       "verts": 248,
+       "perOutfit": [
+        198,
+        208
+       ]
+      },
+      {
+       "mesh": "girl_3",
+       "tris": 79,
+       "verts": 121,
+       "perOutfit": [
+        75,
+        79
+       ]
+      }
+     ]
+    },
+    "old_m": {
+     "outfits": [
+      {
+       "name": "doublet-cap",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat",
+       "w": [
+        0.25,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-hat-ruff",
+       "w": [
+        0.1,
+        0.0
+       ]
+      },
+      {
+       "name": "doublet-cloak-hat",
+       "w": [
+        0.2,
+        0.0
+       ]
+      },
+      {
+       "name": "gown-cap",
+       "w": [
+        0.0,
+        0.45
+       ]
+      },
+      {
+       "name": "gown-hat",
+       "w": [
+        0.0,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-ruff",
+       "w": [
+        0.0,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_m_0",
+       "tris": 5336,
+       "verts": 3737,
+       "perOutfit": [
+        3721,
+        3753,
+        3652,
+        3724,
+        3799,
+        3763,
+        3829,
+        3757
+       ]
+      },
+      {
+       "mesh": "old_m_1",
+       "tris": 1717,
+       "verts": 1613,
+       "perOutfit": [
+        1105,
+        1148,
+        1148,
+        1143,
+        1186,
+        1188,
+        1231,
+        1179
+       ]
+      },
+      {
+       "mesh": "old_m_2",
+       "tris": 353,
+       "verts": 494,
+       "perOutfit": [
+        277,
+        282,
+        272,
+        292,
+        252,
+        208,
+        213,
+        216
+       ]
+      },
+      {
+       "mesh": "old_m_3",
+       "tris": 108,
+       "verts": 208,
+       "perOutfit": [
+        92,
+        92,
+        88,
+        95,
+        87,
+        67,
+        67,
+        70
+       ]
+      }
+     ]
+    },
+    "old_f": {
+     "outfits": [
+      {
+       "name": "gown-coif",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "gown-coif-apron",
+       "w": [
+        0.3,
+        0.3
+       ]
+      },
+      {
+       "name": "gown-coif-hat",
+       "w": [
+        0.2,
+        0.2
+       ]
+      },
+      {
+       "name": "gown-coif-hat-apron",
+       "w": [
+        0.07,
+        0.07
+       ]
+      },
+      {
+       "name": "gown-coif-ruff",
+       "w": [
+        0.08,
+        0.08
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "old_f_0",
+       "tris": 4020,
+       "verts": 2519,
+       "perOutfit": [
+        3788,
+        3850,
+        3819,
+        3881,
+        3825
+       ]
+      },
+      {
+       "mesh": "old_f_1",
+       "tris": 1303,
+       "verts": 1042,
+       "perOutfit": [
+        1232,
+        1260,
+        1182,
+        1210,
+        1245
+       ]
+      },
+      {
+       "mesh": "old_f_2",
+       "tris": 251,
+       "verts": 295,
+       "perOutfit": [
+        223,
+        233,
+        226,
+        236,
+        232
+       ]
+      },
+      {
+       "mesh": "old_f_3",
+       "tris": 79,
+       "verts": 138,
+       "perOutfit": [
+        69,
+        73,
+        72,
+        76,
+        72
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "barnet1471": {
+   "file": "barnet1471.glb",
+   "bodies": {
+    "man_a": {
+     "outfits": [
+      {
+       "name": "jack-sallet",
+       "w": [
+        0.8,
+        0.8
+       ]
+      },
+      {
+       "name": "jack-hood",
+       "w": [
+        0.2,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_a_0",
+       "tris": 3923,
+       "verts": 2599,
+       "perOutfit": [
+        3783,
+        3510
+       ]
+      },
+      {
+       "mesh": "man_a_1",
+       "tris": 1277,
+       "verts": 1061,
+       "perOutfit": [
+        1015,
+        1147
+       ]
+      },
+      {
+       "mesh": "man_a_2",
+       "tris": 276,
+       "verts": 316,
+       "perOutfit": [
+        254,
+        254
+       ]
+      },
+      {
+       "mesh": "man_a_3",
+       "tris": 99,
+       "verts": 171,
+       "perOutfit": [
+        94,
+        90
+       ]
+      }
+     ]
+    },
+    "man_b": {
+     "outfits": [
+      {
+       "name": "jack-sallet",
+       "w": [
+        0.8,
+        0.8
+       ]
+      },
+      {
+       "name": "jack-hood",
+       "w": [
+        0.2,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_b_0",
+       "tris": 3881,
+       "verts": 2580,
+       "perOutfit": [
+        3744,
+        3454
+       ]
+      },
+      {
+       "mesh": "man_b_1",
+       "tris": 1281,
+       "verts": 1050,
+       "perOutfit": [
+        1011,
+        1146
+       ]
+      },
+      {
+       "mesh": "man_b_2",
+       "tris": 285,
+       "verts": 331,
+       "perOutfit": [
+        259,
+        259
+       ]
+      },
+      {
+       "mesh": "man_b_3",
+       "tris": 102,
+       "verts": 156,
+       "perOutfit": [
+        95,
+        91
+       ]
+      }
+     ]
+    },
+    "man_c": {
+     "outfits": [
+      {
+       "name": "jack-sallet",
+       "w": [
+        0.8,
+        0.8
+       ]
+      },
+      {
+       "name": "jack-hood",
+       "w": [
+        0.2,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_c_0",
+       "tris": 3854,
+       "verts": 2601,
+       "perOutfit": [
+        3724,
+        3428
+       ]
+      },
+      {
+       "mesh": "man_c_1",
+       "tris": 1281,
+       "verts": 1054,
+       "perOutfit": [
+        1001,
+        1140
+       ]
+      },
+      {
+       "mesh": "man_c_2",
+       "tris": 284,
+       "verts": 322,
+       "perOutfit": [
+        260,
+        261
+       ]
+      },
+      {
+       "mesh": "man_c_3",
+       "tris": 99,
+       "verts": 149,
+       "perOutfit": [
+        92,
+        88
+       ]
+      }
+     ]
+    },
+    "tall": {
+     "outfits": [
+      {
+       "name": "jack-sallet",
+       "w": [
+        0.8,
+        0.8
+       ]
+      },
+      {
+       "name": "jack-hood",
+       "w": [
+        0.2,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "tall_0",
+       "tris": 3989,
+       "verts": 2644,
+       "perOutfit": [
+        3842,
+        3579
+       ]
+      },
+      {
+       "mesh": "tall_1",
+       "tris": 1277,
+       "verts": 1060,
+       "perOutfit": [
+        999,
+        1144
+       ]
+      },
+      {
+       "mesh": "tall_2",
+       "tris": 295,
+       "verts": 344,
+       "perOutfit": [
+        269,
+        264
+       ]
+      },
+      {
+       "mesh": "tall_3",
+       "tris": 96,
+       "verts": 150,
+       "perOutfit": [
+        90,
+        88
+       ]
+      }
+     ]
+    },
+    "stout_m": {
+     "outfits": [
+      {
+       "name": "jack-sallet",
+       "w": [
+        0.8,
+        0.8
+       ]
+      },
+      {
+       "name": "jack-hood",
+       "w": [
+        0.2,
+        0.2
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_m_0",
+       "tris": 3893,
+       "verts": 2613,
+       "perOutfit": [
+        3753,
+        3475
+       ]
+      },
+      {
+       "mesh": "stout_m_1",
+       "tris": 1291,
+       "verts": 1059,
+       "perOutfit": [
+        1000,
+        1136
+       ]
+      },
+      {
+       "mesh": "stout_m_2",
+       "tris": 288,
+       "verts": 328,
+       "perOutfit": [
+        264,
+        260
+       ]
+      },
+      {
+       "mesh": "stout_m_3",
+       "tris": 96,
+       "verts": 162,
+       "perOutfit": [
+        93,
+        90
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "brentford1016": {
+   "file": "brentford1016.glb",
+   "bodies": {
+    "man_a": {
+     "outfits": [
+      {
+       "name": "tunic-helmet",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_a_0",
+       "tris": 4109,
+       "verts": 2694,
+       "perOutfit": [
+        4032,
+        4044,
+        4030
+       ]
+      },
+      {
+       "mesh": "man_a_1",
+       "tris": 1220,
+       "verts": 1054,
+       "perOutfit": [
+        1126,
+        1139,
+        1193
+       ]
+      },
+      {
+       "mesh": "man_a_2",
+       "tris": 276,
+       "verts": 341,
+       "perOutfit": [
+        260,
+        261,
+        257
+       ]
+      },
+      {
+       "mesh": "man_a_3",
+       "tris": 93,
+       "verts": 151,
+       "perOutfit": [
+        89,
+        89,
+        85
+       ]
+      }
+     ]
+    },
+    "man_b": {
+     "outfits": [
+      {
+       "name": "tunic-helmet",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_b_0",
+       "tris": 4073,
+       "verts": 2676,
+       "perOutfit": [
+        4000,
+        4011,
+        3994
+       ]
+      },
+      {
+       "mesh": "man_b_1",
+       "tris": 1210,
+       "verts": 1040,
+       "perOutfit": [
+        1119,
+        1132,
+        1183
+       ]
+      },
+      {
+       "mesh": "man_b_2",
+       "tris": 275,
+       "verts": 342,
+       "perOutfit": [
+        257,
+        260,
+        256
+       ]
+      },
+      {
+       "mesh": "man_b_3",
+       "tris": 94,
+       "verts": 148,
+       "perOutfit": [
+        90,
+        90,
+        86
+       ]
+      }
+     ]
+    },
+    "man_c": {
+     "outfits": [
+      {
+       "name": "tunic-helmet",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "man_c_0",
+       "tris": 4057,
+       "verts": 2678,
+       "perOutfit": [
+        3983,
+        3994,
+        3978
+       ]
+      },
+      {
+       "mesh": "man_c_1",
+       "tris": 1218,
+       "verts": 1056,
+       "perOutfit": [
+        1122,
+        1132,
+        1190
+       ]
+      },
+      {
+       "mesh": "man_c_2",
+       "tris": 285,
+       "verts": 365,
+       "perOutfit": [
+        265,
+        269,
+        265
+       ]
+      },
+      {
+       "mesh": "man_c_3",
+       "tris": 93,
+       "verts": 153,
+       "perOutfit": [
+        90,
+        89,
+        86
+       ]
+      }
+     ]
+    },
+    "tall": {
+     "outfits": [
+      {
+       "name": "tunic-helmet",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "tall_0",
+       "tris": 4208,
+       "verts": 2746,
+       "perOutfit": [
+        4125,
+        4127,
+        4128
+       ]
+      },
+      {
+       "mesh": "tall_1",
+       "tris": 1224,
+       "verts": 1043,
+       "perOutfit": [
+        1128,
+        1145,
+        1197
+       ]
+      },
+      {
+       "mesh": "tall_2",
+       "tris": 281,
+       "verts": 344,
+       "perOutfit": [
+        264,
+        268,
+        262
+       ]
+      },
+      {
+       "mesh": "tall_3",
+       "tris": 95,
+       "verts": 156,
+       "perOutfit": [
+        92,
+        91,
+        88
+       ]
+      }
+     ]
+    },
+    "stout_m": {
+     "outfits": [
+      {
+       "name": "tunic-helmet",
+       "w": [
+        0.35,
+        0.35
+       ]
+      },
+      {
+       "name": "tunic-cap",
+       "w": [
+        0.25,
+        0.25
+       ]
+      },
+      {
+       "name": "tunic",
+       "w": [
+        0.4,
+        0.4
+       ]
+      }
+     ],
+     "lods": [
+      {
+       "mesh": "stout_m_0",
+       "tris": 4111,
+       "verts": 2706,
+       "perOutfit": [
+        4036,
+        4050,
+        4033
+       ]
+      },
+      {
+       "mesh": "stout_m_1",
+       "tris": 1213,
+       "verts": 1054,
+       "perOutfit": [
+        1119,
+        1129,
+        1185
+       ]
+      },
+      {
+       "mesh": "stout_m_2",
+       "tris": 283,
+       "verts": 351,
+       "perOutfit": [
+        265,
+        270,
+        264
+       ]
+      },
+      {
+       "mesh": "stout_m_3",
+       "tris": 99,
+       "verts": 165,
+       "perOutfit": [
+        95,
+        95,
+        91
+       ]
+      }
+     ]
+    }
+   }
+  }
+ },
+ "periods": [
+  {
+   "set": "prehistoric",
+   "from": -10000,
+   "to": -800
+  },
+  {
+   "set": "roman",
+   "from": -800,
+   "to": 450
+  },
+  {
+   "set": "saxon",
+   "from": 450,
+   "to": 1066
+  },
+  {
+   "set": "medieval",
+   "from": 1066,
+   "to": 1485
+  },
+  {
+   "set": "tudor",
+   "from": 1485,
+   "to": 10000
+  }
+ ]
+}

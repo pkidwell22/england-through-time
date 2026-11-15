@@ -344,3 +344,47 @@ groups passed on retry, as before); Stonehenge 277/277; national 279/279; placem
 - `tests/street-shots.mjs` and `tests/look-shots.mjs` move the walk camera about 70 m on their second pass.
 
 Screenshots: `docs/screenshots/realism/{houses,trees,aerial}/` (before, after, and paired sheets for houses).
+
+## Realism round 2: crowd figures (2026-11-15)
+
+The block people are replaced by instanced MakeHuman (MPFB, CC0) bodies in generic period dress with baked animation;
+pipeline, budgets and every costume judgement call are in [docs/FIGURES.md](FIGURES.md). Placement, counts, routes,
+lifecycles and the battle staging are untouched (world.ts only had its mesh type widened and an `invalidate()` added;
+the troops builder now also records each figure's place). `?figures=blocks` keeps the old figures.
+
+- 13 bodies, 7 garment sets (five periods, Brentford 1016 and Barnet 1471 soldiers), 4 levels of detail, 7 baked clips
+  (stand, slow and brisk walk, idle, talk, seated, attention) in one float16 3D texture; `public/assets/figures/` about
+  15 MB, one set (2.2-2.6 MB) loaded per period, after the scene is ready.
+- Walk phase from distance walked plus v0 x time, stride `Sf * v / (v + v0)`, clip blend chosen to give that stride: no
+  foot sliding by construction.
+- Figures cast cascaded shadows (levels 0-1; new layer 4 is drawn by the main camera and the sun's shadow cameras but
+  not by the water's mirror) and take aerial perspective, mist and cloud shadows like any MeshStandardMaterial.
+- A figure fading in or out with its zone's activity is drawn at full size from the same presence threshold as before
+  (0.02, so the same people are drawn) instead of being scaled down; the faintest (presence under 0.3) dissolve in.
+- Skin values are weighted towards the lighter end (see FIGURES.md); the old even spread read wrongly on faces.
+- The populace places no people at Stonehenge in any year (the Durrington village style has no street life in the
+  populace code), so 2400 BCE shows no figures before or after; the prehistoric set appears only in London's Late
+  Bronze Age farmsteads.
+
+**Measured** (`node tests/ab-url.mjs <dpr> ...`, High, best of 3 rounds, ms per frame; load average 6-8 from other work
+on the machine, run-to-run spread 1-2 ms):
+
+| view | dpr | blocks | figures | run |
+|---|---|---|---|---|
+| London 1616 bridgehead | 1 | 18.2 / 17.06 | 18.42 / 18.31 | two runs |
+| London 1616 bridgehead | 2 | 17.13 / 25.3 | 17.54 / 25.4 | two runs |
+| Barnet 1471 default | 1 | 9.58 / 8.49 | 9.47 / 8.52 | two runs |
+| Barnet 1471 default | 2 | 9.89 / 16.03 | 11.75 / 16.27 | two runs (first noisy: blocks 9.9-12.5) |
+
+So +0.0 to +1.3 ms at the bridgehead and +0.0 to +0.3 ms at Barnet (one noisy outlier). Load (`node tests/figure-load.mjs`,
+medians): first frame London 4645 ms blocks / 4664 ms figures, Barnet 1032 / 1017 ms; the figure files load after the
+scene is ready and replace the blocks about 2.8 s later. Before the extra far level the Barnet battle cost +3.3 ms
+(12,000 soldiers at about 280 triangles); level 3 and the still pose for distant formations brought it back.
+
+Tests: unit 303/303 (6 new in `tests/unit/figures.test.ts`), `tsc` clean. Photo mode converges with figures captured
+(7,896 instances kept at the Fish Street Hill eye view); a shader compile error about `worldPosition` in the tree impostor's
+photo-capture variant appears with and without figures (pre-existing). Screenshots: `docs/screenshots/realism/figures/`.
+
+**Still wrong:** see FIGURES.md. In short: mannequin faces and plastic shading close up, rigid garments without cloth
+motion, LOD pops, jagged painted hems beyond 12 m, no figures at Stonehenge (none placed by the populace), animals and
+boat crews unchanged.

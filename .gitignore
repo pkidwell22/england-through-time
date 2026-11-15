@@ -25,3 +25,4 @@ research/astra/.cache/
 research/astra/LAST-MESSAGE-factkeeper.md
 research/stonehenge/geo-work/fp.txt
 research/stonehenge/stones-check/stonesofstonehenge-posts.txt
+__pycache__/

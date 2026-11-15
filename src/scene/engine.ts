@@ -206,6 +206,8 @@ export class Engine {
     this.camera = new THREE.PerspectiveCamera(42, 1, 2, 30000);
     // layer 3: drawn by the main camera, left out of the water's mirror (small detail)
     this.camera.layers.enable(3);
+    // layer 4: as layer 3, but also drawn into the sun's shadow maps (the crowd figures, pop/figures.ts)
+    this.camera.layers.enable(4);
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
     this.controls.enableDamping = true;
     this.controls.dampingFactor = 0.08;

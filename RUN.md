@@ -34,7 +34,7 @@ Restart: stop the server with Ctrl-C in its terminal and run `npm run dev` again
 · `?year=1616` or `?year=55%20BCE` · `&view=overview|city|westminster|bridge|bridge-low|bridgehead`
 · `&quality=low|medium|high|cinematic` · `&look=clear|golden|overcast|dawn`
 · `&photo=1` (open path-traced photo mode) · `&ui=0` (hide interface) · `&labels=0` · `&evidence=1`
-· `&placement=legacy` (the pre-audit placement, for comparison)
+· `&placement=legacy` (the pre-audit placement, for comparison) · `&figures=blocks` (the old block people, for comparison)
 · `&res=fixed` (always draw at the quality tier's full resolution) or `&res=auto` (see below)
 · `&event=boudica-60|london-bridge-1014|brentford-1016|barnet-1471`
 
@@ -64,6 +64,8 @@ node tests/sites-e2e.mjs         # Brentford and Barnet
 node tests/stonehenge-e2e.mjs    # Stonehenge
 node tests/national-check.mjs    # national data checks
 node tests/national-e2e.mjs      # national map in the browser
+node scripts/national/redesign-shots.mjs <label>   # national map design review views into docs/screenshots/national-redesign/<label>/
+research/venv/bin/python -I scripts/national/build-surface.py research/raw-terrain   # rebuild relief.jpg, surface.png, water.png (national shading)
 python3 tests/db_check.py        # database integrity
 python3 scripts/db/build.py      # rebuild data/db/history.sqlite from the JSON data
 ```
@@ -82,4 +84,7 @@ node tests/perf.mjs                                    # frame-time table for ev
 node tests/profile-load.mjs stonehenge "2400 BCE" high # where a site's load time goes
 node tests/profile-frame.mjs london 1616 high overview 2   # one frame split into script time and GPU wait (last number = device pixel ratio)
 node tests/res-auto.mjs                                # automatic resolution settles, and stays off when it should
+node tests/figure-load.mjs 4                           # load time with and without the crowd figures
+node tests/figure-shots.mjs both                       # crowd figures before/after (eye level, wide, Barnet 1471)
+node scripts/build-figures.mjs                         # regenerate the crowd figures (Blender + MPFB; see docs/FIGURES.md)
 ```
