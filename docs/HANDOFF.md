@@ -2,7 +2,8 @@
 
 You are taking over an existing project from another agent. The owner, Patrick, is busy with other work this
 week, so plan to work independently and report at the end of each piece of work rather than asking as you go.
-Development is moving from a Mac to a Windows gaming PC; nothing has been run on Windows yet.
+You will work on the same Mac the project was built on, in the existing checkout (the owner will tell you
+where it is). Nothing has been run on Windows.
 
 ## What it is
 
@@ -37,14 +38,14 @@ These came from the original brief and still apply.
     directory paths, email addresses, names of unrelated projects, secrets, and copied third-party pages
     or PDFs. Commits must use the GitHub no-reply address already on the existing commits, not a real one.
 
-## First job: get it running and verified on the PC
+## First job: finish verifying the last two commits
 
-1. Clone, `npm install`, check port 4310 is free, `npm run dev`. `RUN.md` uses `lsof` for the port check;
-   on Windows use `netstat -ano | findstr :4310` or `Get-NetTCPConnection`.
-2. The browser test scripts in `tests/` and `scripts/national/` launch system Chrome through
-   `playwright-core` with `--use-angle=metal`, which is Mac-only. Search for that flag and make it depend
-   on the platform (for example `d3d11` on Windows). Check the Chrome executable path the scripts use too.
-3. Run everything and record the results in `docs/RECORD.md` as a new Windows baseline:
+1. In the existing checkout, confirm `git status` is clean and `main` matches `origin/main`. Dependencies
+   are already installed. No server is running: check port 4310 is free
+   (`lsof -iTCP:4310 -sTCP:LISTEN -P -n`), then `npm run dev`.
+2. The browser test scripts launch system Chrome through `playwright-core` with `--use-angle=metal`. That
+   works on this Mac; it is Mac-only, so leave a note rather than a fix unless asked to port it.
+3. Run everything and record the results in `docs/RECORD.md`:
    - `npx tsc --noEmit`
    - `npm test` (unit; 303 passed at the last run)
    - `node tests/e2e.mjs` (London; 155/155)
@@ -54,9 +55,9 @@ These came from the original brief and still apply.
    - `node tests/placement-audit.mjs` (0 hard defects before the figures change)
    - `node tests/res-auto.mjs`
    - `node tests/perf.mjs`
-4. Frame times measured on the Mac will not compare with the PC. Take a fresh table and treat it as the
-   new baseline. On the Mac many readings sat at exactly 8.3 ms, which was the 120 Hz display cap, not
-   the true cost; watch for the same effect at the PC's refresh rate.
+4. Compare frame times with `tests/perf-results.json` and the tables in `docs/RECORD.md`. Many readings
+   sit at exactly 8.3 ms, which is the 120 Hz display cap, not the true cost; do not read those as
+   improvements. Check the machine's load before trusting a timing run.
 
 ### What was not tested
 
@@ -71,11 +72,11 @@ first attempt and passes on the built-in retry. That predates the recent work an
 
 ### What is not in the repository
 
-Derived assets under `public/assets/` are committed, so the app runs from a clone. These stayed on the
-Mac and are ignored by git: raw LIDAR and terrain downloads, the gazetteer download, the Python venv
-under `research/`, screenshots, and fetched research evidence. Scripts that rebuild assets from raw data
-will need those downloaded again. Rebuilding the figures (`scripts/build-figures.mjs`) needs Blender 5.3
-with the MPFB extension; you do not need either just to run the app.
+Derived assets under `public/assets/` are committed, so the app runs from a clone. These exist only in
+the existing checkout and are ignored by git: raw LIDAR and terrain downloads, the gazetteer download,
+the Python venv under `research/`, screenshots, and fetched research evidence. Do not delete them or run
+`git clean -x`; a fresh clone would not have them. Blender 5.3 with the MPFB extension is already
+installed for rebuilding the figures (`scripts/build-figures.mjs`).
 
 ## Known faults, roughly worst first
 
